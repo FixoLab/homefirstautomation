@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Feature3 = () => {
   return (
@@ -15,33 +16,33 @@ const Feature3 = () => {
 
         <div className="is-layout-flex wp-container-25 wp-block-columns iconsbox">
           <div className="is-layout-flow wp-block-column">
-            <a href="https://www.projectautomate.com/smart-security/">
+            <Link to="#">
               <i className="fas fa-lock"></i>
               <p> Smart Security</p>
-            </a>
+            </Link>
           </div>
 
           <div className="is-layout-flow wp-block-column">
-            <a href="https://www.projectautomate.com/wifi-networking-services/">
+            <Link to="#">
               <i className="fas fa-wifi"></i>
               <p>Wi-Fi / Networking</p>
-            </a>
+            </Link>
           </div>
         </div>
 
         <div className="is-layout-flex wp-container-28 wp-block-columns iconsbox">
           <div className="is-layout-flow wp-block-column">
-            <a href="https://www.projectautomate.com/audio-systems/">
+            <Link to="#">
               <i className="fas fa-volume-up"></i>
               <p>High Performance Audio</p>
-            </a>
+            </Link>
           </div>
 
           <div className="is-layout-flow wp-block-column">
-            <a href="https://www.projectautomate.com/commercial-services/">
+            <Link to="#">
               <i className="far fa-building"></i>
               <p>Commercial Integration</p>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

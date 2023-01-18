@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Feature = () => {
   return (
@@ -10,10 +11,8 @@ const Feature = () => {
         <h2>Smart System Technology</h2>
 
         <p className="minigray">
-          PROJECT: automate is a trusted{" "}
-          <a href="https://www.projectautomate.com/about-us/">
-            home automation company
-          </a>{" "}
+          PROJECT: automate is a trusted
+          <Link to="/about">home automation company</Link>
           in Los Angeles that provides cutting-edge smart home and security
           solutions. What’s more? We provide everything in between with
           exclusive offerings of services from high-end sophisticated home
@@ -23,33 +22,33 @@ const Feature = () => {
 
         <div className="is-layout-flex wp-container-7 wp-block-columns iconsbox">
           <div className="is-layout-flow wp-block-column">
-            <a href="https://www.projectautomate.com/smart-home-automation/">
+            <Link to="#">
               <i className="fas fa-tablet"></i>
               <p> Smart Home Automation</p>
-            </a>
+            </Link>
           </div>
 
           <div className="is-layout-flow wp-block-column">
-            <a href="https://www.projectautomate.com/#">
+            <Link to="#">
               <i className="fas fa-video"></i>
               <p> Home Theater</p>
-            </a>
+            </Link>
           </div>
         </div>
 
         <div className="is-layout-flex wp-container-10 wp-block-columns iconsbox">
           <div className="is-layout-flow wp-block-column">
-            <a href="https://www.projectautomate.com/lighting-systems/">
+            <Link to="#">
               <i className="far fa-lightbulb"></i>
               <p>Lighting control</p>
-            </a>
+            </Link>
           </div>
 
           <div className="is-layout-flow wp-block-column">
-            <a href="https://www.projectautomate.com/audio-systems/">
+            <Link to="#">
               <i className="fas fa-music"></i>
               <p> Multi-Room Music</p>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
