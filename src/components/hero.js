@@ -68,7 +68,7 @@ const Hero = () => {
                   </div>
 
                   <p>
-                    <Link to="#">Learn More</Link>
+                    <a href="#3">Learn More</a>
                   </p>
                 </div>
               </div>
