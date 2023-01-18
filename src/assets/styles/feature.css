@@ -8,50 +8,6 @@
   text-align: center;
 }
 
-.wp-block-calendar {
-  text-align: center;
-}
-.wp-block-calendar tbody td,
-.wp-block-calendar th {
-  padding: 0.25em;
-  border: 1px solid #ddd;
-}
-.wp-block-calendar tfoot td {
-  border: none;
-}
-.wp-block-calendar table {
-  width: 100%;
-  border-collapse: collapse;
-}
-.wp-block-calendar table th {
-  font-weight: 400;
-  background: #ddd;
-}
-.wp-block-calendar a {
-  text-decoration: underline;
-}
-.wp-block-calendar table caption,
-.wp-block-calendar table tbody {
-  color: #40464d;
-}
-.wp-block-categories {
-  box-sizing: border-box;
-}
-.wp-block-categories.alignleft {
-  margin-right: 2em;
-}
-.wp-block-categories.alignright {
-  margin-left: 2em;
-}
-.wp-block-code {
-  box-sizing: border-box;
-}
-.wp-block-code code {
-  display: block;
-  font-family: inherit;
-  overflow-wrap: break-word;
-  white-space: pre-wrap;
-}
 .wp-block-columns {
   display: flex;
   margin-bottom: 1.75em;
