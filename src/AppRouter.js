@@ -27,7 +27,7 @@ const AppRouter = ({ children }) => {
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blogDetails/:blogId" element={<BlogDetails />} />
+          <Route path="/blog/:slug" element={<BlogDetails />} />
         </Routes>
         <Footer />
       </Suspense>
