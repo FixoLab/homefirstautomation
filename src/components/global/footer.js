@@ -200,10 +200,6 @@ const Footer = () => {
                               <div
                                 className="aps-each-icon icon-1-1"
                                 style={{ margin: "10px" }}
-                                data-aps-tooltip="facebook"
-                                data-aps-tooltip-enabled="1"
-                                data-aps-tooltip-bg="#000"
-                                data-aps-tooltip-color="#fff"
                               >
                                 <Link
                                   to="#"
@@ -211,10 +207,7 @@ const Footer = () => {
                                   className="aps-icon-link animated aps-tooltip"
                                   rel="noopener"
                                 >
-                                  <img
-                                    src="images/facebook.png"
-                                    alt="facebook"
-                                  />
+                                  <i class="fa-brands fa-facebook-f"></i>
                                 </Link>
                               </div>
 
@@ -232,10 +225,7 @@ const Footer = () => {
                                   className="aps-icon-link animated aps-tooltip"
                                   rel="noopener"
                                 >
-                                  <img
-                                    src="images/linkedin.png"
-                                    alt="linkedin"
-                                  />
+                                  <i class="fa-brands fa-linkedin-in"></i>
                                 </Link>
                               </div>
                             </div>
