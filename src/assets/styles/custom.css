@@ -273,10 +273,7 @@ body.custom-background {
 :where(.wp-block-columns.is-layout-flex) {
   gap: 2em;
 }
-.wp-block-pullquote {
-  font-size: 1.5em;
-  line-height: 1.6;
-}
+
 .wpcf7 .wpcf7-recaptcha iframe {
   margin-bottom: 0;
 }
@@ -337,13 +334,11 @@ figcaption,
 .wp-caption-text,
 .post-meta,
 .entry-content .wp-block-archives li,
-.entry-content .wp-block-categories li,
 .entry-content .wp-block-latest-posts li,
 .wp-block-latest-comments__comment-date,
 .wp-block-latest-posts__post-date,
 .wp-block-embed figcaption,
 .wp-block-image figcaption,
-.wp-block-pullquote cite,
 .comment-metadata,
 .comment-respond .comment-notes,
 .comment-respond .logged-in-as,
@@ -370,13 +365,10 @@ code,
 code,
 kbd,
 samp,
-.wp-block-table.is-style-stripes tbody tr:nth-child(odd),
 :root .has-subtle-background-background-color {
   background-color: #dcd7ca;
 }
-.wp-block-table.is-style-stripes {
-  border-bottom-color: #dcd7ca;
-}
+
 .wp-block-latest-posts.is-grid li {
   border-top-color: #dcd7ca;
 }
@@ -389,7 +381,6 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 .footer-menu a,
 .footer-widgets a,
 #site-footer .wp-block-button.is-style-outline,
-.wp-block-pullquote:before,
 .singular:not(.overlay-header) .entry-header a,
 .archive-header a,
 .header-footer-group .color-accent,
@@ -552,7 +543,6 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 .footer-menu a,
 .footer-widgets a,
 #site-footer .wp-block-button.is-style-outline,
-.wp-block-pullquote::before,
 .singular:not(.overlay-header) .entry-header a,
 .archive-header a,
 .header-footer-group .color-accent,
@@ -881,26 +871,6 @@ li.menu-item-3288 .fas {
   max-width: 100% !important;
   width: 100% !important;
 }
-.serviceswhitebackground {
-  margin: 0px !important;
-  padding: 90px 30px 60px !important;
-  background: #fafafa;
-  background-image: none;
-  background-image: url("../../../public/images/whitebackground.png");
-  width: 100% !important;
-  max-width: 100% !important;
-  overflow: hidden;
-  position: relative;
-}
-.serviceswhitebackground p {
-  max-width: 900px !important;
-  width: 100% !important;
-  color: #666;
-  font-size: 16px;
-  font-weight: 300;
-  margin: 0px auto !important;
-  padding: 0px 30px 30px !important;
-}
 .servicesimages .wp-block-image {
   margin: 0px !important;
   width: 100%;
@@ -948,20 +918,6 @@ li.menu-item-3288 .fas {
   width: 60px;
   height: 20px;
   border-bottom: 5px solid #007ca1;
-}
-.servicesdualcontainer .serviceswhitebackground h2 {
-  float: none;
-  margin: 0px auto 30px !important;
-}
-.servicesdualcontainer .serviceswhitebackground h2::after {
-  margin: 0px auto;
-}
-.serviceswhitebackground p.pointsmade {
-  text-align: center;
-}
-.serviceswhitebackground p a {
-  color: #666 !important;
-  text-decoration: underline;
 }
 .servicesdualcontainer.reversetheflex {
   flex-direction: row-reverse;
@@ -1322,12 +1278,6 @@ li.menu-item-3288 .fas {
 .blog #site-header {
   background: #fff !important;
 }
-.blog .serviceswhitebackground {
-  padding: 0px !important;
-}
-.blog .serviceswhitebackground p {
-  padding: 0px !important;
-}
 .blog svg,
 .blog img,
 .blog embed,
@@ -1343,17 +1293,6 @@ li.menu-item-3288 .fas {
 }
 
 /*BLOG POSTS*/
-.single-post.singular .entry-header {
-  display: block;
-  position: absolute;
-  z-index: 1;
-  background: transparent;
-  margin: 0px auto;
-  text-align: center;
-  width: 100%;
-  padding: 0px;
-  top: 65vh;
-}
 .single-post.singular .post-inner .entry-content {
   clear: both;
   text-align: left;
@@ -1508,11 +1447,7 @@ a:visited {
 .servicesimages.wp-block-column.homeprojectdisplay {
   display: block;
 }
-.servicesimages.wp-block-column.homeprojectdisplay
-  .serviceswhitebackground
-  p.pointsmade {
-  padding-bottom: 30px !important;
-}
+
 
 /*BRANDS PAGE */
 .brandscolumn {
@@ -1554,34 +1489,6 @@ a:visited {
   padding: 0px;
   margin: 0px;
 }
-.headerbrand.serviceswhitebackground p {
-  padding-bottom: 0px !important;
-}
-.headerbrand.serviceswhitebackground {
-  padding-bottom: 0px !important;
-}
-.makeitclear {
-  opacity: 0;
-}
-.serviceswhitebackground .brandscolumn p.learnmorebutton {
-  text-align: center;
-  background: #f1f1f1;
-  border-radius: 0px 0px 10px 10px;
-  padding: 0px !important;
-  position: absolute;
-  bottom: 0px;
-}
-.serviceswhitebackground .brandscolumn p.learnmorebutton:hover {
-  background: #e1e1e1;
-}
-.serviceswhitebackground .brandscolumn p.learnmorebutton a {
-  text-decoration: none;
-  font-weight: 300;
-  color: #333 !important;
-  width: 100%;
-  display: block;
-  padding: 20px 30px !important;
-}
 
 /* SERVICE PLANS PAGE */
 
@@ -1597,105 +1504,11 @@ a:visited {
 .page-id-2963 .fullimagetop {
   height: 60vh;
 }
-.serviceswhitebackground.serviceplans {
-  padding-bottom: 0px !important;
-}
-.serviceswhitebackground.serviceplans ul {
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-top: 0px;
-  list-style: none;
-}
-.serviceswhitebackground.serviceplans li {
-  max-width: 900px !important;
-  width: 100% !important;
-  color: #666;
-  font-size: 16px;
-  font-weight: 300;
-  margin: 0px auto !important;
-  padding: 0px !important;
-  list-style-position: inside;
-  min-height: 75px;
-}
-.serviceswhitebackground.serviceplans li:first-child {
-  text-align: center;
-}
-.serviceswhitebackground.serviceplans li:nth-child(odd) {
-  background: #eee;
-}
-.serviceswhitebackground.serviceplans li span {
-  padding-left: 0px;
-}
-.serviceswhitebackground.serviceplans li::marker {
-  color: #aaa;
-}
-.serviceswhitebackground.serviceplans li:hover {
-  cursor: pointer;
-}
-.serviceswhitebackground.serviceplans h5 {
-  font-family: Roboto !important;
-  font-size: 24px;
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  color: #007ca1;
-  margin: 30px 0px 30px !important;
-  text-align: center;
-}
-.serviceswhitebackground.serviceplans
-  .brandscolumn
-  .wp-block-column.goldplan
-  h5 {
-  margin-bottom: 60px !important;
-}
-.serviceswhitebackground.serviceplans li a.signupplan {
-  background: #007ca1;
-  color: #fff !important;
-  padding: 7px 30px !important;
-  border-radius: 10px;
-  margin: 19px 0px !important;
-  display: inline-block;
-  text-transform: uppercase;
-  font-weight: 500 !important;
-  font-size: 14px !important;
-  border: 1px solid transparent;
-  min-height: auto;
-}
-.serviceswhitebackground.serviceplans li a.signupplan:hover {
-  background: #fff;
-  color: #007ca1 !important;
-  border: 1px solid #007ca1;
-}
+
 .page-id-2963 .servicesdualcontainer {
   display: none;
 }
-.serviceswhitebackground.serviceplans li .planremovedtext a {
-  color: transparent !important;
-}
-.serviceswhitebackground.serviceplans .fa,
-.serviceswhitebackground.serviceplans .fas {
-  float: none;
-  margin-left: 5px;
-  padding-right: 0px;
-  font-size: 15px;
-  opacity: 0.1;
-  color: #333;
-}
-.serviceswhitebackground.serviceplans li:hover .fa,
-.serviceswhitebackground.serviceplans li:hover .fas {
-  opacity: 0.7;
-}
-.serviceswhitebackground.serviceplans li:hover a {
-  font-weight: 700;
-}
 
-.serviceswhitebackground.serviceplans li a {
-  color: #666 !important;
-  padding: 25px 20px !important;
-  display: block;
-  border-bottom: 1px solid #e4e4e4;
-  min-height: 75px;
-}
 .page-id-2963 .lity-content div {
   border-radius: 5px;
   padding: 20px;
@@ -1713,31 +1526,7 @@ a:visited {
   width: 25px !important;
   flex: auto !important;
 }
-.serviceswhitebackground.serviceplans
-  .brandscolumn
-  .wp-block-column.compareplan
-  h5 {
-  font-family: Roboto !important;
-  font-size: 18px;
-  text-transform: none;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  color: transparent;
-  padding: 10px 0px 10px !important;
-  text-align: center;
-  margin: 0px !important;
-  background: transparent;
-  border-radius: 10px 0px 0px 0px;
-  border-bottom: 1px solid transparent;
-}
-.serviceswhitebackground.serviceplans
-  .brandscolumn
-  .wp-block-column.compareplan
-  h5.altplan {
-  border-bottom: none;
-  border-top: 1px solid transparent;
-  border-radius: 0px 0px 0px 10px;
-}
+
 .wp-block-column.compareplan .downwardtriangle {
   display: none;
   width: 0px;
@@ -1783,31 +1572,7 @@ a:visited {
   margin-bottom: 60px;
   border-left: 1px solid #fff !important;
 }
-.serviceswhitebackground.serviceplans
-  .brandscolumn
-  .wp-block-column.silverplan
-  h5 {
-  font-family: Roboto !important;
-  font-size: 18px;
-  text-transform: none;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  color: #fff;
-  padding: 10px 0px 10px !important;
-  text-align: center;
-  margin: 0px !important;
-  background: #a6a6a6;
-  border-radius: 10px 0px 0px 0px;
-  border-bottom: 1px solid #c0c0c0;
-}
-.serviceswhitebackground.serviceplans
-  .brandscolumn
-  .wp-block-column.silverplan
-  h5.altplan {
-  border-bottom: none;
-  border-top: 1px solid #c0c0c0;
-  border-radius: 0px 0px 0px 10px;
-}
+
 .wp-block-column.silverplan .downwardtriangle {
   display: none;
   width: 0px;
@@ -1860,31 +1625,6 @@ a:visited {
   margin-bottom: 60px;
   border-left: 1px solid #fff !important;
 }
-.serviceswhitebackground.serviceplans
-  .brandscolumn
-  .wp-block-column.goldplan
-  h5 {
-  font-family: Roboto !important;
-  font-size: 18px;
-  text-transform: none;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  color: #fff;
-  padding: 10px 0px 10px !important;
-  text-align: center;
-  margin: 0px !important;
-  background: #deaf00;
-  border-radius: 0px;
-  border-bottom: 1px solid #fbc901;
-}
-.serviceswhitebackground.serviceplans
-  .brandscolumn
-  .wp-block-column.goldplan
-  h5.altplan {
-  border-bottom: none;
-  border-top: 1px solid #fbc901;
-  border-radius: 0px 0px 0px 0px;
-}
 .wp-block-column.goldplan .downwardtriangle {
   display: none;
   width: 0px;
@@ -1936,31 +1676,6 @@ a:visited {
   margin-bottom: 60px;
   border-left: 1px solid #fff !important;
 }
-.serviceswhitebackground.serviceplans
-  .brandscolumn
-  .wp-block-column.platplan
-  h5 {
-  font-family: Roboto !important;
-  font-size: 18px;
-  text-transform: none;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  color: #fff;
-  padding: 10px 0px 10px !important;
-  text-align: center;
-  margin: 0px !important;
-  background: #8798ab;
-  border-radius: 0px 10px 0px 0px;
-  border-bottom: 1px solid #a0b2c6;
-}
-.serviceswhitebackground.serviceplans
-  .brandscolumn
-  .wp-block-column.platplan
-  h5.altplan {
-  border-bottom: none;
-  border-top: 1px solid #a0b2c6;
-  border-radius: 0px 0px 10px 0px;
-}
 .wp-block-column.platplan .downwardtriangle {
   display: none;
   width: 0px;
@@ -2011,89 +1726,6 @@ a:visited {
 }
 .brandscolumn .wp-block-column.platplan li:last-child a {
   border-radius: 0px 0px 10px 0px;
-}
-
-.serviceswhitebackground.serviceplans
-  .brandscolumn
-  .wp-block-column:not(:first-child) {
-  margin-left: 0px;
-}
-.serviceswhitebackground.serviceplans .brandscolumn .wp-block-column {
-  background: #fff;
-  overflow: hidden;
-  border: none;
-  border-radius: 0px;
-  flex: 1;
-  width: auto;
-  margin-bottom: 0px !important;
-}
-.serviceswhitebackground.serviceplans .brandscolumn {
-  max-width: 1200px !important;
-  background: transparent;
-  flex-wrap: nowrap;
-}
-
-.serviceswhitebackground
-  .brandscolumn
-  .wp-block-column.silverplan
-  p.learnmorebutton {
-  background: #c0c0c0;
-}
-.serviceswhitebackground
-  .brandscolumn
-  .wp-block-column.goldplan
-  p.learnmorebutton {
-  background: #fbc901;
-}
-.serviceswhitebackground
-  .brandscolumn
-  .wp-block-column.platplan
-  p.learnmorebutton {
-  background: #a0b2c6;
-}
-
-.serviceswhitebackground.serviceplans .brandscolumn p.learnmorebutton a {
-  text-decoration: none;
-  font-weight: 500;
-  color: #fff !important;
-  width: 100%;
-  display: block;
-  padding: 20px 30px !important;
-  text-transform: uppercase;
-  text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.1);
-}
-.serviceswhitebackground p.serviceplanstext {
-  max-width: 1200px !important;
-  text-align: left;
-  padding: 0px !important;
-}
-
-.serviceswhitebackground.pagewhitebackground.belowsplans h2::after {
-  display: none;
-}
-.serviceswhitebackground.pagewhitebackground.belowsplans h2 {
-  text-align: center;
-  margin-bottom: 0px;
-}
-.contactplans {
-  text-align: center;
-}
-.serviceswhitebackground p.contactplans a {
-  background: transparent;
-  text-decoration: none;
-  padding: 15px 40px !important;
-  border-radius: 15px;
-  margin: 20px 0px !important;
-  display: inline-block;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 18px !important;
-  border: 1px solid #007ca1;
-  color: #007ca1 !important;
-}
-.serviceswhitebackground p.contactplans a:hover {
-  background: #007ca1;
-  color: #fff !important;
 }
 
 /*WOOCOMMERCE PAGE */
@@ -2416,58 +2048,9 @@ a:visited {
 .page-id-2511 .brandscolumn .wp-block-image img {
   width: 100%;
 }
-.serviceswhitebackground p.partnername {
-  margin-bottom: 0px !important;
-  text-align: center;
-  font-size: 21px;
-  font-weight: 300;
-  color: #007ca1;
-  line-height: 1;
-  margin-top: 10px !important;
-}
-.serviceswhitebackground p.partnername::after {
-  display: block;
-  content: "";
-  width: 60px;
-  height: 20px;
-  border-bottom: 1px solid #007ca1;
-  margin: 0px auto 0px;
-}
-.serviceswhitebackground p.partnername {
-  margin-bottom: -1px !important;
-  text-align: center;
-  font-size: 21px;
-  font-weight: 300;
-  color: #007ca1;
-  line-height: 1;
-  margin-top: 10px !important;
-  padding-bottom: 0px !important;
-}
-.page-id-2511 .headerbrand.serviceswhitebackground {
-  padding-top: 0px !important;
-}
 .page-id-2511 .brandscolumn .wp-block-image {
   margin-bottom: 2rem !important;
   margin-top: 3rem !important;
-}
-.page-id-2511 .serviceswhitebackground .brandscolumn p.learnmorebutton {
-  background: transparent;
-  position: unset;
-}
-.page-id-2511 .serviceswhitebackground .brandscolumn p.learnmorebutton:hover {
-  background: #f1f1f1;
-}
-.serviceswhitebackground .brandscolumn p.learnmorebutton a:after {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-.page-id-2511 .headerbrand.serviceswhitebackground p {
-  padding-bottom: 30px !important;
 }
 .page-id-2576 .wp-block-group.homevideo.servicespages {
   height: 65vh;
@@ -3309,9 +2892,6 @@ body:not(.overlay-header) #site-header .toggle,
     height: 100% !important;
     transform: translate(-50%, -50%);
   }
-  .serviceswhitebackground p {
-    padding: 0px 0px 0px !important;
-  }
   .footerlinks {
     display: block;
     overflow: hidden;
@@ -3375,9 +2955,6 @@ body:not(.overlay-header) #site-header .toggle,
   }
   .fullimagetop {
     height: 65vh !important;
-  }
-  .serviceswhitebackground .brandscolumn p {
-    padding: 0px 30px 30px !important;
   }
   .homedualcontainer {
     display: block;
@@ -3540,9 +3117,6 @@ body:not(.overlay-header) #site-header .toggle,
     padding: 45px 30px 30px !important;
   }
   .servicestextcontainer {
-    padding: 45px 30px 45px !important;
-  }
-  .serviceswhitebackground {
     padding: 45px 30px 45px !important;
   }
   .homeintrotop.centerintro {
