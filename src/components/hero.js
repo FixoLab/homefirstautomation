@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -10,14 +11,11 @@ const Hero = () => {
             style={{ opacity: "0.9999" }}
           >
             <img
-              decoding="async"
               width="470"
               height="938"
-              src="https://www.projectautomate.com/wp-content/uploads/2020/10/phoneoverlay4.png"
-              alt=""
+              src="images/phoneoverlay4.png"
+              alt="hero"
               className="wp-image-1922"
-              srcSet="https://www.projectautomate.com/wp-content/uploads/2020/10/phoneoverlay4.png 470w, https://www.projectautomate.com/wp-content/uploads/2020/10/phoneoverlay4-150x300.png 150w"
-              sizes="(max-width: 470px) 100vw, 470px"
             />
           </figure>
 
@@ -32,10 +30,7 @@ const Hero = () => {
             data-origwidth="300"
             data-origheight="150"
           >
-            <source
-              src="https://www.projectautomate.com/wp-content/uploads/2020/08/newhome.mp4"
-              type="video/mp4"
-            />
+            <source src="images/newhome.mp4" type="video/mp4" />
           </video>
 
           <div className="is-layout-flow wp-block-group homeintrotop centerintro">
@@ -50,24 +45,20 @@ const Hero = () => {
 
                   <div className="wp-block-image control4small homecedialogo">
                     <figure className="alignleft size-large is-resized">
-                      <a href="https://bcert.me/bc/html/show-badge.html?b=steetnag">
+                      <Link to="#">
                         <img
-                          decoding="async"
-                          loading="lazy"
-                          src="https://www.projectautomate.com/wp-content/uploads/2021/02/cediacit.png"
-                          alt=""
+                          src="images/cediacit.png"
+                          alt="hero"
                           className="wp-image-3276"
                           width="159"
                           height="159"
-                          srcSet="https://www.projectautomate.com/wp-content/uploads/2021/02/cediacit.png 300w, https://www.projectautomate.com/wp-content/uploads/2021/02/cediacit-150x150.png 150w, https://www.projectautomate.com/wp-content/uploads/2021/02/cediacit-100x100.png 100w"
-                          sizes="(max-width: 159px) 100vw, 159px"
                         />
-                      </a>
+                      </Link>
                     </figure>
                   </div>
 
                   <p>
-                    <a href="#3">Learn More</a>
+                    <Link to="#">Learn More</Link>
                   </p>
                 </div>
               </div>
