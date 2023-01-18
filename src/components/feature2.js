@@ -1,0 +1,106 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+const Feature2 = ({ title }) => {
+  return (
+    <div
+      className="is-layout-flex wp-container-22 wp-block-columns alignfull servicesdualcontainer homedualcontainer homedualmid"
+      id="2"
+    >
+      <div className="is-layout-flow wp-block-column homedual2 duallefttext">
+        <h2>{title}</h2>
+
+        <p className="minigray leftsidetextspace">
+          As a turnkey provider to our clients, we excel with an exemplary
+          reputation for getting the job done right the first time. We will work
+          with you and your designer, architect, and builder, from concept to
+          completion, with full integration of your IoT technologies designed to
+          make your dream home a reality.
+        </p>
+
+        <div className="is-layout-flex wp-container-16 wp-block-columns iconsbox">
+          <div className="is-layout-flow wp-block-column">
+            <i className="far fa-user"></i>
+            <p>Discrete</p>
+
+            <p className="hideonshow">
+              We give clients the upmost confidentiality for whatever need they
+              have.
+            </p>
+          </div>
+
+          <div className="is-layout-flow wp-block-column">
+            <i className="fas fa-brain"></i>
+            <p>Experienced</p>
+
+            <p className="hideonshow">
+              With over 20 years experience there is no project we can tackle.
+            </p>
+          </div>
+        </div>
+
+        <div className="is-layout-flex wp-container-19 wp-block-columns iconsbox">
+          <div className="is-layout-flow wp-block-column">
+            <i className="fas fa-headset"></i>
+            <p>24/7 Support</p>
+
+            <p className="hideonshow">
+              Join one of our many support packages for around the clock
+              support.
+            </p>
+          </div>
+
+          <div className="is-layout-flow wp-block-column">
+            <i className="fas fa-certificate"></i>
+            <p>Certified</p>
+
+            <p className="hideonshow">
+              We are always training our staff on the latest certifications and
+              safety precautions.
+            </p>
+          </div>
+        </div>
+
+        <p className="learnmorebutton">
+          <Link to="#">Learn More</Link>
+        </p>
+      </div>
+
+      <div className="is-layout-flow wp-block-column servicesimages sidevideoleft">
+        <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+          <img
+            decoding="async"
+            loading="lazy"
+            width="1915"
+            height="1440"
+            src="https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1.jpg"
+            alt=""
+            className="wp-image-839"
+            srcSet="https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1.jpg 1915w, https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1-600x451.jpg 600w, https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1-300x226.jpg 300w, https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1-1024x770.jpg 1024w, https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1-768x578.jpg 768w, https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1-1536x1155.jpg 1536w, https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1-1200x902.jpg 1200w"
+            sizes="(max-width: 1915px) 100vw, 1915px"
+          />
+        </figure>
+
+        <video
+          id="video-background"
+          className="customsized"
+          autoPlay
+          muted
+          loop="loop"
+          width="300"
+          height="150"
+          playsInline=""
+          data-origwidth="300"
+          data-origheight="150"
+        >
+          <source
+            src="https://www.projectautomate.com/wp-content/uploads/2020/10/middlearea4.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </div>
+  );
+};
+
+export default Feature2;
