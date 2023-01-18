@@ -22,7 +22,7 @@ const Home = () => {
 
   const leftPosition = -(windowTop * 0.075);
   const leftbotPosition = -(windowTop * 0.075) + 100;
-  // const rightPosition = 100 - windowTop * 0.025 + "%";
+  const rightPosition = 100 - windowTop * 0.025 + "%";
 
   return (
     <div id="site-content">
@@ -31,7 +31,7 @@ const Home = () => {
           <Hero leftbotPosition={leftbotPosition} />
           <Feature leftPosition={leftPosition} />
           <Feature2 title="Earning Your Trust" />
-          <Feature3 leftPosition={leftPosition} />
+          <Feature3 leftPosition={rightPosition} />
         </div>
       </div>
     </div>
