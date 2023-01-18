@@ -20,17 +20,17 @@ function ScrollToTop() {
 const AppRouter = ({ children }) => {
   return (
     <BrowserRouter>
-      <Header />
       <ScrollToTop />
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div className="preloader">Loading...</div>}>
+        <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blogDetails/:blogId" element={<BlogDetails />} />
         </Routes>
+        <Footer />
       </Suspense>
-      <Footer />
     </BrowserRouter>
   );
 };

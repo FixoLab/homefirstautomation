@@ -613,7 +613,7 @@ body:not(.overlay-header) #site-header .toggle,
   z-index: 11;
 }
 #site-header-sticky-wrapper {
-  /* position: absolute; */
+  position: absolute;
   width: 100%;
   top: 0px;
 }
@@ -3648,4 +3648,11 @@ body:not(.overlay-header) #site-header .toggle,
   .halfimagetop {
     height: 300px;
   }
+}
+
+.preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
