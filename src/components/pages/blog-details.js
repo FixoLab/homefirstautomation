@@ -4,8 +4,8 @@ import { useParams } from "react-router";
 const api_domain = process.env.REACT_APP_DOMAIN;
 
 const BlogDetails = () => {
-    const { blogId } = useParams();
-    const id = parseInt(blogId)
+    const { slug } = useParams();
+    // const id = parseInt(blogId)
 
     const [data, setData] = useState([]);
   
@@ -22,7 +22,7 @@ const BlogDetails = () => {
       fetchData();
     }, []);
 
-    const blogDetails = data?.filter(blog => blog?.id === id)
+    const blogDetails = data?.filter(blog => blog?.slug === slug)
    
     // const { title, better_featured_image, excerpt } = blogDetails[0];
 
@@ -102,13 +102,6 @@ const BlogDetails = () => {
               </div>
               <div className="author-description">
                 <p>Founder and CEO at PROJECT: automate</p>
-                <a
-                  className="author-link"
-                  href="https://www.projectautomate.com/author/projectautomate/"
-                  rel="author"
-                >
-                  View Archive <span aria-hidden="true">→</span>{" "}
-                </a>
               </div>
             </div>
           </div>
