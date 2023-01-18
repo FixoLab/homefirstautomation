@@ -183,6 +183,8 @@ const Footer = () => {
                               decoding="async"
                               src="images/Homefirst_Auto.png"
                               alt="project automate logo"
+                              width=""
+                              height=""
                             />
                           </Link>
                           <br />

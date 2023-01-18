@@ -2,6 +2,8 @@ import React, { Suspense, useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import Footer from "./components/global/footer";
 import Header from "./components/global/header";
+import Skeleton from "react-loading-skeleton";
+import 'react-loading-skeleton/dist/skeleton.css'
 
 const Home = React.lazy(() => import("./components/pages/home"));
 const About = React.lazy(() => import("./components/pages/about"));
@@ -21,7 +23,7 @@ const AppRouter = ({ children }) => {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <Suspense fallback={<div className="preloader">Loading...</div>}>
+      <Suspense fallback={<div className="preloader"><Skeleton style={{ borderRadius: 50 }} height={100} width={100} /></div>}>
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />

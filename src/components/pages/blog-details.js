@@ -4,50 +4,62 @@ import { useParams } from "react-router";
 const api_domain = process.env.REACT_APP_DOMAIN;
 
 const BlogDetails = () => {
-    const { slug } = useParams();
-    // const id = parseInt(blogId)
+  const { slug } = useParams();
+  // const id = parseInt(blogId)
 
-    const [data, setData] = useState([]);
-  
-    useEffect(() => {
-      const fetchData = async () => {
-        try {
-          const result = await axios(
-            `${api_domain}/wp-json/wp/v2/posts`
-          );
-          setData(result.data);
-        } catch (error) {
-        }
-      };
-      fetchData();
-    }, []);
+  const [data, setData] = useState([]);
+  const [authorData, setAuthorData] = useState([]);
 
-    const blogDetails = data?.filter(blog => blog?.slug === slug)
-   
-    // const { title, better_featured_image, excerpt } = blogDetails[0];
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const result = await axios(`${api_domain}/wp-json/wp/v2/posts`);
+        setData(result.data);
+      } catch (error) {}
+    };
+    fetchData();
+  }, []);
+  const blogDetails = data?.filter((blog) => blog?.slug === slug);
+
+  const authorId = blogDetails[0]?.author;
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const result = await axios(
+          `${api_domain}/wp-json/wp/v2/users/${authorId}`
+        );
+        setAuthorData(result.data);
+      } catch (error) {}
+    };
+    fetchData();
+  }, [authorId]);
+
+
 
   return (
     <div className="post-template-default single single-post postid-3788 single-format-standard custom-background wp-custom-logo wp-embed-responsive theme-twentytwenty vcwb woocommerce-js singular enable-search-modal has-post-thumbnail has-single-pagination showing-comments show-avatars footer-top-visible su-other-shortcodes-loaded">
       <main id="site-content" role="main">
-
         <article
           className="post-3788 post type-post status-publish format-standard has-post-thumbnail hentry category-surround-sound-installation category-surround-sound-installation-newport-beach-ca tag-surround-sound-installation odd"
           id="post-3788"
         >
-          <h4
-           style={{ maxWidth: "80%", textAlign: "left", marginLeft: "2%" }}
-          >
+          <h4 style={{ maxWidth: "80%", textAlign: "left", marginLeft: "2%" }}>
             {blogDetails[0]?.title.rendered}
           </h4>
           <div className="post-inner thin ">
             <div className="entry-content">
               <figure className="wp-block-image">
-                <img 
+                <img
                   src={blogDetails[0]?.better_featured_image.source_url}
                   alt=""
                 />
               </figure>
-              <div dangerouslySetInnerHTML={{__html: blogDetails[0]?.content.rendered}} />
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: blogDetails[0]?.content.rendered,
+                }}
+              />
             </div>
           </div>
 
@@ -85,28 +97,26 @@ const BlogDetails = () => {
               </ul>
             </div>
 
-            <div className="author-bio">
+            {/* <div className="author-bio">
               <div className="author-title-wrapper">
                 <div className="author-avatar vcard">
                   <img
-                    alt=""
-                    src="https://secure.gravatar.com/avatar/ca690e69b41fdb1eec326abb3bfffd02?s=160&amp;d=mm&amp;r=g"
+                    alt={authorData.name}
+                    src={authorData.avatar_urls[3]}
                     className="avatar avatar-160 photo"
                     height="160"
                     width="160"
-                  />{" "}
+                  />
                 </div>
-                <h2 className="author-title heading-size-4">
-                  By Joshua Trevithick{" "}
-                </h2>
+                <h2 className="author-title heading-size-4">By {authorData.name}</h2>
               </div>
               <div className="author-description">
                 <p>Founder and CEO at PROJECT: automate</p>
               </div>
-            </div>
+            </div> */}
           </div>
 
-          <nav
+          {/* <nav
             className="pagination-single section-inner only-one only-prev"
             aria-label="Post"
             role="navigation"
@@ -130,7 +140,7 @@ const BlogDetails = () => {
             </div>
 
             <hr className="styled-separator is-style-wide" aria-hidden="true" />
-          </nav>
+          </nav> */}
         </article>
       </main>
     </div>

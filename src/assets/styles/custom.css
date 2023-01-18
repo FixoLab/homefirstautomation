@@ -3261,3 +3261,7 @@ body:not(.overlay-header) #site-header .toggle,
 #site-footer a:hover {
   text-decoration: underline;
 }
+
+.to-the-top span {
+  color: #fff;
+}
