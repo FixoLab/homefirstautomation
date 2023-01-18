@@ -207,25 +207,18 @@ const Footer = () => {
                                   className="aps-icon-link animated aps-tooltip"
                                   rel="noopener"
                                 >
-                                  <i class="fa-brands fa-facebook-f"></i>
+                                  <i className="fa-brands fa-facebook-f"></i>
                                 </Link>
                               </div>
 
-                              <div
-                                className="aps-each-icon icon-1-2"
-                                style={{ margin: "10px" }}
-                                data-aps-tooltip="linkedin"
-                                data-aps-tooltip-enabled="1"
-                                data-aps-tooltip-bg="#000"
-                                data-aps-tooltip-color="#fff"
-                              >
+                              <div className="aps-each-icon icon-1-2">
                                 <Link
                                   to="#"
                                   target='"_blank"'
                                   className="aps-icon-link animated aps-tooltip"
                                   rel="noopener"
                                 >
-                                  <i class="fa-brands fa-linkedin-in"></i>
+                                  <i className="fa-brands fa-linkedin-in"></i>
                                 </Link>
                               </div>
                             </div>
