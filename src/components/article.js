@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Article = ({ blog }) => {
-  const { title, id, better_featured_image, excerpt } = blog;
+  const { title, slug, better_featured_image, excerpt } = blog;
   return (
     <article
       className="post"
@@ -23,7 +23,7 @@ const Article = ({ blog }) => {
 
           <div className="read-more-button-wrap">
             <Link
-              to={`/blogDetails/${id}`}
+              to={`/blog/${slug}`}
               className="more-link"
             >
               <span className="faux-button">Continue reading</span>{" "}
