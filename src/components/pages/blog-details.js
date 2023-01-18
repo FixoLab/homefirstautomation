@@ -97,23 +97,23 @@ const BlogDetails = () => {
               </ul>
             </div>
 
-            {/* <div className="author-bio">
+            <div className="author-bio" style={{marginBottom: "30px"}}>
               <div className="author-title-wrapper">
                 <div className="author-avatar vcard">
-                  <img
+                  {/* <img
                     alt={authorData.name}
                     src={authorData.avatar_urls[3]}
                     className="avatar avatar-160 photo"
                     height="160"
                     width="160"
-                  />
+                  /> */}
                 </div>
                 <h2 className="author-title heading-size-4">By {authorData.name}</h2>
               </div>
               <div className="author-description">
                 <p>Founder and CEO at PROJECT: automate</p>
               </div>
-            </div> */}
+            </div>
           </div>
 
           {/* <nav
