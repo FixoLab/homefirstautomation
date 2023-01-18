@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import "../../assets/styles/blog.css";
 import Article from "../article";
+import LoadingSpinner from "../loading-spinner";
 
 const api_domain = process.env.REACT_APP_DOMAIN;
 
@@ -21,9 +22,11 @@ const Blog = () => {
   return (
     <div className="blog">
       <main id="site-content" role="main">
-        {data.map((blog) => (
-          <Article key={blog.id} blog={blog} />
-        ))}
+        {data.length === 0 ? (
+          <LoadingSpinner />
+        ) : (
+          data.map((blog) => <Article key={blog.id} blog={blog} />)
+        )}
       </main>
     </div>
   );
