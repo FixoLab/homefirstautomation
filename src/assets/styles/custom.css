@@ -2734,7 +2734,7 @@ a.footerphone {
 }
 .footerlinks3 h2 a {
   font-weight: 300;
-  color: #fff !important;
+  color: #777 !important;
   font-size: 16px;
 }
 .footerlinks3 .su-post-excerpt p {
@@ -3142,7 +3142,7 @@ body:not(.overlay-header) #site-header .toggle,
     padding-top: 30px;
     border-top: 1px solid #2c2f30;
   }
-  .footerlinks1 img {
+  .footerlinks1 i {
     max-width: 150px;
     margin: 0px auto;
   }
@@ -3236,18 +3236,28 @@ body:not(.overlay-header) #site-header .toggle,
   justify-content: center;
   height: 100vh;
 }
-.icon-1-1 img,
-.icon-1-2 img {
+.icon-1-1 a i,
+.icon-1-2 a i {
+  color: #007ca1;
+}
+.icon-1-1 a,
+.icon-1-2 a {
   height: 40px;
   width: 40px;
   opacity: 1;
   box-shadow: 0px 0px 0px 0;
   padding: 0px;
+  border: 1px solid #007ca1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-copyright a:visited {
   color: #cd2653 !important;
 }
-#site-footer a:focus, #site-footer a:hover {
+#site-footer a:focus,
+#site-footer a:hover {
   text-decoration: underline;
 }
