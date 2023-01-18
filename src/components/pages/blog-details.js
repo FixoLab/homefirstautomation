@@ -42,7 +42,7 @@ const BlogDetails = () => {
           <div className="post-inner thin ">
             <div className="entry-content">
               <figure className="wp-block-image">
-                <img
+                <img 
                   src={blogDetails[0]?.better_featured_image.source_url}
                   alt=""
                 />
