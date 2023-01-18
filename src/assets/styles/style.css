@@ -2806,24 +2806,16 @@ h2.entry-title {
 }
 
 /* Block: Cover ------------------------------ */
-
-.wp-block-cover-image .wp-block-cover__inner-container,
 .wp-block-cover .wp-block-cover__inner-container {
   width: calc(100% - 4rem);
   padding: 2rem 0;
 }
-
-.wp-block-cover-image .wp-block-cover-image-text,
-.wp-block-cover-image .wp-block-cover-text,
-.wp-block-cover-image h2,
-.wp-block-cover .wp-block-cover-image-text,
 .wp-block-cover .wp-block-cover-text,
 .wp-block-cover h2 {
   max-width: 100%;
   padding: 0;
 }
 
-.wp-block-cover-image h2,
 .wp-block-cover h2 {
   font-size: 3.2rem;
 }
@@ -2955,20 +2947,6 @@ hr.wp-block-separator {
 
 .wp-block-separator.is-style-dots::after {
   content: none;
-}
-
-/* Block: Table ------------------------------ */
-
-.wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
-  background: #dcd7ca;
-}
-
-figure.wp-block-table.is-style-stripes {
-  border-bottom: none;
-}
-
-.wp-block-table.is-style-stripes table {
-  border-collapse: inherit;
 }
 
 /* Block: Widget Latest Comments ------------- */
@@ -4102,8 +4080,6 @@ a.to-the-top > * {
   /* Blocks -------------------------------- */
 
   /* BLOCK: BASE ALIGNMENT WIDTH */
-  .wp-block-cover-image.alignleft,
-  .wp-block-cover-image.alignright,
   .wp-block-cover.alignleft,
   .wp-block-cover.alignright,
   .wp-block-embed.alignleft,
@@ -4112,14 +4088,6 @@ a.to-the-top > * {
   .wp-block-gallery.alignright {
     max-width: 26rem;
   }
-
-  /* BLOCK: TABLE WIDTH */
-  .wp-block-table.alignleft,
-  .wp-block-table.alignright {
-    max-width: 100%;
-  }
-
-  /* Entry Content ------------------------- */
 
   /* ALIGNMENT CLASSES */
 
@@ -4773,13 +4741,10 @@ a.to-the-top > * {
   }
 
   /* BLOCK: COVER */
-
-  .wp-block-cover-image .wp-block-cover__inner-container,
   .wp-block-cover .wp-block-cover__inner-container {
     width: calc(100% - 8rem);
   }
 
-  .wp-block-cover-image h2,
   .wp-block-cover h2 {
     font-size: 4.8rem;
   }

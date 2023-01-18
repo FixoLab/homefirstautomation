@@ -365,13 +365,10 @@ code,
 code,
 kbd,
 samp,
-.wp-block-table.is-style-stripes tbody tr:nth-child(odd),
 :root .has-subtle-background-background-color {
   background-color: #dcd7ca;
 }
-.wp-block-table.is-style-stripes {
-  border-bottom-color: #dcd7ca;
-}
+
 .wp-block-latest-posts.is-grid li {
   border-top-color: #dcd7ca;
 }
