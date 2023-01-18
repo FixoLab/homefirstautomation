@@ -5,7 +5,7 @@ const Article = ({ blog }) => {
   const { title, id, better_featured_image, excerpt } = blog;
   return (
     <article
-      className="post type-post status-publish format-standard has-post-thumbnail hentry category-surround-sound-installation category-surround-sound-installation-newport-beach-ca tag-surround-sound-installation odd"
+      className="post"
     >
       <h4 style={{ maxWidth: "80%", textAlign: "left", marginLeft: "2%" }}>
         {title.rendered}
