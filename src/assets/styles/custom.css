@@ -1448,7 +1448,6 @@ a:visited {
   display: block;
 }
 
-
 /*BRANDS PAGE */
 .brandscolumn {
   max-width: 1600px !important;
@@ -2856,7 +2855,7 @@ body:not(.overlay-header) #site-header .toggle,
     text-transform: uppercase;
   }
   .site-logo img {
-    max-height: 5rem;
+    max-height: 4rem;
   }
   .servicessubs {
     padding: 0px;
@@ -3229,4 +3228,19 @@ body:not(.overlay-header) #site-header .toggle,
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+.icon-1-1 img,
+.icon-1-2 img {
+  height: 40px;
+  width: 40px;
+  opacity: 1;
+  box-shadow: 0px 0px 0px 0;
+  padding: 0px;
+}
+
+.footer-copyright a:visited {
+  color: #cd2653 !important;
+}
+#site-footer a:focus, #site-footer a:hover {
+  text-decoration: underline;
 }

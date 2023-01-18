@@ -4395,81 +4395,106 @@ figure {
 }
 .su-spoiler-icon-plus .su-spoiler-icon:before {
   content: "\f068";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-plus.su-spoiler-closed .su-spoiler-icon:before {
   content: "\f067";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-plus-circle .su-spoiler-icon:before {
   content: "\f056";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-plus-circle.su-spoiler-closed .su-spoiler-icon:before {
   content: "\f055";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-plus-square-1 .su-spoiler-icon:before {
   content: "\f146";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-plus-square-1.su-spoiler-closed .su-spoiler-icon:before {
   content: "\f0fe";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-plus-square-2 .su-spoiler-icon:before {
   content: "\f147";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-plus-square-2.su-spoiler-closed .su-spoiler-icon:before {
   content: "\f196";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-arrow .su-spoiler-icon:before {
   content: "\f063";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-arrow.su-spoiler-closed .su-spoiler-icon:before {
   content: "\f061";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-arrow-circle-1 .su-spoiler-icon:before {
   content: "\f0ab";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-arrow-circle-1.su-spoiler-closed .su-spoiler-icon:before {
   content: "\f0a9";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-arrow-circle-2 .su-spoiler-icon:before {
   content: "\f01a";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-arrow-circle-2.su-spoiler-closed .su-spoiler-icon:before {
   content: "\f18e";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-chevron .su-spoiler-icon:before {
   content: "\f078";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-chevron.su-spoiler-closed .su-spoiler-icon:before {
   content: "\f054";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-chevron-circle .su-spoiler-icon:before {
   content: "\f13a";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-chevron-circle.su-spoiler-closed .su-spoiler-icon:before {
   content: "\f138";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-caret .su-spoiler-icon:before {
   content: "\f0d7";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-caret.su-spoiler-closed .su-spoiler-icon:before {
   content: "\f0da";
 }
 .su-spoiler-icon-caret-square .su-spoiler-icon:before {
   content: "\f150";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-caret-square.su-spoiler-closed .su-spoiler-icon:before {
   content: "\f152";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-folder-1 .su-spoiler-icon:before {
   content: "\f07c";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-folder-1.su-spoiler-closed .su-spoiler-icon:before {
   content: "\f07b";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-folder-2 .su-spoiler-icon:before {
   content: "\f115";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-icon-folder-2.su-spoiler-closed .su-spoiler-icon:before {
   content: "\f114";
+  font-family: 'FontAwesome';
 }
 .su-spoiler-style-default > .su-spoiler-title {
   padding-left: 27px;
