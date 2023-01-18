@@ -24,7 +24,7 @@ const Header = () => {
               <div className="header-titles">
                 <div className="site-logo faux-heading">
                   <Link
-                    href="./"
+                    to="/"
                     className="custom-logo-link"
                     rel="home"
                     aria-current="page"
