@@ -2188,9 +2188,9 @@ body.template-full-width
 
 /* Posts ------------------------------------- */
 
-body:not(.singular) main > article:first-of-type {
+/* body:not(.singular) main > article:first-of-type {
   padding: 4rem 0 0;
-}
+} */
 
 /* -------------------------------------------------------------------------- */
 
@@ -2828,14 +2828,6 @@ h2.entry-title {
 
 .wp-block-button.is-style-outline {
   color: #cd2653;
-}
-
-.is-style-outline .wp-block-button__link:not(.has-text-color) {
-  color: inherit;
-}
-
-.is-style-outline .wp-block-button__link {
-  padding: calc(1.1em - 0.2rem) calc(1.44em - 0.2rem);
 }
 
 /* Block: Columns ---------------------------- */
@@ -4856,9 +4848,9 @@ a.to-the-top > * {
     font-size: 3.2rem;
   }
 
-  body:not(.singular) main > article:first-of-type {
+  /* body:not(.singular) main > article:first-of-type {
     padding: 8rem 0 0;
-  }
+  } */
 
   h2.entry-title {
     font-size: 6.4rem;

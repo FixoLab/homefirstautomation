@@ -67,20 +67,6 @@ const Feature2 = ({ title }) => {
       </div>
 
       <div className="is-layout-flow wp-block-column servicesimages sidevideoleft">
-        <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-          <img
-            decoding="async"
-            loading="lazy"
-            width="1915"
-            height="1440"
-            src="https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1.jpg"
-            alt=""
-            className="wp-image-839"
-            srcSet="https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1.jpg 1915w, https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1-600x451.jpg 600w, https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1-300x226.jpg 300w, https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1-1024x770.jpg 1024w, https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1-768x578.jpg 768w, https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1-1536x1155.jpg 1536w, https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1-1200x902.jpg 1200w"
-            sizes="(max-width: 1915px) 100vw, 1915px"
-          />
-        </figure>
-
         <video
           id="video-background"
           className="customsized"
@@ -94,7 +80,7 @@ const Feature2 = ({ title }) => {
           data-origheight="150"
         >
           <source
-            src="https://www.projectautomate.com/wp-content/uploads/2020/10/middlearea4.mp4"
+            src="images/middlearea4.mp4"
             type="video/mp4"
           />
         </video>
