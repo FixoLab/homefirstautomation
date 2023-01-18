@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset;
+      const element = document.querySelector(".homephone");
+      element.style.opacity =
+        ((element.offsetHeight - scrollTop) / element.offsetHeight) * 0.9999;
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <div className="is-layout-flow wp-block-group homevideo">
         <div className="wp-block-group__inner-container">
-          <figure
-            className="wp-block-image size-large homephone"
-            style={{ opacity: "0.9999" }}
-          >
+          <figure className="wp-block-image size-large homephone">
             <img
               width="470"
               height="938"

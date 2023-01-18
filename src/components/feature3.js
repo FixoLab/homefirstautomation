@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Feature3 = () => {
+const Feature3 = ({ leftPosition }) => {
   return (
     <div className="is-layout-flex wp-container-31 wp-block-columns alignfull homedualcontainer bottomdual">
       <div className="is-layout-flow wp-block-column homedual2">
@@ -49,7 +49,7 @@ const Feature3 = () => {
 
       <div
         className="is-layout-flow wp-block-column homedual2 homeshow3"
-        style={{ backgroundPositionX: "-64.925px" }}
+        style={{ backgroundPositionX: leftPosition }}
       ></div>
     </div>
   );
