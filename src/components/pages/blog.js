@@ -6,7 +6,7 @@ import Article from "../article";
 const api_domain = process.env.REACT_APP_DOMAIN;
 
 const Blog = () => {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [isError, setIsError] = useState(false);
 

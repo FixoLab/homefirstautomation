@@ -6,6 +6,7 @@ import Header from "./components/global/header";
 const Home = React.lazy(() => import("./components/pages/home"));
 const About = React.lazy(() => import("./components/pages/about"));
 const Blog = React.lazy(() => import("./components/pages/blog"));
+const BlogDetails = React.lazy(() => import("./components/pages/blog-details"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -26,6 +27,7 @@ const AppRouter = ({ children }) => {
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blogDetails/:blogId" element={<BlogDetails />} />
         </Routes>
       </Suspense>
       <Footer />

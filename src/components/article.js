@@ -1,63 +1,36 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Article = ({ blog }) => {
-  const { title, better_featured_image, excerpt } = blog;
+  const { title, id, better_featured_image, excerpt } = blog;
   return (
     <article
-      className="post-3788 post type-post status-publish format-standard has-post-thumbnail hentry category-surround-sound-installation category-surround-sound-installation-newport-beach-ca tag-surround-sound-installation odd"
-      id="post-3788"
+      className="post type-post status-publish format-standard has-post-thumbnail hentry category-surround-sound-installation category-surround-sound-installation-newport-beach-ca tag-surround-sound-installation odd"
     >
       <h4 style={{ maxWidth: "80%", textAlign: "left", marginLeft: "2%" }}>
         {title.rendered}
       </h4>
-      <figure className="featured-media">
-        <div className="featured-media-inner section-inner medium">
-          <img
-            width="900"
-            height="540"
-            src={better_featured_image.source_url}
-            className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
-            alt={title.rendered}
-            decoding="async"
-            srcSet="https://www.projectautomate.com/wp-content/uploads/2022/12/PROAUT_November_SparkBlog1_SurroundSoundInstallation_NewportBeach_CA_IMAGE.jpg 900w, https://www.projectautomate.com/wp-content/uploads/2022/12/PROAUT_November_SparkBlog1_SurroundSoundInstallation_NewportBeach_CA_IMAGE-300x180.jpg 300w, https://www.projectautomate.com/wp-content/uploads/2022/12/PROAUT_November_SparkBlog1_SurroundSoundInstallation_NewportBeach_CA_IMAGE-768x461.jpg 768w, https://www.projectautomate.com/wp-content/uploads/2022/12/PROAUT_November_SparkBlog1_SurroundSoundInstallation_NewportBeach_CA_IMAGE-600x360.jpg 600w"
-            sizes="(max-width: 900px) 100vw, 900px"
-          />
-        </div>
-      </figure>
-
       <div className="post-inner thin ">
         <div className="entry-content">
           <figure className="wp-block-image">
             <img
-              decoding="async"
               src={better_featured_image.source_url}
               alt={title.rendered}
             />
           </figure>
 
-          <p dangerouslySetInnerHTML={{__html: excerpt.rendered}} />
-
-          <p>
-            Integrating a{" "}
-            <a href="https://www.projectautomate.com/audio-systems/">
-              surround sound installation
-            </a>{" "}
-            into your home can completely transform how you enjoy your favorite
-            content.&nbsp; This blog will give you a quick guide through the
-            must-have elements of your surround sound system. Keep reading to
-            learn all about it!&nbsp;
-          </p>
+          <div dangerouslySetInnerHTML={{__html: excerpt.rendered}} />
 
           <div className="read-more-button-wrap">
-            <a
-              href="https://www.projectautomate.com/2022/11/18/top-elements-of-a-high-class-surround-sound-installation/#more-3788"
+            <Link
+              to={`/blogDetails/${id}`}
               className="more-link"
             >
               <span className="faux-button">Continue reading</span>{" "}
               <span className="screen-reader-text">
                 “Top Elements of a High-Class Surround Sound Installation”
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -85,12 +58,11 @@ const Article = ({ blog }) => {
                 </svg>{" "}
               </span>
               <span className="meta-text">
-                <a
-                  href="https://www.projectautomate.com/tag/surround-sound-installation/"
-                  rel="tag"
+                <Link
+                  to="#"
                 >
                   Surround Sound Installation
-                </a>{" "}
+                </Link>{" "}
               </span>
             </li>
           </ul>

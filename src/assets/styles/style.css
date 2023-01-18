@@ -2188,9 +2188,9 @@ body.template-full-width
 
 /* Posts ------------------------------------- */
 
-body:not(.singular) main > article:first-of-type {
+/* body:not(.singular) main > article:first-of-type {
   padding: 4rem 0 0;
-}
+} */
 
 /* -------------------------------------------------------------------------- */
 
@@ -4856,9 +4856,9 @@ a.to-the-top > * {
     font-size: 3.2rem;
   }
 
-  body:not(.singular) main > article:first-of-type {
+  /* body:not(.singular) main > article:first-of-type {
     padding: 8rem 0 0;
-  }
+  } */
 
   h2.entry-title {
     font-size: 6.4rem;
