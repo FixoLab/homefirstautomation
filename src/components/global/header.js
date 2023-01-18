@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
   const [subMenuActive, setSubMenuActive] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [lastScrollTop, setLastScrollTop] = useState(0);
 
   const menuToggleClass = () => {
     setMenuActive(!menuActive);
@@ -11,6 +13,43 @@ const Header = () => {
   const subMenuToggleClass = () => {
     setSubMenuActive(!subMenuActive);
   };
+
+  useEffect(() => {
+    function handleScroll() {
+      setScrollPosition(window.scrollY);
+
+      //topScroll Class
+      const st = window.pageYOffset || document.documentElement.scrollTop;
+      if (st > lastScrollTop) {
+        document.getElementById("site-header").classList.remove("topscroll");
+      } else {
+        document.getElementById("site-header").classList.add("topscroll");
+      }
+      setLastScrollTop(st <= 0 ? 0 : st);
+
+      //is-sticky class
+      const stickyWrapper = document.getElementById(
+        "site-header-sticky-wrapper"
+      );
+      const scroll = window.scrollY;
+      if (scroll > 1) {
+        stickyWrapper.classList.add("is-sticky");
+      } else {
+        stickyWrapper.classList.remove("is-sticky");
+      }
+    }
+
+    //going up class
+    const header = document.getElementById("site-header");
+    if (scrollPosition >= 500) {
+      header.classList.add("goingup");
+    } else {
+      header.classList.remove("goingup");
+    }
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [scrollPosition, lastScrollTop]);
+
   return (
     <>
       <div
