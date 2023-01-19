@@ -566,7 +566,6 @@ const AudioSystems = () => {
                   className="wp-image-877"
                 />
               </figure>
-
               <div
                 className="is-layout-flow wp-block-group serviceswhitebackground eds-on-scroll eds-scroll-visible"
                 data-aos="fade-up"
@@ -575,7 +574,6 @@ const AudioSystems = () => {
               >
                 <div className="wp-block-group__inner-container bottom">
                   <h2 className="has-text-align-center">MALIBU HOME PROJECT</h2>
-
                   <p className="has-text-align-center pointsmade homeauto">
                     Working with our client’s strict idea for a new age home,
                     together we worked to create something extraordinary. We
