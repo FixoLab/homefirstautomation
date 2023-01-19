@@ -19,11 +19,19 @@ const About = () => {
                       width="300"
                       height="150"
                     >
-                      <source src="assets/video/aboutus-final.mp4" type="video/mp4" />
+                      <source
+                        src="assets/video/aboutus-final.mp4"
+                        type="video/mp4"
+                      />
                     </video>
                     <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                       <div className="wp-block-group__inner-container">
-                        <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+                        <div
+                          className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible"
+                          data-aos="fade-up"
+                          data-aos-duration="1000"
+                          data-aos-delay="200"
+                        >
                           <div className="wp-block-group__inner-container">
                             <h1>Who is Project Automate</h1>
 
