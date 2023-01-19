@@ -7,11 +7,11 @@ const api_domain = process.env.REACT_APP_DOMAIN;
 
 const Footer = () => {
   const [footerMenu, setFooterMenu] = useState(false);
+  const [data, setData] = useState([]);
+
   const footerMenuToggle = () => {
     setFooterMenu(!footerMenu);
   };
-
-  const [data, setData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
