@@ -81,7 +81,7 @@ const BlogDetails = () => {
                   </h2>
                 </div>
                 <div className="author-description">
-                  <p>Founder and CEO at PROJECT: automate</p>
+                  <p>Founder and CEO at HOMEFIRST: automate</p>
                 </div>
               </div>
             </div>

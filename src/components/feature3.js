@@ -16,14 +16,14 @@ const Feature3 = ({ leftPosition }) => {
 
         <div className="is-layout-flex wp-container-25 wp-block-columns iconsbox">
           <div className="is-layout-flow wp-block-column">
-            <Link to="#">
+            <Link to="/smart-security">
               <i className="fas fa-lock"></i>
               <p> Smart Security</p>
             </Link>
           </div>
 
           <div className="is-layout-flow wp-block-column">
-            <Link to="#">
+            <Link to="/wifi-networking-services">
               <i className="fas fa-wifi"></i>
               <p>Wi-Fi / Networking</p>
             </Link>
@@ -32,14 +32,14 @@ const Feature3 = ({ leftPosition }) => {
 
         <div className="is-layout-flex wp-container-28 wp-block-columns iconsbox">
           <div className="is-layout-flow wp-block-column">
-            <Link to="#">
+            <Link to="/audio-systems">
               <i className="fas fa-volume-up"></i>
               <p>High Performance Audio</p>
             </Link>
           </div>
 
           <div className="is-layout-flow wp-block-column">
-            <Link to="#">
+            <Link to="/commercial-services">
               <i className="far fa-building"></i>
               <p>Commercial Integration</p>
             </Link>

@@ -59,7 +59,7 @@ const About = () => {
                         <h2>It starts with a dream</h2>
                         <div style={{ height: "30px" }}>&nbsp;</div>
                         <p>
-                          PROJECT: automate started over 20 years ago with one
+                          HOMEFIRST: automate started over 20 years ago with one
                           simple idea in mind. Give the best technological
                           upgrades to homes and businesses.
                         </p>
@@ -73,7 +73,7 @@ const About = () => {
                         </p>
                         <div style={{ height: "30px" }}>&nbsp;</div>
                         <p>
-                          Now decades later, PROJECT: automate is one of the
+                          Now decades later, HOMEFIRST: automate is one of the
                           largest installers in Los Angeles for security
                           systems, <Link to="#">smart home systems</Link>,
                           theater systems, commercial automation systems, and
@@ -89,7 +89,7 @@ const About = () => {
                           enjoyed over the years.
                         </p>
                         <div style={{ height: "30px" }}>&nbsp;</div>
-                        <p>Thank You from us at PROJECT: automate</p>
+                        <p>Thank You from us at HOMEFIRST: automate</p>
                         <div style={{ height: "30px" }}>&nbsp;</div>
                         <div style={{ height: "30px" }}>&nbsp;</div>
                         <p>&nbsp;</p>

@@ -309,7 +309,7 @@ const HomeTheater = () => {
 
                   <p className="pointsmade homeauto">
                     Have your living room work with only the top end audio and
-                    visual settings. We at PROJECT: automate can mold any living
+                    visual settings. We at HOMEFIRST: automate can mold any living
                     room into a state of the art home theater setup.
                   </p>
 

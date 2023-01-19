@@ -643,7 +643,7 @@ const SmartHomeAutomation = () => {
 
                   <p className="pointsmade homeauto">
                     Talk with friends, family, coworkers, and more with a smart
-                    home conferencing system. PROJECT: automate can analyze your
+                    home conferencing system. HOMEFIRST: automate can analyze your
                     current setup, install a top of the line model, and give you
                     a quick run down of all your new features. Video
                     conferencing has never been easier.{" "}
