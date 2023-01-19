@@ -443,9 +443,6 @@ const StartYourProject = () => {
                     tabindex="0"
                     width="600"
                     height="450"
-                    frameBorder="0"
-                    dataOrigwidth="600"
-                    dataOrigheight="450"
                     title="map"
                   ></iframe>
                 </div>

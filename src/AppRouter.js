@@ -23,6 +23,7 @@ const CommercialServices = React.lazy(() =>
 );
 const Blog = React.lazy(() => import("./pages/blog"));
 const BlogDetails = React.lazy(() => import("./pages/blog-details"));
+const ContactUs = React.lazy(() => import("./pages/contact-us"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -67,6 +68,10 @@ const AppRouter = () => {
           <Route
             path="/start-your-project"
             element={<StartYourProject />}
+          />
+          <Route
+            path="/contact-us"
+            element={<ContactUs />}
           />
         </Routes>
         <Footer />

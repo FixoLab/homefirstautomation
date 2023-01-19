@@ -671,6 +671,10 @@ li.menu-item-3288 .fas {
   background: rgba(0, 0, 0, 0.05);
   position: relative;
 }
+
+.contact-us-video .wp-block-group.homevideo > .wp-block-group__inner-container{
+ width: auto !important;
+}
 #video-background {
   position: absolute;
   left: 50%;
@@ -690,11 +694,12 @@ li.menu-item-3288 .fas {
     top: 50%;
     min-width: auto;
     min-height: auto;
-    width: 101% !important;
+    /* width: 101% !important; */
     z-index: -100;
     max-width: none;
     height: auto !important;
     transform: translate(-50%, -50%);
+    width: 100vw !important
   }
   #video-background.fulltextvid {
     position: absolute;
