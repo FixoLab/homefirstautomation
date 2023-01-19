@@ -202,7 +202,7 @@ const Header = () => {
                     id="menu-item-2848"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2848"
                   >
-                    <Link to="#">Partners</Link>
+                    <Link to="/partners">Partners</Link>
                   </li>
                   <li
                     id="menu-item-1188"
@@ -372,7 +372,7 @@ const Header = () => {
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2848">
                     <div className="ancestor-wrapper">
-                      <Link to="#">Partners</Link>
+                      <Link to="/partners">Partners</Link>
                     </div>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1188">

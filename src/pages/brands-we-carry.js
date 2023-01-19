@@ -49,8 +49,7 @@ const BrandsWeCarry = () => {
               <div
                 className="fullimagetop"
                 style={{
-                  backgroundImage:
-                    "url(/assets/images/brandheader.jpg)",
+                  backgroundImage: "url(/assets/images/brandheader.jpg)",
                 }}
               >
                 &nbsp;
@@ -75,8 +74,8 @@ const BrandsWeCarry = () => {
           <div className="is-layout-flow wp-block-group serviceswhitebackground headerbrand">
             <div className="wp-block-group__inner-container">
               <p className="has-text-align-center servicesleader eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-                View all the brands we carry at PROJECT: automate. Keep in mind
-                this list is always growing as we here at PROJECT: automate are
+                View all the brands we carry at HOMEFIRST: automate. Keep in mind
+                this list is always growing as we here at HOMEFIRST: automate are
                 always carrying the latest and great in smart home technology.
                 Is there a specific brand you want for your Los Angeles project?
                 Just contact us and our support team will be sure to work with
@@ -96,7 +95,6 @@ const BrandsWeCarry = () => {
                     <div className="is-layout-flow wp-block-column">
                       <figure className="wp-block-image size-full">
                         <img
-                          decoding="async"
                           width="600"
                           height="300"
                           src="assets/images/control4.jpg"
@@ -110,14 +108,12 @@ const BrandsWeCarry = () => {
                         away some of those daily little stresses. A Control4
                         system makes your life more convenient and your Los
                         Angeles home safer, more comfortable, and easy to enjoy.
-                        Work with the Control4 dealers at PROJECT: automate to
+                        Work with the Control4 dealers at HOMEFIRST: automate to
                         get started!
                       </p>
                       <figure className="wp-block-image size-large is-resized brandlogo">
                         <Link to="#">
                           <img
-                            decoding="async"
-                            loading="lazy"
                             src="assets/images/control4a.jpg"
                             alt=""
                             className="wp-image-1466"
@@ -135,8 +131,6 @@ const BrandsWeCarry = () => {
                     <div className="is-layout-flow wp-block-column">
                       <figure className="wp-block-image size-large">
                         <img
-                          decoding="async"
-                          loading="lazy"
                           width="600"
                           height="300"
                           src="assets/images/crestrona.jpg"
@@ -160,8 +154,6 @@ const BrandsWeCarry = () => {
                       <figure className="wp-block-image size-large brandlogo">
                         <Link to="#">
                           <img
-                            decoding="async"
-                            loading="lazy"
                             width="150"
                             height="26"
                             src="assets/images/crestron.jpg"
@@ -179,8 +171,6 @@ const BrandsWeCarry = () => {
                     <div className="is-layout-flow wp-block-column">
                       <figure className="wp-block-image size-large">
                         <img
-                          decoding="async"
-                          loading="lazy"
                           width="600"
                           height="313"
                           src="assets/images/savant.jpg"
@@ -203,8 +193,6 @@ const BrandsWeCarry = () => {
                       <figure className="wp-block-image size-large brandlogo">
                         <Link to="#">
                           <img
-                            decoding="async"
-                            loading="lazy"
                             width="150"
                             height="23"
                             src="assets/images/savanta.jpg"
@@ -235,8 +223,6 @@ const BrandsWeCarry = () => {
                     <div className="is-layout-flow wp-block-column">
                       <figure className="wp-block-image size-large">
                         <img
-                          decoding="async"
-                          loading="lazy"
                           width="600"
                           height="313"
                           src="assets/images/lutron.jpg"
@@ -258,8 +244,6 @@ const BrandsWeCarry = () => {
                       <figure className="wp-block-image size-large brandlogo">
                         <Link to="#">
                           <img
-                            decoding="async"
-                            loading="lazy"
                             width="150"
                             height="26"
                             src="assets/images/lutrona.jpg"
@@ -277,8 +261,6 @@ const BrandsWeCarry = () => {
                     <div className="is-layout-flow wp-block-column">
                       <figure className="wp-block-image size-large">
                         <img
-                          decoding="async"
-                          loading="lazy"
                           width="600"
                           height="300"
                           src="assets/images/hunter.jpg"
@@ -302,8 +284,6 @@ const BrandsWeCarry = () => {
                       <figure className="wp-block-image size-large brandlogo">
                         <Link to="#">
                           <img
-                            decoding="async"
-                            loading="lazy"
                             width="150"
                             height="29"
                             src="assets/images/huntera.jpg"
@@ -321,8 +301,6 @@ const BrandsWeCarry = () => {
                     <div className="is-layout-flow wp-block-column">
                       <figure className="wp-block-image size-large">
                         <img
-                          decoding="async"
-                          loading="lazy"
                           width="600"
                           height="300"
                           src="assets/images/coastal.jpg"
@@ -344,8 +322,6 @@ const BrandsWeCarry = () => {
                       <figure className="wp-block-image size-large brandlogo">
                         <Link to="#">
                           <img
-                            decoding="async"
-                            loading="lazy"
                             width="150"
                             height="22"
                             src="assets/images/coastala.jpg"
@@ -365,8 +341,6 @@ const BrandsWeCarry = () => {
                     <div className="is-layout-flow wp-block-column">
                       <figure className="wp-block-image size-large">
                         <img
-                          decoding="async"
-                          loading="lazy"
                           width="600"
                           height="300"
                           src="https://www.projectautomate.com/wp-content/uploads/2020/10/joshai-brand.jpg"
@@ -387,8 +361,6 @@ const BrandsWeCarry = () => {
                       <figure className="wp-block-image size-large brandlogo">
                         <Link to="#">
                           <img
-                            decoding="async"
-                            loading="lazy"
                             width="150"
                             height="51"
                             src="https://www.projectautomate.com/wp-content/uploads/2020/10/joshai-blacklogo.jpg"
@@ -406,8 +378,6 @@ const BrandsWeCarry = () => {
                     <div className="is-layout-flow wp-block-column">
                       <figure className="wp-block-image size-large">
                         <img
-                          decoding="async"
-                          loading="lazy"
                           width="600"
                           height="300"
                           src="assets/images/ruckus.jpg"
@@ -431,8 +401,6 @@ const BrandsWeCarry = () => {
                       <figure className="wp-block-image size-large brandlogo">
                         <Link to="#">
                           <img
-                            decoding="async"
-                            loading="lazy"
                             width="150"
                             height="44"
                             src="assets/images/ruckusa.jpg"
@@ -450,8 +418,6 @@ const BrandsWeCarry = () => {
                     <div className="is-layout-flow wp-block-column">
                       <figure className="wp-block-image size-large">
                         <img
-                          decoding="async"
-                          loading="lazy"
                           width="600"
                           height="300"
                           src="https://www.projectautomate.com/wp-content/uploads/2020/10/knx-mini.jpg"
@@ -470,8 +436,6 @@ const BrandsWeCarry = () => {
                       <figure className="wp-block-image size-large brandlogo">
                         <Link to="#">
                           <img
-                            decoding="async"
-                            loading="lazy"
                             width="133"
                             height="59"
                             src="https://www.projectautomate.com/wp-content/uploads/2020/10/knx-logo1.png"
@@ -491,8 +455,6 @@ const BrandsWeCarry = () => {
                     <div className="is-layout-flow wp-block-column">
                       <figure className="wp-block-image size-large">
                         <img
-                          decoding="async"
-                          loading="lazy"
                           width="600"
                           height="300"
                           src="assets/images/alarmcom.jpg"
@@ -514,8 +476,6 @@ const BrandsWeCarry = () => {
                       <figure className="wp-block-image size-large brandlogo">
                         <Link to="#">
                           <img
-                            decoding="async"
-                            loading="lazy"
                             width="150"
                             height="28"
                             src="assets/images/alarmcoma.jpg"

@@ -26,7 +26,7 @@ const CallToAction = () => {
           data-aos-delay="200"
         >
           <div className="wp-block-group__inner-container bottom">
-            <h2 className="has-text-align-center">MALIBU HOME PROJECT</h2>
+            <h2 className="has-text-align-center">MALIBU HOME HOMEFIRST</h2>
             <p className="has-text-align-center pointsmade homeauto">
               Working with our client’s strict idea for a new age home, together
               we worked to create something extraordinary. We applied the upmost

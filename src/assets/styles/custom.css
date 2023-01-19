@@ -674,6 +674,9 @@ li.menu-item-3288 .fas {
   background: rgba(0, 0, 0, 0.05);
   position: relative;
 }
+.about .wp-block-group.homevideo > .wp-block-group__inner-container {
+  width: 100% !important;
+}
 
 .contact-us-page .wp-block-group.homevideo > .wp-block-group__inner-container{
  width: auto !important;
@@ -764,6 +767,7 @@ li.menu-item-3288 .fas {
   font-size: 16px;
   font-weight: 300;
 }
+
 .home .homeintrotop .wp-block-group__inner-container > p {
   font-size: 18px;
 }
@@ -1191,7 +1195,13 @@ li.menu-item-3288 .fas {
   text-decoration: none;
   padding-bottom: 3px;
 }
+.homedualcontainer .minigray a {
+  color: #cd2653 !important;
+}
 .homedualcontainer a:hover {
+  color: #007ca1 !important;
+}
+.homedualcontainer .minigray a:hover {
   color: #007ca1 !important;
 }
 .homedualcontainer a:hover .fas,
@@ -1472,6 +1482,14 @@ li.menu-item-3288 .fas {
 .single-post.singular p a:link,
 p a:visited {
   color: #cd2653;
+  text-decoration: none;
+}
+.partners .serviceswhitebackground p a {
+  color: #cd2653 !important;
+  text-decoration: underline;
+}
+.partners .serviceswhitebackground p a:hover {
+  color: #cd2653 !important;
   text-decoration: none;
 }
 .single-post.singular a:link,
@@ -1861,30 +1879,30 @@ a:visited {
 }
 
 /*PARTNERS PAGE */
-.page-id-2511 .wp-block-group.homevideo.servicespages {
+.partners .wp-block-group.homevideo.servicespages {
   height: 55vh;
 }
-.page-id-2511
+.partners
   .wp-block-group.homevideo.servicespages
   > .wp-block-group__inner-container {
   height: 55vh;
 }
-.page-id-2511 .fullimagetop {
+.partners .fullimagetop {
   height: 55vh;
 }
-.page-id-2511 .brandscolumn .wp-block-column {
+.partners .brandscolumn .wp-block-column {
   width: 21%;
 }
-.page-id-2511 .brandscolumn .wp-block-column:nth-child(odd) {
+.partners .brandscolumn .wp-block-column:nth-child(odd) {
   margin-left: 32px;
 }
-.page-id-2511 .brandscolumn .wp-block-column:nth-child(even) {
+.partners .brandscolumn .wp-block-column:nth-child(even) {
   margin-left: 32px;
 }
-.page-id-2511 .brandscolumn .wp-block-image img {
+.partners .brandscolumn .wp-block-image img {
   width: 100%;
 }
-.page-id-2511 .brandscolumn .wp-block-image {
+.partners .brandscolumn .wp-block-image {
   margin-bottom: 2rem !important;
   margin-top: 3rem !important;
 }
@@ -1960,7 +1978,7 @@ a:visited {
 }
 
 .page-id-2596 .footer-widgets.column-one,
-.page-id-2511 .footer-widgets.column-one,
+.partners .footer-widgets.column-one,
 .page-id-2552 .footer-widgets.column-one,
 .page-id-2615 .footer-widgets.column-one,
 .page-id-2576 .footer-widgets.column-one {
