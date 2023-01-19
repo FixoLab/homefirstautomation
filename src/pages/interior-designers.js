@@ -68,7 +68,7 @@ const InteriorDesigners = () => {
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                Let PROJECT: automate help to expand your current Los Angeles
+                Let HOMEFIRST: automate help to expand your current Los Angeles
                 business, setup a brand new point of sale location, or create a
                 top of the line <Link to="#">commercial room design.</Link>{" "}
                 Whatever your commercial application is we can help.

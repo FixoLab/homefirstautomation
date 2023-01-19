@@ -759,6 +759,7 @@ li.menu-item-3288 .fas {
   font-size: 16px;
   font-weight: 300;
 }
+
 .home .homeintrotop .wp-block-group__inner-container > p {
   font-size: 18px;
 }
@@ -1186,7 +1187,13 @@ li.menu-item-3288 .fas {
   text-decoration: none;
   padding-bottom: 3px;
 }
+.homedualcontainer .minigray a {
+  color: #cd2653 !important;
+}
 .homedualcontainer a:hover {
+  color: #007ca1 !important;
+}
+.homedualcontainer .minigray a:hover {
   color: #007ca1 !important;
 }
 .homedualcontainer a:hover .fas,

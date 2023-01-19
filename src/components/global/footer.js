@@ -90,19 +90,29 @@ const Footer = () => {
                               </div>
                               <div className="su-spoiler-content su-u-clearfix su-u-trim">
                                 <Link to="#">Smart Home Automation</Link>
-                                <Link to="#">Home Theater</Link>
-                                <Link to="#">Lighting Control</Link>
-                                <Link to="#">Multi-Room Music</Link>
-                                <Link to="#">Smart Security</Link>
-                                <Link to="#">WiFi / Networking</Link>
-                                <Link to="#">High Performance Audio</Link>
-                                <Link to="#">Commercial Integration</Link>
+                                <Link to="/home-theater">Home Theater</Link>
+                                <Link to="/lighting-systems">
+                                  Lighting Control
+                                </Link>
+                                <Link to="/smart-home-automation">
+                                  Multi-Room Music
+                                </Link>
+                                <Link to="/smart-security">Smart Security</Link>
+                                <Link to="/wifi-networking-services">
+                                  WiFi / Networking
+                                </Link>
+                                <Link to="/audio-systems">
+                                  High Performance Audio
+                                </Link>
+                                <Link to="/commercial-services">
+                                  Commercial Integration
+                                </Link>
                               </div>
                             </div>
-                            <Link to="#">Gallery</Link>
-                            <Link to="#">Brands</Link>
-                            <Link to="#">Blog</Link>
-                            <Link to="#">Contact</Link>
+                            <Link to="/portfolio">Gallery</Link>
+                            <Link to="/brands-we-carry">Brands</Link>
+                            <Link to="/blog">Blog</Link>
+                            <Link to="/contact-us">Contact</Link>
                           </div>
                         </div>
                         <div className="footerlinks3">
@@ -200,7 +210,7 @@ const Footer = () => {
           <div className="footer-credits">
             <p className="footer-copyright">
               © 2023
-              <Link to="#">PROJECT: automate</Link>
+              <Link to="#">HOMEFIRST: automate</Link>
             </p>
 
             <p className="powered-by-wordpress">
