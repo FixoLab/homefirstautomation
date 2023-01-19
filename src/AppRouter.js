@@ -12,6 +12,7 @@ const SmartHomeAutomation = React.lazy(() =>
 );
 const HomeTheater = React.lazy(() => import("./pages/home-theater"));
 const LightingSystems = React.lazy(() => import("./pages/lighting-systems"));
+const AudioSystems = React.lazy(() => import("./pages/audio-systems"));
 const Blog = React.lazy(() => import("./pages/blog"));
 const BlogDetails = React.lazy(() => import("./pages/blog-details"));
 
@@ -45,6 +46,7 @@ const AppRouter = () => {
           />
           <Route path="/home-theater" element={<HomeTheater />} />
           <Route path="/lighting-systems" element={<LightingSystems />} />
+          <Route path="/audio-systems" element={<AudioSystems />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogDetails />} />
         </Routes>
