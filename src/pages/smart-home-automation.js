@@ -91,7 +91,6 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
                   width="2000"
                   height="1503"
                   src="assets/images/home-show2-1.jpg"
@@ -109,8 +108,6 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="769"
                   src="assets/images/smart-10-1024x769.jpg"
@@ -146,8 +143,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large is-resized servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         src="assets/images/ruckus.png"
                         alt=""
                         className="wp-image-2402"
@@ -168,8 +163,6 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="770"
                   src="assets/images/smart-2-1024x770.jpg"
@@ -192,8 +185,6 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="770"
                   src="assets/images/smart-7-1024x770.jpg"
@@ -224,8 +215,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/lutron-services.png"
@@ -238,8 +227,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.png"
@@ -252,8 +239,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/knx-company-services.png"
@@ -279,8 +264,6 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1197"
                   height="900"
                   src="assets/images/home-shades.jpg"
@@ -311,8 +294,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/lutron-services-1.png"
@@ -325,8 +306,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/hunter-douglas-services.png"
@@ -339,8 +318,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/savant-services.png"
@@ -363,8 +340,6 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="931"
                   height="700"
                   src="assets/images/smart-4.jpg"
@@ -382,8 +357,6 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1915"
                   height="1440"
                   src="assets/images/home-audio-1.jpg"
@@ -406,8 +379,6 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="2396"
                   height="1600"
                   src="assets/images/home-audio1.jpg"
@@ -440,8 +411,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/control4-services.png"
@@ -454,8 +423,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.png"
@@ -468,8 +435,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.png"
@@ -495,8 +460,6 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="752"
                   src="assets/images/smart-6-1-1024x752.jpg"
@@ -528,8 +491,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/control4-services.png"
@@ -542,8 +503,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.png"
@@ -556,8 +515,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/savant-services.png"
@@ -583,8 +540,6 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1915"
                   height="1440"
                   src="assets/images/home-security1.jpg"
@@ -617,8 +572,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/alarmdotcom-services.png"
@@ -631,8 +584,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/josh-ai-services.png"
@@ -645,8 +596,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/knx-company-services.png"
@@ -672,8 +621,6 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="769"
                   src="assets/images/smart-12a-1024x769.jpg"
@@ -704,8 +651,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/josh-ai-services.png"
@@ -718,8 +663,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/knx-company-services.png"
@@ -732,8 +675,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.png"
@@ -756,8 +697,6 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="2000"
                   height="1273"
                   src="assets/images/project1-a.jpg"

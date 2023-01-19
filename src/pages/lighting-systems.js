@@ -89,7 +89,6 @@ const LightingSystems = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
                   width="2000"
                   height="1503"
                   src="assets/images/audio-9-1024x769.jpg"
@@ -107,8 +106,6 @@ const LightingSystems = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="769"
                   src="assets/images/lighting-7.jpg"
@@ -131,8 +128,6 @@ const LightingSystems = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1197"
                   height="900"
                   src="assets/images/audio-8.jpg"
@@ -161,8 +156,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/lutron-services.png"
@@ -175,8 +168,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.png"
@@ -189,8 +180,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.png"
@@ -216,8 +205,6 @@ const LightingSystems = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="770"
                   src="assets/images/lighting-1-1024x770.jpg"
@@ -248,8 +235,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/lutron-services.png"
@@ -262,8 +247,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.png"
@@ -276,8 +259,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.png"
@@ -303,8 +284,6 @@ const LightingSystems = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1197"
                   height="900"
                   src="assets/images/lighting-9-1024x683.jpg"
@@ -334,8 +313,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/lutron-services-1.png"
@@ -348,8 +325,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/hunter-douglas-services.png"
@@ -362,8 +337,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.png"
@@ -385,8 +358,6 @@ const LightingSystems = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="931"
                   height="700"
                   src="assets/images/lighting-6-1024x770.jpg"
@@ -404,8 +375,6 @@ const LightingSystems = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1915"
                   height="1440"
                   src="assets/images/audio-10-1024x769.jpg"
@@ -427,8 +396,6 @@ const LightingSystems = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="2396"
                   height="1600"
                   src="assets/images/lighting-5-1024x771.jpg"
@@ -458,8 +425,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/lutron-services.png"
@@ -472,8 +437,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.png"
@@ -486,8 +449,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.png"
@@ -512,8 +473,6 @@ const LightingSystems = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="752"
                   src="assets/images/audio-3-1024x769.jpg"
@@ -544,8 +503,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/lutron-services.png"
@@ -558,8 +515,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.png"
@@ -572,8 +527,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.png"
@@ -598,8 +551,6 @@ const LightingSystems = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1915"
                   height="1440"
                   src="assets/images/audio-2-1024x769.jpg"
@@ -627,8 +578,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/lutron-services.png"
@@ -641,8 +590,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.png"
@@ -655,8 +602,6 @@ const LightingSystems = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.png"
@@ -678,8 +623,6 @@ const LightingSystems = () => {
                 data-aos-delay="200"
               >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="2000"
                   height="1273"
                   src="assets/images/project1-a.jpg"

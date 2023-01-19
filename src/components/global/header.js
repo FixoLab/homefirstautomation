@@ -74,7 +74,6 @@ const Header = () => {
                       src="assets/images/Homefirst_Auto.png"
                       className="custom-logo"
                       alt="HOMEFIRST: automate"
-                      decoding="async"
                     />
                   </Link>
                   <span className="screen-reader-text">Homefirst</span>
