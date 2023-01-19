@@ -80,7 +80,7 @@ const Feature2 = ({ title }) => {
           data-origheight="150"
         >
           <source
-            src="images/middlearea4.mp4"
+            src="assets/video/middlearea4.mp4"
             type="video/mp4"
           />
         </video>

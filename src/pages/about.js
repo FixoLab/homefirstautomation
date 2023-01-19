@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div id="site-content">
+    <div id="site-content" className="about">
       <div className="post-inner thin ">
         <div className="entry-content">
           <div className="vce-row-container">
@@ -19,7 +19,7 @@ const About = () => {
                       width="300"
                       height="150"
                     >
-                      <source src="images/aboutus-final.mp4" type="video/mp4" />
+                      <source src="assets/video/aboutus-final.mp4" type="video/mp4" />
                     </video>
                     <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                       <div className="wp-block-group__inner-container">
@@ -89,7 +89,7 @@ const About = () => {
                           width="335"
                           height="61"
                           className="wp-image-695"
-                          src="images/signature.png"
+                          src="assets/images/signature.png"
                           alt=""
                         />
                       </div>
@@ -108,7 +108,7 @@ const About = () => {
                           <img
                             decoding="async"
                             style={{ display: "block" }}
-                            src="images/boha-2019-solid-border.png"
+                            src="assets/images/boha-2019-solid-border.png"
                             alt="Project Automate - Best of HomeAdvisor"
                           />
                         </Link>
@@ -123,7 +123,7 @@ const About = () => {
                               <td>
                                 <Link to="#">
                                   <img
-                                    src="images/badge125_125@2x.png"
+                                    src="assets/images/badge125_125@2x.png"
                                     alt="Joshua Trevithick in Los Angeles, CA on Houzz"
                                     width="125"
                                     height="125"
@@ -144,7 +144,7 @@ const About = () => {
                               <td>
                                 <Link to="#">
                                   <img
-                                    src="images/badge_54_8@2x.png"
+                                    src="assets/images/badge_54_8@2x.png"
                                     alt="Joshua Trevithick in Los Angeles, CA on Houzz"
                                     width="80"
                                     height="80"
@@ -160,7 +160,7 @@ const About = () => {
                             width="376"
                             height="365"
                             className="wp-image-566"
-                            src="images/cedia2-logo.png"
+                            src="assets/images/cedia2-logo.png"
                             alt=""
                           />
                         </figure>
@@ -174,7 +174,7 @@ const About = () => {
                           <img
                             id="bbblinkimg"
                             style={{ padding: "0px", border: "none" }}
-                            src="images/project1.png"
+                            src="assets/images/project1.png"
                             alt="Project Automate, Audio Visual Equipment, Los Angeles, CA"
                             width="400"
                             height="90"
@@ -185,7 +185,7 @@ const About = () => {
                             width="675"
                             height="690"
                             className="wp-image-536"
-                            src="images/control4gold-logo.png"
+                            src="assets/images/control4gold-logo.png"
                             alt=""
                           />
                         </figure>
@@ -194,7 +194,7 @@ const About = () => {
                             <Link to="#">
                               <img
                                 className="wp-image-3276"
-                                src="images/cediacit.png"
+                                src="assets/images/cediacit.png"
                                 alt=""
                                 width="159"
                                 height="159"
@@ -214,7 +214,7 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-545"
-                            src="images/1.jpg"
+                            src="assets/images/1.jpg"
                             alt=""
                           />
                           <figcaption>
@@ -229,7 +229,7 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-555"
-                            src="images/11.jpg"
+                            src="assets/images/11.jpg"
                             alt=""
                           />
                           <figcaption>
@@ -247,7 +247,7 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-552"
-                            src="images/8.jpg"
+                            src="assets/images/8.jpg"
                             alt=""
                           />
                           <figcaption>
@@ -265,7 +265,7 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-548"
-                            src="images/4.jpg"
+                            src="assets/images/4.jpg"
                             alt=""
                           />
                           <figcaption>
@@ -280,7 +280,7 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-556"
-                            src="images/12.jpg"
+                            src="assets/images/12.jpg"
                             alt=""
                           />
                           <figcaption>
@@ -298,7 +298,7 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-550"
-                            src="images/6.jpg"
+                            src="assets/images/6.jpg"
                             alt=""
                           />
                           <figcaption>
