@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div id="site-content" className="contact-us-video">
+    <div id="site-content" className="contact-us-page">
       <div className="post-inner thin ">
         <div className="entry-content">
           <div className="vce-row-container" data-vce-boxed-width="true">
@@ -43,7 +43,7 @@ const ContactUs = () => {
                                 height="150"
                               >
                                 <source
-                                  src="https://www.projectautomate.com/wp-content/uploads/2020/09/contact-final.mp4"
+                                  src="assets/video/contact-final-video.mp4"
                                   type="video/mp4"
                                 />
                               </video>
@@ -243,7 +243,16 @@ const ContactUs = () => {
                                               id="g-recaptcha-response"
                                               name="g-recaptcha-response"
                                               className="g-recaptcha-response"
-                                              style={{width: "250px", height: "40px", border: "1px solid rgb(193, 193, 193)", margin: "10px 25px", padding: "0px", resize: "none", display: "none"}}
+                                              style={{
+                                                width: "250px",
+                                                height: "40px",
+                                                border:
+                                                  "1px solid rgb(193, 193, 193)",
+                                                margin: "10px 25px",
+                                                padding: "0px",
+                                                resize: "none",
+                                                display: "none",
+                                              }}
                                             ></textarea>
                                           </div>
                                         </span>

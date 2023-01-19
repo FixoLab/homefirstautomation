@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const StartYourProject = () => {
   return (
     <>
-      <main id="site-content" role="main">
+      <main id="site-content" className="start-your-project" role="main">
         <article
           className="post-1884 page type-page status-publish hentry odd"
           id="post-1884"
@@ -438,9 +438,9 @@ const StartYourProject = () => {
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.8819133803872!2d-118.43925378478643!3d33.99556678062137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba61a5c07e1f%3A0xed961dabad73c8cd!2s12794%20Washington%20Blvd%2C%20Los%20Angeles%2C%20CA%2090066!5e0!3m2!1sen!2sus!4v1600373688107!5m2!1sen!2sus"
                     style={{border: "0px", width: "1902px", height: "1426.5px"}}
-                    allowfullscreen=""
+                    allowFullScreen=""
                     aria-hidden="false"
-                    tabindex="0"
+                    tabIndex="0"
                     width="600"
                     height="450"
                     title="map"
