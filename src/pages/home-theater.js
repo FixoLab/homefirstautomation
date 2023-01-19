@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const SmartHomeAutomation = () => {
+const HomeTheater = () => {
   return (
     <div id="site-content">
       <div className="post-inner thin ">
@@ -19,7 +19,7 @@ const SmartHomeAutomation = () => {
                 height="150"
               >
                 <source
-                  src="assets/video/smart-services-new-final.mp4"
+                  src="assets/video/theater-services-final.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -33,7 +33,7 @@ const SmartHomeAutomation = () => {
                     data-aos-delay="400"
                   >
                     <div className="wp-block-group__inner-container">
-                      <h1>Smart Home Automation</h1>
+                      <h1>HOME THEATER</h1>
 
                       <p>
                         <a href="#1">Networking</a>
@@ -73,11 +73,10 @@ const SmartHomeAutomation = () => {
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                Over the last 2 decades Project Automate has been the industry
-                leader for clients that strive for the the latest in technology
-                mixed with the best design possible for their projects. Whether
-                it be a private residence, local business, or advertising
-                display.
+                A great movie can only be increased by a great home theater
+                installation. This includes audio, visuals, and the smart home
+                experience. Find out how we can blend a top tier home theater
+                system seamlessly into your Los Angeles property.
               </p>
             </div>
           </div>
@@ -94,7 +93,7 @@ const SmartHomeAutomation = () => {
                   decoding="async"
                   width="2000"
                   height="1503"
-                  src="assets/images/home-show2-1.jpg"
+                  src="assets/images/theater-18-1024x769.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -113,7 +112,7 @@ const SmartHomeAutomation = () => {
                   loading="lazy"
                   width="1024"
                   height="769"
-                  src="assets/images/smart-10-1024x769.jpg"
+                  src="assets/images/theater-19-1024x770.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -122,9 +121,28 @@ const SmartHomeAutomation = () => {
           </div>
 
           <div
-            className="is-layout-flex wp-container-12 wp-block-columns alignfull servicesdualcontainer"
+            className="is-layout-flex wp-container-20 wp-block-columns alignfull servicesdualcontainer reversetheflex"
             id="1"
           >
+            <div className="is-layout-flow wp-block-column servicesimages">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
+                <img
+                  decoding="async"
+                  loading="lazy"
+                  width="1197"
+                  height="900"
+                  src="assets/images/theater-10-1024x769.jpg"
+                  alt=""
+                  className="wp-image-846"
+                />
+              </figure>
+            </div>
+
             <div className="is-layout-flow wp-block-column servicesimages">
               <div
                 className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
@@ -133,50 +151,60 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>Wifi / Networking</h2>
+                  <h2>KITCHEN</h2>
 
                   <p className="pointsmade homeauto">
-                    Enjoy your private residence without wires obstructing your
-                    view from the public’s eye. Our WiFi systems are the top of
-                    the line and nothing can compare. Give a simple home WiFi, a
-                    multiple room home, or an entire office building. There is
-                    no WiFi or networking project to large for us to handle.
+                    A person can spend more than 10% of their life in the
+                    kitchen. Why not enjoy it to the maximum. Have us add in
+                    audio and visual systems that are hidden from the eye. With
+                    a simple click your picture turns into a TV, your cabinets
+                    start playing your favorite music, and your dinning
+                    experience is elevated.
                   </p>
 
-                  <figure className="wp-block-image size-large is-resized servicebrands">
+                  <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
                         decoding="async"
                         loading="lazy"
-                        src="assets/images/ruckus.png"
+                        width="180"
+                        height="180"
+                        src="assets/images/control4-services.png"
                         alt=""
-                        className="wp-image-2402"
-                        width="150"
-                        height="150"
+                        className="wp-image-2424"
+                      />
+                    </Link>
+                  </figure>
+
+                  <figure className="wp-block-image size-large servicebrands">
+                    <Link to="#">
+                      <img
+                        decoding="async"
+                        loading="lazy"
+                        width="180"
+                        height="180"
+                        src="assets/images/savant-services.png"
+                        alt=""
+                        className="wp-image-2425"
+                      />
+                    </Link>
+                  </figure>
+
+                  <figure className="wp-block-image size-large servicebrands">
+                    <Link to="#">
+                      <img
+                        decoding="async"
+                        loading="lazy"
+                        width="180"
+                        height="180"
+                        src="assets/images/crestron-services.png"
+                        alt=""
+                        className="wp-image-2426"
                       />
                     </Link>
                   </figure>
                 </div>
               </div>
-            </div>
-
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  decoding="async"
-                  loading="lazy"
-                  width="1024"
-                  height="770"
-                  src="assets/images/smart-2-1024x770.jpg"
-                  alt=""
-                  className="wp-image-1544"
-                />
-              </figure>
             </div>
           </div>
 
@@ -196,7 +224,7 @@ const SmartHomeAutomation = () => {
                   loading="lazy"
                   width="1024"
                   height="770"
-                  src="assets/images/smart-7-1024x770.jpg"
+                  src="assets/images/theater-5-1024x770.jpg"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -211,14 +239,13 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>Smart Lighting</h2>
+                  <h2>BEDROOM</h2>
 
                   <p className="pointsmade homeauto">
-                    Our patented software system control4 allows you to control
-                    every light in your house. Create dynamic lighting effects
-                    for movies, or a smooth lighting setup for an intimate
-                    night. You’re only hindered by your imagination, and you can
-                    always ask our professionals for opinions.
+                    Wake up to your favorite news segment playing, or just lay
+                    the day away watching all the latest movies. The option is
+                    yours. Our job is to make it as comfortable, audio stunning,
+                    and visually stunning as possible.
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
@@ -228,9 +255,9 @@ const SmartHomeAutomation = () => {
                         loading="lazy"
                         width="180"
                         height="180"
-                        src="assets/images/lutron-services.png"
+                        src="assets/images/control4-services.png"
                         alt=""
-                        className="wp-image-2420"
+                        className="wp-image-2424"
                       />
                     </Link>
                   </figure>
@@ -242,9 +269,9 @@ const SmartHomeAutomation = () => {
                         loading="lazy"
                         width="180"
                         height="180"
-                        src="assets/images/coastalsource-services.png"
+                        src="assets/images/savant-services.png"
                         alt=""
-                        className="wp-image-2428"
+                        className="wp-image-2425"
                       />
                     </Link>
                   </figure>
@@ -256,9 +283,9 @@ const SmartHomeAutomation = () => {
                         loading="lazy"
                         width="180"
                         height="180"
-                        src="assets/images/knx-company-services.png"
+                        src="assets/images/crestron-services.png"
                         alt=""
-                        className="wp-image-2433"
+                        className="wp-image-2426"
                       />
                     </Link>
                   </figure>
@@ -283,7 +310,7 @@ const SmartHomeAutomation = () => {
                   loading="lazy"
                   width="1197"
                   height="900"
-                  src="assets/images/home-shades.jpg"
+                  src="assets/images/theater-8.jpg"
                   alt=""
                   className="wp-image-846"
                 />
@@ -298,14 +325,12 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>Smart Shading</h2>
+                  <h2>LIVING ROOM</h2>
 
                   <p className="pointsmade homeauto">
-                    We use only the top of the line shading systems for Los
-                    Angeles homes. Control your custom roller shades and
-                    motorized blinds with ease with a set timer, voice
-                    controlled, or with our top of the line smart technology
-                    systems on your phone, tablet, or computer.
+                    Have your living room work with only the top end audio and
+                    visual settings. We at PROJECT: automate can mold any living
+                    room into a state of the art home theater setup.
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
@@ -353,7 +378,6 @@ const SmartHomeAutomation = () => {
               </div>
             </div>
           </div>
-
           <div className="is-layout-flex wp-container-23 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
               <figure
@@ -367,7 +391,7 @@ const SmartHomeAutomation = () => {
                   loading="lazy"
                   width="931"
                   height="700"
-                  src="assets/images/smart-4.jpg"
+                  src="assets/images/theater-14-1024x770.jpg"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -386,14 +410,13 @@ const SmartHomeAutomation = () => {
                   loading="lazy"
                   width="1915"
                   height="1440"
-                  src="assets/images/home-audio-1.jpg"
+                  src="assets/images/theater-6-1024x770.jpg"
                   alt=""
                   className="wp-image-847"
                 />
               </figure>
             </div>
           </div>
-
           <div
             className="is-layout-flex wp-container-27 wp-block-columns alignfull servicesdualcontainer"
             id="4"
@@ -410,7 +433,7 @@ const SmartHomeAutomation = () => {
                   loading="lazy"
                   width="2396"
                   height="1600"
-                  src="assets/images/home-audio1.jpg"
+                  src="assets/images/theater-2-1024x770.jpg"
                   alt=""
                   className="wp-image-848"
                 />
@@ -425,16 +448,13 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>Smart Audio Systems</h2>
+                  <h2>GAME ROOM</h2>
 
                   <p className="pointsmade homeauto">
-                    Create top tier audio systems completely out of view and
-                    listen to your favorite musical pieces inside the house, or
-                    even outside by the pool relaxing or entertaining guests in
-                    sunny Los Angeles. With a Crestron Home or{" "}
-                    <Link to="#">Control4 installation</Link>, you can fully
-                    control song selection, audio levels, and pretty much every
-                    audio style you can imagine.
+                    Want a private, public, or retail game room? We can create
+                    that theater system. We will work with our design team, or
+                    yours to create something that is visually stunning, and
+                    easy for all your guests to interact with.
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
@@ -446,7 +466,21 @@ const SmartHomeAutomation = () => {
                         height="180"
                         src="assets/images/control4-services.png"
                         alt=""
-                        className="wp-image-2435"
+                        className="wp-image-2424"
+                      />
+                    </Link>
+                  </figure>
+
+                  <figure className="wp-block-image size-large servicebrands">
+                    <Link to="#">
+                      <img
+                        decoding="async"
+                        loading="lazy"
+                        width="180"
+                        height="180"
+                        src="assets/images/savant-services.png"
+                        alt=""
+                        className="wp-image-2425"
                       />
                     </Link>
                   </figure>
@@ -460,21 +494,7 @@ const SmartHomeAutomation = () => {
                         height="180"
                         src="assets/images/crestron-services.png"
                         alt=""
-                        className="wp-image-2429"
-                      />
-                    </Link>
-                  </figure>
-
-                  <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
-                      <img
-                        decoding="async"
-                        loading="lazy"
-                        width="180"
-                        height="180"
-                        src="assets/images/coastalsource-services.png"
-                        alt=""
-                        className="wp-image-2428"
+                        className="wp-image-2426"
                       />
                     </Link>
                   </figure>
@@ -482,7 +502,6 @@ const SmartHomeAutomation = () => {
               </div>
             </div>
           </div>
-
           <div
             className="is-layout-flex wp-container-31 wp-block-columns alignfull servicesdualcontainer reversetheflex"
             id="5"
@@ -499,7 +518,7 @@ const SmartHomeAutomation = () => {
                   loading="lazy"
                   width="1024"
                   height="752"
-                  src="assets/images/smart-6-1-1024x752.jpg"
+                  src="assets/images/theater-16-1024x769.jpg"
                   alt=""
                   className="wp-image-1711"
                 />
@@ -514,15 +533,14 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>Smart Theater Systems</h2>
+                  <h2>THEATER ROOM</h2>
 
                   <p className="pointsmade homeauto">
-                    Have the ultimate viewing experience with smart technology
-                    added. With a click of a button or specific phrase turn on
-                    your desired lighting setup, have your projector screen pop
-                    up or down, and start enjoying the latest cinematic
-                    masterpieces. Or smart theater systems allow you to easily
-                    control everything without leaving the couch.{" "}
+                    Create the ultimate viewing experience for you home. Have us
+                    design and build a theater room that nothing can come close
+                    to. Or have us upgrade your current system with all the
+                    latest and greatest in audio, visual, and smart
+                    technologies.
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
@@ -534,21 +552,7 @@ const SmartHomeAutomation = () => {
                         height="180"
                         src="assets/images/control4-services.png"
                         alt=""
-                        className="wp-image-2435"
-                      />
-                    </Link>
-                  </figure>
-
-                  <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
-                      <img
-                        decoding="async"
-                        loading="lazy"
-                        width="180"
-                        height="180"
-                        src="assets/images/crestron-services.png"
-                        alt=""
-                        className="wp-image-2429"
+                        className="wp-image-2424"
                       />
                     </Link>
                   </figure>
@@ -562,6 +566,20 @@ const SmartHomeAutomation = () => {
                         height="180"
                         src="assets/images/savant-services.png"
                         alt=""
+                        className="wp-image-2425"
+                      />
+                    </Link>
+                  </figure>
+
+                  <figure className="wp-block-image size-large servicebrands">
+                    <Link to="#">
+                      <img
+                        decoding="async"
+                        loading="lazy"
+                        width="180"
+                        height="180"
+                        src="assets/images/crestron-services.png"
+                        alt=""
                         className="wp-image-2426"
                       />
                     </Link>
@@ -570,7 +588,6 @@ const SmartHomeAutomation = () => {
               </div>
             </div>
           </div>
-
           <div
             className="is-layout-flex wp-container-35 wp-block-columns alignfull servicesdualcontainer"
             id="6"
@@ -587,7 +604,7 @@ const SmartHomeAutomation = () => {
                   loading="lazy"
                   width="1915"
                   height="1440"
-                  src="assets/images/home-security1.jpg"
+                  src="assets/images/theater-3-1024x770.jpg"
                   alt=""
                   className="wp-image-845"
                 />
@@ -602,16 +619,13 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>Smart Security Systems</h2>
+                  <h2>OUTDOOR THEATER</h2>
 
                   <p className="pointsmade homeauto">
-                    Gain piece of mind with a click of a button with the top
-                    tier security systems out there. Use top of the line cameras
-                    and view everything going on around your residence on your
-                    phone. Set up alert prompts to instantly call emergency
-                    services if need be. Auto lock your front doors after a set
-                    time period, and open them up with a click of a button on
-                    your phone. Welcome to the future of security.{" "}
+                    Watch your videos in style with an outdoor theater system.
+                    These systems can be customized for any weather condition.
+                    From sunny California, to a rainy day in the northwest. Our
+                    outdoor theater systems can do it all.
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
@@ -621,9 +635,9 @@ const SmartHomeAutomation = () => {
                         loading="lazy"
                         width="180"
                         height="180"
-                        src="assets/images/alarmdotcom-services.png"
+                        src="assets/images/control4-services.png"
                         alt=""
-                        className="wp-image-2438"
+                        className="wp-image-2424"
                       />
                     </Link>
                   </figure>
@@ -635,96 +649,9 @@ const SmartHomeAutomation = () => {
                         loading="lazy"
                         width="180"
                         height="180"
-                        src="assets/images/josh-ai-services.png"
+                        src="assets/images/savant-services.png"
                         alt=""
-                        className="wp-image-2437"
-                      />
-                    </Link>
-                  </figure>
-
-                  <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
-                      <img
-                        decoding="async"
-                        loading="lazy"
-                        width="180"
-                        height="180"
-                        src="assets/images/knx-company-services.png"
-                        alt=""
-                        className="wp-image-2433"
-                      />
-                    </Link>
-                  </figure>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div
-            className="is-layout-flex wp-container-39 wp-block-columns alignfull servicesdualcontainer reversetheflex"
-            id="5"
-          >
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  decoding="async"
-                  loading="lazy"
-                  width="1024"
-                  height="769"
-                  src="assets/images/smart-12a-1024x769.jpg"
-                  alt=""
-                  className="wp-image-2491"
-                />
-              </figure>
-            </div>
-
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <div
-                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
-              >
-                <div className="wp-block-group__inner-container">
-                  <h2>Smart Video Conferencing</h2>
-
-                  <p className="pointsmade homeauto">
-                    Talk with friends, family, coworkers, and more with a smart
-                    home conferencing system. PROJECT: automate can analyze your
-                    current setup, install a top of the line model, and give you
-                    a quick run down of all your new features. Video
-                    conferencing has never been easier.{" "}
-                  </p>
-
-                  <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
-                      <img
-                        decoding="async"
-                        loading="lazy"
-                        width="180"
-                        height="180"
-                        src="assets/images/josh-ai-services.png"
-                        alt=""
-                        className="wp-image-2437"
-                      />
-                    </Link>
-                  </figure>
-
-                  <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
-                      <img
-                        decoding="async"
-                        loading="lazy"
-                        width="180"
-                        height="180"
-                        src="assets/images/knx-company-services.png"
-                        alt=""
-                        className="wp-image-2433"
+                        className="wp-image-2425"
                       />
                     </Link>
                   </figure>
@@ -738,7 +665,7 @@ const SmartHomeAutomation = () => {
                         height="180"
                         src="assets/images/crestron-services.png"
                         alt=""
-                        className="wp-image-2429"
+                        className="wp-image-2426"
                       />
                     </Link>
                   </figure>
@@ -746,7 +673,6 @@ const SmartHomeAutomation = () => {
               </div>
             </div>
           </div>
-
           <div className="is-layout-flex wp-container-42 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages homeprojectdisplay">
               <figure
@@ -798,4 +724,4 @@ const SmartHomeAutomation = () => {
   );
 };
 
-export default SmartHomeAutomation;
+export default HomeTheater;
