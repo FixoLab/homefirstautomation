@@ -4,7 +4,7 @@ import CallToAction from "../components/call-to-action";
 
 const BrandsWeCarry = () => {
   return (
-    <div id="site-content">
+    <div id="site-content" className="brands">
       <div className="post-inner thin ">
         <div className="entry-content">
           <p></p>
