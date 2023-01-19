@@ -631,6 +631,9 @@ body:not(.overlay-header) #site-header .toggle,
 .is-sticky .goingup#site-header.topscroll ul li a:hover {
   color: #58c7f1 !important;
 }
+.show-modal.active .ancestor-wrapper a {
+  color: #fff !important;
+}
 .menu-modal nav * {
   border-color: #262626;
 }
