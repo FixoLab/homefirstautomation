@@ -6,6 +6,7 @@ import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
 const Home = React.lazy(() => import("./pages/home"));
+const StartYourProject = React.lazy(() => import("./pages/start-your-project"));
 const About = React.lazy(() => import("./pages/about"));
 const SmartHomeAutomation = React.lazy(() =>
   import("./pages/smart-home-automation")
@@ -20,6 +21,8 @@ const WifiNetworkingServices = React.lazy(() =>
 const CommercialServices = React.lazy(() =>
   import("./pages/commercial-services")
 );
+const Portfolio = React.lazy(() => import("./pages/portfolio"));
+const BrandsWeCarry = React.lazy(() => import("./pages/brands-we-carry"));
 const Blog = React.lazy(() => import("./pages/blog"));
 const BlogDetails = React.lazy(() => import("./pages/blog-details"));
 
@@ -46,6 +49,7 @@ const AppRouter = () => {
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
+         
           <Route path="/about" element={<About />} />
           <Route
             path="/smart-home-automation"
@@ -60,8 +64,14 @@ const AppRouter = () => {
             element={<WifiNetworkingServices />}
           />
           <Route path="/commercial-services" element={<CommercialServices />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/brands-we-carry" element={<BrandsWeCarry />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogDetails />} />
+          <Route
+            path="/start-your-project"
+            element={<StartYourProject />}
+          />
         </Routes>
         <Footer />
       </Suspense>

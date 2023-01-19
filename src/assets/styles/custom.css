@@ -631,6 +631,9 @@ body:not(.overlay-header) #site-header .toggle,
 .is-sticky .goingup#site-header.topscroll ul li a:hover {
   color: #58c7f1 !important;
 }
+.show-modal.active .ancestor-wrapper a {
+  color: #fff !important;
+}
 .menu-modal nav * {
   border-color: #262626;
 }
@@ -898,6 +901,27 @@ li.menu-item-3288 .fas {
   margin: 0px auto !important;
   padding: 0px 30px 30px !important;
 }
+
+.serviceswhitebackground .brandscolumn p.learnmorebutton {
+  text-align: center;
+  background: #f1f1f1;
+  border-radius: 0px 0px 10px 10px;
+  padding: 0px !important;
+  position: absolute;
+  bottom: 0px;
+}
+.serviceswhitebackground .brandscolumn p.learnmorebutton:hover {
+  background: #e1e1e1;
+}
+.serviceswhitebackground .brandscolumn p.learnmorebutton a {
+  text-decoration: none;
+  font-weight: 300;
+  color: #333 !important;
+  width: 100%;
+  display: block;
+  padding: 20px 30px !important;
+}
+
 .servicesimages .wp-block-image {
   margin: 0px !important;
   width: 100%;
@@ -1495,15 +1519,15 @@ a:visited {
   margin: 0px auto;
   padding: 0px 30px;
 }
-.page-id-1435 .wp-block-group.homevideo.servicespages {
+.brands .wp-block-group.homevideo.servicespages {
   height: 60vh;
 }
-.page-id-1435
+.brands
   .wp-block-group.homevideo.servicespages
   > .wp-block-group__inner-container {
   height: 60vh;
 }
-.page-id-1435 .fullimagetop {
+.brands .fullimagetop {
   height: 60vh;
 }
 .brandscolumn .wp-block-column {
