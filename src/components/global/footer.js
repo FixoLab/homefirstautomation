@@ -23,7 +23,6 @@ const Footer = () => {
                         <div className="footerlinks1">
                           <Link to="#">
                             <img
-                              decoding="async"
                               src="assets/images/Homefirst_Auto.png"
                               alt="project automate logo"
                               width="200"

@@ -5,7 +5,6 @@ import Header from "./components/global/header";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
-
 const Home = React.lazy(() => import("./pages/home"));
 const StartYourProject = React.lazy(() => import("./pages/start-your-project"));
 const About = React.lazy(() => import("./pages/about"));
@@ -28,7 +27,10 @@ const Partners = React.lazy(() => import("./pages/partners"));
 const Blog = React.lazy(() => import("./pages/blog"));
 const BlogDetails = React.lazy(() => import("./pages/blog-details"));
 
-const InteriorDesigners = React.lazy(() => import("./pages/interior-designers"));
+const InteriorDesigners = React.lazy(() =>
+  import("./pages/interior-designers")
+);
+const Savant = React.lazy(() => import("./pages/savant"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -76,6 +78,7 @@ const AppRouter = () => {
           <Route path="/start-your-project" element={<StartYourProject />} />
 
           <Route path="/interior-designers" element={<InteriorDesigners />} />
+          <Route path="/savant" element={<Savant />} />
         </Routes>
         <Footer />
       </Suspense>

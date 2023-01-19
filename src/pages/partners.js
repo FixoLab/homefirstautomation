@@ -38,7 +38,6 @@ const Partners = () => {
                 <div className="is-layout-flow wp-block-column">
                   <figure className="wp-block-image size-large">
                     <img
-                      decoding="async"
                       width="900"
                       height="450"
                       src="assets/images/main-interior-1.jpg"
@@ -54,8 +53,6 @@ const Partners = () => {
                 <div className="is-layout-flow wp-block-column">
                   <figure className="wp-block-image size-large">
                     <img
-                      decoding="async"
-                      loading="lazy"
                       width="900"
                       height="450"
                       src="assets/images/main-builder-1.jpg"
@@ -72,8 +69,6 @@ const Partners = () => {
                 <div className="is-layout-flow wp-block-column">
                   <figure className="wp-block-image size-large">
                     <img
-                      decoding="async"
-                      loading="lazy"
                       width="900"
                       height="450"
                       src="assets/images/main-architect-1.jpg"
@@ -91,8 +86,6 @@ const Partners = () => {
                 <div className="is-layout-flow wp-block-column">
                   <figure className="wp-block-image size-large">
                     <img
-                      decoding="async"
-                      loading="lazy"
                       width="900"
                       height="450"
                       src="assets/images/main-realtor-1.jpg"
@@ -139,8 +132,8 @@ const Partners = () => {
                 We at PROJECT: automate work with hundreds of suppliers,
                 clients, and businesses throughout Los Angeles. Joining our
                 Partner Program gives you access to one of the nation’s leading
-                certified <Link to="#">Savant dealers</Link> and smart home
-                installers.{" "}
+                certified <Link to="/savant">Savant dealers</Link> and smart
+                home installers.{" "}
               </p>
               <div className="is-layout-flex wp-container-17 wp-block-columns partners3column">
                 <div className="is-layout-flow wp-block-column">

@@ -1469,6 +1469,14 @@ p a:visited {
   color: #cd2653;
   text-decoration: none;
 }
+.partners .serviceswhitebackground p a {
+  color: #cd2653 !important;
+  text-decoration: underline;
+}
+.partners .serviceswhitebackground p a:hover {
+  color: #cd2653 !important;
+  text-decoration: none;
+}
 .single-post.singular a:link,
 a:visited {
   color: #333;
