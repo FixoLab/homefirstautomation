@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -121,13 +121,13 @@ const Header = () => {
                     id="menu-item-1903"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1903"
                   >
-                    <Link to="start-your-project/">Start Your Project</Link>
+                    <Link to="start-your-project">Start Your Project</Link>
                   </li>
                   <li
                     id="menu-item-484"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"
                   >
-                    <Link to="about">About</Link>
+                    <Link to="/about">About</Link>
                   </li>
                   <li
                     id="menu-item-459"
@@ -140,7 +140,9 @@ const Header = () => {
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
-                        <Link to="/smart-home-automation">Smart Home Automation</Link>
+                        <Link to="/smart-home-automation">
+                          Smart Home Automation
+                        </Link>
                       </li>
                       <li
                         id="menu-item-924"
@@ -164,13 +166,13 @@ const Header = () => {
                         id="menu-item-1604"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1604"
                       >
-                        <Link to="smart-security">Smart Security</Link>
+                        <Link to="/smart-security">Smart Security</Link>
                       </li>
                       <li
                         id="menu-item-1603"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1603"
                       >
-                        <Link to="wifi-networking-services">
+                        <Link to="/wifi-networking-services">
                           WiFi / Networking
                         </Link>
                       </li>
@@ -178,7 +180,9 @@ const Header = () => {
                         id="menu-item-1602"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"
                       >
-                        <Link to="commercial-services">Commercial Integration</Link>
+                        <Link to="/commercial-services">
+                          Commercial Integration
+                        </Link>
                       </li>
                     </ul>
                   </li>
@@ -186,13 +190,13 @@ const Header = () => {
                     id="menu-item-1041"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1041"
                   >
-                    <Link to="#">Portfolio</Link>
+                    <Link to="/portfolio">Portfolio</Link>
                   </li>
                   <li
                     id="menu-item-1539"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1539"
                   >
-                    <Link to="#">Brands</Link>
+                    <Link to="brands-we-carry">Brands</Link>
                   </li>
                   <li
                     id="menu-item-2848"
@@ -274,7 +278,7 @@ const Header = () => {
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-484">
                     <div className="ancestor-wrapper">
-                      <Link href="about">About</Link>
+                      <Link href="/about">About</Link>
                     </div>
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-459">
@@ -315,51 +319,55 @@ const Header = () => {
                     <ul className={`sub-menu ${subMenuActive ? "active" : ""}`}>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                         <div className="ancestor-wrapper">
-                          <Link to="#">Smart Home Automation</Link>
+                          <Link to="/smart-home-automation">
+                            Smart Home Automation
+                          </Link>
                         </div>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-924">
                         <div className="ancestor-wrapper">
-                          <Link to="#">Home Theater</Link>
+                          <Link to="/home-theater">Home Theater</Link>
                         </div>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-955">
                         <div className="ancestor-wrapper">
-                          <Link to="#">Lighting Systems</Link>
+                          <Link to="/lighting-systems">Lighting Systems</Link>
                         </div>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
                         <div className="ancestor-wrapper">
-                          <Link to="#">Audio Solutions</Link>
+                          <Link to="/audio-systems">Audio Solutions</Link>
                         </div>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1604">
                         <div className="ancestor-wrapper">
-                          <Link to="#">Smart Security</Link>
+                          <Link to="/smart-security">Smart Security</Link>
                         </div>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1603">
                         <div className="ancestor-wrapper">
-                          <Link to="wifi-networking-services/">
+                          <Link to="/wifi-networking-services">
                             WiFi / Networking
                           </Link>
                         </div>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602">
                         <div className="ancestor-wrapper">
-                          <Link to="#">Commercial Integration</Link>
+                          <Link to="/commercial-services">
+                            Commercial Integration
+                          </Link>
                         </div>
                       </li>
                     </ul>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1041">
                     <div className="ancestor-wrapper">
-                      <Link to="#">Portfolio</Link>
+                      <Link to="/portfolio">Portfolio</Link>
                     </div>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1539">
                     <div className="ancestor-wrapper">
-                      <Link to="#">Brands</Link>
+                      <Link to="brands-we-carry">Brands</Link>
                     </div>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2848">
