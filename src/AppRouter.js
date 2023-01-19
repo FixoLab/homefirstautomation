@@ -20,9 +20,8 @@ const WifiNetworkingServices = React.lazy(() =>
 const CommercialServices = React.lazy(() =>
   import("./pages/commercial-services")
 );
-const Portfolio = React.lazy(() =>
-  import("./pages/portfolio")
-);
+const Portfolio = React.lazy(() => import("./pages/portfolio"));
+const BrandsWeCarry = React.lazy(() => import("./pages/brands-we-carry"));
 const Blog = React.lazy(() => import("./pages/blog"));
 const BlogDetails = React.lazy(() => import("./pages/blog-details"));
 
@@ -64,6 +63,7 @@ const AppRouter = () => {
           />
           <Route path="/commercial-services" element={<CommercialServices />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/brands-we-carry" element={<BrandsWeCarry />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogDetails />} />
         </Routes>

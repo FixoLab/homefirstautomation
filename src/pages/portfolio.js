@@ -102,7 +102,7 @@ const Portfolio = () => {
             className="is-layout-flex wp-container-20 wp-block-columns alignfull servicesdualcontainer reversetheflex"
             id="1"
           >
-            <div class="is-layout-flow wp-block-column servicesimages sidevideo">
+            <div className="is-layout-flow wp-block-column servicesimages sidevideo">
               <figure
                 className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
                 data-aos="fade-up"
@@ -192,7 +192,7 @@ const Portfolio = () => {
             className="is-layout-flex wp-container-16 wp-block-columns alignfull servicesdualcontainer"
             id="2"
           >
-            <div class="is-layout-flow wp-block-column servicesimages sidevideo">
+            <div className="is-layout-flow wp-block-column servicesimages sidevideo">
               <figure
                 className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
                 data-aos="fade-up"
@@ -284,7 +284,7 @@ const Portfolio = () => {
             className="is-layout-flex wp-container-20 wp-block-columns alignfull servicesdualcontainer reversetheflex"
             id="3"
           >
-            <div class="is-layout-flow wp-block-column servicesimages sidevideo">
+            <div className="is-layout-flow wp-block-column servicesimages sidevideo">
               <figure
                 className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
                 data-aos="fade-up"
