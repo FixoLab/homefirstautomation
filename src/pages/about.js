@@ -114,7 +114,6 @@ const About = () => {
                           to="#"
                         >
                           <img
-                            decoding="async"
                             style={{ display: "block" }}
                             src="assets/images/boha-2019-solid-border.png"
                             alt="Project Automate - Best of HomeAdvisor"
