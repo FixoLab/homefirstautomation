@@ -2,8 +2,6 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Skeleton from "react-loading-skeleton";
 import { useParams } from "react-router";
-import { Link } from "react-router-dom";
-import StartYourProject from "./start-your-project";
 const api_domain = process.env.REACT_APP_DOMAIN;
 
 const BlogDetails = () => {
