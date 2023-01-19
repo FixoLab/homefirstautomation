@@ -73,7 +73,7 @@ const Header = () => {
                       height="90"
                       src="images/Homefirst_Auto.png"
                       className="custom-logo"
-                      alt="PROJECT: automate"
+                      alt="HOMEFIRST: automate"
                       decoding="async"
                     />
                   </Link>
