@@ -26,7 +26,12 @@ const SmartHomeAutomation = () => {
 
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
-                  <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+                  <div
+                    className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="400"
+                  >
                     <div className="wp-block-group__inner-container">
                       <h1>Smart Home Automation</h1>
 
@@ -62,7 +67,12 @@ const SmartHomeAutomation = () => {
 
           <div className="is-layout-flow wp-block-group serviceswhitebackground">
             <div className="wp-block-group__inner-container">
-              <p className="has-text-align-center servicesleader eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <p
+                className="has-text-align-center servicesleader eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 Over the last 2 decades Project Automate has been the industry
                 leader for clients that strive for the the latest in technology
                 mixed with the best design possible for their projects. Whether
@@ -74,9 +84,13 @@ const SmartHomeAutomation = () => {
 
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <img
-                  decoding="async"
                   width="2000"
                   height="1503"
                   src="assets/images/home-show2-1.jpg"
@@ -87,10 +101,13 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="769"
                   src="assets/images/smart-10-1024x769.jpg"
@@ -106,7 +123,12 @@ const SmartHomeAutomation = () => {
             id="1"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Wifi / Networking</h2>
 
@@ -121,8 +143,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large is-resized servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         src="assets/images/ruckus.png"
                         alt=""
                         className="wp-image-2402"
@@ -136,10 +156,13 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="770"
                   src="assets/images/smart-2-1024x770.jpg"
@@ -155,10 +178,13 @@ const SmartHomeAutomation = () => {
             id="2"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="770"
                   src="assets/images/smart-7-1024x770.jpg"
@@ -169,7 +195,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Smart Lighting</h2>
 
@@ -184,8 +215,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/lutron-services.png"
@@ -198,8 +227,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.png"
@@ -212,8 +239,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/knx-company-services.png"
@@ -232,10 +257,13 @@ const SmartHomeAutomation = () => {
             id="3"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1197"
                   height="900"
                   src="assets/images/home-shades.jpg"
@@ -246,7 +274,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Smart Shading</h2>
 
@@ -261,8 +294,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/lutron-services-1.png"
@@ -275,8 +306,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/hunter-douglas-services.png"
@@ -289,8 +318,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/savant-services.png"
@@ -306,10 +333,13 @@ const SmartHomeAutomation = () => {
 
           <div className="is-layout-flex wp-container-23 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="931"
                   height="700"
                   src="assets/images/smart-4.jpg"
@@ -320,10 +350,13 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1915"
                   height="1440"
                   src="assets/images/home-audio-1.jpg"
@@ -339,10 +372,13 @@ const SmartHomeAutomation = () => {
             id="4"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="2396"
                   height="1600"
                   src="assets/images/home-audio1.jpg"
@@ -353,7 +389,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Smart Audio Systems</h2>
 
@@ -370,8 +411,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/control4-services.png"
@@ -384,8 +423,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.png"
@@ -398,8 +435,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.png"
@@ -418,10 +453,13 @@ const SmartHomeAutomation = () => {
             id="5"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="752"
                   src="assets/images/smart-6-1-1024x752.jpg"
@@ -432,7 +470,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Smart Theater Systems</h2>
 
@@ -448,8 +491,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/control4-services.png"
@@ -462,8 +503,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.png"
@@ -476,8 +515,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/savant-services.png"
@@ -496,10 +533,13 @@ const SmartHomeAutomation = () => {
             id="6"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1915"
                   height="1440"
                   src="assets/images/home-security1.jpg"
@@ -510,7 +550,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Smart Security Systems</h2>
 
@@ -527,8 +572,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/alarmdotcom-services.png"
@@ -541,8 +584,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/josh-ai-services.png"
@@ -555,8 +596,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/knx-company-services.png"
@@ -575,10 +614,13 @@ const SmartHomeAutomation = () => {
             id="5"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="769"
                   src="assets/images/smart-12a-1024x769.jpg"
@@ -589,7 +631,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Smart Video Conferencing</h2>
 
@@ -604,8 +651,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/josh-ai-services.png"
@@ -618,8 +663,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/knx-company-services.png"
@@ -632,8 +675,6 @@ const SmartHomeAutomation = () => {
                   <figure className="wp-block-image size-large servicebrands">
                     <Link to="#">
                       <img
-                        decoding="async"
-                        loading="lazy"
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.png"
@@ -649,10 +690,13 @@ const SmartHomeAutomation = () => {
 
           <div className="is-layout-flex wp-container-42 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages homeprojectdisplay">
-              <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="2000"
                   height="1273"
                   src="assets/images/project1-a.jpg"
@@ -661,7 +705,12 @@ const SmartHomeAutomation = () => {
                 />
               </figure>
 
-              <div className="is-layout-flow wp-block-group serviceswhitebackground eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <div
+                className="is-layout-flow wp-block-group serviceswhitebackground eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
                 <div className="wp-block-group__inner-container bottom">
                   <h2 className="has-text-align-center">Malibu Home Project</h2>
 

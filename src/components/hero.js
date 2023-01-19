@@ -45,7 +45,7 @@ const Hero = () => {
 
           <div className="is-layout-flow wp-block-group homeintrotop centerintro">
             <div className="wp-block-group__inner-container">
-              <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
                 <div className="wp-block-group__inner-container">
                   <h1>Luxury Smart Home Systems</h1>
 
