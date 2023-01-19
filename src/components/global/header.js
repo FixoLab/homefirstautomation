@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -140,7 +140,9 @@ const Header = () => {
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
-                        <Link to="/smart-home-automation">Smart Home Automation</Link>
+                        <Link to="/smart-home-automation">
+                          Smart Home Automation
+                        </Link>
                       </li>
                       <li
                         id="menu-item-924"
@@ -178,7 +180,9 @@ const Header = () => {
                         id="menu-item-1602"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"
                       >
-                        <Link to="commercial-services">Commercial Integration</Link>
+                        <Link to="commercial-services">
+                          Commercial Integration
+                        </Link>
                       </li>
                     </ul>
                   </li>
