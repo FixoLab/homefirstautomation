@@ -5,6 +5,7 @@ import Header from "./components/global/header";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
+
 const Home = React.lazy(() => import("./pages/home"));
 const StartYourProject = React.lazy(() => import("./pages/start-your-project"));
 const About = React.lazy(() => import("./pages/about"));
@@ -23,8 +24,11 @@ const CommercialServices = React.lazy(() =>
 );
 const Portfolio = React.lazy(() => import("./pages/portfolio"));
 const BrandsWeCarry = React.lazy(() => import("./pages/brands-we-carry"));
+const Partners = React.lazy(() => import("./pages/partners"));
 const Blog = React.lazy(() => import("./pages/blog"));
 const BlogDetails = React.lazy(() => import("./pages/blog-details"));
+
+const InteriorDesigners = React.lazy(() => import("./pages/interior-designers"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -49,7 +53,7 @@ const AppRouter = () => {
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
-         
+
           <Route path="/about" element={<About />} />
           <Route
             path="/smart-home-automation"
@@ -66,12 +70,12 @@ const AppRouter = () => {
           <Route path="/commercial-services" element={<CommercialServices />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/brands-we-carry" element={<BrandsWeCarry />} />
+          <Route path="/partners" element={<Partners />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogDetails />} />
-          <Route
-            path="/start-your-project"
-            element={<StartYourProject />}
-          />
+          <Route path="/start-your-project" element={<StartYourProject />} />
+
+          <Route path="/interior-designers" element={<InteriorDesigners />} />
         </Routes>
         <Footer />
       </Suspense>
