@@ -26,6 +26,7 @@ const BrandsWeCarry = React.lazy(() => import("./pages/brands-we-carry"));
 const Partners = React.lazy(() => import("./pages/partners"));
 const Blog = React.lazy(() => import("./pages/blog"));
 const BlogDetails = React.lazy(() => import("./pages/blog-details"));
+const ContactUs = React.lazy(() => import("./pages/contact-us"));
 
 const InteriorDesigners = React.lazy(() =>
   import("./pages/interior-designers")
@@ -79,6 +80,7 @@ const AppRouter = () => {
 
           <Route path="/interior-designers" element={<InteriorDesigners />} />
           <Route path="/savant" element={<Savant />} />
+          <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
         <Footer />
       </Suspense>
