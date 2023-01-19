@@ -186,7 +186,7 @@ const Header = () => {
                     id="menu-item-1041"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1041"
                   >
-                    <Link to="#">Portfolio</Link>
+                    <Link to="/portfolio">Portfolio</Link>
                   </li>
                   <li
                     id="menu-item-1539"
