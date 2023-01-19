@@ -26,7 +26,12 @@ const SmartHomeAutomation = () => {
 
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
-                  <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+                  <div
+                    className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="400"
+                  >
                     <div className="wp-block-group__inner-container">
                       <h1>Smart Home Automation</h1>
 
@@ -62,7 +67,12 @@ const SmartHomeAutomation = () => {
 
           <div className="is-layout-flow wp-block-group serviceswhitebackground">
             <div className="wp-block-group__inner-container">
-              <p className="has-text-align-center servicesleader eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <p
+                className="has-text-align-center servicesleader eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 Over the last 2 decades Project Automate has been the industry
                 leader for clients that strive for the the latest in technology
                 mixed with the best design possible for their projects. Whether
@@ -74,7 +84,12 @@ const SmartHomeAutomation = () => {
 
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <img
                   decoding="async"
                   width="2000"
@@ -87,7 +102,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <img
                   decoding="async"
                   loading="lazy"
@@ -106,7 +126,12 @@ const SmartHomeAutomation = () => {
             id="1"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Wifi / Networking</h2>
 
@@ -136,7 +161,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <img
                   decoding="async"
                   loading="lazy"
@@ -155,7 +185,12 @@ const SmartHomeAutomation = () => {
             id="2"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <img
                   decoding="async"
                   loading="lazy"
@@ -169,7 +204,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Smart Lighting</h2>
 
@@ -232,7 +272,12 @@ const SmartHomeAutomation = () => {
             id="3"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <img
                   decoding="async"
                   loading="lazy"
@@ -246,7 +291,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Smart Shading</h2>
 
@@ -306,7 +356,12 @@ const SmartHomeAutomation = () => {
 
           <div className="is-layout-flex wp-container-23 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <img
                   decoding="async"
                   loading="lazy"
@@ -320,7 +375,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <img
                   decoding="async"
                   loading="lazy"
@@ -339,7 +399,12 @@ const SmartHomeAutomation = () => {
             id="4"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <img
                   decoding="async"
                   loading="lazy"
@@ -353,7 +418,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Smart Audio Systems</h2>
 
@@ -418,7 +488,12 @@ const SmartHomeAutomation = () => {
             id="5"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <img
                   decoding="async"
                   loading="lazy"
@@ -432,7 +507,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Smart Theater Systems</h2>
 
@@ -496,7 +576,12 @@ const SmartHomeAutomation = () => {
             id="6"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <img
                   decoding="async"
                   loading="lazy"
@@ -510,7 +595,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Smart Security Systems</h2>
 
@@ -575,7 +665,12 @@ const SmartHomeAutomation = () => {
             id="5"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <img
                   decoding="async"
                   loading="lazy"
@@ -589,7 +684,12 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
                 <div className="wp-block-group__inner-container">
                   <h2>Smart Video Conferencing</h2>
 
@@ -649,7 +749,12 @@ const SmartHomeAutomation = () => {
 
           <div className="is-layout-flex wp-container-42 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages homeprojectdisplay">
-              <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <img
                   decoding="async"
                   loading="lazy"
@@ -661,7 +766,12 @@ const SmartHomeAutomation = () => {
                 />
               </figure>
 
-              <div className="is-layout-flow wp-block-group serviceswhitebackground eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+              <div
+                className="is-layout-flow wp-block-group serviceswhitebackground eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 <div className="wp-block-group__inner-container bottom">
                   <h2 className="has-text-align-center">Malibu Home Project</h2>
 

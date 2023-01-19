@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./assets/styles/style.css";
 import "./assets/styles/feature.css";
 import "./assets/styles/custom.css";
-import "./assets/styles/animation.css";
 import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
