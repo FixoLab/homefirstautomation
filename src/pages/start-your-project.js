@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const StartYourProject = () => {
   return (
@@ -8,25 +9,14 @@ const StartYourProject = () => {
           className="post-1884 page type-page status-publish hentry odd"
           id="post-1884"
         >
-          {/* <h4
-            style="max-width: 80%;
-        text-align: left;
-        margin-left: 2%;"
-          ></h4> */}
-
-          <header className="entry-header has-text-align-center header-footer-group">
-            <div className="entry-header-inner section-inner medium">
-              <h1 className="entry-title">Start Your Project</h1>
-            </div>
-          </header>
-
+         
           <div className="post-inner thin ">
             <div className="entry-content">
               <div className="is-layout-flow wp-block-group homevideo servicespages">
                 <div className="wp-block-group__inner-container">
                   <div
                     className="halfimagetop"
-                    style={{backgroundImage:"url(https://www.projectautomate.com/wp-content/uploads/2020/10/start-1.jpg)"}}
+                    style={{backgroundImage:"url(/assets/images/start-1.jpg)"}}
                   ></div>
 
                   <div className="is-layout-flow wp-block-group homeintrotop centerintro">
@@ -42,11 +32,10 @@ const StartYourProject = () => {
               </div>
 
               <div className="is-layout-flow wp-block-group pagewhitebackground">
-                <div className="wp-block-group__inner-container">
+                <div className="wp-block-group__inner-container start-project">
                   <div className="is-layout-flex wp-container-7 wp-block-columns pagecolumns">
                     <div
                       className="is-layout-flow wp-block-column contactcolumn1"
-                      style={{flexBasis:"33.33%"}}
                     >
                       <i className="fas fa-phone"></i>
 
@@ -89,7 +78,6 @@ const StartYourProject = () => {
 
                     <div
                       className="is-layout-flow wp-block-column"
-                      style={{flexBasis:"33.33%"}}
                     >
                       <p>
                         Work with our team to create your Los Angeles home
@@ -101,9 +89,9 @@ const StartYourProject = () => {
                       <p>
                         Want a more personalized conversation? Give us a call
                         and one of our{" "}
-                        <a href="https://www.projectautomate.com/smart-home-automation/">
+                        <Link to="#">
                           smart home installation
-                        </a>{" "}
+                        </Link>{" "}
                         specialists will help you reach your goals.
                       </p>
 
@@ -136,39 +124,6 @@ const StartYourProject = () => {
                           noValidate="novalidate"
                           data-status="init"
                         >
-                          {/* <div style="display: none;">
-                            <input type="hidden" name="_wpcf7" value="1885" />
-                            <input
-                              type="hidden"
-                              name="_wpcf7_version"
-                              value="5.5.3"
-                            />
-                            <input
-                              type="hidden"
-                              name="_wpcf7_locale"
-                              value="en_US"
-                            />
-                            <input
-                              type="hidden"
-                              name="_wpcf7_unit_tag"
-                              value="wpcf7-f1885-p1884-o1"
-                            />
-                            <input
-                              type="hidden"
-                              name="_wpcf7_container_post"
-                              value="1884"
-                            />
-                            <input
-                              type="hidden"
-                              name="_wpcf7_posted_data_hash"
-                              value=""
-                            />
-                            <input
-                              type="hidden"
-                              name="_wpcf7_recaptcha_response"
-                              value=""
-                            />
-                          </div> */}
                           <p>
                             <label>
                               <br />
@@ -176,7 +131,7 @@ const StartYourProject = () => {
                                 <input
                                   type="text"
                                   name="your-name"
-                                  value=""
+                                  defaultValue=""
                                   size="40"
                                   className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                   aria-required="true"
@@ -193,7 +148,7 @@ const StartYourProject = () => {
                                 <input
                                   type="text"
                                   name="AddressLine1"
-                                  value=""
+                                  defaultValue=""
                                   size="40"
                                   className="wpcf7-form-control wpcf7-text"
                                   aria-invalid="false"
@@ -209,7 +164,7 @@ const StartYourProject = () => {
                                 <input
                                   type="text"
                                   name="AddressLine2"
-                                  value=""
+                                  defaultValue=""
                                   size="40"
                                   className="wpcf7-form-control wpcf7-text"
                                   aria-invalid="false"
@@ -225,7 +180,7 @@ const StartYourProject = () => {
                                 <input
                                   type="text"
                                   name="AddressCity"
-                                  value=""
+                                  defaultValue=""
                                   size="40"
                                   className="wpcf7-form-control wpcf7-text"
                                   aria-invalid="false"
@@ -241,7 +196,7 @@ const StartYourProject = () => {
                                 <input
                                   type="text"
                                   name="AddressState"
-                                  value=""
+                                  defaultValue=""
                                   size="40"
                                   className="wpcf7-form-control wpcf7-text"
                                   aria-invalid="false"
@@ -257,7 +212,7 @@ const StartYourProject = () => {
                                 <input
                                   type="text"
                                   name="AddressZip"
-                                  value=""
+                                  defaultValue=""
                                   size="40"
                                   className="wpcf7-form-control wpcf7-text"
                                   aria-invalid="false"
@@ -273,7 +228,7 @@ const StartYourProject = () => {
                                 <input
                                   type="tel"
                                   name="tel-905"
-                                  value=""
+                                  defaultValue=""
                                   size="40"
                                   className="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel"
                                   aria-invalid="false"
@@ -289,7 +244,7 @@ const StartYourProject = () => {
                                 <input
                                   type="email"
                                   name="your-email"
-                                  value=""
+                                  defaultValue=""
                                   size="40"
                                   className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                   aria-required="true"
@@ -308,14 +263,14 @@ const StartYourProject = () => {
                                   className="wpcf7-form-control wpcf7-select"
                                   aria-invalid="false"
                                 >
-                                  <option value="Current Project Phase">
+                                  <option defaultValue="Current Project Phase">
                                     Current Project Phase
                                   </option>
-                                  <option value="Planning">Planning</option>
-                                  <option value="Retro-Fit (Existing House)">
+                                  <option defaultValue="Planning">Planning</option>
+                                  <option defaultValue="Retro-Fit (Existing House)">
                                     Retro-Fit (Existing House)
                                   </option>
-                                  <option value="New Construction">
+                                  <option defaultValue="New Construction">
                                     New Construction
                                   </option>
                                 </select>
@@ -331,15 +286,15 @@ const StartYourProject = () => {
                                   className="wpcf7-form-control wpcf7-select"
                                   aria-invalid="false"
                                 >
-                                  <option value="Projected Start Date">
+                                  <option defaultValue="Projected Start Date">
                                     Projected Start Date
                                   </option>
-                                  <option value="Immediately">
+                                  <option defaultValue="Immediately">
                                     Immediately
                                   </option>
-                                  <option value="1-2 Weeks">1-2 Weeks</option>
-                                  <option value="1-2 Months">1-2 Months</option>
-                                  <option value="2+ Months">2+ Months</option>
+                                  <option defaultValue="1-2 Weeks">1-2 Weeks</option>
+                                  <option defaultValue="1-2 Months">1-2 Months</option>
+                                  <option defaultValue="2+ Months">2+ Months</option>
                                 </select>
                               </span>{" "}
                             </label>
@@ -353,38 +308,38 @@ const StartYourProject = () => {
                                   className="wpcf7-form-control wpcf7-select"
                                   aria-invalid="false"
                                 >
-                                  <option value="Primary Project Interest">
+                                  <option defaultValue="Primary Project Interest">
                                     Primary Project Interest
                                   </option>
-                                  <option value="Home Theater">
+                                  <option defaultValue="Home Theater">
                                     Home Theater
                                   </option>
-                                  <option value="Home Automation">
+                                  <option defaultValue="Home Automation">
                                     Home Automation
                                   </option>
-                                  <option value="Distributed Audio">
+                                  <option defaultValue="Distributed Audio">
                                     Distributed Audio
                                   </option>
-                                  <option value="Distributed Video">
+                                  <option defaultValue="Distributed Video">
                                     Distributed Video
                                   </option>
-                                  <option value="CCTV Surveillance">
+                                  <option defaultValue="CCTV Surveillance">
                                     CCTV Surveillance
                                   </option>
-                                  <option value="Alarm">Alarm</option>
-                                  <option value="Motorized Shades/Blinds">
+                                  <option defaultValue="Alarm">Alarm</option>
+                                  <option defaultValue="Motorized Shades/Blinds">
                                     Motorized Shades/Blinds
                                   </option>
-                                  <option value="Access Control">
+                                  <option defaultValue="Access Control">
                                     Access Control
                                   </option>
-                                  <option value="Phone System">
+                                  <option defaultValue="Phone System">
                                     Phone System
                                   </option>
-                                  <option value="Ethernet Network">
+                                  <option defaultValue="Ethernet Network">
                                     Ethernet Network
                                   </option>
-                                  <option value="Lighting Systems">
+                                  <option defaultValue="Lighting Systems">
                                     Lighting Systems
                                   </option>
                                 </select>
@@ -460,60 +415,9 @@ const StartYourProject = () => {
                             </label>
                           </p>
                           <p>
-                            <br />
-                            <span className="wpcf7-form-control-wrap recaptcha">
-                              <span
-                                data-sitekey="6LfdnNIZAAAAACy4jUoSEU1ZjLMrqOk4PhClUrAw"
-                                className="wpcf7-form-control g-recaptcha wpcf7-recaptcha"
-                              >
-                                <div style={{width: "304px", height: "78px"}}>
-                                  <div>
-                                    <iframe
-                                      title="reCAPTCHA"
-                                      src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfdnNIZAAAAACy4jUoSEU1ZjLMrqOk4PhClUrAw&amp;co=aHR0cHM6Ly93d3cucHJvamVjdGF1dG9tYXRlLmNvbTo0NDM.&amp;hl=en&amp;v=Gg72x2_SHmxi8X0BLo33HMpr&amp;size=normal&amp;cb=q3o5eq11pl6"
-                                      width="304"
-                                      height="78"
-                                      role="presentation"
-                                      name="a-30mmhahaqln8"
-                                      frameBorder="0"
-                                      scrolling="no"
-                                      sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
-                                      data-origwidth="304"
-                                      data-origheight="78"
-                                      style={{width: "304px", height: "78px"}}
-                                    ></iframe>
-                                  </div>
-                                  <textarea
-                                    id="g-recaptcha-response"
-                                    name="g-recaptcha-response"
-                                    className="g-recaptcha-response"
-                                    style={{width: "250px", height: "40px", border: "1px solid rgb(193, 193, 193)", margin: "10px 25px", padding: "0px", resize: "none", display: "none"}}
-                                  ></textarea>
-                                </div>
-                              </span>
-                              <noscript>
-                                <div className="grecaptcha-noscript">
-                                  <iframe
-                                    src="https://www.google.com/recaptcha/api/fallback?k=6LfdnNIZAAAAACy4jUoSEU1ZjLMrqOk4PhClUrAw"
-                                    frameBorder="0"
-                                    scrolling="no"
-                                    width="310"
-                                    height="430"
-                                  ></iframe>
-                                  <textarea
-                                    name="g-recaptcha-response"
-                                    rows="3"
-                                    cols="40"
-                                    placeholder="reCaptcha Response Here"
-                                  ></textarea>
-                                </div>
-                              </noscript>
-                            </span>
-                          </p>
-                          <p>
                             <input
                               type="submit"
-                              value="Send"
+                              defaultValue="Send"
                               className="wpcf7-form-control has-spinner wpcf7-submit"
                             />
                             <span className="wpcf7-spinner"></span>
@@ -529,7 +433,7 @@ const StartYourProject = () => {
                 </div>
               </div>
 
-              {/* <div className="is-layout-flex wp-container-10 wp-block-columns alignfull servicesdualcontainer mapscontain">
+              <div className="is-layout-flex wp-container-10 wp-block-columns alignfull servicesdualcontainer mapscontain">
                 <div className="is-layout-flow wp-block-column servicesimages bigoldmap">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.8819133803872!2d-118.43925378478643!3d33.99556678062137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba61a5c07e1f%3A0xed961dabad73c8cd!2s12794%20Washington%20Blvd%2C%20Los%20Angeles%2C%20CA%2090066!5e0!3m2!1sen!2sus!4v1600373688107!5m2!1sen!2sus"
@@ -542,9 +446,10 @@ const StartYourProject = () => {
                     frameBorder="0"
                     dataOrigwidth="600"
                     dataOrigheight="450"
+                    title="map"
                   ></iframe>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
 
