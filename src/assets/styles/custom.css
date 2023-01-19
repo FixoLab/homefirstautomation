@@ -657,7 +657,7 @@ li.menu-item-3288 .fas {
 }
 
 .wp-block-group.homevideo {
-  width: 100vw !important;
+  width: 100% !important;
   max-width: 100vw !important;
   height: 100vh;
   margin: 0px !important;
@@ -870,14 +870,34 @@ li.menu-item-3288 .fas {
   margin-right: 10px;
   display: none;
 }
-/* .servicesleader {
+.servicesleader {
   margin: 0px !important;
   padding: 60px 30px 0px !important;
   background: #fafafa;
-  background-image: url("../../../public/images/whitebackground.png");
+  /* background-image: url("../../../public/assets/images/whitebackground.png"); */
   max-width: 100% !important;
   width: 100% !important;
-} */
+}
+.serviceswhitebackground {
+  margin: 0px !important;
+  padding: 90px 30px 60px !important;
+  background: #fafafa;
+  background-image: none;
+  /* background-image: url("https://www.projectautomate.com/wp-content/uploads/2020/08/whitebackground.png"); */
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow: hidden;
+  position: relative;
+}
+.serviceswhitebackground p {
+  max-width: 900px !important;
+  width: 100% !important;
+  color: #666;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px auto !important;
+  padding: 0px 30px 30px !important;
+}
 .servicesimages .wp-block-image {
   margin: 0px !important;
   width: 100%;
@@ -924,6 +944,21 @@ li.menu-item-3288 .fas {
   width: 60px;
   height: 20px;
   border-bottom: 5px solid #007ca1;
+}
+
+.servicesdualcontainer .serviceswhitebackground h2 {
+  float: none;
+  margin: 0px auto 30px !important;
+}
+.servicesdualcontainer .serviceswhitebackground h2::after {
+  margin: 0px auto;
+}
+.serviceswhitebackground p.pointsmade {
+  text-align: center;
+}
+.serviceswhitebackground p a {
+  color: #666 !important;
+  text-decoration: underline;
 }
 .servicesdualcontainer.reversetheflex {
   flex-direction: row-reverse;
@@ -986,7 +1021,7 @@ li.menu-item-3288 .fas {
   text-align: center;
 }
 .homedual2.homelighting {
-  background-image: url("../../../public/images/home-show13.jpg");
+  background-image: url("../../../public/assets/images/home-show13.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   display: flow-root;
@@ -994,7 +1029,7 @@ li.menu-item-3288 .fas {
   background-size: cover;
 }
 .homedual2.homeshow3 {
-  background-image: url("../../../public/images/smart20.jpg");
+  background-image: url("../../../public/assets/images/smart20.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   display: flow-root;
@@ -1002,7 +1037,7 @@ li.menu-item-3288 .fas {
   background-size: inherit;
 }
 .homedual2.homeshow2 {
-  background-image: url("../../../public/images/home-show4.jpg");
+  background-image: url("../../../public/assets/images/home-show4.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   display: flow-root;
@@ -1163,7 +1198,7 @@ li.menu-item-3288 .fas {
   display: revert;
   width: 100%;
   height: 90vh;
-  background-image: url("../../../public/images/blog-cover.jpg");
+  background-image: url("../../../public/assets/images/blog-cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2418,7 +2453,7 @@ h2.blogsecondarytitle {
 .footer-widgets.column-one {
   max-width: 100%;
   width: 100%;
-  background-image: url("../../../public/images/home-show5.jpg");
+  background-image: url("../../../public/assets/images/home-show5.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   display: flex;
@@ -2894,6 +2929,9 @@ body:not(.overlay-header) #site-header .toggle,
   .homeintrotop.centerintro {
     padding: 45px 15px 0px;
   }
+  .serviceswhitebackground {
+    padding: 45px 30px 45px !important;
+  }
   .servicesdualcontainer h2 {
     font-size: 24px;
   }
@@ -2980,10 +3018,6 @@ body:not(.overlay-header) #site-header .toggle,
 }
 
 @media only screen and (max-width: 550px) {
-  #video-background {
-    height: 300px !important;
-    width: auto !important;
-  }
   #video-background.fulltextvid {
     height: auto !important;
     width: 100% !important;
@@ -3030,4 +3064,7 @@ body:not(.overlay-header) #site-header .toggle,
 
 .to-the-top span {
   color: #fff;
+}
+.vce {
+  margin-bottom: 30px;
 }

@@ -181,7 +181,7 @@ const Footer = () => {
                           <Link to="#">
                             <img
                               decoding="async"
-                              src="images/Homefirst_Auto.png"
+                              src="assets/images/Homefirst_Auto.png"
                               alt="project automate logo"
                               width="200"
                               height="80"

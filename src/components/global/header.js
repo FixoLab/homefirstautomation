@@ -71,7 +71,7 @@ const Header = () => {
                     <img
                       width="261"
                       height="90"
-                      src="images/Homefirst_Auto.png"
+                      src="assets/images/Homefirst_Auto.png"
                       className="custom-logo"
                       alt="HOMEFIRST: automate"
                       decoding="async"
@@ -141,13 +141,13 @@ const Header = () => {
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
-                        <Link to="#">Smart Home Automation</Link>
+                        <Link to="/smart-home-automation">Smart Home Automation</Link>
                       </li>
                       <li
                         id="menu-item-924"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-924"
                       >
-                        <Link to="#">Home Theater</Link>
+                        <Link to="/home-theater">Home Theater</Link>
                       </li>
                       <li
                         id="menu-item-955"
