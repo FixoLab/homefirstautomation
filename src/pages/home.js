@@ -22,14 +22,14 @@ const Home = () => {
   }, []);
 
   const leftPosition = -(windowTop * 0.075);
-  const leftbotPosition = -(windowTop * 0.075) + 100;
+  // const leftBotPosition = -(windowTop * 0.075) + 100;
   const rightPosition = 100 - windowTop * 0.025 + "%";
 
   return (
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
-          <Hero leftbotPosition={leftbotPosition} />
+          <Hero />
           <Feature leftPosition={leftPosition} />
           <Feature2 title="Earning Your Trust" />
           <Feature3 leftPosition={rightPosition} />
