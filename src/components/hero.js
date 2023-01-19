@@ -23,7 +23,7 @@ const Hero = () => {
             <img
               width="470"
               height="938"
-              src="images/phoneoverlay4.png"
+              src="assets/images/phoneoverlay4.png"
               alt="hero"
               className="wp-image-1922"
             />
@@ -40,7 +40,7 @@ const Hero = () => {
             data-origwidth="300"
             data-origheight="150"
           >
-            <source src="images/newhome.mp4" type="video/mp4" />
+            <source src="assets/video/newhome.mp4" type="video/mp4" />
           </video>
 
           <div className="is-layout-flow wp-block-group homeintrotop centerintro">
@@ -57,7 +57,7 @@ const Hero = () => {
                     <figure className="alignleft size-large is-resized">
                       <Link to="#">
                         <img
-                          src="images/cediacit.png"
+                          src="assets/images/cediacit.png"
                           alt="hero"
                           className="wp-image-3276"
                           width="159"
