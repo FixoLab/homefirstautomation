@@ -14,6 +14,7 @@ const HomeTheater = React.lazy(() => import("./pages/home-theater"));
 const LightingSystems = React.lazy(() => import("./pages/lighting-systems"));
 const AudioSystems = React.lazy(() => import("./pages/audio-systems"));
 const SmartSecurity = React.lazy(() => import("./pages/smart-security"));
+const WifiNetworkingServices = React.lazy(() => import("./pages/wifi-networking-services"));
 const Blog = React.lazy(() => import("./pages/blog"));
 const BlogDetails = React.lazy(() => import("./pages/blog-details"));
 
@@ -49,6 +50,7 @@ const AppRouter = () => {
           <Route path="/lighting-systems" element={<LightingSystems />} />
           <Route path="/audio-systems" element={<AudioSystems />} />
           <Route path="/smart-security" element={<SmartSecurity />} />
+          <Route path="/wifi-networking-services" element={<WifiNetworkingServices />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogDetails />} />
         </Routes>

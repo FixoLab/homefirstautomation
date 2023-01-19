@@ -170,7 +170,7 @@ const Header = () => {
                         id="menu-item-1603"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1603"
                       >
-                        <Link to="wifi-networking-services/">
+                        <Link to="wifi-networking-services">
                           WiFi / Networking
                         </Link>
                       </li>
