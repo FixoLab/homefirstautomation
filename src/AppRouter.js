@@ -5,10 +5,10 @@ import Header from "./components/global/header";
 import Skeleton from "react-loading-skeleton";
 import 'react-loading-skeleton/dist/skeleton.css'
 
-const Home = React.lazy(() => import("./components/pages/home"));
-const About = React.lazy(() => import("./components/pages/about"));
-const Blog = React.lazy(() => import("./components/pages/blog"));
-const BlogDetails = React.lazy(() => import("./components/pages/blog-details"));
+const Home = React.lazy(() => import("./pages/home"));
+const About = React.lazy(() => import("./pages/about"));
+const Blog = React.lazy(() => import("./pages/blog"));
+const BlogDetails = React.lazy(() => import("./pages/blog-details"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
