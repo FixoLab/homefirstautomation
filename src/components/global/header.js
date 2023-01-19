@@ -74,7 +74,6 @@ const Header = () => {
                       src="assets/images/Homefirst_Auto.png"
                       className="custom-logo"
                       alt="HOMEFIRST: automate"
-                      decoding="async"
                     />
                   </Link>
                   <span className="screen-reader-text">Homefirst</span>
@@ -153,25 +152,25 @@ const Header = () => {
                         id="menu-item-955"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-955"
                       >
-                        <Link to="#">Lighting Systems</Link>
+                        <Link to="/lighting-systems">Lighting Systems</Link>
                       </li>
                       <li
                         id="menu-item-970"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
                       >
-                        <Link to="#">Audio Solutions</Link>
+                        <Link to="/audio-systems">Audio Solutions</Link>
                       </li>
                       <li
                         id="menu-item-1604"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1604"
                       >
-                        <Link to="#">Smart Security</Link>
+                        <Link to="smart-security">Smart Security</Link>
                       </li>
                       <li
                         id="menu-item-1603"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1603"
                       >
-                        <Link to="wifi-networking-services/">
+                        <Link to="wifi-networking-services">
                           WiFi / Networking
                         </Link>
                       </li>
@@ -179,7 +178,7 @@ const Header = () => {
                         id="menu-item-1602"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"
                       >
-                        <Link to="#">Commercial Integration</Link>
+                        <Link to="commercial-services">Commercial Integration</Link>
                       </li>
                     </ul>
                   </li>
