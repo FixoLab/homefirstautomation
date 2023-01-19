@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const WifiNetworkingServices = () => {
+const CommercialServices = () => {
   return (
     <div id="site-content">
       <div className="post-inner thin ">
@@ -19,7 +19,7 @@ const WifiNetworkingServices = () => {
                 height="150"
               >
                 <source
-                  src="assets/video/wifi-services-final.mov"
+                  src="assets/video/commercial-services-2.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -33,18 +33,24 @@ const WifiNetworkingServices = () => {
                     data-aos-delay="400"
                   >
                     <div className="wp-block-group__inner-container">
-                      <h1>WIFI – NETWORKING SERVICES</h1>
+                      <h1>COMMERCIAL SERVICES</h1>
                       <p>
-                        <a href="#1">SMART HOME</a>
+                        <a href="#1">NETWORKING</a>
                       </p>
                       <p>
-                        <a href="#2">NETWORKING</a>
+                        <a href="#2">LIGHTING</a>
                       </p>
                       <p>
-                        <a href="#3">SECURITY</a>
+                        <a href="#3">SHADING</a>
                       </p>
                       <p>
-                        <a href="#4">WI-FI</a>
+                        <a href="#4">AUDIO</a>
+                      </p>
+                      <p>
+                        <a href="#5">VIDEO</a>
+                      </p>
+                      <p>
+                        <a href="#6">REMOTE CONTROL</a>
                       </p>
                     </div>
                   </div>
@@ -61,11 +67,11 @@ const WifiNetworkingServices = () => {
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                The first step in having a ground-breaking smart home is having
-                the foundation for your smart home created. PROJECT: automate
-                has all the{" "}
-                <Link to="#">networking solutions</Link>{" "}
-                you need to bring your Los Angeles home up to date.
+                Let PROJECT: automate help to expand your current Los Angeles
+                business, setup a brand new point of sale location, or create a
+                top of the line{" "}
+                <Link to="#">commercial room design.</Link>{" "}
+                Whatever your commercial application is we can help.
               </p>
             </div>
           </div>
@@ -81,7 +87,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/wifi-12-1024x769.jpg"
+                  src="assets/images/commercial-23-1024x769.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -98,7 +104,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/wifi-14-1024x769.jpg"
+                  src="assets/images/commercial-22-1024x769.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -120,7 +126,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/wifi-8.jpg"
+                  src="assets/images/commercial-15-1024x752.jpg"
                   alt=""
                   className="wp-image-846"
                 />
@@ -135,13 +141,14 @@ const WifiNetworkingServices = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>FULL SYSTEM SMART HOME</h2>
+                  <h2>COMMERCIAL WI-FI</h2>
 
                   <p className="pointsmade homeauto">
-                    Let us go through and setup your entire smart home system.
-                    This will include us giving you a tour of using your system
-                    in different rooms of your house and setting up every piece
-                    of smart equipment with your system.
+                    Commercial networking is important for all business sizes,
+                    and we can help. From setting up a Ethernet system for your
+                    new store front. To creating a multi level wireless network
+                    for your skyscraper. We have seen everything out there, and
+                    have achieved it all.
                   </p>
                 </div>
               </div>
@@ -162,7 +169,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/wifi-6-1024x769.jpg"
+                  src="assets/images/commercial-3.jpg"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -177,16 +184,14 @@ const WifiNetworkingServices = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>NETWORKING</h2>
+                  <h2>COMMERCIAL LIGHTING</h2>
 
                   <p className="pointsmade homeauto">
-                    A good Wi-Fi system still needs to have a strong home
-                    network setup to support it. We can install all your
-                    Ethernet cables throughout your Los Angeles residence so no
-                    one can view them. This includes setting up your security
-                    systems. Adding fiber wiring throughout your residence and
-                    making sure all your devices are properly setup to take full
-                    advantage of your network.
+                    Some say the proper lighting can make or break a business.
+                    Too harsh and you can drive away customers, too dim and the
+                    quality of the business is questioned. We will work with
+                    your brand image and create a lighting scheme that suits
+                    you, your employees, and all visitors to your establishment.
                   </p>
                 </div>
               </div>
@@ -207,7 +212,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/wifi-5-1024x769.jpg"
+                  src="assets/images/commercial-1-1024x770.jpg"
                   alt=""
                   className="wp-image-846"
                 />
@@ -222,56 +227,13 @@ const WifiNetworkingServices = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>WI-FI SETUP</h2>
+                  <h2>COMMERCIAL SHADING</h2>
                   <p className="pointsmade homeauto">
-                    Have our professionals create access points throughout your
-                    home network to make sure you have the optimal signal
-                    strength throughout your residency. On top of that we can
-                    make sure your Wi-Fi systems conform to the look of your
-                    home and help to add extra security to protect your Wi-Fi
-                    transmissions.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            className="is-layout-flex wp-container-16 wp-block-columns alignfull servicesdualcontainer"
-            id="4"
-          >
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="770"
-                  src="assets/images/wifi-7-1024x769.jpg"
-                  alt=""
-                  className="wp-image-1715"
-                />
-              </figure>
-            </div>
-
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <div
-                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
-              >
-                <div className="wp-block-group__inner-container">
-                  <h2>WIRELESS SECURITY</h2>
-
-                  <p className="pointsmade homeauto">
-                    Protect your online information with a proper wireless and
-                    wired security system. Our professionals can inspect your
-                    current setup and give you options on how you can improve
-                    upon it. Schedule a remote diagnostic today and make sure
-                    your online identity and information is safe.
+                    Whatever the size of your business having proper shading
+                    throughout can save your immensely on HVAC costs. Our
+                    motorized shading, otherwise known as electric shades can
+                    reduce your bill but automatically shading your business
+                    during the hottest times of the day.
                   </p>
                 </div>
               </div>
@@ -288,7 +250,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/wifi-3-1024x769.jpg"
+                  src="assets/images/commercial-9-1024x770.jpg"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -305,11 +267,137 @@ const WifiNetworkingServices = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/wifi-4-1024x769.jpg"
+                  src="assets/images/commercial-10-1024x770.jpg"
                   alt=""
                   className="wp-image-847"
                 />
               </figure>
+            </div>
+          </div>
+          <div
+            className="is-layout-flex wp-container-27 wp-block-columns alignfull servicesdualcontainer"
+            id="4"
+          >
+            <div className="is-layout-flow wp-block-column servicesimages">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
+                <img
+                  width="2396"
+                  height="1600"
+                  src="assets/images/commercial-21-1024x769.jpg"
+                  alt=""
+                  className="wp-image-848"
+                />
+              </figure>
+            </div>
+
+            <div className="is-layout-flow wp-block-column servicesimages">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
+                <div className="wp-block-group__inner-container">
+                  <h2>COMMERCIAL VIDEO & AUDIO SYSTEMS</h2>
+
+                  <p className="pointsmade homeauto">
+                    Create the perfect ambience for clients waiting in your
+                    waiting room with a custom AV installation. Create crystal
+                    clear video calls with clients or add in a top of the line
+                    speaker system for the building.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="is-layout-flex wp-container-31 wp-block-columns alignfull servicesdualcontainer reversetheflex"
+            id="5"
+          >
+            <div className="is-layout-flow wp-block-column servicesimages">
+              <figure
+                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
+                <img
+                  width="1024"
+                  height="752"
+                  src="assets/images/commercial-13-1024x752.jpg"
+                  alt=""
+                  className="wp-image-1711"
+                />
+              </figure>
+            </div>
+
+            <div className="is-layout-flow wp-block-column servicesimages">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
+                <div className="wp-block-group__inner-container">
+                  <h2>COMMERCIAL VIDEO CONFERENCING</h2>
+
+                  <p className="pointsmade homeauto">
+                    Make sure you have the best presentation possible with our
+                    video conferencing systems. We will analyze your current
+                    conference room, give you a variety of options, and
+                    implement what you feel is best based on our professional
+                    advice. Leave your clients impressed by your setup, and your
+                    staff impressed by the ease of use.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="is-layout-flex wp-container-35 wp-block-columns alignfull servicesdualcontainer"
+            id="6"
+          >
+            <div className="is-layout-flow wp-block-column servicesimages">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
+                <img
+                  width="1915"
+                  height="1440"
+                  src="assets/images/commercial-20-1024x769.jpg"
+                  alt=""
+                  className="wp-image-845"
+                />
+              </figure>
+            </div>
+
+            <div className="is-layout-flow wp-block-column servicesimages">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
+                <div className="wp-block-group__inner-container">
+                  <h2>COMMERCIAL SMART SYSTEMS</h2>
+
+                  <p className="pointsmade homeauto">
+                    Monitor your business from afar with a top of the line smart
+                    system. View client’s entering the building, keep tabs on
+                    employee locations, and overall make sure your investment is
+                    safe. Our smart systems and smart security systems are the
+                    nation’s leaders in the field..
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
           <div className="is-layout-flex wp-container-42 wp-block-columns alignfull servicesdualcontainer">
@@ -359,4 +447,4 @@ const WifiNetworkingServices = () => {
   );
 };
 
-export default WifiNetworkingServices;
+export default CommercialServices;

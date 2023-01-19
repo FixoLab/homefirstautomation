@@ -74,8 +74,8 @@ const SmartSecurity = () => {
                 data-aos-delay="200"
               >
                 21st century criminals need 21st century security. There is
-                nothing more important than you and your loved ones. Our
-                <Link to="#">smart home security systems</Link>
+                nothing more important than you and your loved ones. Our{" "}
+                <Link to="#">smart home security systems</Link>{" "}
                 and devices will give you piece of mind during the day, night,
                 and away from your Los Angeles home.
               </p>
