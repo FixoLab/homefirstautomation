@@ -1,12 +1,27 @@
-import React, { useState } from "react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import FooterContact from "../footer-contact";
+
+const api_domain = process.env.REACT_APP_DOMAIN;
 
 const Footer = () => {
   const [footerMenu, setFooterMenu] = useState(false);
   const footerMenuToggle = () => {
     setFooterMenu(!footerMenu);
   };
+
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const result = await axios(`${api_domain}/wp-json/wp/v2/posts`);
+        setData(result.data);
+      } catch (error) {}
+    };
+    fetchData();
+  }, []);
 
   return (
     <>
@@ -117,79 +132,19 @@ const Footer = () => {
                         </div>
                         <div className="footerlinks3">
                           <div className="su-posts su-posts-default-loop">
-                            <div id="su-post-3788" className="su-post">
-                              <h2 className="su-post-title">
-                                <Link to="#">
-                                  Top Elements of a High-Class Surround Sound
-                                  Installation
-                                </Link>
-                              </h2>
-
-                              <div className="su-post-meta">
-                                Posted: 11/18/2022{" "}
+                            {data.slice(0, 5).map((blogs) => (
+                              <div
+                                key={blogs.id}
+                                id="su-post-3788"
+                                className="su-post"
+                              >
+                                <h2 className="su-post-title">
+                                  <Link to={`blog/${blogs.slug}`}>
+                                    {blogs.title.rendered}
+                                  </Link>
+                                </h2>
                               </div>
-
-                              <div className="su-post-excerpt">
-                                <p>
-                                  Enjoy the ultimate listening experience with
-                                  our unique installations!&nbsp; Every modern
-                                  smart home needs a space where you can sit […]
-                                </p>
-                              </div>
-                              <Link to="#" className="su-post-comments-link">
-                                0 comments
-                              </Link>
-                            </div>
-
-                            <div id="su-post-3782" className="su-post">
-                              <h2 className="su-post-title">
-                                <Link to="#">
-                                  Top Reasons You Need a Control4 System at Home
-                                </Link>
-                              </h2>
-
-                              <div className="su-post-meta">
-                                Posted: 10/31/2022{" "}
-                              </div>
-
-                              <div className="su-post-excerpt">
-                                <p>
-                                  Create a home that’s more comfortable,
-                                  beautiful and enjoyable! Having a home you can
-                                  perfectly customize to satisfy your every […]
-                                </p>
-                              </div>
-
-                              <Link to="#" className="su-post-comments-link">
-                                0 comments
-                              </Link>
-                            </div>
-
-                            <div id="su-post-3777" className="su-post">
-                              <h2 className="su-post-title">
-                                <Link to="#">
-                                  The Must-Have Elements of a Home Theater
-                                  System
-                                </Link>
-                              </h2>
-
-                              <div className="su-post-meta">
-                                Posted: 09/12/2022{" "}
-                              </div>
-
-                              <div className="su-post-excerpt">
-                                <p>
-                                  Integrate these technologies and create a
-                                  world-class entertainment experience at home!
-                                  There’s nothing like watching an exciting
-                                  sports event with […]
-                                </p>
-                              </div>
-
-                              <Link to="#" className="su-post-comments-link">
-                                0 comments
-                              </Link>
-                            </div>
+                            ))}
                           </div>
                         </div>
                       </div>
