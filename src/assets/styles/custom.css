@@ -657,14 +657,14 @@ li.menu-item-3288 .fas {
 }
 
 .wp-block-group.homevideo {
-  width: 100vw !important;
+  width: 100% !important;
   max-width: 100vw !important;
   height: 100vh;
   margin: 0px !important;
   margin-top: 115px !important;
 }
 .wp-block-group.homevideo > .wp-block-group__inner-container {
-  width: 100vw !important;
+  width: 100% !important;
   max-width: 100vw !important;
   height: 100vh;
   margin: 0px !important;
@@ -2980,10 +2980,6 @@ body:not(.overlay-header) #site-header .toggle,
 }
 
 @media only screen and (max-width: 550px) {
-  #video-background {
-    height: 300px !important;
-    width: auto !important;
-  }
   #video-background.fulltextvid {
     height: auto !important;
     width: 100% !important;
@@ -3030,4 +3026,7 @@ body:not(.overlay-header) #site-header .toggle,
 
 .to-the-top span {
   color: #fff;
+}
+.vce {
+  margin-bottom: 30px;
 }
