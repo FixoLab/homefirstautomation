@@ -18,7 +18,7 @@ const Crestron = () => {
                 height="150"
               >
                 <source
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/10/creston-about-video.mp4"
+                  src="assets/video/creston-about-video.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -31,7 +31,7 @@ const Crestron = () => {
                         <figure className="aligncenter size-large is-resized">
                           <img
                             decoding="async"
-                            src="https://www.projectautomate.com/wp-content/uploads/2020/10/crestron-2-logo1-768x5761-1.png"
+                            src="assets/images/crestron-2-logo.png"
                             alt=""
                             className="wp-image-2116"
                             width="192"
@@ -73,7 +73,7 @@ const Crestron = () => {
                   loading="lazy"
                   width="1024"
                   height="769"
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/10/crestron-main12-1024x769.jpg"
+                  src="assets/images/crestron-main12.jpg"
                   alt=""
                   className="wp-image-2332"
                 />
@@ -87,7 +87,7 @@ const Crestron = () => {
                   loading="lazy"
                   width="1024"
                   height="769"
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/10/crestron-main13-1024x769.jpg"
+                  src="assets/images/crestron-main13.jpg"
                   alt=""
                   className="wp-image-2333"
                 />
@@ -122,10 +122,9 @@ const Crestron = () => {
                   loading="lazy"
                   width="1197"
                   height="900"
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/08/home-shades.jpg"
+                  src="assets/images/home-shades.jpg"
                   alt=""
                   className="wp-image-846"
-                  
                 />
               </figure>
 
@@ -137,10 +136,7 @@ const Crestron = () => {
                 width="300"
                 height="150"
               >
-                <source
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/10/crestron-os.mp4"
-                  type="video/mp4"
-                />
+                <source src="assets/video/crestron-os.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
@@ -153,7 +149,7 @@ const Crestron = () => {
                   loading="lazy"
                   width="1025"
                   height="770"
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/10/crestron-main9.jpg"
+                  src="assets/images/crestron-main9.jpg"
                   alt=""
                   className="wp-image-1962"
                 />
@@ -167,7 +163,7 @@ const Crestron = () => {
                   loading="lazy"
                   width="1025"
                   height="770"
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/10/crestron-main8.jpg"
+                  src="assets/images/crestron-main8.jpg"
                   alt=""
                   className="wp-image-1960"
                 />
@@ -186,7 +182,7 @@ const Crestron = () => {
                   loading="lazy"
                   width="1915"
                   height="1440"
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/08/home-lighting-1.jpg"
+                  src="assets/images/home-lighting-1.jpg"
                   alt=""
                   className="wp-image-839"
                 />
@@ -201,7 +197,7 @@ const Crestron = () => {
                 height="150"
               >
                 <source
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/10/crestron-remote2.mp4"
+                  src="assets/video/crestron-remote2.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -233,7 +229,7 @@ const Crestron = () => {
                   loading="lazy"
                   width="1024"
                   height="769"
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/10/crestron-main7-1024x769.jpg"
+                  src="assets/images/crestron-main7.jpg"
                   alt=""
                   className="wp-image-1956"
                 />
@@ -247,7 +243,7 @@ const Crestron = () => {
                   loading="lazy"
                   width="1024"
                   height="769"
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/10/crestron-main6-1024x769.jpg"
+                  src="assets/images/crestron-main6.jpg"
                   alt=""
                   className="wp-image-1954"
                 />
@@ -281,7 +277,7 @@ const Crestron = () => {
                   loading="lazy"
                   width="1024"
                   height="769"
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/09/haslam-6-1024x769.jpg"
+                  src="assets/images//haslam-6.jpg"
                   alt=""
                   className="wp-image-984"
                 />
@@ -295,10 +291,7 @@ const Crestron = () => {
                 width="300"
                 height="150"
               >
-                <source
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/10/flex7.mp4"
-                  type="video/mp4"
-                />
+                <source src="assets/video/flex7.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
@@ -311,7 +304,7 @@ const Crestron = () => {
                   loading="lazy"
                   width="1024"
                   height="769"
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/10/crestron-main3-1024x769.jpg"
+                  src="assets/images/crestron-main3.jpg"
                   alt=""
                   className="wp-image-1947"
                 />
@@ -325,7 +318,7 @@ const Crestron = () => {
                   loading="lazy"
                   width="1025"
                   height="770"
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/10/crestron-main5.jpg"
+                  src="assets/images/crestron-main5.jpg"
                   alt=""
                   className="wp-image-1949"
                 />
@@ -344,7 +337,7 @@ const Crestron = () => {
                   loading="lazy"
                   width="1024"
                   height="769"
-                  src="https://www.projectautomate.com/wp-content/uploads/2020/09/haslam-17-1024x769.jpg"
+                  src="assets/images//haslam-17.jpg"
                   alt=""
                   className="wp-image-1032"
                 />
