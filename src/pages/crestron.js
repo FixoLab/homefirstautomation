@@ -1,4 +1,5 @@
 import React from "react";
+const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const Crestron = () => {
   return (
@@ -326,43 +327,7 @@ const Crestron = () => {
             </div>
           </div>
 
-          <div
-            className="is-layout-flex wp-container-33 wp-block-columns alignfull servicesdualcontainer"
-            id="2"
-          >
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-                <img
-                  decoding="async"
-                  loading="lazy"
-                  width="1024"
-                  height="769"
-                  src="assets/images//haslam-17.jpg"
-                  alt=""
-                  className="wp-image-1032"
-                />
-              </figure>
-            </div>
-
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
-                <div className="wp-block-group__inner-container">
-                  <h2>Lets Start Your Journey</h2>
-
-                  <p className="pointsmade homeauto">
-                    Want to see what we can do for you? Contact us today and we
-                    can go over all your options. Whether price is a factor or
-                    not, we can work with you to make your dreams come true, our
-                    give you ideas to create your dreams.
-                  </p>
-
-                  <p className="pointsmade homeauto">
-                    <a href="#">Contact Us</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <CallToAction />
         </div>
       </div>
     </div>
