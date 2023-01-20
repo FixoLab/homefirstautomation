@@ -89,7 +89,7 @@ const StartYourProject = () => {
                       <p>
                         Want a more personalized conversation? Give us a call
                         and one of our{" "}
-                        <Link to="#">
+                        <Link to="/smart-home-automation">
                           smart home installation
                         </Link>{" "}
                         specialists will help you reach your goals.
