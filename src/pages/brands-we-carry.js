@@ -74,12 +74,13 @@ const BrandsWeCarry = () => {
           <div className="is-layout-flow wp-block-group serviceswhitebackground headerbrand">
             <div className="wp-block-group__inner-container">
               <p className="has-text-align-center servicesleader eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-                View all the brands we carry at HOMEFIRST: automate. Keep in mind
-                this list is always growing as we here at HOMEFIRST: automate are
-                always carrying the latest and great in smart home technology.
-                Is there a specific brand you want for your Los Angeles project?
-                Just contact us and our support team will be sure to work with
-                you to help you get the desired brand you are after.
+                View all the brands we carry at HOMEFIRST: automate. Keep in
+                mind this list is always growing as we here at HOMEFIRST:
+                automate are always carrying the latest and great in smart home
+                technology. Is there a specific brand you want for your Los
+                Angeles project? Just contact us and our support team will be
+                sure to work with you to help you get the desired brand you are
+                after.
               </p>
             </div>
           </div>
@@ -112,7 +113,7 @@ const BrandsWeCarry = () => {
                         get started!
                       </p>
                       <figure className="wp-block-image size-large is-resized brandlogo">
-                        <Link to="#">
+                        <Link to="/control-4">
                           <img
                             src="assets/images/control4a.jpg"
                             alt=""
@@ -124,7 +125,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="#">Learn More</Link>
+                        <Link to="/control-4">Learn More</Link>
                       </p>
                     </div>
 
@@ -145,14 +146,14 @@ const BrandsWeCarry = () => {
                         automation solutions that transform the way people live
                         their lives, making their day-to-day tasks easier and
                         improving efficiency and productivity.{" "}
-                        <Link to="#">Crestron systems</Link> are at the
+                        <Link to="/crestron">Crestron systems</Link> are at the
                         forefront of cutting-edge technology, constantly
                         offering faster, better solutions that address the needs
                         of customers the world over.
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="#">
+                        <Link to="/crestron">
                           <img
                             width="150"
                             height="26"
@@ -164,7 +165,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="#">Learn More</Link>
+                        <Link to="/crestron">Learn More</Link>
                       </p>
                     </div>
 
@@ -191,7 +192,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="#">
+                        <Link to="/savant">
                           <img
                             width="150"
                             height="23"
@@ -203,7 +204,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="#">Learn More</Link>
+                        <Link to="/savant">Learn More</Link>
                       </p>
                     </div>
                   </div>
@@ -242,7 +243,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="#">
+                        <Link to="/lutron">
                           <img
                             width="150"
                             height="26"
@@ -254,7 +255,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="#">Learn More</Link>
+                        <Link to="/lutron">Learn More</Link>
                       </p>
                     </div>
 
@@ -282,7 +283,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="#">
+                        <Link to="/hunter-douglas">
                           <img
                             width="150"
                             height="29"
@@ -294,7 +295,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="#">Learn More</Link>
+                        <Link to="/hunter-douglas">Learn More</Link>
                       </p>
                     </div>
 
@@ -320,7 +321,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="#">
+                        <Link to="/coastal-source">
                           <img
                             width="150"
                             height="22"
@@ -332,7 +333,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="#">Learn More</Link>
+                        <Link to="/coastal-source">Learn More</Link>
                       </p>
                     </div>
                   </div>
@@ -343,7 +344,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="300"
-                          src="https://www.projectautomate.com/wp-content/uploads/2020/10/joshai-brand.jpg"
+                          src="assets/images/joshai-brand.jpg"
                           alt=""
                           className="wp-image-2191"
                         />
@@ -359,11 +360,11 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="#">
+                        <Link to="/josh-ai">
                           <img
                             width="150"
                             height="51"
-                            src="https://www.projectautomate.com/wp-content/uploads/2020/10/joshai-blacklogo.jpg"
+                            src="assets/images/joshai-blacklogo.jpg"
                             alt=""
                             className="wp-image-2193"
                           />
@@ -371,7 +372,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="#">Learn More</Link>
+                        <Link to="/josh-ai">Learn More</Link>
                       </p>
                     </div>
 
@@ -399,7 +400,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="#">
+                        <Link to="/ruckus">
                           <img
                             width="150"
                             height="44"
@@ -411,7 +412,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="#">Learn More</Link>
+                        <Link to="/ruckus">Learn More</Link>
                       </p>
                     </div>
 
@@ -420,7 +421,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="300"
-                          src="https://www.projectautomate.com/wp-content/uploads/2020/10/knx-mini.jpg"
+                          src="assets/images/knx-mini.jpg"
                           alt=""
                           className="wp-image-2286"
                         />
@@ -434,11 +435,11 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="#">
+                        <Link to="/knx">
                           <img
                             width="133"
                             height="59"
-                            src="https://www.projectautomate.com/wp-content/uploads/2020/10/knx-logo1.png"
+                            src="assets/images/knx-logo1.png"
                             alt=""
                             className="wp-image-2283"
                           />
@@ -446,7 +447,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="#">Learn More</Link>
+                        <Link to="/knx">Learn More</Link>
                       </p>
                     </div>
                   </div>
@@ -474,7 +475,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="#">
+                        <Link to="/alarm-com">
                           <img
                             width="150"
                             height="28"
@@ -486,7 +487,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="#">Learn More</Link>
+                        <Link to="/alarm-com">Learn More</Link>
                       </p>
                     </div>
 
