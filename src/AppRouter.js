@@ -34,11 +34,13 @@ const InteriorDesigners = React.lazy(() =>
 const Savant = React.lazy(() => import("./pages/savant"));
 const Ruckus = React.lazy(() => import("./pages/ruckus"));
 const Lutron = React.lazy(() => import("./pages/lutron"));
+const Crestron = React.lazy(() => import("./pages/crestron"));
 const CoastalSource = React.lazy(() => import("./pages/coastal-source"));
 const Knx = React.lazy(() => import("./pages/knx"));
 const HunterDouglas = React.lazy(() => import("./pages/hunter-douglas"));
 const Notfound = React.lazy(() => import("./pages/notfound"));
 const AlarmCom = React.lazy(() => import("./pages/alarm-com"));
+const JoshAi = React.lazy(() => import("./pages/josh-ai"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -90,10 +92,12 @@ const AppRouter = () => {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/ruckus" element={<Ruckus />} />
           <Route path="/lutron" element={<Lutron />} />
+          <Route path="/crestron" element={<Crestron />} />
           <Route path="/coastal-source" element={<CoastalSource />} />
           <Route path="/knx" element={<Knx />} />
           <Route path="/hunter-douglas" element={<HunterDouglas />} />
           <Route path="/alarm-com" element={<AlarmCom />} />
+          <Route path="/josh-ai" element={<JoshAi />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />

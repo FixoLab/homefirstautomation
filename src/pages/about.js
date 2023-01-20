@@ -75,7 +75,7 @@ const About = () => {
                         <p>
                           Now decades later, HOMEFIRST: automate is one of the
                           largest installers in Los Angeles for security
-                          systems, <Link to="#">smart home systems</Link>,
+                          systems, <Link to="/smart-home-demo-2">smart home systems</Link>,
                           theater systems, commercial automation systems, and
                           overall home/business technological upgrades.
                         </p>

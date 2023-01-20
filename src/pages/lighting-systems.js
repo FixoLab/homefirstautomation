@@ -155,7 +155,7 @@ const LightingSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/lutron">
                       <img
                         width="180"
                         height="180"
@@ -167,7 +167,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/coastal-source">
                       <img
                         width="180"
                         height="180"
@@ -179,7 +179,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/crestron">
                       <img
                         width="180"
                         height="180"
@@ -234,7 +234,7 @@ const LightingSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/lutron">
                       <img
                         width="180"
                         height="180"
@@ -246,7 +246,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/coastal-source">
                       <img
                         width="180"
                         height="180"
@@ -258,7 +258,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/crestron">
                       <img
                         width="180"
                         height="180"
@@ -312,11 +312,11 @@ const LightingSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/coastal-source">
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/lutron-services-1.png"
+                        src="assets/images/coastalsource-services.png"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -324,25 +324,13 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="savant">
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/hunter-douglas-services.png"
+                        src="assets/images/savant-services.png"
                         alt=""
                         className="wp-image-2425"
-                      />
-                    </Link>
-                  </figure>
-
-                  <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
-                      <img
-                        width="180"
-                        height="180"
-                        src="assets/images/coastalsource-services.png"
-                        alt=""
-                        className="wp-image-2426"
                       />
                     </Link>
                   </figure>
@@ -424,11 +412,11 @@ const LightingSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="coastal-source">
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/lutron-services.png"
+                        src="assets/images/coastalsource-services.png"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -436,11 +424,11 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="alarm-com">
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/coastalsource-services.png"
+                        src="assets/images/alarmdotcom-services.png"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -448,11 +436,11 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/savant">
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/crestron-services.png"
+                        src="assets/images/savant-services.png"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -502,11 +490,11 @@ const LightingSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="coastal-source">
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/lutron-services.png"
+                        src="assets/images/coastalsource-services.png"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -514,11 +502,11 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/savant">
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/coastalsource-services.png"
+                        src="assets/images/savant-services.png"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -526,7 +514,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/crestron">
                       <img
                         width="180"
                         height="180"
@@ -577,7 +565,7 @@ const LightingSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/lutron">
                       <img
                         width="180"
                         height="180"
@@ -589,11 +577,11 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/crestron">
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/coastalsource-services.png"
+                        src="assets/images/crestron-services.png"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -601,11 +589,11 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/josh-ai">
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/crestron-services.png"
+                        src="assets/images/josh-ai-services.png"
                         alt=""
                         className="wp-image-2426"
                       />

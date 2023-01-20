@@ -70,8 +70,9 @@ const CommercialServices = () => {
               >
                 Let HOMEFIRST: automate help to expand your current Los Angeles
                 business, setup a brand new point of sale location, or create a
-                top of the line <Link to="#">commercial room design.</Link>{" "}
-                Whatever your commercial application is we can help.
+                top of the line{" "}
+                <Link to="/crestron">commercial room design.</Link> Whatever
+                your commercial application is we can help.
               </p>
             </div>
           </div>

@@ -85,7 +85,7 @@ const Footer = () => {
                         </div>
                         <div className="footerlinks2">
                           <div className="su-accordion su-u-trim footermenu">
-                            <Link to="#">Home</Link>
+                            <Link to="/">Home</Link>
                             <Link to="/about">About</Link>
                             <div
                               className={`su-spoiler su-spoiler-style-default su-spoiler-icon-chevron ${
@@ -165,7 +165,7 @@ const Footer = () => {
           <div className="footer-credits">
             <p className="footer-copyright">
               © 2023
-              <Link to="#">HOMEFIRST: automate</Link>
+              <Link to="/">HOMEFIRST: automate</Link>
             </p>
 
             <p className="powered-by-wordpress">
