@@ -40,6 +40,7 @@ const Knx = React.lazy(() => import("./pages/knx"));
 const HunterDouglas = React.lazy(() => import("./pages/hunter-douglas"));
 const Notfound = React.lazy(() => import("./pages/notfound"));
 const AlarmCom = React.lazy(() => import("./pages/alarm-com"));
+const JoshAi = React.lazy(() => import("./pages/josh-ai"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -96,6 +97,7 @@ const AppRouter = () => {
           <Route path="/knx" element={<Knx />} />
           <Route path="/hunter-douglas" element={<HunterDouglas />} />
           <Route path="/alarm-com" element={<AlarmCom />} />
+          <Route path="/josh-ai" element={<JoshAi />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />

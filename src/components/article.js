@@ -59,7 +59,7 @@ const Article = ({ blog }) => {
               </span>
               <span className="meta-text">
                 <Link
-                  to="#"
+                  to="/audio-systems"
                 >
                   Surround Sound Installation
                 </Link>{" "}

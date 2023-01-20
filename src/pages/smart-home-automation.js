@@ -404,7 +404,7 @@ const SmartHomeAutomation = () => {
                     listen to your favorite musical pieces inside the house, or
                     even outside by the pool relaxing or entertaining guests in
                     sunny Los Angeles. With a Crestron Home or{" "}
-                    <Link to="#">Control4 installation</Link>, you can fully
+                    <Link to="/control-4">Control4 installation</Link>, you can fully
                     control song selection, audio levels, and pretty much every
                     audio style you can imagine.
                   </p>
