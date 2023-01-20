@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+const StartJourney = React.lazy(() => import("../components/start-journey"));
 
 const Ruckus = () => {
   return (
@@ -51,7 +51,7 @@ const Ruckus = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/ruckus-1-1024x769.jpg"
+                  src="assets/images/ruckus1.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -67,7 +67,7 @@ const Ruckus = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/ruckus-5-1024x769.jpg"
+                  src="assets/images/ruckus5.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -141,7 +141,7 @@ const Ruckus = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/ruckus-7-1024x769.jpg"
+                  src="assets/images/ruckus7.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -157,7 +157,7 @@ const Ruckus = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/ruckus-6-1024x769.jpg"
+                  src="assets/images/ruckus6.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -232,7 +232,7 @@ const Ruckus = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/ruckus-9-1024x770.jpg"
+                  src="assets/images/ruckus9.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -248,7 +248,7 @@ const Ruckus = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/ruckus-8-1024x769.jpg"
+                  src="assets/images/ruckus8.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -324,7 +324,7 @@ const Ruckus = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/ruckus-10-1024x769.jpg"
+                  src="assets/images/ruckus10.jpg"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -341,55 +341,14 @@ const Ruckus = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/ruckus-11-1024x769.jpg"
+                  src="assets/images/ruckus11.jpg"
                   alt=""
                   className="wp-image-847"
                 />
               </figure>
             </div>
           </div>
-          <div
-            className="is-layout-flex wp-container-27 wp-block-columns alignfull servicesdualcontainer"
-            id="4"
-          >
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2396"
-                  height="1600"
-                  src="assets/images/haslam-17-1024x769.jpg"
-                  alt=""
-                  className="wp-image-848"
-                />
-              </figure>
-            </div>
-
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <div
-                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
-              >
-                <div className="wp-block-group__inner-container">
-                  <h2>LETS START YOUR JOURNEY</h2>
-
-                  <p className="pointsmade homeauto">
-                    Want to see what we can do for you? Contact us today and we
-                    can go over all your options. Whether price is a factor or
-                    not, we can work with you to make your dreams come true, our
-                    give you ideas to create your dreams.
-                  </p>
-                  <Link to="/contact">Contact Us</Link>
-                </div>
-              </div>
-            </div>
-          </div>
+          <StartJourney />
         </div>
       </div>
     </div>

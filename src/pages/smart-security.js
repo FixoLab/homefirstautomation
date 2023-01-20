@@ -76,9 +76,9 @@ const SmartSecurity = () => {
               >
                 21st century criminals need 21st century security. There is
                 nothing more important than you and your loved ones. Our{" "}
-                <Link to="#">smart home security systems</Link>{" "}
-                and devices will give you piece of mind during the day, night,
-                and away from your Los Angeles home.
+                <Link to="#">smart home security systems</Link> and devices will
+                give you piece of mind during the day, night, and away from your
+                Los Angeles home.
               </p>
             </div>
           </div>
@@ -94,7 +94,7 @@ const SmartSecurity = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/security-1-1024x771.jpg"
+                  src="assets/images/security1.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -133,7 +133,7 @@ const SmartSecurity = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/smart-2-1024x770.jpg"
+                  src="assets/images/smart2.jpg"
                   alt=""
                   className="wp-image-846"
                 />
@@ -178,7 +178,7 @@ const SmartSecurity = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/security-12-1024x769.jpg"
+                  src="assets/images/security12.jpg"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -222,7 +222,7 @@ const SmartSecurity = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/security-8-1024x768.jpg"
+                  src="assets/images/security8.jpg"
                   alt=""
                   className="wp-image-846"
                 />
@@ -261,7 +261,7 @@ const SmartSecurity = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/security-14-1024x769.jpg"
+                  src="assets/images/security14.jpg"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -385,7 +385,7 @@ const SmartSecurity = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/security-16-1024x769.jpg"
+                  src="assets/images/security16.jpg"
                   alt=""
                   className="wp-image-845"
                 />

@@ -92,7 +92,7 @@ const LightingSystems = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/audio-9-1024x769.jpg"
+                  src="assets/images/audio9.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -131,7 +131,7 @@ const LightingSystems = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/audio-8.jpg"
+                  src="assets/images/audio8.jpg"
                   alt=""
                   className="wp-image-846"
                 />
@@ -208,7 +208,7 @@ const LightingSystems = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/lighting-1-1024x770.jpg"
+                  src="assets/images/lighting1.jpg"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -287,7 +287,7 @@ const LightingSystems = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/lighting-9-1024x683.jpg"
+                  src="assets/images/lighting9.jpg"
                   alt=""
                   className="wp-image-846"
                 />
@@ -361,7 +361,7 @@ const LightingSystems = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/lighting-6-1024x770.jpg"
+                  src="assets/images/lighting6.jpg"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -378,7 +378,7 @@ const LightingSystems = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/audio-10-1024x769.jpg"
+                  src="assets/images/audio10.jpg"
                   alt=""
                   className="wp-image-847"
                 />
@@ -399,7 +399,7 @@ const LightingSystems = () => {
                 <img
                   width="2396"
                   height="1600"
-                  src="assets/images/lighting-5-1024x771.jpg"
+                  src="assets/images/lighting5.jpg"
                   alt=""
                   className="wp-image-848"
                 />
@@ -476,7 +476,7 @@ const LightingSystems = () => {
                 <img
                   width="1024"
                   height="752"
-                  src="assets/images/audio-3-1024x769.jpg"
+                  src="assets/images/audio3.jpg"
                   alt=""
                   className="wp-image-1711"
                 />
@@ -554,7 +554,7 @@ const LightingSystems = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/audio-2-1024x769.jpg"
+                  src="assets/images/audio2.jpg"
                   alt=""
                   className="wp-image-845"
                 />
