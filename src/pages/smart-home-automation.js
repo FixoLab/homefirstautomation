@@ -317,7 +317,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/savant">
                       <img
                         width="180"
                         height="180"
@@ -410,7 +410,7 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/control-4">
                       <img
                         width="180"
                         height="180"
