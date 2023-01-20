@@ -51,7 +51,7 @@ const Ruckus = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/ruckus-1-1024x769.jpg"
+                  src="assets/images/ruckus1.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -67,7 +67,7 @@ const Ruckus = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/ruckus-5-1024x769.jpg"
+                  src="assets/images/ruckus5.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -141,7 +141,7 @@ const Ruckus = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/ruckus-7-1024x769.jpg"
+                  src="assets/images/ruckus7.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -157,7 +157,7 @@ const Ruckus = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/ruckus-6-1024x769.jpg"
+                  src="assets/images/ruckus6.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -232,7 +232,7 @@ const Ruckus = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/ruckus-9-1024x770.jpg"
+                  src="assets/images/ruckus9.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -248,7 +248,7 @@ const Ruckus = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/ruckus-8-1024x769.jpg"
+                  src="assets/images/ruckus8.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -324,7 +324,7 @@ const Ruckus = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/ruckus-10-1024x769.jpg"
+                  src="assets/images/ruckus10.jpg"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -341,7 +341,7 @@ const Ruckus = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/ruckus-11-1024x769.jpg"
+                  src="assets/images/ruckus11.jpg"
                   alt=""
                   className="wp-image-847"
                 />

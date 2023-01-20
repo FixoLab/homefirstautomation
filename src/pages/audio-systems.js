@@ -111,7 +111,7 @@ const AudioSystems = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/media-6-1024x768.jpg"
+                  src="assets/images/media6.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -133,7 +133,7 @@ const AudioSystems = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/media-7-1024x768.jpg"
+                  src="assets/images/media7.jpg"
                   alt=""
                   className="wp-image-846"
                 />
@@ -325,7 +325,7 @@ const AudioSystems = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/media-3-1024x768.jpg"
+                  src="assets/images/media3.jpg"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -363,7 +363,7 @@ const AudioSystems = () => {
                 <img
                   width="2396"
                   height="1600"
-                  src="assets/images/media-8-1024x768.jpg"
+                  src="assets/images/media8.jpg"
                   alt=""
                   className="wp-image-848"
                 />
@@ -442,7 +442,7 @@ const AudioSystems = () => {
                 <img
                   width="1024"
                   height="752"
-                  src="assets/images/media-4-1024x769.jpg"
+                  src="assets/images/media4.jpg"
                   alt=""
                   className="wp-image-1711"
                 />

@@ -111,7 +111,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/smart-10-1024x769.jpg"
+                  src="assets/images/smart10.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -166,7 +166,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/smart-2-1024x770.jpg"
+                  src="assets/images/smart2.jpg"
                   alt=""
                   className="wp-image-1544"
                 />
@@ -188,7 +188,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/smart-7-1024x770.jpg"
+                  src="assets/images/smart7.jpg"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -422,7 +422,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/crestron">
                       <img
                         width="180"
                         height="180"
@@ -434,7 +434,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/coastal-source">
                       <img
                         width="180"
                         height="180"
@@ -463,7 +463,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="1024"
                   height="752"
-                  src="assets/images/smart-6-1-1024x752.jpg"
+                  src="assets/images/smart61.jpg"
                   alt=""
                   className="wp-image-1711"
                 />
@@ -490,7 +490,7 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/control-4">
                       <img
                         width="180"
                         height="180"
@@ -502,7 +502,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/crestron">
                       <img
                         width="180"
                         height="180"
@@ -514,7 +514,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/savant">
                       <img
                         width="180"
                         height="180"
@@ -571,7 +571,7 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/alarm-com">
                       <img
                         width="180"
                         height="180"
@@ -583,7 +583,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/josh-ai">
                       <img
                         width="180"
                         height="180"
@@ -595,7 +595,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/knx">
                       <img
                         width="180"
                         height="180"
@@ -624,7 +624,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/smart-12a-1024x769.jpg"
+                  src="assets/images/smart12a.jpg"
                   alt=""
                   className="wp-image-2491"
                 />
@@ -643,14 +643,14 @@ const SmartHomeAutomation = () => {
 
                   <p className="pointsmade homeauto">
                     Talk with friends, family, coworkers, and more with a smart
-                    home conferencing system. HOMEFIRST: automate can analyze your
-                    current setup, install a top of the line model, and give you
-                    a quick run down of all your new features. Video
+                    home conferencing system. HOMEFIRST: automate can analyze
+                    your current setup, install a top of the line model, and
+                    give you a quick run down of all your new features. Video
                     conferencing has never been easier.{" "}
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/josh-ai">
                       <img
                         width="180"
                         height="180"
@@ -662,7 +662,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/knx">
                       <img
                         width="180"
                         height="180"
@@ -674,7 +674,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/crestron">
                       <img
                         width="180"
                         height="180"
@@ -688,7 +688,6 @@ const SmartHomeAutomation = () => {
               </div>
             </div>
           </div>
-
           <CallToAction />
         </div>
       </div>

@@ -52,7 +52,7 @@ const AlarmCom = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/alarmdotcom-3.jpg"
+                  src="assets/images/alarmdotcom3.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -68,7 +68,7 @@ const AlarmCom = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/alarmdotcom-2.jpg"
+                  src="assets/images/alarmdotcom2.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -145,7 +145,7 @@ const AlarmCom = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/alarmdotcom-5-1024x769.jpg"
+                  src="assets/images/alarmdotcom5.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -161,7 +161,7 @@ const AlarmCom = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/alarmdotcom-6-1024x769.jpg"
+                  src="assets/images/alarmdotcom6.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -237,7 +237,7 @@ const AlarmCom = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/alarmdotcom-4-1024x769.jpg"
+                  src="assets/images/alarmdotcom4.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -253,7 +253,7 @@ const AlarmCom = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/alarmdotcom-1-1024x769.jpg"
+                  src="assets/images/alarmdotcom1.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -328,7 +328,7 @@ const AlarmCom = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/alarmdotcom-7.jpg"
+                  src="assets/images/alarmdotcom7.jpg"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -345,7 +345,7 @@ const AlarmCom = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/alarmdotcom-8.jpg"
+                  src="assets/images/alarmdotcom8.jpg"
                   alt=""
                   className="wp-image-847"
                 />
