@@ -1,5 +1,5 @@
 import React from "react";
-const StartJourney = React.lazy(() => import("../components/start-journey"));
+import { Link } from "react-router-dom";
 
 const Ruckus = () => {
   return (
@@ -348,7 +348,48 @@ const Ruckus = () => {
               </figure>
             </div>
           </div>
-          <StartJourney />
+          <div
+            className="is-layout-flex wp-container-27 wp-block-columns alignfull servicesdualcontainer"
+            id="4"
+          >
+            <div className="is-layout-flow wp-block-column servicesimages">
+              <figure
+                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
+                <img
+                  width="2396"
+                  height="1600"
+                  src="assets/images/haslam-17-1024x769.jpg"
+                  alt=""
+                  className="wp-image-848"
+                />
+              </figure>
+            </div>
+
+            <div className="is-layout-flow wp-block-column servicesimages">
+              <div
+                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
+                <div className="wp-block-group__inner-container">
+                  <h2>LETS START YOUR JOURNEY</h2>
+
+                  <p className="pointsmade homeauto">
+                    Want to see what we can do for you? Contact us today and we
+                    can go over all your options. Whether price is a factor or
+                    not, we can work with you to make your dreams come true, our
+                    give you ideas to create your dreams.
+                  </p>
+                  <Link to="/contact">Contact Us</Link>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
