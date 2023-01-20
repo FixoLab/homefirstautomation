@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+const StartJourney = React.lazy(() => import("../components/start-journey"));
 
 const Savant = () => {
   return (
@@ -23,12 +23,12 @@ const Savant = () => {
 
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
-                  <div class="wp-block-image">
-                    <figure class="aligncenter size-large is-resized">
+                  <div className="wp-block-image">
+                    <figure className="aligncenter size-large is-resized">
                       <img
                         src="assets/images/savant.png"
                         alt=""
-                        class="wp-image-2104"
+                        className="wp-image-2104"
                         width="192"
                         height="37"
                       />
@@ -40,7 +40,7 @@ const Savant = () => {
           </div>
 
           <div className="is-layout-flow wp-block-group serviceswhitebackground">
-            <div class="wp-block-group__inner-container">
+            <div className="wp-block-group__inner-container">
               <p>
                 Savant was established in 2005 with the objective of giving the
                 best involvement with home automation. To us, that implies items
@@ -323,16 +323,15 @@ const Savant = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>LETS START YOUR JOURNEY</h2>
+                  <h2>SAVANT SMART HOME AUTOMATION</h2>
 
                   <p className="pointsmade homeauto">
-                    Want to see what we can do for you? Contact us today and we
-                    can go over all your options. Whether price is a factor or
-                    not, we can work with you to make your dreams come true, our
-                    give you ideas to create your dreams.
-                  </p>
-                  <p>
-                    <Link to="/contact-us">Contact Us</Link>
+                    Monitor and Control your smart home with Savant’s easy to
+                    use smart system. Whether it be controlling your
+                    entertainment systems through one easy to use remote,
+                    monitoring and changing your wine cellar from your smart
+                    watch, or voice commands to control your home’s security.
+                    Savant has a way to do it.
                   </p>
                 </div>
               </div>
@@ -373,50 +372,7 @@ const Savant = () => {
               </figure>
             </div>
           </div>
-          <div
-            className="is-layout-flex wp-container-27 wp-block-columns alignfull servicesdualcontainer"
-            id="4"
-          >
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2396"
-                  height="1600"
-                  src="assets/images/haslam-17-1024x769.jpg"
-                  alt=""
-                  className="wp-image-848"
-                />
-              </figure>
-            </div>
-
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <div
-                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
-              >
-                <div className="wp-block-group__inner-container">
-                  <h2>LETS START YOUR JOURNEY</h2>
-
-                  <p className="pointsmade homeauto">
-                    Want to see what we can do for you? Contact us today and we
-                    can go over all your options. Whether price is a factor or
-                    not, we can work with you to make your dreams come true, our
-                    give you ideas to create your dreams.
-                  </p>
-                  <p className="pointsmade homeauto">
-                    <Link to="/contact">Contact Us</Link>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <StartJourney />
         </div>
       </div>
     </div>
