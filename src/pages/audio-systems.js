@@ -94,7 +94,7 @@ const AudioSystems = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/audio-14-1024x769.jpg"
+                  src="assets/images/audio14.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -267,7 +267,7 @@ const AudioSystems = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/audio-15-1024x769.jpg"
+                  src="assets/images/audio15.jpg"
                   alt=""
                   className="wp-image-846"
                 />

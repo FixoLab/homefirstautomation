@@ -161,7 +161,7 @@ const CoastalSource = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/coastalsource4-1024x769.jpg"
+                  src="assets/images/coastalsource4.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -177,7 +177,7 @@ const CoastalSource = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/coastalsource5-1024x769.jpg"
+                  src="assets/images/coastalsource5.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
