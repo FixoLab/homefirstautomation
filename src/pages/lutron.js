@@ -1,7 +1,7 @@
 import React from "react";
 const StartJourney = React.lazy(() => import("../components/start-journey"));
 
-const Savant = () => {
+const Ruckus = () => {
   return (
     <div id="site-content">
       <div className="post-inner thin ">
@@ -18,21 +18,24 @@ const Savant = () => {
                 width="300"
                 height="150"
               >
-                <source src="assets/video/Mainvideo-1.mp4" type="video/mp4" />
+                <source src="assets/video/lutronintro.mp4" type="video/mp4" />
               </video>
-
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
-                  <div className="wp-block-image">
-                    <figure className="aligncenter size-large is-resized">
-                      <img
-                        src="assets/images/savant.png"
-                        alt=""
-                        className="wp-image-2104"
-                        width="192"
-                        height="37"
-                      />
-                    </figure>
+                  <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+                    <div className="wp-block-group__inner-container">
+                      <div className="wp-block-image">
+                        <figure className="aligncenter size-full is-resized">
+                          <img
+                            src="assets/images/img_logo_lutron1.gif"
+                            alt=""
+                            className="wp-image-2096"
+                            width="170"
+                            height="25"
+                          />
+                        </figure>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -41,26 +44,16 @@ const Savant = () => {
 
           <div className="is-layout-flow wp-block-group serviceswhitebackground">
             <div className="wp-block-group__inner-container">
-              <p>
-                Savant was established in 2005 with the objective of giving the
-                best involvement with home automation. To us, that implies items
-                that are imaginative, simple to utilize, and
-                future-accommodating, so our clients will have the option to
-                appreciate them for quite a long time.
-              </p>
-
-              <p>
-                As the main home computerization organization to grasp versatile
-                innovation, we saw early that the client experience could reach
-                out past the home and open up additional opportunities for
-                control.
-              </p>
-
-              <p>
-                Throughout the long term, our innovation has advanced and our
-                organization has developed, however our objective continues as
-                before. We’ve become the home computerization brand of decision
-                for the world’s most lavish homes, palaces, and even yachts.
+              <p
+                className="has-text-align-center servicesleader eds-on-scroll eds-scroll-visible"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
+                Lutron is a technology company founded in the 1950s that centers
+                around lighting. This includes lighting switches, lighting
+                controls, lights, electric shades, and wireless systems to
+                control and remove complications from your visual experiences.
               </p>
             </div>
           </div>
@@ -76,13 +69,12 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/savant1-1024x769.jpg"
+                  src="assets/images/lutron2-1024x769.jpg"
                   alt=""
                   className="wp-image-853"
                 />
               </figure>
             </div>
-
             <div className="is-layout-flow wp-block-column servicesimages">
               <figure
                 className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
@@ -93,13 +85,14 @@ const Savant = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/savant2-1024x769.jpg"
+                  src="assets/images/lutron1-1024x769.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
               </figure>
             </div>
           </div>
+
           <div
             className="is-layout-flex wp-container-20 wp-block-columns alignfull servicesdualcontainer reversetheflex"
             id="1"
@@ -129,10 +122,7 @@ const Savant = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source
-                  src="assets/video/savant-shades2.mp4"
-                  type="video/mp4"
-                />
+                <source src="assets/video/lutronshades1.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -144,12 +134,12 @@ const Savant = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>SAVANT LIGHTING</h2>
+                  <h2>LUTRON ELECTRIC SHADES</h2>
 
                   <p className="pointsmade homeauto">
-                    Create the perfect mood lighting for events indoors, let
-                    guests enjoy extravagant outdoor events, or simply make your
-                    life easier with automated savant lighting.
+                    Lutron’s electric shades are known throughout the world as
+                    one of the premier motorized shading distributors. They have
+                    been in the business of shading for nearly a century.
                   </p>
                 </div>
               </div>
@@ -166,7 +156,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/savant3.jpg"
+                  src="assets/images/lutron3-1024x768.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -182,7 +172,7 @@ const Savant = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/savant4.jpg"
+                  src="assets/images/lutron4-1024x769.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -219,7 +209,7 @@ const Savant = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source src="assets/video/savant-light.mp4" type="video/mp4" />
+                <source src="assets/video/lutrondimmer1.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -231,15 +221,13 @@ const Savant = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>SAVANT SMART HOME AUTOMATION</h2>
+                  <h2>LUTRON DIMMER AND SWITCHES</h2>
 
                   <p className="pointsmade homeauto">
-                    Monitor and Control your smart home with Savant’s easy to
-                    use smart system. Whether it be controlling your
-                    entertainment systems through one easy to use remote,
-                    monitoring and changing your wine cellar from your smart
-                    watch, or voice commands to control your home’s security.
-                    Savant has a way to do it.
+                    Lutron dimmer switches, lighting switches, and motorized
+                    shading switches are top of the line. All major home,
+                    businesses, and events use Lutron switches to complete they
+                    projects and give the upmost presentation.
                   </p>
                 </div>
               </div>
@@ -256,7 +244,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/savant5.jpg"
+                  src="assets/images/lutron6.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -272,7 +260,7 @@ const Savant = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/savant6.jpg"
+                  src="assets/images/lutron5.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -308,10 +296,7 @@ const Savant = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source
-                  src="assets/video/savant-remote2.mp4"
-                  type="video/mp4"
-                />
+                <source src="assets/video/lutronos1.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -323,15 +308,13 @@ const Savant = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>SAVANT SMART HOME AUTOMATION</h2>
+                  <h2>LUTRON SMART SYSTEMS</h2>
 
                   <p className="pointsmade homeauto">
-                    Monitor and Control your smart home with Savant’s easy to
-                    use smart system. Whether it be controlling your
-                    entertainment systems through one easy to use remote,
-                    monitoring and changing your wine cellar from your smart
-                    watch, or voice commands to control your home’s security.
-                    Savant has a way to do it.
+                    Lutron not only dominates in the shading and switches
+                    ecosystem, but the lighting control software too. Their
+                    patented lighting system is used by luxury homes, billion
+                    dollar businesses, and more.
                   </p>
                 </div>
               </div>
@@ -348,7 +331,7 @@ const Savant = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/savant7.jpg"
+                  src="assets/images/lutron7-1024x768.jpg"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -365,7 +348,7 @@ const Savant = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/savant8-1024x769.jpg"
+                  src="assets/images/lutron9-1024x768.jpg"
                   alt=""
                   className="wp-image-847"
                 />
@@ -379,4 +362,4 @@ const Savant = () => {
   );
 };
 
-export default Savant;
+export default Ruckus;

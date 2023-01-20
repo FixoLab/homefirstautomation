@@ -214,7 +214,7 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/lutron">
                       <img
                         width="180"
                         height="180"
