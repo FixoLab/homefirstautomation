@@ -273,7 +273,7 @@ const Header = () => {
                 <ul className="modal-menu reset-list-style">
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1903">
                     <div className="ancestor-wrapper">
-                      <Link to="#">Start Your Project</Link>
+                      <Link to="/start-your-project">Start Your Project</Link>
                     </div>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-484">
@@ -377,12 +377,12 @@ const Header = () => {
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1188">
                     <div className="ancestor-wrapper">
-                      <Link to="#">Contact</Link>
+                      <Link to="/contact-us">Contact</Link>
                     </div>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1193">
                     <div className="ancestor-wrapper">
-                      <Link to="#">Blog</Link>
+                      <Link to="/blog">Blog</Link>
                     </div>
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3288">
