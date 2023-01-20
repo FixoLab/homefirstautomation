@@ -238,7 +238,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="#">
+                    <Link to="/knx">
                       <img
                         width="180"
                         height="180"
