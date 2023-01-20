@@ -69,7 +69,7 @@ const Ruckus = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/lutron2-1024x769.jpg"
+                  src="assets/images/lutron2.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -85,7 +85,7 @@ const Ruckus = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/lutron1-1024x769.jpg"
+                  src="assets/images/lutron1.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -156,7 +156,7 @@ const Ruckus = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/lutron3-1024x768.jpg"
+                  src="assets/images/lutron3.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -172,7 +172,7 @@ const Ruckus = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/lutron4-1024x769.jpg"
+                  src="assets/images/lutron4.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -331,7 +331,7 @@ const Ruckus = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/lutron7-1024x768.jpg"
+                  src="assets/images/lutron7.jpg"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -348,7 +348,7 @@ const Ruckus = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/lutron9-1024x768.jpg"
+                  src="assets/images/lutron9.jpg"
                   alt=""
                   className="wp-image-847"
                 />
