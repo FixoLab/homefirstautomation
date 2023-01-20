@@ -130,7 +130,7 @@ const About = () => {
                               <td>
                                 <Link to="#">
                                   <img
-                                    src="assets/images/badge125_125@2x.png"
+                                    src="assets/images/badge125.png"
                                     alt="Joshua Trevithick in Los Angeles, CA on Houzz"
                                     width="125"
                                     height="125"
@@ -151,7 +151,7 @@ const About = () => {
                               <td>
                                 <Link to="#">
                                   <img
-                                    src="assets/images/badge_54_8@2x.png"
+                                    src="assets/images/badge54.png"
                                     alt="Joshua Trevithick in Los Angeles, CA on Houzz"
                                     width="80"
                                     height="80"

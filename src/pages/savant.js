@@ -76,7 +76,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/savant1-1024x769.jpg"
+                  src="assets/images/savant1.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -93,7 +93,7 @@ const Savant = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/savant2-1024x769.jpg"
+                  src="assets/images/savant2.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -365,7 +365,7 @@ const Savant = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/savant8-1024x769.jpg"
+                  src="assets/images/savant8.jpg"
                   alt=""
                   className="wp-image-847"
                 />

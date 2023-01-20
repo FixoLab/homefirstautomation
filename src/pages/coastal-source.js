@@ -76,7 +76,7 @@ const CoastalSource = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/coastalsource3-1024x769.jpg"
+                  src="assets/images/coastalsource3.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -92,7 +92,7 @@ const CoastalSource = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/coastalsource2-1024x769.jpg"
+                  src="assets/images/coastalsource2.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -330,7 +330,7 @@ const CoastalSource = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/coastalsource1b-1024x770.jpg"
+                  src="assets/images/coastalsource1b.jpg"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -347,7 +347,7 @@ const CoastalSource = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/coastalsource8-1024x770.jpg"
+                  src="assets/images/coastalsource8.jpg"
                   alt=""
                   className="wp-image-847"
                 />

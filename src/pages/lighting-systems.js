@@ -131,7 +131,7 @@ const LightingSystems = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/audio-8.jpg"
+                  src="assets/images/audio8.jpg"
                   alt=""
                   className="wp-image-846"
                 />
@@ -208,7 +208,7 @@ const LightingSystems = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/lighting-1-1024x770.jpg"
+                  src="assets/images/lighting1.jpg"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -399,7 +399,7 @@ const LightingSystems = () => {
                 <img
                   width="2396"
                   height="1600"
-                  src="assets/images/lighting-5-1024x771.jpg"
+                  src="assets/images/lighting5.jpg"
                   alt=""
                   className="wp-image-848"
                 />

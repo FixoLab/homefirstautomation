@@ -93,7 +93,7 @@ const HomeTheater = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/theater-18-1024x769.jpg"
+                  src="assets/images/theater18.jpg"
                   alt=""
                   className="wp-image-853"
                 />
@@ -110,7 +110,7 @@ const HomeTheater = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/theater-19-1024x770.jpg"
+                  src="assets/images/theater19.jpg"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -132,7 +132,7 @@ const HomeTheater = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/theater-10-1024x769.jpg"
+                  src="assets/images/theater10.jpg"
                   alt=""
                   className="wp-image-846"
                 />
@@ -212,7 +212,7 @@ const HomeTheater = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/theater-5-1024x770.jpg"
+                  src="assets/images/theater5.jpg"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -290,7 +290,7 @@ const HomeTheater = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/theater-8.jpg"
+                  src="assets/images/theater8.jpg"
                   alt=""
                   className="wp-image-846"
                 />
@@ -309,8 +309,8 @@ const HomeTheater = () => {
 
                   <p className="pointsmade homeauto">
                     Have your living room work with only the top end audio and
-                    visual settings. We at HOMEFIRST: automate can mold any living
-                    room into a state of the art home theater setup.
+                    visual settings. We at HOMEFIRST: automate can mold any
+                    living room into a state of the art home theater setup.
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
@@ -363,7 +363,7 @@ const HomeTheater = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/theater-14-1024x770.jpg"
+                  src="assets/images/theater14.jpg"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -380,7 +380,7 @@ const HomeTheater = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/theater-6-1024x770.jpg"
+                  src="assets/images/theater6.jpg"
                   alt=""
                   className="wp-image-847"
                 />
@@ -401,7 +401,7 @@ const HomeTheater = () => {
                 <img
                   width="2396"
                   height="1600"
-                  src="assets/images/theater-2-1024x770.jpg"
+                  src="assets/images/theater2.jpg"
                   alt=""
                   className="wp-image-848"
                 />
@@ -478,7 +478,7 @@ const HomeTheater = () => {
                 <img
                   width="1024"
                   height="752"
-                  src="assets/images/theater-16-1024x769.jpg"
+                  src="assets/images/theater16.jpg"
                   alt=""
                   className="wp-image-1711"
                 />
@@ -556,7 +556,7 @@ const HomeTheater = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/theater-3-1024x770.jpg"
+                  src="assets/images/theater3.jpg"
                   alt=""
                   className="wp-image-845"
                 />
