@@ -142,7 +142,7 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large is-resized servicebrands">
-                    <Link to="#">
+                    <Link to="/ruckus">
                       <img
                         src="assets/images/ruckus.png"
                         alt=""
