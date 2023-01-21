@@ -25,10 +25,8 @@ const Partners = () => {
                       </p>
                     </div>
                   </div>
-                  <p></p>
                 </div>
               </div>
-              <p></p>
             </div>
           </div>
 
