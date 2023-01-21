@@ -7,34 +7,22 @@ const BrandsWeCarry = () => {
     <div id="site-content" className="brands">
       <div className="post-inner thin ">
         <div className="entry-content">
-          <p></p>
-          <div className="vce-row-container" data-vce-boxed-width="true">
+          <div className="vce-row-container">
             <div
               className="vce-row vce-row--col-gap-30 vce-row-equal-height vce-row-content--top"
               id="el-026c5e86"
-              data-vce-do-apply="all el-026c5e86"
             >
-              <div className="vce-row-content" data-vce-element-content="true">
-                <p></p>
+              <div className="vce-row-content">
                 <div
                   className="vce-col vce-col--md-auto vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-last vce-col--lg-last vce-col--xl-last vce-col--md-first vce-col--lg-first vce-col--xl-first"
                   id="el-df84ea90"
                 >
-                  <div
-                    className="vce-col-inner"
-                    data-vce-do-apply="border margin background  el-df84ea90"
-                  >
-                    <div
-                      className="vce-col-content"
-                      data-vce-element-content="true"
-                      data-vce-do-apply="padding el-df84ea90"
-                    >
-                      <p></p>
+                  <div className="vce-col-inner">
+                    <div className="vce-col-content">
                       <div className="vce-text-block">
                         <div
                           className="vce-text-block-wrapper vce"
                           id="el-43512ed9"
-                          data-vce-do-apply="all el-43512ed9"
                         ></div>
                       </div>
                     </div>
@@ -507,12 +495,7 @@ const BrandsWeCarry = () => {
               </div>
             </div>
           </div>
-
           <CallToAction />
-
-          <p></p>
-          <p></p>
-          <p></p>
         </div>
       </div>
     </div>

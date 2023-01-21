@@ -234,7 +234,6 @@ const Header = () => {
         className={`menu-modal cover-modal header-footer-group ${
           menuActive ? "show-modal active" : ""
         }`}
-        data-modal-target-string=".menu-modal"
       >
         <div className="menu-modal-inner modal-inner">
           <div className="menu-wrapper section-inner">
@@ -242,9 +241,6 @@ const Header = () => {
               <button
                 className="toggle close-nav-toggle fill-children-current-color"
                 onClick={menuToggleClass}
-                data-toggle-target=".menu-modal"
-                aria-expanded="false"
-                data-set-focus=".menu-modal"
               >
                 <span className="toggle-text">Close Menu</span>
                 <svg
@@ -289,10 +285,6 @@ const Header = () => {
                           subMenuActive ? "active" : ""
                         }`}
                         onClick={subMenuToggleClass}
-                        data-toggle-target=".menu-modal .menu-item-459 > .sub-menu"
-                        data-toggle-type="slidetoggle"
-                        data-toggle-duration="250"
-                        aria-expanded="false"
                       >
                         <span className="screen-reader-text">
                           Show sub menu
