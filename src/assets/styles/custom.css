@@ -34,22 +34,15 @@ table *,
 hr {
   border-color: #dcd7ca;
 }
-caption,
-code,
-code,
-kbd,
 samp {
   background-color: #dcd7ca;
 }
 
-body:not(.overlay-header) .primary-menu > li > a,
-body:not(.overlay-header) .primary-menu > li > .icon,
 .modal-menu a,
-.footer-widgets a,
-.archive-header a {
+.footer-widgets a {
   color: #cd2653;
 }
-.social-icons a,
+
 #site-footer button:not(.toggle),
 #site-footer .button,
 #site-footer .faux-button,
@@ -59,21 +52,9 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   background-color: #cd2653;
 }
 .header-footer-group,
-body:not(.overlay-header) #site-header .toggle,
 .menu-modal .toggle {
   color: #000000;
 }
-body:not(.overlay-header) .primary-menu ul {
-  background-color: #000000;
-}
-body:not(.overlay-header) .primary-menu > li > ul:after {
-  border-bottom-color: #000000;
-}
-body:not(.overlay-header) .primary-menu ul ul:after {
-  border-left-color: #000000;
-}
-.site-description,
-body:not(.overlay-header) .toggle-inner .toggle-text,
 .widget .post-date,
 .widget .rss-date,
 .powered-by-wordpress,
@@ -91,8 +72,7 @@ body:not(.overlay-header) .toggle-inner .toggle-text,
 .footer-widgets-outer-wrapper {
   border-color: #dcd7ca;
 }
-.header-footer-group table caption,
-body:not(.overlay-header) .header-inner .toggle-wrapper::before {
+.header-footer-group table caption{
   background-color: #dcd7ca;
 }
 
@@ -118,8 +98,6 @@ img.emoji {
   padding: 0 !important;
 }
 
-.site-description,
-body:not(.overlay-header) .toggle-inner .toggle-text,
 .widget .post-date,
 .widget .rss-date,
 .powered-by-wordpress,
@@ -169,31 +147,18 @@ a:visited {
 .post-inner {
   padding-top: 0rem;
 }
-body:not(.overlay-header) .primary-menu > li > a,
-body:not(.overlay-header) .primary-menu > li > .icon,
+
 .modal-menu a,
-.footer-widgets a,
-.archive-header a {
+.footer-widgets a {
   color: #5e676a;
 }
-.primary-menu li.current-menu-item > a:hover,
-.primary-menu li.current-menu-item > .link-icon-wrapper > a:hover,
-.primary-menu li.current-menu-item > a:focus,
-.primary-menu li.current-menu-item > .link-icon-wrapper > a:focus {
-  text-decoration: none;
-  color: #58c7f1;
-}
+
 .primary-menu a:hover,
-.primary-menu a:focus,
-.primary-menu .current_page_ancestor {
+.primary-menu a:focus {
   text-decoration: none;
   color: #58c7f1 !important;
 }
-.primary-menu li.current-menu-item > a,
-.primary-menu li.current-menu-item > .link-icon-wrapper > a {
-  text-decoration: none;
-  color: #58c7f1 !important;
-}
+
 .primary-menu a {
   font-size: 12px;
   font-family: Work Sans;
@@ -224,7 +189,6 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 
 /*Header Sticky Navigation*/
 .header-footer-group,
-body:not(.overlay-header) #site-header .toggle,
 .menu-modal .toggle {
   color: #ffffff;
   z-index: 11;
@@ -458,27 +422,7 @@ li.menu-item-3288 .fas {
   background: rgba(0, 0, 0, 0.6) !important;
   color: #fff !important;
 }
-.homedualcontainer.nonmoving .homedual2 {
-  background-position-x: inherit !important;
-}
-.entry-content > .homedualcontainer.nonmoving ~ .homedualcontainer.nonmoving {
-  padding: 15px 0px 15px !important;
-}
-.homedualcontainer.nonmoving {
-  padding: 30px 0px 15px !important;
-}
-.homedualcontainer.nonmoving h2 {
-  font-weight: 300;
-  font-size: 32px;
-  text-align: left;
-}
-.homedualcontainer.nonmoving h2::after {
-  display: block;
-  content: "";
-  width: 60px;
-  height: 20px;
-  border-bottom: 5px solid #007ca1;
-}
+
 .pointsmade {
   clear: both;
   text-align: left;
@@ -906,7 +850,7 @@ li.menu-item-3288 .fas {
   display: none !important;
 }
 .entry-content
-  > *:not(.alignwide):not(.alignfull):not(.alignleft):not(
+  > *:not(.alignfull):not(.alignleft):not(
     .is-style-wide
   ) {
   max-width: 90% !important;
@@ -1773,9 +1717,7 @@ a#bbblink {
   margin-left: 0px;
   display: block;
 }
-.footer-widgets .column-one .widget_custom_html {
-  width: 100%;
-}
+
 .contactarea {
   display: flex;
   flex-wrap: nowrap;
@@ -2017,7 +1959,6 @@ a.footerphone {
 }
 
 .header-footer-group,
-body:not(.overlay-header) #site-header .toggle,
 .menu-modal .toggle {
   background: #fff;
 }
@@ -2096,9 +2037,6 @@ body:not(.overlay-header) #site-header .toggle,
   }
   .servicesimages.sidevideoleft.wp-block-column {
     margin: 1px 2px !important;
-  }
-  body:not(.overlay-header) #site-header .toggle {
-    background: #000;
   }
   .menu-modal .toggle {
     background: transparent;
