@@ -2,7 +2,6 @@
   gap: 2em;
 }
 
-.wp-block-button.is-style-outline,
 a {
   color: #cd2653;
 }
@@ -22,7 +21,6 @@ body,
 }
 figcaption
 .post-meta,
-.wp-block-image figcaption,
 hr.styled-separator {
   color: #6d6d6d;
 }
@@ -48,7 +46,6 @@ body:not(.overlay-header) .primary-menu > li > a,
 body:not(.overlay-header) .primary-menu > li > .icon,
 .modal-menu a,
 .footer-widgets a,
-#site-footer .wp-block-button.is-style-outline,
 .archive-header a {
   color: #cd2653;
 }
@@ -176,7 +173,6 @@ body:not(.overlay-header) .primary-menu > li > a,
 body:not(.overlay-header) .primary-menu > li > .icon,
 .modal-menu a,
 .footer-widgets a,
-#site-footer .wp-block-button.is-style-outline,
 .archive-header a {
   color: #5e676a;
 }
@@ -910,7 +906,7 @@ li.menu-item-3288 .fas {
   display: none !important;
 }
 .entry-content
-  > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(
+  > *:not(.alignwide):not(.alignfull):not(.alignleft):not(
     .is-style-wide
   ) {
   max-width: 90% !important;
