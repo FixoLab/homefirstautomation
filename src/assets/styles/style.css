@@ -47,15 +47,12 @@ td {
 }
 
 /* -------------------------------------------------------------------------- */
-
 /*	1. Document Setup
 /* -------------------------------------------------------------------------- */
-
 html {
   font-size: 62.5%; /* 1rem = 10px */
   scroll-behavior: smooth;
 }
-
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
