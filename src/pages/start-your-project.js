@@ -335,69 +335,57 @@ const StartYourProject = () => {
                             </label>
                           </p>
                           <p>
-                            <br />
-                            <label className="filelabel">
-                              First Floor
+                            <label>
                               <br />
-                              <span className=" file-441">
+                              <span>
                                 <input
-                                  type="file"
-                                  name="file-441"
+                                  type="text"
+                                  name="firstImage"
+                                  defaultValue=""
                                   size="40"
-                                  className="wpcf7-form-control wpcf7-file"
-                                  accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt,.avi,.ogg,.m4a,.mov,.mp3,.mp4,.mpg,.wav,.wmv"
-                                  aria-invalid="false"
+                                  placeholder="First Image Link"
                                 />
                               </span>{" "}
                             </label>
                           </p>
                           <p>
-                            <br />
-                            <label className="filelabel">
-                              Second Floor
+                            <label>
                               <br />
-                              <span className=" file-442">
+                              <span>
                                 <input
-                                  type="file"
-                                  name="file-442"
+                                  type="text"
+                                  name="secondImage"
+                                  defaultValue=""
                                   size="40"
-                                  className="wpcf7-form-control wpcf7-file"
-                                  accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt,.avi,.ogg,.m4a,.mov,.mp3,.mp4,.mpg,.wav,.wmv"
-                                  aria-invalid="false"
+                                  placeholder="Second Image Link"
                                 />
                               </span>{" "}
                             </label>
                           </p>
                           <p>
-                            <br />
-                            <label className="filelabel">
-                              Third Floor
+                            <label>
                               <br />
-                              <span className=" file-443">
+                              <span>
                                 <input
-                                  type="file"
-                                  name="file-443"
+                                  type="text"
+                                  name="thirdImage"
+                                  defaultValue=""
                                   size="40"
-                                  className="wpcf7-form-control wpcf7-file"
-                                  accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt,.avi,.ogg,.m4a,.mov,.mp3,.mp4,.mpg,.wav,.wmv"
-                                  aria-invalid="false"
+                                  placeholder="Third Image Link"
                                 />
                               </span>{" "}
                             </label>
                           </p>
                           <p>
-                            <br />
-                            <label className="filelabel">
-                              Other Plans
+                            <label>
                               <br />
-                              <span className=" file-444">
+                              <span>
                                 <input
-                                  type="file"
-                                  name="file-444"
+                                  type="text"
+                                  name="otherPlansImage"
+                                  defaultValue=""
                                   size="40"
-                                  className="wpcf7-form-control wpcf7-file"
-                                  accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.ppt,.pptx,.odt,.avi,.ogg,.m4a,.mov,.mp3,.mp4,.mpg,.wav,.wmv"
-                                  aria-invalid="false"
+                                  placeholder="Other Plans Image Link"
                                 />
                               </span>{" "}
                             </label>
@@ -408,12 +396,7 @@ const StartYourProject = () => {
                               defaultValue="Send"
                               className="wpcf7-form-control has-spinner wpcf7-submit"
                             />
-                            <span className="wpcf7-spinner"></span>
                           </p>
-                          <div
-                            className="wpcf7-response-output"
-                            aria-hidden="true"
-                          ></div>
                         </form>
                       </div>
                     </div>
