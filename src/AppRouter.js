@@ -4,70 +4,70 @@ import Footer from "./components/global/footer";
 import Header from "./components/global/header";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-import Home from "./pages/home";
-import About from "./pages/about";
-import SmartHomeAutomation from "./pages/smart-home-automation";
-import HomeTheater from "./pages/home-theater";
-import LightingSystems from "./pages/lighting-systems";
-import AudioSystems from "./pages/audio-systems";
-import SmartSecurity from "./pages/smart-security";
-import CommercialServices from "./pages/commercial-services";
-import WifiNetworkingServices from "./pages/wifi-networking-services";
-import Portfolio from "./pages/portfolio";
-import BrandsWeCarry from "./pages/brands-we-carry";
-import Partners from "./pages/partners";
-import Blog from "./pages/blog";
-import BlogDetails from "./pages/blog-details";
-import StartYourProject from "./pages/start-your-project";
-import InteriorDesigners from "./pages/interior-designers";
-import Savant from "./pages/savant";
-import ContactUs from "./pages/contact-us";
-import Ruckus from "./pages/ruckus";
-import Crestron from "./pages/crestron";
-import CoastalSource from "./pages/coastal-source";
-import Knx from "./pages/knx";
-import HunterDouglas from "./pages/hunter-douglas";
-import Lutron from "./pages/lutron";
-import Notfound from "./pages/notfound";
-import JoshAi from "./pages/josh-ai";
-import AlarmCom from "./pages/alarm-com";
+// import Home from "./pages/home";
+// import About from "./pages/about";
+// import SmartHomeAutomation from "./pages/smart-home-automation";
+// import HomeTheater from "./pages/home-theater";
+// import LightingSystems from "./pages/lighting-systems";
+// import AudioSystems from "./pages/audio-systems";
+// import SmartSecurity from "./pages/smart-security";
+// import CommercialServices from "./pages/commercial-services";
+// import WifiNetworkingServices from "./pages/wifi-networking-services";
+// import Portfolio from "./pages/portfolio";
+// import BrandsWeCarry from "./pages/brands-we-carry";
+// import Partners from "./pages/partners";
+// import Blog from "./pages/blog";
+// import BlogDetails from "./pages/blog-details";
+// import StartYourProject from "./pages/start-your-project";
+// import InteriorDesigners from "./pages/interior-designers";
+// import Savant from "./pages/savant";
+// import ContactUs from "./pages/contact-us";
+// import Ruckus from "./pages/ruckus";
+// import Crestron from "./pages/crestron";
+// import CoastalSource from "./pages/coastal-source";
+// import Knx from "./pages/knx";
+// import HunterDouglas from "./pages/hunter-douglas";
+// import Lutron from "./pages/lutron";
+// import Notfound from "./pages/notfound";
+// import JoshAi from "./pages/josh-ai";
+// import AlarmCom from "./pages/alarm-com";
 
-// const Home = React.lazy(() => import("./pages/home"));
-// const StartYourProject = React.lazy(() => import("./pages/start-your-project"));
-// const About = React.lazy(() => import("./pages/about"));
-// const SmartHomeAutomation = React.lazy(() =>
-//   import("./pages/smart-home-automation")
-// );
-// const HomeTheater = React.lazy(() => import("./pages/home-theater"));
-// const LightingSystems = React.lazy(() => import("./pages/lighting-systems"));
-// const AudioSystems = React.lazy(() => import("./pages/audio-systems"));
-// const SmartSecurity = React.lazy(() => import("./pages/smart-security"));
-// const WifiNetworkingServices = React.lazy(() =>
-//   import("./pages/wifi-networking-services")
-// );
-// const CommercialServices = React.lazy(() =>
-//   import("./pages/commercial-services")
-// );
-// const Portfolio = React.lazy(() => import("./pages/portfolio"));
-// const BrandsWeCarry = React.lazy(() => import("./pages/brands-we-carry"));
-// const Partners = React.lazy(() => import("./pages/partners"));
-// const Blog = React.lazy(() => import("./pages/blog"));
-// const BlogDetails = React.lazy(() => import("./pages/blog-details"));
-// const ContactUs = React.lazy(() => import("./pages/contact-us"));
+const Home = React.lazy(() => import("./pages/home"));
+const StartYourProject = React.lazy(() => import("./pages/start-your-project"));
+const About = React.lazy(() => import("./pages/about"));
+const SmartHomeAutomation = React.lazy(() =>
+  import("./pages/smart-home-automation")
+);
+const HomeTheater = React.lazy(() => import("./pages/home-theater"));
+const LightingSystems = React.lazy(() => import("./pages/lighting-systems"));
+const AudioSystems = React.lazy(() => import("./pages/audio-systems"));
+const SmartSecurity = React.lazy(() => import("./pages/smart-security"));
+const WifiNetworkingServices = React.lazy(() =>
+  import("./pages/wifi-networking-services")
+);
+const CommercialServices = React.lazy(() =>
+  import("./pages/commercial-services")
+);
+const Portfolio = React.lazy(() => import("./pages/portfolio"));
+const BrandsWeCarry = React.lazy(() => import("./pages/brands-we-carry"));
+const Partners = React.lazy(() => import("./pages/partners"));
+const Blog = React.lazy(() => import("./pages/blog"));
+const BlogDetails = React.lazy(() => import("./pages/blog-details"));
+const ContactUs = React.lazy(() => import("./pages/contact-us"));
 
-// const InteriorDesigners = React.lazy(() =>
-//   import("./pages/interior-designers")
-// );
-// const Savant = React.lazy(() => import("./pages/savant"));
-// const Ruckus = React.lazy(() => import("./pages/ruckus"));
-// const Lutron = React.lazy(() => import("./pages/lutron"));
-// const Crestron = React.lazy(() => import("./pages/crestron"));
-// const CoastalSource = React.lazy(() => import("./pages/coastal-source"));
-// const Knx = React.lazy(() => import("./pages/knx"));
-// const HunterDouglas = React.lazy(() => import("./pages/hunter-douglas"));
-// const Notfound = React.lazy(() => import("./pages/notfound"));
-// const AlarmCom = React.lazy(() => import("./pages/alarm-com"));
-// const JoshAi = React.lazy(() => import("./pages/josh-ai"));
+const InteriorDesigners = React.lazy(() =>
+  import("./pages/interior-designers")
+);
+const Savant = React.lazy(() => import("./pages/savant"));
+const Ruckus = React.lazy(() => import("./pages/ruckus"));
+const Lutron = React.lazy(() => import("./pages/lutron"));
+const Crestron = React.lazy(() => import("./pages/crestron"));
+const CoastalSource = React.lazy(() => import("./pages/coastal-source"));
+const Knx = React.lazy(() => import("./pages/knx"));
+const HunterDouglas = React.lazy(() => import("./pages/hunter-douglas"));
+const Notfound = React.lazy(() => import("./pages/notfound"));
+const AlarmCom = React.lazy(() => import("./pages/alarm-com"));
+const JoshAi = React.lazy(() => import("./pages/josh-ai"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
