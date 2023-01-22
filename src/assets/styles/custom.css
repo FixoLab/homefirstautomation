@@ -2263,9 +2263,9 @@ a.footerphone {
   .control4small.homecedialogo a {
     left: 50%;
     right: 50%;
-    margin-left: -60px;
     width: 120px;
     height: 120px;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -2273,6 +2273,9 @@ a.footerphone {
   li.menu-item-3288 {
     position: relative;
     margin-top: 0px;
+  }
+  .wp-block-group.homevideo {
+    margin-top: 100px !important;
   }
 }
 
@@ -2443,4 +2446,15 @@ a.footerphone {
 }
 .vce {
   margin-bottom: 30px;
+}
+
+.su-spoiler.su-spoiler-closed>.su-spoiler-content {
+  height: 0;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+  border: none;
+  opacity: 0;
+  pointer-events: none;
 }
