@@ -83,11 +83,11 @@ const FooterContact = () => {
             Directly
           </h3>
           <p>
-            <Link to="#">
-              <i className="fas fa-map-marker-alt"></i>
+            <Link to="/#">
+              <i className="fas fa-solid fa-location-dot"></i>
             </Link>
           </p>
-          <Link to="#">
+          <Link to="/#">
             <p>
               <strong>Address</strong> <br />
               12794 W Washington Blvd <br />
@@ -95,16 +95,16 @@ const FooterContact = () => {
             </p>
           </Link>
           <p>
-            <Link to="tel:310-402-4818">
-              <i className="fas fa-phone-alt"></i>
-            </Link>
+            <a href="tel:310-402-4818">
+              <i className="fas fa-phone"></i>
+            </a>
           </p>
-          <Link to="tel:310-402-4818">
+          <a href="tel:310-402-4818">
             <p>
               <strong>Phone:</strong> <br />
               (310) 402-4818
             </p>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

@@ -1744,7 +1744,7 @@ a#bbblink {
   text-align: center;
   font-family: roboto;
   font-size: 16px;
-  color: #8C8C8C;
+  color: #707070;
 }
 .contactareabox2 {
   background: rgba(23, 25, 26, 0.65);
@@ -1881,10 +1881,10 @@ a#bbblink {
   padding: 60px 30px;
   margin: 0px auto;
   font-size: 16px;
-  color: #8C8C8C;
+  color: #707070;
 }
 .footerlinks a {
-  color: #8C8C8C !important;
+  color: #707070 !important;
 }
 .footerlinks1 {
   flex-basis: 350px;

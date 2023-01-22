@@ -45,7 +45,7 @@ const Footer = () => {
                             />
                           </Link>
                           <br />
-                          <Link to="#">
+                          <Link to="/#">
                             12794 W Washington Blvd
                             <br />
                             Los Angeles, CA 90066
@@ -61,10 +61,8 @@ const Footer = () => {
                                 style={{ margin: "10px" }}
                               >
                                 <Link
-                                  to="#"
-                                  target='"_blank"'
+                                  to="/#"
                                   className="aps-icon-link animated aps-tooltip"
-                                  rel="noopener"
                                 >
                                   <i className="fa-brands fa-facebook-f"></i>
                                 </Link>
@@ -72,10 +70,8 @@ const Footer = () => {
 
                               <div className="aps-each-icon icon-1-2">
                                 <Link
-                                  to="#"
-                                  target='"_blank"'
+                                  to="/#"
                                   className="aps-icon-link animated aps-tooltip"
-                                  rel="noopener"
                                 >
                                   <i className="fa-brands fa-linkedin-in"></i>
                                 </Link>
