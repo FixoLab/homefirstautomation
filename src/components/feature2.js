@@ -56,15 +56,13 @@ const Feature2 = ({ title }) => {
         </p>
       </div>
       <div className="is-layout-flow wp-block-column servicesimages sidevideoleft">
-        <figure class="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+        <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
           <img
-            decoding="async"
-            loading="lazy"
             width="1915"
             height="1440"
             src="assets/images/home-lighting-1.jpg"
             alt=""
-            class="wp-image-839"
+            className="wp-image-839"
           />
         </figure>
         <video
