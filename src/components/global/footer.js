@@ -36,7 +36,7 @@ const Footer = () => {
                     <div className="textwidget">
                       <div className="footerlinks">
                         <div className="footerlinks1">
-                          <Link to="#">
+                          <Link aria-label="Location" to="/#">
                             <img
                               src="assets/images/Homefirst_Auto.png"
                               alt="project automate logo"
@@ -45,7 +45,7 @@ const Footer = () => {
                             />
                           </Link>
                           <br />
-                          <Link to="/#">
+                          <Link aria-label="Location" to="/#">
                             12794 W Washington Blvd
                             <br />
                             Los Angeles, CA 90066
@@ -61,6 +61,7 @@ const Footer = () => {
                                 style={{ margin: "10px" }}
                               >
                                 <Link
+                                  aria-label="Facebook"
                                   to="/#"
                                   className="aps-icon-link animated aps-tooltip"
                                 >
@@ -70,6 +71,7 @@ const Footer = () => {
 
                               <div className="aps-each-icon icon-1-2">
                                 <Link
+                                aria-label="Linkedin"
                                   to="/#"
                                   className="aps-icon-link animated aps-tooltip"
                                 >
