@@ -1703,7 +1703,6 @@ div.comment:first-of-type {
   text-decoration: underline;
 }
 
-
 .nav-links > * {
   margin: 1.5rem 0 0 2.5rem;
 }
@@ -1907,13 +1906,7 @@ a.to-the-top > * {
   display: none;
 }
 
-/* -------------------------------------------------------------------------- */
-
-/*	17. Media Queries
-/* -------------------------------------------------------------------------- */
-
 @media (max-width: 479px) {
-  /* LISTS */
   ul,
   ol {
     margin: 0 0 3rem 2rem;
@@ -1925,20 +1918,12 @@ a.to-the-top > * {
 }
 
 @media (min-width: 480px) {
-  /* Blocks -------------------------------- */
-  /* ALIGNMENT CLASSES */
-
   .alignleft {
     max-width: 26rem;
   }
 }
 
 @media (max-width: 599px) {
-  /* Blocks -------------------------------- */
-
-  /* BLOCK: COLUMNS */
-
-  /* While columns are stacked */
   .wp-block-column:last-child {
     margin-bottom: 0;
   }
@@ -1950,11 +1935,6 @@ a.to-the-top > * {
   .wp-block-columns.alignfull + .wp-block-columns.alignfull {
     margin-top: -1.8rem;
   }
-
-  /* Template -------------------------------- */
-
-  /* TEMPLATE: COVER */
-
   .template-cover .post-inner .post-meta-wrapper,
   .template-cover .post-inner .author-bio {
     width: calc(100% - 4rem);
@@ -1968,7 +1948,6 @@ a.to-the-top > * {
 }
 
 @media (min-width: 660px) {
-  /* Blocks -------------------------------- */
   .entry-content > .alignleft {
     margin-left: 4rem;
   }
@@ -1992,7 +1971,6 @@ a.to-the-top > * {
 }
 
 @media (min-width: 700px) {
-  /* Element Base ------------------------- */
   ul,
   ol {
     margin-bottom: 4rem;
@@ -2009,14 +1987,11 @@ a.to-the-top > * {
   table {
     font-size: 1.8rem;
   }
-  /* TITLES */
-
   h1,
   h2,
   h3 {
     margin: 6rem auto 3rem;
   }
-
   h4,
   h5,
   h6 {
@@ -2044,8 +2019,6 @@ a.to-the-top > * {
     font-size: 1.8rem;
   }
 
-  /* INPUTS */
-
   fieldset {
     padding: 3rem;
   }
@@ -2063,20 +2036,13 @@ a.to-the-top > * {
     font-size: 1.7rem;
   }
 
-  /* MEDIA */
-
   figcaption {
     margin-top: 1.8rem;
   }
 
-  /* Helper Classes ------------------------- */
-
-  /* SECTIONS */
   .section-inner {
     width: calc(100% - 8rem);
   }
-
-  /* Site Header --------------------------- */
 
   .header-inner {
     padding: 3.8rem 0;
@@ -2086,17 +2052,12 @@ a.to-the-top > * {
     max-height: 9rem;
     transition: height 0.15s linear, width 0.15s linear, max-height 0.15s linear;
   }
-
-  /* HEADER TOGGLES */
-
   .toggle-inner .toggle-text {
     font-size: 1.2rem;
   }
   .nav-toggle {
     right: 2rem;
   }
-
-  /* Menu Modal ---------------------------- */
 
   button.close-nav-toggle {
     font-size: 1.8rem;
@@ -2148,17 +2109,10 @@ a.to-the-top > * {
     flex-shrink: 0;
     margin-right: 4rem;
   }
-  /* body:not(.singular) main > article:first-of-type {
-    padding: 8rem 0 0;
-  } */
-
   h2.entry-title {
     font-size: 6.4rem;
   }
 
-  /* Post: Single -------------------------- */
-
-  /* POST HEADER */
   .intro-text {
     font-size: 2rem;
     margin-top: 2.5rem;
@@ -2183,13 +2137,9 @@ a.to-the-top > * {
     padding-top: 8rem;
   }
 
-  /* POST FOOTER */
-
   .post-meta-wrapper.post-meta-single-bottom {
     margin-top: 4rem;
   }
-
-  /* AUTHOR BIO */
 
   .author-bio {
     margin-top: 8rem;
@@ -2205,8 +2155,6 @@ a.to-the-top > * {
     height: 8rem;
     width: 8rem;
   }
-
-  /* SINGLE PAGINATION */
 
   .pagination-single {
     font-size: 2.4rem;
@@ -2247,8 +2195,6 @@ a.to-the-top > * {
     margin: 0 0 0 2rem;
   }
 
-  /* Blocks -------------------------------- */
-  /* BLOCK: BASE MARGINS */
   .wp-block-columns:not(.alignfull),
   .wp-block-image:not(.alignfull):not(.alignleft):not(.aligncenter) {
     margin-bottom: 4rem;
@@ -2267,7 +2213,6 @@ a.to-the-top > * {
     margin: 3.5rem 0 2rem;
   }
 
-  /* Entry Content ------------------------- */
   .entry-content {
     font-size: 2.1rem;
   }
@@ -2351,7 +2296,6 @@ a.to-the-top > * {
     margin-top: 0;
   }
 
-  /* FOOTER BOTTOM */
   #site-footer {
     font-size: 1.8rem;
     padding: 4.3rem 0;
@@ -2449,7 +2393,7 @@ a.to-the-top > * {
     top: calc(100% - 0.3rem);
     width: auto;
   }
-  /* Menu Modal ---------------------------- */
+
   .menu-modal {
     opacity: 1;
     justify-content: flex-end;
@@ -2546,8 +2490,6 @@ a.to-the-top > * {
     margin-left: 4rem;
   }
 
-  /* ENTRY MEDIA */
-
   .alignfull > figcaption {
     width: calc(100% - 10rem);
   }
@@ -2558,7 +2500,6 @@ a.to-the-top > * {
 }
 
 @media (min-width: 1220px) {
-  /* TITLES */
   h1 {
     font-size: 8.4rem;
   }
