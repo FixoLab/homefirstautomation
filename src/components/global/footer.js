@@ -71,7 +71,7 @@ const Footer = () => {
 
                               <div className="aps-each-icon icon-1-2">
                                 <Link
-                                aria-label="Linkedin"
+                                  aria-label="Linkedin"
                                   to="/#"
                                   className="aps-icon-link animated aps-tooltip"
                                 >
@@ -137,7 +137,10 @@ const Footer = () => {
                                 className="su-post"
                               >
                                 <h2 className="su-post-title">
-                                  <Link to={`blog/${blogs.slug}`}>
+                                  <Link
+                                    aria-label={blogs.slug}
+                                    to={`blog/${blogs.slug}`}
+                                  >
                                     {blogs.title.rendered}
                                   </Link>
                                 </h2>
@@ -163,11 +166,15 @@ const Footer = () => {
           <div className="footer-credits">
             <p className="footer-copyright">
               © 2023
-              <Link to="/">HOMEFIRST: automate</Link>
+              <Link aria-label="Home page" to="/">
+                HOMEFIRST: automate
+              </Link>
             </p>
 
             <p className="powered-by-wordpress">
-              <Link to="https://wordpress.org/">Powered by WordPress </Link>
+              <Link aria-label="WordPress" to="https://wordpress.org/">
+                Powered by WordPress{" "}
+              </Link>
             </p>
           </div>
           <a aria-label="Scroll Top" className="to-the-top" href="#site-header">
