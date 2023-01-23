@@ -37,27 +37,39 @@ const AudioSystems = () => {
                       <h1>AUDIO SOLUTIONS</h1>
 
                       <p>
-                        <a href="#1">MULTI ROOM</a>
+                        <a aria-label="Scroll down01" href="#1">
+                          MULTI ROOM
+                        </a>
                       </p>
 
                       <p>
-                        <a href="#2">OUTDOOR SYSTEMS</a>
+                        <a aria-label="Scroll down02" href="#2">
+                          OUTDOOR SYSTEMS
+                        </a>
                       </p>
 
                       <p>
-                        <a href="#3">HIGH PERFORMANCE</a>
+                        <a aria-label="Scroll down03" href="#3">
+                          HIGH PERFORMANCE
+                        </a>
                       </p>
 
                       <p>
-                        <a href="#4">HIDDEN PERIPHERALS</a>
+                        <a aria-label="Scroll down04" href="#4">
+                          HIDDEN PERIPHERALS
+                        </a>
                       </p>
 
                       <p>
-                        <a href="#5">MEDIA CONTROL</a>
+                        <a aria-label="Scroll down05" href="#5">
+                          MEDIA CONTROL
+                        </a>
                       </p>
 
                       <p>
-                        <a href="#6">COMMERCIAL</a>
+                        <a aria-label="Scroll down06" href="#6">
+                          COMMERCIAL
+                        </a>
                       </p>
                     </div>
                   </div>

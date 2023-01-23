@@ -85,8 +85,7 @@
 .wp-block-image.aligncenter {
   text-align: center;
 }
-.wp-block-image.alignfull img,
-.wp-block-image.alignwide img {
+.wp-block-image.alignfull img {
   height: auto;
   width: 100%;
 }
@@ -378,4 +377,3 @@ figure {
 .aps-social-icon-wrapper:after {
   clear: both;
 }
-

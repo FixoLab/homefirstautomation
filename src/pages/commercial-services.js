@@ -36,22 +36,22 @@ const CommercialServices = () => {
                     <div className="wp-block-group__inner-container">
                       <h1>COMMERCIAL SERVICES</h1>
                       <p>
-                        <a href="#1">NETWORKING</a>
+                        <a aria-label="Scroll down01" href="#1">NETWORKING</a>
                       </p>
                       <p>
-                        <a href="#2">LIGHTING</a>
+                        <a aria-label="Scroll down02" href="#2">LIGHTING</a>
                       </p>
                       <p>
-                        <a href="#3">SHADING</a>
+                        <a aria-label="Scroll down03" href="#3">SHADING</a>
                       </p>
                       <p>
-                        <a href="#4">AUDIO</a>
+                        <a aria-label="Scroll down04" href="#4">AUDIO</a>
                       </p>
                       <p>
-                        <a href="#5">VIDEO</a>
+                        <a aria-label="Scroll down05" href="#5">VIDEO</a>
                       </p>
                       <p>
-                        <a href="#6">REMOTE CONTROL</a>
+                        <a aria-label="Scroll down06" href="#6">REMOTE CONTROL</a>
                       </p>
                     </div>
                   </div>

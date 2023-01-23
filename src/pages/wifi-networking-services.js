@@ -36,16 +36,16 @@ const WifiNetworkingServices = () => {
                     <div className="wp-block-group__inner-container">
                       <h1>WIFI – NETWORKING SERVICES</h1>
                       <p>
-                        <a href="#1">SMART HOME</a>
+                        <a aria-label="Scroll down01" href="#1">SMART HOME</a>
                       </p>
                       <p>
-                        <a href="#2">NETWORKING</a>
+                        <a aria-label="Scroll down02" href="#2">NETWORKING</a>
                       </p>
                       <p>
-                        <a href="#3">SECURITY</a>
+                        <a aria-label="Scroll down03" href="#3">SECURITY</a>
                       </p>
                       <p>
-                        <a href="#4">WI-FI</a>
+                        <a aria-label="Scroll down04" href="#4">WI-FI</a>
                       </p>
                     </div>
                   </div>

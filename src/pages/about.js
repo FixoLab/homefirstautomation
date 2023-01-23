@@ -221,7 +221,7 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-545"
-                            src="assets/images/1.jpg"
+                            src="assets/images/1.webp"
                             alt=""
                           />
                           <figcaption>
@@ -236,7 +236,7 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-555"
-                            src="assets/images/11.jpg"
+                            src="assets/images/11.webp"
                             alt=""
                           />
                           <figcaption>
@@ -254,7 +254,7 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-552"
-                            src="assets/images/8.jpg"
+                            src="assets/images/8.webp"
                             alt=""
                           />
                           <figcaption>
@@ -272,7 +272,7 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-548"
-                            src="assets/images/4.jpg"
+                            src="assets/images/4.webp"
                             alt=""
                           />
                           <figcaption>
@@ -287,7 +287,7 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-556"
-                            src="assets/images/12.jpg"
+                            src="assets/images/12.webp"
                             alt=""
                           />
                           <figcaption>
@@ -305,7 +305,7 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-550"
-                            src="assets/images/6.jpg"
+                            src="assets/images/6.webp"
                             alt=""
                           />
                           <figcaption>

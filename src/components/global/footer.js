@@ -36,7 +36,7 @@ const Footer = () => {
                     <div className="textwidget">
                       <div className="footerlinks">
                         <div className="footerlinks1">
-                          <Link to="#">
+                          <Link aria-label="Location" to="/#">
                             <img
                               src="assets/images/Homefirst_Auto.png"
                               alt="project automate logo"
@@ -45,7 +45,7 @@ const Footer = () => {
                             />
                           </Link>
                           <br />
-                          <Link to="#">
+                          <Link aria-label="Location" to="/#">
                             12794 W Washington Blvd
                             <br />
                             Los Angeles, CA 90066
@@ -61,10 +61,9 @@ const Footer = () => {
                                 style={{ margin: "10px" }}
                               >
                                 <Link
-                                  to="#"
-                                  target='"_blank"'
+                                  aria-label="Facebook"
+                                  to="/#"
                                   className="aps-icon-link animated aps-tooltip"
-                                  rel="noopener"
                                 >
                                   <i className="fa-brands fa-facebook-f"></i>
                                 </Link>
@@ -72,10 +71,9 @@ const Footer = () => {
 
                               <div className="aps-each-icon icon-1-2">
                                 <Link
-                                  to="#"
-                                  target='"_blank"'
+                                  aria-label="Linkedin"
+                                  to="/#"
                                   className="aps-icon-link animated aps-tooltip"
-                                  rel="noopener"
                                 >
                                   <i className="fa-brands fa-linkedin-in"></i>
                                 </Link>
@@ -139,7 +137,10 @@ const Footer = () => {
                                 className="su-post"
                               >
                                 <h2 className="su-post-title">
-                                  <Link to={`blog/${blogs.slug}`}>
+                                  <Link
+                                    aria-label={blogs.slug}
+                                    to={`blog/${blogs.slug}`}
+                                  >
                                     {blogs.title.rendered}
                                   </Link>
                                 </h2>
@@ -165,14 +166,18 @@ const Footer = () => {
           <div className="footer-credits">
             <p className="footer-copyright">
               © 2023
-              <Link to="/">HOMEFIRST: automate</Link>
+              <Link aria-label="Home page" to="/">
+                HOMEFIRST: automate
+              </Link>
             </p>
 
             <p className="powered-by-wordpress">
-              <Link to="https://wordpress.org/">Powered by WordPress </Link>
+              <Link aria-label="WordPress" to="https://wordpress.org/">
+                Powered by WordPress{" "}
+              </Link>
             </p>
           </div>
-          <a className="to-the-top" href="#site-header">
+          <a aria-label="Scroll Top" className="to-the-top" href="#site-header">
             <span className="to-the-top-long">
               To the top
               <span className="arrow" aria-hidden="true">

@@ -37,27 +37,39 @@ const HomeTheater = () => {
                       <h1>HOME THEATER</h1>
 
                       <p>
-                        <a href="#1">Networking</a>
+                        <a aria-label="Scroll down01" href="#1">
+                          Networking
+                        </a>
                       </p>
 
                       <p>
-                        <a href="#2">Lighting</a>
+                        <a aria-label="Scroll down02" href="#2">
+                          Lighting
+                        </a>
                       </p>
 
                       <p>
-                        <a href="#3">Shading</a>
+                        <a aria-label="Scroll down03" href="#3">
+                          Shading
+                        </a>
                       </p>
 
                       <p>
-                        <a href="#4">Audio</a>
+                        <a aria-label="Scroll down04" href="#4">
+                          Audio
+                        </a>
                       </p>
 
                       <p>
-                        <a href="#5">Theater</a>
+                        <a aria-label="Scroll down05" href="#5">
+                          Theater
+                        </a>
                       </p>
 
                       <p>
-                        <a href="#6">Security</a>
+                        <a aria-label="Scroll down06" href="#6">
+                          Security
+                        </a>
                       </p>
                     </div>
                   </div>

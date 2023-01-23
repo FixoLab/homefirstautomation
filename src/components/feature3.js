@@ -6,14 +6,12 @@ const Feature3 = ({ leftPosition }) => {
     <div className="is-layout-flex wp-container-31 wp-block-columns alignfull homedualcontainer bottomdual">
       <div className="is-layout-flow wp-block-column homedual2">
         <h2>Smart Situational Solutions</h2>
-
         <p className="minigray">
           Our services include everything you need for a secure and smart house
           environment for you and your family: Custom home theater design,
           high-tech security, surveillance systems, audio &amp; video, lighting
           control, motorized shades, networking &amp; Wi-Fi.
         </p>
-
         <div className="is-layout-flex wp-container-25 wp-block-columns iconsbox">
           <div className="is-layout-flow wp-block-column">
             <Link to="/smart-security">
@@ -21,7 +19,6 @@ const Feature3 = ({ leftPosition }) => {
               <p> Smart Security</p>
             </Link>
           </div>
-
           <div className="is-layout-flow wp-block-column">
             <Link to="/wifi-networking-services">
               <i className="fas fa-wifi"></i>
@@ -29,7 +26,6 @@ const Feature3 = ({ leftPosition }) => {
             </Link>
           </div>
         </div>
-
         <div className="is-layout-flex wp-container-28 wp-block-columns iconsbox">
           <div className="is-layout-flow wp-block-column">
             <Link to="/audio-systems">
@@ -37,7 +33,6 @@ const Feature3 = ({ leftPosition }) => {
               <p>High Performance Audio</p>
             </Link>
           </div>
-
           <div className="is-layout-flow wp-block-column">
             <Link to="/commercial-services">
               <i className="far fa-building"></i>
@@ -46,7 +41,6 @@ const Feature3 = ({ leftPosition }) => {
           </div>
         </div>
       </div>
-
       <div
         className="is-layout-flow wp-block-column homedual2 homeshow3"
         style={{ backgroundPositionX: leftPosition }}

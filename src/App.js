@@ -1,7 +1,7 @@
 import AOS from "aos";
 import { useEffect } from "react";
 import AppRouter from "./AppRouter";
-import "./assets/styles/aos.css";
+import "../node_modules/aos/dist/aos.css";
 
 function App() {
   useEffect(() => {

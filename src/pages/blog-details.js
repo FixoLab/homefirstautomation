@@ -20,8 +20,11 @@ const BlogDetails = () => {
     fetchData();
   }, []);
   const blogDetails = data?.filter((blog) => blog?.slug === slug);
-
   const authorId = blogDetails[0]?.author;
+
+  // const {
+  //   avatar_urls: { 96: url96 },
+  // } = authorData;
 
   useEffect(() => {
     const fetchData = async () => {
@@ -41,8 +44,7 @@ const BlogDetails = () => {
         {blogDetails.length === 0 ? (
           <Skeleton style={{ borderRadius: 5 }} height={500} />
         ) : (
-          <article
-          >
+          <article>
             <h4
               style={{ maxWidth: "80%", textAlign: "left", marginLeft: "2%" }}
             >
@@ -69,48 +71,165 @@ const BlogDetails = () => {
                 <div className="author-title-wrapper">
                   <div className="author-avatar vcard">
                     {/* <img
-              alt={authorData.name}
-              src={authorData.avatar_urls[3]}
-              className="avatar avatar-160 photo"
-              height="160"
-              width="160"
-            /> */}
+                      alt={authorData.name}
+                      src={url96}
+                      className="avatar avatar-160 photo"
+                      height="160"
+                      width="160"
+                    /> */}
                   </div>
                   <h2 className="author-title heading-size-4">
                     By {authorData.name}
                   </h2>
                 </div>
                 <div className="author-description">
-                  <p>Founder and CEO at HOMEFIRST: automate</p>
+                  <p>{authorData.description}</p>
                 </div>
               </div>
             </div>
 
             {/* <nav
-      className="pagination-single section-inner only-one only-prev"
-      aria-label="Post"
-      role="navigation"
-    >
-      <hr className="styled-separator is-style-wide" aria-hidden="true" />
+              className="pagination-single section-inner only-one only-prev"
+              aria-label="Post"
+              role="navigation"
+            >
+              <hr
+                className="styled-separator is-style-wide"
+                aria-hidden="true"
+              />
 
-      <div className="pagination-single-inner">
-        <a
-          className="previous-post"
-          href="https://www.projectautomate.com/2022/10/31/top-reasons-you-need-a-control4-system-at-home/"
-        >
-          <span className="arrow" aria-hidden="true">
-            ←
-          </span>
-          <span className="title">
-            <span className="title-inner">
-              Top Reasons You Need a Control4 System at Home
-            </span>
-          </span>
-        </a>
-      </div>
+              <div className="pagination-single-inner">
+                <a
+                  className="previous-post"
+                  href="https://www.projectautomate.com/2022/10/31/top-reasons-you-need-a-control4-system-at-home/"
+                >
+                  <span className="arrow" aria-hidden="true">
+                    ←
+                  </span>
+                  <span className="title">
+                    <span className="title-inner">
+                      Top Reasons You Need a Control4 System at Home
+                    </span>
+                  </span>
+                </a>
+              </div>
 
-      <hr className="styled-separator is-style-wide" aria-hidden="true" />
-    </nav> */}
+              <hr
+                className="styled-separator is-style-wide"
+                aria-hidden="true"
+              />
+            </nav> */}
+            <hr className="styled-separator is-style-wide" aria-hidden="true" />
+            <div className="comments-wrapper section-inner">
+              <div id="respond" className="comment-respond">
+                <h2 id="reply-title" className="comment-reply-title">
+                  Leave a Reply
+                </h2>
+                <form
+                  action=""
+                  method="post"
+                  id="commentform"
+                  className="section-inner thin max-percentage"
+                >
+                  <p className="comment-notes">
+                    <span id="email-notes">
+                      Your email address will not be published.
+                    </span>{" "}
+                    <span className="required-field-message">
+                      Required fields are marked <span className="required">*</span>
+                    </span>
+                  </p>
+                  <p className="comment-form-comment">
+                    <label htmlFor="comment">
+                      Comment <span className="required">*</span>
+                    </label>{" "}
+                    <textarea
+                      id="comment"
+                      name="comment"
+                      cols="45"
+                      rows="8"
+                      maxLength="65525"
+                      required=""
+                    ></textarea>
+                  </p>
+                  <p className="comment-form-author">
+                    <label htmlFor="author">
+                      Name <span className="required">*</span>
+                    </label>{" "}
+                    <input
+                      id="author"
+                      name="author"
+                      type="text"
+                      defaultValue=""
+                      size="30"
+                      maxLength="245"
+                      autoComplete="name"
+                      required=""
+                    />
+                  </p>
+                  <p className="comment-form-email">
+                    <label htmlFor="email">
+                      Email <span className="required">*</span>
+                    </label>{" "}
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      defaultValue=""
+                      size="30"
+                      maxLength="100"
+                      autoComplete="email"
+                      required=""
+                    />
+                  </p>
+                  <p className="comment-form-url">
+                    <label htmlFor="url">Website</label>{" "}
+                    <input
+                      id="url"
+                      name="url"
+                      type="url"
+                      defaultValue=""
+                      size="30"
+                      maxLength="200"
+                      autoComplete="url"
+                    />
+                  </p>
+                  <p className="comment-form-cookies-consent">
+                    <input
+                      id="wp-comment-cookies-consent"
+                      name="wp-comment-cookies-consent"
+                      type="checkbox"
+                      defaultValue="yes"
+                    />{" "}
+                    <label htmlFor="wp-comment-cookies-consent">
+                      Save my name, email, and website in this browser for the
+                      next time I comment.
+                    </label>
+                  </p>
+                  <p className="form-submit">
+                    <input
+                      name="submit"
+                      type="submit"
+                      id="submit"
+                      className="submit"
+                      defaultValue="Post Comment"
+                    />{" "}
+                    <input
+                      type="hidden"
+                      name="comment_post_ID"
+                      defaultValue="3788"
+                      id="comment_post_ID"
+                    />
+                    <input
+                      type="hidden"
+                      name="comment_parent"
+                      id="comment_parent"
+                      defaultValue="0"
+                    />
+                  </p>
+                </form>{" "}
+              </div>
+            </div>
           </article>
         )}
       </main>
