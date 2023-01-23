@@ -22,10 +22,6 @@ const BlogDetails = () => {
   const blogDetails = data?.filter((blog) => blog?.slug === slug);
   const authorId = blogDetails[0]?.author;
 
-  // const {
-  //   avatar_urls: { 96: url96 },
-  // } = authorData;
-
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -70,13 +66,17 @@ const BlogDetails = () => {
               <div className="author-bio" style={{ marginBottom: "30px" }}>
                 <div className="author-title-wrapper">
                   <div className="author-avatar vcard">
-                    {/* <img
-                      alt={authorData.name}
-                      src={url96}
-                      className="avatar avatar-160 photo"
-                      height="160"
-                      width="160"
-                    /> */}
+                    {authorData.length === 0 ? (
+                      ""
+                    ) : (
+                      <img
+                        alt={authorData.name}
+                        src={authorData.avatar_urls[96]}
+                        className="avatar avatar-160 photo"
+                        height="160"
+                        width="160"
+                      />
+                    )}
                   </div>
                   <h2 className="author-title heading-size-4">
                     By {authorData.name}
@@ -136,7 +136,8 @@ const BlogDetails = () => {
                       Your email address will not be published.
                     </span>{" "}
                     <span className="required-field-message">
-                      Required fields are marked <span className="required">*</span>
+                      Required fields are marked{" "}
+                      <span className="required">*</span>
                     </span>
                   </p>
                   <p className="comment-form-comment">
