@@ -51,7 +51,7 @@ const Hero = () => {
                   </div>
                   <div className="wp-block-image control4small homecedialogo">
                     <figure className="alignleft size-large is-resized">
-                      <Link to="#">
+                      <Link aria-label="hero" to="#">
                         <img
                           src="assets/images/cediacit.png"
                           alt="hero"
@@ -63,7 +63,9 @@ const Hero = () => {
                     </figure>
                   </div>
                   <p>
-                    <a href="#3">Learn More</a>
+                    <a aria-label="Scroll down" href="#3">
+                      Learn More
+                    </a>
                   </p>
                 </div>
               </div>

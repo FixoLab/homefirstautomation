@@ -37,27 +37,27 @@ const LightingSystems = () => {
                       <h1>LIGHTING SYSTEMS</h1>
 
                       <p>
-                        <a href="#1">TIMED LIGHTING</a>
+                        <a aria-label="Scroll down01" href="#1">TIMED LIGHTING</a>
                       </p>
 
                       <p>
-                        <a href="#2">MEDIA LIGHTING</a>
+                        <a aria-label="Scroll down02" href="#2">MEDIA LIGHTING</a>
                       </p>
 
                       <p>
-                        <a href="#3">OUTDOOR LIGHTING</a>
+                        <a aria-label="Scroll down03" href="#3">OUTDOOR LIGHTING</a>
                       </p>
 
                       <p>
-                        <a href="#4">SECURITY LIGHTING</a>
+                        <a aria-label="Scroll down04" href="#4">SECURITY LIGHTING</a>
                       </p>
 
                       <p>
-                        <a href="#5">MOOD LIGHTING</a>
+                        <a aria-label="Scroll down05" href="#5">MOOD LIGHTING</a>
                       </p>
 
                       <p>
-                        <a href="#6">EASILY MANAGED</a>
+                        <a aria-label="Scroll down06" href="#6">EASILY MANAGED</a>
                       </p>
                     </div>
                   </div>

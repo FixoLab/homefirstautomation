@@ -170,7 +170,7 @@ const Footer = () => {
               <Link to="https://wordpress.org/">Powered by WordPress </Link>
             </p>
           </div>
-          <a className="to-the-top" href="#site-header">
+          <a aria-label="Scroll Top" className="to-the-top" href="#site-header">
             <span className="to-the-top-long">
               To the top
               <span className="arrow" aria-hidden="true">
