@@ -214,7 +214,7 @@ const Header = () => {
                     id="menu-item-1193"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1193"
                   >
-                    <Link to="blog">Blog</Link>
+                    <Link to="/blog">Blog</Link>
                   </li>
                   <li
                     id="menu-item-3288"

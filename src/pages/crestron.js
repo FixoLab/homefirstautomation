@@ -52,10 +52,10 @@ const Crestron = () => {
                 Crestron Electronics has cut the way for mechanical development
                 since 1972. We make computerization arrangements that change the
                 manner in which individuals carry on with their lives, filling
-                their heart with joy to-day assignments simpler and improving
+                their heart with joy to-day assignment simpler and improving
                 proficiency and profitability. We endeavor to be at the bleeding
                 edge of forefront innovation, continually offering quicker,
-                better arrangements that address the requirements of clients the
+                better arrangements that address the requirement of client the
                 world over. With Crestron, you aren’t simply purchasing first in
                 class hardware, you are putting resources into versatile and
                 redid arrangements, increasing all day, every day worldwide
