@@ -37,12 +37,9 @@ const Hero = () => {
             width="300"
             height="150"
             playsInline=""
-            data-origwidth="300"
-            data-origheight="150"
           >
             <source src="assets/video/newhome.mp4" type="video/mp4" />
           </video>
-
           <div className="is-layout-flow wp-block-group homeintrotop centerintro">
             <div className="wp-block-group__inner-container">
               <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
@@ -52,7 +49,6 @@ const Hero = () => {
                   <div className="homenumber" style={{ display: "none" }}>
                     (310)-402-4818
                   </div>
-
                   <div className="wp-block-image control4small homecedialogo">
                     <figure className="alignleft size-large is-resized">
                       <Link to="#">
@@ -66,7 +62,6 @@ const Hero = () => {
                       </Link>
                     </figure>
                   </div>
-
                   <p>
                     <a href="#3">Learn More</a>
                   </p>

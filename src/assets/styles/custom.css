@@ -2321,6 +2321,9 @@ a.footerphone {
   .footerlinks1 {
     width: 100%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   .footerlinks2 {
     width: 100%;
