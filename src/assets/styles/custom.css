@@ -34,22 +34,15 @@ table *,
 hr {
   border-color: #dcd7ca;
 }
-caption,
-code,
-code,
-kbd,
 samp {
   background-color: #dcd7ca;
 }
 
-body:not(.overlay-header) .primary-menu > li > a,
-body:not(.overlay-header) .primary-menu > li > .icon,
 .modal-menu a,
-.footer-widgets a,
-.archive-header a {
+.footer-widgets a {
   color: #cd2653;
 }
-.social-icons a,
+
 #site-footer button:not(.toggle),
 #site-footer .button,
 #site-footer .faux-button,
@@ -59,21 +52,9 @@ body:not(.overlay-header) .primary-menu > li > .icon,
   background-color: #cd2653;
 }
 .header-footer-group,
-body:not(.overlay-header) #site-header .toggle,
 .menu-modal .toggle {
   color: #000000;
 }
-body:not(.overlay-header) .primary-menu ul {
-  background-color: #000000;
-}
-body:not(.overlay-header) .primary-menu > li > ul:after {
-  border-bottom-color: #000000;
-}
-body:not(.overlay-header) .primary-menu ul ul:after {
-  border-left-color: #000000;
-}
-.site-description,
-body:not(.overlay-header) .toggle-inner .toggle-text,
 .widget .post-date,
 .widget .rss-date,
 .powered-by-wordpress,
@@ -91,8 +72,7 @@ body:not(.overlay-header) .toggle-inner .toggle-text,
 .footer-widgets-outer-wrapper {
   border-color: #dcd7ca;
 }
-.header-footer-group table caption,
-body:not(.overlay-header) .header-inner .toggle-wrapper::before {
+.header-footer-group table caption{
   background-color: #dcd7ca;
 }
 
@@ -118,8 +98,6 @@ img.emoji {
   padding: 0 !important;
 }
 
-.site-description,
-body:not(.overlay-header) .toggle-inner .toggle-text,
 .widget .post-date,
 .widget .rss-date,
 .powered-by-wordpress,
@@ -169,31 +147,18 @@ a:visited {
 .post-inner {
   padding-top: 0rem;
 }
-body:not(.overlay-header) .primary-menu > li > a,
-body:not(.overlay-header) .primary-menu > li > .icon,
+
 .modal-menu a,
-.footer-widgets a,
-.archive-header a {
+.footer-widgets a {
   color: #5e676a;
 }
-.primary-menu li.current-menu-item > a:hover,
-.primary-menu li.current-menu-item > .link-icon-wrapper > a:hover,
-.primary-menu li.current-menu-item > a:focus,
-.primary-menu li.current-menu-item > .link-icon-wrapper > a:focus {
-  text-decoration: none;
-  color: #58c7f1;
-}
+
 .primary-menu a:hover,
-.primary-menu a:focus,
-.primary-menu .current_page_ancestor {
+.primary-menu a:focus {
   text-decoration: none;
   color: #58c7f1 !important;
 }
-.primary-menu li.current-menu-item > a,
-.primary-menu li.current-menu-item > .link-icon-wrapper > a {
-  text-decoration: none;
-  color: #58c7f1 !important;
-}
+
 .primary-menu a {
   font-size: 12px;
   font-family: Work Sans;
@@ -224,7 +189,6 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 
 /*Header Sticky Navigation*/
 .header-footer-group,
-body:not(.overlay-header) #site-header .toggle,
 .menu-modal .toggle {
   color: #ffffff;
   z-index: 11;
@@ -367,7 +331,7 @@ li.menu-item-3288 .fas {
   float: left;
   max-width: none !important;
   width: auto !important;
-  font-weight: 300;
+  font-weight: 400;
 }
 .homeintrotop .fas {
   float: left;
@@ -381,7 +345,7 @@ li.menu-item-3288 .fas {
   float: left;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   color: #58c7f1;
   margin: 15px 0px 0px;
@@ -389,7 +353,7 @@ li.menu-item-3288 .fas {
 .minigray {
   color: #666;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .home .homeintrotop .wp-block-group__inner-container > p {
@@ -422,7 +386,7 @@ li.menu-item-3288 .fas {
   max-width: 100% !important;
   float: none;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   color: #fff;
   margin-bottom: 45px;
   text-shadow: #747474 0.05em 0.05em 0.1em;
@@ -446,7 +410,7 @@ li.menu-item-3288 .fas {
   border: 1px solid #aaa;
   padding: 8px 20px;
   border-radius: 30px;
-  font-weight: 300;
+  font-weight: 400;
   color: #fff !important;
   font-size: 14px;
   margin: 0px 15px;
@@ -458,32 +422,12 @@ li.menu-item-3288 .fas {
   background: rgba(0, 0, 0, 0.6) !important;
   color: #fff !important;
 }
-.homedualcontainer.nonmoving .homedual2 {
-  background-position-x: inherit !important;
-}
-.entry-content > .homedualcontainer.nonmoving ~ .homedualcontainer.nonmoving {
-  padding: 15px 0px 15px !important;
-}
-.homedualcontainer.nonmoving {
-  padding: 30px 0px 15px !important;
-}
-.homedualcontainer.nonmoving h2 {
-  font-weight: 300;
-  font-size: 32px;
-  text-align: left;
-}
-.homedualcontainer.nonmoving h2::after {
-  display: block;
-  content: "";
-  width: 60px;
-  height: 20px;
-  border-bottom: 5px solid #007ca1;
-}
+
 .pointsmade {
   clear: both;
   text-align: left;
   color: #747474;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   max-width: 100% !important;
   margin: 0px 0px 15px !important;
@@ -528,7 +472,7 @@ li.menu-item-3288 .fas {
   width: 100% !important;
   color: #666;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0px auto !important;
   padding: 0px 30px 30px !important;
 }
@@ -546,7 +490,7 @@ li.menu-item-3288 .fas {
 }
 .serviceswhitebackground .brandscolumn p.learnmorebutton a {
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   color: #333 !important;
   width: 100%;
   display: block;
@@ -588,7 +532,7 @@ li.menu-item-3288 .fas {
   float: left;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   color: #007ca1;
   margin: 0px 0px 30px !important;
@@ -664,7 +608,7 @@ li.menu-item-3288 .fas {
   float: left;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   color: #007ca1;
   margin: 0px 0px 30px !important;
@@ -873,7 +817,7 @@ li.menu-item-3288 .fas {
   top: 80vh;
   left: 0px;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   color: #fff;
   text-shadow: #747474 0.05em 0.05em 0.1em;
   font-family: roboto;
@@ -906,7 +850,7 @@ li.menu-item-3288 .fas {
   display: none !important;
 }
 .entry-content
-  > *:not(.alignwide):not(.alignfull):not(.alignleft):not(
+  > *:not(.alignfull):not(.alignleft):not(
     .is-style-wide
   ) {
   max-width: 90% !important;
@@ -918,7 +862,7 @@ li.menu-item-3288 .fas {
   float: center;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   color: #007ca1 !important;
   margin: 0px 0px 30px !important;
@@ -929,7 +873,7 @@ li.menu-item-3288 .fas {
   clear: both !important;
   text-align: center !important;
   color: #747474 !important;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   font-size: 16px !important;
   max-width: 70% !important;
   margin: 0px 0px 15px !important;
@@ -988,7 +932,7 @@ li.menu-item-3288 .fas {
   clear: both;
   text-align: left;
   color: #747474;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   max-width: 80% !important;
   margin: 150px 13% !important;
@@ -997,7 +941,7 @@ li.menu-item-3288 .fas {
   max-width: 100% !important;
   float: none;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   color: #fff;
   margin-bottom: 45px;
   text-shadow: #747474 0.05em 0.05em 0.1em;
@@ -1008,7 +952,7 @@ li.menu-item-3288 .fas {
   clear: both;
   text-align: left;
   color: #747474;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   max-width: 100% !important;
   margin: 0px 0px 0px !important;
@@ -1042,7 +986,7 @@ li.menu-item-3288 .fas {
 }
 .single-post.singular .pagination-single a {
   color: #007ca1 !important;
-  font-weight: 300;
+  font-weight: 400;
 }
 .single-post.singular {
   background-color: #fafafa;
@@ -1404,12 +1348,12 @@ a:visited {
   float: left;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   max-width: 100% !important;
   float: none;
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   color: #fff;
   margin-bottom: 15px;
   text-shadow: #747474 0.05em 0.05em 0.1em;
@@ -1423,12 +1367,12 @@ a:visited {
 }
 .partners3column h3 {
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 400;
   padding: 0px 30px;
 }
 .partners3column li {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .homeintrotop.centerintro.partnercenter {
   display: flex;
@@ -1446,14 +1390,14 @@ a:visited {
 .smallpartnerarea h2 {
   max-width: 100% !important;
   padding-top: 30px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 42px;
 }
 .smallpartnerarea p {
   max-width: 700px !important;
   color: #666;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .smallpartnerarea p a {
   background: #007ca1;
@@ -1637,7 +1581,7 @@ a:visited {
   font-size: 36px;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   color: #007ca1;
   margin: 0px auto 30px !important;
@@ -1655,7 +1599,7 @@ a:visited {
   width: 100% !important;
   color: #666;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .pagecolumns {
   max-width: 1200px !important;
@@ -1773,9 +1717,7 @@ a#bbblink {
   margin-left: 0px;
   display: block;
 }
-.footer-widgets .column-one .widget_custom_html {
-  width: 100%;
-}
+
 .contactarea {
   display: flex;
   flex-wrap: nowrap;
@@ -1802,7 +1744,7 @@ a#bbblink {
   text-align: center;
   font-family: roboto;
   font-size: 16px;
-  color: #c4c4c4;
+  color: #707070;
 }
 .contactareabox2 {
   background: rgba(23, 25, 26, 0.65);
@@ -1939,10 +1881,10 @@ a#bbblink {
   padding: 60px 30px;
   margin: 0px auto;
   font-size: 16px;
-  color: #c4c4c4;
+  color: #707070;
 }
 .footerlinks a {
-  color: #c4c4c4 !important;
+  color: #707070 !important;
 }
 .footerlinks1 {
   flex-basis: 350px;
@@ -1974,7 +1916,7 @@ a.footerphone {
   text-transform: uppercase;
   font-size: 14px;
   padding: 5px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .footermenu .su-spoiler-style-default > .su-spoiler-title:hover {
   background: #222;
@@ -1996,7 +1938,7 @@ a.footerphone {
 }
 
 .footerlinks3 h2 a {
-  font-weight: 300;
+  font-weight: 400;
   color: #777 !important;
   font-size: 16px;
 }
@@ -2017,7 +1959,6 @@ a.footerphone {
 }
 
 .header-footer-group,
-body:not(.overlay-header) #site-header .toggle,
 .menu-modal .toggle {
   background: #fff;
 }
@@ -2096,9 +2037,6 @@ body:not(.overlay-header) #site-header .toggle,
   }
   .servicesimages.sidevideoleft.wp-block-column {
     margin: 1px 2px !important;
-  }
-  body:not(.overlay-header) #site-header .toggle {
-    background: #000;
   }
   .menu-modal .toggle {
     background: transparent;
@@ -2187,7 +2125,7 @@ body:not(.overlay-header) #site-header .toggle,
     flex-basis: 100% !important;
   }
   .picturetime figcaption {
-    font-weight: 300;
+    font-weight: 400;
   }
   .picturetime figcaption strong {
     font-weight: 500;
@@ -2325,9 +2263,9 @@ body:not(.overlay-header) #site-header .toggle,
   .control4small.homecedialogo a {
     left: 50%;
     right: 50%;
-    margin-left: -60px;
     width: 120px;
     height: 120px;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -2335,6 +2273,9 @@ body:not(.overlay-header) #site-header .toggle,
   li.menu-item-3288 {
     position: relative;
     margin-top: 0px;
+  }
+  .wp-block-group.homevideo {
+    margin-top: 100px !important;
   }
 }
 
@@ -2380,6 +2321,9 @@ body:not(.overlay-header) #site-header .toggle,
   .footerlinks1 {
     width: 100%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   .footerlinks2 {
     width: 100%;
@@ -2485,11 +2429,12 @@ body:not(.overlay-header) #site-header .toggle,
   opacity: 1;
   box-shadow: 0px 0px 0px 0;
   padding: 0px;
-  border: 1px solid #007ca1;
+  border: 2px solid #007ca1;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 20px;
 }
 
 .footer-copyright a:visited {
@@ -2505,4 +2450,15 @@ body:not(.overlay-header) #site-header .toggle,
 }
 .vce {
   margin-bottom: 30px;
+}
+
+.su-spoiler.su-spoiler-closed>.su-spoiler-content {
+  height: 0;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+  border: none;
+  opacity: 0;
+  pointer-events: none;
 }

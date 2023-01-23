@@ -20,8 +20,13 @@ const BlogDetails = () => {
     fetchData();
   }, []);
   const blogDetails = data?.filter((blog) => blog?.slug === slug);
-
   const authorId = blogDetails[0]?.author;
+
+
+
+  const {
+    avatar_urls: { 96: url96 },
+  } = authorData;
 
   useEffect(() => {
     const fetchData = async () => {
@@ -41,8 +46,7 @@ const BlogDetails = () => {
         {blogDetails.length === 0 ? (
           <Skeleton style={{ borderRadius: 5 }} height={500} />
         ) : (
-          <article
-          >
+          <article>
             <h4
               style={{ maxWidth: "80%", textAlign: "left", marginLeft: "2%" }}
             >
@@ -68,49 +72,55 @@ const BlogDetails = () => {
               <div className="author-bio" style={{ marginBottom: "30px" }}>
                 <div className="author-title-wrapper">
                   <div className="author-avatar vcard">
-                    {/* <img
-              alt={authorData.name}
-              src={authorData.avatar_urls[3]}
-              className="avatar avatar-160 photo"
-              height="160"
-              width="160"
-            /> */}
+                    <img
+                      alt={authorData.name}
+                      src={url96}
+                      className="avatar avatar-160 photo"
+                      height="160"
+                      width="160"
+                    />
                   </div>
                   <h2 className="author-title heading-size-4">
                     By {authorData.name}
                   </h2>
                 </div>
                 <div className="author-description">
-                  <p>Founder and CEO at HOMEFIRST: automate</p>
+                  <p>{authorData.description}</p>
                 </div>
               </div>
             </div>
 
             {/* <nav
-      className="pagination-single section-inner only-one only-prev"
-      aria-label="Post"
-      role="navigation"
-    >
-      <hr className="styled-separator is-style-wide" aria-hidden="true" />
+              className="pagination-single section-inner only-one only-prev"
+              aria-label="Post"
+              role="navigation"
+            >
+              <hr
+                className="styled-separator is-style-wide"
+                aria-hidden="true"
+              />
 
-      <div className="pagination-single-inner">
-        <a
-          className="previous-post"
-          href="https://www.projectautomate.com/2022/10/31/top-reasons-you-need-a-control4-system-at-home/"
-        >
-          <span className="arrow" aria-hidden="true">
-            ←
-          </span>
-          <span className="title">
-            <span className="title-inner">
-              Top Reasons You Need a Control4 System at Home
-            </span>
-          </span>
-        </a>
-      </div>
+              <div className="pagination-single-inner">
+                <a
+                  className="previous-post"
+                  href="https://www.projectautomate.com/2022/10/31/top-reasons-you-need-a-control4-system-at-home/"
+                >
+                  <span className="arrow" aria-hidden="true">
+                    ←
+                  </span>
+                  <span className="title">
+                    <span className="title-inner">
+                      Top Reasons You Need a Control4 System at Home
+                    </span>
+                  </span>
+                </a>
+              </div>
 
-      <hr className="styled-separator is-style-wide" aria-hidden="true" />
-    </nav> */}
+              <hr
+                className="styled-separator is-style-wide"
+                aria-hidden="true"
+              />
+            </nav> */}
           </article>
         )}
       </main>

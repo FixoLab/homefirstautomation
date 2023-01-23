@@ -31,7 +31,6 @@ const Crestron = () => {
                       <div className="wp-block-image">
                         <figure className="aligncenter size-large is-resized">
                           <img
-                            decoding="async"
                             src="assets/images/crestron-2-logo.png"
                             alt=""
                             className="wp-image-2116"
@@ -70,8 +69,6 @@ const Crestron = () => {
             <div className="is-layout-flow wp-block-column servicesimages">
               <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="769"
                   src="assets/images/crestron-main12.jpg"
@@ -84,8 +81,6 @@ const Crestron = () => {
             <div className="is-layout-flow wp-block-column servicesimages">
               <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="769"
                   src="assets/images/crestron-main13.jpg"
@@ -119,8 +114,6 @@ const Crestron = () => {
             <div className="is-layout-flow wp-block-column servicesimages sidevideo">
               <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1197"
                   height="900"
                   src="assets/images/home-shades.jpg"
@@ -146,8 +139,6 @@ const Crestron = () => {
             <div className="is-layout-flow wp-block-column servicesimages">
               <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1025"
                   height="770"
                   src="assets/images/crestron-main9.jpg"
@@ -160,8 +151,6 @@ const Crestron = () => {
             <div className="is-layout-flow wp-block-column servicesimages">
               <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1025"
                   height="770"
                   src="assets/images/crestron-main8.jpg"
@@ -179,8 +168,6 @@ const Crestron = () => {
             <div className="is-layout-flow wp-block-column servicesimages sidevideoleft">
               <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1915"
                   height="1440"
                   src="assets/images/home-lighting-1.jpg"
@@ -222,12 +209,10 @@ const Crestron = () => {
             </div>
           </div>
 
-          <div className="is-layout-flex wp-container-22 wp-block-columns alignfull servicesdualcontainer">
+          <div className="is-layout-flex wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
               <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="769"
                   src="assets/images/crestron-main7.jpg"
@@ -240,8 +225,6 @@ const Crestron = () => {
             <div className="is-layout-flow wp-block-column servicesimages">
               <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="769"
                   src="assets/images/crestron-main6.jpg"
@@ -274,8 +257,6 @@ const Crestron = () => {
             <div className="is-layout-flow wp-block-column servicesimages sidevideo">
               <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="769"
                   src="assets/images//haslam-6.jpg"
@@ -301,8 +282,6 @@ const Crestron = () => {
             <div className="is-layout-flow wp-block-column servicesimages">
               <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1024"
                   height="769"
                   src="assets/images/crestron-main3.jpg"
@@ -315,8 +294,6 @@ const Crestron = () => {
             <div className="is-layout-flow wp-block-column servicesimages">
               <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
                 <img
-                  decoding="async"
-                  loading="lazy"
                   width="1025"
                   height="770"
                   src="assets/images/crestron-main5.jpg"

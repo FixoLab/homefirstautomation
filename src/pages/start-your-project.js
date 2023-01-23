@@ -46,7 +46,7 @@ const StartYourProject = () => {
                         (310) 402-4818
                       </p>
 
-                      <i className="fas fa-map-marker-alt"></i>
+                      <i className="fas fa-regular fa-location-dot"></i>
 
                       <p>
                         <strong>Address</strong>

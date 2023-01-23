@@ -32,13 +32,13 @@ const Portfolio = () => {
                     <div className="wp-block-group__inner-container">
                       <h1>HASLAM TERRACE</h1>
                       <p>
-                        <a href="#1">INTERIOR LIGHTING</a>
+                        <a aria-label="Scroll down01" href="#1">INTERIOR LIGHTING</a>
                       </p>
                       <p>
-                        <a href="#2">ELECTRIC SHADING</a>
+                        <a aria-label="Scroll down02" href="#2">ELECTRIC SHADING</a>
                       </p>
                       <p>
-                        <a href="#3">LANDSCAPE LIGHTING</a>
+                        <a aria-label="Scroll down03" href="#3">LANDSCAPE LIGHTING</a>
                       </p>
                     </div>
                   </div>
