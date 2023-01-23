@@ -170,7 +170,7 @@ const Crestron = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/home-lighting-1.jpg"
+                  src="assets/images/home-lighting-1.webp"
                   alt=""
                   className="wp-image-839"
                 />
