@@ -37,9 +37,6 @@ td {
   text-align: inherit;
 }
 
-/* -------------------------------------------------------------------------- */
-/*	1. Document Setup
-/* -------------------------------------------------------------------------- */
 html {
   font-size: 62.5%; /* 1rem = 10px */
   scroll-behavior: smooth;
@@ -81,16 +78,12 @@ body {
   overflow: hidden;
 }
 
-/* Clearing ---------------------------------- */
-
 .group::after,
 .entry-content::after {
   clear: both;
   content: "";
   display: block;
 }
-
-/* Base Transitions -------------------------- */
 
 a,
 path {
@@ -135,19 +128,12 @@ path {
   z-index: 100000;
 }
 
-/* Accessibility Settings -------------------- */
-
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0s !important;
     transition-duration: 0s !important;
   }
 }
-
-/* -------------------------------------------------------------------------- */
-
-/*	2. Element Base
-/* ---------------------------------------------*---------------------------- */
 
 main {
   display: block;
@@ -274,8 +260,6 @@ a:focus {
   text-decoration: none;
 }
 
-/* Lists ------------------------------------- */
-
 ul,
 ol {
   margin: 0 0 3rem 3rem;
@@ -313,7 +297,6 @@ li > ul {
   margin: 0;
 }
 
-/* Code -------------------------------------- */
 samp {
   font-family: monospace;
   font-size: 0.9em;
@@ -333,8 +316,6 @@ pre {
   padding: 3rem 2rem;
   text-align: left;
 }
-
-/* Media ------------------------------------- */
 
 figure {
   display: block;
@@ -396,8 +377,6 @@ iframe.instagram-media {
   margin-top: 0.8em;
 }
 
-/* Inputs ------------------------------------ */
-
 fieldset {
   border: 0.2rem solid #dcd7ca;
   padding: 2rem;
@@ -443,7 +422,6 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked::before {
-  /* Use the "Yes" SVG Dashicon */
   content: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%23000000%27%2F%3E%3C%2Fsvg%3E");
   position: absolute;
   display: inline-block;
@@ -641,13 +619,6 @@ th {
   font-weight: 700;
 }
 
-/* -------------------------------------------------------------------------- */
-
-/*	3. Helper Classes
-/* -------------------------------------------------------------------------- */
-
-/* Layout ------------------------------------ */
-
 .no-padding {
   padding: 0;
 }
@@ -665,8 +636,6 @@ th {
     min-height: calc(100vh - 46px);
   }
 }
-
-/* Sections ---------------------------------- */
 
 .section-inner {
   margin-left: auto;
@@ -690,8 +659,6 @@ th {
 .section-inner.medium {
   max-width: 100rem;
 }
-
-/* Toggles ----------------------------------- */
 
 .toggle {
   -moz-appearance: none;
@@ -721,20 +688,15 @@ button.toggle {
   text-transform: none;
 }
 
-/* FILL COLOR */
 .fill-children-current-color,
 .fill-children-current-color * {
   fill: currentColor;
 }
 
-/* Image Classes ----------------------------- */
-
 .wp-block-image.is-resized {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* Cover Modals ------------------------------ */
 
 .cover-modal {
   display: none;
@@ -755,11 +717,6 @@ button.toggle {
   cursor: default;
 }
 
-/* -------------------------------------------------------------------------- */
-
-/*	4.	Site Header
-/* -------------------------------------------------------------------------- */
-
 #site-header {
   background: #fff;
   position: relative;
@@ -770,8 +727,6 @@ button.toggle {
   padding: 3.15rem 0;
   z-index: 100;
 }
-
-/* Header Titles ----------------------------- */
 
 .header-titles-wrapper {
   align-items: center;
@@ -801,13 +756,10 @@ button.toggle {
   width: auto;
 }
 
-/* Header Navigation ------------------------- */
-
 .header-navigation-wrapper {
   display: none;
 }
 
-/* Header Toggles ---------------------------- */
 .header-inner .toggle {
   align-items: center;
   display: flex;
@@ -853,8 +805,6 @@ button.toggle {
   text-decoration: underline;
 }
 
-/* Navigation Toggle ------------------------- */
-
 .nav-toggle {
   position: absolute;
   bottom: 0;
@@ -876,8 +826,6 @@ button.toggle {
 body:not(.overlay-header) #site-header .toggle {
   background-color: #000;
 }
-
-/* Primary Menu ---------------------------- */
 
 .primary-menu-wrapper {
   display: none;
@@ -1080,11 +1028,6 @@ body.touch-enabled .primary-menu ul li.menu-item-has-children > a {
   width: unset;
 }
 
-/* -------------------------------------------------------------------------- */
-
-/*	5. Menu Modal
-/* -------------------------------------------------------------------------- */
-
 .menu-modal {
   background: #fff;
   display: none;
@@ -1159,8 +1102,6 @@ button.close-nav-toggle .toggle-text {
 .menu-modal .menu-top {
   flex-shrink: 0;
 }
-
-/* Main Menu --------------------------------- */
 
 .modal-menu {
   position: relative;
@@ -1240,7 +1181,6 @@ button.sub-menu-toggle.active svg {
   font-weight: 500;
 }
 
-/* Main menu animation ----------------------- */
 .menu-wrapper .menu-item {
   position: relative;
 }
@@ -1306,12 +1246,9 @@ button.sub-menu-toggle.active svg {
   }
 }
 
-/* Expanded Menu ----------------------------- */
 .mobile-menu {
   display: block;
 }
-
-/* Menu Bottom ------------------------------- */
 
 .menu-bottom {
   flex-shrink: 0;
@@ -1453,12 +1390,9 @@ h2.entry-title {
   padding-top: 5rem;
 }
 
-/* POST META BOTTOM */
 .post-meta-wrapper.post-meta-single-bottom {
   margin-top: 3rem;
 }
-
-/* Author Bio -------------------------------- */
 
 .author-bio {
   margin-top: 4rem;
@@ -1488,8 +1422,6 @@ h2.entry-title {
 .author-bio .author-title {
   margin: 0;
 }
-
-/* Single Pagination ------------------------- */
 
 .pagination-single {
   font-size: 1.8rem;
@@ -1530,12 +1462,11 @@ h2.entry-title {
 .pagination-single a:hover .title {
   text-decoration: underline;
 }
-/* Block Colors ------------------------------ */
+
 .has-text-align-center {
   text-align: center;
 }
 
-/* Block: Base Margins ----------------------- */
 *[class*="_inner-container"] > *:first-child {
   margin-top: 0;
 }
@@ -1550,8 +1481,6 @@ h2.entry-title {
   margin-top: 3rem;
 }
 
-/* Block: Shared Nesting Alignment Resets ---- */
-
 [class*="__inner-container"] .wp-block-group:not(.alignfull):not(.alignleft) {
   margin-left: auto;
   margin-right: auto;
@@ -1565,7 +1494,6 @@ h2.entry-title {
   margin-bottom: 0;
 }
 
-/* Block: Columns ---------------------------- */
 .wp-block-columns.alignfull {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1583,7 +1511,6 @@ h2.entry-title {
   margin-bottom: 0;
 }
 
-/* Block: Group ------------------------------ */
 .wp-block-group__inner-container {
   margin: 0 auto;
 }
@@ -1592,11 +1519,6 @@ h2.entry-title {
 .entry-content .wp-block-group p {
   max-width: 100%;
 }
-
-/* -------------------------------------------------------------------------- */
-
-/*	11. Entry Content
-/* -------------------------------------------------------------------------- */
 
 .entry-content {
   line-height: 1.5;
@@ -1655,8 +1577,6 @@ h2.entry-title {
   margin: 4rem auto;
 }
 
-/* Font Families ----------------------------- */
-
 .entry-content {
   font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond,
     "Times New Roman", serif;
@@ -1691,8 +1611,6 @@ h2.entry-title {
   }
 }
 
-/* Alignment Classes ------------------------- */
-
 .entry-content > *:not(.alignfull):not(.alignleft):not(.is-style-wide) {
   max-width: 58rem;
   width: calc(100% - 4rem);
@@ -1700,7 +1618,6 @@ h2.entry-title {
 
 [class*="__inner-container"]
   > *:not(.alignfull):not(.alignleft):not(.is-style-wide) {
-  /* max-width: 58rem; */
   width: 100%;
 }
 
@@ -1718,8 +1635,6 @@ h2.entry-title {
   margin-right: auto;
 }
 
-/* Full */
-
 .alignfull {
   margin-top: 5rem;
   margin-right: auto;
@@ -1734,14 +1649,11 @@ h2.entry-title {
   max-width: 100%;
 }
 
-/* Center */
 .aligncenter,
 .aligncenter img {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* Left and right */
 
 .alignleft {
   max-width: 50%;
@@ -1752,23 +1664,12 @@ h2.entry-title {
   margin: 0.3rem 2rem 2rem 2rem;
 }
 
-/* Entry Media ------------------------------- */
-
 .alignfull > figcaption {
   margin-left: auto;
   margin-right: auto;
   max-width: 58rem;
   width: calc(100% - 4rem);
 }
-
-.comment-reply-title {
-  margin: 0 0 4rem 0;
-  text-align: center;
-}
-
-/* Comment Item ----------------------------- */
-
-/* COMMENT HEADER */
 
 div.comment:first-of-type {
   margin-top: 3.5rem;
@@ -1802,42 +1703,6 @@ div.comment:first-of-type {
   text-decoration: underline;
 }
 
-/* COMMENT CONTENT */
-
-.comment-content.entry-content
-  > *:not(.alignfull):not(.alignleft):not(.is-style-wide) {
-  width: 100%;
-}
-
-.comment-content.entry-content .alignleft {
-  margin-left: 0;
-}
-
-.comment-content.entry-content {
-  margin-right: 0;
-}
-
-.comment-reply-title small {
-  display: block;
-  font-size: 1.6rem;
-  font-weight: 600;
-  letter-spacing: -0.0277em;
-  margin: 0.5rem 0 0 0;
-  white-space: nowrap;
-}
-
-.comment-reply-title small a {
-  text-decoration: none;
-}
-
-.comment-reply-title small a:focus,
-.comment-reply-title small a:hover {
-  text-decoration: underline;
-}
-
-.pagination-separator {
-  margin: 5rem 0;
-}
 
 .nav-links > * {
   margin: 1.5rem 0 0 2.5rem;
@@ -1851,11 +1716,6 @@ div.comment:first-of-type {
 .nav-short {
   display: none;
 }
-
-/* -------------------------------------------------------------------------- */
-
-/*	14. Error 404
-/* -------------------------------------------------------------------------- */
 
 .not-found #site-content {
   padding-top: 4rem;
@@ -1904,7 +1764,6 @@ input[type="search"]:focus {
   outline-offset: -4px;
 }
 
-/* Widget Base ------------------------------- */
 .widget {
   margin-top: 3rem;
 }
@@ -1919,10 +1778,6 @@ input[type="search"]:focus {
 
 .widget-content > div > *:last-child {
   margin-bottom: 0;
-}
-
-.widget .widget-title {
-  margin: 0 0 2rem;
 }
 
 .widget li {
@@ -2446,14 +2301,10 @@ a.to-the-top > * {
     margin-bottom: 8rem;
   }
 
-  /* ENTRY MEDIA */
   .alignfull > figcaption {
     width: calc(100% - 8rem);
   }
 
-  .comment-reply-title {
-    margin-bottom: 4.6rem;
-  }
   div.comment:first-of-type {
     margin-top: 5rem;
   }
@@ -2462,14 +2313,6 @@ a.to-the-top > * {
   }
   .comment-form p.logged-in-as {
     margin: -2.5rem 0 4.4rem 0;
-  }
-  .comment-reply-title small {
-    display: inline;
-    margin: 0 0 0 0.5rem;
-  }
-
-  .pagination-separator {
-    margin: 8rem 0;
   }
 
   .nav-short {
@@ -2482,29 +2325,22 @@ a.to-the-top > * {
   .not-found #site-content {
     padding-top: 8rem;
   }
-  .widget .widget-title {
-    margin-bottom: 3rem;
-  }
   .footer-widgets-outer-wrapper {
     padding: 8rem 0;
   }
-
   .footer-widgets-wrapper {
     display: flex;
     justify-content: space-between;
     margin-left: -4rem;
     width: calc(100% + 4rem);
   }
-
   .footer-widgets {
     margin-left: 4rem;
     width: 50%;
   }
-
   .footer-widgets + .footer-widgets {
     margin-top: 0;
   }
-
   .footer-widgets .widget {
     border-top: none;
     margin-top: 5rem;
@@ -2742,27 +2578,18 @@ a.to-the-top > * {
   .wp-block-columns.alignfull + .wp-block-columns.alignfull {
     margin-top: -6rem;
   }
-  /* ALIGNMENT CLASSES */
+
   .entry-content > .alignfull {
     margin-bottom: 10rem;
     margin-top: 10rem;
   }
-  .comment-reply-title {
-    font-size: 5.6rem;
-    line-height: 1.2;
-    margin-bottom: 6rem;
-  }
-
   .widget-content {
     font-size: 2.1rem;
   }
-
-  /* FOOTER WIDGETS */
   .footer-widgets-wrapper {
     margin-left: -6rem;
     width: calc(100% + 6rem);
   }
-
   .footer-widgets {
     margin-left: 6rem;
   }

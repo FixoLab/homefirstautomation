@@ -60,7 +60,7 @@ const Feature2 = ({ title }) => {
           <img
             width="1915"
             height="1440"
-            src="assets/images/home-lighting-1.webp"
+            src="assets/images/home-lighting-1.jpg"
             alt=""
             className="wp-image-839"
           />
