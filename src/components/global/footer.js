@@ -165,17 +165,9 @@ const Footer = () => {
         <div className="section-inner">
           <div className="footer-credits">
             <p className="footer-copyright">
-              © 2023
-              <Link aria-label="Home page" to="/">
-                HOMEFIRST: automate
-              </Link>
+              © 2023 &nbsp; <Link aria-label="Home page" to="/">HOMEFIRST: automate</Link>
             </p>
 
-            <p className="powered-by-wordpress">
-              <Link aria-label="WordPress" to="https://wordpress.org/">
-                Powered by WordPress{" "}
-              </Link>
-            </p>
           </div>
           <a aria-label="Scroll Top" className="to-the-top" href="#site-header">
             <span className="to-the-top-long">
