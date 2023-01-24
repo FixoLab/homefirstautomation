@@ -1,53 +1,25 @@
 @charset "UTF-8";
 
-/*
-Theme Name: Twenty Twenty
-Adding print support. The print styles are based on the the great work of
-Andreas Hecht in https://www.jotform.com/blog/css-perfect-print-stylesheet-98272/.
-*/
-
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Margins
-# Paddings
-# Width
-# Typography
-# Page breaks
-# Links
-# Visibility
---------------------------------------------------------------*/
 @media print {
-
-  /* Margins */
-
   @page {
     margin: 2cm;
   }
   .site-footer {
     margin: 0;
   }
-
-  /* Paddings */
-
   .posts {
     padding: 0;
   }
-  
-  /* Width */
 
   .entry-content,
   .entry-content p,
   .section-inner,
-  .section-inner.max-percentage,
   .section-inner.medium,
   .section-inner.small,
   .section-inner.thin {
     max-width: 100%;
     width: 100%;
   }
-
-  /* Fonts */
 
   body {
     background: #fff !important;
@@ -67,8 +39,6 @@ Andreas Hecht in https://www.jotform.com/blog/css-perfect-print-stylesheet-98272
     font-size: 14pt;
     margin-top: 1cm;
   }
-
-  /* Page breaks */
 
   a {
     page-break-inside: avoid;
@@ -99,8 +69,6 @@ Andreas Hecht in https://www.jotform.com/blog/css-perfect-print-stylesheet-98272
   dl {
     page-break-before: avoid;
   }
-
-  /* Links */
   
   a:link,
   a:visited,
@@ -130,16 +98,11 @@ Andreas Hecht in https://www.jotform.com/blog/css-perfect-print-stylesheet-98272
     content: " < " attr(href) "> ";
   }
 
-  /* Visibility */
-
   #site-header,
   .comment-form,
   .footer-widgets-outer-wrapper,
   .header-navigation-wrapper,
-  .pagination-wrapper,
   .pagination-single,
-  .post-meta-wrapper.post-meta-edit-link-wrapper,
-  .post-meta-wrapper.post-meta-single-bottom,
   .post-separator,
   .site-logo img {
     display: none;
