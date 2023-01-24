@@ -22,9 +22,11 @@ const BlogDetails = () => {
   }, []);
   const blogDetails = data?.filter((blog) => blog?.slug === slug);
   const authorId = blogDetails[0]?.author;
+  const nextSlug = blogDetails[0]?.next?.slug;
+  const previousSlug = blogDetails[0]?.previous?.slug;
 
-  const next = data?.filter((blog) => blog?.slug === blogDetails[0]?.next.slug);
-  const previous = data?.filter((blog) => blog?.slug === blogDetails[0]?.previous.slug);
+  const next = data?.filter((blog) => blog?.slug === nextSlug);
+  const previous = data?.filter((blog) => blog?.slug === previousSlug);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -97,7 +99,10 @@ const BlogDetails = () => {
               aria-label="Post"
               role="navigation"
             >
-              <hr className="styled-separator is-style-wide" aria-hidden="true" />
+              <hr
+                className="styled-separator is-style-wide"
+                aria-hidden="true"
+              />
 
               <div className="pagination-single-inner">
                 {blogDetails[0]?.next !== null ? (
@@ -136,7 +141,10 @@ const BlogDetails = () => {
                 )}
               </div>
 
-              <hr className="styled-separator is-style-wide" aria-hidden="true" />
+              <hr
+                className="styled-separator is-style-wide"
+                aria-hidden="true"
+              />
             </nav>
             {/* <hr className="styled-separator is-style-wide" aria-hidden="true" />
             <div className="comments-wrapper section-inner">
