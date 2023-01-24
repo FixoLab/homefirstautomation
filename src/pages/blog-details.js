@@ -23,7 +23,8 @@ const BlogDetails = () => {
   const blogDetails = data?.filter((blog) => blog?.slug === slug);
   const authorId = blogDetails[0]?.author;
 
-  console.log("blogDetails", blogDetails);
+  const next = data?.filter((blog) => blog?.slug === blogDetails[0]?.next.slug);
+  const previous = data?.filter((blog) => blog?.slug === blogDetails[0]?.previous.slug);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -106,7 +107,7 @@ const BlogDetails = () => {
                   >
                     <span className="title">
                       <span className="title-inner">
-                        {blogDetails[0]?.next?.slug}
+                        {next[0]?.title.rendered}
                       </span>
                     </span>
                     <span className="arrow" aria-hidden="true">
@@ -126,7 +127,7 @@ const BlogDetails = () => {
                     </span>
                     <span className="title">
                       <span className="title-inner">
-                        {blogDetails[0]?.previous?.slug}
+                        {previous[0]?.title.rendered}
                       </span>
                     </span>
                   </Link>
