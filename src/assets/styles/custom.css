@@ -1878,11 +1878,8 @@ a#bbblink {
   padding: 60px 30px;
   margin: 0px auto;
   font-size: 16px;
-  color: #707070;
 }
-.footerlinks a {
-  color: #707070 !important;
-}
+
 .footerlinks1 {
   flex-basis: 350px;
   flex-grow: 0;
@@ -1914,6 +1911,7 @@ a.footerphone {
   font-size: 14px;
   padding: 5px;
   font-weight: 400;
+  background: #222;
 }
 .footermenu .su-spoiler-style-default > .su-spoiler-title:hover {
   background: #222;
@@ -1936,11 +1934,14 @@ a.footerphone {
 
 .footerlinks3 h2 a {
   font-weight: 400;
-  color: #777 !important;
+  color: #222;
   font-size: 16px;
 }
+.footerlinks3 h2 a:hover{
+  color:#58c7f1;
+}
 .footerlinks3 .su-post-excerpt p {
-  color: #777;
+  color: #222;
   font-family: roboto;
   font-size: 14px;
 }
@@ -1972,22 +1973,16 @@ a.footerphone {
 }
 .footer-copyright {
   color: #fff;
+  width: 100%;
+  text-align: left;
+}
+.footer-copyright a{
+  color: #58c7f1
 }
 .footer-credits {
   width: 100%;
 }
-.powered-by-wordpress {
-  color: #fff;
-  font-size: 12px;
-  width: 100%;
-  text-align: right;
-  opacity: 0;
-}
-.powered-by-wordpress::before {
-  content: "Powered By:";
-  padding-right: 5px;
-  color: #aaaaaa;
-}
+
 
 @media only screen and (max-width: 1400px) {
   .blog article.odd {
@@ -2435,7 +2430,7 @@ a.footerphone {
 }
 
 .footer-copyright a:visited {
-  color: #cd2653 !important;
+  color: #fff !important;
 }
 #site-footer a:focus,
 #site-footer a:hover {
