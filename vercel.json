@@ -22,11 +22,7 @@
           ]
         }
       ],
-      "ignore": [
-        "vercel.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
+
       "rewrites": [
         {
           "source": "**",

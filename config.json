@@ -22,11 +22,6 @@
           ]
         }
       ],
-      "ignore": [
-        "config.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
       "rewrites": [
         {
           "source": "**",
