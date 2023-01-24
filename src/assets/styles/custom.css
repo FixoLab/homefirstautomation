@@ -2061,8 +2061,7 @@ a.footerphone {
   .footer-widgets.column-two {
     margin-top: 0px;
   }
-  .servicesimages.sidevideo #video-background,
-  .servicesimages.sidevideoleft #video-background {
+  .servicesimages.sidevideo #video-background{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -2233,7 +2232,8 @@ a.footerphone {
     margin: 0px !important;
   }
   .homedualcontainer h2 {
-    font-size: 24px;
+    font-size: 18px!important;
+    margin-bottom: 10px;
   }
   .homedual2 {
     padding: 60px 30px;
