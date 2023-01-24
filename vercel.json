@@ -1,37 +1,19 @@
 {
-    "hosting": {
-      "public": "build",
-      "headers": [
-        {
-          "source": "/**",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "no-cache, no-store, must-revalidate"
-            }
-          ]
-        },
-        {
-          "source":
-          "**/*.@(jpg|jpeg|gif|png|svg|mp4|webp|js|css|eot|otf|ttf|ttc|woff|woff2|font.css)",
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=1209600"
-            }
-          ]
-        }
-      ],
-      "ignore": [
-        "vercel.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ]
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "headers": {
+        "cache-control": "s-maxage=31536000, max-age=31536000"
+      },
+      "dest": "/api/handler.js"
+    },
+    {
+      "src": "/(.*)",
+      "headers": {
+        "cache-control": "s-maxage=31536000, max-age=31536000"
+      },
+      "dest": "/index.html"
     }
-  }
+  ]
+}
