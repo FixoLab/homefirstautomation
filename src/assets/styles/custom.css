@@ -76,10 +76,7 @@ samp {
   background-color: #dcd7ca;
 }
 
-a:link,
-a:visited {
-  color: #333 !important;
-}
+
 
 .primary-menu ul a {
   color: #fff !important;
@@ -591,11 +588,7 @@ li.menu-item-3288 .fas {
   text-align: left;
   font-size: 16px;
 }
-.darklink a:link,
-.darklink a:visited {
-  color: #aaaaaa !important;
-  text-decoration: none;
-}
+
 .homedual1 p {
   float: left;
 }
@@ -1024,8 +1017,7 @@ p a:visited {
   color: #cd2653 !important;
   text-decoration: none;
 }
-.single-post.singular a:link,
-a:visited {
+.single-post.singular a:link {
   color: #333;
   text-decoration: none;
 }
@@ -2429,8 +2421,8 @@ a.footerphone {
   font-size: 20px;
 }
 
-.footer-copyright a:visited {
-  color: #fff !important;
+.footer-copyright a {
+  color: #fff;
 }
 #site-footer a:focus,
 #site-footer a:hover {
