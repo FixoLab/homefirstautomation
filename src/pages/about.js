@@ -1,5 +1,4 @@
 import React from "react";
-import { LazyVideo, LazyWebpPicture } from "react-lazy-media";
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -12,8 +11,19 @@ const About = () => {
               <div className="vce-text-block-wrapper vce" id="el-595684fb">
                 <div className="is-layout-flow wp-block-group homevideo">
                   <div className="wp-block-group__inner-container">
-                   
-                    <LazyVideo id="video-background"  src="assets/video/aboutus-final.mp4" muted={true} autoplay={true} loop={true} width="100%" height="100%" />
+                    <video
+                      id="video-background"
+                      autoPlay
+                      loop="loop"
+                      muted
+                      width="300"
+                      height="150"
+                    >
+                      <source
+                        src="assets/video/aboutus-final.mp4"
+                        type="video/mp4"
+                      />
+                    </video>
                     <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                       <div className="wp-block-group__inner-container">
                         <div
@@ -207,12 +217,13 @@ const About = () => {
                     <div className="is-layout-flex wp-container-14 wp-block-columns picturetime">
                       <div className="is-layout-flow wp-block-column">
                         <figure className="wp-block-image size-large">
-                        <LazyWebpPicture width="600"
-              height="600"
-              src="assets/images/1.webp"
-              alt="hero"
-              className="wp-image-545" />
-
+                          <img
+                            width="600"
+                            height="600"
+                            className="wp-image-545"
+                            src="assets/images/1.webp"
+                            alt=""
+                          />
                           <figcaption>
                             <strong>Josh Trevithick</strong> CEO / Founder
                           </figcaption>
@@ -221,11 +232,13 @@ const About = () => {
 
                       <div className="is-layout-flow wp-block-column">
                         <figure className="wp-block-image size-large">
-
-                          <LazyWebpPicture width="600"
-              height="600"
-              src="assets/images/11.webp"
-              className="wp-image-545" />
+                          <img
+                            width="600"
+                            height="600"
+                            className="wp-image-555"
+                            src="assets/images/11.webp"
+                            alt=""
+                          />
                           <figcaption>
                             <strong>
                               <strong>Malak Frey</strong>{" "}
@@ -237,11 +250,13 @@ const About = () => {
 
                       <div className="is-layout-flow wp-block-column">
                         <figure className="wp-block-image size-large">
-
-            <LazyWebpPicture width="600"
-              height="600"
-              src="assets/images/8.webp"
-              className="wp-image-545" />
+                          <img
+                            width="600"
+                            height="600"
+                            className="wp-image-552"
+                            src="assets/images/8.webp"
+                            alt=""
+                          />
                           <figcaption>
                             <strong>
                               <strong>Elaina Dickens</strong>{" "}
@@ -253,11 +268,13 @@ const About = () => {
 
                       <div className="is-layout-flow wp-block-column">
                         <figure className="wp-block-image size-large">
-                        <LazyWebpPicture width="600"
-              height="600"
-              src="assets/images/4.webp"
-              className="wp-image-548" />
-                        
+                          <img
+                            width="600"
+                            height="600"
+                            className="wp-image-548"
+                            src="assets/images/4.webp"
+                            alt=""
+                          />
                           <figcaption>
                             <strong>Braiden Chavez</strong> Installation
                           </figcaption>
@@ -266,11 +283,13 @@ const About = () => {
 
                       <div className="is-layout-flow wp-block-column">
                         <figure className="wp-block-image size-large">
-
-            <LazyWebpPicture width="600"
-              height="600"
-              src="assets/images/12.webp"
-              className="wp-image-556" />
+                          <img
+                            width="600"
+                            height="600"
+                            className="wp-image-556"
+                            src="assets/images/12.webp"
+                            alt=""
+                          />
                           <figcaption>
                             <strong>
                               <strong>Kuba Byrne</strong>
@@ -282,11 +301,13 @@ const About = () => {
 
                       <div className="is-layout-flow wp-block-column">
                         <figure className="wp-block-image size-large">
-                        <LazyWebpPicture width="600"
-              height="600"
-              src="assets/images/6.webp"
-              className="wp-image-550" />
-                          
+                          <img
+                            width="600"
+                            height="600"
+                            className="wp-image-550"
+                            src="assets/images/6.webp"
+                            alt=""
+                          />
                           <figcaption>
                             <strong>Rico Guevara</strong> Sales
                           </figcaption>

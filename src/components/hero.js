@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { LazyVideo, LazyWebpPicture } from 'react-lazy-media';
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -21,14 +20,26 @@ const Hero = () => {
       <div className="is-layout-flow wp-block-group homevideo">
         <div className="wp-block-group__inner-container">
           <figure className="wp-block-image size-large homephone">
-            <LazyWebpPicture width="470"
+            <img
+              width="470"
               height="938"
-              src="assets/images/phoneoverlay4.webp"
+              src="assets/images/phoneoverlay4.png"
               alt="hero"
-              className="wp-image-1922" />
+              className="wp-image-1922"
+            />
           </figure>
-  
-          <LazyVideo id="video-background"  src="assets/video/newhome.mp4" muted={true} autoplay={true} loop={true} width="100%" height="100%" />
+
+          <video
+            id="video-background"
+            autoPlay
+            muted
+            loop="loop"
+            width="300"
+            height="150"
+            playsInline=""
+          >
+            <source src="assets/video/newhome.mp4" type="video/mp4" />
+          </video>
           <div className="is-layout-flow wp-block-group homeintrotop centerintro">
             <div className="wp-block-group__inner-container">
               <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
