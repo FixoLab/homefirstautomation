@@ -56,15 +56,7 @@ const Feature2 = ({ title }) => {
         </p>
       </div>
       <div className="is-layout-flow wp-block-column servicesimages sidevideoleft">
-      <figure className="wp-block-image size-full eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-          <img
-            width="1915"
-            height="1440"
-            src="assets/images/home-lighting-1.webp"
-            alt=""
-            className="wp-image-839"
-          />
-        </figure>
+
         <video
           id="video-background"
           className="customsized"
