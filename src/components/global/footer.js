@@ -165,7 +165,7 @@ const Footer = () => {
         <div className="section-inner">
           <div className="footer-credits">
             <p className="footer-copyright">
-              © 2023 &nbsp; <Link aria-label="Home page" to="/">HOMEFIRST: automate</Link>
+              © 2023 Homefirst Automation
             </p>
 
           </div>
