@@ -23,7 +23,7 @@ const Hero = () => {
             <img
               width="470"
               height="938"
-              src="assets/images/phoneoverlay4.webp"
+              src="assets/images/phoneoverlay4.png"
               alt="hero"
               className="wp-image-1922"
             />
