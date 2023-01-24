@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Skeleton from "react-loading-skeleton";
 import { useParams } from "react-router";
+import { Link } from "react-router-dom";
 const api_domain = process.env.REACT_APP_DOMAIN;
 
 const BlogDetails = () => {
@@ -21,6 +22,8 @@ const BlogDetails = () => {
   }, []);
   const blogDetails = data?.filter((blog) => blog?.slug === slug);
   const authorId = blogDetails[0]?.author;
+
+  console.log("blogDetails", blogDetails);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -88,37 +91,52 @@ const BlogDetails = () => {
               </div>
             </div>
 
-            {/* <nav
-              className="pagination-single section-inner only-one only-prev"
+            <nav
+              className="pagination-single section-inner"
               aria-label="Post"
               role="navigation"
             >
-              <hr
-                className="styled-separator is-style-wide"
-                aria-hidden="true"
-              />
+              <hr className="styled-separator is-style-wide" aria-hidden="true" />
 
               <div className="pagination-single-inner">
-                <a
-                  className="previous-post"
-                  href="/top-reasons-you-need-a-control4-system-at-home/"
-                >
-                  <span className="arrow" aria-hidden="true">
-                    ←
-                  </span>
-                  <span className="title">
-                    <span className="title-inner">
-                      Top Reasons You Need a Control4 System at Home
+                {blogDetails[0]?.next !== null ? (
+                  <Link
+                    className="next-post"
+                    to={`/blog/${blogDetails[0]?.next?.slug}`}
+                  >
+                    <span className="title">
+                      <span className="title-inner">
+                        {blogDetails[0]?.next?.slug}
+                      </span>
                     </span>
-                  </span>
-                </a>
+                    <span className="arrow" aria-hidden="true">
+                      ←
+                    </span>
+                  </Link>
+                ) : (
+                  ""
+                )}
+                {blogDetails[0]?.previous !== null ? (
+                  <Link
+                    className="next-post"
+                    to={`/blog/${blogDetails[0]?.previous?.slug}`}
+                  >
+                    <span className="arrow" aria-hidden="true">
+                      →
+                    </span>
+                    <span className="title">
+                      <span className="title-inner">
+                        {blogDetails[0]?.previous?.slug}
+                      </span>
+                    </span>
+                  </Link>
+                ) : (
+                  ""
+                )}
               </div>
 
-              <hr
-                className="styled-separator is-style-wide"
-                aria-hidden="true"
-              />
-            </nav> */}
+              <hr className="styled-separator is-style-wide" aria-hidden="true" />
+            </nav>
             {/* <hr className="styled-separator is-style-wide" aria-hidden="true" />
             <div className="comments-wrapper section-inner">
               <div id="respond" className="comment-respond">
