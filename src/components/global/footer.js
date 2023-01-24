@@ -165,7 +165,7 @@ const Footer = () => {
         <div className="section-inner">
           <div className="footer-credits">
             <p className="footer-copyright">
-              © 2023 Homefirst Automation
+              &copy; 2023 Homefirst Automation
             </p>
 
           </div>
