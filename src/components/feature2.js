@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyVideo } from "react-lazy-media";
 import { Link } from "react-router-dom";
 
 const Feature2 = ({ title }) => {
@@ -57,18 +58,8 @@ const Feature2 = ({ title }) => {
       </div>
       <div className="is-layout-flow wp-block-column servicesimages sidevideoleft">
 
-        <video
-          id="video-background"
-          className="customsized"
-          autoPlay
-          muted
-          loop="loop"
-          width="300"
-          height="150"
-          playsInline=""
-        >
-          <source src="assets/video/middlearea4.mp4" type="video/mp4" />
-        </video>
+    
+        <LazyVideo class="customsized" id="video-background"  src="assets/video/middlearea4.mp4" muted={true} autoplay={true} loop={true} width="100%" height="100%" />
       </div>
     </div>
   );
