@@ -57,8 +57,6 @@ const Feature2 = ({ title }) => {
         </p>
       </div>
       <div className="is-layout-flow wp-block-column servicesimages sidevideoleft">
-
-    
         <LazyVideo class="customsized" id="video-background"  src="assets/video/middlearea4.mp4" muted={true} autoplay={true} loop={true} width="100%" height="100%" />
       </div>
     </div>
