@@ -1,6 +1,5 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import "../assets/styles/blog.css";
 
 const Article = React.lazy(() => import("../components/article"));
 const LoadingSpinner = React.lazy(() =>

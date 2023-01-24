@@ -2459,3 +2459,7 @@ a.footerphone {
   opacity: 0;
   pointer-events: none;
 }
+
+#site-content .post-inner {
+  padding-top: 0;
+}

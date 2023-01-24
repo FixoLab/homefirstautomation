@@ -101,7 +101,7 @@ const BlogDetails = () => {
               <div className="pagination-single-inner">
                 <a
                   className="previous-post"
-                  href="https://www.projectautomate.com/2022/10/31/top-reasons-you-need-a-control4-system-at-home/"
+                  href="/top-reasons-you-need-a-control4-system-at-home/"
                 >
                   <span className="arrow" aria-hidden="true">
                     ←
@@ -119,7 +119,7 @@ const BlogDetails = () => {
                 aria-hidden="true"
               />
             </nav> */}
-            <hr className="styled-separator is-style-wide" aria-hidden="true" />
+            {/* <hr className="styled-separator is-style-wide" aria-hidden="true" />
             <div className="comments-wrapper section-inner">
               <div id="respond" className="comment-respond">
                 <h2 id="reply-title" className="comment-reply-title">
@@ -230,7 +230,7 @@ const BlogDetails = () => {
                   </p>
                 </form>{" "}
               </div>
-            </div>
+            </div> */}
           </article>
         )}
       </main>
