@@ -617,7 +617,7 @@ li.menu-item-3288 .fas {
   text-align: center;
 }
 .homedual2.homelighting {
-  background-image: url("../../../public/assets/images/home-show13.jpg");
+  background-image: url("../../../public/assets/images/home-show13.webp");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   display: flow-root;
@@ -625,7 +625,7 @@ li.menu-item-3288 .fas {
   background-size: cover;
 }
 .homedual2.homeshow3 {
-  background-image: url("../../../public/assets/images/smart20.jpg");
+  background-image: url("../../../public/assets/images/smart20.webp");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   display: flow-root;
@@ -1856,7 +1856,7 @@ a#bbblink {
 .footer-widgets.column-one {
   max-width: 100%;
   width: 100%;
-  background-image: url("../../../public/assets/images/home-show5.jpg");
+  background-image: url("../../../public/assets/images/home-show5.webp");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   display: flex;
