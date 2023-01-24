@@ -2232,7 +2232,8 @@ a.footerphone {
     margin: 0px !important;
   }
   .homedualcontainer h2 {
-    font-size: 24px;
+    font-size: 18px!important;
+    margin-bottom: 10px;
   }
   .homedual2 {
     padding: 60px 30px;
