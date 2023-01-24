@@ -1,20 +1,12 @@
 {
-    "version": 2,
-    "routes": [
-      {
-        "src": "/api/(.*)",
-        "headers": {
-          "cache-control": "s-maxage=31536000, max-age=31536000"
-        },
-        "dest": "/api/handler.js"
+  "version": 2,
+  "routes": [
+    {
+      "src": "/build",
+      "headers": {
+        "cache-control": "s-maxage=31536000, max-age=31536000"
       },
-      {
-        "src": "/(.*)",
-        "headers": {
-          "cache-control": "s-maxage=31536000, max-age=31536000"
-        },
-        "dest": "/index.html"
-      }
-    ]
-  }
-  
+      "dest": "/index.html"
+    }
+  ]
+}
