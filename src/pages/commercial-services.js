@@ -330,7 +330,7 @@ const CommercialServices = () => {
                 <img
                   width="1024"
                   height="752"
-                  src="assets/images/commercial13"
+                  src="assets/images/commercial13.jpg"
                   alt=""
                   className="wp-image-1711"
                 />

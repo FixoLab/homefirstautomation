@@ -302,7 +302,7 @@ const HomeTheater = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/theater8.jpg"
+                  src="assets/images/theater10.jpg"
                   alt=""
                   className="wp-image-846"
                 />
