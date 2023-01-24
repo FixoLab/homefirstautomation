@@ -343,7 +343,7 @@ const StartYourProject = () => {
                                   name="firstImage"
                                   defaultValue=""
                                   size="40"
-                                  placeholder="First Image Link"
+                                  placeholder="First Floor Image Link"
                                 />
                               </span>{" "}
                             </label>
@@ -357,7 +357,7 @@ const StartYourProject = () => {
                                   name="secondImage"
                                   defaultValue=""
                                   size="40"
-                                  placeholder="Second Image Link"
+                                  placeholder="Second Floor Image Link"
                                 />
                               </span>{" "}
                             </label>
@@ -371,7 +371,7 @@ const StartYourProject = () => {
                                   name="thirdImage"
                                   defaultValue=""
                                   size="40"
-                                  placeholder="Third Image Link"
+                                  placeholder="Third Floor Image Link"
                                 />
                               </span>{" "}
                             </label>

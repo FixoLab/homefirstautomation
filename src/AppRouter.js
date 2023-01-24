@@ -1,6 +1,6 @@
 import React, { Suspense, useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
-import Skeleton from "react-loading-skeleton";
+// import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
 const Header = React.lazy(() => import("./components/global/header"));
@@ -57,11 +57,7 @@ const AppRouter = () => {
     <BrowserRouter>
       <ScrollToTop />
       <Suspense
-        fallback={
-          <div className="preloader">
-            <Skeleton style={{ borderRadius: 50 }} height={100} width={100} />
-          </div>
-        }
+       
       >
         <Header />
         <Routes>
