@@ -38,7 +38,7 @@ const Footer = () => {
                         <div className="footerlinks1">
                           <Link aria-label="Location" to="/#">
                             <img
-                              src="assets/images/Homefirst_Auto.png"
+                              src="/assets/images/Homefirst_Auto.png"
                               alt="project automate logo"
                               width="200"
                               height="80"
