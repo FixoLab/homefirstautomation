@@ -19,8 +19,7 @@ body,
 .entry-title a {
   color: #000000;
 }
-figcaption
-.post-meta,
+figcaption .post-meta,
 hr.styled-separator {
   color: #6d6d6d;
 }
@@ -72,11 +71,9 @@ samp {
 .footer-widgets-outer-wrapper {
   border-color: #dcd7ca;
 }
-.header-footer-group table caption{
+.header-footer-group table caption {
   background-color: #dcd7ca;
 }
-
-
 
 .primary-menu ul a {
   color: #fff !important;
@@ -839,10 +836,7 @@ li.menu-item-3288 .fas {
   visibility: hidden !important;
   display: none !important;
 }
-.entry-content
-  > *:not(.alignfull):not(.alignleft):not(
-    .is-style-wide
-  ) {
+.entry-content > *:not(.alignfull):not(.alignleft):not(.is-style-wide) {
   max-width: 90% !important;
   width: calc(100% - 4rem) !important;
 }
@@ -1929,8 +1923,8 @@ a.footerphone {
   color: #222;
   font-size: 16px;
 }
-.footerlinks3 h2 a:hover{
-  color:#58c7f1;
+.footerlinks3 h2 a:hover {
+  color: #58c7f1;
 }
 .footerlinks3 .su-post-excerpt p {
   color: #222;
@@ -1968,13 +1962,12 @@ a.footerphone {
   width: 100%;
   text-align: left;
 }
-.footer-copyright a{
-  color: #58c7f1
+.footer-copyright a {
+  color: #58c7f1;
 }
 .footer-credits {
   width: 100%;
 }
-
 
 @media only screen and (max-width: 1400px) {
   .blog article.odd {
@@ -2061,7 +2054,7 @@ a.footerphone {
   .footer-widgets.column-two {
     margin-top: 0px;
   }
-  .servicesimages.sidevideo #video-background{
+  .servicesimages.sidevideo #video-background {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -2232,8 +2225,8 @@ a.footerphone {
     margin: 0px !important;
   }
   .homedualcontainer h2 {
-    font-size: 18px!important;
-    margin-bottom: 10px!important;
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
   }
   .homedual2 {
     padding: 60px 30px;
@@ -2436,7 +2429,7 @@ a.footerphone {
   margin-bottom: 30px;
 }
 
-.su-spoiler.su-spoiler-closed>.su-spoiler-content {
+.su-spoiler.su-spoiler-closed > .su-spoiler-content {
   height: 0;
   margin: 0;
   padding-top: 0;
@@ -2450,3 +2443,28 @@ a.footerphone {
 #site-content .post-inner {
   padding-top: 0;
 }
+
+/* connected home */
+.connected-living-title-section {
+  margin-top: 136px;
+    padding: 70px 0;
+    background-color: #dcd7d3;
+}
+
+.connected-living-title-section h4{
+ margin: 0px;
+ margin-bottom: 20px;
+}
+.connected-living-title-section p{
+ margin: 0px !important;
+}
+.connected-living-title-section .title-inner{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.connected-living-title-section.bottom-title-section{
+  margin: 0 !important;
+}
+

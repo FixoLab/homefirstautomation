@@ -133,6 +133,41 @@ const Header = () => {
                     id="menu-item-459"
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-459"
                   >
+                    <Link to="#">Connected Living</Link>
+                    <span className="icon"></span>
+                    <ul className="sub-menu">
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
+                        <Link to="/indoor-living">Indoor Living</Link>
+                      </li>
+                      <li
+                        id="menu-item-924"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-924"
+                      >
+                        <Link to="/a-day-in-the-life">A Day in the Life</Link>
+                      </li>
+                      <li
+                        id="menu-item-955"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-955"
+                      >
+                        <Link to="/connected-home">Connected Home</Link>
+                      </li>
+                      <li
+                        id="menu-item-970"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
+                      >
+                        <Link to="/connected-studio-living">
+                          Connected Studio Living
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li
+                    id="menu-item-459"
+                    className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-459"
+                  >
                     <Link to="#">Services</Link>
                     <span className="icon"></span>
                     <ul className="sub-menu">
