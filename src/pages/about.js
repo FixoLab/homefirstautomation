@@ -68,7 +68,7 @@ const About = () => {
                         </p>
                         <div style={{ height: "30px" }}>&nbsp;</div>
                         <p>
-                          Now decades later, HOMEFIRST: automate is one of the
+                          Now decades later, Homefirst is one of the
                           largest installers in Orlando Florida for security
                           systems,{" "}
                           <Link to="/smart-home-demo-2">

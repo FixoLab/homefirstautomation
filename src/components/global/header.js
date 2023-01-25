@@ -73,7 +73,7 @@ const Header = () => {
                       height="90"
                       src="/assets/images/Homefirst_Auto.png"
                       className="custom-logo"
-                      alt="HOMEFIRST: automate"
+                      alt="Homefirst"
                     />
                   </Link>
                   <span className="screen-reader-text">Homefirst</span>

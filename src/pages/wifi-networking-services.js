@@ -63,7 +63,7 @@ const WifiNetworkingServices = () => {
                 data-aos-delay="200"
               >
                 The first step in having a ground-breaking smart home is having
-                the foundation for your smart home created. HOMEFIRST: automate
+                the foundation for your smart home created. Homefirst
                 has all the <Link to="/ruckus">networking solutions</Link> you need to
                 bring your Orlando Florida home up to date.
               </p>

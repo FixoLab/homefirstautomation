@@ -2459,3 +2459,17 @@ a#bbblink {
 }
 .design-build-partners .wp-block-group.homevideo.servicespages {height: 65vh;}
 .design-build-partners .wp-block-group.homevideo.servicespages > .wp-block-group__inner-container {height: 65vh;}
+
+a#scroll-to-top {
+  background: url(../../../public/assets/images/arrow.png) no-repeat center center;
+  width: 35px;
+  height: 35px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  text-indent: -9999px;
+  font-size: 0;
+  cursor: pointer;
+  outline: 0;
+  opacity: 0;
+}
