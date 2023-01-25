@@ -60,7 +60,7 @@ const Partners = () => {
                   </figure>
                   <p className="partnername">Contractors</p>
                   <p className="learnmorebutton">
-                    <Link to="/interior-designers">Learn More</Link>
+                    <Link to="/contractors">Learn More</Link>
                   </p>
                 </div>
 

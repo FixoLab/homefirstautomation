@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const DesignBuildPartners = () => {
+const Contractors = () => {
   return (
     <div className="design-build-partners">
       <div id="site-content">
@@ -12,7 +12,7 @@ const DesignBuildPartners = () => {
                 <div
                   className="fullimagetop"
                   style={{
-                    backgroundImage: "url(/assets/images/seller6.jpg)",
+                    backgroundImage: "url(/assets/images/builder18.jpg)",
                     backgroundPosition: "center",
                     height: "65vh",
                   }}
@@ -27,7 +27,7 @@ const DesignBuildPartners = () => {
                       data-aos-delay="200"
                     >
                       <div className="wp-block-group__inner-container">
-                        <h1>Architects</h1>
+                        <h1>GENERAL CONTRACTORS</h1>
                       </div>
                     </div>
                   </div>
@@ -38,11 +38,11 @@ const DesignBuildPartners = () => {
             <div className="is-layout-flow wp-block-group serviceswhitebackground">
               <div className="wp-block-group__inner-container">
                 <p className="has-text-align-center">
-                  Architects plan everything before and manage during a
-                  residency or businesses creation. From deciding how the flow
-                  of a new property will be, to adding additions to already
-                  setup properties, Architects are integral to construction, and
-                  we want to work with you.
+                  From electricians, to landscapers, to plumbers, general
+                  contractors range from a multitude of professions. We at
+                  PROJECT: automate not only want to work with you, but want to
+                  create a fruitful relationship for both of us to late years to
+                  come.
                 </p>
               </div>
             </div>
@@ -58,7 +58,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design1.jpg"
+                    src="assets/images/builder1.jpg"
                     alt=""
                     className="wp-image-2755"
                   />
@@ -75,7 +75,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design2.jpg"
+                    src="assets/images/builder2.jpg"
                     alt=""
                     className="wp-image-2756"
                   />
@@ -92,16 +92,16 @@ const DesignBuildPartners = () => {
                   className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
                   data-aos="fade-up"
                   data-aos-duration="800"
-                  data-aos-delay="200"
+                  data-aos-delay="250"
                 >
                   <div className="wp-block-group__inner-container">
-                    <h2>Boost Your Business</h2>
+                    <h2>BUILD YOUR BUSINESS</h2>
 
                     <p className="pointsmade homeauto">
-                      Are you looking for new clients? Well we have hundreds of
-                      client’s and they are always after recommendations for
-                      Architects. Joining the PROJECT: automate partner program
-                      gives you access to them.
+                      We have hundreds of clients, and they are always looking
+                      to improve their homes or businesses. We will recommend
+                      Partnered businesses to our current client’s, which could
+                      be you.
                     </p>
 
                     <p className="pointsmade homeauto">
@@ -116,12 +116,12 @@ const DesignBuildPartners = () => {
                   className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
                   data-aos="fade-up"
                   data-aos-duration="800"
-                  data-aos-delay="250"
+                  data-aos-delay="200"
                 >
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design3.jpg"
+                    src="assets/images/builder3.jpg"
                     alt=""
                     className="wp-image-2757"
                   />
@@ -143,7 +143,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design4.jpg"
+                    src="assets/images/builder4.jpg"
                     alt=""
                     className="wp-image-2758"
                   />
@@ -158,14 +158,13 @@ const DesignBuildPartners = () => {
                   data-aos-delay="250"
                 >
                   <div className="wp-block-group__inner-container">
-                    <h2>Boost Your Revenue</h2>
+                    <h2>BUILD YOUR WALLET</h2>
 
                     <p className="pointsmade homeauto">
-                      As an Architect’s Partner you already have a great eye for
-                      things that can improve a business or residence. Joining
-                      the PROJECT: automate partner program give you access to a
-                      vast database of professionals you can work with and
-                      increase your revenue.
+                      Everyone likes extra revenue, and we here at PROJECT:
+                      automate make it easy. Work with us as an affiliate
+                      helping to sign up new clients to join our ever growing
+                      list of satisfied smart home clients. It’s that simple.
                     </p>
 
                     <p className="pointsmade homeauto">
@@ -185,17 +184,17 @@ const DesignBuildPartners = () => {
                   className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
                   data-aos="fade-up"
                   data-aos-duration="800"
-                  data-aos-delay="250"
+                  data-aos-delay="200"
                 >
                   <div className="wp-block-group__inner-container">
-                    <h2>Boost Your Reputation</h2>
+                    <h2>BUILD YOUR REPUTATION</h2>
 
                     <p className="pointsmade homeauto">
-                      Do you feel you can improve upon your business? PROJECT:
-                      automate offers classes on smart technologies that give
-                      you a national accredited certifications. This not only
-                      allows you to more easily represent your clients, but
-                      gives you an extra step on top of the competition.{" "}
+                      Realtors need to know everything about their client’s
+                      needs and wants. PROJECT: automate offers smart technology
+                      classes that will allow you have a better understanding of
+                      your client’s unique needs, and a way to stand out from
+                      the competition with unique certifications.
                     </p>
 
                     <p className="pointsmade homeauto">
@@ -207,7 +206,7 @@ const DesignBuildPartners = () => {
 
               <div className="is-layout-flow wp-block-column servicesimages">
                 <figure
-                  className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                  className="wp-block-image size-large eds-on-scroll eds-scroll-visible "
                   data-aos="fade-up"
                   data-aos-duration="800"
                   data-aos-delay="200"
@@ -215,7 +214,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design5.jpg"
+                    src="assets/images/builder5.jpg"
                     alt=""
                     className="wp-image-2759"
                   />
@@ -242,7 +241,7 @@ const DesignBuildPartners = () => {
               <div className="is-layout-flow wp-block-column servicesimages">
                 <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-hidden">
                   <div className="wp-block-group__inner-container">
-                    <h2>Boost With Us</h2>
+                    <h2>BUILD WITH US</h2>
 
                     <p className="pointsmade homeauto">
                       Using the link below you will be redirected to our contact
@@ -265,4 +264,4 @@ const DesignBuildPartners = () => {
   );
 };
 
-export default DesignBuildPartners;
+export default Contractors;

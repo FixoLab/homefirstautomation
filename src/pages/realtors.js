@@ -20,7 +20,12 @@ const Realtors = () => {
 
                 <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                   <div className="wp-block-group__inner-container">
-                    <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+                    <div
+                      className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible"
+                      data-aos="fade-up"
+                      data-aos-duration="800"
+                      data-aos-delay="200"
+                    >
                       <div className="wp-block-group__inner-container">
                         <h1>REALTORS</h1>
                       </div>
@@ -43,9 +48,13 @@ const Realtors = () => {
 
             <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
               <div className="is-layout-flow wp-block-column servicesimages">
-                <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+                <figure
+                  className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                >
                   <img
-                    decoding="async"
                     width="1024"
                     height="769"
                     src="assets/images/seller1.jpg"
@@ -56,10 +65,13 @@ const Realtors = () => {
               </div>
 
               <div className="is-layout-flow wp-block-column servicesimages">
-                <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+                <figure
+                  className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                >
                   <img
-                    decoding="async"
-                    loading="lazy"
                     width="1024"
                     height="769"
                     src="assets/images/seller2.jpg"
@@ -75,7 +87,12 @@ const Realtors = () => {
               id="1"
             >
               <div className="is-layout-flow wp-block-column servicesimages">
-                <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+                <div
+                  className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="250"
+                >
                   <div className="wp-block-group__inner-container">
                     <h2>INCREASE YOUR BUSINESS</h2>
 
@@ -93,10 +110,13 @@ const Realtors = () => {
               </div>
 
               <div className="is-layout-flow wp-block-column servicesimages">
-                <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+                <figure
+                  className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                >
                   <img
-                    decoding="async"
-                    loading="lazy"
                     width="1024"
                     height="769"
                     src="assets/images/seller3.jpg"
@@ -112,10 +132,13 @@ const Realtors = () => {
               id="2"
             >
               <div className="is-layout-flow wp-block-column servicesimages">
-                <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+                <figure
+                  className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                >
                   <img
-                    decoding="async"
-                    loading="lazy"
                     width="1024"
                     height="769"
                     src="assets/images/seller4.jpg"
@@ -126,7 +149,12 @@ const Realtors = () => {
               </div>
 
               <div className="is-layout-flow wp-block-column servicesimages">
-                <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+                <div
+                  className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="250"
+                >
                   <div className="wp-block-group__inner-container">
                     <h2>INCREASE YOUR WALLET</h2>
 
@@ -151,7 +179,12 @@ const Realtors = () => {
               id="3"
             >
               <div className="is-layout-flow wp-block-column servicesimages">
-                <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
+                <div
+                  className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                >
                   <div className="wp-block-group__inner-container">
                     <h2>INCREASE YOUR REPUTATION</h2>
 
@@ -171,10 +204,13 @@ const Realtors = () => {
               </div>
 
               <div className="is-layout-flow wp-block-column servicesimages">
-                <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
+                <figure
+                  className="wp-block-image size-large eds-on-scroll eds-scroll-visible "
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                >
                   <img
-                    decoding="async"
-                    loading="lazy"
                     width="1024"
                     height="769"
                     src="assets/images/seller5.jpg"
@@ -192,11 +228,9 @@ const Realtors = () => {
               <div className="is-layout-flow wp-block-column servicesimages">
                 <figure className="wp-block-image size-large eds-on-scroll eds-scroll-hidden">
                   <img
-                    decoding="async"
-                    loading="lazy"
                     width="1024"
                     height="769"
-                    src="https://www.projectautomate.com/wp-content/uploads/2020/09/haslam-17.jpg"
+                    src="assets/images/haslam-17.jpg"
                     alt=""
                     className="wp-image-1032"
                   />
