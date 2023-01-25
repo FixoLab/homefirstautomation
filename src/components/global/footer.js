@@ -52,7 +52,7 @@ const Footer = () => {
                           </Link>
                           <br />
                           <p></p>
-                         
+
                           <div className="aps-social-icon-wrapper">
                             <div className="aps-group-horizontal">
                               <div
@@ -101,7 +101,9 @@ const Footer = () => {
                                 Services
                               </div>
                               <div className="su-spoiler-content su-u-clearfix su-u-trim">
-                                <Link to="#">Smart Home Automation</Link>
+                                <Link to="/smart-home-automation">
+                                  Smart Home Automation
+                                </Link>
                                 <Link to="/home-theater">Home Theater</Link>
                                 <Link to="/lighting-systems">
                                   Lighting Control

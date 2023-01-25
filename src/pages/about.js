@@ -26,14 +26,9 @@ const About = () => {
                     </video>
                     <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                       <div className="wp-block-group__inner-container">
-                        <div
-                          className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible"
-                          data-aos="fade-up"
-                          data-aos-duration="1000"
-                          data-aos-delay="200"
-                        >
+                        <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
                           <div className="wp-block-group__inner-container">
-                            <h1>Who is Project Automate</h1>
+                            <h1>Who is HomeFirst ?</h1>
 
                             <p>
                               <Link to="#1">
@@ -59,9 +54,9 @@ const About = () => {
                         <h2>It starts with a dream</h2>
                         <div style={{ height: "30px" }}>&nbsp;</div>
                         <p>
-                          HOMEFIRST: automate started over 20 years ago with one
-                          simple idea in mind. Give the best technological
-                          upgrades to homes and businesses.
+                          Homefirst started over 10 years ago with one simple
+                          idea in mind. Give the best technological upgrades to
+                          homes and businesses.
                         </p>
                         <div style={{ height: "30px" }}>&nbsp;</div>
                         <p>
@@ -74,9 +69,12 @@ const About = () => {
                         <div style={{ height: "30px" }}>&nbsp;</div>
                         <p>
                           Now decades later, HOMEFIRST: automate is one of the
-                          largest installers in Los Angeles for security
-                          systems, <Link to="/smart-home-demo-2">smart home systems</Link>,
-                          theater systems, commercial automation systems, and
+                          largest installers in Orlando Florida for security
+                          systems,{" "}
+                          <Link to="/smart-home-demo-2">
+                            smart home systems
+                          </Link>
+                          , theater systems, commercial automation systems, and
                           overall home/business technological upgrades.
                         </p>
                         <div style={{ height: "30px" }}>&nbsp;</div>
@@ -89,7 +87,7 @@ const About = () => {
                           enjoyed over the years.
                         </p>
                         <div style={{ height: "30px" }}>&nbsp;</div>
-                        <p>Thank You from us at HOMEFIRST: automate</p>
+                        <p>Thank You from us at Homefirst.</p>
                         <div style={{ height: "30px" }}>&nbsp;</div>
                         <div style={{ height: "30px" }}>&nbsp;</div>
                         <p>&nbsp;</p>
@@ -131,7 +129,7 @@ const About = () => {
                                 <Link to="#">
                                   <img
                                     src="assets/images/badge125.png"
-                                    alt="Joshua Trevithick in Los Angeles, CA on Houzz"
+                                    alt="Joshua Trevithick in Orlando Florida, CA on Houzz"
                                     width="125"
                                     height="125"
                                     border="0"
@@ -152,7 +150,7 @@ const About = () => {
                                 <Link to="#">
                                   <img
                                     src="assets/images/badge54.png"
-                                    alt="Joshua Trevithick in Los Angeles, CA on Houzz"
+                                    alt="Joshua Trevithick in Orlando Florida, CA on Houzz"
                                     width="80"
                                     height="80"
                                     border="0"
@@ -175,14 +173,14 @@ const About = () => {
                           id="bbblink"
                           className="ruhzbul"
                           style={{ padding: "0px", margin: "0px" }}
-                          title="Project Automate, Audio Visual Equipment, Los Angeles, CA"
+                          title="Project Automate, Audio Visual Equipment, Orlando Florida, CA"
                           to="#"
                         >
                           <img
                             id="bbblinkimg"
                             style={{ padding: "0px", border: "none" }}
                             src="assets/images/project1.png"
-                            alt="Project Automate, Audio Visual Equipment, Los Angeles, CA"
+                            alt="Project Automate, Audio Visual Equipment, Orlando Florida, CA"
                             width="400"
                             height="90"
                           />
@@ -221,11 +219,11 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-545"
-                            src="assets/images/1.webp"
+                            src="assets/images/coming-soon.jpg"
                             alt=""
                           />
                           <figcaption>
-                            <strong>Josh Trevithick</strong> CEO / Founder
+                            <strong>Semir Nayar</strong> Ceo/Founder
                           </figcaption>
                         </figure>
                       </div>
@@ -236,13 +234,11 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-555"
-                            src="assets/images/11.webp"
+                            src="assets/images/coming-soon.jpg"
                             alt=""
                           />
                           <figcaption>
-                            <strong>
-                              <strong>Malak Frey</strong>{" "}
-                            </strong>
+                            <strong>John Madrick</strong>
                             Installation Manager
                           </figcaption>
                         </figure>
@@ -254,14 +250,11 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-552"
-                            src="assets/images/8.webp"
+                            src="assets/images/coming-soon.jpg"
                             alt=""
                           />
                           <figcaption>
-                            <strong>
-                              <strong>Elaina Dickens</strong>{" "}
-                            </strong>
-                            Accounting
+                            <strong>Semir Nayar</strong> Ceo/Founder
                           </figcaption>
                         </figure>
                       </div>
@@ -272,11 +265,12 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-548"
-                            src="assets/images/4.webp"
+                            src="assets/images/coming-soon.jpg"
                             alt=""
                           />
                           <figcaption>
-                            <strong>Braiden Chavez</strong> Installation
+                            <strong>John Madrick</strong>
+                            Installation Manager
                           </figcaption>
                         </figure>
                       </div>
@@ -287,14 +281,11 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-556"
-                            src="assets/images/12.webp"
+                            src="assets/images/coming-soon.jpg"
                             alt=""
                           />
                           <figcaption>
-                            <strong>
-                              <strong>Kuba Byrne</strong>
-                            </strong>{" "}
-                            Software
+                            <strong>Semir Nayar</strong> Ceo/Founder
                           </figcaption>
                         </figure>
                       </div>
@@ -305,11 +296,12 @@ const About = () => {
                             width="600"
                             height="600"
                             className="wp-image-550"
-                            src="assets/images/6.webp"
+                            src="assets/images/coming-soon.jpg"
                             alt=""
                           />
                           <figcaption>
-                            <strong>Rico Guevara</strong> Sales
+                            <strong>John Madrick</strong>
+                            Installation Manager
                           </figcaption>
                         </figure>
                       </div>
@@ -317,7 +309,7 @@ const About = () => {
                   </div>
                 </div>
 
-                <h2 className="pickareaheading">What's Your Interest?</h2>
+                <h2 className="pickareaheading">Whats your Interest</h2>
 
                 <div className="is-layout-flex wp-container-28 wp-block-columns pickanarea">
                   <div className="is-layout-flow wp-block-column">
@@ -326,19 +318,23 @@ const About = () => {
                         className="is-layout-flow wp-block-column"
                         style={{ flexBasis: "25%" }}
                       >
-                        <p>Smart Home Automation</p>
+                        <p>
+                          <Link to="/smart-home-automation">
+                            Smart Home Automation
+                          </Link>
+                        </p>
                       </div>
 
                       <div className="is-layout-flow wp-block-column">
-                        <p>Home Theater</p>
+                        <p><Link to="/home-theater">Home Theater</Link></p>
                       </div>
 
                       <div className="is-layout-flow wp-block-column">
-                        <p>Lighting control</p>
+                        <p><Link to="/lighting-control">Lighting control</Link></p>
                       </div>
 
                       <div className="is-layout-flow wp-block-column">
-                        <p>Multi-Room Music</p>
+                        <p><Link to="/audio-systems">Multi-Room Music</Link></p>
                       </div>
                     </div>
                   </div>
@@ -349,19 +345,19 @@ const About = () => {
                         className="is-layout-flow wp-block-column"
                         style={{ flexBasis: "25%" }}
                       >
-                        <p>Smart Security</p>
+                        <p><Link to="/smart-security">Smart Security</Link></p>
                       </div>
 
                       <div className="is-layout-flow wp-block-column">
-                        <p>Wi-Fi / Networking</p>
+                        <p><Link to="/wifi-networking-services">Wi-Fi / Networking</Link></p>
                       </div>
 
                       <div className="is-layout-flow wp-block-column">
-                        <p>High Performance Audio</p>
+                        <p><Link to="/audio-systems">High Performance Audio</Link></p>
                       </div>
 
                       <div className="is-layout-flow wp-block-column">
-                        <p>Commercial Integration</p>
+                        <p><Link to="/commercial-services">Commercial Integration</Link></p>
                       </div>
                     </div>
                   </div>

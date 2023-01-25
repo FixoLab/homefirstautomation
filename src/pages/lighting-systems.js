@@ -76,7 +76,7 @@ const LightingSystems = () => {
               >
                 Create the ultimate visual experience with proper lighting.
                 Custom light control systems let you manage a perfect lighting
-                situation throughout your Los Angeles home with your fingertips.
+                situation throughout your Orlando Florida home with your fingertips.
               </p>
             </div>
           </div>
@@ -230,7 +230,7 @@ const LightingSystems = () => {
                     a unique feeling anytime of the day with motorized Lutron
                     shades and smart lighting control. From spending time with
                     your family indoors, to romantic dinner lighting outside
-                    under the Los Angeles sky.
+                    under the Orlando Florida sky.
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">

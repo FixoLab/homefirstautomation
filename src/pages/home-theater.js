@@ -89,7 +89,7 @@ const HomeTheater = () => {
                 A great movie can only be increased by a great home theater
                 installation. This includes audio, visuals, and the smart home
                 experience. Find out how we can blend a top tier home theater
-                system seamlessly into your Los Angeles property.
+                system seamlessly into your Orlando Florida property.
               </p>
             </div>
           </div>

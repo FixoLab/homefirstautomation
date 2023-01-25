@@ -78,7 +78,7 @@ const SmartSecurity = () => {
                 nothing more important than you and your loved ones. Our{" "}
                 <Link to="/alarm-com">smart home security systems</Link> and devices will
                 give you piece of mind during the day, night, and away from your
-                Los Angeles home.
+                Orlando Florida home.
               </p>
             </div>
           </div>

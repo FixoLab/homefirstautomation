@@ -65,7 +65,7 @@ const ContactUs = () => {
                         AV company
                       </a>{" "}
                       can help you with all your smart home automation,
-                      entertainment, or security needs in the Los Angeles area.
+                      entertainment, or security needs in the Orlando Florida area.
                       Use the form below to touch base with one of our
                       specialists and we will contact you back as soon as
                       possible. Want a more personalized conversation? Stop on
