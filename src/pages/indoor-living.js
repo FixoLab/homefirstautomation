@@ -5,10 +5,16 @@ const IndoorLiving = () => {
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
-          <div className="is-layout-flow wp-block-group homevideo servicespages" style={{ height: "90vh" }}>
+          <div
+            className="is-layout-flow wp-block-group homevideo servicespages"
+            style={{ height: "90vh" }}
+          >
             <div
               className="wp-block-group__inner-container indoor-living-background"
-              style={{ backgroundImage: "url(assets/images/indoor-1.webp)", height: "90vh" }}
+              style={{
+                backgroundImage: "url(assets/images/indoor-1.webp)",
+                height: "90vh",
+              }}
             >
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
@@ -70,87 +76,85 @@ const IndoorLiving = () => {
           <div
             className="is-layout-flex wp-container-13 wp-block-columns alignfull homedualcontainer"
             id="3"
-            style={{ margin: "0 auto", maxWidth: "1460px" }}
           >
-            <div className="is-layout-flow wp-block-column homedual2 indoor-living-feature">
-              <div className="is-layout-flex wp-container-7 wp-block-columns iconsbox">
-                <div className="is-layout-flow wp-block-column">
-                  <i className="fas fa-snowflake"></i>
-                  <h3>HOME AUTOMATION</h3>
-                  <p>Effortless control of all of your home’s technology.</p>
-                </div>
+            <div className="indoor-living-about">
+              <div className="is-layout-flow wp-block-column homedual2">
+                <div className="">
+                  <p className="minigray">Solutions</p>
+                  <h3 className="">
+                    Reimagine How You Enjoy Comfort &amp; Convenience{" "}
+                  </h3>
 
-                <div className="is-layout-flow wp-block-column">
-                  <i className="fas fa-music"></i>
-                  <h3>AUDIO / VIDEO</h3>
-                  <p>
-                    Enjoy unprecedented access to high-quality home
-                    entertainment.
-                  </p>
-                </div>
-                <div className="is-layout-flow wp-block-column">
-                  <i className="fas fa-eye"></i>
-                  <h3>SURVEILLANCE</h3>
-                  <p>Modern security through precise footage and analytics.</p>
+                  <div className="">
+                    <p className="">
+                      From the bedroom to the wine cellar, smart technology
+                      provides the perfect balance of splendor and functionality
+                      to every space in your home. Revel in the possibilities
+                      below.
+                    </p>
+                  </div>
+                  <div className="">
+                    <a
+                      href="#media-room"
+                      uk-scroll=""
+                      className="el-link uk-button uk-button-primary"
+                    >
+                      Explore Spaces
+                    </a>
+                  </div>
                 </div>
               </div>
+              <div className="is-layout-flow wp-block-column homedual2 indoor-living-feature">
+                <div className="is-layout-flex wp-container-7 wp-block-columns iconsbox">
+                  <div className="is-layout-flow wp-block-column">
+                    <i className="fas fa-snowflake"></i>
+                    <h3>HOME AUTOMATION</h3>
+                    <p className="minigray">
+                      Effortless control of all of your home’s technology.
+                    </p>
+                  </div>
 
-              <div className="is-layout-flex wp-container-10 wp-block-columns iconsbox">
-                <div className="is-layout-flow wp-block-column">
-                  <i className="fas fa-wifi"></i>
-                  <h3>WI-FI / NETWORKING</h3>
-                  <p>
-                    Reliable high-speed internet connectivity for entertainment
-                    and control.
-                  </p>
+                  <div className="is-layout-flow wp-block-column">
+                    <i className="fas fa-music"></i>
+                    <h3>AUDIO / VIDEO</h3>
+                    <p className="minigray">
+                      Enjoy unprecedented access to high-quality home
+                      entertainment.
+                    </p>
+                  </div>
+                  <div className="is-layout-flow wp-block-column">
+                    <i className="fas fa-eye"></i>
+                    <h3>SURVEILLANCE</h3>
+                    <p className="minigray">
+                      Modern security through precise footage and analytics.
+                    </p>
+                  </div>
                 </div>
+                <div className="is-layout-flex wp-container-10 wp-block-columns iconsbox">
+                  <div className="is-layout-flow wp-block-column">
+                    <i className="fas fa-wifi"></i>
+                    <h3>WI-FI / NETWORKING</h3>
+                    <p className="minigray">
+                      Reliable high-speed internet connectivity for
+                      entertainment and control.
+                    </p>
+                  </div>
 
-                <div className="is-layout-flow wp-block-column">
-                  <i className="fas fa-house-laptop"></i>
-                  <h3>HOME THEATER</h3>
-                  <p>
-                    A luxury theater designed for exceptional quality and
-                    comfort.
-                  </p>
-                </div>
-                <div className="is-layout-flow wp-block-column">
-                  <i className="fas fa-eye-slash"></i>
-                  <h3>HIDDEN TECHNOLOGY</h3>
-                  <p>
-                    Preserve your design with discreet technology solutions.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="is-layout-flow wp-block-column homedual2">
-              <div
-                className=""
-              >
-                <div className="">
-                  Solutions
-                </div>
-                <h3 className="">
-                  {" "}
-                  Reimagine How You Enjoy Comfort &amp; Convenience{" "}
-                </h3>
-
-                <div className="">
-                  <p className="">
-                    From the bedroom to the wine cellar, smart technology
-                    provides the perfect balance of splendor and functionality
-                    to every space in your home. Revel in the possibilities
-                    below.
-                  </p>
-                </div>
-                <div className="">
-                  <a
-                    href="#media-room"
-                    uk-scroll=""
-                    className="el-link uk-button uk-button-primary"
-                  >
-                    Explore Spaces
-                  </a>
+                  <div className="is-layout-flow wp-block-column">
+                    <i className="fas fa-house-laptop"></i>
+                    <h3>HOME THEATER</h3>
+                    <p className="minigray">
+                      A luxury theater designed for exceptional quality and
+                      comfort.
+                    </p>
+                  </div>
+                  <div className="is-layout-flow wp-block-column">
+                    <i className="fas fa-eye-slash"></i>
+                    <h3>HIDDEN TECHNOLOGY</h3>
+                    <p className="minigray">
+                      Preserve your design with discreet technology solutions.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

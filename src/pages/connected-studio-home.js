@@ -6,7 +6,7 @@ const ConnectedStudioHome = () => {
       <div className="connected-living-title-section">
         <div className="title-inner">
           <h4>STUDIO HOME</h4>
-          <p>
+          <p  className="minigray">
             Explore how a smart home streamlines and simplifies all the
             technology in your house, offering the ultimate lifestyle of comfort
             and convenience. In this top-down view of a standard smart home, you
@@ -26,7 +26,7 @@ const ConnectedStudioHome = () => {
       <div className="connected-living-title-section bottom-title-section">
         <div className="title-inner">
           <h4>SMART HOME AUTOMATION</h4>
-          <p>
+          <p  className="minigray">
             Smart home automation eliminates the need to walk from room to room
             to adjust shades, lights, temperature, and audio/video components.
             With a single button press, the room’s lights dim, the shades close,

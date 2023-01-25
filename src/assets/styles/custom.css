@@ -2475,31 +2475,35 @@ a#scroll-to-top {
 }
 
 /* indoor living  */
-.indoor-living-background{
- 
+.indoor-living-background {
 }
-.indoor-living-background .wp-block-group__inner-container h6{
+.indoor-living-background .wp-block-group__inner-container h6 {
   color: #007ca1;
   margin-bottom: 10px;
 }
-.indoor-living-background .wp-block-group__inner-container h1{
+.indoor-living-background .wp-block-group__inner-container h1 {
   margin-bottom: 25px;
 }
-.indoor-living-background .wp-block-group__inner-container p{
+.indoor-living-background .wp-block-group__inner-container p {
   margin-bottom: 25px;
   color: #747474;
 }
-.indoor-living-feature h3{
+.indoor-living-feature h3 {
   font-size: 20px;
   margin: 0 !important;
   margin-bottom: 10px !important;
   color: #007ca1;
 }
-.indoor-living-feature p{
-font-size: 16px;
+
+.is-layout-flex.wp-container-13.wp-block-columns.alignfull.homedualcontainer
+  .indoor-living-about {
+  margin: 0 auto;
+  max-width: 1460px;
+  display: flex;
+  align-items: center;
 }
 
-.indoor-living-image-section.alignfull{
+.indoor-living-image-section.alignfull {
   margin: 0 !important;
 }
 
