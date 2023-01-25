@@ -2450,3 +2450,5 @@ a.footerphone {
 #site-content .post-inner {
   padding-top: 0;
 }
+.design-build-partners .wp-block-group.homevideo.servicespages {height: 65vh;}
+.design-build-partners .wp-block-group.homevideo.servicespages > .wp-block-group__inner-container {height: 65vh;}

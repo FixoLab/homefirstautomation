@@ -60,7 +60,7 @@ const Partners = () => {
                   </figure>
                   <p className="partnername">Contractors</p>
                   <p className="learnmorebutton">
-                    <Link to="/interior-designers">Learn More</Link>
+                    <Link to="/contractors">Learn More</Link>
                   </p>
                 </div>
 
@@ -77,7 +77,7 @@ const Partners = () => {
 
                   <p className="partnername">Design Build Partners</p>
                   <p className="learnmorebutton">
-                    <Link to="#">Learn More</Link>
+                    <Link to="/design-build-partners">Learn More</Link>
                   </p>
                 </div>
 
@@ -93,7 +93,7 @@ const Partners = () => {
                   </figure>
                   <p className="partnername">Real Estate Brokers</p>
                   <p className="learnmorebutton">
-                    <Link to="#">Learn More</Link>
+                    <Link to="/realtors">Learn More</Link>
                   </p>
                 </div>
               </div>
