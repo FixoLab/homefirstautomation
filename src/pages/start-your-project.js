@@ -43,7 +43,7 @@ const StartYourProject = () => {
                       <p>
                         <strong>Phone:</strong>
                         <br />
-                        (310) 402-4818
+                        407 228 3000
                       </p>
 
                       <i className="fas fa-regular fa-location-dot"></i>
@@ -51,9 +51,9 @@ const StartYourProject = () => {
                       <p>
                         <strong>Address</strong>
                         <br />
-                        12794 W Washington Blvd
-                        <br />
-                        Los Angeles, CA 90066
+                        6735 Conroy Windermere Rd, <br />
+                        Suite 219, <br />
+                        Orlando, Florida 32835
                       </p>
 
                       <i className="fas fa-clock"></i>
@@ -79,7 +79,7 @@ const StartYourProject = () => {
 
                     <div className="is-layout-flow wp-block-column">
                       <p>
-                        Work with our team to create your Los Angeles home
+                        Work with our team to create your Orlando, Florida home
                         automation system or commercial technology project by
                         using the form below. Upload your images, tell us your
                         time frame, what services you may need, and more.
@@ -407,7 +407,7 @@ const StartYourProject = () => {
               <div className="is-layout-flex wp-container-10 wp-block-columns alignfull servicesdualcontainer mapscontain">
                 <div className="is-layout-flow wp-block-column servicesimages bigoldmap">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.8819133803872!2d-118.43925378478643!3d33.99556678062137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba61a5c07e1f%3A0xed961dabad73c8cd!2s12794%20Washington%20Blvd%2C%20Los%20Angeles%2C%20CA%2090066!5e0!3m2!1sen!2sus!4v1600373688107!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.504532399776!2d-81.47616788457283!3d28.494464397066498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77f2a4860b975%3A0x41f1a9a583933412!2s6735%20Conroy%20Windermere%20Rd%20STE%20219%2C%20Orlando%2C%20FL%2032835%2C%20USA!5e0!3m2!1sen!2sbd!4v1674630642244!5m2!1sen!2sbd"
                     style={{
                       border: "0px",
                       width: "1902px",

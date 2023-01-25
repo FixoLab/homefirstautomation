@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const InteriorDesigners = () => {
+const DesignBuildPartners = () => {
   return (
     <div className="design-build-partners">
       <div id="site-content">
@@ -12,7 +12,7 @@ const InteriorDesigners = () => {
                 <div
                   className="fullimagetop"
                   style={{
-                    backgroundImage: "url(/assets/images/interior-9a.jpg)",
+                    backgroundImage: "url(/assets/images/seller6.jpg)",
                     backgroundPosition: "center",
                     height: "65vh",
                   }}
@@ -27,7 +27,7 @@ const InteriorDesigners = () => {
                       data-aos-delay="200"
                     >
                       <div className="wp-block-group__inner-container">
-                        <h1>INTERIOR DESIGNERS</h1>
+                        <h1>Architects</h1>
                       </div>
                     </div>
                   </div>
@@ -38,10 +38,11 @@ const InteriorDesigners = () => {
             <div className="is-layout-flow wp-block-group serviceswhitebackground">
               <div className="wp-block-group__inner-container">
                 <p className="has-text-align-center">
-                  Grow your Interior Designing business with referrals from us,
-                  grow your wallet from referring us clients, and grow your
-                  reputation from client’s praise after dealing with PROJECT:
-                  automate
+                  Architects plan everything before and manage during a
+                  residency or businesses creation. From deciding how the flow
+                  of a new property will be, to adding additions to already
+                  setup properties, Architects are integral to construction, and
+                  we want to work with you.
                 </p>
               </div>
             </div>
@@ -57,7 +58,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer1.jpg"
+                    src="assets/images/design1.jpg"
                     alt=""
                     className="wp-image-2755"
                   />
@@ -74,7 +75,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer2.jpg"
+                    src="assets/images/design2.jpg"
                     alt=""
                     className="wp-image-2756"
                   />
@@ -91,16 +92,16 @@ const InteriorDesigners = () => {
                   className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
                   data-aos="fade-up"
                   data-aos-duration="800"
-                  data-aos-delay="250"
+                  data-aos-delay="200"
                 >
                   <div className="wp-block-group__inner-container">
-                    <h2>EXPAND YOUR BUSINESS</h2>
+                    <h2>Boost Your Business</h2>
 
                     <p className="pointsmade homeauto">
-                      As a Designer you are always looking for new client’s you
-                      can help pair with awesome designs. PROTECT: automate has
-                      hundreds of client’s who want a professional designers
-                      touch, and we are looking to connect you to them.
+                      Are you looking for new clients? Well we have hundreds of
+                      client’s and they are always after recommendations for
+                      Architects. Joining the PROJECT: automate partner program
+                      gives you access to them.
                     </p>
 
                     <p className="pointsmade homeauto">
@@ -115,12 +116,12 @@ const InteriorDesigners = () => {
                   className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
                   data-aos="fade-up"
                   data-aos-duration="800"
-                  data-aos-delay="200"
+                  data-aos-delay="250"
                 >
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer3.jpg"
+                    src="assets/images/design3.jpg"
                     alt=""
                     className="wp-image-2757"
                   />
@@ -142,7 +143,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer4.jpg"
+                    src="assets/images/design4.jpg"
                     alt=""
                     className="wp-image-2758"
                   />
@@ -157,14 +158,14 @@ const InteriorDesigners = () => {
                   data-aos-delay="250"
                 >
                   <div className="wp-block-group__inner-container">
-                    <h2>EXPAND YOUR WALLET</h2>
+                    <h2>Boost Your Revenue</h2>
 
                     <p className="pointsmade homeauto">
-                      As a designer you already have a great eye for what looks
-                      great and can accommodate a household. Well joining our
-                      partner programs allows you to advertise PROJECT: automate
-                      smart systems and products, and create a new revenue
-                      source for yourself and business.
+                      As an Architect’s Partner you already have a great eye for
+                      things that can improve a business or residence. Joining
+                      the PROJECT: automate partner program give you access to a
+                      vast database of professionals you can work with and
+                      increase your revenue.
                     </p>
 
                     <p className="pointsmade homeauto">
@@ -184,19 +185,17 @@ const InteriorDesigners = () => {
                   className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
                   data-aos="fade-up"
                   data-aos-duration="800"
-                  data-aos-delay="200"
+                  data-aos-delay="250"
                 >
                   <div className="wp-block-group__inner-container">
-                    <h2>EXPAND YOUR REPUTATION</h2>
+                    <h2>Boost Your Reputation</h2>
 
                     <p className="pointsmade homeauto">
-                      When designing a home or business it helps to take into
-                      account if any room will be needed for the latest smart
-                      technologies. PROJECT: automate offers classes that not
-                      only give you accredited certifications to put you above
-                      the competition, but also help you develop a better
-                      understanding of interior designing with smart
-                      technologies.
+                      Do you feel you can improve upon your business? PROJECT:
+                      automate offers classes on smart technologies that give
+                      you a national accredited certifications. This not only
+                      allows you to more easily represent your clients, but
+                      gives you an extra step on top of the competition.{" "}
                     </p>
 
                     <p className="pointsmade homeauto">
@@ -208,7 +207,7 @@ const InteriorDesigners = () => {
 
               <div className="is-layout-flow wp-block-column servicesimages">
                 <figure
-                  className="wp-block-image size-large eds-on-scroll eds-scroll-visible "
+                  className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
                   data-aos="fade-up"
                   data-aos-duration="800"
                   data-aos-delay="200"
@@ -216,7 +215,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer5.jpg"
+                    src="assets/images/design5.jpg"
                     alt=""
                     className="wp-image-2759"
                   />
@@ -243,7 +242,7 @@ const InteriorDesigners = () => {
               <div className="is-layout-flow wp-block-column servicesimages">
                 <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-hidden">
                   <div className="wp-block-group__inner-container">
-                    <h2>EXPAND YOUR PARTNERSHIPS</h2>
+                    <h2>Boost With Us</h2>
 
                     <p className="pointsmade homeauto">
                       Using the link below you will be redirected to our contact
@@ -266,4 +265,4 @@ const InteriorDesigners = () => {
   );
 };
 
-export default InteriorDesigners;
+export default DesignBuildPartners;

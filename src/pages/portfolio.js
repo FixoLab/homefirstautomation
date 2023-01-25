@@ -30,15 +30,20 @@ const Portfolio = () => {
                     data-aos-delay="400"
                   >
                     <div className="wp-block-group__inner-container">
-                      <h1>HASLAM TERRACE</h1>
                       <p>
-                        <a aria-label="Scroll down01" href="#1">INTERIOR LIGHTING</a>
+                        <a aria-label="Scroll down01" href="#1">
+                          INTERIOR LIGHTING
+                        </a>
                       </p>
                       <p>
-                        <a aria-label="Scroll down02" href="#2">ELECTRIC SHADING</a>
+                        <a aria-label="Scroll down02" href="#2">
+                          ELECTRIC SHADING
+                        </a>
                       </p>
                       <p>
-                        <a aria-label="Scroll down03" href="#3">LANDSCAPE LIGHTING</a>
+                        <a aria-label="Scroll down03" href="#3">
+                          LANDSCAPE LIGHTING
+                        </a>
                       </p>
                     </div>
                   </div>
@@ -55,10 +60,10 @@ const Portfolio = () => {
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                Our Haslam Terrace client has us create a state of the art smart
-                home with a focus on cutting edge lighting, security lighting,
-                and shading to give as top notch feel for anyone viewing from
-                the outside or interior of the residence.
+                We are showcasing above a project we worked on out of State. The
+                client had us create a state of the art smart home with a focus
+                on cutng edge lighting, security and shading. A true example of
+                2023 Technology.
               </p>
             </div>
           </div>

@@ -78,7 +78,7 @@ const SmartSecurity = () => {
                 nothing more important than you and your loved ones. Our{" "}
                 <Link to="/alarm-com">smart home security systems</Link> and devices will
                 give you piece of mind during the day, night, and away from your
-                Los Angeles home.
+                Orlando Florida home.
               </p>
             </div>
           </div>
@@ -148,7 +148,7 @@ const SmartSecurity = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>ALARM SYSTEMS</h2>
+                  <h2>Entry Systems</h2>
 
                   <p className="pointsmade homeauto">
                     A good alarm system does not only protect you from intruders
