@@ -148,7 +148,7 @@ const SmartSecurity = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>ALARM SYSTEMS</h2>
+                  <h2>Entry Systems</h2>
 
                   <p className="pointsmade homeauto">
                     A good alarm system does not only protect you from intruders

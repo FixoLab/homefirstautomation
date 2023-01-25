@@ -263,7 +263,12 @@ li.menu-item-3288 .fas {
 .about .wp-block-group.homevideo > .wp-block-group__inner-container {
   width: 100% !important;
 }
-
+.about .is-layout-flow.wp-block-column p a {
+  color: #fff !important;
+}
+.about .is-layout-flow.wp-block-column p a:hover {
+  color: #58c7f1 !important;
+}
 .contact-us-page .wp-block-group.homevideo > .wp-block-group__inner-container {
   width: auto !important;
 }

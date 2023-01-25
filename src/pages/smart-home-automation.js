@@ -37,27 +37,39 @@ const SmartHomeAutomation = () => {
                       <h1>Smart Home Automation</h1>
 
                       <p>
-                        <a aria-label="Scroll down01" href="#1">Networking</a>
+                        <a aria-label="Scroll down01" href="#1">
+                          Networking
+                        </a>
                       </p>
 
                       <p>
-                        <a aria-label="Scroll down02" href="#2">Lighting</a>
+                        <a aria-label="Scroll down02" href="#2">
+                          Lighting
+                        </a>
                       </p>
 
                       <p>
-                        <a aria-label="Scroll down03" href="#3">Shading</a>
+                        <a aria-label="Scroll down03" href="#3">
+                          Shading
+                        </a>
                       </p>
 
                       <p>
-                        <a aria-label="Scroll down04" href="#4">Audio</a>
+                        <a aria-label="Scroll down04" href="#4">
+                          Audio
+                        </a>
                       </p>
 
                       <p>
-                        <a aria-label="Scroll down05" href="#5">Theater</a>
+                        <a aria-label="Scroll down05" href="#5">
+                          Theater
+                        </a>
                       </p>
 
                       <p>
-                        <a aria-label="Scroll down06" href="#6">Security</a>
+                        <a aria-label="Scroll down06" href="#6">
+                          Security
+                        </a>
                       </p>
                     </div>
                   </div>
@@ -74,11 +86,10 @@ const SmartHomeAutomation = () => {
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                Over the last 2 decades Project Automate has been the industry
-                leader for clients that strive for the the latest in technology
-                mixed with the best design possible for their projects. Whether
-                it be a private residence, local business, or advertising
-                display.
+                Over the last decade, HomeFirst has been the industry leader for
+                clients that strive for the the latest in technology mixed with
+                the best design possible for their projects. Whether it be a
+                private residence, local business, or advertising display.
               </p>
             </div>
           </div>
@@ -404,9 +415,9 @@ const SmartHomeAutomation = () => {
                     listen to your favorite musical pieces inside the house, or
                     even outside by the pool relaxing or entertaining guests in
                     sunny Orlando Florida. With a Crestron Home or{" "}
-                    <Link to="/control-4">Control4 installation</Link>, you can fully
-                    control song selection, audio levels, and pretty much every
-                    audio style you can imagine.
+                    <Link to="/control-4">Control4 installation</Link>, you can
+                    fully control song selection, audio levels, and pretty much
+                    every audio style you can imagine.
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
@@ -643,7 +654,7 @@ const SmartHomeAutomation = () => {
 
                   <p className="pointsmade homeauto">
                     Talk with friends, family, coworkers, and more with a smart
-                    home conferencing system. HOMEFIRST: automate can analyze
+                    home conferencing system. Homefirst can analyze
                     your current setup, install a top of the line model, and
                     give you a quick run down of all your new features. Video
                     conferencing has never been easier.{" "}

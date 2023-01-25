@@ -38,22 +38,19 @@ const HomeTheater = () => {
 
                       <p>
                         <a aria-label="Scroll down01" href="#1">
-                          Networking
+                          Kitchen
                         </a>
                       </p>
-
                       <p>
                         <a aria-label="Scroll down02" href="#2">
                           Lighting
                         </a>
                       </p>
-
                       <p>
                         <a aria-label="Scroll down03" href="#3">
                           Shading
                         </a>
                       </p>
-
                       <p>
                         <a aria-label="Scroll down04" href="#4">
                           Audio
@@ -321,8 +318,8 @@ const HomeTheater = () => {
 
                   <p className="pointsmade homeauto">
                     Have your living room work with only the top end audio and
-                    visual settings. We at HOMEFIRST: automate can mold any
-                    living room into a state of the art home theater setup.
+                    visual settings. We at HomeFirst can mold any living room
+                    into a state of the art home theater setup.
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
@@ -588,8 +585,8 @@ const HomeTheater = () => {
                   <p className="pointsmade homeauto">
                     Watch your videos in style with an outdoor theater system.
                     These systems can be customized for any weather condition.
-                    From sunny California, to a rainy day in the northwest. Our
-                    outdoor theater systems can do it all.
+                    From our Sunny Orlando Summers to our all day rain sessions.
+                    Our outdoor theater systems can do it all.
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
