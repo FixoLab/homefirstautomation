@@ -236,9 +236,13 @@ li.menu-item-3288 {
   position: absolute;
   margin-top: -27px;
 }
+li.menu-item-3288 a {
+  display: flex;
+  align-items: center;
+}
 li.menu-item-3288 .fas {
   padding-right: 10px;
-  margin-top: -6px;
+  margin-top: 0px;
 }
 
 .wp-block-group.homevideo {
@@ -1888,9 +1892,7 @@ a#bbblink {
   flex-basis: 0;
   flex-grow: 1;
 }
-a.footerphone {
-  color: #ffffff !important;
-}
+
 .footermenu a {
   display: block;
   text-transform: uppercase;

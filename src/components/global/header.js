@@ -220,9 +220,9 @@ const Header = () => {
                     id="menu-item-3288"
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3288"
                   >
-                    <Link to="tel:3104024818">
-                      <i className="fas fa-solid fa-phone-flip"></i>310.402.4818
-                    </Link>
+                    <a href="tel:407.228.3000">
+                      <i className="fas fa-solid fa-phone-flip"></i>407.228.3000
+                    </a>
                   </li>
                 </ul>
               </nav>
@@ -379,8 +379,8 @@ const Header = () => {
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3288">
                     <div className="ancestor-wrapper">
-                      <Link to="tel:3104024818">
-                        <i className="fas fa-phone"></i>310.402.4818
+                      <Link to="tel:407.228.3000">
+                        <i className="fas fa-phone"></i>407.228.3000
                       </Link>
                     </div>
                   </li>

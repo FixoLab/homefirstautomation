@@ -46,14 +46,13 @@ const Footer = () => {
                           </Link>
                           <br />
                           <Link aria-label="Location" to="/#">
-                            12794 W Washington Blvd
-                            <br />
-                            Los Angeles, CA 90066
+                            6735 Conroy Windermere Rd, <br />
+                            Suite 219, <br />
+                            Orlando, Florida 32835
                           </Link>
                           <br />
-                          <a className="footerphone" href="tel:310-402-4818">
-                            (310) 402-4818
-                          </a>
+                          <p></p>
+                         
                           <div className="aps-social-icon-wrapper">
                             <div className="aps-group-horizontal">
                               <div
@@ -164,10 +163,7 @@ const Footer = () => {
       >
         <div className="section-inner">
           <div className="footer-credits">
-            <p className="footer-copyright">
-              &copy; 2023 Homefirst Automation
-            </p>
-
+            <p className="footer-copyright">&copy; 2023 Homefirst</p>
           </div>
           <a aria-label="Scroll Top" className="to-the-top" href="#site-header">
             <span className="to-the-top-long">

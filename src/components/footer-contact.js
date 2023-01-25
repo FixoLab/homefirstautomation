@@ -90,19 +90,20 @@ const FooterContact = () => {
           <Link aria-label="Address" to="/#">
             <p>
               <strong>Address</strong> <br />
-              12794 W Washington Blvd <br />
-              Los Angeles, CA 90066
+              6735 Conroy Windermere Rd, <br />
+              Suite 219, <br />
+              Orlando, Florida 32835
             </p>
           </Link>
           <p>
-            <a aria-label="Phone number" href="tel:310-402-4818">
+            <a aria-label="Phone number" href="tel:4072283000">
               <i className="fas fa-phone"></i>
             </a>
           </p>
-          <a href="tel:310-402-4818">
+          <a href="tel:407 228 3000">
             <p>
               <strong>Phone:</strong> <br />
-              (310) 402-4818
+              407 228 3000
             </p>
           </a>
         </div>
