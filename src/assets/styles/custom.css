@@ -2443,28 +2443,3 @@ a.footerphone {
 #site-content .post-inner {
   padding-top: 0;
 }
-
-/* connected home */
-.connected-living-title-section {
-  margin-top: 136px;
-    padding: 70px 0;
-    background-color: #dcd7d3;
-}
-
-.connected-living-title-section h4{
- margin: 0px;
- margin-bottom: 20px;
-}
-.connected-living-title-section p{
- margin: 0px !important;
-}
-.connected-living-title-section .title-inner{
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 0 20px;
-}
-.connected-living-title-section.bottom-title-section{
-  margin: 0 !important;
-}
-
