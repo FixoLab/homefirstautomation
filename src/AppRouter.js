@@ -41,6 +41,10 @@ const HunterDouglas = React.lazy(() => import("./pages/hunter-douglas"));
 const Notfound = React.lazy(() => import("./pages/notfound"));
 const AlarmCom = React.lazy(() => import("./pages/alarm-com"));
 const JoshAi = React.lazy(() => import("./pages/josh-ai"));
+const DesignBuildPartners = React.lazy(() =>
+  import("./pages/design-build-partners")
+);
+const Realtors = React.lazy(() => import("./pages/realtors"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -56,11 +60,11 @@ const AppRouter = () => {
     <BrowserRouter>
       <ScrollToTop />
       <Suspense
-        // fallback={
-        //   <div className="preloader">
-        //     <Skeleton style={{ borderRadius: 50 }} height={100} width={100} />
-        //   </div>
-        // }
+      // fallback={
+      //   <div className="preloader">
+      //     <Skeleton style={{ borderRadius: 50 }} height={100} width={100} />
+      //   </div>
+      // }
       >
         <Header />
         <Routes>
@@ -98,6 +102,11 @@ const AppRouter = () => {
           <Route path="/hunter-douglas" element={<HunterDouglas />} />
           <Route path="/alarm-com" element={<AlarmCom />} />
           <Route path="/josh-ai" element={<JoshAi />} />
+          <Route
+            path="/design-build-partners"
+            element={<DesignBuildPartners />}
+          />
+          <Route path="/realtors" element={<Realtors />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />
