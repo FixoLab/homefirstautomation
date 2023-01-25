@@ -63,9 +63,9 @@ const WifiNetworkingServices = () => {
                 data-aos-delay="200"
               >
                 The first step in having a ground-breaking smart home is having
-                the foundation for your smart home created. HOMEFIRST: automate
+                the foundation for your smart home created. Homefirst
                 has all the <Link to="/ruckus">networking solutions</Link> you need to
-                bring your Los Angeles home up to date.
+                bring your Orlando Florida home up to date.
               </p>
             </div>
           </div>
@@ -182,7 +182,7 @@ const WifiNetworkingServices = () => {
                   <p className="pointsmade homeauto">
                     A good Wi-Fi system still needs to have a strong home
                     network setup to support it. We can install all your
-                    Ethernet cables throughout your Los Angeles residence so no
+                    Ethernet cables throughout your Orlando Florida residence so no
                     one can view them. This includes setting up your security
                     systems. Adding fiber wiring throughout your residence and
                     making sure all your devices are properly setup to take full

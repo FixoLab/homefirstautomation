@@ -105,6 +105,9 @@ const AppRouter = () => {
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />
+        <a id="scroll-to-top" href="#" title="Scroll to Top">
+          Top
+        </a>
       </Suspense>
     </BrowserRouter>
   );
