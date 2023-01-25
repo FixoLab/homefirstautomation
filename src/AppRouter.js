@@ -1,6 +1,5 @@
 import React, { Suspense, useEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
-// import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
 const Header = React.lazy(() => import("./components/global/header"));
@@ -41,6 +40,11 @@ const HunterDouglas = React.lazy(() => import("./pages/hunter-douglas"));
 const Notfound = React.lazy(() => import("./pages/notfound"));
 const AlarmCom = React.lazy(() => import("./pages/alarm-com"));
 const JoshAi = React.lazy(() => import("./pages/josh-ai"));
+const DesignBuildPartners = React.lazy(() =>
+  import("./pages/design-build-partners")
+);
+const Realtors = React.lazy(() => import("./pages/realtors"));
+const Contractors = React.lazy(() => import("./pages/contractors"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -55,13 +59,7 @@ const AppRouter = () => {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <Suspense
-        // fallback={
-        //   <div className="preloader">
-        //     <Skeleton style={{ borderRadius: 50 }} height={100} width={100} />
-        //   </div>
-        // }
-      >
+      <Suspense>
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -98,6 +96,12 @@ const AppRouter = () => {
           <Route path="/hunter-douglas" element={<HunterDouglas />} />
           <Route path="/alarm-com" element={<AlarmCom />} />
           <Route path="/josh-ai" element={<JoshAi />} />
+          <Route
+            path="/design-build-partners"
+            element={<DesignBuildPartners />}
+          />
+          <Route path="/realtors" element={<Realtors />} />
+          <Route path="/contractors" element={<Contractors />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />

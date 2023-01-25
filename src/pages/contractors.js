@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const InteriorDesigners = () => {
+const Contractors = () => {
   return (
     <div className="design-build-partners">
       <div id="site-content">
@@ -12,7 +12,7 @@ const InteriorDesigners = () => {
                 <div
                   className="fullimagetop"
                   style={{
-                    backgroundImage: "url(/assets/images/interior-9a.jpg)",
+                    backgroundImage: "url(/assets/images/builder18.jpg)",
                     backgroundPosition: "center",
                     height: "65vh",
                   }}
@@ -27,7 +27,7 @@ const InteriorDesigners = () => {
                       data-aos-delay="200"
                     >
                       <div className="wp-block-group__inner-container">
-                        <h1>INTERIOR DESIGNERS</h1>
+                        <h1>GENERAL CONTRACTORS</h1>
                       </div>
                     </div>
                   </div>
@@ -38,10 +38,11 @@ const InteriorDesigners = () => {
             <div className="is-layout-flow wp-block-group serviceswhitebackground">
               <div className="wp-block-group__inner-container">
                 <p className="has-text-align-center">
-                  Grow your Interior Designing business with referrals from us,
-                  grow your wallet from referring us clients, and grow your
-                  reputation from client’s praise after dealing with PROJECT:
-                  automate
+                  From electricians, to landscapers, to plumbers, general
+                  contractors range from a multitude of professions. We at
+                  PROJECT: automate not only want to work with you, but want to
+                  create a fruitful relationship for both of us to late years to
+                  come.
                 </p>
               </div>
             </div>
@@ -57,7 +58,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer1.jpg"
+                    src="assets/images/builder1.jpg"
                     alt=""
                     className="wp-image-2755"
                   />
@@ -74,7 +75,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer2.jpg"
+                    src="assets/images/builder2.jpg"
                     alt=""
                     className="wp-image-2756"
                   />
@@ -94,13 +95,13 @@ const InteriorDesigners = () => {
                   data-aos-delay="250"
                 >
                   <div className="wp-block-group__inner-container">
-                    <h2>EXPAND YOUR BUSINESS</h2>
+                    <h2>BUILD YOUR BUSINESS</h2>
 
                     <p className="pointsmade homeauto">
-                      As a Designer you are always looking for new client’s you
-                      can help pair with awesome designs. PROTECT: automate has
-                      hundreds of client’s who want a professional designers
-                      touch, and we are looking to connect you to them.
+                      We have hundreds of clients, and they are always looking
+                      to improve their homes or businesses. We will recommend
+                      Partnered businesses to our current client’s, which could
+                      be you.
                     </p>
 
                     <p className="pointsmade homeauto">
@@ -120,7 +121,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer3.jpg"
+                    src="assets/images/builder3.jpg"
                     alt=""
                     className="wp-image-2757"
                   />
@@ -142,7 +143,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer4.jpg"
+                    src="assets/images/builder4.jpg"
                     alt=""
                     className="wp-image-2758"
                   />
@@ -157,14 +158,13 @@ const InteriorDesigners = () => {
                   data-aos-delay="250"
                 >
                   <div className="wp-block-group__inner-container">
-                    <h2>EXPAND YOUR WALLET</h2>
+                    <h2>BUILD YOUR WALLET</h2>
 
                     <p className="pointsmade homeauto">
-                      As a designer you already have a great eye for what looks
-                      great and can accommodate a household. Well joining our
-                      partner programs allows you to advertise PROJECT: automate
-                      smart systems and products, and create a new revenue
-                      source for yourself and business.
+                      Everyone likes extra revenue, and we here at PROJECT:
+                      automate make it easy. Work with us as an affiliate
+                      helping to sign up new clients to join our ever growing
+                      list of satisfied smart home clients. It’s that simple.
                     </p>
 
                     <p className="pointsmade homeauto">
@@ -187,16 +187,14 @@ const InteriorDesigners = () => {
                   data-aos-delay="200"
                 >
                   <div className="wp-block-group__inner-container">
-                    <h2>EXPAND YOUR REPUTATION</h2>
+                    <h2>BUILD YOUR REPUTATION</h2>
 
                     <p className="pointsmade homeauto">
-                      When designing a home or business it helps to take into
-                      account if any room will be needed for the latest smart
-                      technologies. PROJECT: automate offers classes that not
-                      only give you accredited certifications to put you above
-                      the competition, but also help you develop a better
-                      understanding of interior designing with smart
-                      technologies.
+                      Realtors need to know everything about their client’s
+                      needs and wants. PROJECT: automate offers smart technology
+                      classes that will allow you have a better understanding of
+                      your client’s unique needs, and a way to stand out from
+                      the competition with unique certifications.
                     </p>
 
                     <p className="pointsmade homeauto">
@@ -216,7 +214,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer5.jpg"
+                    src="assets/images/builder5.jpg"
                     alt=""
                     className="wp-image-2759"
                   />
@@ -243,7 +241,7 @@ const InteriorDesigners = () => {
               <div className="is-layout-flow wp-block-column servicesimages">
                 <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-hidden">
                   <div className="wp-block-group__inner-container">
-                    <h2>EXPAND YOUR PARTNERSHIPS</h2>
+                    <h2>BUILD WITH US</h2>
 
                     <p className="pointsmade homeauto">
                       Using the link below you will be redirected to our contact
@@ -266,4 +264,4 @@ const InteriorDesigners = () => {
   );
 };
 
-export default InteriorDesigners;
+export default Contractors;
