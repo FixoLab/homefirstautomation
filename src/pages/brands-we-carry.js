@@ -62,13 +62,12 @@ const BrandsWeCarry = () => {
           <div className="is-layout-flow wp-block-group serviceswhitebackground headerbrand">
             <div className="wp-block-group__inner-container">
               <p className="has-text-align-center servicesleader eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-                View all the brands we carry at HOMEFIRST: automate. Keep in
-                mind this list is always growing as we here at HOMEFIRST:
-                automate are always carrying the latest and great in smart home
-                technology. Is there a specific brand you want for your Los
-                Angeles project? Just contact us and our support team will be
-                sure to work with you to help you get the desired brand you are
-                after.
+                View all the brands we carry at HomeFirst. Keep in mind this
+                list is always evolving as we here at HomeFirst are always
+                carrying the latest and greatest in smart home technology. Is
+                there a specific brand you want for your Orlando Florida
+                project? Just contact us and our support team will be sure to
+                work with you to help you get the desired brand you are after.
               </p>
             </div>
           </div>
@@ -97,8 +96,8 @@ const BrandsWeCarry = () => {
                         away some of those daily little stresses. A Control4
                         system makes your life more convenient and your Los
                         Angeles home safer, more comfortable, and easy to enjoy.
-                        Work with the Control4 dealers at HOMEFIRST: automate to
-                        get started!
+                        Work with the Control4 Dealer at HomeFirst to get
+                        Started,
                       </p>
                       <figure className="wp-block-image size-large is-resized brandlogo">
                         <Link to="/control-4">

@@ -127,8 +127,8 @@ const Partners = () => {
           <div className="is-layout-flow wp-block-group serviceswhitebackground">
             <div className="wp-block-group__inner-container">
               <p className="has-text-align-center servicesleader eds-on-scroll partnermain eds-scroll-visible animated fadeInUp duration3">
-                We at HOMEFIRST: automate work with hundreds of suppliers,
-                clients, and businesses throughout Los Angeles. Joining our
+                We at Homefirstork with hundreds of suppliers,
+                clients, and businesses throughout Orlando Florida. Joining our
                 Partner Program gives you access to one of the nation’s leading
                 certified <Link to="/savant">Savant dealers</Link> and smart
                 home installers.{" "}
@@ -156,7 +156,6 @@ const Partners = () => {
                 </div>
                 <div className="is-layout-flow wp-block-column">
                   <ul>
-                    <li>Control4 Authorized Gold Dealer</li>
                     <li>Savant Certified</li>
                     <li>Coastal Source Landscape Lighting Certified</li>
                     <li>Ruckus Certified</li>
@@ -229,7 +228,7 @@ const Partners = () => {
                 className="has-text-align-center"
                 id="block-fa40a4da-e3ba-42c6-82f5-934131a2d8eb"
               >
-                Join HOMEFIRST: automate’s Partner Program and gain access to a
+                Join Homefirst Partner Program and gain access to a
                 wealth of knowledge to bring you and your business to the smart
                 system future.
                 <br />

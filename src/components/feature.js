@@ -10,12 +10,11 @@ const Feature = ({ leftPosition }) => {
         <h2>Smart System Technology</h2>
 
         <p className="minigray">
-          HOMEFIRST: automate is a trusted{" "}
-          <Link to="/about">home automation company</Link> in Los Angeles that
-          provides cutting-edge smart home and security solutions. What’s more?
-          We provide everything in between with exclusive offerings of services
-          from high-end sophisticated home environments that demand better than
-          best, to entry level home theater projects.
+          Homefirst is a trusted home automation company in Orlando, Florida
+          that provides cutting-edge smart home and security solutions. What’s
+          more? We provide everything in between with exclusive offerings of
+          services from high-end sophisticated home environments that demand
+          better than best, to entry level home theater projects.
         </p>
 
         <div className="is-layout-flex wp-container-7 wp-block-columns iconsbox">
