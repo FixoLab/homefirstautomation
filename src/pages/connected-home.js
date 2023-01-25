@@ -6,7 +6,7 @@ const ConnectedHome = () => {
       <div className="connected-living-title-section">
         <div className="title-inner">
           <h4>MODERN LUXURY</h4>
-          <p>
+          <p className="minigray">
             What better way to see the possibilities of automation than with an
             interactive dollhouse? Peruse each room to learn how smart devices
             can make your home more beautiful and fitted to your luxury
@@ -23,7 +23,7 @@ const ConnectedHome = () => {
       <div className="connected-living-title-section bottom-title-section">
         <div className="title-inner">
           <h4>HOME AUTOMATION</h4>
-          <p>
+          <p  className="minigray">
             The ultimate upgrade for luxury homes, smart automation allows you
             to transform every space at the push of a button or single voice
             command. Effortlessly enhance interior design, increase security,

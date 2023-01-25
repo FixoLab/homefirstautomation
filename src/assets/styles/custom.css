@@ -2450,11 +2450,18 @@ a#bbblink {
 #site-content .post-inner {
   padding-top: 0;
 }
-.design-build-partners .wp-block-group.homevideo.servicespages {height: 65vh;}
-.design-build-partners .wp-block-group.homevideo.servicespages > .wp-block-group__inner-container {height: 65vh;}
+.design-build-partners .wp-block-group.homevideo.servicespages {
+  height: 65vh;
+}
+.design-build-partners
+  .wp-block-group.homevideo.servicespages
+  > .wp-block-group__inner-container {
+  height: 65vh;
+}
 
 a#scroll-to-top {
-  background: url(../../../public/assets/images/arrow.png) no-repeat center center;
+  background: url(../../../public/assets/images/arrow.png) no-repeat center
+    center;
   width: 35px;
   height: 35px;
   position: fixed;
@@ -2467,63 +2474,47 @@ a#scroll-to-top {
   opacity: 0;
 }
 
-
 /* indoor living  */
-.background-section {
-  margin-top: 136px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+.indoor-living-background {
 }
-.background-section .background-section-content {
-  padding: 210px 0px !important;
+.indoor-living-background .wp-block-group__inner-container h6 {
+  color: #007ca1;
+  margin-bottom: 10px;
+}
+.indoor-living-background .wp-block-group__inner-container h1 {
+  margin-bottom: 25px;
+}
+.indoor-living-background .wp-block-group__inner-container p {
+  margin-bottom: 25px;
+  color: #747474;
+}
+.indoor-living-feature h3 {
+  font-size: 20px;
+  margin: 0 !important;
+  margin-bottom: 10px !important;
+  color: #007ca1;
+}
+
+.is-layout-flex.wp-container-13.wp-block-columns.alignfull.homedualcontainer
+  .indoor-living-about {
+  margin: 0 auto;
+  max-width: 1460px;
   display: flex;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
 }
-.background-section .background-section-content .grid-items {
-  width: 50%;
-}
-.background-section .background-section-content .grid-items h2 {
-  font-size: 15px;
-  line-height: 1.4;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  margin: 0;
-  margin-bottom: 20px;
-}
-.background-section .background-section-content .grid-items h2::before {
-  content: "";
-  display: inline-block;
-  position: relative;
-  top: calc(-0.095 * 1em);
-  vertical-align: middle;
-  height: calc(4px + 0.74em);
-  margin-right: calc(5px + 0.2em);
-  border-left: calc(1.5px + 0.15em) solid #8e847a;
-}
-.background-section .background-section-content .grid-items h3 {
-  font-size: 45px;
-  margin: 40px 0 20px;
-  font-weight: 400;
-}
-.background-section .background-section-content .grid-items p {
-  margin: 0;
+
+.indoor-living-image-section.alignfull {
+  margin: 0 !important;
 }
 
 .indoor-living-image-section .title-section {
   padding: 70px 0;
-  background-color: #5d5550;
 }
 .indoor-living-image-section .title-section .title-inner {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  color: #fff;
+  color: #747474;
 }
 .indoor-living-image-section .title-section .title-inner p {
   margin: 0;
@@ -2541,6 +2532,7 @@ a#scroll-to-top {
 .title-inner .section-grid [class*="grid-item-"] h6 {
   margin: 0;
   margin-bottom: 20px;
+  color: #007ca1;
 }
 .title-inner .section-grid .grid-item-1 {
   width: 50%;
@@ -2548,6 +2540,7 @@ a#scroll-to-top {
 .title-inner .section-grid .grid-item-1 h4 {
   margin: 0;
   margin-bottom: 20px;
+  color: #007ca1;
 }
 .title-inner .section-grid .grid-item-1 p {
   font-size: 15px;
@@ -2572,7 +2565,7 @@ a#scroll-to-top {
 }
 .grid-item-3 .icon-grid i {
   font-size: 30px;
-  color: #302b28;
+  color: #747474;
   width: 40px;
   height: 40px;
   display: flex;
@@ -2606,15 +2599,17 @@ a#scroll-to-top {
 .connected-living-title-section {
   margin-top: 136px;
   padding: 70px 0;
-  background-color: #dcd7d3;
+  background-color: #fafafa;
 }
 
 .connected-living-title-section h4 {
   margin: 0px;
   margin-bottom: 20px;
+  color: #007ca1;
 }
 .connected-living-title-section p {
   margin: 0px !important;
+  color: #666;
 }
 .connected-living-title-section .title-inner {
   max-width: 1200px;
