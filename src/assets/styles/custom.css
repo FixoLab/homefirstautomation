@@ -2476,6 +2476,9 @@ a#scroll-to-top {
 
 /* indoor living  */
 .indoor-living-background {
+  background-repeat: no-repeat !important;
+  background-position: center;
+  background-size: cover !important;
 }
 .indoor-living-background .wp-block-group__inner-container h6 {
   color: #007ca1;
@@ -2501,6 +2504,34 @@ a#scroll-to-top {
   max-width: 1460px;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+}
+.indoor-living-about .indoor-living-feature {
+  width: 60%;
+}
+.indoor-living-about .indoor-living-about-box {
+  width: 40%;
+  background-color: #fff;
+  padding: 70px;
+  border-top: 3px solid #007ca1;
+}
+.indoor-living-about .indoor-living-about-box h3 {
+  color: #007ca1 !important;
+}
+.indoor-living-about .indoor-living-about-box .explore-spaces-button {
+  background: #007ca1;
+  color: #fff !important;
+  padding: 10px 30px !important;
+  border-radius: 30px;
+  margin-top: 20px !important;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px !important;
+  border: 1px solid transparent;
+}
+.indoor-living-about .indoor-living-about-box .explore-spaces-button a {
+  color: #fff !important;
 }
 
 .indoor-living-image-section.alignfull {
@@ -2572,8 +2603,20 @@ a#scroll-to-top {
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 1200px)
+{
+  .indoor-living-about .indoor-living-feature .iconsbox{
+    width: 100%;
+  }
+}
 
 @media only screen and (max-width: 960px) {
+  .indoor-living-about .indoor-living-about-box{
+    width: 100%;
+  }
+  .indoor-living-about .indoor-living-feature{
+    width: 100%;
+  }
   .title-inner .section-grid .grid-item-1 {
     width: 100%;
     margin-bottom: 40px;
