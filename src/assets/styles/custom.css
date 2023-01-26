@@ -19,8 +19,7 @@ body,
 .entry-title a {
   color: #000000;
 }
-figcaption
-.post-meta,
+figcaption .post-meta,
 hr.styled-separator {
   color: #6d6d6d;
 }
@@ -72,11 +71,9 @@ samp {
 .footer-widgets-outer-wrapper {
   border-color: #dcd7ca;
 }
-.header-footer-group table caption{
+.header-footer-group table caption {
   background-color: #dcd7ca;
 }
-
-
 
 .primary-menu ul a {
   color: #fff !important;
@@ -848,10 +845,7 @@ li.menu-item-3288 .fas {
   visibility: hidden !important;
   display: none !important;
 }
-.entry-content
-  > *:not(.alignfull):not(.alignleft):not(
-    .is-style-wide
-  ) {
+.entry-content > *:not(.alignfull):not(.alignleft):not(.is-style-wide) {
   max-width: 90% !important;
   width: calc(100% - 4rem) !important;
 }
@@ -1936,8 +1930,8 @@ a#bbblink {
   color: #222;
   font-size: 16px;
 }
-.footerlinks3 h2 a:hover{
-  color:#58c7f1;
+.footerlinks3 h2 a:hover {
+  color: #58c7f1;
 }
 .footerlinks3 .su-post-excerpt p {
   color: #222;
@@ -1975,13 +1969,12 @@ a#bbblink {
   width: 100%;
   text-align: left;
 }
-.footer-copyright a{
-  color: #58c7f1
+.footer-copyright a {
+  color: #58c7f1;
 }
 .footer-credits {
   width: 100%;
 }
-
 
 @media only screen and (max-width: 1400px) {
   .blog article.odd {
@@ -2068,7 +2061,7 @@ a#bbblink {
   .footer-widgets.column-two {
     margin-top: 0px;
   }
-  .servicesimages.sidevideo #video-background{
+  .servicesimages.sidevideo #video-background {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -2239,8 +2232,8 @@ a#bbblink {
     margin: 0px !important;
   }
   .homedualcontainer h2 {
-    font-size: 18px!important;
-    margin-bottom: 10px!important;
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
   }
   .homedual2 {
     padding: 60px 30px;
@@ -2443,7 +2436,7 @@ a#bbblink {
   margin-bottom: 30px;
 }
 
-.su-spoiler.su-spoiler-closed>.su-spoiler-content {
+.su-spoiler.su-spoiler-closed > .su-spoiler-content {
   height: 0;
   margin: 0;
   padding-top: 0;
@@ -2457,11 +2450,18 @@ a#bbblink {
 #site-content .post-inner {
   padding-top: 0;
 }
-.design-build-partners .wp-block-group.homevideo.servicespages {height: 65vh;}
-.design-build-partners .wp-block-group.homevideo.servicespages > .wp-block-group__inner-container {height: 65vh;}
+.design-build-partners .wp-block-group.homevideo.servicespages {
+  height: 65vh;
+}
+.design-build-partners
+  .wp-block-group.homevideo.servicespages
+  > .wp-block-group__inner-container {
+  height: 65vh;
+}
 
 a#scroll-to-top {
-  background: url(../../../public/assets/images/arrow.png) no-repeat center center;
+  background: url(../../../public/assets/images/arrow.png) no-repeat center
+    center;
   width: 35px;
   height: 35px;
   position: fixed;
@@ -2472,4 +2472,194 @@ a#scroll-to-top {
   cursor: pointer;
   outline: 0;
   opacity: 0;
+}
+
+/* indoor living  */
+.indoor-living-background {
+  background-repeat: no-repeat !important;
+  background-position: center;
+  background-size: cover !important;
+}
+.indoor-living-background .wp-block-group__inner-container h6 {
+  color: #007ca1;
+  margin-bottom: 10px;
+}
+.indoor-living-background .wp-block-group__inner-container h1 {
+  margin-bottom: 25px;
+}
+.indoor-living-background .wp-block-group__inner-container p {
+  margin-bottom: 25px;
+  color: #747474;
+}
+.indoor-living-feature h3 {
+  font-size: 20px;
+  margin: 0 !important;
+  margin-bottom: 10px !important;
+  color: #007ca1;
+}
+
+.is-layout-flex.wp-container-13.wp-block-columns.alignfull.homedualcontainer
+  .indoor-living-about {
+  margin: 0 auto;
+  max-width: 1460px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.indoor-living-about .indoor-living-feature {
+  width: 60%;
+}
+.indoor-living-about .indoor-living-about-box {
+  width: 40%;
+  background-color: #fff;
+  padding: 70px;
+  border-top: 3px solid #007ca1;
+}
+.indoor-living-about .indoor-living-about-box h3 {
+  color: #007ca1 !important;
+}
+.indoor-living-about .indoor-living-about-box .explore-spaces-button {
+  background: #007ca1;
+  color: #fff !important;
+  padding: 10px 30px !important;
+  border-radius: 30px;
+  margin-top: 20px !important;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px !important;
+  border: 1px solid transparent;
+}
+.indoor-living-about .indoor-living-about-box .explore-spaces-button a {
+  color: #fff !important;
+}
+
+.indoor-living-image-section.alignfull {
+  margin: 0 !important;
+}
+
+.indoor-living-image-section .title-section {
+  padding: 70px 0;
+}
+.indoor-living-image-section .title-section .title-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  color: #747474;
+}
+.indoor-living-image-section .title-section .title-inner p {
+  margin: 0;
+}
+.indoor-living-image-section .title-section .title-inner .section-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.title-inner .section-grid [class*="grid-item-"] {
+  padding-left: 25px;
+}
+.title-inner .section-grid [class*="grid-item-"] h6 {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #007ca1;
+}
+.title-inner .section-grid .grid-item-1 {
+  width: 50%;
+}
+.title-inner .section-grid .grid-item-1 h4 {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #007ca1;
+}
+.title-inner .section-grid .grid-item-1 p {
+  font-size: 15px;
+}
+.title-inner .section-grid .grid-item-2 {
+  width: 25%;
+}
+.title-inner .section-grid .grid-item-2 p {
+  font-size: 14px;
+}
+.title-inner .section-grid .grid-item-3 {
+  width: 25%;
+}
+.title-inner .section-grid .grid-item-3 h6 {
+  text-align: center;
+}
+.section-grid .grid-item-3 .icon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.grid-item-3 .icon-grid i {
+  font-size: 30px;
+  color: #747474;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 1200px)
+{
+  .indoor-living-about .indoor-living-feature .iconsbox{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .indoor-living-about .indoor-living-about-box{
+    width: 100%;
+  }
+  .indoor-living-about .indoor-living-feature{
+    width: 100%;
+  }
+  .title-inner .section-grid .grid-item-1 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .title-inner .section-grid .grid-item-2,
+  .title-inner .section-grid .grid-item-3 {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .title-inner .section-grid .grid-item-1,
+  .title-inner .section-grid .grid-item-2 {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 0 25px;
+  }
+  .title-inner .section-grid .grid-item-3 {
+    width: 100%;
+    padding: 0 25px;
+  }
+}
+/* connected home */
+.connected-living-title-section {
+  margin-top: 136px;
+  padding: 70px 0;
+  background-color: #fafafa;
+}
+
+.connected-living-title-section h4 {
+  margin: 0px;
+  margin-bottom: 20px;
+  color: #007ca1;
+}
+.connected-living-title-section p {
+  margin: 0px !important;
+  color: #666;
+}
+.connected-living-title-section .title-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.connected-living-title-section.bottom-title-section {
+  margin: 0 !important;
 }

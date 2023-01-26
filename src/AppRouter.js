@@ -40,6 +40,9 @@ const HunterDouglas = React.lazy(() => import("./pages/hunter-douglas"));
 const Notfound = React.lazy(() => import("./pages/notfound"));
 const AlarmCom = React.lazy(() => import("./pages/alarm-com"));
 const JoshAi = React.lazy(() => import("./pages/josh-ai"));
+const IndoorLiving = React.lazy(() => import("./pages/indoor-living"));
+const ConnectedHome = React.lazy(() => import("./pages/connected-home"));
+const ConnectedStudioHome = React.lazy(() => import("./pages/connected-studio-home"));
 const DesignBuildPartners = React.lazy(() =>
   import("./pages/design-build-partners")
 );
@@ -96,6 +99,9 @@ const AppRouter = () => {
           <Route path="/hunter-douglas" element={<HunterDouglas />} />
           <Route path="/alarm-com" element={<AlarmCom />} />
           <Route path="/josh-ai" element={<JoshAi />} />
+          <Route path="/indoor-living" element={<IndoorLiving />} />
+          <Route path="/connected-home" element={<ConnectedHome />} />
+          <Route path="/connected-studio-living" element={<ConnectedStudioHome />} />
           <Route
             path="/design-build-partners"
             element={<DesignBuildPartners />}
