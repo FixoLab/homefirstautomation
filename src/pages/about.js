@@ -69,7 +69,7 @@ const About = () => {
                         <div style={{ height: "30px" }}>&nbsp;</div>
                         <p>
                           Now decades later, Homefirst is one of the
-                          largest installers in Orlando Florida for security
+                          largest installers in Orlando, Florida for security
                           systems,{" "}
                           <Link to="/smart-home-demo-2">
                             smart home systems
@@ -129,7 +129,7 @@ const About = () => {
                                 <Link to="#">
                                   <img
                                     src="assets/images/badge125.png"
-                                    alt="Joshua Trevithick in Orlando Florida, CA on Houzz"
+                                    alt="Joshua Trevithick in Orlando, Florida, CA on Houzz"
                                     width="125"
                                     height="125"
                                     border="0"
@@ -150,7 +150,7 @@ const About = () => {
                                 <Link to="#">
                                   <img
                                     src="assets/images/badge54.png"
-                                    alt="Joshua Trevithick in Orlando Florida, CA on Houzz"
+                                    alt="Joshua Trevithick in Orlando, Florida, CA on Houzz"
                                     width="80"
                                     height="80"
                                     border="0"
@@ -173,14 +173,14 @@ const About = () => {
                           id="bbblink"
                           className="ruhzbul"
                           style={{ padding: "0px", margin: "0px" }}
-                          title="Project Automate, Audio Visual Equipment, Orlando Florida, CA"
+                          title="Project Automate, Audio Visual Equipment, Orlando, Florida, CA"
                           to="#"
                         >
                           <img
                             id="bbblinkimg"
                             style={{ padding: "0px", border: "none" }}
                             src="assets/images/project1.png"
-                            alt="Project Automate, Audio Visual Equipment, Orlando Florida, CA"
+                            alt="Project Automate, Audio Visual Equipment, Orlando, Florida, CA"
                             width="400"
                             height="90"
                           />

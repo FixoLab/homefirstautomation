@@ -296,8 +296,7 @@ const SmartHomeAutomation = () => {
                   <h2>Smart Shading</h2>
 
                   <p className="pointsmade homeauto">
-                    We use only the top of the line shading systems for Los
-                    Angeles homes. Control your custom roller shades and
+                    We use only the top of the line shading systems for Orlando, Florida homes. Control your custom roller shades and
                     motorized blinds with ease with a set timer, voice
                     controlled, or with our top of the line smart technology
                     systems on your phone, tablet, or computer.
@@ -414,7 +413,7 @@ const SmartHomeAutomation = () => {
                     Create top tier audio systems completely out of view and
                     listen to your favorite musical pieces inside the house, or
                     even outside by the pool relaxing or entertaining guests in
-                    sunny Orlando Florida. With a Crestron Home or{" "}
+                    sunny Orlando, Florida. With a Crestron Home or{" "}
                     <Link to="/control-4">Control4 installation</Link>, you can
                     fully control song selection, audio levels, and pretty much
                     every audio style you can imagine.
