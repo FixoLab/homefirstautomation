@@ -7,31 +7,6 @@ const BrandsWeCarry = () => {
     <div id="site-content" className="brands">
       <div className="post-inner thin ">
         <div className="entry-content">
-          <div className="vce-row-container">
-            <div
-              className="vce-row vce-row--col-gap-30 vce-row-equal-height vce-row-content--top"
-              id="el-026c5e86"
-            >
-              <div className="vce-row-content">
-                <div
-                  className="vce-col vce-col--md-auto vce-col--xs-1 vce-col--xs-last vce-col--xs-first vce-col--sm-last vce-col--sm-first vce-col--md-last vce-col--lg-last vce-col--xl-last vce-col--md-first vce-col--lg-first vce-col--xl-first"
-                  id="el-df84ea90"
-                >
-                  <div className="vce-col-inner">
-                    <div className="vce-col-content">
-                      <div className="vce-text-block">
-                        <div
-                          className="vce-text-block-wrapper vce"
-                          id="el-43512ed9"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <div className="is-layout-flow wp-block-group homevideo servicespages">
             <div className="wp-block-group__inner-container">
               <div

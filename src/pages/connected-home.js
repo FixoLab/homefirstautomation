@@ -2,7 +2,7 @@ import React from "react";
 
 const ConnectedHome = () => {
   return (
-    <div>
+    <div id="site-content">
       <div className="connected-living-title-section">
         <div className="title-inner">
           <h4>MODERN LUXURY</h4>
@@ -18,7 +18,7 @@ const ConnectedHome = () => {
         </div>
       </div>
       <div>
-        <img style={{width: "100vw"}} src="assets/images/connected-home.webp" alt="" />
+        <img style={{width: "100%"}} src="assets/images/connected-home.webp" alt="" />
       </div>
       <div className="connected-living-title-section bottom-title-section">
         <div className="title-inner">
