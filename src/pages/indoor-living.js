@@ -92,11 +92,9 @@ const IndoorLiving = () => {
 
           <div
             className="is-layout-flex wp-container-13 wp-block-columns alignfull homedualcontainer"
-            id="3"
           >
             <div className="indoor-living-about">
               <div className="is-layout-flow wp-block-column indoor-living-about-box">
-                <div className="">
                   <p className="minigray">Solutions</p>
                   <h3 className="">
                     Reimagine How You Enjoy Comfort &amp; Convenience{" "}
@@ -112,14 +110,11 @@ const IndoorLiving = () => {
                   </div>
                   <div className="explore-spaces-button">
                     <a
-                      href="#media-room"
-                      uk-scroll=""
-                      className=""
+                    aria-label="Scroll down01" href="#1"
                     >
                       Explore Spaces
                     </a>
                   </div>
-                </div>
               </div>
               <div className="is-layout-flow wp-block-column homedual2 indoor-living-feature">
                 <div className="is-layout-flex wp-container-7 wp-block-columns iconsbox">
@@ -176,7 +171,7 @@ const IndoorLiving = () => {
               </div>
             </div>
           </div>
-          <div className="indoor-living-image-section alignfull">
+          <div id="1" className="indoor-living-image-section alignfull">
             <div className="title-section">
               <div className="title-inner">
                 <div className="section-grid">
@@ -214,12 +209,11 @@ const IndoorLiving = () => {
               </div>
             </div>
             <img
-              style={{ maxWidth: "101%" }}
               src="assets/images/indoor-2.webp"
               alt=""
             />
           </div>
-          <div className="indoor-living-image-section alignfull">
+          <div id="2" className="indoor-living-image-section alignfull">
             <div className="title-section">
               <div className="title-inner">
                 <div className="section-grid">
@@ -257,7 +251,7 @@ const IndoorLiving = () => {
             </div>
             <img src="assets/images/indoor-3.webp" alt="" />
           </div>
-          <div className="indoor-living-image-section alignfull">
+          <div id="3" className="indoor-living-image-section alignfull">
             <div className="title-section">
               <div className="title-inner">
                 <div className="section-grid">
@@ -295,7 +289,7 @@ const IndoorLiving = () => {
             </div>
             <img src="assets/images/indoor-4.webp" alt="" />
           </div>
-          <div className="indoor-living-image-section alignfull">
+          <div id="4" className="indoor-living-image-section alignfull">
             <div className="title-section">
               <div className="title-inner">
                 <div className="section-grid">
@@ -334,7 +328,7 @@ const IndoorLiving = () => {
             </div>
             <img src="assets/images/indoor-5.webp" alt="" />
           </div>
-          <div className="indoor-living-image-section alignfull">
+          <div id="5" className="indoor-living-image-section alignfull">
             <div className="title-section">
               <div className="title-inner">
                 <div className="section-grid">
@@ -373,7 +367,7 @@ const IndoorLiving = () => {
             </div>
             <img src="assets/images/indoor-6.webp" alt="" />
           </div>
-          <div className="indoor-living-image-section alignfull">
+          <div id="6" className="indoor-living-image-section alignfull">
             <div className="title-section">
               <div className="title-inner">
                 <div className="section-grid">
