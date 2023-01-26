@@ -1,6 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const IndoorLiving = () => {
+  const [windowTop, setWindowTop] = useState(0);
+  useEffect(() => {
+    function handleScroll() {
+      setWindowTop(window.pageYOffset);
+    }
+    window.addEventListener("load", handleScroll);
+    window.addEventListener("resize", handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("load", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const rightPosition = 100 - windowTop * 0.025 + "%";
   return (
     <div id="site-content">
       <div className="post-inner thin ">
@@ -14,6 +30,7 @@ const IndoorLiving = () => {
               style={{
                 backgroundImage: "url(assets/images/indoor-1.webp)",
                 height: "90vh",
+                backgroundPositionX: rightPosition
               }}
             >
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
@@ -78,7 +95,7 @@ const IndoorLiving = () => {
             id="3"
           >
             <div className="indoor-living-about">
-              <div className="is-layout-flow wp-block-column homedual2">
+              <div className="is-layout-flow wp-block-column indoor-living-about-box">
                 <div className="">
                   <p className="minigray">Solutions</p>
                   <h3 className="">
@@ -86,18 +103,18 @@ const IndoorLiving = () => {
                   </h3>
 
                   <div className="">
-                    <p className="">
+                    <p className="minigray">
                       From the bedroom to the wine cellar, smart technology
                       provides the perfect balance of splendor and functionality
                       to every space in your home. Revel in the possibilities
                       below.
                     </p>
                   </div>
-                  <div className="">
+                  <div className="explore-spaces-button">
                     <a
                       href="#media-room"
                       uk-scroll=""
-                      className="el-link uk-button uk-button-primary"
+                      className=""
                     >
                       Explore Spaces
                     </a>
