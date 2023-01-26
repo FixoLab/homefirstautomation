@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
   const [subMenuActive, setSubMenuActive] = useState(false);
+  const [subMenuActive2, setSubMenuActive2] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
   const [lastScrollTop, setLastScrollTop] = useState(0);
 
@@ -12,6 +13,9 @@ const Header = () => {
   };
   const subMenuToggleClass = () => {
     setSubMenuActive(!subMenuActive);
+  };
+  const subMenuToggleClass2 = () => {
+    setSubMenuActive2(!subMenuActive2);
   };
 
   useEffect(() => {
@@ -255,7 +259,7 @@ const Header = () => {
                     id="menu-item-3288"
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3288"
                   >
-                    <a href="tel:407.228.3000">
+                    <a href="tel:4072283000">
                       <i className="fas fa-solid fa-phone-flip"></i>407.228.3000
                     </a>
                   </li>
@@ -311,6 +315,62 @@ const Header = () => {
                     <div className="ancestor-wrapper">
                       <Link href="/about">About</Link>
                     </div>
+                  </li>
+                  <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-459">
+                    <div className="ancestor-wrapper">
+                      <Link to="#">CONNECTED LIVING</Link>
+                      <button
+                        className={`toggle sub-menu-toggle fill-children-current-color ${
+                          subMenuActive2 ? "active" : ""
+                        }`}
+                        onClick={subMenuToggleClass2}
+                      >
+                        <span className="screen-reader-text">
+                          Show sub menu
+                        </span>
+                        <svg
+                          className="svg-icon"
+                          aria-hidden="true"
+                          role="img"
+                          focusable="false"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="12"
+                          viewBox="0 0 20 12"
+                        >
+                          <polygon
+                            fill=""
+                            fillRule="evenodd"
+                            points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358"
+                            transform="translate(-1310 -358)"
+                          ></polygon>
+                        </svg>
+                      </button>
+                    </div>
+                    <ul className={`sub-menu ${subMenuActive2 ? "active" : ""}`}>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                        <div className="ancestor-wrapper">
+                          <Link to="/indoor-living">Indoor Living</Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-924">
+                        <div className="ancestor-wrapper">
+                          <Link to="/a-day-in-the-life">A Day in the Life</Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-955">
+                        <div className="ancestor-wrapper">
+                          <Link to="/connected-home">Connected Home</Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
+                        <div className="ancestor-wrapper">
+                          <Link to="/connected-studio-living">
+                            Connected Studio Living
+                          </Link>
+                        </div>
+                      </li>
+                    </ul>
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-459">
                     <div className="ancestor-wrapper">
@@ -387,6 +447,7 @@ const Header = () => {
                       </li>
                     </ul>
                   </li>
+
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1041">
                     <div className="ancestor-wrapper">
                       <Link to="/portfolio">Portfolio</Link>
@@ -414,7 +475,7 @@ const Header = () => {
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3288">
                     <div className="ancestor-wrapper">
-                      <Link to="tel:407.228.3000">
+                      <Link to="tel:4072283000">
                         <i className="fas fa-phone"></i>407.228.3000
                       </Link>
                     </div>

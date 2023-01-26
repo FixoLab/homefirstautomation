@@ -127,8 +127,8 @@ const Partners = () => {
           <div className="is-layout-flow wp-block-group serviceswhitebackground">
             <div className="wp-block-group__inner-container">
               <p className="has-text-align-center servicesleader eds-on-scroll partnermain eds-scroll-visible animated fadeInUp duration3">
-                We at Homefirstork with hundreds of suppliers,
-                clients, and businesses throughout Orlando Florida. Joining our
+                We at Homefirst work with hundreds of suppliers,
+                clients, and businesses throughout Orlando, Florida. Joining our
                 Partner Program gives you access to one of the nation’s leading
                 certified <Link to="/savant">Savant dealers</Link> and smart
                 home installers.{" "}

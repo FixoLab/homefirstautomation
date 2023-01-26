@@ -40,7 +40,7 @@ const BrandsWeCarry = () => {
                 View all the brands we carry at HomeFirst. Keep in mind this
                 list is always evolving as we here at HomeFirst are always
                 carrying the latest and greatest in smart home technology. Is
-                there a specific brand you want for your Orlando Florida
+                there a specific brand you want for your Orlando, Florida
                 project? Just contact us and our support team will be sure to
                 work with you to help you get the desired brand you are after.
               </p>
@@ -69,8 +69,7 @@ const BrandsWeCarry = () => {
                         Life gets busy—but when your home technology is
                         connected into one simple-to-use system, it helps take
                         away some of those daily little stresses. A Control4
-                        system makes your life more convenient and your Los
-                        Angeles home safer, more comfortable, and easy to enjoy.
+                        system makes your life more convenient and your Orlando, Florida home safer, more comfortable, and easy to enjoy.
                         Work with the Control4 Dealer at HomeFirst to get
                         Started,
                       </p>

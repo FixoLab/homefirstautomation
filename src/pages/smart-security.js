@@ -37,27 +37,27 @@ const SmartSecurity = () => {
                       <h1>SMART SECURITY</h1>
 
                       <p>
-                        <a aria-label="Scroll down01" href="#1">MULTI ROOM</a>
+                        <a aria-label="Scroll down01" href="#1">ALARMS</a>
                       </p>
 
                       <p>
-                        <a aria-label="Scroll down02" href="#2">OUTDOOR SYSTEMS</a>
+                        <a aria-label="Scroll down02" href="#2">ENTRY SYSTEMS</a>
                       </p>
 
                       <p>
-                        <a aria-label="Scroll down03" href="#3">HIGH PERFORMANCE</a>
+                        <a aria-label="Scroll down03" href="#3">LIGHTING</a>
                       </p>
 
                       <p>
-                        <a aria-label="Scroll down04" href="#4">HIDDEN PERIPHERALS</a>
+                        <a aria-label="Scroll down04" href="#4">VIDEO GAMES</a>
                       </p>
 
                       <p>
-                        <a aria-label="Scroll down05" href="#5">MEDIA CONTROL</a>
+                        <a aria-label="Scroll down05" href="#5">SMART LOCKS</a>
                       </p>
 
                       <p>
-                        <a aria-label="Scroll down06" href="#6">COMMERCIAL</a>
+                        <a aria-label="Scroll down06" href="#6">ELECTRIC SHADES</a>
                       </p>
                     </div>
                   </div>
@@ -78,7 +78,7 @@ const SmartSecurity = () => {
                 nothing more important than you and your loved ones. Our{" "}
                 <Link to="/alarm-com">smart home security systems</Link> and devices will
                 give you piece of mind during the day, night, and away from your
-                Orlando Florida home.
+                Orlando, Florida home.
               </p>
             </div>
           </div>
@@ -148,7 +148,7 @@ const SmartSecurity = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>Entry Systems</h2>
+                  <h2>ALARM Systems</h2>
 
                   <p className="pointsmade homeauto">
                     A good alarm system does not only protect you from intruders

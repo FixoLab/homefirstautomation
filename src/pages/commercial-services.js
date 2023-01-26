@@ -68,7 +68,7 @@ const CommercialServices = () => {
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                Let Homefirst help to expand your current Orlando Florida
+                Let Homefirst help to expand your current Orlando, Florida
                 business, setup a brand new point of sale location, or create a
                 top of the line{" "}
                 <Link to="/crestron">commercial room design.</Link> Whatever
