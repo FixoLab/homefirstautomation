@@ -2450,11 +2450,18 @@ a#bbblink {
 #site-content .post-inner {
   padding-top: 0;
 }
-.design-build-partners .wp-block-group.homevideo.servicespages {height: 65vh;}
-.design-build-partners .wp-block-group.homevideo.servicespages > .wp-block-group__inner-container {height: 65vh;}
+.design-build-partners .wp-block-group.homevideo.servicespages {
+  height: 65vh;
+}
+.design-build-partners
+  .wp-block-group.homevideo.servicespages
+  > .wp-block-group__inner-container {
+  height: 65vh;
+}
 
 a#scroll-to-top {
-  background: url(../../../public/assets/images/arrow.png) no-repeat center center;
+  background: url(../../../public/assets/images/arrow.png) no-repeat center
+    center;
   width: 35px;
   height: 35px;
   position: fixed;
@@ -2466,7 +2473,6 @@ a#scroll-to-top {
   outline: 0;
   opacity: 0;
 }
-
 
 /* indoor living  */
 .background-section {
@@ -2625,3 +2631,4 @@ a#scroll-to-top {
 .connected-living-title-section.bottom-title-section {
   margin: 0 !important;
 }
+

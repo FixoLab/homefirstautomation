@@ -48,6 +48,7 @@ const DesignBuildPartners = React.lazy(() =>
 );
 const Realtors = React.lazy(() => import("./pages/realtors"));
 const Contractors = React.lazy(() => import("./pages/contractors"));
+const ADayInTheLife = React.lazy(() => import("./pages/a-day-in-the-life"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -101,6 +102,7 @@ const AppRouter = () => {
           <Route path="/josh-ai" element={<JoshAi />} />
           <Route path="/indoor-living" element={<IndoorLiving />} />
           <Route path="/connected-home" element={<ConnectedHome />} />
+          <Route path="/a-day-in-the-life" element={<ADayInTheLife />} />
           <Route path="/connected-studio-living" element={<ConnectedStudioHome />} />
           <Route
             path="/design-build-partners"
