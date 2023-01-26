@@ -2,7 +2,7 @@ import React from "react";
 
 const ConnectedStudioHome = () => {
   return (
-    <div>
+    <div id="site-content">
       <div className="connected-living-title-section">
         <div className="title-inner">
           <h4>STUDIO HOME</h4>
@@ -18,7 +18,7 @@ const ConnectedStudioHome = () => {
       </div>
       <div>
         <img
-          style={{ width: "100vw" }}
+          style={{ width: "100%" }}
           src="assets/images/connected-studio-home.webp"
           alt=""
         />
