@@ -172,7 +172,7 @@ const ADayInTheLife = () => {
         </div>
         <div className="a-day-life-video-section">
           <video
-            src="assets/video/goodmorning-female-neutral.mp4"
+            src="assets/video/kitchen-both.mp4"
             loop
             autoPlay
             muted
@@ -221,7 +221,7 @@ const ADayInTheLife = () => {
         </div>
         <div className="a-day-life-video-section">
           <video
-            src="assets/video/goodmorning-female-neutral.mp4"
+            src="assets/video/office-female.mp4"
             loop
             autoPlay
             muted
@@ -270,7 +270,7 @@ const ADayInTheLife = () => {
         </div>
         <div className="a-day-life-video-section">
           <video
-            src="assets/video/goodmorning-female-neutral.mp4"
+            src="assets/video/patio-both-relaxing.mp4"
             loop
             autoPlay
             muted
@@ -319,7 +319,7 @@ const ADayInTheLife = () => {
         </div>
         <div className="a-day-life-video-section">
           <video
-            src="assets/video/goodmorning-female-neutral.mp4"
+            src="assets/video/kitchen-both-dinner.mp4"
             loop
             autoPlay
             muted
@@ -368,7 +368,7 @@ const ADayInTheLife = () => {
         </div>
         <div className="a-day-life-video-section">
           <video
-            src="assets/video/goodmorning-female-neutral.mp4"
+            src="assets/video/bedroom-both-goodnight.mp4"
             loop
             autoPlay
             muted
