@@ -2674,3 +2674,271 @@ a#scroll-to-top {
 .connected-living-title-section.bottom-title-section {
   margin: 0 !important;
 }
+
+
+.a-day-life .a-day-life-hero h1 {
+  margin-bottom: 20px !important;
+}
+.a-day-life .a-day-life-hero h5 {
+  margin: 0;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.a-day-life .a-day-life-hero p {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.a-day-life-section {
+  display: flow-root;
+  box-sizing: border-box;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.a-day-life-container-large {
+  max-width: 1360px;
+}
+.a-day-life-section > :last-child {
+  margin-bottom: 0;
+}
+.a-day-life-container {
+  display: flow-root;
+  box-sizing: content-box;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.a-day-life-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: -30px;
+}
+
+.a-day-life-grid > * {
+  margin: 0;
+}
+.a-day-life-grid > * > :last-child {
+  margin-bottom: 0;
+}
+* + .a-day-life-grid-margin,
+.a-day-life-grid + .a-day-life-grid,
+.a-day-life-grid > .a-day-life-grid-margin {
+  margin-top: 30px;
+}
+@media (min-width: 1200px) {
+  .a-day-life-grid {
+    margin-left: -40px;
+  }
+  * + .a-day-life-grid-margin,
+  .a-day-life-grid + .a-day-life-grid,
+  .a-day-life-grid > .a-day-life-grid-margin {
+    margin-top: 40px;
+  }
+}
+
+.a-day-life-container-large {
+  max-width: 1360px;
+}
+.a-day-life-text-center {
+  text-align: center !important;
+}
+
+.a-day-life-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.a-day-life-nav .nav-item {
+  width: 16.66%;
+}
+.a-day-life-nav .nav-item a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.a-day-life-nav .nav-item i {
+  color: #999;
+}
+.a-day-life-nav .nav-item a h3 {
+  margin: 20px 0 0 0;
+  font-size: 28px;
+  font-weight: 400;
+  color: #007ca1;
+}
+.a-day-life-nav .nav-item a p {
+  margin-top: 20px !important;
+  margin: 0;
+  font-size: 14px;
+}
+.tm-grid-expand > * {
+  flex-grow: 1;
+}
+.tm-grid-expand > .a-day-life-width-expand {
+  flex-grow: 999;
+}
+.a-day-life-text-meta {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #999;
+  font-family: Mukta;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-top: 20px;
+}
+.a-day-life-padding-remove-bottom {
+  padding-bottom: 0 !important;
+}
+.a-day-life-heading-bullet {
+  font-size: 50px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  color: #fff;
+}
+
+.a-day-life-heading-bullet::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: calc(-0.095 * 1em);
+  vertical-align: middle;
+  height: calc(4px + 0.74em);
+  margin-right: calc(5px + 0.2em);
+  border-left: calc(1.5px + 0.15em) solid #fafafa;
+}
+
+.a-day-life-section-secondary {
+  background: #007ca1;
+  background-position-x: 50%;
+  background-repeat: repeat-y;
+}
+@media (min-width: 640px) {
+  .tm-grid-expand > .a-day-life-width-expand\@s {
+    flex-grow: 999;
+  }
+}
+@media (min-width: 960px) {
+  .tm-grid-expand > .a-day-life-width-expand\@m {
+    flex-grow: 999;
+  }
+}
+@media (min-width: 1200px) {
+  .tm-grid-expand > .a-day-life-width-expand\@l {
+    flex-grow: 999;
+  }
+}
+@media (min-width: 1600px) {
+  .tm-grid-expand > .a-day-life-width-expand\@xl {
+    flex-grow: 999;
+  }
+}
+
+.container > :last-child,
+.a-day-life-container > :last-child {
+  margin-bottom: 0;
+}
+.uk-section-xlarge {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.a-day-life-video-section {
+  position: relative;
+}
+.a-day-life-video-section video {
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+}
+.a-day-life-video-section .video-content {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  color: #444;
+  width: 350px;
+  background-color: #fafafa;
+  padding: 70px 40px;
+}
+.a-day-life-video-section .video-content.right-text {
+  position: absolute;
+  right: 15%;
+  left: auto;
+}
+
+.a-day-life-video-section .video-content h4 {
+  color: #007ca1;
+  margin: 0;
+  margin-bottom: 20px;
+  position: relative;
+}
+.a-day-life-video-section .video-content h4::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: calc(-0.095 * 1em);
+  vertical-align: middle;
+  height: calc(4px + 0.74em);
+  margin-right: calc(5px + 0.2em);
+  border-left: calc(1.5px + 0.15em) solid #007ba179;
+}
+
+.a-day-life-video-section .video-content p {
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .a-day-life-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .a-day-life-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .a-day-life-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .uk-section-xlarge {
+    padding-top: 210px;
+    padding-bottom: 210px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .a-day-life-video-section video {
+    height: 600px;
+  }
+  .a-day-life-video-section .video-content {
+    position: inherit;
+    width: auto;
+    transform: inherit;
+    left: 0;
+  }
+  .a-day-life-video-section .video-content.right-text {
+    right: 0;
+    left: 0;
+    position: inherit;
+  }
+  .a-day-life-nav .nav-item {
+    width: 33.33%;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .a-day-life-video-section video {
+    height: 400px;
+  }
+}
