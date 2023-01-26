@@ -90,7 +90,7 @@ const AudioSystems = () => {
                 audio, a cinema surround sound system or an outdoor speaker
                 system consisting of state-of-the-art high-end speakers. Find
                 out how we can design and install a custom music system
-                seamlessly into your Orlando Florida property.
+                seamlessly into your Orlando, Florida property.
               </p>
             </div>
           </div>

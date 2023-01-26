@@ -100,10 +100,10 @@ const FooterContact = () => {
               <i className="fas fa-phone"></i>
             </a>
           </p>
-          <a href="tel:407 228 3000">
+          <a href="tel:4072283000">
             <p>
               <strong>Phone:</strong> <br />
-              407 228 3000
+              4072283000
             </p>
           </a>
         </div>

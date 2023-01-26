@@ -43,7 +43,7 @@ const StartYourProject = () => {
                       <p>
                         <strong>Phone:</strong>
                         <br />
-                        407 228 3000
+                        4072283000
                       </p>
 
                       <i className="fas fa-regular fa-location-dot"></i>
