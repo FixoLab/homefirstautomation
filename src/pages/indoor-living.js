@@ -1,4 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const IndoorLiving = () => {
   const [windowTop, setWindowTop] = useState(0);
@@ -30,7 +32,7 @@ const IndoorLiving = () => {
               style={{
                 backgroundImage: "url(assets/images/indoor-1.webp)",
                 height: "90vh",
-                backgroundPositionX: rightPosition
+                backgroundPositionX: rightPosition,
               }}
             >
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
@@ -90,31 +92,27 @@ const IndoorLiving = () => {
             </div>
           </div>
 
-          <div
-            className="is-layout-flex wp-container-13 wp-block-columns alignfull homedualcontainer"
-          >
+          <div className="is-layout-flex wp-container-13 wp-block-columns alignfull homedualcontainer">
             <div className="indoor-living-about">
               <div className="is-layout-flow wp-block-column indoor-living-about-box">
-                  <p className="minigray">Solutions</p>
-                  <h3 className="">
-                    Reimagine How You Enjoy Comfort &amp; Convenience{" "}
-                  </h3>
+                <p className="minigray">Solutions</p>
+                <h3 className="">
+                  Reimagine How You Enjoy Comfort &amp; Convenience
+                </h3>
 
-                  <div className="">
-                    <p className="minigray">
-                      From the bedroom to the wine cellar, smart technology
-                      provides the perfect balance of splendor and functionality
-                      to every space in your home. Revel in the possibilities
-                      below.
-                    </p>
-                  </div>
-                  <div className="explore-spaces-button">
-                    <a
-                    aria-label="Scroll down01" href="#1"
-                    >
-                      Explore Spaces
-                    </a>
-                  </div>
+                <div className="">
+                  <p className="minigray">
+                    From the bedroom to the wine cellar, smart technology
+                    provides the perfect balance of splendor and functionality
+                    to every space in your home. Revel in the possibilities
+                    below.
+                  </p>
+                </div>
+                <div className="explore-spaces-button">
+                  <a aria-label="Scroll down01" href="#1">
+                    Explore Spaces
+                  </a>
+                </div>
               </div>
               <div className="is-layout-flow wp-block-column homedual2 indoor-living-feature">
                 <div className="is-layout-flex wp-container-7 wp-block-columns iconsbox">
@@ -208,10 +206,99 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <img
-              src="assets/images/indoor-2.webp"
-              alt=""
-            />
+            <div className="csh-wrapper">
+              <img
+                style={{ width: "100%" }}
+                src="assets/images/indoor-2.webp"
+                alt=""
+              />
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "65%", left: "18%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">Media Control</h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Effortlessly activate media scenes for any affair, from
+                        “Party Music” to “Movie Night” and more. When it’s time,
+                        turn everything off in a tap.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "44%", left: "39%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">
+                      High-Performance Audio
+                    </h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Delight in audio sources both new and old through a
+                        high-fidelity speaker system that creates a beautiful
+                        soundscape for any audiophile.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "60%", left: "63%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">
+                      Universal Remotes
+                    </h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Activate all of your systems capabilities from a single
+                        remote. Streaming your Pandora station or setting the
+                        perfect scene for movie night is a simple button press
+                        away.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div id="2" className="indoor-living-image-section alignfull">
             <div className="title-section">
@@ -249,7 +336,98 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <img src="assets/images/indoor-3.webp" alt="" />
+            <div className="csh-wrapper">
+              <img
+                style={{ width: "100%" }}
+                src="assets/images/indoor-3.webp"
+                alt=""
+              />
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "55%", left: "53%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">
+                      High-Performance Audio
+                    </h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Immerse yourself in distinct surround sound that places
+                        you right into the action for a truly realistic viewing
+                        experience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "27%", left: "66%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">Video Projection</h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Enjoy your favorite films through stunning 4K projection
+                        that produces eye-popping color, optimal contrast, and
+                        crystal-clear detail every time.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "23%", left: "18%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">
+                      Acoustic Treatments
+                    </h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Eliminate muddled, echoey sound with precisely placed
+                        acoustic treatments that control reflections and enhance
+                        your listening experience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div id="3" className="indoor-living-image-section alignfull">
             <div className="title-section">
@@ -287,7 +465,98 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <img src="assets/images/indoor-4.webp" alt="" />
+            <div className="csh-wrapper">
+              <img
+                style={{ width: "100%" }}
+                src="assets/images/indoor-4.webp"
+                alt=""
+              />
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "62%", left: "45%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">
+                      Smart Home Control
+                    </h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Easily control everything from your favorite movie and
+                        music content to lighting and room climate with your
+                        mobile device or system remote.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "15%", left: "45%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">Lighting Control</h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Craft the perfect lighting for family movie nights, game
+                        days, or an afternoon of reading together with
+                        custom-tailored scenes.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "27%", left: "88%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">
+                      Motorized Window Treatments
+                    </h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Easily adjust your shades and drapes without moving from
+                        your couch to bring in natural light for morning
+                        relaxation or to avoid sun glare during a movie.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div id="4" className="indoor-living-image-section alignfull">
             <div className="title-section">
@@ -326,7 +595,100 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <img src="assets/images/indoor-5.webp" alt="" />
+            <div className="csh-wrapper">
+              <img
+                style={{ width: "100%" }}
+                src="assets/images/indoor-5.webp"
+                alt=""
+              />
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "55%", left: "35%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">
+                      Smart Home Control
+                    </h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Wake up to rising shades and your favorite playlist.
+                        Press “Goodnight” to turn out lights, shut off your TV
+                        and lower the thermostat—all from your bed.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "35%", left: "11%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">
+                      Motorized Window Treatments
+                    </h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Wake up naturally with gradually rising shades in the
+                        morning to let in sunlight. In one touch, effortlessly
+                        lower shades for privacy and better sleep.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "5%", left: "75%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">
+                      Hidden Audio Video
+                    </h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Enjoy the luxury of an entertainment system without
+                        intruding on your bedroom décor with concealed in-wall
+                        speakers and mirror or frame TVs.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div id="5" className="indoor-living-image-section alignfull">
             <div className="title-section">
@@ -365,7 +727,96 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <img src="assets/images/indoor-6.webp" alt="" />
+            <div className="csh-wrapper">
+              <img
+                style={{ width: "100%" }}
+                src="assets/images/indoor-6.webp"
+                alt=""
+              />
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "35%", left: "14%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title"> Media Control </h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Easily switch up the entertainment from Netflix to
+                        Playstation and more with one-touch control of your
+                        4K-compatible video sources.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "27%", left: "66%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">Lighting Control</h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Transform the ambiance to complement any get-together,
+                        from a lavish cocktail party to a relaxing afternoon of
+                        playing pool.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "42%", left: "40%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">
+                      High-Performance Audio
+                    </h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Dramatically elevate your listening experience with
+                        striking multi-channel audio that envelops you and your
+                        guests in your favorite music while you entertain.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div id="6" className="indoor-living-image-section alignfull">
             <div className="title-section">
@@ -404,7 +855,96 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <img src="assets/images/indoor-7.webp" alt="" />
+            <div className="csh-wrapper">
+              <img
+                style={{ width: "100%" }}
+                src="assets/images/indoor-7.webp"
+                alt=""
+              />
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "62%", left: "35%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">Lighting Control</h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Set the mood in any room or throughout your entire home
+                        with automated scenes to suit the perfect occasion.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "8%", left: "56%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title"> Smart Security </h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Monitor your property live from any location. Remotely
+                        disarm your home to let in visitors, activate your home
+                        once they leave, and <Link to="">receive alerts</Link>
+                        when unwanted activity is detected.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                className="csh-plus-icon csh-marker uk-marker"
+                style={{ top: "70%", left: "50%" }}
+              >
+                <i className="fa-solid fa-plus"></i>
+              </a>
+              <div
+                style={{
+                  width: "300px",
+                }}
+                uk-drop="pos: top-center; auto-update: false;"
+                className="uk-drop"
+              >
+                <div className="csh-card">
+                  <div className="csh-card-content">
+                    <h3 className="csh-card-content-title">
+                      Automated Door Locks
+                    </h3>
+                    <div className="csh-card-content-desc">
+                      <p>
+                        Manage every entry point throughout your estate whether
+                        you’re at home or away to let in guests and to secure
+                        your property.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
