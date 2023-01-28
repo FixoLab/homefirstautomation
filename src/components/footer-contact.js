@@ -103,7 +103,7 @@ const FooterContact = () => {
           <a href="tel:4072283000">
             <p>
               <strong>Phone:</strong> <br />
-              4072283000
+              407.228.3000
             </p>
           </a>
         </div>

@@ -144,6 +144,12 @@ const Header = () => {
                       >
                         <Link to="/our-process">Our Process</Link>
                       </li>
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
+                        <Link to="/partners">Partners</Link>
+                      </li>
                     </ul>
                   </li>
                   <li
@@ -251,12 +257,6 @@ const Header = () => {
                     <Link to="brands-we-carry">Brands</Link>
                   </li>
                   <li
-                    id="menu-item-2848"
-                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2848"
-                  >
-                    <Link to="/partners">Partners</Link>
-                  </li>
-                  <li
                     id="menu-item-1188"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1188"
                   >
@@ -361,6 +361,11 @@ const Header = () => {
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                         <div className="ancestor-wrapper">
                           <Link to="/our-process">Our Process</Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                        <div className="ancestor-wrapper">
+                          <Link to="/partners">Partners</Link>
                         </div>
                       </li>
                     </ul>

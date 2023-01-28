@@ -1559,39 +1559,6 @@ h2.entry-title {
   margin: 4rem auto;
 }
 
-.entry-content {
-  font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond,
-    "Times New Roman", serif;
-  letter-spacing: normal;
-}
-
-.entry-content h1,
-.entry-content h2,
-.entry-content h3,
-.entry-content h4,
-.entry-content h5,
-.entry-content h6,
-.entry-content figcaption,
-.entry-content table,
-.entry-content address {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
-    sans-serif;
-}
-
-@supports (font-variation-settings: normal) {
-  .entry-content h1,
-  .entry-content h2,
-  .entry-content h3,
-  .entry-content h4,
-  .entry-content h5,
-  .entry-content h6,
-  .entry-content figcaption,
-  .entry-content table,
-  .entry-content address {
-    font-family: "Inter var", -apple-system, BlinkMacSystemFont,
-      "Helvetica Neue", Helvetica, sans-serif;
-  }
-}
 
 .entry-content > *:not(.alignfull):not(.alignleft):not(.is-style-wide) {
   max-width: 58rem;
@@ -1793,29 +1760,6 @@ input[type="search"]:focus {
   max-width: 100%;
 }
 
-/* Font Families ----------------------------- */
-
-.widget_text p,
-.widget_text ol,
-.widget_text ul,
-.widget_text dl,
-.widget_text dt {
-  font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond,
-    "Times New Roman", serif;
-  letter-spacing: normal;
-}
-
-.widget-content figcaption {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
-    sans-serif;
-}
-
-@supports (font-variation-settings: normal) {
-  .widget-content figcaption {
-    font-family: "Inter var", -apple-system, BlinkMacSystemFont,
-      "Helvetica Neue", Helvetica, sans-serif;
-  }
-}
 
 #site-footer {
   background-color: #fff;

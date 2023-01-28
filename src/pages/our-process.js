@@ -24,16 +24,16 @@ const OurProcess = () => {
       <div className="our-process-desc">
         <div className="our-process-desc-left">
           <h4 className="title"> Let Our Process Guide the Way</h4>
-          <p class="subtitle minigray">
+          <p className="subtitle minigray">
             For all of our projects, we strive for the ultimate professionalism
             by sticking to a consistent and transparent process. This way you
             know exactly what to expect throughout all phases of the project and
             have a clear understanding of how your technology goals are brought
             to life.
           </p>
-          <div class="card">
-            <h3 class="card-title">From start, to finish, and beyond... </h3>
-            <p class="card-description minigray">
+          <div className="card">
+            <h3 className="card-title">From start, to finish, and beyond... </h3>
+            <p className="card-description minigray">
               Whether you're a new customer interested in our solutions, or an
               existing customer seeking support, we would love to hear from you.
               Don't hesitate to call or use our contact form to reach us for any
@@ -45,15 +45,15 @@ const OurProcess = () => {
               valued customers. Contact us, we are ready to go to work for you.
             </p>
           </div>
-          <p class="primary-btn" style={{ textAlign: "center" }}>
+          <p className="primary-btn" style={{ textAlign: "center" }}>
             <Link to="/contact-us">Learn More</Link>
           </p>
         </div>
         <div className="our-process-desc-right">
-          <div class="card-item">
-            <h3 class="card-item-title">1. Discovery Process:</h3>
+          <div className="card-item">
+            <h3 className="card-item-title">1. Discovery Process:</h3>
 
-            <div class="card-item-desc minigray">
+            <div className="card-item-desc minigray">
               Your project begins with a one-on-one conversation where we learn
               everything about your needs and preferences so we can design a
               system curated just for you. We’ll take the time to learn about
@@ -62,10 +62,10 @@ const OurProcess = () => {
               and capabilities for your system.
             </div>
           </div>
-          <div class="card-item">
-            <h3 class="card-item-title">2. System Design:</h3>
+          <div className="card-item">
+            <h3 className="card-item-title">2. System Design:</h3>
 
-            <div class="card-item-desc minigray">
+            <div className="card-item-desc minigray">
               The next step is taking the information from the initial discovery
               meetings to craft the design for your system according to your
               performance priorities and budget qualifications. This proposal
@@ -75,10 +75,10 @@ const OurProcess = () => {
               and integrate your feedback before moving on to the next stage.
             </div>
           </div>
-          <div class="card-item">
-            <h3 class="card-item-title"> 3. Engineering: </h3>
+          <div className="card-item">
+            <h3 className="card-item-title"> 3. Engineering: </h3>
 
-            <div class="card-item-desc minigray">
+            <div className="card-item-desc minigray">
               Once we have approval on that original proposal, we’ll use
               cutting-edge Computer Aided Design (CAD) technology and project
               drawings to create in-depth documentation for our technicians to
@@ -89,10 +89,10 @@ const OurProcess = () => {
               approved design.
             </div>
           </div>
-          <div class="card-item">
-            <h3 class="card-item-title"> 4. Implementation Process: </h3>
+          <div className="card-item">
+            <h3 className="card-item-title"> 4. Implementation Process: </h3>
 
-            <div class="card-item-desc minigray">
+            <div className="card-item-desc minigray">
               At the job site, our staff uses the engineering documentation to
               lay out all necessary low-voltage wiring and device enclosures.
               Knowing the unique requirements for various subsystems, our
@@ -103,10 +103,10 @@ const OurProcess = () => {
               stage, they’re included in relevant as-built documentation.
             </div>
           </div>
-          <div class="card-item">
-            <h3 class="card-item-title"> 5. Service &amp; Support: </h3>
+          <div className="card-item">
+            <h3 className="card-item-title"> 5. Service &amp; Support: </h3>
 
-            <div class="card-item-desc minigray">
+            <div className="card-item-desc minigray">
               After installation, we ensure our clients enjoy a world-class
               service experience to keep their integrated technology running
               smoothly for years. How can you enjoy optimal performance from

@@ -1899,6 +1899,12 @@ a#bbblink {
 }
 .footerlinks1 img {
   max-width: 230px;
+  margin-bottom: 5px;
+}
+.footerlinks1 p {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 .footerlinks2 {
   flex-basis: 300px;
