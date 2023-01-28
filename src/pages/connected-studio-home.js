@@ -33,9 +33,6 @@ const ConnectedStudioHome = () => {
         <div
           style={{
             width: "300px",
-            maxWidth: "1873px",
-            top: "717.75px",
-            left: "516.047px",
           }}
           uk-drop="pos: top-center; auto-update: false;"
           className="uk-drop"
@@ -71,9 +68,6 @@ const ConnectedStudioHome = () => {
         <div
           style={{
             width: "300px",
-            maxWidth: "1873px",
-            top: "492.203px",
-            left: "934.703px",
           }}
           uk-drop="pos: top-center; auto-update: false;"
           className="uk-drop"
@@ -109,9 +103,6 @@ const ConnectedStudioHome = () => {
         <div
           style={{
             width: "300px",
-            maxWidth: "1873px",
-            top: "339.968px",
-            left: "573.125px",
           }}
           uk-drop="pos: top-center; auto-update: false;"
           className="uk-drop"
@@ -149,9 +140,6 @@ const ConnectedStudioHome = () => {
         <div
           style={{
             width: "300px",
-            maxWidth: "1873px",
-            top: "88.3591px",
-            left: "516.047px",
           }}
           uk-drop="pos: top-center; auto-update: false;"
           className="uk-drop"
@@ -187,9 +175,6 @@ const ConnectedStudioHome = () => {
         <div
           style={{
             width: "300px",
-            maxWidth: "1873px",
-            top: "339.968px",
-            left: "573.125px",
           }}
           uk-drop="pos: top-center; auto-update: false;"
           className="uk-drop"
@@ -228,9 +213,6 @@ const ConnectedStudioHome = () => {
         <div
           style={{
             width: "300px",
-            maxWidth: "1873px",
-            top: "511.39px",
-            left: "516.047px",
           }}
           uk-drop="pos: top-center; auto-update: false;"
           className="uk-drop"
@@ -266,9 +248,6 @@ const ConnectedStudioHome = () => {
         <div
           style={{
             width: "300px",
-            maxWidth: "1873px",
-            top: "758.625px",
-            left: "363.797px",
           }}
           uk-drop="pos: top-center; auto-update: false;"
           className="uk-drop"
@@ -305,9 +284,6 @@ const ConnectedStudioHome = () => {
         <div
           style={{
             width: "300px",
-            maxWidth: "1873px",
-            top: "-58.4533px",
-            left: "268.656px",
           }}
           uk-drop="pos: top-center; auto-update: false;"
           className="uk-drop"
@@ -344,9 +320,6 @@ const ConnectedStudioHome = () => {
         <div
           style={{
             width: "300px",
-            maxWidth: "1873px",
-            top: "606.39px",
-            left: "1277.25px",
           }}
           uk-drop="pos: top-center; auto-update: false;"
           className="uk-drop"
@@ -382,9 +355,6 @@ const ConnectedStudioHome = () => {
         <div
           style={{
             width: "300px",
-            maxWidth: "1873px",
-            top: "834.75px",
-            left: "1429.48px",
           }}
           uk-drop="pos: top-center; auto-update: false;"
           className="uk-drop"
@@ -420,9 +390,6 @@ const ConnectedStudioHome = () => {
         <div
           style={{
             width: "300px",
-            maxWidth: "1873px",
-            top: "834.75px",
-            left: "1429.48px",
           }}
           uk-drop="pos: top-center; auto-update: false;"
           className="uk-drop"
