@@ -5,6 +5,7 @@ const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
   const [subMenuActive, setSubMenuActive] = useState(false);
   const [subMenuActive2, setSubMenuActive2] = useState(false);
+  const [subMenuActive3, setSubMenuActive3] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
   const [lastScrollTop, setLastScrollTop] = useState(0);
 
@@ -16,6 +17,9 @@ const Header = () => {
   };
   const subMenuToggleClass2 = () => {
     setSubMenuActive2(!subMenuActive2);
+  };
+  const subMenuToggleClass3 = () => {
+    setSubMenuActive3(!subMenuActive3);
   };
 
   useEffect(() => {
@@ -129,9 +133,24 @@ const Header = () => {
                   </li>
                   <li
                     id="menu-item-484"
-                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"
+                    className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-459"
                   >
                     <Link to="/about">About</Link>
+                    <span className="icon"></span>
+                    <ul className="sub-menu">
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
+                        <Link to="/our-process">Our Process</Link>
+                      </li>
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
+                        <Link to="/partners">Partners</Link>
+                      </li>
+                    </ul>
                   </li>
                   <li
                     id="menu-item-459"
@@ -238,12 +257,6 @@ const Header = () => {
                     <Link to="brands-we-carry">Brands</Link>
                   </li>
                   <li
-                    id="menu-item-2848"
-                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2848"
-                  >
-                    <Link to="/partners">Partners</Link>
-                  </li>
-                  <li
                     id="menu-item-1188"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1188"
                   >
@@ -311,10 +324,51 @@ const Header = () => {
                       <Link to="/start-your-project">Start Your Project</Link>
                     </div>
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-484">
+                  <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-459">
                     <div className="ancestor-wrapper">
                       <Link href="/about">About</Link>
+                      <button
+                        className={`toggle sub-menu-toggle fill-children-current-color ${
+                          subMenuActive3 ? "active" : ""
+                        }`}
+                        onClick={subMenuToggleClass3}
+                      >
+                        <span className="screen-reader-text">
+                          Show sub menu
+                        </span>
+                        <svg
+                          className="svg-icon"
+                          aria-hidden="true"
+                          role="img"
+                          focusable="false"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="12"
+                          viewBox="0 0 20 12"
+                        >
+                          <polygon
+                            fill=""
+                            fillRule="evenodd"
+                            points="1319.899 365.778 1327.678 358 1329.799 360.121 1319.899 370.021 1310 360.121 1312.121 358"
+                            transform="translate(-1310 -358)"
+                          ></polygon>
+                        </svg>
+                      </button>
                     </div>
+                    <ul
+                      className={`sub-menu ${subMenuActive3 ? "active" : ""}`}
+                    >
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                        <div className="ancestor-wrapper">
+                          <Link to="/our-process">Our Process</Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                        <div className="ancestor-wrapper">
+                          <Link to="/partners">Partners</Link>
+                        </div>
+                      </li>
+                    </ul>
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-459">
                     <div className="ancestor-wrapper">
@@ -347,7 +401,9 @@ const Header = () => {
                         </svg>
                       </button>
                     </div>
-                    <ul className={`sub-menu ${subMenuActive2 ? "active" : ""}`}>
+                    <ul
+                      className={`sub-menu ${subMenuActive2 ? "active" : ""}`}
+                    >
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                         <div className="ancestor-wrapper">
                           <Link to="/indoor-living">Indoor Living</Link>

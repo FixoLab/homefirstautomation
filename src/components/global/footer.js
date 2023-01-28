@@ -46,43 +46,14 @@ const Footer = () => {
                           </Link>
                           <br />
                           <Link aria-label="Location" to="/#">
-                            6735 Conroy Windermere Rd, <br />
-                            Suite 219, <br />
-                            Orlando, Florida 32835
+                            <p>Corporate Office</p>
+                            6735 Conroy Windermere Rd, Suite 219, Orlando,
+                            Florida 32835
                           </Link>
-                          <br />
-                          <p></p>
-
-                          <div className="aps-social-icon-wrapper">
-                            <div className="aps-group-horizontal">
-                              <div
-                                className="aps-each-icon icon-1-1"
-                                style={{ margin: "10px" }}
-                              >
-                                <Link
-                                  aria-label="Facebook"
-                                  to="/#"
-                                  className="aps-icon-link animated aps-tooltip"
-                                >
-                                  <i className="fa-brands fa-facebook-f"></i>
-                                </Link>
-                              </div>
-
-                              <div className="aps-each-icon icon-1-2">
-                                <Link
-                                  aria-label="Linkedin"
-                                  to="/#"
-                                  className="aps-icon-link animated aps-tooltip"
-                                >
-                                  <i className="fa-brands fa-linkedin-in"></i>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
                         </div>
                         <div className="footerlinks2">
                           <div className="su-accordion su-u-trim footermenu">
-                            <Link to="/">Home</Link>
+                            <Link to="/start-your-projects">START YOUR PROJECT</Link>
                             <Link to="/about">About</Link>
                             <div
                               className={`su-spoiler su-spoiler-style-default su-spoiler-icon-chevron ${
@@ -165,7 +136,9 @@ const Footer = () => {
       >
         <div className="section-inner">
           <div className="footer-credits">
-            <p className="footer-copyright">&copy; 2023 Homefirst</p>
+            <p className="footer-copyright">
+              &copy; HomeFirst LLC 2023 All rights reserved
+            </p>
           </div>
           <a aria-label="Scroll Top" className="to-the-top" href="#site-header">
             <span className="to-the-top-long">

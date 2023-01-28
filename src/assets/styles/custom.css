@@ -497,6 +497,24 @@ li.menu-item-3288 .fas {
   padding: 20px 30px !important;
 }
 
+.primary-btn a {
+  background: #007ca1;
+  color: #fff !important;
+  padding: 10px 30px !important;
+  border-radius: 30px;
+  margin-top: 20px !important;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px !important;
+  border: 1px solid transparent;
+}
+.primary-btn a:hover {
+  background: #fff;
+  border: 1px solid #007ca1;
+  color: #000 !important;
+}
+
 .servicesimages .wp-block-image {
   margin: 0px !important;
   width: 100%;
@@ -1881,6 +1899,12 @@ a#bbblink {
 }
 .footerlinks1 img {
   max-width: 230px;
+  margin-bottom: 5px;
+}
+.footerlinks1 p {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 .footerlinks2 {
   flex-basis: 300px;
@@ -2995,9 +3019,175 @@ a#scroll-to-top {
   padding: 0 !important;
   font-size: 14px;
 }
+.our-process video {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.our-process .our-process-hero {
+  position: relative;
+}
+.our-process .our-process-hero .our-process-video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(23, 25, 26, 0.65);
+}
+.our-process .our-process-hero .our-process-hero-content {
+  bottom: 0px;
+  max-width: 100% !important;
+  background: transparent;
+  padding: 45px 30px 0px;
+  margin: 0px auto !important;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.our-process .our-process-hero .our-process-hero-content .content-wrapper {
+  width: 600px;
+  max-width: 100% !important;
+  padding: 60px 0px 50px;
+  background: transparent;
+  margin: 0px !important;
+  display: block;
+  text-align: center;
+}
+.our-process
+  .our-process-hero
+  .our-process-hero-content
+  .content-wrapper
+  .content-title {
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 25px;
+  text-shadow: #747474 0.05em 0.05em 0.1em;
+  margin-top: 0;
+}
+.our-process
+  .our-process-hero
+  .our-process-hero-content
+  .content-wrapper
+  .content-description {
+  color: #fff;
+}
+.our-process
+  .our-process-hero
+  .our-process-hero-content
+  .content-wrapper
+  .content-description
+  a {
+  color: #58c7f1 !important;
+}
+.our-process-desc {
+  max-width: 1200px;
+  padding: 80px 20px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}
+.our-process-desc .our-process-desc-left {
+  width: 30%;
+}
+.our-process-desc .our-process-desc-left .title {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.our-process-desc .our-process-desc-left .subtitle {
+  margin: 20px 0;
+}
+.our-process-desc .our-process-desc-left .card {
+  margin-top: 20px;
+  padding: 40px;
+  background-color: #fafafa;
+}
+.our-process-desc .our-process-desc-left .card .card-title {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-style: italic;
+}
+.our-process-desc .our-process-desc-left .card .card-description {
+  margin-top: 20px;
+}
+
+.our-process-desc .our-process-desc-right {
+  width: 70%;
+}
+.our-process-desc .our-process-desc-right .card-item {
+  background-color: #fafafa;
+  padding: 40px;
+  border-top: 2px solid #007ca1;
+}
+.our-process-desc .our-process-desc-right .card-item:not(:first-child) {
+  margin-top: 40px;
+}
+.our-process-desc .our-process-desc-right .card-item .card-item-title {
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-style: italic;
+  margin: 0;
+}
+.our-process-desc .our-process-desc-right .card-item .card-item-desc {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .our-process-desc {
+    flex-wrap: wrap;
+  }
+  .our-process-desc .our-process-desc-left {
+    width: 100%;
+  }
+  .our-process-desc .our-process-desc-right {
+    width: 100%;
+  }
+  .our-process-desc .our-process-desc-left .card {
+    padding: 20px;
+  }
+  .our-process-desc .our-process-desc-right .card-item {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 600px) {
+  .our-process video {
+    height: 550px;
+  }
+  .our-process
+    .our-process-hero
+    .our-process-hero-content
+    .content-wrapper
+    .content-title {
+    margin-bottom: 35px;
+  }
+}
 
 @media (min-width: 1200px) {
   .csh-card .csh-card-content {
     padding: 40px 40px;
+  }
+  .our-process
+    .our-process-hero
+    .our-process-hero-content
+    .content-wrapper
+    .content-title {
+    margin-bottom: 45px;
+  }
+  .our-process video {
+    height: 700px;
   }
 }

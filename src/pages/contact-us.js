@@ -43,12 +43,12 @@ const ContactUs = () => {
                     {" "}
                     <i className="fas fa-phone"></i>
                     <p>
-                      <strong>Phone:</strong> (310) 402-4818
+                      <strong>Phone:</strong> 407.228.3000
                     </p>
                     <i className="fas fa-regular fa-location-dot"></i>
                     <p>
-                      <strong>Address</strong> 12794 W Washington Blvd Los
-                      Angeles, CA 90066
+                      <strong>Address</strong> 6735 Conroy Windermere Rd, Suite
+                      219, Orlando, Florida 32835
                     </p>
                     <i className="fas fa-clock"></i>
                     <p>
@@ -65,8 +65,8 @@ const ContactUs = () => {
                         AV company
                       </a>{" "}
                       can help you with all your smart home automation,
-                      entertainment, or security needs in the Orlando, Florida area.
-                      Use the form below to touch base with one of our
+                      entertainment, or security needs in the Orlando, Florida
+                      area. Use the form below to touch base with one of our
                       specialists and we will contact you back as soon as
                       possible. Want a more personalized conversation? Stop on
                       by our store front or give us a call.
@@ -169,13 +169,13 @@ const ContactUs = () => {
                     height: "1284px",
                   }}
                   tabIndex="0"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.8819133803872!2d-118.43925378478643!3d33.99556678062137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2ba61a5c07e1f%3A0xed961dabad73c8cd!2s12794%20Washington%20Blvd%2C%20Los%20Angeles%2C%20CA%2090066!5e0!3m2!1sen!2sus!4v1600373688107!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.504532399776!2d-81.47616788457283!3d28.494464397066498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77ff626830657%3A0x655de93f0d245402!2sHomeFirst%20Security%20and%20Automation!5e0!3m2!1sen!2sbd!4v1674917196012!5m2!1sen!2sbd"
                   width="600"
                   height="450"
                   allowFullScreen="allowFullScreen"
                   aria-hidden="false"
                   title="map"
-                ></iframe>{" "}
+                ></iframe>
               </div>
             </div>
           </div>
