@@ -73,7 +73,7 @@ const Header = () => {
                     aria-current="page"
                   >
                     <img
-                      width="261"
+                      width="387"
                       height="90"
                       src="/assets/images/Homefirst_Auto.png"
                       className="custom-logo"
