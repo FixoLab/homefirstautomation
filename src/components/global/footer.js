@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import FooterContact from "../footer-contact";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 import "swiper/css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import FooterContact from "../footer-contact";
 
 const Footer = () => {
   const [footerMenu, setFooterMenu] = useState(false);
@@ -40,20 +40,16 @@ const Footer = () => {
                     <div className="textwidget">
                       <div className="footerlinks">
                         <div className="footerlinks1">
-                          <Link aria-label="Location" to="/#">
                             <img
                               src="/assets/images/Homefirst_Auto.png"
                               alt="project automate logo"
                               width="200"
                               height="80"
                             />
-                          </Link>
                           <br />
-                          <Link aria-label="Location" to="/#">
                             <p>Corporate Office</p>
                             6735 Conroy Windermere Rd,
                             <br /> Suite 219, Orlando, Florida 32835
-                          </Link>
                         </div>
                         <div className="footerlinks2">
                           <div className="su-accordion su-u-trim footermenu">
