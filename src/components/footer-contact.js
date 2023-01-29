@@ -83,18 +83,17 @@ const FooterContact = () => {
             Directly
           </h3>
           <p>
-            <Link aria-label="Location Link" to="/#">
+  
               <i className="fas fa-solid fa-location-dot"></i>
-            </Link>
+
           </p>
-          <Link aria-label="Address" to="/#">
+          
             <p>
               <strong>Address</strong> <br />
               6735 Conroy Windermere Rd, <br />
               Suite 219, <br />
               Orlando, Florida 32835
             </p>
-          </Link>
           <p>
             <a aria-label="Phone number" href="tel:4072283000">
               <i className="fas fa-phone"></i>
