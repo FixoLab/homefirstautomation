@@ -812,132 +812,6 @@ li.menu-item-3288 .fas {
   max-width: 600px;
 }
 
-/*BLOG MAIN PAGE*/
-.blog #site-content::before {
-  display: revert;
-  width: 100%;
-  height: 90vh;
-  background-image: url("../../../public/assets/images/blog-cover.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: none;
-}
-.blog #site-content::after {
-  display: revert;
-  position: absolute;
-  width: 100%;
-  height: 50px;
-  top: 80vh;
-  left: 0px;
-  text-align: center;
-  font-weight: 400;
-  color: #fff;
-  text-shadow: #747474 0.05em 0.05em 0.1em;
-  font-family: roboto;
-  text-transform: uppercase;
-  font-size: 32px;
-  letter-spacing: 1px;
-  display: none;
-}
-.blog #site-content {
-  background: #fafafa;
-  padding: 120px 0px;
-}
-
-.blog hr.styled-separator {
-  display: none;
-}
-.blog article {
-  width: 100% !important;
-  float: none !important;
-  padding: 100px 40px 0px !important;
-  position: relative !important;
-  max-width: 1920px !important;
-  margin: 0px 13% !important;
-  overflow: hidden !important;
-}
-
-.blog #site-content .section-inner {
-  width: 200% !important;
-  visibility: hidden !important;
-  display: none !important;
-}
-.entry-content > *:not(.alignfull):not(.alignleft):not(.is-style-wide) {
-  max-width: 90% !important;
-  width: calc(100% - 4rem) !important;
-}
-.blog article .entry-title a {
-  width: 100%;
-  font-size: 36px;
-  float: center;
-  font-family: roboto;
-  text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: 1px;
-  color: #007ca1 !important;
-  margin: 0px 0px 30px !important;
-  text-align: left;
-}
-
-.blog .post-inner .entry-content {
-  clear: both !important;
-  text-align: center !important;
-  color: #747474 !important;
-  font-weight: 400 !important;
-  font-size: 16px !important;
-  max-width: 70% !important;
-  margin: 0px 0px 15px !important;
-}
-
-.blog article .entry-title a::after {
-  display: block;
-  content: "";
-  width: 60px;
-  height: 20px;
-  border-bottom: 5px solid #007ca1;
-}
-.blog .post-inner {
-  overflow: hidden;
-  padding-top: 120px;
-}
-.blog .post-inner .entry-content p {
-  width: 100% !important;
-  max-width: 100% !important;
-}
-
-.blog article.odd .post-inner {
-  padding-left: 0px;
-}
-.blog article.even .post-inner {
-  padding-right: 0px;
-}
-.blog .read-more {
-  display: block;
-  color: #007ca1 !important;
-  text-decoration: underline;
-  margin-top: 30px;
-  width: 100% !important;
-  max-width: 100% !important;
-}
-
-.blog #site-header {
-  background: #fff !important;
-}
-.blog svg,
-.blog img,
-.blog embed,
-.blog object {
-  display: revert !important;
-  height: auto !important;
-  max-width: 100% !important;
-}
-.blog p a:link,
-.blog p a:visited {
-  color: #cd2653 !important;
-  text-decoration: none !important;
-}
-
 /*BLOG POSTS*/
 .single-post.singular .post-inner .entry-content {
   clear: both;
@@ -2020,27 +1894,6 @@ a#bbblink {
   width: 100%;
 }
 
-@media only screen and (max-width: 1400px) {
-  .blog article.odd {
-    padding: 120px 30px 0px 0px !important;
-  }
-  .blog article.even {
-    padding: 120px 0px 0px 30px !important;
-  }
-  .blog article.odd .post-inner {
-    padding-left: 30px;
-  }
-  .blog article.even .post-inner {
-    padding-right: 30px;
-  }
-  .blog article.even header {
-    margin-left: 30px;
-  }
-  .blog article.odd header {
-    margin-left: 15px;
-  }
-}
-
 @media only screen and (max-width: 1200px) {
   .wp-block-group.homevideo.servicespages {
     height: inherit;
@@ -2215,27 +2068,6 @@ a#bbblink {
   .homephone {
     display: none !important;
   }
-  .blog article:first-of-type {
-    border-top: none !important;
-    margin-top: 0px !important;
-  }
-  .blog article.odd,
-  .blog article.even {
-    padding: 60px 60px 0px !important;
-    border-top: 1px solid #e4e4e4;
-    margin-top: 60px;
-  }
-  .blog article header {
-    margin: 0px !important;
-    text-align: left;
-    position: relative !important;
-    left: inherit !important;
-    top: inherit !important;
-    overflow: hidden;
-  }
-  .blog .post-inner {
-    padding: 60px 0px 0px !important;
-  }
   .brandscolumn .wp-block-column {
     width: 40%;
   }
@@ -2391,13 +2223,6 @@ a#bbblink {
     display: block;
     text-align: center;
     padding: 15px 0px;
-  }
-  .blog article.odd,
-  .blog article.even {
-    padding: 60px 30px 0px !important;
-  }
-  .blog article .entry-title a {
-    font-size: 30px;
   }
   .fullimagetop {
     height: 400px !important;
@@ -3203,4 +3028,20 @@ a#scroll-to-top {
   .our-process video {
     height: 700px;
   }
+}
+.blog {
+  padding-top: 120px;
+}
+.blog-wrapper {
+  max-width: 1200px;
+  padding: 80px 20px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}
+.blog-wrapper .blog-content {
+  width: 70%;
+}
+.blog-wrapper .blog-sidebar {
+  width: 30%;
 }
