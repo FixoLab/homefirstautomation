@@ -40,6 +40,7 @@ const Footer = () => {
                     <div className="textwidget">
                       <div className="footerlinks">
                         <div className="footerlinks1">
+        
                             <img
                               src="/assets/images/Homefirst_Auto.png"
                               alt="project automate logo"

@@ -82,18 +82,17 @@ const FooterContact = () => {
             Directly
           </h3>
           <p>
-
+  
               <i className="fas fa-solid fa-location-dot"></i>
 
           </p>
-
+          
             <p>
               <strong>Address</strong> <br />
               6735 Conroy Windermere Rd, <br />
               Suite 219, <br />
               Orlando, Florida 32835
             </p>
- 
           <p>
             <a aria-label="Phone number" href="tel:4072283000">
               <i className="fas fa-phone"></i>
