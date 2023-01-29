@@ -1894,7 +1894,7 @@ a#bbblink {
 }
 
 .footerlinks1 {
-  flex-basis: 350px;
+  flex-basis: 400px;
   flex-grow: 0;
 }
 .footerlinks1 img {
@@ -1907,7 +1907,7 @@ a#bbblink {
   margin-bottom: 8px;
 }
 .footerlinks2 {
-  flex-basis: 300px;
+  flex-basis: 400px;
   flex-grow: 0;
   padding-right: 60px;
 }
@@ -1915,24 +1915,72 @@ a#bbblink {
   flex-basis: 0;
   flex-grow: 1;
 }
-
+.footerlinks3 .review {
+  color: #333;
+}
+.footerlinks3 .review .mySwiper {
+  width: 400px;
+}
+.footerlinks3 .review .mySwiper .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.footerlinks3 .review .mySwiper ul {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.footerlinks3 .review .mySwiper ul li {
+  font-size: 20px;
+  list-style: none;
+  margin: 0 !important;
+}
+.footerlinks3 .review .mySwiper .minigray {
+  margin: 0;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+.footerlinks3 .review .mySwiper .user p {
+  margin: 0;
+  text-transform: capitalize;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.icon-link-google {
+  display: inline-block !important;
+  width: 24px !important;
+  height: 24px !important;
+  line-height: 24px !important;
+  vertical-align: text-top !important;
+  background-image: url(https://static.reviewmgr.com/sprites/icons24x24.png?v=1629922137) !important;
+  background-repeat: no-repeat !important;
+  overflow: hidden !important;
+  background-position: 0px -624px !important;
+}
 .footermenu a {
   display: block;
   text-transform: uppercase;
   font-size: 14px;
-  padding: 5px;
+  padding: 7px 0;
 }
 .footermenu .su-spoiler-style-default > .su-spoiler-title {
   display: block;
   text-transform: uppercase;
   font-size: 14px;
-  padding: 5px;
+  padding: 7px 0;
   font-weight: 400;
-  background: #222;
+  color: #222;
 }
 .footermenu .su-spoiler-style-default > .su-spoiler-title:hover {
-  background: #222;
   color: #58c7f1 !important;
+}
+.footermenu .su-spoiler-style-default > .su-spoiler-title:focus {
+  outline: none;
 }
 .footermenu.su-accordion .su-spoiler {
   margin-bottom: 0px !important;
@@ -1942,35 +1990,7 @@ a#bbblink {
   right: 0;
 }
 .footermenu a:hover {
-  background: #222;
   color: #58c7f1 !important;
-}
-.footerlinks3 .su-post-meta {
-  display: none;
-}
-
-.footerlinks3 h2 a {
-  font-weight: 400;
-  color: #222;
-  font-size: 16px;
-}
-.footerlinks3 h2 a:hover {
-  color: #58c7f1;
-}
-.footerlinks3 .su-post-excerpt p {
-  color: #222;
-  font-family: roboto;
-  font-size: 14px;
-}
-.blog .footerlinks3 .su-post-excerpt {
-  display: none;
-}
-
-.footerlinks3 .su-posts-default-loop .su-post {
-  margin-bottom: 5px;
-}
-.footerlinks3 .su-post-thumbnail {
-  display: none !important;
 }
 
 .header-footer-group,
@@ -2111,13 +2131,6 @@ a#bbblink {
   }
   .footerlinks1 img {
     max-width: 200px;
-  }
-  .footerlinks3 {
-    margin-top: 30px;
-    padding-top: 30px;
-    border-top: 1px solid #2c2f30;
-    width: 100%;
-    float: left;
   }
   .wp-block-group.homevideo {
     height: inherit;
