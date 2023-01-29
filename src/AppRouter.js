@@ -1,6 +1,6 @@
 import React, { Suspense, useEffect } from "react";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import "react-loading-skeleton/dist/skeleton.css";
+import { Route, Routes, useLocation } from "react-router-dom";
 
 const Header = React.lazy(() => import("./components/global/header"));
 const Footer = React.lazy(() => import("./components/global/footer"));
@@ -64,7 +64,7 @@ function ScrollToTop() {
 
 const AppRouter = () => {
   return (
-    <BrowserRouter>
+<>
       <ScrollToTop />
       <Suspense>
         <Header />
@@ -121,7 +121,7 @@ const AppRouter = () => {
         </Routes>
         <Footer />
       </Suspense>
-    </BrowserRouter>
+      </>
   );
 };
 
