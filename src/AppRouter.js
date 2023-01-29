@@ -119,7 +119,7 @@ const AppRouter = () => {
           <Route path="/our-process" element={<OurProcess />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
-        <Footer />
+
       </Suspense>
     </BrowserRouter>
   );
