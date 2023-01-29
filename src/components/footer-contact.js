@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const FooterContact = () => {
