@@ -1,6 +1,6 @@
 import React, { Suspense, useEffect } from "react";
-import "react-loading-skeleton/dist/skeleton.css";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import "react-loading-skeleton/dist/skeleton.css";
 
 const Header = React.lazy(() => import("./components/global/header"));
 const Footer = React.lazy(() => import("./components/global/footer"));
@@ -119,7 +119,7 @@ const AppRouter = () => {
           <Route path="/our-process" element={<OurProcess />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
-
+        <Footer />
       </Suspense>
     </BrowserRouter>
   );
