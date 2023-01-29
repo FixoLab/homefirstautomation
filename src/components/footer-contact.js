@@ -1,5 +1,4 @@
 import React from "react";
-
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const FooterContact = () => {
