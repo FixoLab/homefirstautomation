@@ -206,15 +206,15 @@ const Header = () => {
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
                       >
                         <Link to="/commercial-solutions-commercial-security">
-                        Commercial Solutions: Commercial security
+                        Commercial Solutions: Commercial Security
                         </Link>
                       </li>
                       <li
                         id="menu-item-970"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
                       >
-                        <Link to="/connected-studio-living">
-                          Connected Studio Living
+                        <Link to="/commercial-solutions-commercial-technology">
+                        Commercial Solutions: Commercial Technology
                         </Link>
                       </li>
                     </ul>
