@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 const LoadingSpinner = React.lazy(() =>
   import("../components/loading-spinner")
 );
@@ -8,6 +9,8 @@ const api_domain = process.env.REACT_APP_DOMAIN;
 
 const Blog = () => {
   const [data, setData] = useState([]);
+  console.log(data);
+  const allBlog = data.filter((item, index) => index !== 0);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -20,35 +23,110 @@ const Blog = () => {
   }, []);
 
   return (
-    <div className="blog">
-      <main id="site-content" role="main">
-        {data.length === 0 ? (
-          <LoadingSpinner />
-        ) : (
-          <>
-          <h1 className="title">Blog </h1>
+    <div id="site-content" className="blog">
+      {data.length === 0 ? (
+        <LoadingSpinner />
+      ) : (
+        <div className="blog-area">
+          <h2 className="blog-area-title">Blog</h2>
           <div className="blog-wrapper">
             <div className="blog-content">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Perspiciatis eius assumenda at animi explicabo amet! Veniam
-              voluptatem neque dolorum at molestiae repellat, quidem recusandae
-              exercitationem harum fuga accusamus soluta? Culpa in laborum,
-              eligendi quis maiores numquam ea optio corrupti ipsam explicabo
-              incidunt porro animi ut nam ipsum, voluptas rem amet. Ipsa,
-              perferendis. Voluptatum corporis, delectus rerum a quisquam vero
-              quam recusandae voluptates labore, aliquam magni corrupti
-              repellendus, quidem tempora rem?
+              <Link
+                to={`/blog/${data[0].slug}`}
+                className="blog-content-top"
+                style={{ marginBottom: "20px" }}
+              >
+                <div
+                  className="image"
+                  style={{
+                    backgroundImage: `url(${data[0]?.better_featured_image.source_url})`,
+                  }}
+                ></div>
+                <div style={{ padding: "15px", flexGrow: "1" }}>
+                  <h2>{data[0]?.title.rendered}</h2>
+                  <div className="links">
+                    <Link to="#">Blog</Link>
+                    <Link to="#">home theater installation</Link>
+                    <Link to="#">
+                      home theater installation west univerity place tx
+                    </Link>
+                  </div>
+                </div>
+                <p className="read-more">Read More</p>
+                <div className="user">
+                  <i className="fa-regular fa-clock"></i>
+                  <span>july 27, 2022</span>
+                  <span>by Jhon</span>
+                </div>
+              </Link>
+              <div className="blog-content-bottom">
+                {allBlog?.map((blog) => (
+                  <Link
+                    to={`/blog/${blog.slug}`}
+                    key={blog.id}
+                    className="blog-content-top"
+                  >
+                    <div
+                      className="image"
+                      style={{
+                        backgroundImage: `url(${blog.better_featured_image.source_url})`,
+                      }}
+                    ></div>
+                    <div style={{ padding: "15px", flexGrow: "1" }}>
+                      <h2>{blog.title.rendered}</h2>
+                      <div className="links">
+                        <Link to="#">Blog</Link>
+                        <Link to="#">home theater installation</Link>
+                        <Link to="#">
+                          home theater installation west univerity place tx
+                        </Link>
+                      </div>
+                    </div>
+                    <p className="read-more">Read More</p>
+                    <div className="user">
+                      <i className="fa-regular fa-clock"></i>
+                      <span>july 27, 2022</span>
+                      <span>by Jhon</span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
             </div>
             <div className="blog-sidebar">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Accusantium animi ut nesciunt sint alias eveniet molestias eos!
-              Obcaecati aperiam, animi non nihil consequuntur doloribus
-              accusamus ducimus illum commodi sunt assumenda.
+              <div className="item">
+                <h2>Most Popular Posts</h2>
+                <p>No posts found.</p>
+              </div>
+              <div className="item">
+                <h2>Most Popular Categories</h2>
+                <div className="item-element category">
+                  <Link to="#">Blog</Link>
+                  <Link to="#">Form our experts</Link>
+                </div>
+              </div>
+              <div className="item">
+                <h2>Most Popular Topics</h2>
+                <div className="item-element">
+                  <Link to="#">high end audio</Link>
+                  <Link to="#">news</Link>
+                  <Link to="#">home theater installation</Link>
+                  <Link to="#">home theater</Link>
+                  <Link to="#">outdoor sound system</Link>
+                  <Link to="#">west university place tx</Link>
+                </div>
+                <button>View More</button>
+              </div>
+              <div className="item">
+                <h2>Most Popular Brands</h2>
+                <div className="item-element">
+                  <Link to="#">Beko</Link>
+                  <Link to="#">Bosch</Link>
+                </div>
+              </div>
             </div>
           </div>
-          </>
-        )}
-      </main>
+        </div>
+      )}
     </div>
   );
 };

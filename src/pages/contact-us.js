@@ -8,7 +8,7 @@ const ContactUs = () => {
     <div id="site-content" className="contact-us-page">
       <div className="post-inner thin ">
         <div className="entry-content">
-
+          <div>
             <div className="is-layout-flow wp-block-group homevideo servicespages">
               <div className="wp-block-group__inner-container">
                 <video
@@ -179,7 +179,7 @@ const ContactUs = () => {
                 ></iframe>
               </div>
             </div>
-      
+          </div>
         </div>
       </div>
     </div>
