@@ -326,7 +326,7 @@ const Header = () => {
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-459">
                     <div className="ancestor-wrapper">
-                      <Link href="/about">About</Link>
+                      <Link to="/about">About</Link>
                       <button
                         className={`toggle sub-menu-toggle fill-children-current-color ${
                           subMenuActive3 ? "active" : ""

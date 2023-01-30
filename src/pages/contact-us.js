@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
@@ -61,9 +62,9 @@ const ContactUs = () => {
                     <p>
                       With over 100 years of combined experience our smart home
                       and{" "}
-                      <a href="https://www.projectautomate.com/home-theater/">
+                      <Link to="https://www.projectautomate.com/home-theater/">
                         AV company
-                      </a>{" "}
+                      </Link>{" "}
                       can help you with all your smart home automation,
                       entertainment, or security needs in the Orlando, Florida
                       area. Use the form below to touch base with one of our
