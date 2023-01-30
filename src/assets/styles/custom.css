@@ -2255,6 +2255,14 @@ a#scroll-to-top {
   background-position: center;
   background-size: cover !important;
 }
+.indoor-living-background .overlay{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.219);
+}
 .indoor-living-background .wp-block-group__inner-container h6 {
   color: #007ca1;
   margin-bottom: 10px;
@@ -2264,7 +2272,7 @@ a#scroll-to-top {
 }
 .indoor-living-background .wp-block-group__inner-container p {
   margin-bottom: 25px;
-  color: #747474;
+  color: #fff;
   text-shadow: #575555 0.05em 0.05em 0.1em;
 }
 .indoor-living-feature h3 {
@@ -3254,5 +3262,86 @@ a#scroll-to-top {
   }
   .our-process video {
     height: 700px;
+  }
+}
+
+/* commercial automation  */
+.commercial-page .commercial-automantion-video {
+  height: 85vh !important;
+}
+.commercial-page .pointsmade {
+  text-transform: uppercase;
+}
+.commercial-page .wp-block-group__inner-container h1 {
+ margin-bottom: 20px !important;
+}
+.commercial-page .wp-block-group__inner-container .minigray  {
+  margin-bottom: 30px;
+  color: #fff;
+  text-shadow: #575555 0.05em 0.05em 0.1em;
+  text-transform: uppercase;
+}
+.commercial-page .commercial-automation-ul {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  list-style: none;
+}
+.commercial-page .commercial-automation-ul li {
+  margin: 0;
+  padding-left: 25px;
+  position: relative;
+  margin-bottom: 7px;
+}
+.commercial-page .commercial-automation-ul li::before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.commercial-page .commercial-automation-bottom{
+  text-align: center;
+  padding: 80px 0;
+}
+.commercial-page .commercial-automation-bottom a{
+  font-size: 25px;
+}
+.commercial-page .commercial-automation-bottom .button{
+  background: #007ca1;
+  color: #fff !important;
+  padding: 10px 30px !important;
+  border-radius: 30px;
+  margin-top: 20px !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px !important;
+  border: 1px solid transparent;
+}
+
+.commercial-page .commercial-automation-bottom h2 {
+  font-size: 36px;
+  font-family: roboto;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #007ca1;
+  margin: 30px 0 !important;
+}
+
+/* commercial-technology */
+.commercial-technology .title-inner .section-grid .grid-item-1 {
+  width: 66.67%;
+}
+.commercial-technology .title-inner .section-grid .grid-item-2 {
+  width: 33.33%;
+}
+
+@media screen and (max-width: 960px) {
+  .commercial-technology .title-inner .section-grid .grid-item-1 {
+    width: 100%;
+  }
+  .commercial-technology .title-inner .section-grid .grid-item-2 {
+    width: 100%;
   }
 }

@@ -185,6 +185,38 @@ const Header = () => {
                           Connected Studio Living
                         </Link>
                       </li>
+                      <li
+                        id="menu-item-970"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
+                      >
+                        <Link to="/commercial-solutions-commercial-automation">
+                          Commercial Solutions: Commercial Automation
+                        </Link>
+                      </li>
+                      <li
+                        id="menu-item-970"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
+                      >
+                        <Link to="/commercial-solutions-commercial-audio-video">
+                        Commercial Solutions: Commercial Audio / Video
+                        </Link>
+                      </li>
+                      <li
+                        id="menu-item-970"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
+                      >
+                        <Link to="/commercial-solutions-commercial-security">
+                        Commercial Solutions: Commercial Security
+                        </Link>
+                      </li>
+                      <li
+                        id="menu-item-970"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
+                      >
+                        <Link to="/commercial-solutions-commercial-technology">
+                        Commercial Solutions: Commercial Technology
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li
