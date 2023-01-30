@@ -1,27 +1,22 @@
-import React from "react";
-
-const CommercialAutomation = () => {
+const CommercialSecurity = () => {
   return (
     <div id="site-content">
       <div className="post-inner thin commercial-page">
         <div className="entry-content">
-          <div className="is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video">
-            <div className="wp-block-group__inner-container commercial-automantion-video">
-              <video
-                id="video-background"
-                className="high4kres"
-                autoPlay
-                loop="loop"
-                muted
-                playsInline=""
-                width="300"
-                height="150"
-              >
-                <source
-                  src="assets/video/commurcial-automation-hero.mp4"
-                  type="video/mp4"
-                />
-              </video>
+          <div
+            className="is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video"
+            style={{ height: "85vh" }}
+          >
+            <div
+              className="wp-block-group__inner-container indoor-living-background"
+              style={{
+                backgroundImage:
+                  "url(assets/images/commercial-security-hero.webp)",
+                height: "85vh",
+                backgroundPosition: "center",
+              }}
+            >
+              <div className="overlay" />
 
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
@@ -32,47 +27,48 @@ const CommercialAutomation = () => {
                     data-aos-delay="400"
                   >
                     <div className="wp-block-group__inner-container">
-                      <h1>Commercial Automation</h1>
+                      <h1>Commercial Security</h1>
                       <div>
                         <p className="minigray">
-                          IMPROVE BUSINESS OPERATIONS AND EMPLOYEE COLLABORATION
-                          WITH INTEGRATED AND AUTOMATED CONTROL OF MEDIA,
-                          LIGHTING, SHADES AND SECURITY.
+                          TAKE COMMAND OF YOUR BUSINESS SECURITY FROM ANYWHERE
+                          WITH REMOTE MANAGEMENT AND MONITORING FEATURES THAT
+                          KEEP YOU IN THE KNOW 24/7.
                         </p>
                       </div>
+
                       <p>
                         <a aria-label="Scroll down01" href="#1">
-                          Room control
+                          Alarm Systems
                         </a>
                       </p>
 
                       <p>
                         <a aria-label="Scroll down02" href="#2">
-                          Lighting Control
+                          Surveillance
                         </a>
                       </p>
 
                       <p>
                         <a aria-label="Scroll down03" href="#3">
-                          window Treatments
+                          Entry Systems / Access Control{" "}
                         </a>
                       </p>
 
                       <p>
                         <a aria-label="Scroll down04" href="#4">
-                          Media Control
+                          Remote Access / Monitoring
                         </a>
                       </p>
 
                       <p>
                         <a aria-label="Scroll down05" href="#5">
-                          NetWorking
+                          Outdoor Perimeter Protection
                         </a>
                       </p>
 
                       <p>
                         <a aria-label="Scroll down06" href="#6">
-                          Unified Communications & Collaboration
+                          Motion Detection
                         </a>
                       </p>
                     </div>
@@ -95,7 +91,7 @@ const CommercialAutomation = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/commercial-automation-1.webp"
+                  src="assets/images/commercial-security-1.webp"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -110,24 +106,26 @@ const CommercialAutomation = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>Integrated Room Control</h2>
+                  <h2>Business Alarm Systems</h2>
 
                   <p className="pointsmade homeauto">
-                    TRANSFORM YOUR COMPANY’S MOST IMPORTANT ROOMS WITH OFFICE
-                    AUTOMATION
+                  SECURE YOUR FACILITIES WITH THE BEST COMMERCIAL GRADE SECURITY SOLUTIONS
+
                   </p>
                   <ul className="commercial-automation-ul">
                     <li>
-                      Operate all the technology from one device using a
-                      building automation system
+                    Reduce the threat from career burglars with a professionally installed and monitored system
+
                     </li>
                     <li>
-                      Office automation lets you create the ideal environment
-                      for meetings and presentations with the tap of a button
+                    Use one-tap control from a touch screen or mobile device to arm and disarm your business alarm system from anywhere
+
+
                     </li>
                     <li>
-                      Prepare and adjust quickly for more efficient use of your
-                      Seattle, WA workspaces
+                    Receive security notifications for any suspicious activity on your property in Seattle, WA
+
+
                     </li>
                   </ul>
                 </div>
@@ -149,7 +147,7 @@ const CommercialAutomation = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/commercial-automation-2.webp"
+                  src="assets/images/commercial-security-2.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -164,16 +162,25 @@ const CommercialAutomation = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>Lighting Control</h2>
+                  <h2>Surveillance</h2>
 
                   <p className="pointsmade homeauto">
-                    HARNESS THE FULL POWER OF NATURAL AND ARTIFICIAL LIGHTING
+                  ACCESS REAL-TIME AND RECORDED FOOTAGE ANYTIME FOR SECURITY AND QUALITY CONTROL
                   </p>
 
                   <ul className="commercial-automation-ul">
-                    <li>Easily manage lights via keypads, apps or touchpads</li>
-                    <li>Minimize costs through occupancy sensors and timers</li>
-                    <li>Adjusts lights according to time, function and room</li>
+                    <li>
+                      AV-over-IP solutions distribute media sources to each
+                      display regardless of distance
+                    </li>
+                    <li>
+                    Extensive video analytics isolate activity trends and potential threats.
+
+                    </li>
+                    <li>
+                    Keep sensitive surveillance footage secure through encryption protocols.
+
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -194,7 +201,7 @@ const CommercialAutomation = () => {
                 <img
                   width="2396"
                   height="1600"
-                  src="assets/images/commercial-automation-3.webp"
+                  src="assets/images/commercial-security-3.webp"
                   alt=""
                   className="wp-image-848"
                 />
@@ -209,22 +216,23 @@ const CommercialAutomation = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>Motorized Window Treatments</h2>
+                  <h2>Commercial Entry Systems / Access Control</h2>
 
                   <p className="pointsmade homeauto">
-                    REVITALIZE YOUR BUSINESS WITH FLAWLESS CONTROL OF NATURAL
-                    LIGHT
+                  CONTROL AND MONITOR ACCESS TO YOUR PROPERTY WITH INNOVATIVE TECHNOLOGY
                   </p>
                   <ul className="commercial-automation-ul">
                     <li>
-                      Embrace sunlight for enhanced comfort and well-being
+                    Ensure authorized access only via keycards, codes, biometrics or mobile apps
+
                     </li>
                     <li>
-                      Eliminate heat gain, glare and UV damage to furnishings
+                    Detailed entry logs and security alerts keep you informed of who comes and goes throughout your property in Seattle, WA
+
                     </li>
                     <li>
-                      Designer window treatments available in various fabrics
-                      and colors
+                    Detailed entry logs and security alerts keep you informed of who comes and goes throughout your property in Seattle, WA
+
                     </li>
                   </ul>
                 </div>
@@ -246,7 +254,7 @@ const CommercialAutomation = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/commercial-automation-4.webp"
+                  src="assets/images/commercial-security-4.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -261,25 +269,25 @@ const CommercialAutomation = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>Media Control</h2>
+                  <h2>Remote Access / Monitoring</h2>
 
                   <p className="pointsmade homeauto">
-                    EXCEPTIONAL CONTROL OF ALL YOUR MEDIA CONTENT AT A BUTTON’S
-                    PRESS
+                  TAKE YOUR BUSINESS SECURITY WITH YOU WHEREVER YOU GO WITH DEDICATED APPS
+
                   </p>
 
                   <ul className="commercial-automation-ul">
                     <li>
-                      Instantly change content or adjust volume from a
-                      touchscreen, app or keypad
+                    Alarm systems are monitored around the clock to assist in case of an emergency
+
                     </li>
                     <li>
-                      Integrate endless source options including computer, cable
-                      and streaming
+                      Notifications via text or email alert you of any emergencies or suspicious activity
+
                     </li>
                     <li>
-                      Limit clutter by reducing remotes and locating AV gear in
-                      technology closets
+                    Have access to surveillance footage and security event data from anywhere
+
                     </li>
                   </ul>
                 </div>
@@ -301,7 +309,7 @@ const CommercialAutomation = () => {
                 <img
                   width="2396"
                   height="1600"
-                  src="assets/images/commercial-automation-5.webp"
+                  src="assets/images/commercial-security-5.webp"
                   alt=""
                   className="wp-image-848"
                 />
@@ -316,23 +324,24 @@ const CommercialAutomation = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2> Networking</h2>
+                  <h2>Outdoor Perimeter Protection</h2>
 
                   <p className="pointsmade homeauto">
-                    INTENT-BASED NETWORKS BRIDGE THE GAP BETWEEN BUSINESS AND IT
+                  IMPLEMENT PERIMETER PROTECTIONS TO KEEP THREATS FROM REACHING YOUR PROPERTY
+
                   </p>
                   <ul className="commercial-automation-ul">
                     <li>
-                      Application-based hardware enhances network reliability
-                      and speed
+                    Fence, wall and perimeter sensors quickly inform you of suspicious activity
+
                     </li>
                     <li>
-                      Network management software optimizes performance for
-                      applications and devices
+                    Enforce strict access control protocols with state-of-the-art gate entry systems
+
                     </li>
                     <li>
-                      Mitigate threats to security with firewalls, encryption
-                      and network security software
+                    Video surveillance systems capture threats the moment they enter protected areas
+
                     </li>
                   </ul>
                 </div>
@@ -353,7 +362,7 @@ const CommercialAutomation = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/commercial-automation-6.webp"
+                  src="assets/images/commercial-security-6.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -368,26 +377,24 @@ const CommercialAutomation = () => {
                 data-aos-delay="300"
               >
                 <div className="wp-block-group__inner-container">
-                  <h2>Unified Communications & Collaboration (UCC)</h2>
+                  <h2>Motion Detection</h2>
 
                   <p className="pointsmade homeauto">
-                    WORK TOGETHER FROM ANYWHERE WITH INTEGRATED COMMUNICATION
-                    TOOLS
+                  GUARD YOUR PROPERTY AGAINST INTRUSION AT ALL TIMES WITH STRATEGIC MOTION SENSORS
                   </p>
 
                   <ul className="commercial-automation-ul">
                     <li>
-                      Consolidate voice, chat, e-mail, file sharing, video and
-                      more into one platform
+                    Ensure a proactive level of defense with sensors that monitor movement 24/7
+
                     </li>
                     <li>
-                      Quickly connect, collaborate and share with staff and
-                      clients on virtually any device
+                    Lock external doors, turn lights on and activate the alarm when motion is detected
+
                     </li>
                     <li>
-                      Integrate premier conferencing hardware from Logitech and
-                      Poly that works seamlessly with Zoom, Webex, Teams and
-                      Google Meet
+                    Instantly receive an alert when motion detectors go off in sensitive areas
+
                     </li>
                   </ul>
                 </div>
@@ -399,14 +406,16 @@ const CommercialAutomation = () => {
             <a href="#site-content">
               <i className="fa-solid fa-arrow-up"></i>
             </a>
-            <h2>Leverage Technology for Smoother Operations</h2>
+            <h2>
+            Protect Your Facilities With Commercial-Grade Security Solutions
+
+            </h2>
             <p className="minigray">
-              Want technology that offers a direct ROI? Manage your energy use,
-              streamline daily tasks and optimize meeting spaces with an
-              integrated technology solution.
+            Are you looking for a more proactive way to protect your business? Let us design a security solution tailored to your unique needs featuring the latest security technology.
+
             </p>
             <a className="button" href="/contact-us">
-              Request a custom solution
+              Request an Expert Consult Today
             </a>
           </div>
         </div>
@@ -415,4 +424,4 @@ const CommercialAutomation = () => {
   );
 };
 
-export default CommercialAutomation;
+export default CommercialSecurity;

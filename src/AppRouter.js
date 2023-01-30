@@ -44,6 +44,7 @@ const IndoorLiving = React.lazy(() => import("./pages/indoor-living"));
 const ConnectedHome = React.lazy(() => import("./pages/connected-home"));
 const CommercialAutomation = React.lazy(() => import("./pages/commercial-automation"));
 const CommercialAudioVideo = React.lazy(() => import("./pages/commercial-audio-video"));
+const CommercialSecurity = React.lazy(() => import("./pages/commercial-security"));
 const ConnectedStudioHome = React.lazy(() =>
   import("./pages/connected-studio-home")
 );
@@ -123,6 +124,10 @@ const AppRouter = () => {
           <Route
             path="/commercial-solutions-commercial-audio-video"
             element={<CommercialAudioVideo />}
+          />
+          <Route
+            path="/commercial-solutions-commercial-security"
+            element={<CommercialSecurity />}
           />
           <Route path="/realtors" element={<Realtors />} />
           <Route path="/contractors" element={<Contractors />} />

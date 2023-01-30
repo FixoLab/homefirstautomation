@@ -35,6 +35,7 @@ const IndoorLiving = () => {
                 backgroundPositionX: rightPosition,
               }}
             >
+              <div className="overlay" />
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
                   <div

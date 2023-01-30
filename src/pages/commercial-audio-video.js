@@ -410,7 +410,7 @@ const CommercialAudioVideo = () => {
 
           <div className="commercial-automation-bottom">
             <a href="#site-content">
-              <i class="fa-solid fa-arrow-up"></i>
+              <i className="fa-solid fa-arrow-up"></i>
             </a>
             <h2>
               Elevate Business Performance and Creativity with Integrated AV

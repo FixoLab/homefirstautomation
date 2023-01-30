@@ -205,8 +205,8 @@ const Header = () => {
                         id="menu-item-970"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
                       >
-                        <Link to="/connected-studio-living">
-                          Connected Studio Living
+                        <Link to="/commercial-solutions-commercial-security">
+                        Commercial Solutions: Commercial security
                         </Link>
                       </li>
                       <li
