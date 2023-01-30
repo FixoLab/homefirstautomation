@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const CommercialAutomation = () => {
   return (
@@ -35,7 +33,13 @@ const CommercialAutomation = () => {
                   >
                     <div className="wp-block-group__inner-container">
                       <h1>Commercial Automation</h1>
-
+                      <div>
+                        <p className="minigray">
+                          IMPROVE BUSINESS OPERATIONS AND EMPLOYEE COLLABORATION
+                          WITH INTEGRATED AND AUTOMATED CONTROL OF MEDIA,
+                          LIGHTING, SHADES AND SECURITY.
+                        </p>
+                      </div>
                       <p>
                         <a aria-label="Scroll down01" href="#1">
                           Room control
@@ -391,12 +395,20 @@ const CommercialAutomation = () => {
             </div>
           </div>
 
-         <div className="commercial-automation-bottom"> 
-                <a href="#site-content"><i class="fa-solid fa-arrow-up"></i></a>
-            <h2 >Leverage Technology for Smoother Operations</h2>
-            <p className="minigray">Want technology that offers a direct ROI? Manage your energy use, streamline daily tasks and optimize meeting spaces with an integrated technology solution.</p>
-            <a className="button" href="/contact-us">Request a custom solution</a>
-         </div>
+          <div className="commercial-automation-bottom">
+            <a href="#site-content">
+              <i class="fa-solid fa-arrow-up"></i>
+            </a>
+            <h2>Leverage Technology for Smoother Operations</h2>
+            <p className="minigray">
+              Want technology that offers a direct ROI? Manage your energy use,
+              streamline daily tasks and optimize meeting spaces with an
+              integrated technology solution.
+            </p>
+            <a className="button" href="/contact-us">
+              Request a custom solution
+            </a>
+          </div>
         </div>
       </div>
     </div>
