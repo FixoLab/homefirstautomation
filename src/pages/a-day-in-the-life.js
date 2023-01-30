@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ADayInTheLife = () => {
   return (
     <div id="site-content">
@@ -395,7 +397,7 @@ const ADayInTheLife = () => {
               </p>
 
               <p className="has-text-align-center pointsmade homeauto">
-                <a href="/contact-us">CONTACT US TO BEGIN</a>
+                <Link to="/contact-us">CONTACT US TO BEGIN</Link>
               </p>
             </div>
           </div>
