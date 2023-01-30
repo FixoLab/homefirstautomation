@@ -21,7 +21,7 @@ const BlogDetails = () => {
     fetchData();
   }, []);
   const blogDetails = data?.filter((blog) => blog?.slug === slug);
-  console.log(blogDetails);
+
   return (
     <div id="site-content" className="single-blog">
       {blogDetails.length === 0 ? (
