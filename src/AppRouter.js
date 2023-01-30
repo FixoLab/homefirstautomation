@@ -56,6 +56,8 @@ const Realtors = React.lazy(() => import("./pages/realtors"));
 const Contractors = React.lazy(() => import("./pages/contractors"));
 const ADayInTheLife = React.lazy(() => import("./pages/a-day-in-the-life"));
 const OurProcess = React.lazy(() => import("./pages/our-process"));
+const Category = React.lazy(() => import("./pages/category"));
+const Tags = React.lazy(() => import("./pages/tags"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -93,7 +95,7 @@ const AppRouter = () => {
           <Route path="/brands-we-carry" element={<BrandsWeCarry />} />
           <Route path="/partners" element={<Partners />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:slug" element={<BlogDetails />} />
+          <Route path="/blog/:id" element={<BlogDetails />} />
           <Route path="/start-your-project" element={<StartYourProject />} />
 
           <Route path="/interior-designers" element={<InteriorDesigners />} />
@@ -137,6 +139,8 @@ const AppRouter = () => {
           <Route path="/realtors" element={<Realtors />} />
           <Route path="/contractors" element={<Contractors />} />
           <Route path="/our-process" element={<OurProcess />} />
+          <Route path="/category/:id" element={<Category />} />
+          <Route path="/tags/:id" element={<Tags />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />
