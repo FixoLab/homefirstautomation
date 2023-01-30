@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import BlogItem from "../components/blog-item";
-import BlogSidebar from "../components/blog-sidebar";
+const BlogItem = React.lazy(() => import("../components/blog-item"));
+const BlogSidebar = React.lazy(() => import("../components/blog-sidebar"));
 const LoadingSpinner = React.lazy(() =>
   import("../components/loading-spinner")
 );
@@ -12,7 +12,7 @@ const Blog = () => {
   const [data, setData] = useState([]);
   const allBlog = data.filter((item, index) => index !== 0);
   const [visible, setVisible] = useState(4);
-  
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -22,7 +22,6 @@ const Blog = () => {
     };
     fetchData();
   }, []);
-
 
   const showMoreBooks = () => {
     setVisible((pervValue) => pervValue + 2);

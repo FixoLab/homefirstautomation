@@ -34,7 +34,7 @@ const BlogItem = ({ blog }) => {
 
   return (
     <div key={blog.id} className="blog-content-top">
-      <Link className="details-link" to={`/blog/${blog.slug}`}></Link>
+      <Link className="details-link" to={`/blog/${blog.id}`}></Link>
       <div
         className="image"
         style={{
