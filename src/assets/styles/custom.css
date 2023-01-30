@@ -3170,12 +3170,13 @@ a#scroll-to-top {
 .blog-wrapper .related-post .item-element .content {
   display: flex;
   gap: 8px;
+  
 }
-.blog-wrapper .related-post .item-element .content:not(:last-child) {
-  display: flex;
-  gap: 8px;
-  padding-bottom: 15px;
+.blog-wrapper .related-post .item-element a:not(:last-child) {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #444;
+  display: inline-block;
 }
 .blog-wrapper .related-post .item-element .content .image {
   max-width: 80px;
