@@ -13,7 +13,8 @@ const BlogDetails = () => {
   const [tags, setTags] = useState([]);
   const [allCategory, setAllCategory] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  console.log(allCategory);
+
+  const categoriesId = categories[0]?.id;
   useEffect(() => {
     const fetchData = async () => {
       const postResponse = await fetch(
@@ -31,15 +32,21 @@ const BlogDetails = () => {
       );
       const tagsData = await tagsResponse.json();
       setTags(tagsData);
+    };
+    fetchData();
+  }, [id]);
+
+  useEffect(() => {
+    const fetchData = async () => {
       const allCategoryData = await fetch(
-        `${api_domain}/wp-json/wp/v2/posts?categories=${categories[0]?.id}`
+        `${api_domain}/wp-json/wp/v2/posts?categories=${categoriesId}`
       );
       const allCategory = await allCategoryData.json();
       setAllCategory(allCategory);
       setIsLoading(false);
     };
     fetchData();
-  }, [id]);
+  }, [categoriesId]);
 
   return (
     <div id="site-content" className="single-blog">
@@ -110,21 +117,23 @@ const BlogDetails = () => {
               <div className="item">
                 <h2>Related Posts</h2>
                 <div className="item-element">
-                  {allCategory.slice(0, 6).map((data) => (
-                    <Link key={data.id} to={allCategory.id}>
-                      <div className="content">
-                        <div className="image">
-                          <img
-                            src={data?.better_featured_image.source_url}
-                            alt={data?.title.rendered}
-                          />
-                        </div>
-                        <div className="details">
-                          <p>{data?.title.rendered}</p>
-                        </div>
-                      </div>
-                    </Link>
-                  ))}
+                  {allCategory?.length === 0
+                    ? ""
+                    : allCategory?.slice(0, 6).map((data) => (
+                        <Link key={data.id} to={allCategory?.id}>
+                          <div className="content">
+                            <div className="image">
+                              <img
+                                src={data?.better_featured_image.source_url}
+                                alt={data?.title.rendered}
+                              />
+                            </div>
+                            <div className="details">
+                              <p>{data?.title.rendered}</p>
+                            </div>
+                          </div>
+                        </Link>
+                      ))}
                 </div>
               </div>
             </div>
