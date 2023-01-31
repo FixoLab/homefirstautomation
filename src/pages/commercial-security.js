@@ -5,14 +5,12 @@ const CommercialSecurity = () => {
         <div className="entry-content">
           <div
             className="is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video"
-            style={{ height: "85vh" }}
           >
             <div
               className="wp-block-group__inner-container indoor-living-background"
               style={{
                 backgroundImage:
                   "url(assets/images/commercial-security-hero.webp)",
-                height: "85vh",
                 backgroundPosition: "center",
               }}
             >
@@ -414,7 +412,7 @@ const CommercialSecurity = () => {
             Are you looking for a more proactive way to protect your business? Let us design a security solution tailored to your unique needs featuring the latest security technology.
 
             </p>
-            <a className="button" href="/contact-us">
+            <a className="button__primary" href="/contact-us">
               Request an Expert Consult Today
             </a>
           </div>
