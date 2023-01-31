@@ -4,22 +4,21 @@ const StartJourney = React.lazy(() => import("../components/start-journey"));
 const Portfolio = () => {
   return (
     <div id="site-content">
-      <div className="post-inner thin ">
+      <div className="post-inner thin commercial-page portfolio-page">
         <div className="entry-content">
-          <div className="is-layout-flow wp-block-group homevideo servicespages">
-            <div className="wp-block-group__inner-container">
-              <video
-                id="video-background"
-                className="high4kres"
-                autoPlay
-                loop="loop"
-                muted
-                playsInline=""
-                width="300"
-                height="150"
-              >
-                <source src="assets/video/haslam-full-1.mp4" type="video/mp4" />
-              </video>
+          <div
+            className="is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video"
+            style={{ height: "85vh" }}
+          >
+            <div
+              className="wp-block-group__inner-container indoor-living-background"
+              style={{
+                backgroundImage: "url(assets/images/portfolio-hero.webp)",
+                height: "85vh",
+                backgroundPosition: "center",
+              }}
+            >
+              <div className="overlay" />
 
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
@@ -30,19 +29,17 @@ const Portfolio = () => {
                     data-aos-delay="400"
                   >
                     <div className="wp-block-group__inner-container">
+                      <h1>ARTFULLY CRAFTED SPACES</h1>
+                      <div>
+                        <p className="minigray">
+                          Designed to blend style and function, explore how our
+                          technology would look in your California space.
+                        </p>
+                      </div>
+
                       <p>
                         <a aria-label="Scroll down01" href="#1">
-                          INTERIOR LIGHTING
-                        </a>
-                      </p>
-                      <p>
-                        <a aria-label="Scroll down02" href="#2">
-                          ELECTRIC SHADING
-                        </a>
-                      </p>
-                      <p>
-                        <a aria-label="Scroll down03" href="#3">
-                          LANDSCAPE LIGHTING
+                          View Gallery
                         </a>
                       </p>
                     </div>
@@ -52,23 +49,58 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="is-layout-flow wp-block-group serviceswhitebackground">
-            <div className="wp-block-group__inner-container">
-              <p
-                className="has-text-align-center servicesleader eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                We are showcasing above a project we worked on out of State. The
-                client had us create a state of the art smart home with a focus
-                on cutng edge lighting, security and shading. A true example of
-                2023 Technology.
-              </p>
+          <div
+            className="alignfull Portfolio-navigation eds-on-scroll eds-scroll-visible"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <div className="Portfolio-navigation-container">
+              <a href="#1">Lighting & shading</a>
+              <a href="#2">Audio / Video</a>
+              <a href="#3">Home Theater</a>
+              <a href="#4">Exterior</a>
             </div>
           </div>
 
-          <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
+ <div className="portfolio-content alignfull">
+ <div className="connected-living-title-section ">
+        <div className="title-inner">
+          <h4>LIGHTING AND SHADING</h4>
+          <p className="minigray">
+          A well-lit space is a beautiful space. Easily control natural and artificial lighting with a smart home lighting system that is both comfortable and stylish.
+          </p>
+        </div>
+      </div>
+      <div className="portfolio-content-grid">
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+      </div>
+ </div>
+
+          {/* <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
               <figure
                 className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
@@ -378,7 +410,7 @@ const Portfolio = () => {
                 />
               </figure>
             </div>
-          </div>
+          </div> */}
           <StartJourney />
         </div>
       </div>

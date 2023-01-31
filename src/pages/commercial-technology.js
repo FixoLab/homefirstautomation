@@ -110,8 +110,8 @@ const CommercialTechnology = () => {
                     and experience. Explore the possibilities below.
                   </p>
                 </div>
-                <div className="explore-spaces-button">
-                  <a aria-label="Scroll down01" href="#1">
+                <div >
+                  <a className="button__primary" aria-label="Scroll down01" href="#1">
                     Explore Spaces
                   </a>
                 </div>

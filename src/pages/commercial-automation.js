@@ -5,7 +5,7 @@ const CommercialAutomation = () => {
     <div id="site-content">
       <div className="post-inner thin commercial-page">
         <div className="entry-content">
-          <div className="is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video">
+          <div className="is-layout-flow wp-block-group homevideo servicespages">
             <div className="wp-block-group__inner-container commercial-automantion-video">
               <video
                 id="video-background"
@@ -405,7 +405,7 @@ const CommercialAutomation = () => {
               streamline daily tasks and optimize meeting spaces with an
               integrated technology solution.
             </p>
-            <a className="button" href="/contact-us">
+            <a className="button__primary" href="/contact-us">
               Request a custom solution
             </a>
           </div>
