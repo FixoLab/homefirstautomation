@@ -273,6 +273,28 @@ const Control4 = () => {
           </div>
         </div>
       </div>
+      <div className="control4-featureV2">
+        <div className="control4-featureV2-top">
+          <h4 className="title">
+            <span>CLIMATE</span>
+          </h4>
+          <h4 className="title">
+            <span>BLINDS & SHADES</span>
+          </h4>
+        </div>
+        <div className="control4-featureV2-bottom">
+          <div className="item">
+            <div className="item-image">
+              <img src="assets/images/control4-feature-07.webp" alt="" />
+            </div>
+          </div>
+          <div className="item">
+            <div className="item-image">
+              <img src="assets/images/control4-feature-08.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
