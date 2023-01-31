@@ -63,355 +63,1009 @@ const Portfolio = () => {
             </div>
           </div>
 
- <div className="portfolio-content alignfull">
- <div className="connected-living-title-section ">
-        <div className="title-inner">
-          <h4>LIGHTING AND SHADING</h4>
-          <p className="minigray">
-          A well-lit space is a beautiful space. Easily control natural and artificial lighting with a smart home lighting system that is both comfortable and stylish.
-          </p>
-        </div>
-      </div>
-      <div className="portfolio-content-grid">
-       <div className="portfolio-content-grid-item">
-        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
-       </div>
-       <div className="portfolio-content-grid-item">
-        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
-       </div>
-       <div className="portfolio-content-grid-item">
-        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
-       </div>
-       <div className="portfolio-content-grid-item">
-        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
-       </div>
-       <div className="portfolio-content-grid-item">
-        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
-       </div>
-       <div className="portfolio-content-grid-item">
-        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
-       </div>
-       <div className="portfolio-content-grid-item">
-        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
-       </div>
-       <div className="portfolio-content-grid-item">
-        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
-       </div>
-      </div>
- </div>
-
-          {/* <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2000"
-                  height="1503"
-                  src="assets/images/haslam-3.jpg"
-                  alt=""
-                  className="wp-image-853"
-                />
-              </figure>
-            </div>
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/haslam-9.jpg"
-                  alt=""
-                  className="wp-image-1863"
-                />
-              </figure>
-            </div>
-          </div>
-
-          <div
-            className="is-layout-flex wp-container-20 wp-block-columns alignfull servicesdualcontainer reversetheflex"
-            id="1"
-          >
-            <div className="is-layout-flow wp-block-column servicesimages sidevideo">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1915"
-                  height="1440"
-                  src="assets/images/haslam-15.jpg"
-                  alt=""
-                  className="wp-image-847"
-                />
-              </figure>
-              <video
-                id="video-background"
-                autoPlay
-                loop="loop"
-                muted
-                width="300"
-                height="150"
-                playsInline=""
-                style={{ width: "951px", height: "475.5px" }}
-              >
-                <source src="assets/video/haslam-lights.mp4" type="video/mp4" />
-              </video>
+          <div className="portfolio-content alignfull" id="1">
+            <div className="connected-living-title-section ">
+              <div className="title-inner">
+                <h4>LIGHTING AND SHADING</h4>
+                <p className="minigray">
+                  A well-lit space is a beautiful space. Easily control natural
+                  and artificial lighting with a smart home lighting system that
+                  is both comfortable and stylish.
+                </p>
+              </div>
             </div>
 
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <div
-                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
-              >
-                <div className="wp-block-group__inner-container">
-                  <h2>A KITCHEN MADE FOR ROYALTY</h2>
-
-                  <p className="pointsmade homeauto">
-                    Lighting can turn an ordinary kitchen into a great kitchen,
-                    so when we install proper lighting to an amazing kitchen it
-                    turns into a work of art. Multiple Smart Recessed ceiling
-                    lights were installed, and setup up with an overall smart
-                    home system that can be individually controlled with button
-                    touch or voice commands.
-                  </p>
-                </div>
+            <div
+              className="portfolio-content-grid "
+              data-uk-lightbox="animation: slide"
+            >
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-1.webp"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-1.webp"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-2.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-2.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-3.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-3.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-4.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-4.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-5.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-5.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-6.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-6.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-7.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-7.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-8.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-8.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-9.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-9.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-10.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-10.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-11.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-11.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-12.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-12.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-13.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-13.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-14.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-14.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-15.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-15.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-16.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-16.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-17.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-17.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-18.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-18.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-19.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-19.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-20.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-20.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-21.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-21.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-22.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-22.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-23.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-23.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-24.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-24.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-25.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-25.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-26.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-26.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-27.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-27.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-28.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-28.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-29.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-29.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-30.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-30.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-31.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-31.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-32.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-32.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-33.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-33.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-34.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-34.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-35.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-35.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-36.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-36.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-37.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-37.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-38.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-38.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-39.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-39.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-40.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-40.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-41.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-41.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-42.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-42.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-43.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-43.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-44.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-44.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-45.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-45.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-46.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-46.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-47.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-47.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
               </div>
             </div>
           </div>
-          <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2000"
-                  height="1503"
-                  src="assets/images/haslam-7.jpg"
-                  alt=""
-                  className="wp-image-853"
-                />
-              </figure>
-            </div>
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/haslam-8.jpg"
-                  alt=""
-                  className="wp-image-1863"
-                />
-              </figure>
-            </div>
-          </div>
-
-          <div
-            className="is-layout-flex wp-container-16 wp-block-columns alignfull servicesdualcontainer"
-            id="2"
-          >
-            <div className="is-layout-flow wp-block-column servicesimages sidevideo">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1915"
-                  height="1440"
-                  src="assets/images/haslam-15.jpg"
-                  alt=""
-                  className="wp-image-847"
-                />
-              </figure>
-              <video
-                id="video-background"
-                autoPlay
-                loop="loop"
-                muted
-                width="300"
-                height="150"
-                playsInline=""
-                style={{ width: "951px", height: "475.5px" }}
-              >
-                <source
-                  src="assets/video/haslam-shades-1.mp4"
-                  type="video/mp4"
-                />
-              </video>
+          <div className="portfolio-content alignfull" id="2">
+            <div className="connected-living-title-section ">
+              <div className="title-inner">
+                <h4>AUDIO / VIDEO</h4>
+                <p className="minigray">
+                Optimize your entertainment with a multi room audio system, high-resolution video and gear that blends seamlessly with your home’s décor.
+                </p>
+              </div>
             </div>
 
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <div
-                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
-              >
-                <div className="wp-block-group__inner-container">
-                  <h2>STUNNING PRIVACY</h2>
-
-                  <p className="pointsmade homeauto">
-                    Our client stressed privacy was a key concern so we
-                    implemented electric shading to their residence. This
-                    allowed them to set their shades to automatically close and
-                    rise based on the time of day, or they can have them rise or
-                    lower with a simple touch of a button or voice command. This
-                    gave them them privacy with class.
-                  </p>
-                </div>
+            <div
+              className="portfolio-content-grid "
+              data-uk-lightbox="animation: slide"
+            >
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-8.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-8.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-37.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-37.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-10.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-10.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-24.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-24.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-35.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-35.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-41.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-41.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-42.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-42.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-7.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-7.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-47.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-47.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-32.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-32.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
               </div>
             </div>
           </div>
-          <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2000"
-                  height="1503"
-                  src="assets/images/haslam-12.jpg"
-                  alt=""
-                  className="wp-image-853"
-                />
-              </figure>
+          <div className="portfolio-content alignfull" id="3">
+            <div className="connected-living-title-section ">
+              <div className="title-inner">
+                <h4>HOME THEATER</h4>
+                <p className="minigray">
+                Naturally tailored environments for an exhilarating viewing experience that exceeds that of a traditional theater.
+                </p>
+              </div>
             </div>
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/haslam-11.jpg"
-                  alt=""
-                  className="wp-image-1863"
-                />
-              </figure>
+
+            <div
+              className="portfolio-content-grid "
+              data-uk-lightbox="animation: slide"
+            >
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-1.webp"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-1.webp"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-30.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-30.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-23.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-23.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-47.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-47.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-35.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-35.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+          
             </div>
           </div>
-          <div
-            className="is-layout-flex wp-container-20 wp-block-columns alignfull servicesdualcontainer reversetheflex"
-            id="3"
-          >
-            <div className="is-layout-flow wp-block-column servicesimages sidevideo">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1915"
-                  height="1440"
-                  src="assets/images/haslam-15.jpg"
-                  alt=""
-                  className="wp-image-847"
-                />
-              </figure>
-              <video
-                id="video-background"
-                autoPlay
-                loop="loop"
-                muted
-                width="300"
-                height="150"
-                playsInline=""
-                style={{ width: "951px", height: "475.5px" }}
-              >
-                <source
-                  src="assets/video/haslam-security-2.mp4"
-                  type="video/mp4"
-                />
-              </video>
+           <div className="portfolio-content alignfull" id="4">
+            <div className="connected-living-title-section ">
+              <div className="title-inner">
+                <h4>EXTERIOR</h4>
+                <p className="minigray">
+                Naturally tailored environments for an exhilarating viewing experience that exceeds that of a traditional theater.
+                </p>
+              </div>
             </div>
 
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <div
-                className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="300"
-              >
-                <div className="wp-block-group__inner-container">
-                  <h2>ELEGANT SAFETY</h2>
-
-                  <p className="pointsmade homeauto">
-                    We worked with our client to not only provide security for
-                    those walking around their multiple pools at night, but also
-                    allow the lighting to boost the overall atmosphere outside.
-                    All lights slowly change as the day progresses so by
-                    nightfall you have the perfect lighting setup. However if
-                    our client wants a tad more privacy, all lights can be
-                    turned off or dimmed instantly with a touch of a button.
-                  </p>
-                </div>
+            <div
+              className="portfolio-content-grid "
+              data-uk-lightbox="animation: slide"
+            >
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-45.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-45.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-4.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-4.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-13.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-13.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-20.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-20.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-40.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-40.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-21.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-21.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-34.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-34.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-43.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-43.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-44.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-44.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-36.jpeg"
+                >
+                  <img
+                    src="assets/images/portfolio-lighting-36.jpeg"
+                    width="1800"
+                    height="1200"
+                    alt=""
+                  />
+                </a>
               </div>
             </div>
           </div>
-          <div className="is-layout-flex wp-container-23 wp-block-columns alignfull servicesdualcontainer">
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="931"
-                  height="700"
-                  src="assets/images/haslam-16.jpg"
-                  alt=""
-                  className="wp-image-1547"
-                />
-              </figure>
-            </div>
-
-            <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1915"
-                  height="1440"
-                  src="assets/images/haslam-15.jpg"
-                  alt=""
-                  className="wp-image-847"
-                />
-              </figure>
-            </div>
-          </div> */}
-          <StartJourney />
         </div>
       </div>
     </div>
