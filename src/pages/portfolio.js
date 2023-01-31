@@ -63,7 +63,44 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
+ <div className="portfolio-content alignfull">
+ <div className="connected-living-title-section ">
+        <div className="title-inner">
+          <h4>LIGHTING AND SHADING</h4>
+          <p className="minigray">
+          A well-lit space is a beautiful space. Easily control natural and artificial lighting with a smart home lighting system that is both comfortable and stylish.
+          </p>
+        </div>
+      </div>
+      <div className="portfolio-content-grid">
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+       <div className="portfolio-content-grid-item">
+        <img src="assets/images/portfolio-lighting-1.webp" alt="" />
+       </div>
+      </div>
+ </div>
+
+          {/* <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
               <figure
                 className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
@@ -373,7 +410,7 @@ const Portfolio = () => {
                 />
               </figure>
             </div>
-          </div>
+          </div> */}
           <StartJourney />
         </div>
       </div>
