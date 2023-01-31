@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -275,22 +276,38 @@ const Control4 = () => {
       </div>
       <div className="control4-featureV2">
         <div className="control4-featureV2-top">
-          <h4 className="title">
-            <span>CLIMATE</span>
-          </h4>
-          <h4 className="title">
-            <span>BLINDS & SHADES</span>
-          </h4>
-        </div>
-        <div className="control4-featureV2-bottom">
           <div className="item">
-            <div className="item-image">
-              <img src="assets/images/control4-feature-07.webp" alt="" />
+            <h4 className="title">
+              <span>CLIMATE</span>
+            </h4>
+            <div className="item-content">
+              <div className="item-image">
+                <img src="assets/images/control4-feature-07.webp" alt="" />
+              </div>
+              <p>
+                Fully integrate your HVAC, thermal systems and even your
+                fireplace for personalized comfort settings that are easy to
+                pull up. Create distinct climate zones to adjust settings based
+                on location, application and individual family member
+                preferences.
+              </p>
             </div>
           </div>
           <div className="item">
-            <div className="item-image">
-              <img src="assets/images/control4-feature-08.webp" alt="" />
+            <h4 className="title">
+              <span>BLINDS & SHADES</span>
+            </h4>
+            <div className="item-content">
+              <div className="item-image">
+                <img src="assets/images/control4-feature-08.webp" alt="" />
+              </div>
+              <p>
+                Raise or lower your shades and blinds without ever having to
+                leave the couch with motorized window treatments. Through
+                automated settings based on lighting and temperature sensors,
+                you'll increase your comfort and energy efficiency
+                simultaneously.
+              </p>
             </div>
           </div>
         </div>
