@@ -9,9 +9,9 @@ a {
 button,
 .button,
 .faux-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
   background-color: #cd2653;
 }
 
@@ -247,6 +247,7 @@ li.menu-item-3288 .fas {
   margin: 0px !important;
   background: rgba(0, 0, 0, 0.05);
   position: relative;
+  overflow: hidden;
 }
 .about .wp-block-group.homevideo > .wp-block-group__inner-container {
   width: 100% !important;
@@ -424,8 +425,8 @@ li.menu-item-3288 .fas {
   margin: 0px 0px 15px !important;
 }
 .pointsmade.homeauto:before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f058";
+  font-family: 'Font Awesome 5 Free';
+  content: '\f058';
   color: #007ca1;
   font-weight: 400;
   font-style: normal;
@@ -548,7 +549,7 @@ li.menu-item-3288 .fas {
 }
 .servicesdualcontainer h2::after {
   display: block;
-  content: "";
+  content: '';
   width: 60px;
   height: 20px;
   border-bottom: 5px solid #007ca1;
@@ -625,7 +626,7 @@ li.menu-item-3288 .fas {
   text-align: center;
 }
 .homedual2.homelighting {
-  background-image: url("../../../public/assets/images/home-show13.webp");
+  background-image: url('../../../public/assets/images/home-show13.webp');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   display: flow-root;
@@ -633,7 +634,7 @@ li.menu-item-3288 .fas {
   background-size: cover;
 }
 .homedual2.homeshow3 {
-  background-image: url("../../../public/assets/images/smart20.webp");
+  background-image: url('../../../public/assets/images/smart20.webp');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   display: flow-root;
@@ -641,7 +642,7 @@ li.menu-item-3288 .fas {
   background-size: inherit;
 }
 .homedual2.homeshow2 {
-  background-image: url("../../../public/assets/images/home-show4.jpg");
+  background-image: url('../../../public/assets/images/home-show4.jpg');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   display: flow-root;
@@ -983,7 +984,7 @@ li.menu-item-3288 .fas {
   color: #fff;
 }
 .wp-block-column.silverplan .planpricing .planpricinginner::before {
-  content: "$";
+  content: '$';
   display: block;
   position: absolute;
   font-size: 18px;
@@ -991,7 +992,7 @@ li.menu-item-3288 .fas {
   top: 20px;
 }
 .wp-block-column.silverplan .planpricing .planpricinginner::after {
-  content: "/mo";
+  content: '/mo';
   display: block;
   position: absolute;
   font-size: 18px;
@@ -1036,7 +1037,7 @@ li.menu-item-3288 .fas {
   position: relative;
 }
 .wp-block-column.goldplan .planpricing .planpricinginner::before {
-  content: "$";
+  content: '$';
   display: block;
   position: absolute;
   font-size: 18px;
@@ -1044,7 +1045,7 @@ li.menu-item-3288 .fas {
   top: 20px;
 }
 .wp-block-column.goldplan .planpricing .planpricinginner::after {
-  content: "/mo";
+  content: '/mo';
   display: block;
   position: absolute;
   font-size: 18px;
@@ -1086,7 +1087,7 @@ li.menu-item-3288 .fas {
   position: relative;
 }
 .wp-block-column.platplan .planpricing .planpricinginner::before {
-  content: "$";
+  content: '$';
   display: block;
   position: absolute;
   font-size: 18px;
@@ -1094,7 +1095,7 @@ li.menu-item-3288 .fas {
   top: 20px;
 }
 .wp-block-column.platplan .planpricing .planpricinginner::after {
-  content: "/mo";
+  content: '/mo';
   display: block;
   position: absolute;
   font-size: 18px;
@@ -1257,14 +1258,14 @@ li.menu-item-3288 .fas {
 .pagewhitebackground .contactcolumn1 p {
   padding-bottom: 45px;
 }
-.contact-us-page input[type="text"],
-.contact-us-page input[type="email"],
-.contact-us-page input[type="tel"],
+.contact-us-page input[type='text'],
+.contact-us-page input[type='email'],
+.contact-us-page input[type='tel'],
 .contact-us-page textarea {
   border-radius: 10px;
   border: 1px solid #e4e4e4;
 }
-.contact-us-page input[type="submit"] {
+.contact-us-page input[type='submit'] {
   background-color: #007ca1;
   margin-top: 20px;
   border-radius: 10px;
@@ -1310,14 +1311,14 @@ li.menu-item-3288 .fas {
 .start-your-project .pagecolumns .wp-block-column:first-child {
   border-right: 1px solid #e4e4e4;
 }
-.start-your-project input[type="text"],
-.start-your-project input[type="email"],
-.start-your-project input[type="tel"],
+.start-your-project input[type='text'],
+.start-your-project input[type='email'],
+.start-your-project input[type='tel'],
 .start-your-project textarea {
   border-radius: 10px;
   border: 1px solid #e4e4e4;
 }
-.start-your-project input[type="submit"] {
+.start-your-project input[type='submit'] {
   background-color: #007ca1;
   margin-top: 20px;
   border-radius: 10px;
@@ -1344,7 +1345,7 @@ li.menu-item-3288 .fas {
   border: 1px solid #e4e4e4;
   line-height: 2;
   color: #666;
-  font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+  font-family: 'Inter var', -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
     Helvetica, sans-serif;
 }
 .start-your-project option {
@@ -1383,7 +1384,7 @@ li.menu-item-3288 .fas {
 }
 .pagewhitebackground h2::after {
   display: block;
-  content: "";
+  content: '';
   width: 60px;
   height: 20px;
   border-bottom: 5px solid #007ca1;
@@ -1558,7 +1559,7 @@ a#bbblink {
   text-align: center;
   margin: 0px 0px 60px;
 }
-.contactarea input[type="text"] {
+.contactarea input[type='text'] {
   text-align: center;
   background: rgba(23, 25, 26, 0.85);
   color: #fff;
@@ -1566,7 +1567,7 @@ a#bbblink {
   border-radius: 30px;
   font-size: 14px;
 }
-.contactarea .wpcf7 input[type="email"] {
+.contactarea .wpcf7 input[type='email'] {
   text-align: center;
   background: rgba(23, 25, 26, 0.85);
   color: #fff;
@@ -1574,7 +1575,7 @@ a#bbblink {
   border-radius: 30px;
   font-size: 14px;
 }
-.contactarea .wpcf7 input[type="tel"] {
+.contactarea .wpcf7 input[type='tel'] {
   text-align: center;
   background: rgba(23, 25, 26, 0.85);
   color: #fff;
@@ -1616,13 +1617,13 @@ a#bbblink {
   border: 1px solid #007ca1;
   color: #007ca1 !important;
 }
-.contactarea input[type="text"]:focus {
+.contactarea input[type='text']:focus {
   border-color: #888;
 }
-.contactarea .wpcf7 input[type="email"]:focus {
+.contactarea .wpcf7 input[type='email']:focus {
   border-color: #888;
 }
-.contactarea .wpcf7 input[type="tel"]:focus {
+.contactarea .wpcf7 input[type='tel']:focus {
   border-color: #888;
 }
 .contactarea textarea:focus {
@@ -1653,7 +1654,7 @@ a#bbblink {
 .footer-widgets.column-one {
   max-width: 100%;
   width: 100%;
-  background-image: url("../../../public/assets/images/home-show5.webp");
+  background-image: url('../../../public/assets/images/home-show5.webp');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   display: flex;
@@ -2289,10 +2290,10 @@ a#scroll-to-top {
   padding: 0;
   list-style: none;
 }
-.title-inner .section-grid [class*="grid-item-"] {
+.title-inner .section-grid [class*='grid-item-'] {
   padding-left: 25px;
 }
-.title-inner .section-grid [class*="grid-item-"] h6 {
+.title-inner .section-grid [class*='grid-item-'] h6 {
   margin: 0;
   margin-bottom: 20px;
   color: #007ca1;
@@ -2533,7 +2534,7 @@ a#scroll-to-top {
 }
 
 .a-day-life-heading-bullet::before {
-  content: "";
+  content: '';
   display: inline-block;
   position: relative;
   top: calc(-0.095 * 1em);
@@ -2608,7 +2609,7 @@ a#scroll-to-top {
   position: relative;
 }
 .a-day-life-video-section .video-content h4::before {
-  content: "";
+  content: '';
   display: inline-block;
   position: relative;
   top: calc(-0.095 * 1em);
@@ -3142,7 +3143,7 @@ a#scroll-to-top {
 
 /* commercial automation  */
 .commercial-page .commercial-automantion-video {
-  height: 85vh !important;
+  height: 100vh !important;
 }
 .commercial-page .pointsmade {
   text-transform: uppercase;
@@ -3169,8 +3170,8 @@ a#scroll-to-top {
   margin-bottom: 7px;
 }
 .commercial-page .commercial-automation-ul li::before {
-  content: "\f00c";
-  font-family: "FontAwesome";
+  content: '\f00c';
+  font-family: 'FontAwesome';
   position: absolute;
   top: 0;
   left: 0;
@@ -3272,7 +3273,7 @@ a#scroll-to-top {
 }
 .home-standard::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   top: 0;
@@ -3543,8 +3544,8 @@ a#scroll-to-top {
   margin-bottom: 7px;
 }
 .commercial-page .commercial-automation-ul li::before {
-  content: "\f00c";
-  font-family: "FontAwesome";
+  content: '\f00c';
+  font-family: 'FontAwesome';
   position: absolute;
   top: 0;
   left: 0;

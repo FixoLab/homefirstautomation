@@ -51,8 +51,8 @@ const Control4 = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+          <div className="clearfix"></div>
+<div class="wrapper">
       <div className="control4-nav">
         <div className="control4-nav-area">
           <div className="image">
@@ -96,7 +96,11 @@ const Control4 = () => {
           </div>
         </div>
       </div>
+      </div>
     </div>
+    </div>
+    </div>
+    
   );
 };
 
