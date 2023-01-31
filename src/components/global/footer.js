@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Autoplay } from "swiper";
@@ -28,7 +29,7 @@ const Footer = () => {
   };
 
   return (
-    <>
+    <div>
       <div className="footer-nav-widgets-wrapper header-footer-group">
         <div className="footer-inner section-inner">
           <aside className="footer-widgets-outer-wrapper">
@@ -40,17 +41,16 @@ const Footer = () => {
                     <div className="textwidget">
                       <div className="footerlinks">
                         <div className="footerlinks1">
-        
-                            <img
-                              src="/assets/images/Homefirst_Auto.png"
-                              alt="project automate logo"
-                              width="200"
-                              height="80"
-                            />
+                          <img
+                            src="/assets/images/Homefirst_Auto.png"
+                            alt="project automate logo"
+                            width="200"
+                            height="80"
+                          />
                           <br />
-                            <p>Corporate Office</p>
-                            6735 Conroy Windermere Rd,
-                            <br /> Suite 219, Orlando, Florida 32835
+                          <p>Corporate Office</p>
+                          6735 Conroy Windermere Rd,
+                          <br /> Suite 219, Orlando, Florida 32835
                         </div>
                         <div className="footerlinks2">
                           <div className="su-accordion su-u-trim footermenu">
@@ -177,10 +177,10 @@ const Footer = () => {
                                   </li>
                                 </ul>
                                 <p className="minigray">
-                                  "Kurt went out of his way (literally 120
-                                  miles out of his way) to make sure I was
-                                  satisfied with the installation and service.
-                                  Couldn't ask for more."
+                                  "Kurt went out of his way (literally 120 miles
+                                  out of his way) to make sure I was satisfied
+                                  with the installation and service. Couldn't
+                                  ask for more."
                                 </p>
                                 <div className="google-icon">
                                   <i className="icon-link-google"></i>
@@ -267,34 +267,65 @@ const Footer = () => {
           </aside>
         </div>
       </div>
-      <footer
-        id="site-footer"
-        role="contentinfo"
-        className="header-footer-group"
-      >
+      <div className="footer-middle">
+        <div className="footer-middle-wrapper">
+          <div className="footer-middle-area">
+            <div className="footer-middle-image">
+              <img src="assets/images/footer-img-01.webp" alt="footer middle" />
+            </div>
+            <div className="footer-middle-image">
+              <img src="assets/images/footer-img-02.webp" alt="footer middle" />
+            </div>
+            <div className="footer-middle-image">
+              <img src="assets/images/footer-img-03.webp" alt="footer middle" />
+            </div>
+            <div className="footer-middle-image">
+              <img src="assets/images/footer-img-04.webp" alt="footer middle" />
+            </div>
+            <div className="footer-middle-image">
+              <img src="assets/images/footer-img-05.webp" alt="footer middle" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer className="header-footer-group footer-bottom">
         <div className="section-inner">
-          <div className="footer-credits">
-            <p className="footer-copyright">
-              &copy; HomeFirst LLC 2023 All rights reserved
+          <ul className="right-footer">
+            <li>
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i className="fa-brands fa-houzz"></i>
+              </a>
+            </li>
+          </ul>
+          <div className="middle-footer">
+            <p>&#169; HomeFirst LLC 2023 All rights reserved</p>
+          </div>
+          <div className="left-footer">
+            <p>
+              <a target="_blank" href="/sitemap.xml">Sitemap</a>
+              <a href="https://www.iconic.systems/privacy-policies/general-privacy-policy">
+                Privacy Policy
+              </a>
             </p>
           </div>
-          <a aria-label="Scroll Top" className="to-the-top" href="#site-header">
-            <span className="to-the-top-long">
-              To the top
-              <span className="arrow" aria-hidden="true">
-                ↑
-              </span>
-            </span>
-            <span className="to-the-top-short">
-              Up
-              <span className="arrow" aria-hidden="true">
-                ↑
-              </span>
-            </span>
-          </a>
         </div>
       </footer>
-    </>
+    </div>
   );
 };
 
