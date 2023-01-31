@@ -53,6 +53,21 @@ const Control4 = () => {
           </div>
         </div>
       </div>
+      <div className="control4-nav">
+        <div className="control4-nav-area">
+          <div className="image">
+            <img src="assets/images/logo-brands-control4.webp" alt="" />
+          </div>
+          <div className="nav-area">
+            <a href="#">CONTROL4 OS3</a>
+            <a href="#">WHOLE HOME</a>
+            <a href="#">CLIMATE AND COMFORT</a>
+            <a href="#">SAFETY & SECURITY</a>
+            <a href="#">INTERCOM ANYWHERE</a>
+            <a href="#">UNIVERSAL REMOTE</a>
+          </div>
+        </div>
+      </div>
       <div
         className="home-standard"
         style={{
