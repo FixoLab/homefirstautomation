@@ -834,12 +834,12 @@ const Control4 = () => {
                     uk-drop="pos: top-center; auto-update: false;"
                     className="uk-drop"
                   >
-                    <div class="csh-card">
-                      <div class="csh-card-content">
-                        <h3 class="csh-card-content-title">
+                    <div className="csh-card">
+                      <div className="csh-card-content">
+                        <h3 className="csh-card-content-title">
                           Add a Soundtrack to Your Day
                         </h3>
-                        <div class="csh-card-content-desc">
+                        <div className="csh-card-content-desc">
                           <p>
                             Effortlessly access your favorite music and play it
                             through
@@ -862,12 +862,12 @@ const Control4 = () => {
                     uk-drop="pos: top-center; auto-update: false;"
                     className="uk-drop"
                   >
-                    <div class="csh-card">
-                      <div class="csh-card-content">
-                        <h3 class="csh-card-content-title">
+                    <div className="csh-card">
+                      <div className="csh-card-content">
+                        <h3 className="csh-card-content-title">
                           Sunlight at Your Command
                         </h3>
-                        <div class="csh-card-content-desc">
+                        <div className="csh-card-content-desc">
                           <p>
                             Control your shades through a mobile app, schedules
                             or sensors to ensure the perfect lighting and
@@ -891,12 +891,12 @@ const Control4 = () => {
                     uk-drop="pos: top-center; auto-update: false;"
                     className="uk-drop"
                   >
-                    <div class="csh-card">
-                      <div class="csh-card-content">
-                        <h3 class="csh-card-content-title">
+                    <div className="csh-card">
+                      <div className="csh-card-content">
+                        <h3 className="csh-card-content-title">
                           Add a Spark to Your Outdoors
                         </h3>
-                        <div class="csh-card-content-desc">
+                        <div className="csh-card-content-desc">
                           <p>
                             Landscape lighting elevates your outdoor living
                             spaces while improving your security and safety with
@@ -920,12 +920,12 @@ const Control4 = () => {
                     uk-drop="pos: top-center; auto-update: false;"
                     className="uk-drop"
                   >
-                    <div class="csh-card">
-                      <div class="csh-card-content">
-                        <h3 class="csh-card-content-title">
+                    <div className="csh-card">
+                      <div className="csh-card-content">
+                        <h3 className="csh-card-content-title">
                           Movie Night Perfection
                         </h3>
-                        <div class="csh-card-content-desc">
+                        <div className="csh-card-content-desc">
                           <p>
                             Enjoy movie night like never before with universal
                             remotes that adjust lights, climate, shades and AV
@@ -949,12 +949,12 @@ const Control4 = () => {
                     uk-drop="pos: top-center; auto-update: false;"
                     className="uk-drop"
                   >
-                    <div class="csh-card">
-                      <div class="csh-card-content">
-                        <h3 class="csh-card-content-title">
+                    <div className="csh-card">
+                      <div className="csh-card-content">
+                        <h3 className="csh-card-content-title">
                           Access Control Made Easy
                         </h3>
-                        <div class="csh-card-content-desc">
+                        <div className="csh-card-content-desc">
                           <p>
                             One button press at the end of the night or as you
                             leave the house locks all your doors for optimal
@@ -978,12 +978,12 @@ const Control4 = () => {
                     uk-drop="pos: top-center; auto-update: false;"
                     className="uk-drop"
                   >
-                    <div class="csh-card">
-                      <div class="csh-card-content">
-                        <h3 class="csh-card-content-title">
+                    <div className="csh-card">
+                      <div className="csh-card-content">
+                        <h3 className="csh-card-content-title">
                           A Fully Integrated Thermostat
                         </h3>
-                        <div class="csh-card-content-desc">
+                        <div className="csh-card-content-desc">
                           <p>
                             Embrace an eco-conscious lifestyle with a thermostat
                             that works with your motorized shades to maintain
