@@ -236,49 +236,49 @@ const GolfSimulators = () => {
           </div>
         </div>
       </div>
-      <div id="page#3" class="uk-section-muted uk-section request-quote">
-        <div class="uk-container uk-container-large">
-          <div class="tm-grid-expand uk-grid-margin uk-grid" uk-grid="">
-            <div class="uk-width-1-3@m uk-first-column">
-              <div class="uk-margin">
+      <div id="page#3" className="uk-section-muted uk-section request-quote">
+        <div className="uk-container uk-container-large">
+          <div className="tm-grid-expand uk-grid-margin uk-grid" uk-grid="">
+            <div className="uk-width-1-3@m uk-first-column">
+              <div className="uk-margin">
                 <img
                   src="assets/images/golf-simulators-02.webp"
                   width="703"
                   height="450"
-                  class="el-image"
+                  className="el-image"
                   alt="GOLFZON golf simulator"
                   loading="lazy"
                 />
               </div>
             </div>
 
-            <div class="uk-width-1-3@m">
-              <div class="uk-margin">
+            <div className="uk-width-1-3@m">
+              <div className="uk-margin">
                 <img
                   src="assets/images/golf-simulators-03.webp"
                   width="703"
                   height="450"
-                  class="el-image"
+                  className="el-image"
                   alt="GOLFZON golf simulator"
                 />
               </div>
             </div>
 
-            <div class="uk-width-1-3@m">
+            <div className="uk-width-1-3@m">
               <div className="message-icon">
-                <i class="fa-regular fa-message"></i>
+                <i className="fa-regular fa-message"></i>
               </div>
 
-              <h5 class="uk-text-center" id="page#2">
+              <h5 className="uk-text-center" id="page#2">
                 Request a Quote
               </h5>
-              <div class="uk-panel uk-margin uk-margin-remove-top uk-text-center">
+              <div className="uk-panel uk-margin uk-margin-remove-top uk-text-center">
                 Ready to bring the world of golf to your home? Sign up today for
                 a free consultation from one of our expert golf simulator
                 installers. We're excited to make your dreams come true
               </div>
-              <div class="uk-text-center">
-                <a class="button__primary" href="/contact-us">
+              <div className="uk-text-center">
+                <a className="button__primary" href="/contact-us">
                   Let's Do It
                 </a>
               </div>
