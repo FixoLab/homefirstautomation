@@ -3400,6 +3400,15 @@ a#scroll-to-top {
   height: 100vh;
   overflow: hidden;
 }
+.control4 .control4-hero::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 .control4 .control4-hero video {
   position: absolute;
   left: 50%;
@@ -3768,6 +3777,69 @@ a#scroll-to-top {
   text-align: center;
   color: #007ca1;
 }
+.careers-team .careers-team-title {
+  font-size: 44px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.careers-team h3 {
+  font-size: 30px !important;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.75px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.careers-team ul {
+  margin: 0;
+  padding: 0;
+}
+.careers-team ul li {
+  margin: 0;
+  padding: 0;
+}
+.careers-team ul li p {
+  font-size: 16px;
+  color: #007ca1;
+}
+
+.convertforms .cf-control-group {
+  padding: 9px;
+  max-width: 100%;
+  width: 100%;
+  min-width: 120px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+.apply-now h3 {
+ font-size: 44px;
+ margin: 0;
+ margin-bottom: 40px;
+ font-weight: 600;
+}
+.apply-now form label {
+  padding: 10px;
+}
+.apply-now form input, .apply-now form textarea {
+  margin-top: 15px;
+  border: 1px solid #444;
+}
+.apply-now form input:focus, .apply-now form textarea:focus {
+  outline: none;
+  border: 1px solid #444;
+}
+
+.about-us h1 {
+  font-size: 44px;
+  margin: 0;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 1400px) {
   .golf-simulators ul li a {
     padding: 5px;
@@ -3861,7 +3933,7 @@ a#scroll-to-top {
     margin-top: 30px;
   }
   .golf-simulators-video {
-    padding: 50px 0;  
+    padding: 50px 0;
   }
   .golf-simulators-video .video-content {
     width: 100%;
