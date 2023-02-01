@@ -148,6 +148,12 @@ const Header = () => {
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
+                        <Link to="/careers">Careers</Link>
+                      </li>
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
                         <Link to="/our-process">Our Process</Link>
                       </li>
                       <li
@@ -405,6 +411,11 @@ const Header = () => {
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                         <div className="ancestor-wrapper">
                         <Link to="/about">About</Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                        <div className="ancestor-wrapper">
+                        <Link to="/careers">Careers</Link>
                         </div>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">

@@ -42,6 +42,7 @@ const AlarmCom = React.lazy(() => import("./pages/alarm-com"));
 const JoshAi = React.lazy(() => import("./pages/josh-ai"));
 const IndoorLiving = React.lazy(() => import("./pages/indoor-living"));
 const ConnectedHome = React.lazy(() => import("./pages/connected-home"));
+const Careers = React.lazy(() => import("./pages/careers"));
 const CommercialAutomation = React.lazy(() =>
   import("./pages/commercial-automation")
 );
@@ -152,6 +153,7 @@ const AppRouter = () => {
           <Route path="/tags/:id" element={<Tags />} />
           <Route path="/control-4" element={<Control4 />} />
           <Route path="/golf-simulators" element={<GolfSimulators />} />
+          <Route path="/careers" element={<Careers />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />
