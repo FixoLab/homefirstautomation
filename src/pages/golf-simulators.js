@@ -190,6 +190,102 @@ const GolfSimulators = () => {
           </div>
         </div>
       </div>
+      <div className="golf-simulators-video">
+        <video src="assets/video/auto-tee-up.mp4" loop autoPlay muted></video>
+        <div className="video-container">
+          <div className="video-content">
+            <h1>Auto Tee-up</h1>
+            <p>
+              GOLFZON Auto Tee-up automatically collects and dispense golf balls
+              for each shot. Tee heights are adjustable so that it can be
+              positioned at the right height for player’s driver, every time.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="golf-simulators-video">
+        <video src="assets/video/auto-tee-up2.mp4" loop autoPlay muted></video>
+        <div className="video-container">
+          <div className="video-content left">
+            <h1>Moving Swing Plate</h1>
+            <p>
+              Equipped with Auto Tee-up and wide plate, the Moving Swing Plate
+              allows players to hit shots anywhere on the multi-surface hitting
+              mats. The Moving Swing Plate’s accommodates 360 degrees of
+              directional movement to provide real-world play by simulating
+              course slopes from tee box to the putting green.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="golf-simulators-video">
+        <video
+          src="assets/video/audio-services3.mp4"
+          loop
+          autoPlay
+          muted
+        ></video>
+        <div className="video-container">
+          <div className="video-content">
+            <h1>No Delay</h1>
+            <p>
+              Lag is never a problem with GOLFZON's no delay technology. It
+              simulates real ball flight, providing an immersive and precise
+              user-expereince.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="page#3" class="uk-section-muted uk-section request-quote">
+        <div class="uk-container uk-container-large">
+          <div class="tm-grid-expand uk-grid-margin uk-grid" uk-grid="">
+            <div class="uk-width-1-3@m uk-first-column">
+              <div class="uk-margin">
+                <img
+                  src="assets/images/golf-simulators-02.webp"
+                  width="703"
+                  height="450"
+                  class="el-image"
+                  alt="GOLFZON golf simulator"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+
+            <div class="uk-width-1-3@m">
+              <div class="uk-margin">
+                <img
+                  src="assets/images/golf-simulators-03.webp"
+                  width="703"
+                  height="450"
+                  class="el-image"
+                  alt="GOLFZON golf simulator"
+                />
+              </div>
+            </div>
+
+            <div class="uk-width-1-3@m">
+              <div className="message-icon">
+                <i class="fa-regular fa-message"></i>
+              </div>
+
+              <h5 class="uk-text-center" id="page#2">
+                Request a Quote
+              </h5>
+              <div class="uk-panel uk-margin uk-margin-remove-top uk-text-center">
+                Ready to bring the world of golf to your home? Sign up today for
+                a free consultation from one of our expert golf simulator
+                installers. We're excited to make your dreams come true
+              </div>
+              <div class="uk-text-center">
+                <a class="button__primary" href="/contact-us">
+                  Let's Do It
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

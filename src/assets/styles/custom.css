@@ -3724,9 +3724,61 @@ a#scroll-to-top {
   margin-left: 20px;
   border-bottom: 2px solid transparent;
 }
+.golf-simulators-video {
+  overflow: hidden;
+  position: relative;
+  padding: 70px 0;
+}
+.golf-simulators-video video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.golf-simulators-video .video-container {
+  max-width: 1200px;
+  margin: 0px auto;
+  position: relative;
+  z-index: 99;
+}
+.golf-simulators-video .video-content {
+  width: 450px;
+  padding: 25px;
+  margin-left: auto;
+}
+.golf-simulators-video .video-content.left {
+  margin-right: auto;
+  margin-left: 0;
+}
+.golf-simulators-video .video-content h1 {
+  margin: 40px 0 20px;
+  font-size: 44px;
+  color: #fff;
+  font-weight: 600;
+}
+.golf-simulators-video .video-content p {
+  margin: 30px 0;
+  color: #fff;
+}
+.request-quote h5 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.request-quote .message-icon {
+  text-align: center;
+  color: #007ca1;
+}
+@media screen and (max-width: 1400px) {
+  .golf-simulators ul li a {
+    padding: 5px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .control4 .control4-hero {
     height: 75vh;
+  }
+  .golf-simulators-video {
+    padding: 50px 0;
   }
   .control4 .control4-hero video {
     height: 75vh;
@@ -3807,6 +3859,16 @@ a#scroll-to-top {
   }
   .home-standard .home-standard-area .content .bottom {
     margin-top: 30px;
+  }
+  .golf-simulators-video {
+    padding: 50px 0;  
+  }
+  .golf-simulators-video .video-content {
+    width: 100%;
+    padding: 30px;
+  }
+  .request-quote img {
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 600px) {

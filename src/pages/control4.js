@@ -64,7 +64,7 @@ const Control4 = () => {
           <div className="content">
             <div className="top">
               <h3> The New Smart Home Standard </h3>
-              <p>
+              <p className="minigray">
                 Experience effortless, personalized control of your home with
                 fluid, intuitive interfaces and more than a thousand new
                 features that make it easier than ever to craft a smart home
@@ -157,7 +157,7 @@ const Control4 = () => {
           <div className="content" style={{ margin: "0 0 auto auto" }}>
             <div className="top">
               <h3>SMARTER LIVING YOUR WAY</h3>
-              <p>
+              <p className="minigray">
                 Imagine your dream smart home, then watch Control4 bring it to
                 life. Their scalable products, compatibility with third-party
                 devices and intuitive remotes and interfaces come together to
@@ -255,7 +255,7 @@ const Control4 = () => {
           <div className="content" style={{ margin: "0 0 auto auto" }}>
             <div className="top">
               <h3>CLIMATE & COMFORT</h3>
-              <p>
+              <p className="minigray">
                 Through seamless control of thermostats and motorized shades,
                 you can maximize your family's comfort while becoming more
                 energy efficient. Have your go-to settings saved and ready at
@@ -361,7 +361,7 @@ const Control4 = () => {
           <div className="content" style={{ margin: "0 0 auto auto" }}>
             <div className="top">
               <h3>SAFETY & SECURITY</h3>
-              <p>
+              <p className="minigray">
                 Your family's safety should always be a top priority, which is
                 why Control4 has made proactive security a key feature of their
                 systems. Deliver peace of mind to the entire family with
@@ -567,7 +567,7 @@ const Control4 = () => {
           <div className="content">
             <div className="top">
               <h3>INTERCOM ANYWHERE</h3>
-              <p>
+              <p className="minigray">
                 With a Control4 installation, you get a built-in intercom system
                 that lets you communicate with guests or family members. No
                 added hardware or bulky equipment is needed. Just use the
@@ -724,7 +724,7 @@ const Control4 = () => {
           <div className="content">
             <div className="top">
               <h3>UNIVERSAL REMOTE</h3>
-              <p>
+              <p className="minigray">
                 The Neeo and SR-260 remotes put control of all your technology
                 in the palm of your hand. These remotes provide an intuitive,
                 tactile approach to smart home control and can be customized to
