@@ -3498,7 +3498,7 @@ a#scroll-to-top {
   display: flex;
   align-items: center;
   gap: 30px;
-  padding: 30px 0;
+  padding: 30px 0 0;
 }
 
 .control4-featureV2 .control4-featureV2-top .item .title {
@@ -3564,6 +3564,39 @@ a#scroll-to-top {
 }
 .control4-featureV2 .control4-featureV2-top .item .item-content:hover p {
   opacity: 1;
+}
+.control4-brands {
+  max-width: 1200px;
+  padding: 65px 30px;
+  margin: 0 auto;
+}
+.control4-brands .control4-brands-area {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.control4-brands .control4-brands-area .top h3 {
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin: 0;
+}
+.control4-brands .control4-brands-area .top h5 {
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  color: #222;
+  text-transform: uppercase;
+}
+.control4-brands .control4-brands-area .nav-area {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1000px) {
