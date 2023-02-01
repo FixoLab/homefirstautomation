@@ -416,19 +416,13 @@ const Control4 = () => {
                       uk-tab="connect: #js-e6ab; itemNav: #js-e6b8; animation: uk-animation-slide-left-small; media: @m  ;"
                     >
                       <li className="">
-                        <a href="#" aria-expanded="false">
-                          Alerts and Notifications
-                        </a>
+                        <a href="#">Alerts and Notifications</a>
                       </li>
                       <li className="">
-                        <a href="#" aria-expanded="false">
-                          Intercom Everywhere
-                        </a>
+                        <a href="#">Intercom Everywhere</a>
                       </li>
                       <li className="">
-                        <a href="#" aria-expanded="false">
-                          Locks and Cameras
-                        </a>
+                        <a href="#">Locks and Cameras</a>
                       </li>
                       <li className="uk-active">
                         <a href="#" aria-expanded="true">
@@ -437,90 +431,88 @@ const Control4 = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className="">
-                    <ul
-                      id="js-e6ab"
-                      className="uk-switcher"
-                      uk-height-match="row: false"
-                    >
-                      <li className="el-item uk-margin-remove-first-child">
-                        <img
-                          src="assets/images/control4-100.webp"
-                          width="1000"
-                          height="800"
-                          className="el-image uk-border-rounded"
-                          alt=""
-                        />
-                        <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
-                          Alerts and Notifications
-                        </h3>
-                        <div className="el-content uk-panel uk-margin-top">
-                          Don't worry about being out of the loop when you leave
-                          the house. Set up alerts and notifications based on
-                          what matters most to you. Opt for alerts when motion
-                          sensors go off, someone enters the house or doors are
-                          left unlocked.
-                        </div>
-                      </li>
-                      <li className="el-item uk-margin-remove-first-child">
-                        <img
-                          src="assets/images/control4-101.webp"
-                          width="1000"
-                          height="800"
-                          className="el-image uk-border-rounded"
-                          alt=""
-                        />
-                        <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
-                          Intercom Everywhere
-                        </h3>
-                        <div className="el-content uk-panel uk-margin-top">
-                          No matter where you are, it's easy to interact with
-                          anyone at your front door. With Control4's Intercom
-                          Anywhere, you'll be able to speak with them, turn on
-                          lights and unlock the door all from the same intuitive
-                          security interface.
-                        </div>
-                      </li>
-                      <li className="el-item uk-margin-remove-first-child">
-                        <img
-                          src="assets/images/control4-102.webp"
-                          width="1000"
-                          height="800"
-                          className="el-image uk-border-rounded"
-                          alt=""
-                        />
-                        <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
-                          Locks and Cameras
-                        </h3>
-                        <div className="el-content uk-panel uk-margin-top">
-                          You can fortify your security with a Control4 system
-                          that lets you view surveillance footage and check on
-                          the status of your locks from anywhere. Create scenes
-                          that lock doors, turn on landscape lighting and
-                          activate your alarm all at once.
-                        </div>
-                      </li>
-                      <li className="el-item uk-margin-remove-first-child uk-active">
-                        <img
-                          src="assets/images/control4-103.webp"
-                          width="1500"
-                          height="1200"
-                          className="el-image uk-border-rounded"
-                          alt=""
-                        />
-                        <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
-                          Mockupancy
-                        </h3>
-                        <div className="el-content uk-panel uk-margin-top">
-                          Do you worry about leaving the house unoccupied when
-                          at work or on vacation? Set up a "Mockupancy" scene
-                          that turns lights on and off and opens and closes
-                          shades at random intervals to make it seem like
-                          someone is home at all times.
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
+                  <ul
+                    id="js-e6ab"
+                    className="uk-switcher"
+                    uk-height-match="row: false"
+                  >
+                    <li className="el-item uk-margin-remove-first-child">
+                      <img
+                        src="assets/images/control4-100.webp"
+                        width="1000"
+                        height="800"
+                        className="el-image uk-border-rounded"
+                        alt=""
+                      />
+                      <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
+                        Alerts and Notifications
+                      </h3>
+                      <div className="el-content uk-panel uk-margin-top">
+                        Don't worry about being out of the loop when you leave
+                        the house. Set up alerts and notifications based on what
+                        matters most to you. Opt for alerts when motion sensors
+                        go off, someone enters the house or doors are left
+                        unlocked.
+                      </div>
+                    </li>
+                    <li className="el-item uk-margin-remove-first-child">
+                      <img
+                        src="assets/images/control4-101.webp"
+                        width="1000"
+                        height="800"
+                        className="el-image uk-border-rounded"
+                        alt=""
+                      />
+                      <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
+                        Intercom Everywhere
+                      </h3>
+                      <div className="el-content uk-panel uk-margin-top">
+                        No matter where you are, it's easy to interact with
+                        anyone at your front door. With Control4's Intercom
+                        Anywhere, you'll be able to speak with them, turn on
+                        lights and unlock the door all from the same intuitive
+                        security interface.
+                      </div>
+                    </li>
+                    <li className="el-item uk-margin-remove-first-child">
+                      <img
+                        src="assets/images/control4-102.webp"
+                        width="1000"
+                        height="800"
+                        className="el-image uk-border-rounded"
+                        alt=""
+                      />
+                      <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
+                        Locks and Cameras
+                      </h3>
+                      <div className="el-content uk-panel uk-margin-top">
+                        You can fortify your security with a Control4 system
+                        that lets you view surveillance footage and check on the
+                        status of your locks from anywhere. Create scenes that
+                        lock doors, turn on landscape lighting and activate your
+                        alarm all at once.
+                      </div>
+                    </li>
+                    <li className="el-item uk-margin-remove-first-child uk-active">
+                      <img
+                        src="assets/images/control4-103.webp"
+                        width="1500"
+                        height="1200"
+                        className="el-image uk-border-rounded"
+                        alt=""
+                      />
+                      <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
+                        Mockupancy
+                      </h3>
+                      <div className="el-content uk-panel uk-margin-top">
+                        Do you worry about leaving the house unoccupied when at
+                        work or on vacation? Set up a "Mockupancy" scene that
+                        turns lights on and off and opens and closes shades at
+                        random intervals to make it seem like someone is home at
+                        all times.
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -598,168 +590,411 @@ const Control4 = () => {
           </div>
         </div>
       </div>
-      <div class="uk-visible@m uk-section-muted uk-section uk-section-small uk-padding-remove-bottom">
+      <div className="uk-section-muted uk-section uk-section-small uk-padding-remove-bottom">
         <div
-          class="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack"
+          className="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack"
           uk-grid=""
         >
-          <div class="uk-width-1-1 uk-first-column">
+          <div className="uk-width-1-1 uk-first-column">
             <div
               uk-slider="autoplay: 1;"
               id="page#16"
-              class="uk-margin uk-text-left uk-slider uk-slider-container"
+              className="uk-margin uk-text-left uk-slider uk-slider-container"
             >
-              <div class="uk-position-relative">
-                <ul class="uk-slider-items uk-grid uk-grid-medium">
-                  <li class="el-item uk-width-1-1 uk-width-3-5@m" tabindex="-1">
-                    <div class="uk-light">
-                      <div class="uk-cover-container">
-                        <img
-                          src="assets/images/control4-feature-09.webp"
-                          width="2000"
-                          height="1125"
-                          alt="coastal source speaker in rain"
-                          class="el-image uk-transition-opaque"
-                        />
+              <div className="uk-position-relative">
+                <ul className="uk-slider-items uk-grid uk-grid-medium">
+                  <li className="el-item uk-width-1-1 uk-width-3-5@m uk-light">
+                    <div className="uk-cover-container">
+                      <img
+                        src="assets/images/control4-feature-09.webp"
+                        width="2000"
+                        height="1125"
+                        alt="coastal source speaker in rain"
+                        className="el-image uk-transition-opaque"
+                      />
 
-                        <div class="uk-overlay-default uk-position-cover"></div>
-                        <div class="uk-position-bottom-left">
-                          <div class="uk-overlay uk-width-2xlarge uk-margin-remove-first-child">
-                            <h3 class="el-title uk-margin-top uk-margin-remove-bottom">
-                              Always Keeping You Connected
-                            </h3>
+                      <div className="uk-overlay-default uk-position-cover"></div>
+                      <div className="uk-position-bottom-left uk-overlay uk-width-2xlarge uk-margin-remove-first-child">
+                        <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
+                          Always Keeping You Connected
+                        </h3>
 
-                            <div class="el-content uk-panel">
-                              Access your intercom system on your mobile phone
-                              to tell your babysitter you're running late or let
-                              a delivery person drop off a package indoors.
-                            </div>
-                          </div>
+                        <div className="el-content uk-panel">
+                          Access your intercom system on your mobile phone to
+                          tell your babysitter you're running late or let a
+                          delivery person drop off a package indoors.
                         </div>
                       </div>
                     </div>
                   </li>
-                  <li
-                    class="el-item uk-width-1-1 uk-width-3-5@m uk-active"
-                    tabindex="-1"
-                  >
-                    <div class="uk-light">
-                      <div class="uk-cover-container">
-                        <img
-                          src="assets/images/control4-feature-10.webp"
-                          width="2000"
-                          height="1125"
-                          alt="coastal source speaker in pothos plant"
-                          class="el-image uk-transition-opaque"
-                        />
+                  <li className="el-item uk-width-1-1 uk-width-3-5@m uk-active uk-light">
+                    <div className="uk-cover-container">
+                      <img
+                        src="assets/images/control4-feature-10.webp"
+                        width="2000"
+                        height="1125"
+                        alt="coastal source speaker in pothos plant"
+                        className="el-image uk-transition-opaque"
+                      />
 
-                        <div class="uk-overlay-default uk-position-cover"></div>
-                        <div class="uk-position-bottom-left">
-                          <div class="uk-overlay uk-width-2xlarge uk-margin-remove-first-child">
-                            <h3 class="el-title uk-margin-top uk-margin-remove-bottom">
-                              Control at Home
-                            </h3>
+                      <div className="uk-overlay-default uk-position-cover"></div>
+                      <div className="uk-position-bottom-left uk-overlay uk-width-2xlarge uk-margin-remove-first-child">
+                        <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
+                          Control at Home
+                        </h3>
 
-                            <div class="el-content uk-panel">
-                              One touchscreen communicates with all others to
-                              let the family know it's time for dinner or with
-                              your video doorbell to let in guests.
-                            </div>
-                          </div>
+                        <div className="el-content uk-panel">
+                          One touchscreen communicates with all others to let
+                          the family know it's time for dinner or with your
+                          video doorbell to let in guests.
                         </div>
                       </div>
                     </div>
                   </li>
-                  <li class="el-item uk-width-1-1 uk-width-3-5@m" tabindex="-1">
-                    <div class="uk-light">
-                      <div class="uk-cover-container">
-                        <img
-                          src="assets/images/control4-feature-11.webp"
-                          width="2000"
-                          height="1125"
-                          alt=""
-                          class="el-image uk-transition-opaque"
-                        />
+                  <li className="el-item uk-width-1-1 uk-width-3-5@m uk-light">
+                    <div className="uk-cover-container">
+                      <img
+                        src="assets/images/control4-feature-11.webp"
+                        width="2000"
+                        height="1125"
+                        alt=""
+                        className="el-image uk-transition-opaque"
+                      />
 
-                        <div class="uk-overlay-default uk-position-cover"></div>
-                        <div class="uk-position-bottom-left">
-                          <div class="uk-overlay uk-width-2xlarge uk-margin-remove-first-child">
-                            <h3 class="el-title uk-margin-top uk-margin-remove-bottom">
-                              Not Your Everyday Doorbell
-                            </h3>
+                      <div className="uk-overlay-default uk-position-cover"></div>
+                      <div className="uk-position-bottom-left uk-overlay uk-width-2xlarge uk-margin-remove-first-child">
+                        <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
+                          Not Your Everyday Doorbell
+                        </h3>
 
-                            <div class="el-content uk-panel">
-                              Answer the door from anywhere in the world with
-                              Control4 doorbells that let you speak to guests,
-                              turn on lights and disarm your alarm.
-                            </div>
-                          </div>
+                        <div className="el-content uk-panel">
+                          Answer the door from anywhere in the world with
+                          Control4 doorbells that let you speak to guests, turn
+                          on lights and disarm your alarm.
                         </div>
                       </div>
                     </div>
                   </li>
                 </ul>
 
-                <div class="uk-visible@s">
+                <div className="uk-visible@s">
                   <a
-                    class="el-slidenav uk-position-medium uk-position-center-left uk-icon uk-slidenav-previous uk-slidenav"
+                    className="el-slidenav uk-position-medium uk-position-center-left uk-icon uk-slidenav-previous uk-slidenav"
                     href="#"
                     uk-slidenav-previous=""
                     uk-slider-item="previous"
                     aria-label="Previous slide"
-                  >
-                    <svg
-                      width="8"
-                      height="12"
-                      viewBox="0 0 8 12"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="#000"
-                        stroke-width="1.1"
-                        points="6,1 1,6 6,11"
-                      ></polyline>
-                    </svg>
-                  </a>
+                  ></a>
                   <a
-                    class="el-slidenav uk-position-medium uk-position-center-right uk-icon uk-slidenav-next uk-slidenav"
+                    className="el-slidenav uk-position-medium uk-position-center-right uk-icon uk-slidenav-next uk-slidenav"
                     href="#"
                     uk-slidenav-next=""
                     uk-slider-item="next"
                     aria-label="Next slide"
-                  >
-                    <svg
-                      width="8"
-                      height="12"
-                      viewBox="0 0 8 12"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <polyline
-                        fill="none"
-                        stroke="#000"
-                        stroke-width="1.1"
-                        points="2,11 7,6 2,1"
-                      ></polyline>
-                    </svg>
-                  </a>
+                  ></a>
                 </div>
               </div>
 
               <ul
-                class="el-nav uk-slider-nav uk-dotnav uk-flex-center uk-margin-top uk-visible@s"
+                className="el-nav uk-slider-nav uk-dotnav uk-flex-center uk-margin-top uk-visible@s"
                 uk-margin=""
               >
-                <li uk-slider-item="0" class="uk-first-column">
+                <li uk-slider-item="0" className="uk-first-column">
                   <a href="#" aria-label="Go to slide 1"></a>
                 </li>
-                <li uk-slider-item="1" class="uk-active">
+                <li uk-slider-item="1" className="uk-active">
                   <a href="#" aria-label="Go to slide 2"></a>
                 </li>
-                <li uk-slider-item="2" class="">
+                <li uk-slider-item="2" className="">
                   <a href="#" aria-label="Go to slide 3"></a>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="control4-empty"></div>
+      <div
+        className="home-standard"
+        style={{
+          backgroundImage: "url(/assets/images/header-brands-control4-06.webp)",
+        }}
+      >
+        <div className="home-standard-area">
+          <div className="content">
+            <div className="top">
+              <h3>UNIVERSAL REMOTE</h3>
+              <p>
+                The Neeo and SR-260 remotes put control of all your technology
+                in the palm of your hand. These remotes provide an intuitive,
+                tactile approach to smart home control and can be customized to
+                match the needs of every family member.
+              </p>
+            </div>
+            <div className="image">
+              <img src="assets/images/header-brands-control4-06.webp" alt="" />
+            </div>
+            <div className="bottom">
+              <h4>HANDHELD CONTROL, REVOLUTIONIZED</h4>
+              <h6>
+                ENJOY YOUR REMOTE IN A WHOLE NEW WAY WITH EASY ACCESS TO YOUR
+                FAVORITE FEATURES AND PRESET SCENES FOR MOVIE NIGHT, GAME DAY
+                AND MORE.
+              </h6>
+              <a href="/contact-us">Improve Your Control Experience</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="uk-section-default uk-section uk-padding-remove-vertical">
+        <div className="tm-grid-expand uk-grid-margin uk-grid" uk-grid="">
+          <div className="uk-grid-item-match uk-width-1-1@m uk-width-1-1@l uk-width-1-2@xl uk-first-column">
+            <div className="uk-tile-secondary uk-tile">
+              <div
+                className="uk-child-width-1-2 uk-child-width-1-2@m uk-grid-match uk-grid"
+                uk-grid=""
+              >
+                <div className="uk-first-column">
+                  <div className="el-item uk-panel uk-margin-remove-first-child">
+                    <img
+                      src="assets/images/header-brands-control4-07.webp"
+                      width="1500"
+                      height="1200"
+                      className="el-image"
+                      alt=""
+                    />
+
+                    <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
+                      Beyond the Universal Remote
+                    </h3>
+
+                    <div className="el-content uk-panel uk-margin-top">
+                      Spruce up your San Francisco media room or bedroom
+                      environment with a universal remote that lets you manage
+                      Control4 lighting, climate, AV and more.
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className="el-item uk-panel uk-margin-remove-first-child">
+                    <img
+                      src="assets/images/header-brands-control4-08.webp"
+                      width="1500"
+                      height="1200"
+                      className="el-image"
+                      alt=""
+                    />
+
+                    <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
+                      Can Your Remote Do This?
+                    </h3>
+
+                    <div className="el-content uk-panel uk-margin-top">
+                      Find the remote quickly through location alerts, recharge
+                      it to reduce battery waste, enjoy easy access to your
+                      favorite features and use it in any room.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="uk-grid-item-match uk-width-1-1@m uk-width-1-1@l uk-width-1-2@xl">
+            <div className="uk-tile-default uk-tile uk-flex uk-flex-middle">
+              <div className="uk-panel uk-width-1-1">
+                <div>
+                  <br />
+                </div>
+                <h4 className="uk-margin-remove-bottom">
+                  Envision the Possibilities
+                </h4>
+                <div className="uk-panel uk-margin-small uk-width-large">
+                  Click through our interactive demo below to see the many ways
+                  a Control4 smart home can transform your day-to-day lifestyle.
+                </div>
+                <div className="uk-inline">
+                  <img
+                    src="assets/images/header-brands-control4-09.webp"
+                    width="3000"
+                    height="1688"
+                    alt=""
+                  />
+
+                  <a
+                    className="uk-position-absolute icon"
+                    style={{ top: "62%", left: "74%" }}
+                    href="#"
+                  >
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+
+                  <div
+                    style={{ width: "300px" }}
+                    uk-drop="pos: top-center; auto-update: false;"
+                    className="uk-drop"
+                  >
+                    <div class="csh-card">
+                      <div class="csh-card-content">
+                        <h3 class="csh-card-content-title">
+                          Add a Soundtrack to Your Day
+                        </h3>
+                        <div class="csh-card-content-desc">
+                          <p>
+                            Effortlessly access your favorite music and play it
+                            through
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a
+                    className="uk-position-absolute icon"
+                    style={{ top: "12%", left: "24%" }}
+                    href="#"
+                  >
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+
+                  <div
+                    style={{ width: "300px" }}
+                    uk-drop="pos: top-center; auto-update: false;"
+                    className="uk-drop"
+                  >
+                    <div class="csh-card">
+                      <div class="csh-card-content">
+                        <h3 class="csh-card-content-title">
+                          Sunlight at Your Command
+                        </h3>
+                        <div class="csh-card-content-desc">
+                          <p>
+                            Control your shades through a mobile app, schedules
+                            or sensors to ensure the perfect lighting and
+                            temperature every time.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a
+                    className="uk-position-absolute icon"
+                    style={{ top: "5%", left: "52%" }}
+                    href="#"
+                  >
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+
+                  <div
+                    style={{ width: "300px" }}
+                    uk-drop="pos: top-center; auto-update: false;"
+                    className="uk-drop"
+                  >
+                    <div class="csh-card">
+                      <div class="csh-card-content">
+                        <h3 class="csh-card-content-title">
+                          Add a Spark to Your Outdoors
+                        </h3>
+                        <div class="csh-card-content-desc">
+                          <p>
+                            Landscape lighting elevates your outdoor living
+                            spaces while improving your security and safety with
+                            light schedules and sensors.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a
+                    className="uk-position-absolute icon"
+                    style={{ top: "25%", left: "54%" }}
+                    href="#"
+                  >
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+
+                  <div
+                    style={{ width: "300px" }}
+                    uk-drop="pos: top-center; auto-update: false;"
+                    className="uk-drop"
+                  >
+                    <div class="csh-card">
+                      <div class="csh-card-content">
+                        <h3 class="csh-card-content-title">
+                          Movie Night Perfection
+                        </h3>
+                        <div class="csh-card-content-desc">
+                          <p>
+                            Enjoy movie night like never before with universal
+                            remotes that adjust lights, climate, shades and AV
+                            to craft the perfect viewing environment in seconds.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a
+                    className="uk-position-absolute icon"
+                    style={{ top: "54%", left: "51%" }}
+                    href="#"
+                  >
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+
+                  <div
+                    style={{ width: "300px" }}
+                    uk-drop="pos: top-center; auto-update: false;"
+                    className="uk-drop"
+                  >
+                    <div class="csh-card">
+                      <div class="csh-card-content">
+                        <h3 class="csh-card-content-title">
+                          Access Control Made Easy
+                        </h3>
+                        <div class="csh-card-content-desc">
+                          <p>
+                            One button press at the end of the night or as you
+                            leave the house locks all your doors for optimal
+                            efficiency and peace of mind.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a
+                    className="uk-position-absolute icon"
+                    style={{ top: "38%", left: "69%" }}
+                    href="#"
+                  >
+                    <i className="fa-solid fa-plus"></i>
+                  </a>
+
+                  <div
+                    style={{ width: "300px" }}
+                    uk-drop="pos: top-center; auto-update: false;"
+                    className="uk-drop"
+                  >
+                    <div class="csh-card">
+                      <div class="csh-card-content">
+                        <h3 class="csh-card-content-title">
+                          A Fully Integrated Thermostat
+                        </h3>
+                        <div class="csh-card-content-desc">
+                          <p>
+                            Embrace an eco-conscious lifestyle with a thermostat
+                            that works with your motorized shades to maintain
+                            your preset temperature.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

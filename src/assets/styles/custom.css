@@ -3634,7 +3634,38 @@ a#scroll-to-top {
   font-size: 14px;
 }
 .uk-overlay-default {
-  background: linear-gradient(0deg, rgba(8,8,9,0.8) 11%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(8, 8, 9, 0.8) 11%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.el-slidenav svg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px;
+  display: flex;
+}
+.uk-dotnav a {
+  width: 12px;
+  height: 12px;
+}
+.uk-dotnav .uk-active a {
+  background-color: #007ca1;
+}
+.uk-position-absolute.icon i {
+  background-color: #007ca1;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (max-width: 1000px) {
   .control4 .control4-hero {
