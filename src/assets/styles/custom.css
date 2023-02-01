@@ -2254,7 +2254,7 @@ a#scroll-to-top {
 }
 .indoor-living-about .indoor-living-feature {
   width: 60%;
-/* padding-top: 0px; */
+  /* padding-top: 0px; */
 }
 .indoor-living-about .indoor-living-about-box {
   width: 40%;
@@ -3146,10 +3146,12 @@ a#scroll-to-top {
 
 /* commercial automation  */
 .commercial-page .commercial-automantion-video {
-  height: 85vh ;
+  height: 85vh;
 }
-@media only screen and (max-width: 728px){
-  .commercial-page .wp-block-group.homevideo.servicespages.commercial-automantion-video .wp-block-group__inner-container.indoor-living-background{
+@media only screen and (max-width: 728px) {
+  .commercial-page
+    .wp-block-group.homevideo.servicespages.commercial-automantion-video
+    .wp-block-group__inner-container.indoor-living-background {
     height: 40vh !important;
   }
 }
@@ -3511,7 +3513,7 @@ a#scroll-to-top {
   margin: 0 auto;
   font-size: 24px;
   line-height: 1;
-  font-weight: 300;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.02em;
   overflow: hidden;
@@ -3586,7 +3588,7 @@ a#scroll-to-top {
 .control4-brands .control4-brands-area .top h3 {
   font-size: 30px;
   line-height: 1.2;
-  font-weight: 200;
+  font-weight: 500;
   text-transform: uppercase;
   margin: 0;
 }
@@ -3604,7 +3606,34 @@ a#scroll-to-top {
   align-items: center;
   flex-wrap: wrap;
 }
-
+.peace-of-mind .peace-of-mind-left h3 {
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.peace-of-mind .peace-of-mind-left h5 {
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  color: #222;
+  text-transform: uppercase;
+}
+.peace-of-mind .peace-of-mind-left p {
+  margin: 10px 0;
+}
+.peace-of-mind .peace-of-mind-right h3 {
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.peace-of-mind .peace-of-mind-right a {
+  font-size: 14px;
+}
 @media screen and (max-width: 1000px) {
   .control4 .control4-hero {
     height: 75vh;
@@ -3848,10 +3877,11 @@ a#scroll-to-top {
     .wp-block-group__inner-container.indoor-living-background {
     height: 40vh !important;
   }
- .commercial-technology .wp-block-group.homevideo.servicespages {
+  .commercial-technology .wp-block-group.homevideo.servicespages {
     height: 40vh !important;
   }
-  .commercial-technology .wp-block-group.homevideo.servicespages
+  .commercial-technology
+    .wp-block-group.homevideo.servicespages
     .wp-block-group__inner-container.indoor-living-background {
     height: 40vh !important;
   }
