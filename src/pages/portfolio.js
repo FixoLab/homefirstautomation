@@ -1066,6 +1066,22 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+          <div className="commercial-automation-bottom">
+            <a href="#site-content">
+              <i className="fa-solid fa-arrow-up"></i>
+            </a>
+            <h2>
+            EMBRACE A BEAUTIFULLY FUNCTIONAL SPACE
+
+            </h2>
+            <p className="minigray">
+            Get More out of Your Technology Without Sacrificing Style
+
+            </p>
+            <a className="button__primary" href="/contact-us">
+              Transform your space
+            </a>
+          </div>
         </div>
       </div>
     </div>
