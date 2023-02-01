@@ -26,7 +26,7 @@ const Partners = React.lazy(() => import("./pages/partners"));
 const Blog = React.lazy(() => import("./pages/blog"));
 const BlogDetails = React.lazy(() => import("./pages/blog-details"));
 const ContactUs = React.lazy(() => import("./pages/contact-us"));
-
+const GolfSimulators = React.lazy(() => import("./pages/golf-simulators"));
 const InteriorDesigners = React.lazy(() =>
   import("./pages/interior-designers")
 );
@@ -151,6 +151,7 @@ const AppRouter = () => {
           <Route path="/category/:id" element={<Category />} />
           <Route path="/tags/:id" element={<Tags />} />
           <Route path="/control-4" element={<Control4 />} />
+          <Route path="/golf-simulators" element={<GolfSimulators />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />

@@ -3411,6 +3411,11 @@ a#scroll-to-top {
   transform: translate(-50%, -50%);
   object-fit: cover;
 }
+.control4 .control4-hero img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
 .control4 .control4-hero .control4-content {
   position: absolute;
   bottom: 0;
@@ -3667,9 +3672,113 @@ a#scroll-to-top {
   align-items: center;
   justify-content: center;
 }
+.golf-simulators-left h4 {
+  font-size: 26px;
+  line-height: 1.4;
+  letter-spacing: 0.25px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.golf-simulators-left i {
+  text-align: center;
+  display: inherit;
+  font-size: 35px;
+  color: #007ca1;
+  margin-bottom: 20px;
+}
+.golf-simulators-title {
+  font-size: 38px;
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.golf-simulators-left p {
+  font-style: italic;
+}
+.golf-simulators .uk-margin {
+  margin-top: 50px !important;
+}
+.golf-simulators-left .content {
+  background-color: #fafafa;
+}
+.golf-simulators ul {
+  position: inherit;
+}
+.golf-simulators ul li {
+  margin: 0;
+  padding: 0;
+}
+#page\#0 {
+  padding-left: 30px;
+  padding-right: 0px;
+}
+.golf-simulators ul li h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.golf-simulators ul li a {
+  font-size: 14px;
+  padding: 0;
+  margin-left: 20px;
+  border-bottom: 2px solid transparent;
+}
+.golf-simulators-video {
+  overflow: hidden;
+  position: relative;
+  padding: 70px 0;
+}
+.golf-simulators-video video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.golf-simulators-video .video-container {
+  max-width: 1200px;
+  margin: 0px auto;
+  position: relative;
+  z-index: 99;
+}
+.golf-simulators-video .video-content {
+  width: 450px;
+  padding: 25px;
+  margin-left: auto;
+}
+.golf-simulators-video .video-content.left {
+  margin-right: auto;
+  margin-left: 0;
+}
+.golf-simulators-video .video-content h1 {
+  margin: 40px 0 20px;
+  font-size: 44px;
+  color: #fff;
+  font-weight: 600;
+}
+.golf-simulators-video .video-content p {
+  margin: 30px 0;
+  color: #fff;
+}
+.request-quote h5 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.request-quote .message-icon {
+  text-align: center;
+  color: #007ca1;
+}
+@media screen and (max-width: 1400px) {
+  .golf-simulators ul li a {
+    padding: 5px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .control4 .control4-hero {
     height: 75vh;
+  }
+  .golf-simulators-video {
+    padding: 50px 0;
   }
   .control4 .control4-hero video {
     height: 75vh;
@@ -3750,6 +3859,16 @@ a#scroll-to-top {
   }
   .home-standard .home-standard-area .content .bottom {
     margin-top: 30px;
+  }
+  .golf-simulators-video {
+    padding: 50px 0;  
+  }
+  .golf-simulators-video .video-content {
+    width: 100%;
+    padding: 30px;
+  }
+  .request-quote img {
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 600px) {
