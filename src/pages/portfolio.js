@@ -21,12 +21,7 @@ const Portfolio = () => {
 
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
-                  <div
-                    className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible"
-                    data-aos="fade-up"
-                    data-aos-duration="800"
-                    data-aos-delay="400"
-                  >
+                  <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
                     <div className="wp-block-group__inner-container">
                       <h1>ARTFULLY CRAFTED SPACES</h1>
                       <div>
@@ -696,7 +691,9 @@ const Portfolio = () => {
               <div className="title-inner">
                 <h4>AUDIO / VIDEO</h4>
                 <p className="minigray">
-                Optimize your entertainment with a multi room audio system, high-resolution video and gear that blends seamlessly with your home’s décor.
+                  Optimize your entertainment with a multi room audio system,
+                  high-resolution video and gear that blends seamlessly with
+                  your home’s décor.
                 </p>
               </div>
             </div>
@@ -842,7 +839,8 @@ const Portfolio = () => {
               <div className="title-inner">
                 <h4>HOME THEATER</h4>
                 <p className="minigray">
-                Naturally tailored environments for an exhilarating viewing experience that exceeds that of a traditional theater.
+                  Naturally tailored environments for an exhilarating viewing
+                  experience that exceeds that of a traditional theater.
                 </p>
               </div>
             </div>
@@ -916,15 +914,15 @@ const Portfolio = () => {
                   />
                 </a>
               </div>
-          
             </div>
           </div>
-           <div className="portfolio-content alignfull" id="4">
+          <div className="portfolio-content alignfull" id="4">
             <div className="connected-living-title-section ">
               <div className="title-inner">
                 <h4>EXTERIOR</h4>
                 <p className="minigray">
-                Naturally tailored environments for an exhilarating viewing experience that exceeds that of a traditional theater.
+                  Naturally tailored environments for an exhilarating viewing
+                  experience that exceeds that of a traditional theater.
                 </p>
               </div>
             </div>
@@ -1069,13 +1067,9 @@ const Portfolio = () => {
             <a href="#site-content">
               <i className="fa-solid fa-arrow-up"></i>
             </a>
-            <h2>
-            EMBRACE A BEAUTIFULLY FUNCTIONAL SPACE
-
-            </h2>
+            <h2>EMBRACE A BEAUTIFULLY FUNCTIONAL SPACE</h2>
             <p className="minigray">
-            Get More out of Your Technology Without Sacrificing Style
-
+              Get More out of Your Technology Without Sacrificing Style
             </p>
             <a className="button__primary" href="/contact-us">
               Transform your space
