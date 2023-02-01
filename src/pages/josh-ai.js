@@ -1,5 +1,5 @@
 import React from "react";
-const StartJourney = React.lazy(() => import("../components/start-journey"));
+import { Link } from "react-router-dom";
 
 const JoshAi = () => {
   return (
@@ -698,52 +698,52 @@ const JoshAi = () => {
         <div className="josh-ai-bottom">
           <div
             id="page#2"
-            class="uk-visible@xl uk-section-default uk-section uk-padding-remove-top uk-padding-remove-bottom"
+            className="uk-visible@xl uk-section-default uk-section uk-padding-remove-top uk-padding-remove-bottom"
           >
-            <div class="tm-grid-expand uk-grid-collapse uk-grid" uk-grid="">
-              <div class="uk-grid-item-match uk-width-1-1@s uk-width-2-5@m uk-first-column">
-                <div class="uk-tile-secondary uk-tile uk-tile-small">
-                  <div class="uk-margin">
+            <div className="tm-grid-expand uk-grid-collapse uk-grid" uk-grid="">
+              <div className="uk-grid-item-match uk-width-1-1@s uk-width-2-5@m uk-first-column">
+                <div className="uk-tile-secondary uk-tile uk-tile-small">
+                  <div className="uk-margin">
                     <ul
-                      class="el-nav uk-margin uk-tab josh-ai-tab"
+                      className="el-nav uk-margin uk-tab josh-ai-tab"
                       uk-tab="connect: #js-a34b; itemNav: #js-a355; animation: uk-animation-fade;"
                     >
-                      <li class="uk-active">
-                        <a href="#" aria-expanded="true">
+                      <li className="uk-active">
+                        <Link href="#" aria-expanded="true">
                           Natural Language
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" aria-expanded="false">
+                        <Link href="#" aria-expanded="false">
                           Accessibility
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" aria-expanded="false">
+                        <Link href="#" aria-expanded="false">
                           Hands-Free Control
-                        </a>
+                        </Link>
                       </li>
                     </ul>
 
                     <ul
                       id="js-a34b"
-                      class="uk-switcher"
+                      className="uk-switcher"
                       uk-height-match="row: false"
                     >
-                      <li class="el-item uk-margin-remove-first-child uk-active">
+                      <li className="el-item uk-margin-remove-first-child uk-active">
                         <img
                           src="assets/images/josh-ai-14.webp"
                           width="1200"
                           height="800"
-                          class="el-image"
+                          className="el-image"
                           alt=""
                         />
 
-                        <h3 class="el-title uk-margin-top uk-margin-remove-bottom">
+                        <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                           Natural Language
                         </h3>
 
-                        <div class="el-content uk-panel uk-margin-top">
+                        <div className="el-content uk-panel uk-margin-top">
                           Leveraging its proprietary Natural Language
                           Processing, Josh understands countless variations of
                           commands so that you can speak however is easiest.
@@ -755,20 +755,20 @@ const JoshAi = () => {
                           turned on.
                         </div>
                       </li>
-                      <li class="el-item uk-margin-remove-first-child">
+                      <li className="el-item uk-margin-remove-first-child">
                         <img
                           src="assets/images/josh-ai-15.webp"
                           width="1200"
                           height="800"
-                          class="el-image"
+                          className="el-image"
                           alt=""
                         />
 
-                        <h3 class="el-title uk-margin-top uk-margin-remove-bottom">
+                        <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                           Accessibility
                         </h3>
 
-                        <div class="el-content uk-panel uk-margin-top">
+                        <div className="el-content uk-panel uk-margin-top">
                           Josh Micro and Nano are location-aware, enabling
                           contextual commands to set the mood in the room you’re
                           in. Create a “Good Morning” scene for the bedroom and
@@ -777,20 +777,20 @@ const JoshAi = () => {
                           you are in the home. It’s that simple!
                         </div>
                       </li>
-                      <li class="el-item uk-margin-remove-first-child">
+                      <li className="el-item uk-margin-remove-first-child">
                         <img
                           src="assets/images/josh-ai-16.webp"
                           width="1200"
                           height="800"
-                          class="el-image"
+                          className="el-image"
                           alt=""
                         />
 
-                        <h3 class="el-title uk-margin-top uk-margin-remove-bottom">
+                        <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                           Hands-Free Control
                         </h3>
 
-                        <div class="el-content uk-panel uk-margin-top">
+                        <div className="el-content uk-panel uk-margin-top">
                           Josh Micro and Nano are equipped with powerful
                           far-field microphone arrays to hear commands from
                           across any room. Josh is capable of responding through
@@ -804,12 +804,12 @@ const JoshAi = () => {
                 </div>
               </div>
 
-              <div class="uk-grid-item-match uk-width-1-3@s uk-width-1-5@m">
-                <div class=" uk-tile uk-tile-xlarge">
-                  <h5 class="uk-margin-remove-bottom uk-width-medium uk-text-right">
+              <div className="uk-grid-item-match uk-width-1-3@s uk-width-1-5@m">
+                <div className=" uk-tile uk-tile-xlarge">
+                  <h5 className="uk-margin-remove-bottom uk-width-medium uk-text-right">
                     Meet Nano
                   </h5>
-                  <div class="uk-panel uk-text-meta uk-margin uk-margin-remove-top uk-width-medium uk-text-right minigray">
+                  <div className="uk-panel uk-text-meta uk-margin uk-margin-remove-top uk-width-medium uk-text-right minigray">
                     The first-ever architectural microphone, Josh Nano marries
                     design and technology to offer seamless smart home control
                     that blends into the environment.
@@ -817,17 +817,17 @@ const JoshAi = () => {
                 </div>
               </div>
 
-              <div class="uk-grid-item-match uk-flex-middle uk-width-1-3@s uk-width-1-5@m">
-                <div class="uk-panel uk-width-1-1">
+              <div className="uk-grid-item-match uk-flex-middle uk-width-1-3@s uk-width-1-5@m">
+                <div className="uk-panel uk-width-1-1">
                   <div
-                    class="uk-position-relative uk-margin"
+                    className="uk-position-relative uk-margin"
                     uk-parallax="scale: 1.5,2; easing: 1;"
                   >
                     <img
                       src="assets/images/josh-ai-17.webp"
                       width="600"
                       height="414"
-                      class="el-image"
+                      className="el-image"
                       alt=""
                       loading="lazy"
                     />
@@ -835,13 +835,13 @@ const JoshAi = () => {
                 </div>
               </div>
 
-              <div class="uk-grid-item-match uk-width-1-3@s uk-width-1-5@m">
-                <div class="uk-tile uk-tile-large uk-flex uk-flex-bottom">
-                  <div class="uk-panel uk-width-1-1">
-                    <h5 class="uk-margin-remove-bottom uk-width-medium uk-margin-auto-left uk-text-left">
+              <div className="uk-grid-item-match uk-width-1-3@s uk-width-1-5@m">
+                <div className="uk-tile uk-tile-large uk-flex uk-flex-bottom">
+                  <div className="uk-panel uk-width-1-1">
+                    <h5 className="uk-margin-remove-bottom uk-width-medium uk-margin-auto-left uk-text-left">
                       Meet Micro
                     </h5>
-                    <div class="uk-panel uk-text-meta uk-margin uk-margin-remove-top uk-width-medium uk-text-left minigray">
+                    <div className="uk-panel uk-text-meta uk-margin uk-margin-remove-top uk-width-medium uk-text-left minigray">
                       Built for luxury living spaces, Josh Micro features
                       built-in voice control and artificial intelligence to
                       power even the largest homes with ease.
@@ -851,61 +851,61 @@ const JoshAi = () => {
               </div>
             </div>
           </div>
-          <div class="uk-hidden@xl uk-section-secondary uk-section">
-            <div class="uk-container">
+          <div className="uk-hidden@xl uk-section-secondary uk-section">
+            <div className="uk-container">
               <div
-                class="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack"
+                className="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack"
                 uk-grid=""
               >
-                <div class="uk-width-1-1 uk-first-column">
-                  <div class="uk-margin">
+                <div className="uk-width-1-1 uk-first-column">
+                  <div className="uk-margin">
                     <ul
-                      class="el-nav uk-margin uk-tab josh-ai-tab"
+                      className="el-nav uk-margin uk-tab josh-ai-tab"
                       uk-tab="connect: #js-b98c; itemNav: #js-b995; animation: uk-animation-fade;"
                     >
-                      <li class="uk-active">
-                        <a href="#" aria-expanded="true">
+                      <li className="uk-active">
+                        <Link href="#" aria-expanded="true">
                           Natural Language
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" aria-expanded="false">
+                        <Link href="#" aria-expanded="false">
                           Accessibility
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#" aria-expanded="false">
+                        <Link href="#" aria-expanded="false">
                           Hands-Free Control
-                        </a>
+                        </Link>
                       </li>
                     </ul>
 
                     <ul
                       id="js-b98c"
-                      class="uk-switcher"
+                      className="uk-switcher"
                       uk-height-match="row: false"
                     >
-                      <li class="el-item uk-active">
+                      <li className="el-item uk-active">
                         <div
-                          class="uk-child-width-expand uk-grid uk-grid-stack"
+                          className="uk-child-width-expand uk-grid uk-grid-stack"
                           uk-grid=""
                         >
-                          <div class="uk-width-1-2@m uk-first-column">
+                          <div className="uk-width-1-2@m uk-first-column">
                             <img
                               src="assets/images/josh-ai-14.webp"
                               width="1200"
                               height="800"
-                              class="el-image"
+                              className="el-image"
                               alt=""
                               loading="lazy"
                             />
                           </div>
-                          <div class="uk-margin-remove-first-child uk-grid-margin uk-first-column">
-                            <h3 class="el-title uk-margin-top uk-margin-remove-bottom">
+                          <div className="uk-margin-remove-first-child uk-grid-margin uk-first-column">
+                            <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                               Natural Language
                             </h3>
 
-                            <div class="el-content uk-panel uk-margin-top">
+                            <div className="el-content uk-panel uk-margin-top">
                               Using proprietary Natural Language Processing
                               technology, Josh understands variations of names
                               and commands for rooms, devices and scenes so that
@@ -917,27 +917,27 @@ const JoshAi = () => {
                           </div>
                         </div>
                       </li>
-                      <li class="el-item">
+                      <li className="el-item">
                         <div
-                          class="uk-child-width-expand uk-grid uk-grid-stack"
+                          className="uk-child-width-expand uk-grid uk-grid-stack"
                           uk-grid=""
                         >
-                          <div class="uk-width-1-2@m">
+                          <div className="uk-width-1-2@m">
                             <img
                               src="assets/images/josh-ai-15.webp"
                               width="1200"
                               height="800"
-                              class="el-image"
+                              className="el-image"
                               alt=""
                               loading="lazy"
                             />
                           </div>
-                          <div class="uk-margin-remove-first-child">
-                            <h3 class="el-title uk-margin-top uk-margin-remove-bottom">
+                          <div className="uk-margin-remove-first-child">
+                            <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                               Accessibility
                             </h3>
 
-                            <div class="el-content uk-panel uk-margin-top">
+                            <div className="el-content uk-panel uk-margin-top">
                               The Josh Micro and Nano are location-aware,
                               enabling you to make simple contextual commands to
                               set the mood in just the room you’re in. Create a
@@ -949,27 +949,27 @@ const JoshAi = () => {
                           </div>
                         </div>
                       </li>
-                      <li class="el-item">
+                      <li className="el-item">
                         <div
-                          class="uk-child-width-expand uk-grid uk-grid-stack"
+                          className="uk-child-width-expand uk-grid uk-grid-stack"
                           uk-grid=""
                         >
-                          <div class="uk-width-1-2@m">
+                          <div className="uk-width-1-2@m">
                             <img
                               src="assets/images/josh-ai-16.webp"
                               width="1200"
                               height="800"
-                              class="el-image"
+                              className="el-image"
                               alt=""
                               loading="lazy"
                             />
                           </div>
-                          <div class="uk-margin-remove-first-child">
-                            <h3 class="el-title uk-margin-top uk-margin-remove-bottom">
+                          <div className="uk-margin-remove-first-child">
+                            <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                               Hands-Free Control
                             </h3>
 
-                            <div class="el-content uk-panel uk-margin-top">
+                            <div className="el-content uk-panel uk-margin-top">
                               Enjoy simple hands-free assistance throughout your
                               home with the Josh Micro or Nano, which are
                               equipped with a powerful far-field microphone
@@ -989,15 +989,15 @@ const JoshAi = () => {
           </div>
           <div
             id="page#3"
-            class="uk-visible@l uk-hidden@xl uk-section-default uk-section uk-padding-remove-top uk-padding-remove-bottom"
+            className="uk-visible@l uk-hidden@xl uk-section-default uk-section uk-padding-remove-top uk-padding-remove-bottom"
           >
-            <div class="tm-grid-expand uk-grid-collapse uk-grid" uk-grid="">
-              <div class="uk-grid-item-match uk-width-1-3@m uk-first-column">
-                <div class="uk-tile josh-title-bottom">
-                  <h5 class="uk-margin-remove-bottom uk-width-medium uk-text-right ">
+            <div className="tm-grid-expand uk-grid-collapse uk-grid" uk-grid="">
+              <div className="uk-grid-item-match uk-width-1-3@m uk-first-column">
+                <div className="uk-tile josh-title-bottom">
+                  <h5 className="uk-margin-remove-bottom uk-width-medium uk-text-right ">
                     Meet Nano
                   </h5>
-                  <div class="uk-panel uk-text-meta uk-margin uk-margin-remove-top uk-margin-remove-bottom uk-width-medium uk-text-right minigray minigray">
+                  <div className="uk-panel uk-text-meta uk-margin uk-margin-remove-top uk-margin-remove-bottom uk-width-medium uk-text-right minigray minigray">
                     The first-ever architectural microphone, Josh Nano marries
                     design and technology to offer seamless smart home control
                     that blends into the environment.
@@ -1005,17 +1005,17 @@ const JoshAi = () => {
                 </div>
               </div>
 
-              <div class="uk-grid-item-match uk-width-1-3@m">
-                <div class="uk-tile-default uk-tile uk-tile-large">
+              <div className="uk-grid-item-match uk-width-1-3@m">
+                <div className="uk-tile-default uk-tile uk-tile-large">
                   <div
-                    class="uk-visible@m uk-position-relative uk-margin"
+                    className="uk-visible@m uk-position-relative uk-margin"
                     uk-parallax="scale: 1.5,2; easing: 1;"
                   >
                     <img
                       src="assets/images/josh-ai-17.webp"
                       width="600"
                       height="414"
-                      class="el-image"
+                      className="el-image"
                       alt=""
                       loading="lazy"
                     />
@@ -1023,13 +1023,13 @@ const JoshAi = () => {
                 </div>
               </div>
 
-              <div class="uk-grid-item-match uk-width-1-3@m">
-                <div class="uk-tile uk-flex uk-flex-bottom josh-title-bottom">
-                  <div class="uk-panel uk-width-1-1">
-                    <h5 class="uk-margin-remove-top uk-margin-remove-bottom uk-width-medium uk-margin-auto-left uk-text-left">
+              <div className="uk-grid-item-match uk-width-1-3@m">
+                <div className="uk-tile uk-flex uk-flex-bottom josh-title-bottom">
+                  <div className="uk-panel uk-width-1-1">
+                    <h5 className="uk-margin-remove-top uk-margin-remove-bottom uk-width-medium uk-margin-auto-left uk-text-left">
                       Meet Micro
                     </h5>
-                    <div class="uk-panel uk-text-meta uk-margin uk-margin-remove-top uk-width-medium uk-margin-auto-left uk-text-left minigray minigray">
+                    <div className="uk-panel uk-text-meta uk-margin uk-margin-remove-top uk-width-medium uk-margin-auto-left uk-text-left minigray minigray">
                       Built for luxury living spaces, Josh Micro features
                       built-in voice control and artificial intelligence to
                       power even the largest homes with ease.
@@ -1041,19 +1041,19 @@ const JoshAi = () => {
           </div>
           <div
             id="page#4"
-            class="uk-hidden@l uk-section-default uk-section uk-padding-remove-top uk-padding-remove-bottom"
+            className="uk-hidden@l uk-section-default uk-section uk-padding-remove-top uk-padding-remove-bottom"
           >
             <div
-              class="tm-grid-expand uk-grid-collapse uk-margin-remove-vertical uk-grid uk-grid-stack"
+              className="tm-grid-expand uk-grid-collapse uk-margin-remove-vertical uk-grid uk-grid-stack"
               uk-grid=""
             >
-              <div class="uk-grid-item-match uk-width-1-2@s uk-first-column">
-                <div class="uk-tile-default uk-tile uk-flex uk-flex-middle">
-                  <div class="uk-panel uk-width-1-1">
-                    <h5 class="uk-margin-remove-bottom uk-width-medium uk-text-right">
+              <div className="uk-grid-item-match uk-width-1-2@s uk-first-column">
+                <div className="uk-tile-default uk-tile uk-flex uk-flex-middle">
+                  <div className="uk-panel uk-width-1-1">
+                    <h5 className="uk-margin-remove-bottom uk-width-medium uk-text-right">
                       Meet Micro
                     </h5>
-                    <div class="uk-panel uk-text-meta uk-margin uk-margin-remove-top uk-margin-remove-bottom uk-width-medium uk-text-right minigray">
+                    <div className="uk-panel uk-text-meta uk-margin uk-margin-remove-top uk-margin-remove-bottom uk-width-medium uk-text-right minigray">
                       The first-ever architectural microphone, Josh Nano marries
                       interior decor with technology to enable a connected home
                       experience that blends into any environment.
@@ -1062,25 +1062,25 @@ const JoshAi = () => {
                 </div>
               </div>
 
-              <div class="uk-grid-item-match uk-width-1-2@s">
-                <div class="uk-tile-default uk-tile uk-tile-large">
-                  <div class="uk-hidden@m uk-margin uk-margin-remove-bottom uk-text-left">
+              <div className="uk-grid-item-match uk-width-1-2@s">
+                <div className="uk-tile-default uk-tile uk-tile-large">
+                  <div className="uk-hidden@m uk-margin uk-margin-remove-bottom uk-text-left">
                     <img
                       src="assets/images/josh-ai-18.webp"
                       width="800"
                       height="552"
-                      class="el-image"
+                      className="el-image"
                       alt=""
                       loading="lazy"
                     />
                   </div>
 
-                  <div class="uk-visible@m uk-position-relative uk-margin uk-text-left">
+                  <div className="uk-visible@m uk-position-relative uk-margin uk-text-left">
                     <img
                       src="assets/images/josh-ai-18.webp"
                       width="800"
                       height="552"
-                      class="el-image"
+                      className="el-image"
                       alt=""
                       loading="lazy"
                     />
@@ -1089,35 +1089,35 @@ const JoshAi = () => {
               </div>
             </div>
             <div
-              class="tm-grid-expand uk-grid-collapse uk-grid uk-grid-stack"
+              className="tm-grid-expand uk-grid-collapse uk-grid uk-grid-stack"
               uk-grid=""
             >
-              <div class="uk-grid-item-match uk-width-1-2@s uk-first-column">
-                <div class="uk-tile-default uk-tile">
-                  <div class="uk-panel uk-width-1-1">
+              <div className="uk-grid-item-match uk-width-1-2@s uk-first-column">
+                <div className="uk-tile-default uk-tile">
+                  <div className="uk-panel uk-width-1-1">
                     <div
-                      class="uk-visible@s uk-position-absolute uk-width-1-1 uk-text-right@s"
+                      className="uk-visible@s uk-position-absolute uk-width-1-1 uk-text-right@s"
                       uk-parallax="scale: 0.7,0.8; easing: 1;"
                     >
                       <img
                         src="assets/images/josh-ai-19.webp"
                         width="1500"
                         height="1035"
-                        class="el-image"
+                        className="el-image"
                         alt=""
                         loading="lazy"
                       />
                     </div>
 
                     <div
-                      class="uk-hidden@s uk-margin uk-margin-remove-top uk-text-right@s"
+                      className="uk-hidden@s uk-margin uk-margin-remove-top uk-text-right@s"
                       uk-parallax="scale: 0.7,0.8; easing: 1;"
                     >
                       <img
                         src="assets/images/josh-ai-19.webp"
                         width="1500"
                         height="1035"
-                        class="el-image"
+                        className="el-image"
                         alt=""
                         loading="lazy"
                       />
@@ -1126,12 +1126,12 @@ const JoshAi = () => {
                 </div>
               </div>
 
-              <div class="uk-grid-item-match uk-width-1-2@s">
-                <div class="uk-tile-default uk-tile uk-tile-large">
-                  <h5 class="uk-margin-remove-top uk-margin-remove-bottom uk-width-medium uk-margin-auto-left uk-text-left">
+              <div className="uk-grid-item-match uk-width-1-2@s">
+                <div className="uk-tile-default uk-tile uk-tile-large">
+                  <h5 className="uk-margin-remove-top uk-margin-remove-bottom uk-width-medium uk-margin-auto-left uk-text-left">
                     Meet Nano
                   </h5>
-                  <div class="uk-panel uk-text-meta uk-margin uk-margin-remove-top uk-width-medium uk-margin-auto-left uk-text-left minigray">
+                  <div className="uk-panel uk-text-meta uk-margin uk-margin-remove-top uk-width-medium uk-margin-auto-left uk-text-left minigray">
                     The first-ever architectural microphone, Josh Nano marries
                     design and technology to offer seamless smart home control
                     that blends into the environment.
@@ -1140,10 +1140,10 @@ const JoshAi = () => {
               </div>
             </div>
             <div
-              class="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack"
+              className="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack"
               uk-grid=""
             >
-              <div class="uk-width-1-1 uk-first-column">
+              <div className="uk-width-1-1 uk-first-column">
                 <div>
                   <br />
                   <br />
@@ -1152,10 +1152,10 @@ const JoshAi = () => {
               </div>
             </div>
             <div
-              class="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack"
+              className="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack"
               uk-grid=""
             >
-              <div class="uk-width-1-1 uk-first-column"></div>
+              <div className="uk-width-1-1 uk-first-column"></div>
             </div>
           </div>
         </div>
