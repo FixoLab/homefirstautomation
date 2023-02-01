@@ -42,10 +42,18 @@ const AlarmCom = React.lazy(() => import("./pages/alarm-com"));
 const JoshAi = React.lazy(() => import("./pages/josh-ai"));
 const IndoorLiving = React.lazy(() => import("./pages/indoor-living"));
 const ConnectedHome = React.lazy(() => import("./pages/connected-home"));
-const CommercialAutomation = React.lazy(() => import("./pages/commercial-automation"));
-const CommercialAudioVideo = React.lazy(() => import("./pages/commercial-audio-video"));
-const CommercialSecurity = React.lazy(() => import("./pages/commercial-security"));
-const CommercialTechnology = React.lazy(() => import("./pages/commercial-technology"));
+const CommercialAutomation = React.lazy(() =>
+  import("./pages/commercial-automation")
+);
+const CommercialAudioVideo = React.lazy(() =>
+  import("./pages/commercial-audio-video")
+);
+const CommercialSecurity = React.lazy(() =>
+  import("./pages/commercial-security")
+);
+const CommercialTechnology = React.lazy(() =>
+  import("./pages/commercial-technology")
+);
 const ConnectedStudioHome = React.lazy(() =>
   import("./pages/connected-studio-home")
 );
@@ -58,6 +66,7 @@ const ADayInTheLife = React.lazy(() => import("./pages/a-day-in-the-life"));
 const OurProcess = React.lazy(() => import("./pages/our-process"));
 const Category = React.lazy(() => import("./pages/category"));
 const Tags = React.lazy(() => import("./pages/tags"));
+const Control4 = React.lazy(() => import("./pages/control4"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -141,6 +150,7 @@ const AppRouter = () => {
           <Route path="/our-process" element={<OurProcess />} />
           <Route path="/category/:id" element={<Category />} />
           <Route path="/tags/:id" element={<Tags />} />
+          <Route path="/control-4" element={<Control4 />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />
