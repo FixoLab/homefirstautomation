@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
@@ -561,6 +562,205 @@ const Control4 = () => {
               src="assets/images/control4-brands-14.webp"
               alt="control4 brand"
             />
+          </div>
+        </div>
+      </div>
+      <div
+        className="home-standard"
+        style={{
+          backgroundImage: "url(/assets/images/header-brands-control4-05.webp)",
+        }}
+      >
+        <div className="home-standard-area">
+          <div className="content">
+            <div className="top">
+              <h3>INTERCOM ANYWHERE</h3>
+              <p>
+                With a Control4 installation, you get a built-in intercom system
+                that lets you communicate with guests or family members. No
+                added hardware or bulky equipment is needed. Just use the
+                Intercom Anywhere feature in your existing touchpads or a mobile
+                app.
+              </p>
+            </div>
+            <div className="image">
+              <img src="assets/images/header-brands-control4-05.webp" alt="" />
+            </div>
+            <div className="bottom">
+              <h4>ELEVATE THE WAY YOU INTERACT</h4>
+              <h6>
+                MAKE IT SIMPLER TO COMMUNICATE WITH YOUR ENTIRE FAMILY OR
+                MONITOR WHO'S AT THE FRONT DOOR OR GATE WITH A NATIVE INTERCOM
+                SOLUTION.
+              </h6>
+              <a href="/contact-us">Add a Modern-Day Intercom</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="uk-visible@m uk-section-muted uk-section uk-section-small uk-padding-remove-bottom">
+        <div
+          class="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack"
+          uk-grid=""
+        >
+          <div class="uk-width-1-1 uk-first-column">
+            <div
+              uk-slider="autoplay: 1;"
+              id="page#16"
+              class="uk-margin uk-text-left uk-slider uk-slider-container"
+            >
+              <div class="uk-position-relative">
+                <ul class="uk-slider-items uk-grid uk-grid-medium">
+                  <li class="el-item uk-width-1-1 uk-width-3-5@m" tabindex="-1">
+                    <div class="uk-light">
+                      <div class="uk-cover-container">
+                        <img
+                          src="assets/images/control4-feature-09.webp"
+                          width="2000"
+                          height="1125"
+                          alt="coastal source speaker in rain"
+                          class="el-image uk-transition-opaque"
+                        />
+
+                        <div class="uk-overlay-default uk-position-cover"></div>
+                        <div class="uk-position-bottom-left">
+                          <div class="uk-overlay uk-width-2xlarge uk-margin-remove-first-child">
+                            <h3 class="el-title uk-margin-top uk-margin-remove-bottom">
+                              Always Keeping You Connected
+                            </h3>
+
+                            <div class="el-content uk-panel">
+                              Access your intercom system on your mobile phone
+                              to tell your babysitter you're running late or let
+                              a delivery person drop off a package indoors.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li
+                    class="el-item uk-width-1-1 uk-width-3-5@m uk-active"
+                    tabindex="-1"
+                  >
+                    <div class="uk-light">
+                      <div class="uk-cover-container">
+                        <img
+                          src="assets/images/control4-feature-10.webp"
+                          width="2000"
+                          height="1125"
+                          alt="coastal source speaker in pothos plant"
+                          class="el-image uk-transition-opaque"
+                        />
+
+                        <div class="uk-overlay-default uk-position-cover"></div>
+                        <div class="uk-position-bottom-left">
+                          <div class="uk-overlay uk-width-2xlarge uk-margin-remove-first-child">
+                            <h3 class="el-title uk-margin-top uk-margin-remove-bottom">
+                              Control at Home
+                            </h3>
+
+                            <div class="el-content uk-panel">
+                              One touchscreen communicates with all others to
+                              let the family know it's time for dinner or with
+                              your video doorbell to let in guests.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="el-item uk-width-1-1 uk-width-3-5@m" tabindex="-1">
+                    <div class="uk-light">
+                      <div class="uk-cover-container">
+                        <img
+                          src="assets/images/control4-feature-11.webp"
+                          width="2000"
+                          height="1125"
+                          alt=""
+                          class="el-image uk-transition-opaque"
+                        />
+
+                        <div class="uk-overlay-default uk-position-cover"></div>
+                        <div class="uk-position-bottom-left">
+                          <div class="uk-overlay uk-width-2xlarge uk-margin-remove-first-child">
+                            <h3 class="el-title uk-margin-top uk-margin-remove-bottom">
+                              Not Your Everyday Doorbell
+                            </h3>
+
+                            <div class="el-content uk-panel">
+                              Answer the door from anywhere in the world with
+                              Control4 doorbells that let you speak to guests,
+                              turn on lights and disarm your alarm.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+
+                <div class="uk-visible@s">
+                  <a
+                    class="el-slidenav uk-position-medium uk-position-center-left uk-icon uk-slidenav-previous uk-slidenav"
+                    href="#"
+                    uk-slidenav-previous=""
+                    uk-slider-item="previous"
+                    aria-label="Previous slide"
+                  >
+                    <svg
+                      width="8"
+                      height="12"
+                      viewBox="0 0 8 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <polyline
+                        fill="none"
+                        stroke="#000"
+                        stroke-width="1.1"
+                        points="6,1 1,6 6,11"
+                      ></polyline>
+                    </svg>
+                  </a>
+                  <a
+                    class="el-slidenav uk-position-medium uk-position-center-right uk-icon uk-slidenav-next uk-slidenav"
+                    href="#"
+                    uk-slidenav-next=""
+                    uk-slider-item="next"
+                    aria-label="Next slide"
+                  >
+                    <svg
+                      width="8"
+                      height="12"
+                      viewBox="0 0 8 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <polyline
+                        fill="none"
+                        stroke="#000"
+                        stroke-width="1.1"
+                        points="2,11 7,6 2,1"
+                      ></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <ul
+                class="el-nav uk-slider-nav uk-dotnav uk-flex-center uk-margin-top uk-visible@s"
+                uk-margin=""
+              >
+                <li uk-slider-item="0" class="uk-first-column">
+                  <a href="#" aria-label="Go to slide 1"></a>
+                </li>
+                <li uk-slider-item="1" class="uk-active">
+                  <a href="#" aria-label="Go to slide 2"></a>
+                </li>
+                <li uk-slider-item="2" class="">
+                  <a href="#" aria-label="Go to slide 3"></a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

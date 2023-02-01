@@ -3634,6 +3634,9 @@ a#scroll-to-top {
 .peace-of-mind .peace-of-mind-right a {
   font-size: 14px;
 }
+.uk-overlay-default {
+  background: linear-gradient(0deg, rgba(8,8,9,0.8) 11%, rgba(0,0,0,0) 100%);
+}
 @media screen and (max-width: 1000px) {
   .control4 .control4-hero {
     height: 75vh;
