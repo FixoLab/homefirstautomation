@@ -4,10 +4,13 @@ const StartJourney = React.lazy(() => import("../components/start-journey"));
 const JoshAi = () => {
   return (
     <div id="site-content">
-      <div className="post-inner thin ">
+      <div className="post-inner thin commercial-page  portfolio-page josh-ai-page">
         <div className="entry-content">
           <div className="is-layout-flow wp-block-group homevideo servicespages">
-            <div className="wp-block-group__inner-container">
+            <div
+              className="wp-block-group__inner-container commercial-automantion-video"
+              // style={{ height: "85vh" }}
+            >
               <video
                 id="video-background"
                 className="high4kres"
@@ -18,11 +21,14 @@ const JoshAi = () => {
                 width="300"
                 height="150"
               >
-                <source src="assets/video/joshai-main.mp4" type="video/mp4" />
+                <source
+                  src="assets/video/josh-ai-hero.mp4"
+                  type="video/mp4"
+                />
               </video>
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
-                  <div className="wp-block-image">
+                  {/* <div className="wp-block-image">
                     <figure className="aligncenter size-large is-resized">
                       <img
                         src="assets/images/joshai-logo.png"
@@ -32,9 +38,22 @@ const JoshAi = () => {
                         height="37"
                       />
                     </figure>
-                  </div>
+                  </div> */}
                 </div>
               </div>
+            </div>
+          </div>
+          <div
+            className="alignfull Portfolio-navigation eds-on-scroll eds-scroll-visible"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <div className="Portfolio-navigation-container">
+              <a href="#1">Lighting & shading</a>
+              <a href="#2">Audio / Video</a>
+              <a href="#3">Home Theater</a>
+              <a href="#4">Exterior</a>
             </div>
           </div>
 

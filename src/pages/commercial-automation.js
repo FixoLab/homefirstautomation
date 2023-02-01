@@ -6,7 +6,7 @@ const CommercialAutomation = () => {
       <div className="post-inner thin commercial-page">
         <div className="entry-content">
           <div className="is-layout-flow wp-block-group homevideo servicespages">
-            <div className="wp-block-group__inner-container commercial-automantion-video" style={{height: "85vh"}}>
+            <div className="wp-block-group__inner-container commercial-automantion-video">
               <video
                 id="video-background"
                 className="high4kres"
