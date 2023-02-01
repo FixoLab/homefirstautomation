@@ -486,6 +486,34 @@ const Header = () => {
                           </Link>
                         </div>
                       </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
+                        <div className="ancestor-wrapper">
+                        <Link to="/commercial-solutions-commercial-automation">
+                          Commercial Solutions: Commercial Automation
+                        </Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
+                        <div className="ancestor-wrapper">
+                        <Link to="/commercial-solutions-commercial-audio-video">
+                          Commercial Solutions: Commercial Audio / Video
+                        </Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
+                        <div className="ancestor-wrapper">
+                        <Link to="/commercial-solutions-commercial-security">
+                          Commercial Solutions: Commercial Security
+                        </Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
+                        <div className="ancestor-wrapper">
+                        <Link to="/commercial-solutions-commercial-technology">
+                          Commercial Solutions: Commercial Technology
+                        </Link>
+                        </div>
+                      </li>
                     </ul>
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-459">
