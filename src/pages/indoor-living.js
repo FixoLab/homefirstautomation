@@ -24,7 +24,7 @@ const IndoorLiving = () => {
       <div className="post-inner thin ">
         <div className="entry-content">
           <div
-            className="is-layout-flow wp-block-group homevideo servicespages  commercial-automantion-video"
+            className="is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video"
           >
             <div
               className="wp-block-group__inner-container indoor-living-background"

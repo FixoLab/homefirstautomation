@@ -7,10 +7,7 @@ const JoshAi = () => {
       <div className="post-inner thin commercial-page  portfolio-page josh-ai-page">
         <div className="entry-content">
           <div className="is-layout-flow wp-block-group homevideo servicespages">
-            <div
-              className="wp-block-group__inner-container commercial-automantion-video"
-              // style={{ height: "85vh" }}
-            >
+            <div className="wp-block-group__inner-container commercial-automantion-video">
               <video
                 id="video-background"
                 className="high4kres"
@@ -21,59 +18,51 @@ const JoshAi = () => {
                 width="300"
                 height="150"
               >
-                <source
-                  src="assets/video/josh-ai-hero.mp4"
-                  type="video/mp4"
-                />
+                <source src="assets/video/josh-ai-hero.mp4" type="video/mp4" />
               </video>
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
-                  {/* <div className="wp-block-image">
-                    <figure className="aligncenter size-large is-resized">
-                      <img
-                        src="assets/images/joshai-logo.png"
-                        alt=""
-                        className="wp-image-2104"
-                        width="192"
-                        height="37"
-                      />
-                    </figure>
-                  </div> */}
+                  <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
+                    <div className="wp-block-group__inner-container">
+                      <h1>Voice Control for the Connected Home</h1>
+                      <div>
+                        <p className="minigray">
+                          More than a smart speaker, Josh is a privacy-based
+                          luxury home control system that delivers an effortless
+                          and exciting living experience through natural
+                          interfaces like voice and touch.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div
-            className="alignfull Portfolio-navigation eds-on-scroll eds-scroll-visible"
+            className="alignfull josh-ai-navigation eds-on-scroll eds-scroll-visible"
             data-aos="fade-up"
             data-aos-duration="800"
             data-aos-delay="200"
           >
-            <div className="Portfolio-navigation-container">
+          <div className="josh-ai-navigation-grid">
+          <div>
+              <img
+                src="assets/images/josh-ai-logo.webp"
+                alt=""
+                className="wp-image-2104"
+                width="192"
+                height="37"
+              />
+            </div>
+            <div className="josh-ai-navigation-container">
               <a href="#1">Lighting & shading</a>
               <a href="#2">Audio / Video</a>
               <a href="#3">Home Theater</a>
               <a href="#4">Exterior</a>
             </div>
           </div>
-
-          <div className="is-layout-flow wp-block-group serviceswhitebackground">
-            <div className="wp-block-group__inner-container">
-              <p
-                className="has-text-align-center servicesleader eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                Josh.ai is one of the world’s leading Smart AI systems, built
-                with privacy in mind. Josh.ai allows a developer friendly
-                ecosystem that can be easily customized to whatever needs a
-                client has. The goal is to make connecting to any device easy,
-                fun, and secure.
-              </p>
-            </div>
           </div>
-
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
               <figure

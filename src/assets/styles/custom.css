@@ -4002,3 +4002,49 @@ a#scroll-to-top {
   border-radius: 50%;
   border: 1px solid #fafafa;
 }
+
+
+/* josh ai */
+.josh-ai-page .josh-ai-navigation {
+  background-color: #fafafa;
+ margin: 0;
+ padding: 60px 0;
+}
+.josh-ai-page .josh-ai-navigation .josh-ai-navigation-grid{
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+  padding: 0 20px;
+}
+@media screen and (max-width: 1200px) {
+  .josh-ai-page .josh-ai-navigation .josh-ai-navigation-grid{
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+ 
+}
+.josh-ai-page .josh-ai-navigation .josh-ai-navigation-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.josh-ai-page .josh-ai-navigation .josh-ai-navigation-container a {
+  display: inline-block;
+  border: 1px solid #aaa;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-weight: 400;
+  color: rgb(255, 255, 255) !important;
+  font-size: 14px;
+  margin: 0px 15px;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.35);
+}
+.josh-ai-page .josh-ai-navigation .josh-ai-navigation-container a:hover {
+  background: rgba(0, 0, 0, 0.61) !important;
+  color: #fff !important;
+}
