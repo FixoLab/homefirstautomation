@@ -24,24 +24,21 @@ const IndoorLiving = () => {
       <div className="post-inner thin ">
         <div className="entry-content">
           <div
-            className="is-layout-flow wp-block-group homevideo servicespages"
-            style={{ height: "90vh" }}
+            className="is-layout-flow wp-block-group homevideo servicespages  commercial-automantion-video"
           >
             <div
               className="wp-block-group__inner-container indoor-living-background"
               style={{
                 backgroundImage: "url(assets/images/indoor-1.webp)",
-                height: "90vh",
                 backgroundPositionX: rightPosition,
               }}
             >
+              <div className="overlay" />
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
                   <div
                     className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible"
-                    data-aos="fade-up"
-                    data-aos-duration="800"
-                    data-aos-delay="400"
+                   
                   >
                     <div className="wp-block-group__inner-container">
                       <h6>INDOOR LIVING</h6>
@@ -108,8 +105,8 @@ const IndoorLiving = () => {
                     below.
                   </p>
                 </div>
-                <div className="explore-spaces-button">
-                  <a aria-label="Scroll down01" href="#1">
+                <div >
+                  <a className="button__primary" aria-label="Scroll down01" href="#1">
                     Explore Spaces
                   </a>
                 </div>

@@ -26,7 +26,7 @@ const Partners = React.lazy(() => import("./pages/partners"));
 const Blog = React.lazy(() => import("./pages/blog"));
 const BlogDetails = React.lazy(() => import("./pages/blog-details"));
 const ContactUs = React.lazy(() => import("./pages/contact-us"));
-
+const GolfSimulators = React.lazy(() => import("./pages/golf-simulators"));
 const InteriorDesigners = React.lazy(() =>
   import("./pages/interior-designers")
 );
@@ -42,6 +42,18 @@ const AlarmCom = React.lazy(() => import("./pages/alarm-com"));
 const JoshAi = React.lazy(() => import("./pages/josh-ai"));
 const IndoorLiving = React.lazy(() => import("./pages/indoor-living"));
 const ConnectedHome = React.lazy(() => import("./pages/connected-home"));
+const CommercialAutomation = React.lazy(() =>
+  import("./pages/commercial-automation")
+);
+const CommercialAudioVideo = React.lazy(() =>
+  import("./pages/commercial-audio-video")
+);
+const CommercialSecurity = React.lazy(() =>
+  import("./pages/commercial-security")
+);
+const CommercialTechnology = React.lazy(() =>
+  import("./pages/commercial-technology")
+);
 const ConnectedStudioHome = React.lazy(() =>
   import("./pages/connected-studio-home")
 );
@@ -52,6 +64,9 @@ const Realtors = React.lazy(() => import("./pages/realtors"));
 const Contractors = React.lazy(() => import("./pages/contractors"));
 const ADayInTheLife = React.lazy(() => import("./pages/a-day-in-the-life"));
 const OurProcess = React.lazy(() => import("./pages/our-process"));
+const Category = React.lazy(() => import("./pages/category"));
+const Tags = React.lazy(() => import("./pages/tags"));
+const Control4 = React.lazy(() => import("./pages/control4"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -89,7 +104,7 @@ const AppRouter = () => {
           <Route path="/brands-we-carry" element={<BrandsWeCarry />} />
           <Route path="/partners" element={<Partners />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:slug" element={<BlogDetails />} />
+          <Route path="/blog/:id" element={<BlogDetails />} />
           <Route path="/start-your-project" element={<StartYourProject />} />
 
           <Route path="/interior-designers" element={<InteriorDesigners />} />
@@ -114,9 +129,29 @@ const AppRouter = () => {
             path="/design-build-partners"
             element={<DesignBuildPartners />}
           />
+          <Route
+            path="/commercial-solutions-commercial-automation"
+            element={<CommercialAutomation />}
+          />
+          <Route
+            path="/commercial-solutions-commercial-audio-video"
+            element={<CommercialAudioVideo />}
+          />
+          <Route
+            path="/commercial-solutions-commercial-security"
+            element={<CommercialSecurity />}
+          />
+          <Route
+            path="/commercial-solutions-commercial-technology"
+            element={<CommercialTechnology />}
+          />
           <Route path="/realtors" element={<Realtors />} />
           <Route path="/contractors" element={<Contractors />} />
           <Route path="/our-process" element={<OurProcess />} />
+          <Route path="/category/:id" element={<Category />} />
+          <Route path="/tags/:id" element={<Tags />} />
+          <Route path="/control-4" element={<Control4 />} />
+          <Route path="/golf-simulators" element={<GolfSimulators />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />
