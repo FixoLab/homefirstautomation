@@ -271,6 +271,7 @@ li.menu-item-3288 .fas {
   max-width: none;
   height: auto !important;
   transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 @media only screen and (min-width: 1200px) {
   #video-background.high4kres {
@@ -278,8 +279,6 @@ li.menu-item-3288 .fas {
     left: 50%;
     top: 50%;
     min-width: auto;
-    min-height: auto;
-    /* width: 101% !important; */
     z-index: -100;
     max-width: none;
     height: auto !important;
@@ -1836,12 +1835,12 @@ a#bbblink {
     left: inherit;
     top: inherit;
     min-width: inherit;
-    min-height: inherit;
     width: 100% !important;
     z-index: -100;
     max-width: none;
     height: auto !important;
     transform: inherit;
+    object-fit: cover;
   }
   .footer-widgets.column-two {
     margin-top: 0px;

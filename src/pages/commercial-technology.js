@@ -40,9 +40,7 @@ const CommercialTechnology = () => {
                 <div className="wp-block-group__inner-container">
                   <div
                     className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible"
-                    data-aos="fade-up"
-                    data-aos-duration="800"
-                    data-aos-delay="400"
+                  
                   >
                     <div className="wp-block-group__inner-container">
                       <h6>COMMERCIAL TECHNOLOGY</h6>
