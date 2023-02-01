@@ -1,5 +1,4 @@
 import React from "react";
-const StartJourney = React.lazy(() => import("../components/start-journey"));
 
 const Portfolio = () => {
   return (
