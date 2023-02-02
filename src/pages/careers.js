@@ -1,21 +1,49 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const Careers = () => {
+  const [windowTop, setWindowTop] = useState(0);
+  useEffect(() => {
+    function handleScroll() {
+      setWindowTop(window.pageYOffset);
+    }
+    window.addEventListener("load", handleScroll);
+    window.addEventListener("resize", handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("load", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const rightPosition = 100 - windowTop * 0.05 + "%";
   return (
     <>
-      <div className="control4">
-        <div className="control4-hero">
-          <img src="assets/images/careers-01.webp" alt="" />
-          <div className="control4-content">
-            <h1>Careers</h1>
-            <div>
-              <p className="minigray">
-                Are you passionate about technology? In our thriving smart home
-                business, we believe taking great care of our clients is the
-                most important way to set our company apart.
-              </p>
+      <div id="site-content">
+        <div className="is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video">
+          <div
+            className="wp-block-group__inner-container indoor-living-background"
+            style={{
+              backgroundImage: "url(assets/images/careers-01.jpg)",
+              backgroundPositionX: rightPosition,
+            }}
+          >
+            <div className="overlay" />
+            <div className="is-layout-flow wp-block-group homeintrotop centerintro">
+              <div className="wp-block-group__inner-container">
+                <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
+                  <div className="wp-block-group__inner-container max-width-hero">
+                    <h1>Careers</h1>
+                    <p>
+                      Are you passionate about technology? In our thriving smart
+                      home business, we believe taking great care of our clients
+                      is the most important way to set our company apart.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
