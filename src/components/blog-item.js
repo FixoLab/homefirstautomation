@@ -45,12 +45,12 @@ const BlogItem = ({ blog }) => {
         <h2>{blog.title.rendered}</h2>
         <div className="links">
           {category?.slice(0, 1)?.map((data) => (
-            <Link key={data.id} to={`/category/${data.slug}`}>
+            <Link key={data.id} to={`/category/${data.id}`}>
               {data.name}
             </Link>
           ))}
           {tags?.map((data) => (
-            <Link key={data.id} to={`/tags/${data.slug}`}>
+            <Link key={data.id} to={`/tags/${data.id}`}>
               {data.name}
             </Link>
           ))}

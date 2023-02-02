@@ -4,16 +4,14 @@ import React, { useEffect, useState } from "react";
 import Skeleton from "react-loading-skeleton";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
-import RelatedPost from "../components/related-post";
+const BlogDetailsCategories = React.lazy(() => import("../components/blog-details-categories"));
+const RelatedPost = React.lazy(() => import("../components/related-post"));
+
 const api_domain = process.env.REACT_APP_DOMAIN;
 
 const BlogDetails = () => {
   const { slug } = useParams();
   const [data, setData] = useState([]);
-  // const [singleBlogDetails, setSingleBlogDetails] = useState([]);
-  // const [categories, setCategories] = useState([]);
-  // const [tags, setTags] = useState([]);
-
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -28,28 +26,6 @@ const BlogDetails = () => {
   }, []);
 
   const blogDetails = data?.filter((blog) => blog?.slug === slug);
-
-  // console.log("singleBlogDetails", singleBlogDetails);
-  // console.log("categories", categories);
-  // console.log("tags", tags);
-
-  // useEffect(() => {
-  //   const blogDetails = data?.filter((blog) => blog?.slug === slug);
-  //   setSingleBlogDetails(blogDetails);
-  //   const fetchData = async () => {
-  //     const categoriesResponse = await fetch(
-  //       `${api_domain}/wp-json/wp/v2/categories?post=${blogDetails[0]?.id}`
-  //     );
-  //     const categoriesData = await categoriesResponse.json();
-  //     setCategories(categoriesData);
-  //     const tagsResponse = await fetch(
-  //       `${api_domain}/wp-json/wp/v2/tags?post=${blogDetails[0]?.id}`
-  //     );
-  //     const tagsData = await tagsResponse.json();
-  //     setTags(tagsData);
-  //   };
-  //   fetchData();
-  // }, [isLoading, data, slug]);
 
   return (
     <div id="site-content" className="single-blog">
@@ -94,20 +70,7 @@ const BlogDetails = () => {
                 </li>
               </ul>
               <div className="area-links">
-                {/* {categories?.length === 0
-                  ? ""
-                  : categories?.slice(0, 1).map((category) => (
-                      <Link key={category?.id} to={`/category/${category?.slug}`}>
-                        {category.name}
-                      </Link>
-                    ))}
-                {tags?.length === 0
-                  ? ""
-                  : tags?.map((tags) => (
-                      <Link key={tags.id} to={`/tags/${tags?.slug}`}>
-                        {tags.name}
-                      </Link>
-                    ))} */}
+                <BlogDetailsCategories singleId={blogDetails[0]?.id} />
               </div>
               <h1 className="area-main-title">
                 {blogDetails[0]?.title.rendered}
