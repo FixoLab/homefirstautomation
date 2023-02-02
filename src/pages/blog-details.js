@@ -4,7 +4,9 @@ import React, { useEffect, useState } from "react";
 import Skeleton from "react-loading-skeleton";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
-const BlogDetailsCategories = React.lazy(() => import("../components/blog-details-categories"));
+const BlogDetailsCategories = React.lazy(() =>
+  import("../components/blog-details-categories")
+);
 const RelatedPost = React.lazy(() => import("../components/related-post"));
 
 const api_domain = process.env.REACT_APP_DOMAIN;
@@ -30,7 +32,9 @@ const BlogDetails = () => {
   return (
     <div id="site-content" className="single-blog">
       {isLoading === true ? (
-        <Skeleton style={{ borderRadius: 5 }} height={500} />
+        <div className="single-blog-spinner">
+          <Skeleton />
+        </div>
       ) : (
         <div className="blog-details">
           <Link to="/blog" className="top">

@@ -1,7 +1,9 @@
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
+import Skeleton from "react-loading-skeleton";
 import { Link } from "react-router-dom";
+import LoadingSpinner from "./loading-spinner";
 
 const api_domain = process.env.REACT_APP_DOMAIN;
 
@@ -24,14 +26,16 @@ const RelatedPost = ({ singleId }) => {
     fetchData();
   }, [singleId]);
 
+  const exactData = firstCtgData.filter((data) => data.id !== singleId)
+
   return (
     <div className="related-post">
       <div className="item">
         <h2>Related Posts</h2>
         <div className="item-element">
-          {firstCtgData?.length === 0
-            ? ""
-            : firstCtgData?.slice(0, 6).map((data) => (
+          {exactData?.length === 0
+            ? <Skeleton style={{ borderRadius: 5 }} height={150} />
+            : exactData?.slice(0, 6).map((data) => (
                 <Link key={data.id} to={`/blog/${data?.slug}`}>
                   <div className="content">
                     <div className="image">
