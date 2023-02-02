@@ -272,7 +272,7 @@ const GolfSimulators = () => {
               <h5 className="uk-text-center" id="page#2">
                 Request a Quote
               </h5>
-              <div className="uk-panel uk-margin uk-margin-remove-top uk-text-center">
+              <div className="uk-panel uk-margin uk-margin-remove-top uk-text-center minigray">
                 Ready to bring the world of golf to your home? Sign up today for
                 a free consultation from one of our expert golf simulator
                 installers. We're excited to make your dreams come true

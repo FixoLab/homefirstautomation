@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect } from "react";
 import { useState } from "react";
+import Skeleton from "react-loading-skeleton";
 import { useParams } from "react-router-dom";
 
 const BlogItem = React.lazy(() => import("../components/blog-item"));
@@ -36,7 +37,9 @@ const Tags = () => {
   return (
     <div id="site-content" className="blog">
       {data.length === 0 ? (
-        <LoadingSpinner />
+        <div className="single-blog-spinner">
+          <Skeleton />
+        </div>
       ) : (
         <div className="blog-area">
           <h2 className="blog-area-title">Post by tags</h2>
