@@ -218,7 +218,7 @@ const Header = () => {
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
                       >
                         <Link to="/commercial-solutions-commercial-security">
-                          Commercial Solutions: Commercial Security
+                          Commercial Solutions: Security
                         </Link>
                       </li>
                       <li
@@ -226,7 +226,7 @@ const Header = () => {
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
                       >
                         <Link to="/commercial-solutions-commercial-technology">
-                          Commercial Solutions: Commercial Technology
+                          Commercial Technology
                         </Link>
                       </li>
                     </ul>
@@ -410,12 +410,12 @@ const Header = () => {
                     >
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                         <div className="ancestor-wrapper">
-                        <Link to="/about">About</Link>
+                          <Link to="/about">About</Link>
                         </div>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                         <div className="ancestor-wrapper">
-                        <Link to="/careers">Careers</Link>
+                          <Link to="/careers">Careers</Link>
                         </div>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
@@ -488,30 +488,30 @@ const Header = () => {
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
                         <div className="ancestor-wrapper">
-                        <Link to="/commercial-solutions-commercial-automation">
-                          Commercial Solutions: Commercial Automation
-                        </Link>
+                          <Link to="/commercial-solutions-commercial-automation">
+                            Commercial Solutions: Commercial Automation
+                          </Link>
                         </div>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
                         <div className="ancestor-wrapper">
-                        <Link to="/commercial-solutions-commercial-audio-video">
-                          Commercial Solutions: Commercial Audio / Video
-                        </Link>
+                          <Link to="/commercial-solutions-commercial-audio-video">
+                            Commercial Solutions: Commercial Audio / Video
+                          </Link>
                         </div>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
                         <div className="ancestor-wrapper">
-                        <Link to="/commercial-solutions-commercial-security">
-                          Commercial Solutions: Commercial Security
-                        </Link>
+                          <Link to="/commercial-solutions-commercial-security">
+                            Commercial Solutions: Commercial Security
+                          </Link>
                         </div>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
                         <div className="ancestor-wrapper">
-                        <Link to="/commercial-solutions-commercial-technology">
-                          Commercial Solutions: Commercial Technology
-                        </Link>
+                          <Link to="/commercial-solutions-commercial-technology">
+                            Commercial Solutions: Commercial Technology
+                          </Link>
                         </div>
                       </li>
                     </ul>
