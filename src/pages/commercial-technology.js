@@ -42,7 +42,7 @@ const CommercialTechnology = () => {
                     className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible"
                   
                   >
-                    <div className="wp-block-group__inner-container">
+                    <div className="wp-block-group__inner-container max-width-hero">
                       <h6>COMMERCIAL TECHNOLOGY</h6>
                       <h1>
                         Scalable Technology Solutions for a Smarter Workplace
