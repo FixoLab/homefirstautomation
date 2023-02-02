@@ -811,7 +811,7 @@ const Control4 = () => {
                 <div>
                   <br />
                 </div>
-                <h4 className="uk-margin-remove-bottom">
+                <h4 className="uk-margin-remove-bottom" style={{color: "#007ca1",     fontWeight: "400"}}>
                   Envision the Possibilities
                 </h4>
                 <div className="uk-panel uk-margin-small uk-width-large">
