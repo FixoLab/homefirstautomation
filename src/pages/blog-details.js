@@ -14,8 +14,8 @@ const api_domain = process.env.REACT_APP_DOMAIN;
 const BlogDetails = () => {
   const { slug } = useParams();
   const [data, setData] = useState([]);
+  const [author, setAuthor] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -26,8 +26,19 @@ const BlogDetails = () => {
     };
     fetchData();
   }, []);
-
   const blogDetails = data?.filter((blog) => blog?.slug === slug);
+
+  const authorUrl = blogDetails[0]?._links.author[0].href;
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const result = await axios(`${authorUrl}`);
+        setAuthor(result?.data);
+        setIsLoading(false);
+      } catch (error) {}
+    };
+    fetchData();
+  }, [authorUrl]);
 
   return (
     <div id="site-content" className="single-blog">
@@ -48,30 +59,30 @@ const BlogDetails = () => {
               <h1 className="area-title">{blogDetails[0]?.title.rendered}</h1>
               <div className="area-user">
                 <i className="fa-regular fa-clock"></i>
-                <span>july 27, 2022</span>
-                <span>by Jhon</span>
+                <span>{blogDetails[0]?.date.slice(0, 10)}</span>
+                <span>by {author?.name}</span>
               </div>
               <ul className="area-social">
                 <li>
-                  <a href="#">
+                  <a target="_blank" rel="noreferrer"  href={`https://www.facebook.com/sharer/sharer.php?u=https://homefirstautomation.vercel.app/blog/${blogDetails[0]?.slug}`}>
                     <i className="fa-brands fa-facebook-f"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a  target="_blank" rel="noreferrer"href={`https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fhomefirstautomation.vercel.app%2Fblog%2F${blogDetails[0]?.slug}%2F&title=${blogDetails[0]?.title.rendered}`}>
                     <i className="fa-brands fa-linkedin-in"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a  target="_blank" rel="noreferrer" href={`https://pinterest.com/pin/create/button/?url=https://homefirstautomation.vercel.app/blog/${blogDetails[0]?.slug}&media=${blogDetails[0]?.better_featured_image.source_url}&description=<YOUR DESCRIPTION HERE>`}>
                     <i className="fa-brands fa-pinterest"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a target="_blank" rel="noreferrer" href={`https://twitter.com/intent/tweet?source=https%3A%2F%2Fhomefirstautomation.vercel.app%2Fblog%2F${blogDetails[0]?.slug}%2F&text=${blogDetails[0]?.title.rendered}:https%3A%2F%2Fhomefirstautomation.vercel.app%2Fblog%2F${blogDetails[0]?.slug}%2F`}>
                     <i className="fa-brands fa-twitter"></i>
                   </a>
-                </li>
+                </li> 
               </ul>
               <div className="area-links">
                 <BlogDetailsCategories singleId={blogDetails[0]?.id} />
