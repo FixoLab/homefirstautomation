@@ -313,44 +313,47 @@ const Control4 = () => {
           </div>
         </div>
       </div>
-      <div className="control4-brands">
-        <div className="control4-brands-area">
-          <div className="top">
-            <h3> Playing Nicely </h3>
-            <h5> With the Brands You Love </h5>
-          </div>
-          <div className="nav-area">
-            <img
-              src="assets/images/control4-brands-01.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-02.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-03.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-04.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-05.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-06.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-07.webp"
-              alt="control4 brand"
-            />
+      <div style={{ backgroundColor: "#fafafa" }}>
+        <div className="control4-brands">
+          <div className="control4-brands-area">
+            <div className="top">
+              <h3> Playing Nicely </h3>
+              <h5> With the Brands You Love </h5>
+            </div>
+            <div className="nav-area">
+              <img
+                src="assets/images/control4-brands-01.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-02.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-03.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-04.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-05.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-06.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-07.webp"
+                alt="control4 brand"
+              />
+            </div>
           </div>
         </div>
       </div>
+      <div className="control4-empty"></div>
       <div
         className="home-standard"
         style={{
@@ -519,41 +522,43 @@ const Control4 = () => {
           </div>
         </div>
       </div>
-      <div className="control4-brands">
-        <div className="control4-brands-area">
-          <div className="top">
-            <h3>PLAYING NICELY</h3>
-            <h5> With the Brands You Love </h5>
-          </div>
-          <div className="nav-area">
-            <img
-              src="assets/images/control4-brands-08.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-09.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-10.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-11.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-12.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-13.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-14.webp"
-              alt="control4 brand"
-            />
+      <div style={{ backgroundColor: "#fafafa" }}>
+        <div className="control4-brands">
+          <div className="control4-brands-area">
+            <div className="top">
+              <h3>PLAYING NICELY</h3>
+              <h5> With the Brands You Love </h5>
+            </div>
+            <div className="nav-area">
+              <img
+                src="assets/images/control4-brands-08.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-09.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-10.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-11.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-12.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-13.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-14.webp"
+                alt="control4 brand"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -764,7 +769,7 @@ const Control4 = () => {
                       alt=""
                     />
 
-                    <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
+                    <h3 className="el-title uk-margin-top uk-margin-remove-bottom" style={{fontSize: "30px"}} >
                       Beyond the Universal Remote
                     </h3>
 
@@ -785,7 +790,7 @@ const Control4 = () => {
                       alt=""
                     />
 
-                    <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
+                    <h3 className="el-title uk-margin-top uk-margin-remove-bottom" style={{fontSize: "30px"}}>
                       Can Your Remote Do This?
                     </h3>
 
