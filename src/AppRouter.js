@@ -26,7 +26,7 @@ const Partners = React.lazy(() => import("./pages/partners"));
 const Blog = React.lazy(() => import("./pages/blog"));
 const BlogDetails = React.lazy(() => import("./pages/blog-details"));
 const ContactUs = React.lazy(() => import("./pages/contact-us"));
-
+const GolfSimulators = React.lazy(() => import("./pages/golf-simulators"));
 const InteriorDesigners = React.lazy(() =>
   import("./pages/interior-designers")
 );
@@ -42,6 +42,7 @@ const AlarmCom = React.lazy(() => import("./pages/alarm-com"));
 const JoshAi = React.lazy(() => import("./pages/josh-ai"));
 const IndoorLiving = React.lazy(() => import("./pages/indoor-living"));
 const ConnectedHome = React.lazy(() => import("./pages/connected-home"));
+const Careers = React.lazy(() => import("./pages/careers"));
 const CommercialAutomation = React.lazy(() =>
   import("./pages/commercial-automation")
 );
@@ -151,6 +152,8 @@ const AppRouter = () => {
           <Route path="/category/:id" element={<Category />} />
           <Route path="/tags/:id" element={<Tags />} />
           <Route path="/control-4" element={<Control4 />} />
+          <Route path="/golf-simulators" element={<GolfSimulators />} />
+          <Route path="/careers" element={<Careers />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />

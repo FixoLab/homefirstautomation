@@ -142,6 +142,18 @@ const Header = () => {
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
+                        <Link to="/about">About</Link>
+                      </li>
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
+                        <Link to="/careers">Careers</Link>
+                      </li>
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
                         <Link to="/our-process">Our Process</Link>
                       </li>
                       <li
@@ -198,7 +210,7 @@ const Header = () => {
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
                       >
                         <Link to="/commercial-solutions-commercial-audio-video">
-                        Commercial Solutions: Commercial Audio / Video
+                          Commercial Solutions: Commercial Audio / Video
                         </Link>
                       </li>
                       <li
@@ -206,7 +218,7 @@ const Header = () => {
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
                       >
                         <Link to="/commercial-solutions-commercial-security">
-                        Commercial Solutions: Commercial Security
+                          Commercial Solutions: Security
                         </Link>
                       </li>
                       <li
@@ -214,7 +226,7 @@ const Header = () => {
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
                       >
                         <Link to="/commercial-solutions-commercial-technology">
-                        Commercial Solutions: Commercial Technology
+                          Commercial Technology
                         </Link>
                       </li>
                     </ul>
@@ -265,6 +277,12 @@ const Header = () => {
                         <Link to="/wifi-networking-services">
                           WiFi / Networking
                         </Link>
+                      </li>
+                      <li
+                        id="menu-item-1603"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1603"
+                      >
+                        <Link to="/golf-simulators">Golf Simulators</Link>
                       </li>
                       <li
                         id="menu-item-1602"
@@ -392,6 +410,16 @@ const Header = () => {
                     >
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                         <div className="ancestor-wrapper">
+                          <Link to="/about">About</Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                        <div className="ancestor-wrapper">
+                          <Link to="/careers">Careers</Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                        <div className="ancestor-wrapper">
                           <Link to="/our-process">Our Process</Link>
                         </div>
                       </li>
@@ -455,6 +483,34 @@ const Header = () => {
                         <div className="ancestor-wrapper">
                           <Link to="/connected-studio-living">
                             Connected Studio Living
+                          </Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
+                        <div className="ancestor-wrapper">
+                          <Link to="/commercial-solutions-commercial-automation">
+                            Commercial Solutions: Commercial Automation
+                          </Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
+                        <div className="ancestor-wrapper">
+                          <Link to="/commercial-solutions-commercial-audio-video">
+                            Commercial Solutions: Commercial Audio / Video
+                          </Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
+                        <div className="ancestor-wrapper">
+                          <Link to="/commercial-solutions-commercial-security">
+                            Commercial Solutions: Commercial Security
+                          </Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
+                        <div className="ancestor-wrapper">
+                          <Link to="/commercial-solutions-commercial-technology">
+                            Commercial Solutions: Commercial Technology
                           </Link>
                         </div>
                       </li>
@@ -524,6 +580,11 @@ const Header = () => {
                           <Link to="/wifi-networking-services">
                             WiFi / Networking
                           </Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1603">
+                        <div className="ancestor-wrapper">
+                          <Link to="/golf-simulators">Golf Simulators</Link>
                         </div>
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602">

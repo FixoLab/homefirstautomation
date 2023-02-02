@@ -64,7 +64,7 @@ const Control4 = () => {
           <div className="content">
             <div className="top">
               <h3> The New Smart Home Standard </h3>
-              <p>
+              <p className="minigray">
                 Experience effortless, personalized control of your home with
                 fluid, intuitive interfaces and more than a thousand new
                 features that make it easier than ever to craft a smart home
@@ -157,7 +157,7 @@ const Control4 = () => {
           <div className="content" style={{ margin: "0 0 auto auto" }}>
             <div className="top">
               <h3>SMARTER LIVING YOUR WAY</h3>
-              <p>
+              <p className="minigray">
                 Imagine your dream smart home, then watch Control4 bring it to
                 life. Their scalable products, compatibility with third-party
                 devices and intuitive remotes and interfaces come together to
@@ -255,7 +255,7 @@ const Control4 = () => {
           <div className="content" style={{ margin: "0 0 auto auto" }}>
             <div className="top">
               <h3>CLIMATE & COMFORT</h3>
-              <p>
+              <p className="minigray">
                 Through seamless control of thermostats and motorized shades,
                 you can maximize your family's comfort while becoming more
                 energy efficient. Have your go-to settings saved and ready at
@@ -313,44 +313,47 @@ const Control4 = () => {
           </div>
         </div>
       </div>
-      <div className="control4-brands">
-        <div className="control4-brands-area">
-          <div className="top">
-            <h3> Playing Nicely </h3>
-            <h5> With the Brands You Love </h5>
-          </div>
-          <div className="nav-area">
-            <img
-              src="assets/images/control4-brands-01.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-02.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-03.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-04.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-05.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-06.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-07.webp"
-              alt="control4 brand"
-            />
+      <div style={{ backgroundColor: "#fafafa" }}>
+        <div className="control4-brands">
+          <div className="control4-brands-area">
+            <div className="top">
+              <h3> Playing Nicely </h3>
+              <h5> With the Brands You Love </h5>
+            </div>
+            <div className="nav-area">
+              <img
+                src="assets/images/control4-brands-01.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-02.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-03.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-04.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-05.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-06.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-07.webp"
+                alt="control4 brand"
+              />
+            </div>
           </div>
         </div>
       </div>
+      <div className="control4-empty"></div>
       <div
         className="home-standard"
         style={{
@@ -361,7 +364,7 @@ const Control4 = () => {
           <div className="content" style={{ margin: "0 0 auto auto" }}>
             <div className="top">
               <h3>SAFETY & SECURITY</h3>
-              <p>
+              <p className="minigray">
                 Your family's safety should always be a top priority, which is
                 why Control4 has made proactive security a key feature of their
                 systems. Deliver peace of mind to the entire family with
@@ -519,41 +522,43 @@ const Control4 = () => {
           </div>
         </div>
       </div>
-      <div className="control4-brands">
-        <div className="control4-brands-area">
-          <div className="top">
-            <h3>PLAYING NICELY</h3>
-            <h5> With the Brands You Love </h5>
-          </div>
-          <div className="nav-area">
-            <img
-              src="assets/images/control4-brands-08.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-09.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-10.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-11.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-12.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-13.webp"
-              alt="control4 brand"
-            />
-            <img
-              src="assets/images/control4-brands-14.webp"
-              alt="control4 brand"
-            />
+      <div style={{ backgroundColor: "#fafafa" }}>
+        <div className="control4-brands">
+          <div className="control4-brands-area">
+            <div className="top">
+              <h3>PLAYING NICELY</h3>
+              <h5> With the Brands You Love </h5>
+            </div>
+            <div className="nav-area">
+              <img
+                src="assets/images/control4-brands-08.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-09.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-10.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-11.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-12.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-13.webp"
+                alt="control4 brand"
+              />
+              <img
+                src="assets/images/control4-brands-14.webp"
+                alt="control4 brand"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -567,7 +572,7 @@ const Control4 = () => {
           <div className="content">
             <div className="top">
               <h3>INTERCOM ANYWHERE</h3>
-              <p>
+              <p className="minigray">
                 With a Control4 installation, you get a built-in intercom system
                 that lets you communicate with guests or family members. No
                 added hardware or bulky equipment is needed. Just use the
@@ -724,7 +729,7 @@ const Control4 = () => {
           <div className="content">
             <div className="top">
               <h3>UNIVERSAL REMOTE</h3>
-              <p>
+              <p className="minigray">
                 The Neeo and SR-260 remotes put control of all your technology
                 in the palm of your hand. These remotes provide an intuitive,
                 tactile approach to smart home control and can be customized to
@@ -764,7 +769,7 @@ const Control4 = () => {
                       alt=""
                     />
 
-                    <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
+                    <h3 className="el-title uk-margin-top uk-margin-remove-bottom" style={{fontSize: "30px"}} >
                       Beyond the Universal Remote
                     </h3>
 
@@ -785,7 +790,7 @@ const Control4 = () => {
                       alt=""
                     />
 
-                    <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
+                    <h3 className="el-title uk-margin-top uk-margin-remove-bottom" style={{fontSize: "30px"}}>
                       Can Your Remote Do This?
                     </h3>
 
@@ -834,12 +839,12 @@ const Control4 = () => {
                     uk-drop="pos: top-center; auto-update: false;"
                     className="uk-drop"
                   >
-                    <div class="csh-card">
-                      <div class="csh-card-content">
-                        <h3 class="csh-card-content-title">
+                    <div className="csh-card">
+                      <div className="csh-card-content">
+                        <h3 className="csh-card-content-title">
                           Add a Soundtrack to Your Day
                         </h3>
-                        <div class="csh-card-content-desc">
+                        <div className="csh-card-content-desc">
                           <p>
                             Effortlessly access your favorite music and play it
                             through
@@ -862,12 +867,12 @@ const Control4 = () => {
                     uk-drop="pos: top-center; auto-update: false;"
                     className="uk-drop"
                   >
-                    <div class="csh-card">
-                      <div class="csh-card-content">
-                        <h3 class="csh-card-content-title">
+                    <div className="csh-card">
+                      <div className="csh-card-content">
+                        <h3 className="csh-card-content-title">
                           Sunlight at Your Command
                         </h3>
-                        <div class="csh-card-content-desc">
+                        <div className="csh-card-content-desc">
                           <p>
                             Control your shades through a mobile app, schedules
                             or sensors to ensure the perfect lighting and
@@ -891,12 +896,12 @@ const Control4 = () => {
                     uk-drop="pos: top-center; auto-update: false;"
                     className="uk-drop"
                   >
-                    <div class="csh-card">
-                      <div class="csh-card-content">
-                        <h3 class="csh-card-content-title">
+                    <div className="csh-card">
+                      <div className="csh-card-content">
+                        <h3 className="csh-card-content-title">
                           Add a Spark to Your Outdoors
                         </h3>
-                        <div class="csh-card-content-desc">
+                        <div className="csh-card-content-desc">
                           <p>
                             Landscape lighting elevates your outdoor living
                             spaces while improving your security and safety with
@@ -920,12 +925,12 @@ const Control4 = () => {
                     uk-drop="pos: top-center; auto-update: false;"
                     className="uk-drop"
                   >
-                    <div class="csh-card">
-                      <div class="csh-card-content">
-                        <h3 class="csh-card-content-title">
+                    <div className="csh-card">
+                      <div className="csh-card-content">
+                        <h3 className="csh-card-content-title">
                           Movie Night Perfection
                         </h3>
-                        <div class="csh-card-content-desc">
+                        <div className="csh-card-content-desc">
                           <p>
                             Enjoy movie night like never before with universal
                             remotes that adjust lights, climate, shades and AV
@@ -949,12 +954,12 @@ const Control4 = () => {
                     uk-drop="pos: top-center; auto-update: false;"
                     className="uk-drop"
                   >
-                    <div class="csh-card">
-                      <div class="csh-card-content">
-                        <h3 class="csh-card-content-title">
+                    <div className="csh-card">
+                      <div className="csh-card-content">
+                        <h3 className="csh-card-content-title">
                           Access Control Made Easy
                         </h3>
-                        <div class="csh-card-content-desc">
+                        <div className="csh-card-content-desc">
                           <p>
                             One button press at the end of the night or as you
                             leave the house locks all your doors for optimal
@@ -978,12 +983,12 @@ const Control4 = () => {
                     uk-drop="pos: top-center; auto-update: false;"
                     className="uk-drop"
                   >
-                    <div class="csh-card">
-                      <div class="csh-card-content">
-                        <h3 class="csh-card-content-title">
+                    <div className="csh-card">
+                      <div className="csh-card-content">
+                        <h3 className="csh-card-content-title">
                           A Fully Integrated Thermostat
                         </h3>
-                        <div class="csh-card-content-desc">
+                        <div className="csh-card-content-desc">
                           <p>
                             Embrace an eco-conscious lifestyle with a thermostat
                             that works with your motorized shades to maintain
