@@ -38,10 +38,7 @@ const CommercialTechnology = () => {
               <div className="overlay" />
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
-                  <div
-                    className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible"
-                  
-                  >
+                  <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
                     <div className="wp-block-group__inner-container max-width-hero">
                       <h6>COMMERCIAL TECHNOLOGY</h6>
                       <h1>
@@ -108,8 +105,12 @@ const CommercialTechnology = () => {
                     and experience. Explore the possibilities below.
                   </p>
                 </div>
-                <div >
-                  <a className="button__primary" aria-label="Scroll down01" href="#1">
+                <div>
+                  <a
+                    className="button__primary"
+                    aria-label="Scroll down01"
+                    href="#1"
+                  >
                     Explore Spaces
                   </a>
                 </div>
@@ -117,7 +118,7 @@ const CommercialTechnology = () => {
               <div className="is-layout-flow wp-block-column homedual2 indoor-living-feature">
                 <div className="is-layout-flex wp-container-7 wp-block-columns iconsbox">
                   <div className="is-layout-flow wp-block-column">
-                    <i className="fas fa-snowflake"></i>
+                  <i class="fas fa-house-signal"></i>
                     <h3>INTEGRATED BUILDING CONTROL</h3>
                     <p className="minigray">
                       Streamline operations with remotely located equipment
@@ -125,7 +126,7 @@ const CommercialTechnology = () => {
                     </p>
                   </div>
                   <div className="is-layout-flow wp-block-column">
-                    <i className="fas fa-eye-slash"></i>
+                  <i class="fas fa-network-wired"></i>
                     <h3>CENTRALIZED DISTRIBUTION</h3>
                     <p className="minigray">
                       Streamline operations with remotely located equipment
@@ -134,7 +135,7 @@ const CommercialTechnology = () => {
                   </div>
 
                   <div className="is-layout-flow wp-block-column">
-                    <i className="fas fa-music"></i>
+                  <i class="fas fa-city"></i>
                     <h3>MOTORIZED WINDOW TREATMENTS</h3>
                     <p className="minigray">
                       Optimize natural light while managing any resulting heat
@@ -153,7 +154,7 @@ const CommercialTechnology = () => {
                     </p>
                   </div>
                   <div className="is-layout-flow wp-block-column">
-                    <i className="fas fa-wifi"></i>
+                    <i className="fas fa-music"></i>
                     <h3>DISTRIBUTED AUDIO</h3>
                     <p className="minigray">
                       Deliver quality sound throughout your facility that is
@@ -162,7 +163,7 @@ const CommercialTechnology = () => {
                   </div>
 
                   <div className="is-layout-flow wp-block-column">
-                    <i className="fas fa-house-laptop"></i>
+                    <i class="fas fa-lightbulb"></i>
                     <h3>LIGHTING </h3>
                     <p className="minigray">
                       Improve employee morale and reduce costs with intuitive
@@ -277,13 +278,13 @@ const CommercialTechnology = () => {
                 <div className="csh-card">
                   <div className="csh-card-content">
                     <h3 className="csh-card-content-title">
-                    Hidden Audio Video
-
+                      Hidden Audio Video
                     </h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Power your meetings without the clutter by implementing concealed in-wall speakers, table inserts for messy wires and motorized lifts for displays.
-
+                        Power your meetings without the clutter by implementing
+                        concealed in-wall speakers, table inserts for messy
+                        wires and motorized lifts for displays.
                       </p>
                     </div>
                   </div>
@@ -337,14 +338,13 @@ const CommercialTechnology = () => {
                 <div className="csh-card">
                   <div className="csh-card-content">
                     <h3 className="csh-card-content-title">
-                    Distributed Audio
-
-
+                      Distributed Audio
                     </h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Effortlessly control the audio in every zone of your restaurant from one centralized touch screen to provide seamless listening enjoyment for your patrons.
-
+                        Effortlessly control the audio in every zone of your
+                        restaurant from one centralized touch screen to provide
+                        seamless listening enjoyment for your patrons.
                       </p>
                     </div>
                   </div>
@@ -366,12 +366,13 @@ const CommercialTechnology = () => {
               >
                 <div className="csh-card">
                   <div className="csh-card-content">
-                    <h3 className="csh-card-content-title">LED Lighting
-</h3>
+                    <h3 className="csh-card-content-title">LED Lighting</h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Transform the ambiance in an instant or with smooth transitions with striking LED lighting fixtures and strip lighting that change in color and intensity via scheduled routines.
-
+                        Transform the ambiance in an instant or with smooth
+                        transitions with striking LED lighting fixtures and
+                        strip lighting that change in color and intensity via
+                        scheduled routines.
                       </p>
                     </div>
                   </div>
@@ -393,14 +394,13 @@ const CommercialTechnology = () => {
               >
                 <div className="csh-card">
                   <div className="csh-card-content">
-                    <h3 className="csh-card-content-title">
-                    Wi-Fi
-
-                    </h3>
+                    <h3 className="csh-card-content-title">Wi-Fi</h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Provide guests what they expect in strong Wi-Fi connectivity ensuring they will stay and enjoy their dining experience rather than rush out to check the latest game stats.
-
+                        Provide guests what they expect in strong Wi-Fi
+                        connectivity ensuring they will stay and enjoy their
+                        dining experience rather than rush out to check the
+                        latest game stats.
                       </p>
                     </div>
                   </div>
@@ -454,14 +454,12 @@ const CommercialTechnology = () => {
               >
                 <div className="csh-card">
                   <div className="csh-card-content">
-                    <h3 className="csh-card-content-title">
-                    Access Control
-
-                    </h3>
+                    <h3 className="csh-card-content-title">Access Control</h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Protect your facility with PIN or key card entry for authorized users only. Receive alerts when access is attempted and remotely lock and unlock entries.
-
+                        Protect your facility with PIN or key card entry for
+                        authorized users only. Receive alerts when access is
+                        attempted and remotely lock and unlock entries.
                       </p>
                     </div>
                   </div>
@@ -483,12 +481,12 @@ const CommercialTechnology = () => {
               >
                 <div className="csh-card">
                   <div className="csh-card-content">
-                    <h3 className="csh-card-content-title">Sound Masking
-</h3>
+                    <h3 className="csh-card-content-title">Sound Masking</h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Promote productivity and comfort for your staff and visitors by reducing distracting noise around the office with an unobtrusive sound masking system.
-
+                        Promote productivity and comfort for your staff and
+                        visitors by reducing distracting noise around the office
+                        with an unobtrusive sound masking system.
                       </p>
                     </div>
                   </div>
@@ -511,11 +509,13 @@ const CommercialTechnology = () => {
                 <div className="csh-card">
                   <div className="csh-card-content">
                     <h3 className="csh-card-content-title">
-                    Motorized Window Treatments    
+                      Motorized Window Treatments
                     </h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Optimize comfort for your staff and reduce sun glare on monitors and TV displays with motorized solar shades that rise and lower in unison on your command.
+                        Optimize comfort for your staff and reduce sun glare on
+                        monitors and TV displays with motorized solar shades
+                        that rise and lower in unison on your command.
                       </p>
                     </div>
                   </div>
@@ -569,13 +569,14 @@ const CommercialTechnology = () => {
                 <div className="csh-card">
                   <div className="csh-card-content">
                     <h3 className="csh-card-content-title">
-                    Presentation Technology
-
+                      Presentation Technology
                     </h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Lead effective and engaging training sessions with easy and intuitive to operate room and multimedia control perfectly calibrated for a maximized viewing and listening experience.
-
+                        Lead effective and engaging training sessions with easy
+                        and intuitive to operate room and multimedia control
+                        perfectly calibrated for a maximized viewing and
+                        listening experience.
                       </p>
                     </div>
                   </div>
@@ -598,13 +599,13 @@ const CommercialTechnology = () => {
                 <div className="csh-card">
                   <div className="csh-card-content">
                     <h3 className="csh-card-content-title">
-                    Integrated Room Control
-
+                      Integrated Room Control
                     </h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Increase training efficiency with one-touch control of your projector system, multimedia presentations, lighting and more.
-
+                        Increase training efficiency with one-touch control of
+                        your projector system, multimedia presentations,
+                        lighting and more.
                       </p>
                     </div>
                   </div>
@@ -627,13 +628,13 @@ const CommercialTechnology = () => {
                 <div className="csh-card">
                   <div className="csh-card-content">
                     <h3 className="csh-card-content-title">
-                    Interactive Whiteboards
-
+                      Interactive Whiteboards
                     </h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Promote active learning with interactive displays and whiteboards that encourage tangible connections and better collaboration among your trainees.
-
+                        Promote active learning with interactive displays and
+                        whiteboards that encourage tangible connections and
+                        better collaboration among your trainees.
                       </p>
                     </div>
                   </div>
@@ -687,12 +688,13 @@ const CommercialTechnology = () => {
               >
                 <div className="csh-card">
                   <div className="csh-card-content">
-                    <h3 className="csh-card-content-title">HVAC Control
- </h3>
+                    <h3 className="csh-card-content-title">HVAC Control</h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Significantly save on heating and cooling costs with automated thermostat control that adjusts to energy-saving temperatures when common areas and individual rooms are unoccupied.
-
+                        Significantly save on heating and cooling costs with
+                        automated thermostat control that adjusts to
+                        energy-saving temperatures when common areas and
+                        individual rooms are unoccupied.
                       </p>
                     </div>
                   </div>
@@ -714,12 +716,15 @@ const CommercialTechnology = () => {
               >
                 <div className="csh-card">
                   <div className="csh-card-content">
-                    <h3 className="csh-card-content-title">Smart Building Technology
-</h3>
+                    <h3 className="csh-card-content-title">
+                      Smart Building Technology
+                    </h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Improve hotel operations by implementing a comprehensive, centralized control system to monitor, manage and adjust the integrated technology throughout your entire property.
-
+                        Improve hotel operations by implementing a
+                        comprehensive, centralized control system to monitor,
+                        manage and adjust the integrated technology throughout
+                        your entire property.
                       </p>
                     </div>
                   </div>
@@ -741,14 +746,13 @@ const CommercialTechnology = () => {
               >
                 <div className="csh-card">
                   <div className="csh-card-content">
-                    <h3 className="csh-card-content-title">
-                    Wi-Fi
-
-                    </h3>
+                    <h3 className="csh-card-content-title">Wi-Fi</h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Guarantee fast and reliable Wi-Fi connectivity throughout your property with optimized accent point placement, robust firewall protection and separate networks for guests and staff.
-
+                        Guarantee fast and reliable Wi-Fi connectivity
+                        throughout your property with optimized accent point
+                        placement, robust firewall protection and separate
+                        networks for guests and staff.
                       </p>
                     </div>
                   </div>
@@ -802,12 +806,15 @@ const CommercialTechnology = () => {
               >
                 <div className="csh-card">
                   <div className="csh-card-content">
-                    <h3 className="csh-card-content-title">Distributed Audio
-</h3>
+                    <h3 className="csh-card-content-title">
+                      Distributed Audio
+                    </h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Give your brand a voice and increase add-on sales with strategically selected soundtracks that lift the spirits of your shoppers from the sales floor to the fitting room.
-
+                        Give your brand a voice and increase add-on sales with
+                        strategically selected soundtracks that lift the spirits
+                        of your shoppers from the sales floor to the fitting
+                        room.
                       </p>
                     </div>
                   </div>
@@ -829,12 +836,13 @@ const CommercialTechnology = () => {
               >
                 <div className="csh-card">
                   <div className="csh-card-content">
-                    <h3 className="csh-card-content-title"> Surveillance
- </h3>
+                    <h3 className="csh-card-content-title"> Surveillance</h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Analyze traffic patterns throughout your store to determine any inefficient shopping areas or foot congestion. Remotely monitor live or recorded footage for loiterers, intruders and vandals.
-
+                        Analyze traffic patterns throughout your store to
+                        determine any inefficient shopping areas or foot
+                        congestion. Remotely monitor live or recorded footage
+                        for loiterers, intruders and vandals.
                       </p>
                     </div>
                   </div>
@@ -856,12 +864,12 @@ const CommercialTechnology = () => {
               >
                 <div className="csh-card">
                   <div className="csh-card-content">
-                    <h3 className="csh-card-content-title">
-                    Lighting Control    
-                    </h3>
+                    <h3 className="csh-card-content-title">Lighting Control</h3>
                     <div className="csh-card-content-desc">
                       <p>
-                      Visually enhance your displays and merchandise with strategic, dynamic lighting for striking designs that draw the eyes to sales items and new products.
+                        Visually enhance your displays and merchandise with
+                        strategic, dynamic lighting for striking designs that
+                        draw the eyes to sales items and new products.
                       </p>
                     </div>
                   </div>
