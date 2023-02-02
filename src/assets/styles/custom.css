@@ -2888,10 +2888,10 @@ a#scroll-to-top {
   background-repeat: no-repeat;
 }
 .blog-wrapper .blog-content .blog-content-top h2 {
-  color: #757575;
-  font-weight: 700;
+  color: #444;
+  font-weight: 400;
   margin: 0;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   font-size: 24px;
 }
 .blog-wrapper .blog-content .blog-content-top .links {
@@ -2985,6 +2985,18 @@ a#scroll-to-top {
 .single-blog {
   padding-top: 134px;
   background-color: #fafafa;
+}
+.single-blog-spinner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -120px;
+}
+.single-blog-spinner .react-loading-skeleton {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 .single-blog .icon i {
   font-size: 20px;

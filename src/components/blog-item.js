@@ -8,7 +8,8 @@ const api_domain = process.env.REACT_APP_DOMAIN;
 const BlogItem = ({ blog }) => {
   const [category, setCategory] = useState([]);
   const [tags, setTags] = useState([]);
-
+  const [author, setAuthor] = useState([]);
+  const authorUrl = blog?._links.author[0].href;
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -16,25 +17,20 @@ const BlogItem = ({ blog }) => {
           `${api_domain}/wp-json/wp/v2/categories?post=${blog.id}`
         );
         setCategory(result.data);
-      } catch (error) {}
-    };
-    fetchData();
-  }, [blog.id]);
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const result = await axios(
+        const tags = await axios(
           `${api_domain}/wp-json/wp/v2/tags?post=${blog.id}`
         );
-        setTags(result.data);
+        setTags(tags.data);
+        const authorName = await axios(`${authorUrl}`);
+          setAuthor(authorName?.data);
       } catch (error) {}
     };
     fetchData();
-  }, [blog.id]);
+  }, [blog.id, authorUrl]);
 
   return (
     <div key={blog.id} className="blog-content-top">
-      <Link className="details-link" to={`/blog/${blog.id}`}></Link>
+      <Link className="details-link" to={`/blog/${blog.slug}`}></Link>
       <div
         className="image"
         style={{
@@ -59,8 +55,8 @@ const BlogItem = ({ blog }) => {
       <p className="read-more">Read More</p>
       <div className="user">
         <i className="fa-regular fa-clock"></i>
-        <span>july 27, 2022</span>
-        <span>by Jhon</span>
+        <span>{blog?.date.slice(0, 10)}</span>
+        <span>by {author?.name}</span>
       </div>
     </div>
   );
