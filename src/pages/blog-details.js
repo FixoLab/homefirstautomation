@@ -39,7 +39,7 @@ const BlogDetails = () => {
   useEffect(() => {
     const fetchData = async () => {
       const allCategoryData = await fetch(
-        `${api_domain}/wp-json/wp/v2/posts?categories=${categoriesId}`
+        `${api_domain}/wp-json/wp/v2/posts?categories="37"`
       );
       const allCategory = await allCategoryData.json();
       setAllCategory(allCategory);
