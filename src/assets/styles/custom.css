@@ -2222,9 +2222,9 @@ a#scroll-to-top {
   right: 0;
   background-color: rgba(0, 0, 0, 0.24);
 }
-.indoor-living-background .wp-block-group__inner-container {
+/* .indoor-living-background .wp-block-group__inner-container {
   max-width: 1200px;
-}
+} */
 .indoor-living-background .wp-block-group__inner-container h6 {
   color: #007ca1;
   margin-bottom: 10px;
@@ -4353,4 +4353,7 @@ a#scroll-to-top {
   .josh-ai-page .josh-ai-bottom h5 {
     margin: 0;
   }
+}
+.max-width-hero{
+  max-width: 1200px !important;
 }

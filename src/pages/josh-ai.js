@@ -23,7 +23,7 @@ const JoshAi = () => {
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
                   <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
-                    <div className="wp-block-group__inner-container">
+                    <div className="wp-block-group__inner-container max-width-hero">
                       <h1>Voice Control for the Connected Home</h1>
                       <div>
                         <p className="minigray">
@@ -62,7 +62,7 @@ const JoshAi = () => {
               </div>
             </div>
           </div>
-          <div
+          <div id="1"
             className="home-standard"
             style={{
               backgroundImage: "url(/assets/images/josh-ai-speaker.webp)",
@@ -461,7 +461,7 @@ const JoshAi = () => {
               </div>
             </div>
           </div>
-          <div
+          <div id="2"
             className="home-standard"
             style={{
               backgroundImage: "url(/assets/images/josh-ai-6.webp)",
@@ -665,7 +665,7 @@ const JoshAi = () => {
               </div>
             </div>
           </div>
-          <div
+          <div id="3"
             className="home-standard"
             style={{
               backgroundImage: "url(/assets/images/josh-ai-13.webp)",
