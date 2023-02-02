@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Skeleton from "react-loading-skeleton";
 import { Link } from "react-router-dom";
-import LoadingSpinner from "./loading-spinner";
 
 const api_domain = process.env.REACT_APP_DOMAIN;
 
