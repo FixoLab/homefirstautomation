@@ -182,7 +182,7 @@ const Crestron = () => {
               </video>
             </div>
 
-            <div className="is-layout-flow wp-block-column servicesimages">
+            <div className="is-layout-flow wp-block-column servicesimages" style={{padding: "100px 0"}}>
               <div className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible animated fadeInUp delay1 duration3">
                 <div className="wp-block-group__inner-container">
                   <h2>Crestron Remotes</h2>

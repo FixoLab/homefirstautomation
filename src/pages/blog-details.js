@@ -1,52 +1,31 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Skeleton from "react-loading-skeleton";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
+const BlogDetailsCategories = React.lazy(() => import("../components/blog-details-categories"));
+const RelatedPost = React.lazy(() => import("../components/related-post"));
+
 const api_domain = process.env.REACT_APP_DOMAIN;
 
 const BlogDetails = () => {
-  const { id } = useParams();
-
+  const { slug } = useParams();
   const [data, setData] = useState([]);
-  const [categories, setCategories] = useState([]);
-  const [tags, setTags] = useState([]);
-  const [allCategory, setAllCategory] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
-  const categoriesId = categories[0]?.id;
   useEffect(() => {
     const fetchData = async () => {
-      const postResponse = await fetch(
-        `${api_domain}/wp-json/wp/v2/posts/${id}`
-      );
-      const postData = await postResponse.json();
-      setData(postData);
-      const categoriesResponse = await fetch(
-        `${api_domain}/wp-json/wp/v2/categories?post=${id}`
-      );
-      const categoriesData = await categoriesResponse.json();
-      setCategories(categoriesData);
-      const tagsResponse = await fetch(
-        `${api_domain}/wp-json/wp/v2/tags?post=${id}`
-      );
-      const tagsData = await tagsResponse.json();
-      setTags(tagsData);
+      try {
+        const result = await axios(`${api_domain}/wp-json/wp/v2/posts`);
+        setData(result?.data);
+        setIsLoading(false);
+      } catch (error) {}
     };
     fetchData();
-  }, [id]);
+  }, []);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const allCategoryData = await fetch(
-        `${api_domain}/wp-json/wp/v2/posts?categories=${categoriesId}`
-      );
-      const allCategory = await allCategoryData.json();
-      setAllCategory(allCategory);
-      setIsLoading(false);
-    };
-    fetchData();
-  }, [categoriesId]);
+  const blogDetails = data?.filter((blog) => blog?.slug === slug);
 
   return (
     <div id="site-content" className="single-blog">
@@ -62,7 +41,7 @@ const BlogDetails = () => {
           </Link>
           <div className="blog-wrapper">
             <div className="area">
-              <h1 className="area-title">{data.title.rendered}</h1>
+              <h1 className="area-title">{blogDetails[0]?.title.rendered}</h1>
               <div className="area-user">
                 <i className="fa-regular fa-clock"></i>
                 <span>july 27, 2022</span>
@@ -91,52 +70,25 @@ const BlogDetails = () => {
                 </li>
               </ul>
               <div className="area-links">
-                {categories.slice(0, 1).map((category) => (
-                  <Link key={category.id} to={`/category/${category.id}`}>
-                    {category.name}
-                  </Link>
-                ))}
-                {tags.map((tags) => (
-                  <Link key={tags.id} to={`/tags/${tags.id}`}>
-                    {tags.name}
-                  </Link>
-                ))}
+                <BlogDetailsCategories singleId={blogDetails[0]?.id} />
               </div>
-              <h1 className="area-main-title">{data.title.rendered}</h1>
+              <h1 className="area-main-title">
+                {blogDetails[0]?.title.rendered}
+              </h1>
               <div className="area-image">
-                <img src={data?.better_featured_image.source_url} alt="" />
+                <img
+                  src={blogDetails[0]?.better_featured_image.source_url}
+                  alt=""
+                />
               </div>
               <div
                 className="area-content"
                 dangerouslySetInnerHTML={{
-                  __html: data?.content.rendered,
+                  __html: blogDetails[0]?.content.rendered,
                 }}
               />
             </div>
-            <div className="related-post">
-              <div className="item">
-                <h2>Related Posts</h2>
-                <div className="item-element">
-                  {allCategory?.length === 0
-                    ? ""
-                    : allCategory?.slice(0, 6).map((data) => (
-                        <Link key={data.id} to={allCategory?.id}>
-                          <div className="content">
-                            <div className="image">
-                              <img
-                                src={data?.better_featured_image.source_url}
-                                alt={data?.title.rendered}
-                              />
-                            </div>
-                            <div className="details">
-                              <p>{data?.title.rendered}</p>
-                            </div>
-                          </div>
-                        </Link>
-                      ))}
-                </div>
-              </div>
-            </div>
+            <RelatedPost singleId={blogDetails[0]?.id} />
           </div>
         </div>
       )}

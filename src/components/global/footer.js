@@ -74,6 +74,8 @@ const Footer = () => {
                                 About
                               </div>
                               <div className="su-spoiler-content su-u-clearfix su-u-trim">
+                                <Link to="/about">About</Link>
+                                <Link to="/careers">Careers</Link>
                                 <Link to="/our-process">Our process</Link>
                                 <Link to="/partners">Partners</Link>
                               </div>
@@ -102,6 +104,18 @@ const Footer = () => {
                                 <Link to="/connected-home">Connected Home</Link>
                                 <Link to="/connected-studio-living">
                                   Connected Studio Living
+                                </Link>
+                                <Link to="/commercial-solutions-commercial-automation">
+                                  Commercial Solutions: Commercial Automation
+                                </Link>
+                                <Link to="/commercial-solutions-commercial-audio-video">
+                                  Commercial Solutions: Commercial Audio / Video
+                                </Link>
+                                <Link to="/commercial-solutions-commercial-security">
+                                  Commercial Solutions: Security
+                                </Link>
+                                <Link to="/commercial-solutions-commercial-technology">
+                                  Commercial Technology
                                 </Link>
                               </div>
                             </div>
@@ -135,6 +149,9 @@ const Footer = () => {
                                 <Link to="/smart-security">Smart Security</Link>
                                 <Link to="/wifi-networking-services">
                                   WiFi / Networking
+                                </Link>
+                                <Link to="/golf-simulators">
+                                  Golf Simulators
                                 </Link>
                                 <Link to="/audio-systems">
                                   High Performance Audio
@@ -317,7 +334,9 @@ const Footer = () => {
           </div>
           <div className="left-footer">
             <p>
-              <a target="_blank" href="/sitemap.xml">Sitemap</a>
+              <a target="_blank" href="/sitemap.xml">
+                Sitemap
+              </a>
               <a href="https://www.iconic.systems/privacy-policies/general-privacy-policy">
                 Privacy Policy
               </a>
