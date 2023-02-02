@@ -1,10 +1,9 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import Skeleton from "react-loading-skeleton";
 const BlogItem = React.lazy(() => import("../components/blog-item"));
 const BlogSidebar = React.lazy(() => import("../components/blog-sidebar"));
-const LoadingSpinner = React.lazy(() =>
-  import("../components/loading-spinner")
-);
+
 
 const api_domain = process.env.REACT_APP_DOMAIN;
 
@@ -30,7 +29,9 @@ const Blog = () => {
   return (
     <div id="site-content" className="blog">
       {data.length === 0 ? (
-        <LoadingSpinner />
+        <div className="single-blog-spinner">
+        <Skeleton />
+      </div>
       ) : (
         <div className="blog-area">
           <h2 className="blog-area-title">Blog</h2>
@@ -53,7 +54,7 @@ const Blog = () => {
               </div>
             </div>
             <div className="blog-sidebar">
-              <BlogSidebar />
+              <BlogSidebar blogData={data} />
             </div>
           </div>
         </div>

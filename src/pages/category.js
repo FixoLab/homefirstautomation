@@ -6,9 +6,6 @@ import { useParams } from "react-router-dom";
 
 const BlogItem = React.lazy(() => import("../components/blog-item"));
 const BlogSidebar = React.lazy(() => import("../components/blog-sidebar"));
-const LoadingSpinner = React.lazy(() =>
-  import("../components/loading-spinner")
-);
 
 const Category = () => {
   const { id } = useParams();
@@ -62,7 +59,7 @@ const Category = () => {
               </div>
             </div>
             <div className="blog-sidebar">
-              <BlogSidebar />
+              <BlogSidebar blogData={data} />
             </div>
           </div>
         </div>
