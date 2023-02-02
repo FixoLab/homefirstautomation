@@ -34,7 +34,7 @@ const BlogItem = ({ blog }) => {
 
   return (
     <div key={blog.id} className="blog-content-top">
-      <Link className="details-link" to={`/blog/${blog.id}`}></Link>
+      <Link className="details-link" to={`/blog/${blog.slug}`}></Link>
       <div
         className="image"
         style={{
@@ -45,12 +45,12 @@ const BlogItem = ({ blog }) => {
         <h2>{blog.title.rendered}</h2>
         <div className="links">
           {category?.slice(0, 1)?.map((data) => (
-            <Link key={data.id} to={`/category/${data.id}`}>
+            <Link key={data.id} to={`/category/${data.slug}`}>
               {data.name}
             </Link>
           ))}
           {tags?.map((data) => (
-            <Link key={data.id} to={`/tags/${data.id}`}>
+            <Link key={data.id} to={`/tags/${data.slug}`}>
               {data.name}
             </Link>
           ))}

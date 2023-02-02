@@ -105,7 +105,7 @@ const AppRouter = () => {
           <Route path="/brands-we-carry" element={<BrandsWeCarry />} />
           <Route path="/partners" element={<Partners />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:id" element={<BlogDetails />} />
+          <Route path="/blog/:slug" element={<BlogDetails />} />
           <Route path="/start-your-project" element={<StartYourProject />} />
 
           <Route path="/interior-designers" element={<InteriorDesigners />} />

@@ -38,7 +38,7 @@ const BlogSidebar = () => {
         <h2>Most Popular Categories</h2>
         <div className="item-element category">
           {data.map((categories) => (
-            <Link key={categories.id} to={`/category/${categories.id}`}>
+            <Link key={categories.id} to={`/category/${categories.slug}`}>
               {categories.name}
             </Link>
           ))}
@@ -48,7 +48,7 @@ const BlogSidebar = () => {
         <h2>Most Popular Topics</h2>
         <div className="item-element">
           {tags.map((tag) => (
-            <Link key={tag.id} to={`/tags/${tag.id}`}>
+            <Link key={tag.id} to={`/tags/${tag.slug}`}>
               {tag.name}
             </Link>
           ))}
