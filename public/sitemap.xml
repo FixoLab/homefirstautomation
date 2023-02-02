@@ -21,7 +21,7 @@
     </page>
     <page>
         <url>https://homefirstautomation.vercel.app/careers</url>
-        <date>2023-01-17T16:37:05+00:00</date>
+        <date>2023-02-01T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>
     </page>
@@ -63,25 +63,25 @@
     </page>
     <page>
         <url>https://homefirstautomation.vercel.app/commercial-solutions-commercial-automation</url>
-        <date>2023-01-17T16:37:05+00:00</date>
+        <date>2023-02-01T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>
     </page>
     <page>
         <url>https://homefirstautomation.vercel.app/commercial-solutions-commercial-audio-video</url>
-        <date>2023-01-17T16:37:05+00:00</date>
+        <date>2023-02-01T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>
     </page>
     <page>
         <url>https://homefirstautomation.vercel.app/commercial-solutions-commercial-security</url>
-        <date>2023-01-17T16:37:05+00:00</date>
+        <date>2023-02-01T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>
     </page>
     <page>
         <url>https://homefirstautomation.vercel.app/commercial-solutions-commercial-technology</url>
-        <date>2023-01-17T16:37:05+00:00</date>
+        <date>2023-02-01T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>
     </page>
@@ -123,7 +123,7 @@
     </page>
     <page>
         <url>https://homefirstautomation.vercel.app/golf-simulators</url>
-        <date>2023-01-17T16:37:05+00:00</date>
+        <date>2023-02-02T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>
     </page>
@@ -135,7 +135,7 @@
     </page>
     <page>
         <url>https://homefirstautomation.vercel.app/portfolio</url>
-        <date>2023-01-17T16:37:05+00:00</date>
+        <date>2023-01-31T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>
     </page>
@@ -147,19 +147,37 @@
     </page>
     <page>
         <url>https://homefirstautomation.vercel.app/contact-us</url>
-        <date>2023-01-17T16:37:05+00:00</date>
+        <date>2023-01-31T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>
     </page>
     <page>
         <url>https://homefirstautomation.vercel.app/blog</url>
-        <date>2023-01-17T16:37:05+00:00</date>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirstautomation.vercel.app/blog/24-7-365-support-coming-soon</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirstautomation.vercel.app/category/6</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirstautomation.vercel.app/tags/4</url>
+        <date>2023-02-01T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>
     </page>
     <page>
         <url>https://homefirstautomation.vercel.app/control-4</url>
-        <date>2023-01-17T16:37:05+00:00</date>
+        <date>2023-02-01T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>
     </page>
