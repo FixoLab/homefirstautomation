@@ -31,7 +31,7 @@ const CommercialAutomation = () => {
                     data-aos-duration="800"
                     data-aos-delay="400"
                   >
-                    <div className="wp-block-group__inner-container">
+                    <div className="wp-block-group__inner-container max-width-hero">
                       <h1>Commercial Automation</h1>
                       <div>
                         <p className="minigray">

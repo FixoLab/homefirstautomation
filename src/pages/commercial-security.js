@@ -22,7 +22,7 @@ const CommercialSecurity = () => {
                     className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible"
                   
                   >
-                    <div className="wp-block-group__inner-container">
+                    <div className="wp-block-group__inner-container max-width-hero">
                       <h1>Commercial Security</h1>
                       <div>
                         <p className="minigray">
