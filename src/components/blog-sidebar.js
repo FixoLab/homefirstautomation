@@ -7,23 +7,15 @@ import { Link } from "react-router-dom";
 const api_domain = process.env.REACT_APP_DOMAIN;
 
 const BlogSidebar = ({ blogData }) => {
-  const [data, setData] = useState([]);
+  const [categories, setCategories] = useState([]);
   const [tags, setTgs] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const result = await axios(`${api_domain}/wp-json/wp/v2/categories`);
-        setData(result.data);
-      } catch (error) {}
-    };
-    fetchData();
-  }, []);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const result = await axios(`${api_domain}/wp-json/wp/v2/tags`);
-        setTgs(result.data);
+        const category = await axios(`${api_domain}/wp-json/wp/v2/categories`);
+        setCategories(category.data);
+        const tags = await axios(`${api_domain}/wp-json/wp/v2/tags`);
+        setTgs(tags.data);
       } catch (error) {}
     };
     fetchData();
@@ -34,10 +26,10 @@ const BlogSidebar = ({ blogData }) => {
       <div className="item">
         <h2>Most Popular Categories</h2>
         <div className="item-element category">
-          {data.length === 0 ? (
+          {categories.length === 0 ? (
             <p className="error">NO Category Available</p>
           ) : (
-            data.map((categories) => (
+            categories.map((categories) => (
               <Link key={categories.id} to={`/category/${categories.id}`}>
                 {categories.name}
               </Link>
@@ -48,7 +40,7 @@ const BlogSidebar = ({ blogData }) => {
       <div className="item">
         <h2>Most Popular Topics</h2>
         <div className="item-element">
-          {data.length === 0 ? (
+          {tags.length === 0 ? (
             <p className="error">NO Tags Available</p>
           ) : (
             tags.map((tag) => (

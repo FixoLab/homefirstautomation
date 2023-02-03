@@ -6,27 +6,19 @@ import { Link } from "react-router-dom";
 const api_domain = process.env.REACT_APP_DOMAIN;
 
 const BlogItem = ({ blog }) => {
-  const [category, setCategory] = useState([]);
   const [tags, setTags] = useState([]);
-  const [author, setAuthor] = useState([]);
-  const authorUrl = blog?._links.author[0].href;
+
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const result = await axios(
-          `${api_domain}/wp-json/wp/v2/categories?post=${blog.id}`
-        );
-        setCategory(result.data);
         const tags = await axios(
           `${api_domain}/wp-json/wp/v2/tags?post=${blog.id}`
         );
         setTags(tags.data);
-        const authorName = await axios(`${authorUrl}`);
-          setAuthor(authorName?.data);
       } catch (error) {}
     };
     fetchData();
-  }, [blog.id, authorUrl]);
+  }, [blog.id]);
 
   return (
     <div key={blog.id} className="blog-content-top">
@@ -34,13 +26,13 @@ const BlogItem = ({ blog }) => {
       <div
         className="image"
         style={{
-          backgroundImage: `url(${blog.better_featured_image.source_url})`,
+          backgroundImage: `url(${blog?.better_featured_image.source_url})`,
         }}
       ></div>
       <div style={{ padding: "15px", flexGrow: "1" }}>
         <h2>{blog.title.rendered}</h2>
         <div className="links">
-          {category?.slice(0, 1)?.map((data) => (
+          {blog?.post_terms?.slice(0, 1)?.map((data) => (
             <Link key={data.id} to={`/category/${data.id}`}>
               {data.name}
             </Link>
@@ -56,7 +48,7 @@ const BlogItem = ({ blog }) => {
       <div className="user">
         <i className="fa-regular fa-clock"></i>
         <span>{blog?.date.slice(0, 10)}</span>
-        <span>by {author?.name}</span>
+        <span>by {blog?.author_details.display_name}</span>
       </div>
     </div>
   );

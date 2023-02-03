@@ -11,7 +11,7 @@ const Article = ({ blog }) => {
       <div className="post-inner thin ">
         <div className="entry-content">
           <figure className="wp-block-image">
-            <img src={better_featured_image.source_url} alt={title.rendered} />
+            <img src={better_featured_image?.source_url} alt={title.rendered} />
           </figure>
 
           <div dangerouslySetInnerHTML={{ __html: excerpt.rendered }} />
