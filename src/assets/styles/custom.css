@@ -4455,3 +4455,6 @@ h6 {
   color: blue;
   text-decoration: underline;
 }
+.hero video {
+  background-color: #007ca1;
+}
