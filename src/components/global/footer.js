@@ -317,22 +317,22 @@ const Footer = () => {
         <div className="section-inner">
           <ul className="right-footer">
             <li>
-              <a href="https://www.instagram.com/" aria-label="instagram">
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/" aria-label="instagram">
                 <i className="fa-brands fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="https://linkedin.com/" aria-label="linkedin">
+              <a target="_blank" rel="noreferrer" href="https://linkedin.com/" aria-label="linkedin">
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/" aria-label="facebook">
+              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/" aria-label="facebook">
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
             </li>
             <li>
-              <a href="https://houzz.com/" aria-label="houzz">
+              <a target="_blank" rel="noreferrer" href="https://houzz.com/" aria-label="houzz">
                 <i className="fa-brands fa-houzz"></i>
               </a>
             </li>
@@ -342,7 +342,7 @@ const Footer = () => {
           </div>
           <div className="left-footer">
             <p>
-              <a target="_blank" href="/sitemap.xml">
+              <a target="_blank" rel="noreferrer"  href="/sitemap.xml">
                 Sitemap
               </a>
               <a href="/privacy-policy">
