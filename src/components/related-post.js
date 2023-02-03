@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 // import { useEffect } from "react";
 import { useState } from "react";
 import Skeleton from "react-loading-skeleton";
@@ -6,24 +7,19 @@ import { Link } from "react-router-dom";
 
 const api_domain = process.env.REACT_APP_DOMAIN;
 
-const RelatedPost = ({ singleId }) => {
+const RelatedPost = ({ singleId, blogDetails }) => {
   const [firstCtgData, setFirstCtgData] = useState([]);
 
-  setTimeout(() => {
+  useEffect(() => {
     const fetchData = async () => {
-      const allCategoryData = await fetch(
-        `${api_domain}/wp-json/wp/v2/categories?post=${singleId}`
-      );
-      const allCategory = await allCategoryData.json();
-
       const firstCategory = await fetch(
-        `${api_domain}/wp-json/wp/v2/posts?categories=${allCategory[0]?.id}`
+        `${api_domain}/wp-json/wp/v2/posts?categories=${blogDetails[0]?.post_terms[0].id}`
       );
       const firstCtgData = await firstCategory.json();
       setFirstCtgData(firstCtgData);
     };
     fetchData();
-  }, 1000);
+  }, [blogDetails]);
 
   const exactData = firstCtgData?.filter((data) => data?.id !== singleId);
 

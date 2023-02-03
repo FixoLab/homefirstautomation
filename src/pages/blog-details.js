@@ -14,7 +14,6 @@ const api_domain = process.env.REACT_APP_DOMAIN;
 const BlogDetails = () => {
   const { slug } = useParams();
   const [data, setData] = useState([]);
-  const [author, setAuthor] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     const fetchData = async () => {
@@ -27,19 +26,6 @@ const BlogDetails = () => {
     fetchData();
   }, []);
   const blogDetails = data?.filter((blog) => blog?.slug === slug);
-
-  const authorUrl = blogDetails[0]?._links.author[0].href;
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const result = await axios(`${authorUrl}`);
-        setAuthor(result?.data);
-        setIsLoading(false);
-      } catch (error) {}
-    };
-    fetchData();
-  }, [authorUrl]);
-
   const blogId = blogDetails[0]?.id;
 
   return (
@@ -62,7 +48,7 @@ const BlogDetails = () => {
               <div className="area-user">
                 <i className="fa-regular fa-clock"></i>
                 <span>{blogDetails[0]?.date.slice(0, 10)}</span>
-                <span>by {author?.name}</span>
+                <span>by {blogDetails[0]?.author_details.display_name}</span>
               </div>
               <ul className="area-social">
                 <li>
@@ -104,7 +90,10 @@ const BlogDetails = () => {
               </ul>
               <div className="area-links">
                 {blogId !== undefined ? (
-                  <BlogDetailsCategories singleId={blogId} />
+                  <BlogDetailsCategories
+                    blogDetails={blogDetails}
+                    singleId={blogId}
+                  />
                 ) : (
                   ""
                 )}
@@ -126,7 +115,7 @@ const BlogDetails = () => {
               />
             </div>
             {blogId !== undefined ? (
-              <RelatedPost singleId={blogDetails[0]?.id} />
+              <RelatedPost blogDetails={blogDetails} singleId={blogId} />
             ) : (
               ""
             )}
