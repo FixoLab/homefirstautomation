@@ -40,7 +40,7 @@ const Contractors = () => {
                 <p className="has-text-align-center">
                   From electricians, to landscapers, to plumbers, general
                   contractors range from a multitude of professions. We at
-                  PROJECT: automate not only want to work with you, but want to
+                  HomeFirst not only want to work with you, but want to
                   create a fruitful relationship for both of us to late years to
                   come.
                 </p>
@@ -191,7 +191,7 @@ const Contractors = () => {
 
                     <p className="pointsmade homeauto">
                       Realtors need to know everything about their client’s
-                      needs and wants. PROJECT: automate offers smart technology
+                      needs and wants. HomeFirst offers smart technology
                       classes that will allow you have a better understanding of
                       your client’s unique needs, and a way to stand out from
                       the competition with unique certifications.

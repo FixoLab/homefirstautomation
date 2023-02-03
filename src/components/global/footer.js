@@ -43,7 +43,7 @@ const Footer = () => {
                         <div className="footerlinks1">
                           <img
                             src="/assets/images/Homefirst_Auto.png"
-                            alt="project automate logo"
+                            alt="HomeFirst logo"
                             width="200"
                             height="80"
                           />
@@ -345,7 +345,7 @@ const Footer = () => {
               <a target="_blank" href="/sitemap.xml">
                 Sitemap
               </a>
-              <a href="https://www.iconic.systems/privacy-policies/general-privacy-policy">
+              <a href="/privacy-policy">
                 Privacy Policy
               </a>
             </p>

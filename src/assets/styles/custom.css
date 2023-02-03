@@ -467,6 +467,24 @@ li.menu-item-3288 .fas {
   padding: 0px 30px 30px !important;
 }
 
+.serviceswhitebackground .brandscolumn p.partnername {
+  margin-bottom: -1px !important;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 300;
+  color: #007ca1;
+  line-height: 1;
+  margin-top: 10px !important;
+  padding-bottom: 0px !important;
+}
+.serviceswhitebackground .brandscolumn p.partnername::after {
+  display: block;
+  content: "";
+  width: 60px;
+  height: 20px;
+  border-bottom: 1px solid #007ca1;
+  margin: 0px auto 0px;
+}
 .serviceswhitebackground .brandscolumn p.learnmorebutton {
   text-align: center;
   background: #f1f1f1;
@@ -1134,6 +1152,18 @@ li.menu-item-3288 .fas {
 .partners .brandscolumn .wp-block-image {
   margin-bottom: 2rem !important;
   margin-top: 3rem !important;
+}
+.partners .serviceswhitebackground .brandscolumn p.learnmorebutton  {
+  
+    background: transparent;
+    position: unset;
+    transition: all .3s;
+
+}
+.partners .serviceswhitebackground .brandscolumn p.learnmorebutton:hover  {
+  
+    background: #f1f1f1;
+
 }
 .homeintrotop.centerintro h2 {
   width: 100%;
@@ -4400,4 +4430,23 @@ a#scroll-to-top {
 }
 .max-width-hero{
   max-width: 1200px !important;
+}
+
+.privacy-policy{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 135px;
+}
+.privacy-policy h3, h4, h5, h6{
+  margin-top: 0px;
+}
+.privacy-policy  h6{
+  letter-spacing: 0;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.privacy-policy  a{
+color: blue;
+text-decoration: underline;
 }

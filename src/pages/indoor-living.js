@@ -45,7 +45,7 @@ const IndoorLiving = () => {
                       <h1>CAPTURE THE FEELING OF SMARTER LIVING</h1>
                       <p>
                         Discover how smart technology effortlessly blends into
-                        the fabric of your Southern California home.
+                        the fabric of your Central Florida home.
                       </p>
 
                       <div>

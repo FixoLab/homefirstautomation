@@ -98,7 +98,7 @@ const InteriorDesigners = () => {
 
                     <p className="pointsmade homeauto">
                       As a Designer you are always looking for new client’s you
-                      can help pair with awesome designs. PROTECT: automate has
+                      can help pair with awesome designs. HomeFirst has
                       hundreds of client’s who want a professional designers
                       touch, and we are looking to connect you to them.
                     </p>
@@ -162,7 +162,7 @@ const InteriorDesigners = () => {
                     <p className="pointsmade homeauto">
                       As a designer you already have a great eye for what looks
                       great and can accommodate a household. Well joining our
-                      partner programs allows you to advertise PROJECT: automate
+                      partner programs allows you to advertise HomeFirst
                       smart systems and products, and create a new revenue
                       source for yourself and business.
                     </p>
@@ -192,7 +192,7 @@ const InteriorDesigners = () => {
                     <p className="pointsmade homeauto">
                       When designing a home or business it helps to take into
                       account if any room will be needed for the latest smart
-                      technologies. PROJECT: automate offers classes that not
+                      technologies. HomeFirst offers classes that not
                       only give you accredited certifications to put you above
                       the competition, but also help you develop a better
                       understanding of interior designing with smart

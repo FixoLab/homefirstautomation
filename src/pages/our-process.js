@@ -13,7 +13,7 @@ const OurProcess = () => {
             <h2 className="content-title">Our&nbsp;Process </h2>
             <div className="content-description minigray">
               As <Link to="/smart-home-automation">smart home installers</Link>{" "}
-              serving Camas, Vancouver and the surrounding areas we take great
+              serving Orlando, Florida and the surrounding areas we take great
               pride in having a standardized design-build process in place to
               ensure you receive a high-quality, reliable solution that matches
               your performance expectations.

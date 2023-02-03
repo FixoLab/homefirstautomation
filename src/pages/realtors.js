@@ -97,7 +97,7 @@ const Realtors = () => {
                     <h2>INCREASE YOUR BUSINESS</h2>
 
                     <p className="pointsmade homeauto">
-                      We here at PROJECT: automate have client’s asking us for
+                      We here at HomeFirst have client’s asking us for
                       recommendations on Realtors. You can join our list of
                       recommended realtors by simply joining our partner program
                     </p>
@@ -162,7 +162,7 @@ const Realtors = () => {
                       As a realtor you are sure to see homes and businesses that
                       could use the latest and greatest in smart home and
                       business technology. Well you can become a rep for
-                      PROJECT: automate and create a new line of revenue for
+                      HomeFirst and create a new line of revenue for
                       your business.
                     </p>
 
@@ -190,7 +190,7 @@ const Realtors = () => {
 
                     <p className="pointsmade homeauto">
                       Realtors need to know everything about their client’s
-                      needs and wants. PROJECT: automate offers smart technology
+                      needs and wants. HomeFirst offers smart technology
                       classes that will allow you have a better understanding of
                       your client’s unique needs, and a way to stand out from
                       the competition with unique certifications.
