@@ -1858,6 +1858,9 @@ a.to-the-top > * {
   hr {
     margin: 8rem auto;
   }
+  .privacy-policy hr{
+    margin: 20px auto;
+  }
 
   table {
     font-size: 1.8rem;

@@ -100,7 +100,7 @@ const DesignBuildPartners = () => {
                     <p className="pointsmade homeauto">
                       Are you looking for new clients? Well we have hundreds of
                       client’s and they are always after recommendations for
-                      Architects. Joining the PROJECT: automate partner program
+                      Architects. Joining the HomeFirst partner program
                       gives you access to them.
                     </p>
 
@@ -163,7 +163,7 @@ const DesignBuildPartners = () => {
                     <p className="pointsmade homeauto">
                       As an Architect’s Partner you already have a great eye for
                       things that can improve a business or residence. Joining
-                      the PROJECT: automate partner program give you access to a
+                      the HomeFirst partner program give you access to a
                       vast database of professionals you can work with and
                       increase your revenue.
                     </p>
