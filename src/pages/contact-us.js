@@ -62,7 +62,7 @@ const ContactUs = () => {
                     <p>
                       With over 100 years of combined experience our smart home
                       and{" "}
-                      <Link to="https://www.projectautomate.com/home-theater/">
+                      <Link to="/home-theater">
                         AV company
                       </Link>{" "}
                       can help you with all your smart home automation,

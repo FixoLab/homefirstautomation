@@ -27,7 +27,7 @@ const Portfolio = () => {
                       <div>
                         <p className="minigray">
                           Designed to blend style and function, explore how our
-                          technology would look in your California space.
+                          technology would look in your Orland, Florida space.
                         </p>
                       </div>
 

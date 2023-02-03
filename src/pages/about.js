@@ -107,7 +107,7 @@ const About = () => {
                       <img
                         style={{ display: "block" }}
                         src="assets/images/boha-2019-solid-border.png"
-                        alt="Project Automate - Best of HomeAdvisor"
+                        alt="HomeFirst - Best of HomeAdvisor"
                       />
                     </Link>
                     <table
@@ -166,14 +166,14 @@ const About = () => {
                       id="bbblink"
                       className="ruhzbul"
                       style={{ padding: "0px", margin: "0px" }}
-                      title="Project Automate, Audio Visual Equipment, Orlando, Florida, CA"
+                      title="HomeFirst, Audio Visual Equipment, Orlando, Florida, CA"
                       to="#"
                     >
                       <img
                         id="bbblinkimg"
                         style={{ padding: "0px", border: "none" }}
                         src="assets/images/project1.png"
-                        alt="Project Automate, Audio Visual Equipment, Orlando, Florida, CA"
+                        alt="HomeFirst, Audio Visual Equipment, Orlando, Florida, CA"
                         width="400"
                         height="90"
                       />

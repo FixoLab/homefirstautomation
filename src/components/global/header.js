@@ -162,6 +162,32 @@ const Header = () => {
                       >
                         <Link to="/partners">Partners</Link>
                       </li>
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
+                        <Link to="/interior-designers">Interior Designers</Link>
+                      </li>
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
+                        <Link to="/contractors">Contractors</Link>
+                      </li>
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
+                        <Link to="/design-build-partners">
+                          Design Build Partners
+                        </Link>
+                      </li>
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
+                        <Link to="/realtors">Realtors</Link>
+                      </li>
                     </ul>
                   </li>
                   <li
@@ -428,6 +454,30 @@ const Header = () => {
                           <Link to="/partners">Partners</Link>
                         </div>
                       </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                        <div className="ancestor-wrapper">
+                          <Link to="/interior-designers">
+                            Interior Designers
+                          </Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                        <div className="ancestor-wrapper">
+                          <Link to="/contractors">Contractors</Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                        <div className="ancestor-wrapper">
+                          <Link to="/design-build-partners">
+                            Design Build Partners
+                          </Link>
+                        </div>
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                        <div className="ancestor-wrapper">
+                          <Link to="/realtors">Realtors</Link>
+                        </div>
+                      </li>
                     </ul>
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-459">
@@ -605,11 +655,6 @@ const Header = () => {
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1539">
                     <div className="ancestor-wrapper">
                       <Link to="brands-we-carry">Brands</Link>
-                    </div>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2848">
-                    <div className="ancestor-wrapper">
-                      <Link to="/partners">Partners</Link>
                     </div>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1188">

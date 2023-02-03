@@ -43,7 +43,7 @@ const Footer = () => {
                         <div className="footerlinks1">
                           <img
                             src="/assets/images/Homefirst_Auto.png"
-                            alt="project automate logo"
+                            alt="HomeFirst logo"
                             width="200"
                             height="80"
                           />
@@ -78,6 +78,14 @@ const Footer = () => {
                                 <Link to="/careers">Careers</Link>
                                 <Link to="/our-process">Our process</Link>
                                 <Link to="/partners">Partners</Link>
+                                <Link to="/interior-designers">
+                                  Interior Designers
+                                </Link>
+                                <Link to="/contractors">Contractors</Link>
+                                <Link to="/design-build-partners">
+                                  Design Build Partners
+                                </Link>
+                                <Link to="/realtors">Realtors</Link>
                               </div>
                             </div>
                             <div
@@ -337,7 +345,7 @@ const Footer = () => {
               <a target="_blank" href="/sitemap.xml">
                 Sitemap
               </a>
-              <a href="https://www.iconic.systems/privacy-policies/general-privacy-policy">
+              <a href="/privacy-policy">
                 Privacy Policy
               </a>
             </p>

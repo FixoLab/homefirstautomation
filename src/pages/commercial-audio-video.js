@@ -410,12 +410,10 @@ const CommercialAudioVideo = () => {
               <i className="fa-solid fa-arrow-up"></i>
             </a>
             <h2>
-              Elevate Business Performance and Creativity with Integrated AV
-              Solutions
+              Elevate Business Performance and Creativity with HomeFirst
             </h2>
             <p className="minigray">
-              Elevate Business Performance and Creativity with Integrated AV
-              Solutions
+              Elevate Business Performance and Creativity with HomeFirst
             </p>
             <a className="button__primary" href="/contact-us">
               Connect with our AV specialist today

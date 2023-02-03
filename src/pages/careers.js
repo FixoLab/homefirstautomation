@@ -55,11 +55,11 @@ const Careers = () => {
               <h1 className="careers-team-title"> Join Our Team </h1>
               <div className="uk-panel uk-margin">
                 <p className="minigray">
-                  At The Integrated Home, we’re passionate about shaping
+                  At HomeFirst, we’re passionate about shaping
                   technology that responds to our customers’ needs. If you like
                   new ideas, challenges, and working with a tight-knit group, we
                   want to hear from you. We’re always looking for dedicated,
-                  creative people to make The Integrated Home even better.
+                  creative people to make HomeFirst even better.
                 </p>
               </div>
               <h3> Available Positions </h3>
