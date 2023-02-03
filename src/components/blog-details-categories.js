@@ -1,5 +1,4 @@
 import React from "react";
-import { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -9,21 +8,40 @@ const BlogDetailsCategories = ({ singleId }) => {
   const [categories, setCategories] = useState([]);
   const [tags, setTags] = useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const categoriesResponse = await fetch(
-        `${api_domain}/wp-json/wp/v2/categories?post=${singleId}`
-      );
-      const categoriesData = await categoriesResponse.json();
-      setCategories(categoriesData);
-      const tagsResponse = await fetch(
-        `${api_domain}/wp-json/wp/v2/tags?post=${singleId}`
-      );
-      const tagsData = await tagsResponse.json();
-      setTags(tagsData);
-    };
-    fetchData();
-  }, [singleId]);
+  setTimeout(() => {
+    fetch(`${api_domain}/wp-json/wp/v2/categories?post=${singleId}`)
+      .then((response) => response.json())
+      .then((data) => {
+        setCategories(data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+    fetch(`${api_domain}/wp-json/wp/v2/tags?post=${singleId}`)
+      .then((response) => response.json())
+      .then((data) => {
+        setTags(data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }, 2000);
+
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const categoriesResponse = await fetch(
+  //       `${api_domain}/wp-json/wp/v2/categories?post=${singleId}`
+  //     );
+  //     const categoriesData = await categoriesResponse.json();
+  //     setCategories(categoriesData);
+  //     const tagsResponse = await fetch(
+  //       `${api_domain}/wp-json/wp/v2/tags?post=${singleId}`
+  //     );
+  //     const tagsData = await tagsResponse.json();
+  //     setTags(tagsData);
+  //   };
+  //   fetchData();
+  // }, [singleId]);
 
   return (
     <>
