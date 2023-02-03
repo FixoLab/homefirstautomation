@@ -23,7 +23,7 @@ const RelatedPost = ({ singleId }) => {
       setFirstCtgData(firstCtgData);
     };
     fetchData();
-  }, 2000);
+  }, 1000);
 
   const exactData = firstCtgData?.filter((data) => data?.id !== singleId);
 
