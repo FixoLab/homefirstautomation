@@ -17,7 +17,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="is-layout-flow wp-block-group homevideo">
+      <div className="is-layout-flow wp-block-group homevideo hero">
         <div className="wp-block-group__inner-container">
           <figure className="wp-block-image size-large homephone">
             <img
