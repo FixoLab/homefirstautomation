@@ -46,15 +46,16 @@ const Control4 = () => {
             <img src="assets/images/logo-brands-control4.webp" alt="" />
           </div>
           <div className="nav-area">
-            <a href="#">CONTROL4 OS3</a>
-            <a href="#">WHOLE HOME</a>
-            <a href="#">CLIMATE AND COMFORT</a>
-            <a href="#">SAFETY & SECURITY</a>
-            <a href="#">INTERCOM ANYWHERE</a>
+            <a href="#1">CONTROL4 OS3</a>
+            <a href="#2">WHOLE HOME</a>
+            <a href="#3">CLIMATE AND COMFORT</a>
+            <a href="#4">SAFETY & SECURITY</a>
+            <a href="#5">INTERCOM ANYWHERE</a>
+            <a href="#6">UNIVERSAL REMOTE</a>
           </div>
         </div>
       </div>
-      <div
+      <div id="1"
         className="home-standard"
         style={{
           backgroundImage: "url(/assets/images/header-brands-control4.webp)",
@@ -147,7 +148,7 @@ const Control4 = () => {
         </Swiper>
       </div>
       <div className="control4-empty"></div>
-      <div
+      <div id="2"
         className="home-standard"
         style={{
           backgroundImage: "url(/assets/images/header-brands-control4-02.webp)",
@@ -245,7 +246,7 @@ const Control4 = () => {
         </Swiper>
       </div>
       <div className="control4-empty"></div>
-      <div
+      <div id="3"
         className="home-standard"
         style={{
           backgroundImage: "url(/assets/images/header-brands-control4-03.webp)",
@@ -354,7 +355,7 @@ const Control4 = () => {
         </div>
       </div>
       <div className="control4-empty"></div>
-      <div
+      <div id="4"
         className="home-standard"
         style={{
           backgroundImage: "url(/assets/images/header-brands-control4-04.webp)",
@@ -562,7 +563,7 @@ const Control4 = () => {
           </div>
         </div>
       </div>
-      <div
+      <div id="5"
         className="home-standard"
         style={{
           backgroundImage: "url(/assets/images/header-brands-control4-05.webp)",
@@ -719,7 +720,7 @@ const Control4 = () => {
         </div>
       </div>
       <div className="control4-empty"></div>
-      <div
+      <div id="6"
         className="home-standard"
         style={{
           backgroundImage: "url(/assets/images/header-brands-control4-06.webp)",

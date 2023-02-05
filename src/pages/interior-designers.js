@@ -40,8 +40,7 @@ const InteriorDesigners = () => {
                 <p className="has-text-align-center">
                   Grow your Interior Designing business with referrals from us,
                   grow your wallet from referring us clients, and grow your
-                  reputation from client’s praise after dealing with PROJECT:
-                  automate
+                  reputation from client’s praise after dealing with HomeFirst
                 </p>
               </div>
             </div>
