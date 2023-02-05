@@ -21,6 +21,18 @@ const BlogSidebar = ({ blogData }) => {
     fetchData();
   }, []);
 
+  const allDate = blogData.map((data) => data?.published_on);
+
+  let uniqueArr = allDate.filter((item, index, self) => {
+    return self.indexOf(item) === index;
+  });
+  const [selected, setSelected] = useState(uniqueArr[0]);
+  const handleChange = (event) => {
+    setSelected(event.target.value);
+  };
+
+  const yearData = blogData.filter((data) => data.published_on === selected);
+
   return (
     <>
       <div className="item">
@@ -51,7 +63,8 @@ const BlogSidebar = ({ blogData }) => {
           )}
         </div>
       </div>
-      <div className="related-post">
+
+      <div className="related-post" style={{marginBottom: "20px"}}>
         <div className="item">
           <div className="item-element">
             {blogData?.length === 0 ? (
@@ -74,6 +87,32 @@ const BlogSidebar = ({ blogData }) => {
               ))
             )}
           </div>
+        </div>
+      </div>
+      <div className="item">
+        <h2>Archive</h2>
+        <div className="date-select">
+          <select value={selected} onChange={handleChange}>
+            {uniqueArr.map((option) => (
+              <option key={option} value={option}>
+                {option}
+              </option>
+            ))}
+          </select>
+          <hr />
+          <ul>
+            {yearData.map((data) => (
+              <li key={data.id}>
+                <Link
+                  to={`/years/${data.published_on
+                    .replace(/ /g, "-")
+                    .replace(/,/g, "")}`}
+                >
+                  {data.published_on}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </>
