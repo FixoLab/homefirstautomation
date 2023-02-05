@@ -1810,7 +1810,8 @@ a#bbblink {
 
 .josh-ai-page .josh-ai-h2{
   position: relative;
-  padding-top: 10px;
+  padding-top: 15px;
+  margin-top: 0;
   font-weight: 300;
   color: #007ca1;
   font-size: 36px;
@@ -1820,8 +1821,6 @@ a#bbblink {
 .josh-new-content{
  display: none;
 }
-
-
 
 .josh-ai-page .josh-ai-h2::before{
   content: "";
@@ -4545,22 +4544,6 @@ a#scroll-to-top {
   color: #fff !important;
 }
 
-.josh-ai-page .josh-ai-feature .josh-ai-feature-tablet {
-  margin-bottom: 40px;
-}
-.josh-ai-page .josh-ai-feature .josh-ai-feature-desktop {
-  padding-bottom: 200px;
-  padding-top: 50px;
-  padding-right: 20px;
-}
-.josh-ai-page .josh-ai-feature h3 {
-  font-size: 27px;
-  font-family: roboto;
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 1px;
-  color: #007ca1;
-}
 .josh-ai-page .text-32 {
   color: #666;
   font-size: 16px;
