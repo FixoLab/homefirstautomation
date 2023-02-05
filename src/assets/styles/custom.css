@@ -321,7 +321,7 @@ li.menu-item-3288 .fas {
   float: left;
   max-width: none !important;
   width: auto !important;
-  font-weight: 400;
+  font-weight: 300;
 }
 .homeintrotop .fas {
   float: left;
@@ -335,7 +335,7 @@ li.menu-item-3288 .fas {
   float: left;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #58c7f1;
   margin: 15px 0px 0px;
@@ -343,7 +343,7 @@ li.menu-item-3288 .fas {
 .minigray {
   color: #666;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .home .homeintrotop .wp-block-group__inner-container > p {
@@ -376,7 +376,7 @@ li.menu-item-3288 .fas {
   max-width: 100% !important;
   float: none;
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
   color: #fff;
   margin-bottom: 45px;
   text-shadow: #747474 0.05em 0.05em 0.1em;
@@ -400,7 +400,7 @@ li.menu-item-3288 .fas {
   border: 1px solid #aaa;
   padding: 8px 20px;
   border-radius: 30px;
-  font-weight: 400;
+  font-weight: 300;
   color: #fff !important;
   font-size: 14px;
   margin: 0px 15px;
@@ -417,7 +417,7 @@ li.menu-item-3288 .fas {
   clear: both;
   text-align: left;
   color: #747474;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   max-width: 100% !important;
   margin: 0px 0px 15px !important;
@@ -426,7 +426,7 @@ li.menu-item-3288 .fas {
   font-family: "Font Awesome 5 Free";
   content: "\f058";
   color: #007ca1;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   display: inline-block;
   -moz-osx-font-smoothing: grayscale;
@@ -462,7 +462,7 @@ li.menu-item-3288 .fas {
   width: 100% !important;
   color: #666;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0px auto !important;
   padding: 0px 30px 30px !important;
 }
@@ -498,7 +498,7 @@ li.menu-item-3288 .fas {
 }
 .serviceswhitebackground .brandscolumn p.learnmorebutton a {
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 300;
   color: #333 !important;
   width: 100%;
   display: block;
@@ -558,7 +558,7 @@ li.menu-item-3288 .fas {
   float: left;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #007ca1;
   margin: 0px 0px 30px !important;
@@ -630,7 +630,7 @@ li.menu-item-3288 .fas {
   float: left;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #007ca1;
   margin: 0px 0px 30px !important;
@@ -1167,12 +1167,12 @@ li.menu-item-3288 .fas {
   float: left;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
   max-width: 100% !important;
   float: none;
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
   color: #fff;
   margin-bottom: 15px;
   text-shadow: #747474 0.05em 0.05em 0.1em;
@@ -1186,12 +1186,12 @@ li.menu-item-3288 .fas {
 }
 .partners3column h3 {
   font-size: 36px;
-  font-weight: 400;
+  font-weight: 300;
   padding: 0px 30px;
 }
 .partners3column li {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 .homeintrotop.centerintro.partnercenter {
   display: flex;
@@ -1209,14 +1209,14 @@ li.menu-item-3288 .fas {
 .smallpartnerarea h2 {
   max-width: 100% !important;
   padding-top: 30px;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 42px;
 }
 .smallpartnerarea p {
   max-width: 700px !important;
   color: #666;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
 }
 .smallpartnerarea p a {
   background: #007ca1;
@@ -1400,7 +1400,7 @@ li.menu-item-3288 .fas {
   font-size: 36px;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #007ca1;
   margin: 0px auto 30px !important;
@@ -1418,7 +1418,7 @@ li.menu-item-3288 .fas {
   width: 100% !important;
   color: #666;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 .pagecolumns {
   max-width: 1200px !important;
@@ -1488,7 +1488,7 @@ h2.pickareaheading {
   margin: 0px;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #58c7f1;
   font-size: 32px;
@@ -1553,7 +1553,7 @@ a#bbblink {
   float: left;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #58c7f1;
   text-align: center;
@@ -1577,7 +1577,7 @@ a#bbblink {
   float: left;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #ffffff;
   text-align: center;
@@ -1783,7 +1783,7 @@ a#bbblink {
   text-transform: uppercase;
   font-size: 14px;
   padding: 7px 0;
-  font-weight: 400;
+  font-weight: 300;
   color: #222;
 }
 .footermenu .su-spoiler-style-default > .su-spoiler-title:hover {
@@ -1844,7 +1844,7 @@ a#bbblink {
   }
   .nav-toggle .toggle-text {
     color: #fff !important;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: uppercase;
   }
   .site-logo img {
@@ -1911,7 +1911,7 @@ a#bbblink {
     flex-basis: 100% !important;
   }
   .picturetime figcaption {
-    font-weight: 400;
+    font-weight: 300;
   }
   .picturetime figcaption strong {
     font-weight: 500;
@@ -2059,8 +2059,8 @@ a#bbblink {
     height: inherit !important;
   }
   .homeintrotop h1 {
-    font-size: 34px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 300;
   }
   .pagewhitebackground h2 {
     font-size: 24px;
@@ -2422,7 +2422,7 @@ a#scroll-to-top {
   margin-bottom: 20px;
   font-size: 36px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #007ca1;
 }
@@ -2536,7 +2536,7 @@ a#scroll-to-top {
 .a-day-life-nav .nav-item a h3 {
   margin: 20px 0 0 0;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 300;
   color: #007ca1;
 }
 .a-day-life-nav .nav-item a p {
@@ -2565,7 +2565,7 @@ a#scroll-to-top {
 }
 .a-day-life-heading-bullet {
   font-size: 50px;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0 0 20px 0;
   color: #fff;
 }
@@ -2803,7 +2803,7 @@ a#scroll-to-top {
   .content-wrapper
   .content-title {
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
   color: #fff;
   margin-bottom: 25px;
   text-shadow: #747474 0.05em 0.05em 0.1em;
@@ -2837,7 +2837,7 @@ a#scroll-to-top {
 .our-process-desc .our-process-desc-left .title {
   font-size: 24px;
   line-height: 1.4;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 20px;
@@ -2923,7 +2923,7 @@ a#scroll-to-top {
 }
 .blog-wrapper .blog-content .blog-content-top h2 {
   color: #444;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   margin-bottom: 10px;
   font-size: 24px;
@@ -2999,7 +2999,7 @@ a#scroll-to-top {
 }
 .blog-wrapper .blog-sidebar .item h2 {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   margin-bottom: 24px;
   text-align: center;
@@ -3089,7 +3089,7 @@ a#scroll-to-top {
   width: 100%;
   font-size: 36px;
   font-family: roboto;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #007ca1;
   margin: 0px 0px 30px !important;
@@ -3172,7 +3172,7 @@ a#scroll-to-top {
 }
 .blog-details .blog-wrapper .related-post h2 {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   margin-bottom: 24px;
   text-align: center;
@@ -3249,7 +3249,7 @@ a#scroll-to-top {
 }
 .commercial-page .commercial-automation-ul {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   color: #666;
   list-style: none;
 }
@@ -3290,7 +3290,7 @@ a#scroll-to-top {
   font-size: 36px;
   font-family: roboto;
   text-transform: capitalize;
-  font-weight: 400;
+  font-weight: 300;
   color: #007ca1;
   margin: 30px 0 !important;
 }
@@ -3403,7 +3403,7 @@ a#scroll-to-top {
 }
 .home-standard .home-standard-area .content .top h3 {
   font-size: 36px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.2;
   text-transform: uppercase;
   margin: 0;
@@ -3421,7 +3421,7 @@ a#scroll-to-top {
   padding-bottom: 70px;
 }
 .home-standard .home-standard-area .content .bottom h4 {
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
   font-size: 24px;
   line-height: 1;
@@ -3483,7 +3483,7 @@ a#scroll-to-top {
   border: 1px solid #aaa;
   padding: 8px 20px;
   border-radius: 30px;
-  font-weight: 400;
+  font-weight: 300;
   color: rgb(255, 255, 255) !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -3538,7 +3538,7 @@ a#scroll-to-top {
 }
 .control4 .control4-hero .control4-content h1 {
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 300;
   color: #fff;
   margin: 0;
   margin-bottom: 45px;
@@ -3557,7 +3557,7 @@ a#scroll-to-top {
   border: 1px solid #aaa;
   padding: 8px 20px;
   border-radius: 30px;
-  font-weight: 400;
+  font-weight: 300;
   color: #fff;
   font-size: 14px;
   margin: 0px 15px;
@@ -3705,7 +3705,7 @@ a#scroll-to-top {
 .control4-brands .control4-brands-area .top h3 {
   font-size: 36px;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
   margin: 0;
   color: #007ca1;
@@ -3728,7 +3728,7 @@ a#scroll-to-top {
   font-size: 36px;
   line-height: 1.2;
   margin: 0;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
   color: #007ca1;
 }
@@ -3747,7 +3747,7 @@ a#scroll-to-top {
   font-size: 36px;
   line-height: 1.2;
   margin: 0;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
 }
 .peace-of-mind .peace-of-mind-right a {
@@ -3795,7 +3795,7 @@ a#scroll-to-top {
   margin: 0;
   margin-bottom: 20px;
   color: #007ca1;
-  font-weight: 400;
+  font-weight: 300;
 }
 .golf-simulators-left i {
   text-align: center;
@@ -3808,7 +3808,7 @@ a#scroll-to-top {
   font-size: 38px;
   margin: 0;
   margin-bottom: 30px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.3;
   color: #007ca1;
 }
@@ -3834,7 +3834,7 @@ a#scroll-to-top {
 }
 .golf-simulators ul li h3 {
   font-size: 36px;
-  font-weight: 400;
+  font-weight: 300;
 }
 .golf-simulators ul li a {
   font-size: 14px;
@@ -3872,7 +3872,7 @@ a#scroll-to-top {
   margin: 40px 0 20px;
   font-size: 44px;
   color: #fff;
-  font-weight: 400;
+  font-weight: 300;
 }
 .golf-simulators-video .video-content p {
   margin: 30px 0;
@@ -3882,7 +3882,7 @@ a#scroll-to-top {
   margin: 0;
   margin-bottom: 20px;
   color: #007ca1;
-  font-weight: 400;
+  font-weight: 300;
 }
 .request-quote .message-icon {
   text-align: center;
@@ -3891,7 +3891,7 @@ a#scroll-to-top {
 .careers-team .careers-team-title {
   font-size: 44px;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: -1.5px;
   margin: 0;
   margin-bottom: 30px;
@@ -3931,7 +3931,7 @@ a#scroll-to-top {
   font-size: 44px;
   margin: 0;
   margin-bottom: 40px;
-  font-weight: 400;
+  font-weight: 300;
   color: #007ca1;
 }
 .apply-now form label {
@@ -3952,7 +3952,7 @@ a#scroll-to-top {
   font-size: 44px;
   margin: 0;
   margin-bottom: 40px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 1400px) {
@@ -4166,7 +4166,7 @@ a#scroll-to-top {
 }
 .commercial-page .commercial-automation-ul {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   color: #666;
   list-style: none;
 }
@@ -4196,7 +4196,7 @@ a#scroll-to-top {
   font-size: 36px;
   font-family: roboto;
   text-transform: capitalize;
-  font-weight: 400;
+  font-weight: 300;
   color: #007ca1;
   margin: 30px 0 !important;
 }
@@ -4235,7 +4235,7 @@ a#scroll-to-top {
   font-size: 32px;
   color: #fff;
   text-shadow: #747474 0.05em 0.05em 0.1em;
-  font-weight: 400;
+  font-weight: 300;
   font-family: roboto;
     text-transform: uppercase;
     position: relative;
@@ -4286,7 +4286,7 @@ a#scroll-to-top {
   border: 1px solid #aaa;
   padding: 8px 20px;
   border-radius: 30px;
-  font-weight: 400;
+  font-weight: 300;
   color: rgb(255, 255, 255) !important;
   font-size: 14px;
   margin: 0px 15px;
@@ -4378,6 +4378,12 @@ a#scroll-to-top {
     width: 100%;
   }
 }
+.portfolio-content a {
+  color: #58c7f1;
+}
+.portfolio-content a:hover {
+  color: #007ca1 !important;
+}
 .portfolio-page
   .portfolio-content
   .portfolio-content-grid
@@ -4433,6 +4439,14 @@ a#scroll-to-top {
   border: 1px solid #fafafa;
 }
 
+.portfolio-page .portfolio-wrapper .minigray {
+  font-size: 16px;
+}
+.portfolio-page .portfolio-wrapper .button__primary {
+  margin-top: 0 !important;
+}
+
+
 /* josh ai */
 .josh-ai-page .josh-ai-navigation {
   background-color: #fafafa;
@@ -4452,6 +4466,9 @@ a#scroll-to-top {
     gap: 20px;
     align-items: center;
   }
+  .portfolio-page .portfolio-wrapper .career-background {
+    padding: 20px 20px !important;
+  }
 }
 .josh-ai-page .josh-ai-navigation .josh-ai-navigation-container {
   display: flex;
@@ -4465,7 +4482,7 @@ a#scroll-to-top {
   border: 1px solid #aaa;
   padding: 8px 20px;
   border-radius: 30px;
-  font-weight: 400;
+  font-weight: 300;
   color: rgb(255, 255, 255) !important;
   font-size: 14px;
   margin: 0px 15px;
@@ -4489,21 +4506,21 @@ a#scroll-to-top {
   font-size: 27px;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #007ca1;
 }
 .josh-ai-page .text-32 {
   color: #666;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .josh-ai-page .josh-ai-privacy h3 {
   font-size: 36px;
   font-family: roboto;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #007ca1;
 }
@@ -4511,7 +4528,7 @@ a#scroll-to-top {
   font-size: 36px;
   font-family: roboto;
   text-transform: capitalize;
-  font-weight: 400;
+  font-weight: 300;
   color: #007ca1;
 }
 .josh-ai-page .josh-ai-tab a {
@@ -4523,7 +4540,7 @@ a#scroll-to-top {
 }
 .josh-ai-page .josh-ai-bottom h5 {
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #007ca1;
 }
