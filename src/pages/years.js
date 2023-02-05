@@ -26,7 +26,10 @@ const Years = () => {
 
   const yearlyData = data.filter(
     (data) =>
-      data.published_on.replace(/ /g, "-").replace(/,/g, "") === published_on
+      data.published_on.toLowerCase().slice(0, 3) +
+        "-" +
+        data.published_on.toLowerCase().slice(-4) ===
+      published_on
   );
 
   const allBlog = yearlyData.filter((item, index) => index !== 0);
@@ -46,7 +49,7 @@ const Years = () => {
           <h2 className="blog-area-title">Post by tags</h2>
           <div className="blog-wrapper">
             <div className="blog-content">
-              <BlogItem blog={data[0]} />
+              <BlogItem blog={yearlyData[0]} />
               <div className="blog-content-bottom">
                 {allBlog?.slice(0, visible).map((blog) => (
                   <BlogItem key={blog.id} blog={blog} />
