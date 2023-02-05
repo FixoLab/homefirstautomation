@@ -23,6 +23,24 @@ const CommercialSecurity = () => {
                   
                   >
                     <div className="wp-block-group__inner-container max-width-hero">
+                    <div className="solutions-svg">
+                        <svg
+                          uk-scrollspy="cls:uk-animation-stroke"
+                          id="commercial_automation"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlnsXlink="http://www.w3.org/1999/xlink"
+                          viewBox="10 0 79 79"
+                          className="uk-scrollspy-inview"
+                        >
+                          <path
+                            className="outline"
+                            d="M24.9,67.7h-4.7V56.2h4.7V67.7z M38.2,56.7l-3.1,3.9H24.9v4.7h12.4l5-6.2L38.2,56.7z M68.9,49.3l-3.7,2.4
+                            L61.6,58c0.4,0.1,0.8,0.1,1.2,0.1c3.6,0,6.5-2.9,6.5-6.5C69.3,50.8,69.1,50,68.9,49.3z M73.4,46.3l-35-20.2l-4.3,7.4l23.6,13.9
+                            l7.4,4.4l3.7-2.4L73.4,46.3z M57.8,47.4L34.1,33.4l-5.2,9l31.2,18l1.4-2.4l3.6-6.3L57.8,47.4z M45,60.6l3.9-6.7l-9.7-5.6L35.4,55
+                            L45,60.6z"
+                          ></path>
+                        </svg>
+                      </div>
                       <h1>Commercial Security</h1>
                       <div>
                         <p className="minigray">
@@ -64,6 +82,18 @@ const CommercialSecurity = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className="control4-nav indoor-living-mobile-nav">
+            <div className="control4-nav-area">
+              <div className="nav-area">
+                <a href="#1">Alarm Systems</a>
+                <a href="#2">Surveillance</a>
+                <a href="#3">Entry Systems / Access Control</a>
+                <a href="#4">Remote Access / Monitoring</a>
+                <a href="#5">Outdoor Perimeter Protection</a>
+                <a href="#6">Motion Detection</a>
               </div>
             </div>
           </div>

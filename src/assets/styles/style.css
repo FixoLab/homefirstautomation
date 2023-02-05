@@ -422,7 +422,6 @@ input[type="checkbox"] {
 
 textarea, input:focus-visible{
   outline: none !important;
-  border: 2px solid #444 !important;
 }
 
 input[type="checkbox"]:checked::before {

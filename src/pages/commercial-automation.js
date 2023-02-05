@@ -22,6 +22,7 @@ const CommercialAutomation = () => {
                   type="video/mp4"
                 />
               </video>
+              <div className="overlay" />
 
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
@@ -32,6 +33,25 @@ const CommercialAutomation = () => {
                     data-aos-delay="400"
                   >
                     <div className="wp-block-group__inner-container max-width-hero">
+                      <div className="solutions-svg">
+                        <svg
+                          uk-scrollspy="cls:uk-animation-stroke"
+                          id="commercial_automation"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlnsXlink="http://www.w3.org/1999/xlink"
+                          viewBox="10 0 79 79"
+                          className="uk-scrollspy-inview"
+                        >
+                          <path
+                            className="outline"
+                            d="M17.4,71h58.9 M57.4,27.7h-21c-2.1,0-3.8,1.7-3.8,3.8V71h28.7V31.5C61.2,29.4,59.5,27.7,57.4,27.7z M52.1,22.8
+		H41.6c-2.1,0-3.8,1.7-3.8,3.8v1.1H56v-1.1C56,24.5,54.2,22.8,52.1,22.8z M38.2,35.8h17.3 M38.2,42h17.3 M38.2,48.3h17.3 M38.2,54.5
+		h17.3 M65.2,43.8c2.7-1.4,4.5-4,4.5-7s-1.8-5.7-4.5-7 M67.5,47.8c4.2-2.1,7-6.2,7-11s-2.8-8.9-7-11 M28.9,29.7
+		c-2.7,1.4-4.5,4-4.5,7s1.8,5.7,4.5,7 M26.6,25.8c-4.2,2.1-7,6.2-7,11s2.8,8.9,7,11 M47.3,64.1h-0.9c-2.1,0-3.8,1.7-3.8,3.8v3h8.6
+		v-3C51.2,65.8,49.4,64.1,47.3,64.1z"
+                          ></path>
+                        </svg>
+                      </div>
                       <h1>Commercial Automation</h1>
                       <div>
                         <p className="minigray">
@@ -78,6 +98,18 @@ const CommercialAutomation = () => {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className="control4-nav indoor-living-mobile-nav">
+            <div className="control4-nav-area">
+              <div className="nav-area">
+                <a href="#1">Room control</a>
+                <a href="#2">Lighting control</a>
+                <a href="#3">window Treatments</a>
+                <a href="#4">Media Control</a>
+                <a href="#5">Networking</a>
+                <a href="#6">Unified Communications & Collaboration</a>
               </div>
             </div>
           </div>

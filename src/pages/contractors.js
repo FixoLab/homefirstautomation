@@ -161,8 +161,7 @@ const Contractors = () => {
                     <h2>BUILD YOUR WALLET</h2>
 
                     <p className="pointsmade homeauto">
-                      Everyone likes extra revenue, and we here at PROJECT:
-                      automate make it easy. Work with us as an affiliate
+                      Everyone likes extra revenue, and we here at HomeFirst make it easy. Work with us as an affiliate
                       helping to sign up new clients to join our ever growing
                       list of satisfied smart home clients. It’s that simple.
                     </p>

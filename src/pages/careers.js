@@ -1,46 +1,36 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const Careers = () => {
-  const [windowTop, setWindowTop] = useState(0);
-  useEffect(() => {
-    function handleScroll() {
-      setWindowTop(window.pageYOffset);
-    }
-    window.addEventListener("load", handleScroll);
-    window.addEventListener("resize", handleScroll);
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("load", handleScroll);
-      window.removeEventListener("resize", handleScroll);
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const rightPosition = 100 - windowTop * 0.05 + "%";
   return (
     <>
       <div id="site-content">
         <div className="is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video">
           <div
-            className="wp-block-group__inner-container indoor-living-background"
+            className="wp-block-group__inner-container indoor-living-background career-background"
             style={{
-              backgroundImage: "url(assets/images/careers-01.jpg)",
-              backgroundPositionX: rightPosition,
+              backgroundImage: "url(assets/images/careers-hero.webp)",
             }}
           >
-            <div className="overlay" />
-            <div className="is-layout-flow wp-block-group homeintrotop centerintro">
-              <div className="wp-block-group__inner-container">
-                <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
-                  <div className="wp-block-group__inner-container max-width-hero">
-                    <h1>Careers</h1>
-                    <p>
-                      Are you passionate about technology? In our thriving smart
-                      home business, we believe taking great care of our clients
-                      is the most important way to set our company apart.
-                    </p>
+            <div className="overlay2" />
+            <div className="uk-container uk-container-large uk-position-relative">
+              <div className="tm-grid-expand uk-grid-margin uk-grid" uk-grid="">
+                <div className="uk-width-2-3@m"></div>
+
+                <div className="uk-grid-item-match uk-flex-middle uk-width-1-3@m uk-flex-first@m uk-first-column">
+                  <div className="uk-panel uk-width-1-1">
+                    <h1>
+                      Careers
+                    </h1>
+                    <div >
+                      <p className="minigray">
+                        Are you passionate about technology? In our thriving
+                        smart home business, we believe taking great care of our
+                        clients is the most important way to set our company
+                        apart.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -55,11 +45,11 @@ const Careers = () => {
               <h1 className="careers-team-title"> Join Our Team </h1>
               <div className="uk-panel uk-margin">
                 <p className="minigray">
-                  At HomeFirst, we’re passionate about shaping
-                  technology that responds to our customers’ needs. If you like
-                  new ideas, challenges, and working with a tight-knit group, we
-                  want to hear from you. We’re always looking for dedicated,
-                  creative people to make HomeFirst even better.
+                  At HomeFirst, we’re passionate about shaping technology that
+                  responds to our customers’ needs. If you like new ideas,
+                  challenges, and working with a tight-knit group, we want to
+                  hear from you. We’re always looking for dedicated, creative
+                  people to make HomeFirst even better.
                 </p>
               </div>
               <h3> Available Positions </h3>

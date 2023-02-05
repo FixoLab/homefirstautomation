@@ -314,6 +314,7 @@ const Footer = () => {
         </div>
       </div>
       <footer className="header-footer-group footer-bottom">
+        <a className="toTop" href="#site-content"><i className="fa-solid fa-arrow-up"></i></a>
         <div className="section-inner">
           <ul className="right-footer">
             <li>
@@ -344,11 +345,12 @@ const Footer = () => {
             <p>
               <a target="_blank" rel="noreferrer"  href="/sitemap.xml">
                 Sitemap
-              </a>
+              </a><span>|</span>
               <a href="/privacy-policy">
                 Privacy Policy
               </a>
             </p>
+            <p className="license-number">FL LIC# EC13011053</p>
           </div>
         </div>
       </footer>

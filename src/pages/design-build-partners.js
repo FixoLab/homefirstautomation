@@ -12,7 +12,7 @@ const DesignBuildPartners = () => {
                 <div
                   className="fullimagetop"
                   style={{
-                    backgroundImage: "url(/assets/images/seller6.jpg)",
+                    backgroundImage: "url(assets/images/design-build-partners.jpg)",
                     backgroundPosition: "center",
                     height: "65vh",
                   }}
@@ -191,8 +191,7 @@ const DesignBuildPartners = () => {
                     <h2>Boost Your Reputation</h2>
 
                     <p className="pointsmade homeauto">
-                      Do you feel you can improve upon your business? PROJECT:
-                      automate offers classes on smart technologies that give
+                      Do you feel you can improve upon your business? HomeFirst offers classes on smart technologies that give
                       you a national accredited certifications. This not only
                       allows you to more easily represent your clients, but
                       gives you an extra step on top of the competition.{" "}

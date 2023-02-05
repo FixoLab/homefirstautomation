@@ -309,7 +309,7 @@ const AlarmCom = () => {
                   <p className="pointsmade homeauto">
                     Have a unique camera system, video systems, or other 3rd
                     party equipment? Alarm.com is made to integrate easily with
-                    all sorts of devices. Merely give Project:automate a call
+                    all sorts of devices. Merely give HomeFirst a call
                     and we can help guide you through setting up your devices
                     within the Alarm.com ecosystem.
                   </p>
