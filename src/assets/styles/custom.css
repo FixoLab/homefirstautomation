@@ -2972,6 +2972,20 @@ a#scroll-to-top {
   padding: 2rem;
   background-color: #fff;
 }
+
+.blog-wrapper .blog-sidebar .item .date-select hr {
+  margin: 20px auto;
+}
+.blog-wrapper .blog-sidebar .item .date-select ul {
+  list-style: none;
+  margin: 0;
+}
+.blog-wrapper .blog-sidebar .item .date-select ul li {
+  margin: 0;
+}
+.blog-wrapper .blog-sidebar .item .date-select ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
 .blog-wrapper .blog-sidebar .item:not(:last-child) {
   margin-bottom: 16px;
 }
