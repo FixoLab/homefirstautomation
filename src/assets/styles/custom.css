@@ -1807,6 +1807,32 @@ a#bbblink {
 .menu-modal .toggle {
   background: #fff;
 }
+
+.josh-ai-page .josh-ai-h2{
+  position: relative;
+  padding-top: 10px;
+  font-weight: 300;
+  color: #007ca1;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.josh-new-content{
+ display: none;
+}
+
+
+
+.josh-ai-page .josh-ai-h2::before{
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: #007ca1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 @media only screen and (max-width: 1200px) {
   .wp-block-group.homevideo.servicespages {
     height: inherit;
@@ -2036,6 +2062,12 @@ a#bbblink {
 }
 
 @media only screen and (max-width: 1000px) {
+  .commercial-page .wp-block-group__inner-container h1{
+    display: none;
+  }
+  .josh-new-content{
+    display: block;
+  }
   li.menu-item-3288 {
     position: relative;
     margin-top: 0px;
@@ -2380,6 +2412,13 @@ a#scroll-to-top {
 }
 
 @media only screen and (max-width: 960px) {
+  .josh-ai-big-feature{
+   margin-top: 400px;
+  }
+  .josh-ai-big-image img{
+    width: 400px;
+    height: 400px;
+  }
   .indoor-living-about .indoor-living-about-box {
     width: 100%;
   }
@@ -3456,7 +3495,7 @@ a#scroll-to-top {
 }
 
 .control4-nav {
-  max-width: 1200px;
+  max-width: 1600px;
   padding: 65px 30px;
   margin: 0 auto;
 }
@@ -3465,7 +3504,6 @@ a#scroll-to-top {
 }
 .control4-nav .control4-nav-area {
   display: flex;
-  flex-direction: column;
   gap: 30px;
   align-items: center;
   justify-content: space-between;
@@ -3961,8 +3999,17 @@ a#scroll-to-top {
   }
 }
 @media screen and (max-width: 1000px) {
+  .control4-empty{
+    padding: 40px;
+  }
+  .serviceswhitebackground p{
+    padding: 0 20px 20px !important;
+  }
   .control4 .control4-hero {
     height: 75vh;
+  }
+  .control4-nav .control4-nav-area {
+ flex-direction: column;
   }
   .golf-simulators-video {
     padding: 50px 0;
@@ -4351,6 +4398,10 @@ a#scroll-to-top {
   }
 }
 @media only screen and (max-width: 728px) {
+  .wp-block-group.homevideo.servicespages.commercial-automantion-video
+  .wp-block-group__inner-container.indoor-living-background.career-background {
+  padding: 40px 20px;
+}
   .wp-block-group.homevideo.servicespages.commercial-automantion-video {
     height: 40vh !important;
   }
