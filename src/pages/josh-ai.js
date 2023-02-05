@@ -39,6 +39,26 @@ const JoshAi = () => {
               </div>
             </div>
           </div>
+          <div class="uk-grid-margin uk-container uk-container-large josh-new-content">
+            <div
+              class="tm-grid-expand uk-child-width-1-1 uk-grid uk-grid-stack"
+              uk-grid=""
+            >
+              <div class="uk-width-1-1@m uk-first-column">
+                <h2 class="uk-text-left josh-ai-h2">
+                  {" "}
+                  Intelligent Control for the Connected Home{" "}
+                </h2>
+                <div class="uk-panel uk-text-lead uk-margin">
+                  More than a general-purpose smart speaker, Josh.ai is a
+                  privacy-focused and contextually aware luxury home automation
+                  system that delivers intuitive, secure, and joyous living
+                  experiences through natural interfaces like voice and touch.
+                </div>
+                <hr />
+              </div>
+            </div>
+          </div>
           <div
             className="alignfull josh-ai-navigation eds-on-scroll eds-scroll-visible"
             data-aos="fade-up"
@@ -62,7 +82,8 @@ const JoshAi = () => {
               </div>
             </div>
           </div>
-          <div id="1"
+          <div
+            id="1"
             className="home-standard"
             style={{
               backgroundImage: "url(/assets/images/josh-ai-speaker.webp)",
@@ -107,7 +128,7 @@ const JoshAi = () => {
                   className="uk-margin-remove-top tm-grid-expand uk-grid-collapse uk-grid"
                   uk-grid=""
                 >
-                  <div className="uk-grid-item-match uk-width-2-5@m uk-first-column">
+                  <div className="uk-grid-item-match uk-width-2-5@m uk-first-column josh-ai-big-image">
                     <div className="uk-tile-default uk-tile">
                       <div className="uk-panel uk-width-1-1">
                         <div
@@ -252,7 +273,7 @@ const JoshAi = () => {
                   </div>
                 </div>
                 <div
-                  className="tm-grid-expand uk-grid-column-collapse uk-grid-margin uk-grid"
+                  className="tm-grid-expand uk-grid-column-collapse uk-grid-margin uk-grid josh-ai-big-feature"
                   uk-grid=""
                 >
                   <div className="uk-width-1-5@m uk-first-column"></div>
@@ -461,7 +482,8 @@ const JoshAi = () => {
               </div>
             </div>
           </div>
-          <div id="2"
+          <div
+            id="2"
             className="home-standard"
             style={{
               backgroundImage: "url(/assets/images/josh-ai-6.webp)",
@@ -665,7 +687,8 @@ const JoshAi = () => {
               </div>
             </div>
           </div>
-          <div id="3"
+          <div
+            id="3"
             className="home-standard"
             style={{
               backgroundImage: "url(/assets/images/josh-ai-13.webp)",
