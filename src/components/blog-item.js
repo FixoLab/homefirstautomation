@@ -47,7 +47,7 @@ const BlogItem = ({ blog }) => {
       <p className="read-more">Read More</p>
       <div className="user">
         <i className="fa-regular fa-clock"></i>
-        <span>{blog?.date.slice(0, 10)}</span>
+        <span>{blog?.published_on}</span>
         <span>by {blog?.author_details.display_name}</span>
       </div>
     </div>
