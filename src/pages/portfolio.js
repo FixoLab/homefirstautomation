@@ -1,41 +1,38 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
     <div id="site-content">
       <div className="post-inner thin commercial-page portfolio-page">
         <div className="entry-content">
-          <div
-            className="is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video"
-            style={{ height: "85vh" }}
-          >
+          <div className="portfolio-wrapper is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video">
             <div
-              className="wp-block-group__inner-container indoor-living-background"
+              className="wp-block-group__inner-container indoor-living-background career-background"
               style={{
                 backgroundImage: "url(assets/images/portfolio-hero.webp)",
-                height: "85vh",
-                backgroundPosition: "center",
               }}
             >
-              <div className="overlay" />
+              <div className="overlay2" />
+              <div className="uk-container uk-container-large uk-position-relative">
+                <div
+                  className="tm-grid-expand uk-grid-margin uk-grid"
+                  uk-grid=""
+                >
+                  <div className="uk-width-2-3@m"></div>
 
-              <div className="is-layout-flow wp-block-group homeintrotop centerintro">
-                <div className="wp-block-group__inner-container">
-                  <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
-                    <div className="wp-block-group__inner-container">
+                  <div className="uk-grid-item-match uk-flex-middle uk-width-1-3@m uk-flex-first@m uk-first-column">
+                    <div className="uk-panel uk-width-1-1">
                       <h1>ARTFULLY CRAFTED SPACES</h1>
                       <div>
                         <p className="minigray">
                           Designed to blend style and function, explore how our
-                          technology would look in your Orland, Florida space.
+                          technology would look in your California space.
                         </p>
                       </div>
-
-                      <p>
-                        <a aria-label="Scroll down01" href="#1">
-                          View Gallery
-                        </a>
-                      </p>
+                      <a href="#1" className="button__primary">
+                        View Gallery
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -63,8 +60,9 @@ const Portfolio = () => {
                 <h4>LIGHTING AND SHADING</h4>
                 <p className="minigray">
                   A well-lit space is a beautiful space. Easily control natural
-                  and artificial lighting with a smart home lighting system that
-                  is both comfortable and stylish.
+                  and artificial lighting with a{" "}
+                  <Link to="/lighting-systems">smart home lighting system</Link>{" "}
+                  that is both comfortable and stylish.
                 </p>
               </div>
             </div>
@@ -691,8 +689,11 @@ const Portfolio = () => {
               <div className="title-inner">
                 <h4>AUDIO / VIDEO</h4>
                 <p className="minigray">
-                  Optimize your entertainment with a multi room audio system,
-                  high-resolution video and gear that blends seamlessly with
+                  Optimize your entertainment with a{" "}
+                  <Link to="/commercial-solutions-commercial-audio-video">
+                    multi room audio system
+                  </Link>{" "}
+                  , high-resolution video and gear that blends seamlessly with
                   your home’s décor.
                 </p>
               </div>

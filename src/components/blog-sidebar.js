@@ -21,6 +21,29 @@ const BlogSidebar = ({ blogData }) => {
     fetchData();
   }, []);
 
+  const allDate = blogData.map((data) => data?.published_on.slice(-4));
+
+  let uniqueArr = allDate.filter((item, index, self) => {
+    return self.indexOf(item) === index;
+  });
+  const [selected, setSelected] = useState(uniqueArr[0]);
+  const handleChange = (event) => {
+    setSelected(event.target.value);
+  };
+
+  const yearData = blogData.filter(
+    (data) => data.published_on.slice(-4) === selected
+  );
+  const newData = yearData.map(
+    (data) =>
+      data.published_on.toLowerCase().slice(0, 3) +
+      "-" +
+      data.published_on.toLowerCase().slice(-4)
+  );
+  let monthlyData = newData.filter((item, index, self) => {
+    return self.indexOf(item) === index;
+  });
+
   return (
     <>
       <div className="item">
@@ -51,7 +74,8 @@ const BlogSidebar = ({ blogData }) => {
           )}
         </div>
       </div>
-      <div className="related-post">
+
+      <div className="related-post" style={{ marginBottom: "20px" }}>
         <div className="item">
           <div className="item-element">
             {blogData?.length === 0 ? (
@@ -74,6 +98,26 @@ const BlogSidebar = ({ blogData }) => {
               ))
             )}
           </div>
+        </div>
+      </div>
+      <div className="item">
+        <h2>Archive</h2>
+        <div className="date-select">
+          <select value={selected} onChange={handleChange}>
+            {uniqueArr.map((option) => (
+              <option key={option} value={option}>
+                {option}
+              </option>
+            ))}
+          </select>
+          <hr />
+          <ul>
+            {monthlyData.map((data, i) => (
+              <Link key={i} to={`/years/${data}`}>
+                <li>{data.toUpperCase()}</li>
+              </Link>
+            ))}
+          </ul>
         </div>
       </div>
     </>

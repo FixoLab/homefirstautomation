@@ -68,27 +68,7 @@ const Header = () => {
         <header id="site-header" className="header-footer-group" role="banner">
           <div className="header-inner section-inner">
             <div className="header-titles-wrapper">
-              <div className="header-titles">
-                <div className="site-logo faux-heading">
-                  <Link
-                    to="/"
-                    className="custom-logo-link"
-                    rel="home"
-                    aria-current="page"
-                  >
-                    <img
-                      width="200"
-                      height="40"
-                      src="/assets/images/Homefirst_Auto.png"
-                      className="custom-logo"
-                      alt="Homefirst"
-                    />
-                  </Link>
-                  <span className="screen-reader-text">Homefirst</span>
-                </div>
-              </div>
-
-              <button
+            <button
                 className={`toggle nav-toggle mobile-nav-toggle ${
                   menuActive ? "active" : ""
                 }`}
@@ -116,6 +96,27 @@ const Header = () => {
                   <span className="toggle-text">Menu</span>
                 </span>
               </button>
+              <div className="header-titles">
+                <div className="site-logo faux-heading">
+                  <Link
+                    to="/"
+                    className="custom-logo-link"
+                    rel="home"
+                    aria-current="page"
+                  >
+                    <img
+                      width="200"
+                      height="40"
+                      src="/assets/images/Homefirst_Auto.png"
+                      className="custom-logo"
+                      alt="Homefirst"
+                    />
+                  </Link>
+                  <span className="screen-reader-text">Homefirst</span>
+                </div>
+              </div>
+
+          
             </div>
 
             <div className="header-navigation-wrapper">

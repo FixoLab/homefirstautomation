@@ -39,6 +39,26 @@ const JoshAi = () => {
               </div>
             </div>
           </div>
+          <div class="uk-grid-margin uk-container uk-container-large josh-new-content">
+            <div
+              class="tm-grid-expand uk-child-width-1-1 uk-grid uk-grid-stack"
+              uk-grid=""
+            >
+              <div class="uk-width-1-1@m uk-first-column">
+                <h2 class="uk-text-left josh-ai-h2">
+                  {" "}
+                  Intelligent Control for the Connected Home{" "}
+                </h2>
+                <div class="uk-panel uk-text-lead uk-margin">
+                  More than a general-purpose smart speaker, Josh.ai is a
+                  privacy-focused and contextually aware luxury home automation
+                  system that delivers intuitive, secure, and joyous living
+                  experiences through natural interfaces like voice and touch.
+                </div>
+                <hr />
+              </div>
+            </div>
+          </div>
           <div
             className="alignfull josh-ai-navigation eds-on-scroll eds-scroll-visible"
             data-aos="fade-up"
@@ -62,7 +82,8 @@ const JoshAi = () => {
               </div>
             </div>
           </div>
-          <div id="1"
+          <div
+            id="1"
             className="home-standard"
             style={{
               backgroundImage: "url(/assets/images/josh-ai-speaker.webp)",
@@ -96,7 +117,8 @@ const JoshAi = () => {
             </div>
           </div>
           {/* features section */}
-          <div className="josh-ai-feature">
+          {/* ************************************************************************************ */}
+          <>
             <div
               className="uk-visible@l uk-section-default uk-section uk-padding-remove-vertical uk-flex uk-flex-middle"
               uk-height-viewport="offset-top: true; offset-bottom: 20;"
@@ -113,6 +135,14 @@ const JoshAi = () => {
                         <div
                           className="uk-visible@l uk-position-absolute uk-width-1-1 uk-text-center"
                           uk-parallax="x: 0,0; y: 0,0; scale: 1.25,1.75; opacity: .5,1; easing: 1;"
+                          style={{
+                            left: "-50px",
+                            top: "-100px",
+                            zIndex: "0",
+                            transform:
+                              "translateX(0px) translateY(0px) scale(1.35208)",
+                            opacity: "0.602079",
+                          }}
                         >
                           <img
                             src="assets/images/josh-ai-1.webp"
@@ -120,12 +150,19 @@ const JoshAi = () => {
                             height="1500"
                             className="el-image"
                             alt=""
+                            loading="lazy"
                           />
                         </div>
 
                         <div
                           className="uk-hidden uk-position-absolute uk-width-1-1"
                           uk-parallax="scale: 1,1.5; opacity: .5,1; easing: 1;"
+                          style={{
+                            left: "0px",
+                            top: "0px",
+                            transform: "scale(1)",
+                            opacity: "0.5",
+                          }}
                         >
                           <img
                             src="assets/images/josh-ai-1.webp"
@@ -133,16 +170,21 @@ const JoshAi = () => {
                             height="1500"
                             className="el-image"
                             alt=""
+                            loading="lazy"
                           />
                         </div>
 
-                        <div className="uk-visible@l uk-position-absolute uk-width-1-1">
+                        <div
+                          className="uk-visible@l uk-position-absolute uk-width-1-1"
+                          style={{ left: "-50px", top: "-100px" }}
+                        >
                           <img
                             src="assets/images/josh-ai-2.webp"
                             width="1500"
                             height="1500"
                             className="el-image"
                             alt=""
+                            loading="lazy"
                           />
                         </div>
 
@@ -153,6 +195,7 @@ const JoshAi = () => {
                             height="1200"
                             className="el-image"
                             alt=""
+                            loading="lazy"
                           />
                         </div>
                       </div>
@@ -163,25 +206,25 @@ const JoshAi = () => {
                     <div className="uk-panel uk-width-1-1">
                       <div className="uk-visible@xl uk-margin uk-text-center">
                         <div
-                          className="uk-child-width-1-1 uk-child-width-1-3@m uk-grid-match uk-grid josh-ai-feature-desktop"
+                          className="uk-child-width-1-1 uk-child-width-1-3@m uk-grid-match uk-grid"
                           uk-grid=""
                         >
                           <div className="uk-first-column">
-                            <div className="el-item uk-panel uk-margin-remove-first-child">
+                            <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                               <img
                                 src="assets/images/josh-ai-3.webp"
                                 width="150"
                                 height="150"
-                                className="el-image"
+                                className="el-image josh-ai-feature-img"
                                 alt="Brain icon"
-                                style={{ margin: "0 auto" }}
+                                loading="lazy"
                               />
 
                               <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                                 Pattern Recognition
                               </h3>
 
-                              <div className="el-content uk-panel uk-margin-top minigray">
+                              <div className="el-content uk-panel uk-margin-top">
                                 Josh learns your living patterns and adapts
                                 behind the scenes to optimize your smart home
                                 experience . Sit back and allow Josh to turn the
@@ -194,21 +237,21 @@ const JoshAi = () => {
                             </div>
                           </div>
                           <div>
-                            <div className="el-item uk-panel uk-margin-remove-first-child">
+                            <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                               <img
                                 src="assets/images/josh-ai-4.webp"
                                 width="150"
                                 height="150"
-                                className="el-image"
+                                className="el-image josh-ai-feature-img"
                                 alt="safe icon"
-                                style={{ margin: "0 auto" }}
+                                loading="lazy"
                               />
 
                               <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                                 Secure &amp; Private
                               </h3>
 
-                              <div className="el-content uk-panel uk-margin-top minigray">
+                              <div className="el-content uk-panel uk-margin-top">
                                 Your privacy is Josh.ai’s top priority. With
                                 that responsibility in mind, Josh never shares
                                 data for marketing or sales purposes and gives
@@ -222,21 +265,21 @@ const JoshAi = () => {
                             </div>
                           </div>
                           <div>
-                            <div className="el-item uk-panel uk-margin-remove-first-child">
+                            <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                               <img
                                 src="assets/images/josh-ai-5.webp"
                                 width="150"
                                 height="150"
-                                className="el-image"
+                                className="el-image josh-ai-feature-img"
                                 alt="sun icon"
-                                style={{ margin: "0 auto" }}
+                                loading="lazy"
                               />
 
                               <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                                 Improving Daily
                               </h3>
 
-                              <div className="el-content uk-panel uk-margin-top minigray">
+                              <div className="el-content uk-panel uk-margin-top">
                                 While other control systems only know one trick,
                                 Josh evolves alongside your ever-changing
                                 lifestyle. Josh is always learning and growing
@@ -252,7 +295,7 @@ const JoshAi = () => {
                   </div>
                 </div>
                 <div
-                  className="tm-grid-expand uk-grid-column-collapse uk-grid-margin uk-grid"
+                  className="tm-grid-expand uk-grid-column-collapse uk-grid-margin uk-grid josh-ai-feature-item"
                   uk-grid=""
                 >
                   <div className="uk-width-1-5@m uk-first-column"></div>
@@ -260,18 +303,18 @@ const JoshAi = () => {
                   <div className="uk-width-4-5@m">
                     <div className="uk-hidden@xl uk-margin uk-text-center">
                       <div
-                        className="uk-child-width-1-1 uk-child-width-1-3@m uk-grid-match uk-grid uk-grid-stack josh-ai-feature-tablet"
+                        className="uk-child-width-1-1 uk-child-width-1-3@m uk-grid-match uk-grid uk-grid-stack"
                         uk-grid=""
                       >
-                        <div className="uk-first-column">
-                          <div className="el-item uk-panel uk-margin-remove-first-child">
+                        <div>
+                          <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                             <img
                               src="assets/images/josh-ai-3.webp"
                               width="150"
                               height="150"
-                              className="el-image"
+                              className="el-image josh-ai-feature-img"
                               alt="Brain icon"
-                              style={{ margin: "0 auto" }}
+                              loading="lazy"
                             />
 
                             <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
@@ -279,7 +322,7 @@ const JoshAi = () => {
                               Recognition
                             </h3>
 
-                            <div className="el-content uk-panel uk-margin-top minigray">
+                            <div className="el-content uk-panel uk-margin-top">
                               Josh intelligently learns your living patterns
                               behind the scenes to make life easier. Enjoy a
                               home that’s smart enough to turn the lights off
@@ -291,14 +334,14 @@ const JoshAi = () => {
                           </div>
                         </div>
                         <div>
-                          <div className="el-item uk-panel uk-margin-remove-first-child">
+                          <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                             <img
                               src="assets/images/josh-ai-4.webp"
                               width="150"
                               height="150"
-                              className="el-image"
+                              className="el-image josh-ai-feature-img"
                               alt="safe icon"
-                              style={{ margin: "0 auto" }}
+                              loading="lazy"
                             />
 
                             <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
@@ -306,7 +349,7 @@ const JoshAi = () => {
                               <br /> Private
                             </h3>
 
-                            <div className="el-content uk-panel uk-margin-top minigray">
+                            <div className="el-content uk-panel uk-margin-top">
                               Your privacy and data security are top priority.
                               With that responsibility in mind, Josh never
                               shares data for marketing or sales purposes and
@@ -319,14 +362,14 @@ const JoshAi = () => {
                           </div>
                         </div>
                         <div>
-                          <div className="el-item uk-panel uk-margin-remove-first-child">
+                          <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                             <img
                               src="assets/images/josh-ai-5.webp"
                               width="150"
                               height="150"
-                              className="el-image"
+                              className="el-image josh-ai-feature-img"
                               alt="sun icon"
-                              style={{ margin: "0 auto" }}
+                              loading="lazy"
                             />
 
                             <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
@@ -334,7 +377,7 @@ const JoshAi = () => {
                               <br /> Daily
                             </h3>
 
-                            <div className="el-content uk-panel uk-margin-top minigray">
+                            <div className="el-content uk-panel uk-margin-top">
                               While other home control systems only know one
                               trick, Josh grows and adapts alongside your
                               ever-evolving life. Josh is continuously learning
@@ -351,6 +394,114 @@ const JoshAi = () => {
                 </div>
               </div>
             </div>
+            <div className="uk-hidden@m uk-section-default uk-section uk-section-xlarge">
+              <div
+                className="uk-margin-remove-top tm-grid-expand uk-grid-collapse uk-grid uk-grid-stack"
+                uk-grid=""
+              >
+                <div className="uk-grid-item-match uk-width-2-5@m uk-first-column">
+                  <div className="uk-tile-default uk-tile">
+                    <div className="uk-panel uk-width-1-1">
+                      <div
+                        className="uk-hidden@s uk-position-absolute uk-width-1-1 uk-text-center"
+                        uk-parallax="x: 0,0; y: 0,0; scale: .75,1.25; opacity: .5,1; easing: 1;"
+                        style={{
+                          left: "0px",
+                          top: "-100px",
+                          zIndex: "0",
+                          transform:
+                            "translateX(0px) translateY(0px) scale(0.75)",
+                          opacity: "0.5",
+                        }}
+                      >
+                        <img
+                          src="assets/images/josh-ai-1.webp"
+                          width="1500"
+                          height="1500"
+                          className="el-image"
+                          alt=""
+                          loading="lazy"
+                        />
+                      </div>
+
+                      <div
+                        className="uk-hidden@s uk-position-absolute uk-width-1-1"
+                        uk-parallax="scale: .75,.75; easing: 1;"
+                        style={{
+                          left: "0px",
+                          top: "-100px",
+                          transform: "scale(0.75)",
+                        }}
+                      >
+                        <img
+                          src="assets/images/josh-ai-2.webp"
+                          width="1500"
+                          height="1500"
+                          className="el-image"
+                          alt=""
+                          loading="lazy"
+                        />
+                      </div>
+
+                      <div
+                        className="uk-visible@s uk-position-absolute uk-width-1-1 uk-text-center"
+                        uk-parallax="x: 0,0; y: 0,0; scale: .5,1; opacity: .5,1; easing: 1;"
+                        style={{
+                          left: "0px",
+                          top: "-350px",
+                          zIndex: "0",
+                          transform:
+                            "translateX(0px) translateY(0px) scale(0.5)",
+                          opacity: "0.5",
+                        }}
+                      >
+                        <img
+                          src="assets/images/josh-ai-1.webp"
+                          width="1500"
+                          height="1500"
+                          className="el-image"
+                          alt=""
+                          loading="lazy"
+                        />
+                      </div>
+
+                      <div
+                        className="uk-visible@s uk-position-absolute uk-width-1-1"
+                        uk-parallax="scale: .75,.75; easing: 1;"
+                        style={{
+                          left: "0px",
+                          top: "-350px",
+                          transform: "scale(0.75)",
+                        }}
+                      >
+                        <img
+                          src="assets/images/josh-ai-2.webp"
+                          width="1500"
+                          height="1500"
+                          className="el-image"
+                          alt=""
+                          loading="lazy"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="uk-grid-item-match uk-flex-middle uk-width-3-5@m uk-grid-margin uk-first-column">
+                  <div className="uk-panel uk-width-1-1"></div>
+                </div>
+              </div>
+            </div>
+            <div className="uk-section-default uk-section">
+              <div className="uk-container">
+                <div
+                  className="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack"
+                  uk-grid=""
+                >
+                  <div className="uk-width-1-1 uk-first-column"></div>
+                </div>
+              </div>
+            </div>
             <div className="uk-hidden@l uk-section-default uk-section">
               <div className="uk-container">
                 <div
@@ -364,15 +515,14 @@ const JoshAi = () => {
                         uk-grid=""
                       >
                         <div className="uk-first-column">
-                          <div className="el-item uk-panel uk-margin-remove-first-child">
+                          <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                             <img
                               src="assets/images/josh-ai-3.webp"
                               width="150"
                               height="150"
-                              className="el-image"
+                              className="el-image josh-ai-feature-img"
                               alt="Brain icon"
                               loading="lazy"
-                              style={{ margin: "0 auto" }}
                             />
 
                             <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
@@ -380,7 +530,7 @@ const JoshAi = () => {
                               Recognition
                             </h3>
 
-                            <div className="el-content uk-panel uk-margin-top minigray">
+                            <div className="el-content uk-panel uk-margin-top">
                               Josh intelligently learns your living patterns
                               behind the scenes to make life easier. Enjoy a
                               home that’s smart enough to turn the lights off
@@ -392,15 +542,14 @@ const JoshAi = () => {
                           </div>
                         </div>
                         <div className="uk-grid-margin uk-first-column">
-                          <div className="el-item uk-panel uk-margin-remove-first-child">
+                          <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                             <img
                               src="assets/images/josh-ai-4.webp"
                               width="150"
                               height="150"
-                              className="el-image"
+                              className="el-image josh-ai-feature-img"
                               alt="safe icon"
                               loading="lazy"
-                              style={{ margin: "0 auto" }}
                             />
 
                             <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
@@ -408,7 +557,7 @@ const JoshAi = () => {
                               <br /> Private
                             </h3>
 
-                            <div className="el-content uk-panel uk-margin-top minigray">
+                            <div className="el-content uk-panel uk-margin-top">
                               Your privacy and data security are top priority.
                               With that responsibility in mind, Josh never
                               shares data for marketing or sales purposes and
@@ -421,15 +570,14 @@ const JoshAi = () => {
                           </div>
                         </div>
                         <div className="uk-grid-margin uk-first-column">
-                          <div className="el-item uk-panel uk-margin-remove-first-child">
+                          <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                             <img
                               src="assets/images/josh-ai-5.webp"
                               width="150"
                               height="150"
-                              className="el-image"
+                              className="el-image josh-ai-feature-img"
                               alt="sun icon"
                               loading="lazy"
-                              style={{ margin: "0 auto" }}
                             />
 
                             <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
@@ -437,7 +585,7 @@ const JoshAi = () => {
                               <br /> Daily
                             </h3>
 
-                            <div className="el-content uk-panel uk-margin-top minigray">
+                            <div className="el-content uk-panel uk-margin-top">
                               <p>
                                 While other home control systems only know one
                                 trick,
@@ -460,8 +608,20 @@ const JoshAi = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div id="2"
+            <div className="uk-section-default uk-section">
+              <div className="uk-container uk-container-large">
+                <div
+                  className="tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack"
+                  uk-grid=""
+                >
+                  <div className="uk-width-1-1@m uk-first-column"></div>
+                </div>
+              </div>
+            </div>
+          </>
+          {/* ************************************************************************************ */}
+          <div
+            id="2"
             className="home-standard"
             style={{
               backgroundImage: "url(/assets/images/josh-ai-6.webp)",
@@ -665,7 +825,8 @@ const JoshAi = () => {
               </div>
             </div>
           </div>
-          <div id="3"
+          <div
+            id="3"
             className="home-standard"
             style={{
               backgroundImage: "url(/assets/images/josh-ai-13.webp)",

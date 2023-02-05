@@ -67,6 +67,7 @@ const Contractors = React.lazy(() => import("./pages/contractors"));
 const ADayInTheLife = React.lazy(() => import("./pages/a-day-in-the-life"));
 const OurProcess = React.lazy(() => import("./pages/our-process"));
 const Category = React.lazy(() => import("./pages/category"));
+const Years = React.lazy(() => import("./pages/years"));
 const Tags = React.lazy(() => import("./pages/tags"));
 const Control4 = React.lazy(() => import("./pages/control4"));
 
@@ -151,6 +152,7 @@ const AppRouter = () => {
           <Route path="/contractors" element={<Contractors />} />
           <Route path="/our-process" element={<OurProcess />} />
           <Route path="/category/:id" element={<Category />} />
+          <Route path="/years/:published_on" element={<Years />} />
           <Route path="/tags/:id" element={<Tags />} />
           <Route path="/control-4" element={<Control4 />} />
           <Route path="/golf-simulators" element={<GolfSimulators />} />

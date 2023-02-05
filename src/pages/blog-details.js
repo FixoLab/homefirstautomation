@@ -47,7 +47,7 @@ const BlogDetails = () => {
               <h1 className="area-title">{blogDetails[0]?.title.rendered}</h1>
               <div className="area-user">
                 <i className="fa-regular fa-clock"></i>
-                <span>{blogDetails[0]?.date.slice(0, 10)}</span>
+                <span>{blogDetails[0]?.published_on}</span>
                 <span>by {blogDetails[0]?.author_details.display_name}</span>
               </div>
               <ul className="area-social">

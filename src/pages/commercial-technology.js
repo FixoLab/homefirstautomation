@@ -89,6 +89,18 @@ const CommercialTechnology = () => {
               </div>
             </div>
           </div>
+          <div className="control4-nav indoor-living-mobile-nav">
+            <div className="control4-nav-area">
+              <div className="nav-area">
+                <a href="#1">Executive Conference Room</a>
+                <a href="#2">Restaurant / Bar</a>
+                <a href="#3">Professional Office</a>
+                <a href="#4">Training Spaces</a>
+                <a href="#5">Hotel / Hospitality</a>
+                <a href="#6">Retail</a>
+              </div>
+            </div>
+          </div>
 
           <div className="is-layout-flex wp-container-13 wp-block-columns alignfull homedualcontainer">
             <div className="indoor-living-about">

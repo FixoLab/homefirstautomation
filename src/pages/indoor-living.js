@@ -18,16 +18,15 @@ const IndoorLiving = () => {
     };
   }, []);
 
-  const rightPosition = 100 - windowTop * 0.025 + "%";
+  const rightPosition = 100 - windowTop * 0.09 + "%";
   return (
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
-          <div
-            className="is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video"
-          >
+          <div className="is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video">
             <div
               className="wp-block-group__inner-container indoor-living-background"
+              // uk-scrollspy="target: [uk-scrollspy-class]; cls: uk-animation-slide-left-medium; delay: 200;" uk-parallax="bgx: 0,370; easing: 1"
               style={{
                 backgroundImage: "url(assets/images/indoor-1.webp)",
                 backgroundPositionX: rightPosition,
@@ -36,10 +35,7 @@ const IndoorLiving = () => {
               <div className="overlay" />
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
-                  <div
-                    className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible"
-                   
-                  >
+                  <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
                     <div className="wp-block-group__inner-container max-width-hero">
                       <h6>INDOOR LIVING</h6>
                       <h1>CAPTURE THE FEELING OF SMARTER LIVING</h1>
@@ -88,6 +84,18 @@ const IndoorLiving = () => {
               </div>
             </div>
           </div>
+          <div className="control4-nav indoor-living-mobile-nav">
+            <div className="control4-nav-area">
+              <div className="nav-area">
+                <a href="#1">Media Room</a>
+                <a href="#2">Home Theater </a>
+                <a href="#3">Family Room</a>
+                <a href="#4">Bedroom</a>
+                <a href="#5"> Bar/Game Room</a>
+                <a href="#6"> Whole Room</a>
+              </div>
+            </div>
+          </div>
 
           <div className="is-layout-flex wp-container-13 wp-block-columns alignfull homedualcontainer">
             <div className="indoor-living-about">
@@ -105,8 +113,12 @@ const IndoorLiving = () => {
                     below.
                   </p>
                 </div>
-                <div >
-                  <a className="button__primary" aria-label="Scroll down01" href="#1">
+                <div>
+                  <a
+                    className="button__primary"
+                    aria-label="Scroll down01"
+                    href="#1"
+                  >
                     Explore Spaces
                   </a>
                 </div>
