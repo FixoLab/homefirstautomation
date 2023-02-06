@@ -4570,7 +4570,7 @@ a#scroll-to-top {
 }
 .uk-tile-secondary,
 .uk-section-secondary {
-  background-color: #007ca1;
+  background-color: #007ca1 !important;
 }
 .josh-ai-page .josh-ai-bottom h5 {
   text-transform: uppercase;
