@@ -58,17 +58,30 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [scrollPosition, lastScrollTop]);
 
+  // useEffect(() => {
+  //   const menuItem = document.querySelectorAll(".menu-item");
+  //   const mobileNavToggle =
+  //     document.getElementsByClassName("mobile-nav-toggle");
+
+  //   const openNavBtn = () => {
+  //     menuItem.forEach((item) => {
+  //       item.classList?.toggle("active");
+  //     });
+  //   };
+  //   mobileNavToggle.addEventListener("click", openNavBtn);
+  // }, []);
+
   return (
     <>
       <div
         id="site-header-sticky-wrapper"
         className="sticky-wrapper"
-        style={{ height: "136px" }}
+        style={{ height: "12.25em" }}
       >
         <header id="site-header" className="header-footer-group" role="banner">
           <div className="header-inner section-inner">
             <div className="header-titles-wrapper">
-            <button
+              <button
                 className={`toggle nav-toggle mobile-nav-toggle ${
                   menuActive ? "active" : ""
                 }`}
@@ -115,8 +128,6 @@ const Header = () => {
                   <span className="screen-reader-text">Homefirst</span>
                 </div>
               </div>
-
-          
             </div>
 
             <div className="header-navigation-wrapper">
