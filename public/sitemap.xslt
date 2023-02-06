@@ -4,21 +4,21 @@
 	xmlns="http://www.w3.org/1999/xhtml">
 	<style>
 		body {
-		font-size: 14px;
+		font-size: 0.875em;
 		font-family:Arial;
 		}
 		.sitemap {
-		margin-top: 10px;
-		border: 4px solid teal;
+		margin-top: 0.625em;
+		border: 0.25em solid teal;
 		}
 		.sitemap-area {
-		padding:4px
+		padding: 0.25em
 		}
 		table {
 		width: 100%
 		}
 		table th {
-		text-align: left;padding: 4px;
+		text-align: left;padding: 0.25em;
 		background-color: #9f8Fbf;
 		color: #fff
 		}
