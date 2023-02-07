@@ -111,7 +111,7 @@ const Header = () => {
               </button>
               <div className="header-titles">
                 <div className="site-logo faux-heading">
-                  <Link
+                  {/* <Link
                     to="/"
                     className="custom-logo-link"
                     rel="home"
@@ -124,7 +124,7 @@ const Header = () => {
                       className="custom-logo"
                       alt="Homefirst"
                     />
-                  </Link>
+                  </Link> */}
                   <span className="screen-reader-text">Homefirst</span>
                 </div>
               </div>

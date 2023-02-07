@@ -52,7 +52,7 @@ const Feature2 = ({ title }) => {
           </div>
         </div>
         <p className="learnmorebutton">
-          <Link to="/contact-us">Learn More</Link>
+          <Link to="/contact-us">Contact us</Link>
         </p>
       </div>
       <div className="is-layout-flow wp-block-column servicesimages sidevideoleft">
