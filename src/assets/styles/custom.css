@@ -251,10 +251,10 @@ li.menu-item-3288 .fas {
 .about .wp-block-group.homevideo > .wp-block-group__inner-container {
   width: 100% !important;
 }
-.about .is-layout-flow.wp-block-column p a {
+.about .interest .is-layout-flow.wp-block-column p a {
   color: #fff !important;
 }
-.about .is-layout-flow.wp-block-column p a:hover {
+.about .interest .is-layout-flow.wp-block-column p a:hover {
   color: #58c7f1 !important;
 }
 .contact-us-page .wp-block-group.homevideo > .wp-block-group__inner-container {
@@ -1185,7 +1185,7 @@ li.menu-item-3288 .fas {
   color: #666;
 }
 .partners3column h3 {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 300;
   padding: 0px 30px;
 }
@@ -3935,10 +3935,11 @@ a#scroll-to-top {
 .careers-team h3 {
   font-size: 30px !important;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: -0.75px;
   margin-top: 40px;
   margin-bottom: 30px;
+  color: #333;
 }
 .careers-team ul {
   margin: 0;
