@@ -109,6 +109,14 @@ const Header = () => {
                   <span className="toggle-text">Menu</span>
                 </span>
               </button>
+              <div className="nav-location">
+                <Link to="/contact-us">
+                  <i className="fas fa-solid fa-location-dot" />
+                </Link>
+                <a href="tel:4072283000">
+                  <i className="fas fa-phone" />
+                </a>
+              </div>
               <div className="header-titles">
                 <div className="site-logo faux-heading">
                   <Link
@@ -407,14 +415,17 @@ const Header = () => {
                 role="navigation"
               >
                 <ul className="modal-menu reset-list-style">
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1903">
+                  <li
+                    onClick={menuToggleClass}
+                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1903"
+                  >
                     <div className="ancestor-wrapper">
                       <Link to="/start-your-project">Start Your Project</Link>
                     </div>
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-459">
                     <div className="ancestor-wrapper">
-                      <Link to="/about">About</Link>
+                      <Link to="#">About</Link>
                       <button
                         className={`toggle sub-menu-toggle fill-children-current-color ${
                           subMenuActive3 ? "active" : ""
@@ -444,6 +455,7 @@ const Header = () => {
                       </button>
                     </div>
                     <ul
+                      onClick={menuToggleClass}
                       className={`sub-menu ${subMenuActive3 ? "active" : ""}`}
                     >
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
@@ -524,6 +536,7 @@ const Header = () => {
                       </button>
                     </div>
                     <ul
+                      onClick={menuToggleClass}
                       className={`sub-menu ${subMenuActive2 ? "active" : ""}`}
                     >
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
@@ -609,7 +622,10 @@ const Header = () => {
                         </svg>
                       </button>
                     </div>
-                    <ul className={`sub-menu ${subMenuActive ? "active" : ""}`}>
+                    <ul
+                      onClick={menuToggleClass}
+                      className={`sub-menu ${subMenuActive ? "active" : ""}`}
+                    >
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                         <div className="ancestor-wrapper">
                           <Link to="/smart-home-automation">
@@ -659,31 +675,46 @@ const Header = () => {
                     </ul>
                   </li>
 
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1041">
+                  <li
+                    onClick={menuToggleClass}
+                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1041"
+                  >
                     <div className="ancestor-wrapper">
                       <Link to="/portfolio">Portfolio</Link>
                     </div>
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1539">
+                  <li
+                    onClick={menuToggleClass}
+                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1539"
+                  >
                     <div className="ancestor-wrapper">
                       <Link to="brands-we-carry">Brands</Link>
                     </div>
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1188">
+                  <li
+                    onClick={menuToggleClass}
+                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1188"
+                  >
                     <div className="ancestor-wrapper">
                       <Link to="/contact-us">Contact</Link>
                     </div>
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1193">
+                  <li
+                    onClick={menuToggleClass}
+                    className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1193"
+                  >
                     <div className="ancestor-wrapper">
                       <Link to="/blog">Blog</Link>
                     </div>
                   </li>
-                  <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3288">
+                  <li
+                    onClick={menuToggleClass}
+                    className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3288"
+                  >
                     <div className="ancestor-wrapper">
-                      <Link to="tel:4072283000">
+                      <a href="tel:4072283000">
                         <i className="fas fa-phone"></i>407.228.3000
-                      </Link>
+                      </a>
                     </div>
                   </li>
                 </ul>

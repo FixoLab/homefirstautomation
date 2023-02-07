@@ -1,5 +1,5 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700;1,900&family=Work+Sans:wght@400;500&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Work+Sans:wght@300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&family=Work+Sans:wght@300;500;700&display=swap");
 
 html,
 body {
@@ -414,7 +414,8 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-textarea, input:focus-visible{
+textarea,
+input:focus-visible {
   outline: none !important;
 }
 
@@ -801,10 +802,29 @@ button.toggle {
 .nav-toggle {
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
   top: 0;
   width: 6.6rem;
 }
+.nav-location{
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  top: 0;
+  align-items: center;
+  display: flex;
+  gap: 35px;
+  overflow: visible;
+  padding: 0;
+}
+.nav-location .fas{
+  padding: 0 !important;
+}
+
+.nav-location i{
+  font-size: 20px;
+  color: #333;
+ }
 
 .nav-toggle .toggle-icon,
 .nav-toggle svg {
@@ -1856,7 +1876,7 @@ a.to-the-top > * {
   hr {
     margin: 8rem auto;
   }
-  .privacy-policy hr{
+  .privacy-policy hr {
     margin: 20px auto;
   }
 
@@ -1932,9 +1952,11 @@ a.to-the-top > * {
     font-size: 1.2rem;
   }
   .nav-toggle {
-    right: 2rem;
+    left: 15px;
   }
-
+  .nav-location {
+    right: 20px;
+  }
   button.close-nav-toggle {
     font-size: 1.8rem;
     padding: 4rem 0;
@@ -2221,7 +2243,7 @@ a.to-the-top > * {
     display: block;
     width: 100%;
   }
-  .header-inner .toggle {
+  .header-inner .toggle, .nav-location {
     display: none;
   }
   .header-inner .toggle-wrapper {
