@@ -24,7 +24,7 @@ const CommercialServices = () => {
                   type="video/mp4"
                 />
               </video>
-
+              <div class="uk-position-cover" style={{backgroundColor: "rgba(0, 0, 0, 0)"}}></div>
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
                   <div
