@@ -3,7 +3,7 @@
 }
 
 a {
-  color: #cd2653;
+  color: #007ca1;
 }
 
 button,
@@ -12,7 +12,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  background-color: #cd2653;
+  background-color: #007ca1;
 }
 
 body,
@@ -39,13 +39,27 @@ samp {
 
 .modal-menu a,
 .footer-widgets a {
-  color: #cd2653;
+  color: #007ca1;
+}
+
+.nav-drawer{
+  width: 448px !important;
 }
 
 .header-footer-group,
 .menu-modal .toggle {
   color: #000000;
 }
+
+.menu-modal .close-drawer{
+ background-color: #444;
+}
+.menu-modal .close-drawer i{
+ color: #fff;
+ font-size: 26px;
+ padding-right: 25px;
+}
+
 .widget .post-date,
 .widget .rss-date,
 .powered-by-wordpress,
@@ -172,7 +186,7 @@ a:visited {
 /*Header Sticky Navigation*/
 .header-footer-group,
 .menu-modal .toggle {
-  color: #ffffff;
+  color: #575555;
   z-index: 11;
 }
 #site-header-sticky-wrapper {
@@ -205,10 +219,12 @@ a:visited {
   color: #58c7f1 !important;
 }
 .show-modal.active .ancestor-wrapper a {
-  color: #fff !important;
+  color: #444 !important;
+  font-size: 16px;
+  font-weight: 300;
 }
 .menu-modal nav * {
-  border-color: #262626;
+  border-color: #dedfdf;
 }
 
 .site-logo img {
@@ -784,7 +800,7 @@ li.menu-item-3288 .fas {
   padding-bottom: 3px;
 }
 .homedualcontainer .minigray a {
-  color: #cd2653 !important;
+  color: #007ca1 !important;
 }
 .homedualcontainer a:hover {
   color: #007ca1 !important;
@@ -1801,8 +1817,7 @@ a#bbblink {
   color: #58c7f1 !important;
 }
 
-.header-footer-group,
-.menu-modal .toggle {
+.header-footer-group{
   background: #fff;
 }
 
@@ -1897,16 +1912,11 @@ a#bbblink {
   .servicesimages.sidevideoleft.wp-block-column {
     margin: 1px 2px !important;
   }
-  .menu-modal .toggle {
-    background: transparent;
-  }
+
   .nav-toggle .toggle-inner {
     margin-top: -30px;
   }
-  .menu-modal-inner {
-    background: #232526;
-    background: rgba(23, 25, 26, 0.65);
-  }
+  
   .nav-toggle .toggle-text {
     color: #fff !important;
     font-weight: 300;
@@ -2218,6 +2228,9 @@ a#bbblink {
 @media only screen and (max-width: 600px) {
   .control4small.homecedialogo a {
     display: none;
+  }
+  .nav-drawer{
+    width: 80% !important;
   }
 }
 
