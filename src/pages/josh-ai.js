@@ -21,85 +21,18 @@ const JoshAi = () => {
                 <source src="assets/video/josh-ai-hero.mp4" type="video/mp4" />
               </video>
               <div className="overlay2" />
-              {/* <div className="is-layout-flow wp-block-group homeintrotop centerintro">
-                <div className="wp-block-group__inner-container">
-                  <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
-                    <div className="wp-block-group__inner-container max-width-hero">
-                      <h1>Voice Control for the Connected Home</h1>
-                      <div>
-                        <p className="minigray">
-                          More than a smart speaker, Josh is a privacy-based
-                          luxury home control system that delivers an effortless
-                          and exciting living experience through natural
-                          interfaces like voice and touch.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
-              {/* <div className="uk-container uk-container-xlarge uk-position-relative josh-ai-hero-content">
-                <div
-                  className="tm-grid-expand uk-margin-xlarge uk-grid"
-                  uk-grid=""
-                >
-                  <div className="uk-width-1-3@m uk-first-column"></div>
-
-                  <div className="uk-grid-item-match uk-flex-bottom uk-width-1-3@m">
-                    <div className="uk-panel uk-width-1-1"></div>
-                  </div>
-
-                  <div className="uk-grid-item-match uk-flex-middle uk-width-1-3@m">
-                    <div className="uk-panel uk-width-1-1">
-                      <h2 className="uk-text-left">
-                        Voice Control for the Connected Home
-                      </h2>
-                      <p className="uk-panel uk-text-lead uk-margin">
-                        More than a smart speaker, Josh is a privacy-based
-                        luxury home control system that delivers an effortless
-                        and exciting living experience through natural
-                        interfaces like voice and touch.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
-                <div className="josh-ai-hero-content">
-                  <div className="">
-                    <h2>
-                    Voice Control for the Connected Home
-                    </h2>
-                    <div >
-                      <p >
-                        Are you passionate about technology? In our thriving
-                        smart home business, we believe taking great care of our
-                        clients is the most important way to set our company
-                        apart.
-                      </p>
-                    </div>
-                  </div>
-            </div>
-                {/* <div className="uk-container uk-container-large uk-position-relative josh-ai-hero-content">
-              <div className="tm-grid-expand uk-grid-margin uk-grid" uk-grid="">
-                <div className="uk-width-2-3@m"></div>
-
-                <div className="uk-grid-item-match uk-flex-middle uk-width-1-3@m uk-first-column">
-                  <div className="uk-panel uk-width-1-1">
-                    <h2>
-                    Voice Control for the Connected Home
-                    </h2>
-                    <div >
-                      <p >
-                        Are you passionate about technology? In our thriving
-                        smart home business, we believe taking great care of our
-                        clients is the most important way to set our company
-                        apart.
-                      </p>
-                    </div>
+              <div className="josh-ai-hero-content">
+                <div className="">
+                  <h2>Voice Control for the Connected Home</h2>
+                  <div>
+                    <p>
+                      Are you passionate about technology? In our thriving smart
+                      home business, we believe taking great care of our clients
+                      is the most important way to set our company apart.
+                    </p>
                   </div>
                 </div>
               </div>
-            </div> */}
             </div>
           </div>
           <div className="uk-grid-margin uk-container uk-container-large josh-new-content">
