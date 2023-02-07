@@ -1806,6 +1806,42 @@ a#bbblink {
   background: #fff;
 }
 
+/* josh ai page  */
+.josh-ai-page .josh-ai-hero-content{
+  padding-top: 300px;
+  width: 400px !important;
+    margin-left: 60% !important;
+    position: absolute;
+}
+
+.josh-ai-page .overlay2{
+  background-color: rgba(8, 8, 8, 0);
+    background-image: linear-gradient(264deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background-clip: padding-box;
+}
+
+.josh-ai-hero-content h2{
+  color: #fff;
+  font-weight: 400;
+  margin-top: 0px;
+  position: relative;
+  padding-top: 15px;
+}
+.josh-ai-hero-content h2::before{
+  content: "";
+  width: 70px;
+  height: 3px;
+  background-color: #007ca1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.josh-ai-hero-content p{
+  color: #ffffffb3;
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .josh-ai-page .josh-ai-h2{
   position: relative;
   padding-top: 15px;
@@ -1831,6 +1867,12 @@ a#bbblink {
 }
 
 @media only screen and (max-width: 1200px) {
+  .josh-ai-page .josh-ai-hero-content{
+    display: none;
+  }
+  .josh-new-content{
+    display: block;
+  }
   .wp-block-group.homevideo.servicespages {
     height: inherit;
   }
@@ -2062,9 +2104,7 @@ a#bbblink {
   .commercial-page .wp-block-group__inner-container h1{
     display: none;
   }
-  .josh-new-content{
-    display: block;
-  }
+  
   li.menu-item-3288 {
     position: relative;
     margin-top: 0px;
