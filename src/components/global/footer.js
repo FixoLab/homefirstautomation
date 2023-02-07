@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -283,6 +284,48 @@ const Footer = () => {
                             </Swiper>
                           </div>
                         </div>
+                        {/* <div
+                          className="uk-position-relative uk-visible-toggle uk-light"
+                          tabIndex="-1"
+                          uk-slideshow="true"
+                        >
+                          <ul className="uk-slideshow-items">
+                            <li>
+                              <img
+                                src="https://getuikit.com/docs/images/photo.jpg"
+                                alt=""
+                                uk-cover
+                              />
+                            </li>
+                            <li>
+                              <img
+                                src="https://getuikit.com/docs/images/dark.jpg"
+                                alt=""
+                                uk-cover
+                              />
+                            </li>
+                            <li>
+                              <img
+                                src="https://getuikit.com/docs/images/light.jpg"
+                                alt=""
+                                uk-cover
+                              />
+                            </li>
+                          </ul>
+
+                          <a
+                            className="uk-position-center-left uk-position-small uk-hidden-hover"
+                            href="#"
+                            uk-slidenav-previous="true"
+                            uk-slideshow-item="previous"
+                          ></a>
+                          <a
+                            className="uk-position-center-right uk-position-small uk-hidden-hover"
+                            href="#"
+                            uk-slidenav-next="true"
+                            uk-slideshow-item="next"
+                          ></a>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -314,26 +357,48 @@ const Footer = () => {
         </div>
       </div>
       <footer className="header-footer-group footer-bottom">
-        <a className="toTop" href="#site-content"><i className="fa-solid fa-arrow-up"></i></a>
+        <a className="toTop" href="#site-content">
+          <i className="fa-solid fa-arrow-up"></i>
+        </a>
         <div className="section-inner">
           <ul className="right-footer">
             <li>
-              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/" aria-label="instagram">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/"
+                aria-label="instagram"
+              >
                 <i className="fa-brands fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a target="_blank" rel="noreferrer" href="https://linkedin.com/" aria-label="linkedin">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://linkedin.com/"
+                aria-label="linkedin"
+              >
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
             </li>
             <li>
-              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/" aria-label="facebook">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.facebook.com/"
+                aria-label="facebook"
+              >
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
             </li>
             <li>
-              <a target="_blank" rel="noreferrer" href="https://houzz.com/" aria-label="houzz">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://houzz.com/"
+                aria-label="houzz"
+              >
                 <i className="fa-brands fa-houzz"></i>
               </a>
             </li>
@@ -343,12 +408,11 @@ const Footer = () => {
           </div>
           <div className="left-footer">
             <p>
-              <a target="_blank" rel="noreferrer"  href="/sitemap.xml">
+              <a target="_blank" rel="noreferrer" href="/sitemap.xml">
                 Sitemap
-              </a><span>|</span>
-              <a href="/privacy-policy">
-                Privacy Policy
               </a>
+              <span>|</span>
+              <a href="/privacy-policy">Privacy Policy</a>
             </p>
             <p className="license-number">FL LIC# EC13011053</p>
           </div>
