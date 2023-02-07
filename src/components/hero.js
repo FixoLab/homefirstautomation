@@ -26,6 +26,7 @@ const Hero = () => {
               src="assets/images/phoneoverlay4.webp"
               alt="hero"
               className="wp-image-1922"
+              loading="lazy"
             />
           </figure>
 
