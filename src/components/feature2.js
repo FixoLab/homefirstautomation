@@ -66,6 +66,7 @@ const Feature2 = ({ title }) => {
           width="300"
           height="150"
           playsInline=""
+          loading="lazy"
         >
           <source src="assets/video/middlearea4.mp4" type="video/mp4" />
         </video>

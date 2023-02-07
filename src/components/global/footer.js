@@ -339,19 +339,19 @@ const Footer = () => {
         <div className="footer-middle-wrapper">
           <div className="footer-middle-area">
             <div className="footer-middle-image">
-              <img src="assets/images/footer-img-01.webp" alt="footer middle" />
+              <img loading="lazy" src="assets/images/footer-img-01.webp" alt="footer middle" />
             </div>
             <div className="footer-middle-image">
-              <img src="assets/images/footer-img-02.webp" alt="footer middle" />
+              <img loading="lazy" src="assets/images/footer-img-02.webp" alt="footer middle" />
             </div>
             <div className="footer-middle-image">
-              <img src="assets/images/footer-img-03.webp" alt="footer middle" />
+              <img loading="lazy" src="assets/images/footer-img-03.webp" alt="footer middle" />
             </div>
             <div className="footer-middle-image">
-              <img src="assets/images/footer-img-04.webp" alt="footer middle" />
+              <img loading="lazy" src="assets/images/footer-img-04.webp" alt="footer middle" />
             </div>
             <div className="footer-middle-image">
-              <img src="assets/images/footer-img-05.webp" alt="footer middle" />
+              <img loading="lazy" src="assets/images/footer-img-05.webp" alt="footer middle" />
             </div>
           </div>
         </div>
