@@ -23,10 +23,10 @@ const Header = () => {
   };
 
   useEffect(() => {
-    function handleScroll() {
+    function handleWindowScroll() {
       setScrollPosition(window.scrollY);
 
-      //topScroll Class
+      // topScroll Class
       const st = window.pageYOffset || document.documentElement.scrollTop;
       if (st > lastScrollTop) {
         document.getElementById("site-header").classList.remove("topscroll");
@@ -35,7 +35,7 @@ const Header = () => {
       }
       setLastScrollTop(st <= 0 ? 0 : st);
 
-      //is-sticky class
+      // is-sticky class
       const stickyWrapper = document.getElementById(
         "site-header-sticky-wrapper"
       );
@@ -45,31 +45,19 @@ const Header = () => {
       } else {
         stickyWrapper.classList.remove("is-sticky");
       }
+
+      // going-up class
+      const header = document.getElementById("site-header");
+      if (scrollPosition >= 500) {
+        header.classList.add("goingup");
+      } else {
+        header.classList.remove("goingup");
+      }
     }
 
-    //going up class
-    const header = document.getElementById("site-header");
-    if (scrollPosition >= 500) {
-      header.classList.add("goingup");
-    } else {
-      header.classList.remove("goingup");
-    }
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleWindowScroll);
+    return () => window.removeEventListener("scroll", handleWindowScroll);
   }, [scrollPosition, lastScrollTop]);
-
-  // useEffect(() => {
-  //   const menuItem = document.querySelectorAll(".menu-item");
-  //   const mobileNavToggle =
-  //     document.getElementsByClassName("mobile-nav-toggle");
-
-  //   const openNavBtn = () => {
-  //     menuItem.forEach((item) => {
-  //       item.classList?.toggle("active");
-  //     });
-  //   };
-  //   mobileNavToggle.addEventListener("click", openNavBtn);
-  // }, []);
 
   return (
     <>
@@ -111,7 +99,7 @@ const Header = () => {
               </button>
               <div className="header-titles">
                 <div className="site-logo faux-heading">
-                  {/* <Link
+                  <Link
                     to="/"
                     className="custom-logo-link"
                     rel="home"
@@ -124,7 +112,7 @@ const Header = () => {
                       className="custom-logo"
                       alt="Homefirst"
                     />
-                  </Link> */}
+                  </Link>
                   <span className="screen-reader-text">Homefirst</span>
                 </div>
               </div>
