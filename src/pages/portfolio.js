@@ -4,48 +4,64 @@ import { Link } from "react-router-dom";
 const Portfolio = () => {
   return (
     <div id="site-content">
-      <div className="post-inner thin commercial-page portfolio-page">
-        <div className="entry-content">
-          <div className="portfolio-wrapper is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video">
-            <div
-              className="wp-block-group__inner-container indoor-living-background career-background"
-              style={{
-                backgroundImage: "url(assets/images/portfolio-hero.webp)",
-              }}
-            >
-              <div className="overlay2" />
-              <div className="uk-container uk-container-large uk-position-relative">
-                <div
-                  className="tm-grid-expand uk-grid-margin uk-grid"
-                  uk-grid=""
-                >
-                  <div className="uk-width-2-3@m"></div>
+      <div
+        className="uk-section-secondary uk-position-relative"
+        tm-header-transparent="light"
+      >
+        <div
+          uk-img=""
+          className="uk-background-norepeat uk-background-cover uk-background-center-center uk-section uk-section-large uk-flex uk-flex-middle"
+          uk-height-viewport="offset-top: true; offset-bottom: 20;"
+          style={{
+            backgroundImage: "url(assets/images/portfolio-hero.webp)",
+          }}
+        >
+          <div
+            className="uk-position-cover"
+            style={{
+              backgroundImage:
+                "linear-gradient(266deg, rgba(8,8,9,0) 0%, rgba(16,23,27,0.8) 60%)",
+              backgroundClip: "padding-box",
+            }}
+          ></div>
 
-                  <div className="uk-grid-item-match uk-flex-middle uk-width-1-3@m uk-flex-first@m uk-first-column">
-                    <div className="uk-panel uk-width-1-1">
-                      <h1>ARTFULLY CRAFTED SPACES</h1>
-                      <div>
-                        <p className="minigray">
-                          Designed to blend style and function, explore how our
-                          technology would look in your California space.
-                        </p>
-                      </div>
-                      <a href="#1" className="button__primary">
-                        View Gallery
-                      </a>
-                    </div>
+          <div className="uk-width-1-1">
+            <div className="uk-container uk-container-xlarge uk-position-relative">
+              <div
+                className="tm-header-placeholder uk-margin-remove-adjacent"
+                style={{ height: "101px" }}
+              ></div>
+              <div
+                id="p1"
+                className="uk-margin-remove-top tm-grid-expand uk-child-width-1-1 uk-grid-margin uk-grid uk-grid-stack"
+                uk-grid=""
+              >
+                <div className="uk-width-1-1@m uk-first-column">
+                  <div className="uk-hidden@s">
+                    <br />
+                  </div>
+                  <h1 className="uk-text-left" style={{ fontWeight: "300" }}>
+                    Artfully Crafted Spaces
+                  </h1>
+                  <div className="uk-panel uk-margin uk-width-large">
+                    Designed to blend style and function, explore how our
+                    technology would look in your California space. <br />
+                    <br />
+                  </div>
+                  <div className="uk-margin uk-width-xlarge uk-text-left">
+                    <a className="button__primary" href="#1">
+                      View Gallery
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <div
-            className="alignfull Portfolio-navigation eds-on-scroll eds-scroll-visible"
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="200"
-          >
+        </div>
+      </div>
+      <div className="post-inner thin commercial-page portfolio-page">
+        <div className="entry-content">
+          <div className="alignfull Portfolio-navigation eds-on-scroll eds-scroll-visible">
             <div className="Portfolio-navigation-container">
               <a href="#1">Lighting & shading</a>
               <a href="#2">Audio / Video</a>

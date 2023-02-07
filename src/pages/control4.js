@@ -9,34 +9,134 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Control4 = () => {
   return (
     <>
-      <div className="control4">
-        <div className="control4-hero">
-          <video
-            autoPlay
-            loop="loop"
-            muted
-            playsInline=""
-            width="300"
-            height="150"
-          >
-            <source src="assets/video/contol-4.mp4" type="video/mp4" />
-          </video>
-          <div className="control4-content">
-            <h1>EFFORTLESS CONTROL OF WHAT MATTERS MOST</h1>
-            <div>
-              <p className="minigray">
-                Add comfort and security to your luxury Orange County property
-                with Control4's innovative smart home solutions. Revamp your
-                lifestyle with cutting-edge products and features that allow
-                seamless control of your technology to create the perfect
-                environment for your family.
-              </p>
+      <div
+        id="control"
+        className="uk-visible@m uk-section-secondary uk-cover-container uk-section uk-flex uk-flex-middle contro4_hero"
+        tm-header-transparent="light"
+        uk-height-viewport="offset-top: true; offset-bottom: 20;"
+      >
+        <video
+          src="assets/video/contol-4.mp4"
+          type="video/mp4"
+          loop
+          autoPlay
+          muted
+          playsInline=""
+          uk-cover=""
+        ></video>
+        <div
+          className="uk-position-cover"
+          style={{ backgroundColor: "rgba(8, 8, 8, 0.2)" }}
+        ></div>
+
+        <div className="uk-width-1-1">
+          <div className="uk-container uk-container-xlarge uk-position-relative">
+            <div
+              className="tm-header-placeholder uk-margin-remove-adjacent"
+              style={{ height: "101px" }}
+            ></div>
+            <div className="tm-grid-expand uk-margin-xlarge uk-grid" uk-grid="">
+              <div className="uk-width-1-3@m uk-first-column"></div>
+
+              <div className="uk-grid-item-match uk-flex-bottom uk-width-1-3@m">
+                <div className="uk-panel uk-width-1-1"></div>
+              </div>
+
+              <div className="uk-grid-item-match uk-flex-middle uk-width-1-3@m">
+                <div className="uk-panel uk-width-1-1">
+                  <div className="uk-divider-small"></div>
+                  <h3 className="uk-margin-remove-top uk-margin-remove-bottom uk-text-left">
+                    Effortless Control of What Matters Most
+                  </h3>
+                  <div className="uk-panel uk-margin-small">
+                    Add comfort and security to your luxury Orange County
+                    property with Control4's innovative{" "}
+                    <a href="/smart-home-automation">smart home solutions</a>.
+                    Revamp your lifestyle with cutting-edge products and
+                    features that allow seamless control of your technology to
+                    create the perfect environment for your family.
+                  </div>
+                  <hr />
+                  <div className="uk-margin">
+                    <a className="button__primary" href="#1">
+                      See our How-To Videos
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p>
-              <a aria-label="Scroll down01" href="#1">
-                See our How-To Videos
-              </a>
-            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="uk-hidden@m uk-section-secondary uk-cover-container uk-section uk-padding-remove-vertical uk-flex uk-flex-middle contro4_hero"
+        uk-height-viewport="offset-top: true; offset-bottom: true;"
+      >
+        <video
+          src="assets/video/contol-4.mp4"
+          loop
+          autoPlay
+          muted
+          playsInline=""
+          uk-cover=""
+        ></video>
+        <div
+          className="uk-position-cover"
+          style={{
+            backgroundColor: "rgba(0, 0, 0, 0.25)",
+            backgroundImage:
+              "linear-gradient(180deg, rgba(8,8,9,0) 60%, rgba(16,23,27,0.8) 100%)",
+            backgroundClip: "padding-box",
+          }}
+        ></div>
+
+        <div className="uk-width-1-1">
+          <div className="uk-position-relative uk-panel">
+            <div
+              className="tm-grid-expand uk-grid-collapse uk-child-width-1-1 uk-margin-remove-vertical uk-grid uk-grid-stack"
+              uk-grid=""
+            >
+              <div className="uk-width-1-1@m uk-first-column">
+                <div className="uk-hidden@s">
+                  <br />
+                  <br />
+                  <br />
+                </div>
+                <div className="uk-hidden@m">
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                </div>
+              </div>
+            </div>
+            <div className="uk-grid-margin uk-container uk-container-large">
+              <div
+                className="tm-grid-expand uk-child-width-1-1 uk-grid uk-grid-stack"
+                uk-grid=""
+              >
+                <div className="uk-width-1-1@m uk-first-column">
+                  <div className="uk-divider-small"></div>
+                  <h3 className="uk-margin-remove-top uk-margin-remove-bottom uk-text-left">
+                    {" "}
+                    Effortless Control of What Matters Most{" "}
+                  </h3>
+                  <div className="uk-panel uk-margin-small" style={{marginBottom: "20px"}}>
+                    Add comfort and security to your luxury Orange County
+                    property with Control4's innovative{" "}
+                    <a href="/smart-home-automation">
+                      smart home solutions
+                    </a>
+                    . Revamp your lifestyle with cutting-edge products and
+                    features that allow seamless control of your technology to
+                    create the perfect environment for your family.
+                  </div>
+                  <hr />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -55,7 +155,8 @@ const Control4 = () => {
           </div>
         </div>
       </div>
-      <div id="1"
+      <div
+        id="1"
         className="home-standard"
         style={{
           backgroundImage: "url(/assets/images/header-brands-control4.webp)",
@@ -148,7 +249,8 @@ const Control4 = () => {
         </Swiper>
       </div>
       <div className="control4-empty"></div>
-      <div id="2"
+      <div
+        id="2"
         className="home-standard"
         style={{
           backgroundImage: "url(/assets/images/header-brands-control4-02.webp)",
@@ -246,7 +348,8 @@ const Control4 = () => {
         </Swiper>
       </div>
       <div className="control4-empty"></div>
-      <div id="3"
+      <div
+        id="3"
         className="home-standard"
         style={{
           backgroundImage: "url(/assets/images/header-brands-control4-03.webp)",
@@ -355,7 +458,8 @@ const Control4 = () => {
         </div>
       </div>
       <div className="control4-empty"></div>
-      <div id="4"
+      <div
+        id="4"
         className="home-standard"
         style={{
           backgroundImage: "url(/assets/images/header-brands-control4-04.webp)",
@@ -563,7 +667,8 @@ const Control4 = () => {
           </div>
         </div>
       </div>
-      <div id="5"
+      <div
+        id="5"
         className="home-standard"
         style={{
           backgroundImage: "url(/assets/images/header-brands-control4-05.webp)",
@@ -720,7 +825,8 @@ const Control4 = () => {
         </div>
       </div>
       <div className="control4-empty"></div>
-      <div id="6"
+      <div
+        id="6"
         className="home-standard"
         style={{
           backgroundImage: "url(/assets/images/header-brands-control4-06.webp)",
@@ -770,7 +876,10 @@ const Control4 = () => {
                       alt=""
                     />
 
-                    <h3 className="el-title uk-margin-top uk-margin-remove-bottom" style={{fontSize: "30px"}} >
+                    <h3
+                      className="el-title uk-margin-top uk-margin-remove-bottom"
+                      style={{ fontSize: "30px" }}
+                    >
                       Beyond the Universal Remote
                     </h3>
 
@@ -791,7 +900,10 @@ const Control4 = () => {
                       alt=""
                     />
 
-                    <h3 className="el-title uk-margin-top uk-margin-remove-bottom" style={{fontSize: "30px"}}>
+                    <h3
+                      className="el-title uk-margin-top uk-margin-remove-bottom"
+                      style={{ fontSize: "30px" }}
+                    >
                       Can Your Remote Do This?
                     </h3>
 
@@ -812,7 +924,10 @@ const Control4 = () => {
                 <div>
                   <br />
                 </div>
-                <h4 className="uk-margin-remove-bottom" style={{color: "#007ca1",     fontWeight: "400"}}>
+                <h4
+                  className="uk-margin-remove-bottom"
+                  style={{ color: "#007ca1", fontWeight: "400" }}
+                >
                   Envision the Possibilities
                 </h4>
                 <div className="uk-panel uk-margin-small uk-width-large">

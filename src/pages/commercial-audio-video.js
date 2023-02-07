@@ -3,113 +3,68 @@ import React from "react";
 const CommercialAudioVideo = () => {
   return (
     <div id="site-content">
-      <div className="post-inner thin commercial-page">
-        <div className="entry-content">
-          <div className="is-layout-flow wp-block-group homevideo servicespages">
-            <div className="wp-block-group__inner-container commercial-automantion-video">
-              <video
-                id="video-background"
-                className="high4kres"
-                autoPlay
-                loop="loop"
-                muted
-                playsInline=""
-                width="300"
-                height="150"
+      <div className="csca">
+        <video
+          autoPlay
+          loop="loop"
+          muted
+          playsInline=""
+          width="300"
+          height="150"
+        >
+          <source
+            src="assets/video/commercial-audio-video-hero.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div class="uk-position-cover" style={{backgroundColor: "rgba(0, 0, 0, 0)"}}></div>
+        <div className="csca-content">
+          <div className="csca-content-area">
+            <div className="csca-icon">
+              <svg
+                uk-scrollspy="cls:uk-animation-stroke"
+                id="commercial_automation"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
+                viewBox="10 0 79 79"
+                className="uk-scrollspy-inview"
               >
-                <source
-                  src="assets/video/commercial-audio-video-hero.mp4"
-                  type="video/mp4"
-                />
-              </video>
-              <div className="overlay" />
-
-              <div className="is-layout-flow wp-block-group homeintrotop centerintro">
-                <div className="wp-block-group__inner-container">
-                  <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
-                    <div className="wp-block-group__inner-container max-width-hero">
-                      <div className="solutions-svg">
-                      <svg
-                        uk-scrollspy="cls:uk-animation-stroke"
-                        id="commercial_automation"
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlnsXlink="http://www.w3.org/1999/xlink"
-                        viewBox="10 0 79 79"
-                        className="uk-scrollspy-inview"
-                      >
-                        <path
-                          className="outline"
-                          d="M17.4,71h58.9 M57.4,27.7h-21c-2.1,0-3.8,1.7-3.8,3.8V71h28.7V31.5C61.2,29.4,59.5,27.7,57.4,27.7z M52.1,22.8
+                <path
+                  className="outline"
+                  d="M17.4,71h58.9 M57.4,27.7h-21c-2.1,0-3.8,1.7-3.8,3.8V71h28.7V31.5C61.2,29.4,59.5,27.7,57.4,27.7z M52.1,22.8
 		H41.6c-2.1,0-3.8,1.7-3.8,3.8v1.1H56v-1.1C56,24.5,54.2,22.8,52.1,22.8z M38.2,35.8h17.3 M38.2,42h17.3 M38.2,48.3h17.3 M38.2,54.5
 		h17.3 M65.2,43.8c2.7-1.4,4.5-4,4.5-7s-1.8-5.7-4.5-7 M67.5,47.8c4.2-2.1,7-6.2,7-11s-2.8-8.9-7-11 M28.9,29.7
 		c-2.7,1.4-4.5,4-4.5,7s1.8,5.7,4.5,7 M26.6,25.8c-4.2,2.1-7,6.2-7,11s2.8,8.9,7,11 M47.3,64.1h-0.9c-2.1,0-3.8,1.7-3.8,3.8v3h8.6
 		v-3C51.2,65.8,49.4,64.1,47.3,64.1z"
-                        ></path>
-                      </svg>
-                      </div>
-                     
-                      <h1>Commercial Audio/Video</h1>
-                      <div>
-                        <p className="minigray">
-                          ENGAGE STAFF AND CLIENTELE WITH STATE-OF-THE-ART
-                          AUDIOVISUAL SOLUTIONS THAT BRING ATTENTION TO YOUR
-                          BRAND AND HELP STREAMLINE MEETINGS AND pRESENTATIONS.
-                        </p>
-                      </div>
-
-                      <p>
-                        <a aria-label="Scroll down01" href="#1">
-                          Distributed Audio
-                        </a>
-                      </p>
-
-                      <p>
-                        <a aria-label="Scroll down02" href="#2">
-                          Distributed Video
-                        </a>
-                      </p>
-
-                      <p>
-                        <a aria-label="Scroll down03" href="#3">
-                          Video Conferencing
-                        </a>
-                      </p>
-
-                      <p>
-                        <a aria-label="Scroll down04" href="#4">
-                          Intercom Systems
-                        </a>
-                      </p>
-
-                      <p>
-                        <a aria-label="Scroll down05" href="#5">
-                          Video Wall
-                        </a>
-                      </p>
-
-                      <p>
-                        <a aria-label="Scroll down06" href="#6">
-                          Hidden Audio Video
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                ></path>
+              </svg>
+            </div>
+            <h1>Commercial Audio/Video</h1>
+            <h6>
+              ENGAGE STAFF AND CLIENTELE WITH STATE-OF-THE-ART AUDIOVISUAL
+              SOLUTIONS THAT BRING ATTENTION TO YOUR BRAND AND HELP STREAMLINE
+              MEETINGS AND PRESENTATIONS.
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div className="csca-nav">
+        <div className="control4-nav">
+          <div className="control4-nav-area">
+            <div className="nav-area">
+              <a href="#1">Distributed Audio</a>
+              <a href="#2">Distributed Video</a>
+              <a href="#3">Video Conferencing</a>
+              <a href="#4">Intercom Systems</a>
+              <a href="#5">Video Wall</a>
+              <a href="#6">Hidden Audio Video</a>
             </div>
           </div>
-          <div className="control4-nav indoor-living-mobile-nav">
-            <div className="control4-nav-area">
-              <div className="nav-area">
-                <a href="#1">Distributed Audio</a>
-                <a href="#2">Distributed Video </a>
-                <a href="#3">Video Conferencing</a>
-                <a href="#4">Intercom Systems</a>
-                <a href="#5">Video Wall</a>
-                <a href="#6">Hidden Audio Video</a>
-              </div>
-            </div>
-          </div>
+        </div>
+      </div>
+      <div className="extra-padding"></div>
+      <div className="post-inner thin commercial-page">
+        <div className="entry-content">
           <div
             className="is-layout-flex wp-container-16 wp-block-columns alignfull servicesdualcontainer"
             id="1"
