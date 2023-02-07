@@ -47,6 +47,7 @@ const Footer = () => {
                             alt="HomeFirst logo"
                             width="200"
                             height="80"
+                            loading="lazy"
                           />
                           <br />
                           <p>Corporate Office</p>
