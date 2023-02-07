@@ -47,6 +47,7 @@ const Footer = () => {
                             alt="HomeFirst logo"
                             width="200"
                             height="80"
+                            loading="lazy"
                           />
                           <br />
                           <p>Corporate Office</p>
@@ -209,7 +210,34 @@ const Footer = () => {
                                   ask for more."
                                 </p>
                                 <div className="google-icon">
-                                <svg width="20px" height="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 326667 333333" shapeRendering="geometricPrecision" textRendering="geometricPrecision" imageRendering="optimizeQuality" fillRule="evenodd" clipRule="evenodd"><path d="M326667 170370c0-13704-1112-23704-3518-34074H166667v61851h91851c-1851 15371-11851 38519-34074 54074l-311 2071 49476 38329 3428 342c31481-29074 49630-71852 49630-122593m0 0z" fill="#4285f4"></path><path d="M166667 333333c44999 0 82776-14815 110370-40370l-52593-40742c-14074 9815-32963 16667-57777 16667-44074 0-81481-29073-94816-69258l-1954 166-51447 39815-673 1870c27407 54444 83704 91852 148890 91852z" fill="#34a853"></path><path d="M71851 199630c-3518-10370-5555-21482-5555-32963 0-11482 2036-22593 5370-32963l-93-2209-52091-40455-1704 811C6482 114444 1 139814 1 166666s6482 52221 17777 74814l54074-41851m0 0z" fill="#fbbc04"></path><path d="M166667 64444c31296 0 52406 13519 64444 24816l47037-45926C249260 16482 211666 1 166667 1 101481 1 45185 37408 17777 91852l53889 41853c13520-40185 50927-69260 95001-69260m0 0z" fill="#ea4335"></path></svg>
+                                  <svg
+                                    width="20px"
+                                    height="20px"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 326667 333333"
+                                    shapeRendering="geometricPrecision"
+                                    textRendering="geometricPrecision"
+                                    imageRendering="optimizeQuality"
+                                    fillRule="evenodd"
+                                    clipRule="evenodd"
+                                  >
+                                    <path
+                                      d="M326667 170370c0-13704-1112-23704-3518-34074H166667v61851h91851c-1851 15371-11851 38519-34074 54074l-311 2071 49476 38329 3428 342c31481-29074 49630-71852 49630-122593m0 0z"
+                                      fill="#4285f4"
+                                    ></path>
+                                    <path
+                                      d="M166667 333333c44999 0 82776-14815 110370-40370l-52593-40742c-14074 9815-32963 16667-57777 16667-44074 0-81481-29073-94816-69258l-1954 166-51447 39815-673 1870c27407 54444 83704 91852 148890 91852z"
+                                      fill="#34a853"
+                                    ></path>
+                                    <path
+                                      d="M71851 199630c-3518-10370-5555-21482-5555-32963 0-11482 2036-22593 5370-32963l-93-2209-52091-40455-1704 811C6482 114444 1 139814 1 166666s6482 52221 17777 74814l54074-41851m0 0z"
+                                      fill="#fbbc04"
+                                    ></path>
+                                    <path
+                                      d="M166667 64444c31296 0 52406 13519 64444 24816l47037-45926C249260 16482 211666 1 166667 1 101481 1 45185 37408 17777 91852l53889 41853c13520-40185 50927-69260 95001-69260m0 0z"
+                                      fill="#ea4335"
+                                    ></path>
+                                  </svg>
                                 </div>
                                 <div className="user">
                                   <p>deion athias</p>
@@ -243,7 +271,34 @@ const Footer = () => {
                                   and dedicated. I highly recommend HomeFirst!"
                                 </p>
                                 <div className="google-icon">
-                                    <svg width="20px" height="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 326667 333333" shapeRendering="geometricPrecision" textRendering="geometricPrecision" imageRendering="optimizeQuality" fillRule="evenodd" clipRule="evenodd"><path d="M326667 170370c0-13704-1112-23704-3518-34074H166667v61851h91851c-1851 15371-11851 38519-34074 54074l-311 2071 49476 38329 3428 342c31481-29074 49630-71852 49630-122593m0 0z" fill="#4285f4"></path><path d="M166667 333333c44999 0 82776-14815 110370-40370l-52593-40742c-14074 9815-32963 16667-57777 16667-44074 0-81481-29073-94816-69258l-1954 166-51447 39815-673 1870c27407 54444 83704 91852 148890 91852z" fill="#34a853"></path><path d="M71851 199630c-3518-10370-5555-21482-5555-32963 0-11482 2036-22593 5370-32963l-93-2209-52091-40455-1704 811C6482 114444 1 139814 1 166666s6482 52221 17777 74814l54074-41851m0 0z" fill="#fbbc04"></path><path d="M166667 64444c31296 0 52406 13519 64444 24816l47037-45926C249260 16482 211666 1 166667 1 101481 1 45185 37408 17777 91852l53889 41853c13520-40185 50927-69260 95001-69260m0 0z" fill="#ea4335"></path></svg>
+                                  <svg
+                                    width="20px"
+                                    height="20px"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 326667 333333"
+                                    shapeRendering="geometricPrecision"
+                                    textRendering="geometricPrecision"
+                                    imageRendering="optimizeQuality"
+                                    fillRule="evenodd"
+                                    clipRule="evenodd"
+                                  >
+                                    <path
+                                      d="M326667 170370c0-13704-1112-23704-3518-34074H166667v61851h91851c-1851 15371-11851 38519-34074 54074l-311 2071 49476 38329 3428 342c31481-29074 49630-71852 49630-122593m0 0z"
+                                      fill="#4285f4"
+                                    ></path>
+                                    <path
+                                      d="M166667 333333c44999 0 82776-14815 110370-40370l-52593-40742c-14074 9815-32963 16667-57777 16667-44074 0-81481-29073-94816-69258l-1954 166-51447 39815-673 1870c27407 54444 83704 91852 148890 91852z"
+                                      fill="#34a853"
+                                    ></path>
+                                    <path
+                                      d="M71851 199630c-3518-10370-5555-21482-5555-32963 0-11482 2036-22593 5370-32963l-93-2209-52091-40455-1704 811C6482 114444 1 139814 1 166666s6482 52221 17777 74814l54074-41851m0 0z"
+                                      fill="#fbbc04"
+                                    ></path>
+                                    <path
+                                      d="M166667 64444c31296 0 52406 13519 64444 24816l47037-45926C249260 16482 211666 1 166667 1 101481 1 45185 37408 17777 91852l53889 41853c13520-40185 50927-69260 95001-69260m0 0z"
+                                      fill="#ea4335"
+                                    ></path>
+                                  </svg>
                                 </div>
                                 <div className="user">
                                   <p>Magic Shaq</p>
@@ -275,7 +330,34 @@ const Footer = () => {
                                   found them. Highly recommended"
                                 </p>
                                 <div className="google-icon">
-                                    <svg width="20px" height="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 326667 333333" shapeRendering="geometricPrecision" textRendering="geometricPrecision" imageRendering="optimizeQuality" fillRule="evenodd" clipRule="evenodd"><path d="M326667 170370c0-13704-1112-23704-3518-34074H166667v61851h91851c-1851 15371-11851 38519-34074 54074l-311 2071 49476 38329 3428 342c31481-29074 49630-71852 49630-122593m0 0z" fill="#4285f4"></path><path d="M166667 333333c44999 0 82776-14815 110370-40370l-52593-40742c-14074 9815-32963 16667-57777 16667-44074 0-81481-29073-94816-69258l-1954 166-51447 39815-673 1870c27407 54444 83704 91852 148890 91852z" fill="#34a853"></path><path d="M71851 199630c-3518-10370-5555-21482-5555-32963 0-11482 2036-22593 5370-32963l-93-2209-52091-40455-1704 811C6482 114444 1 139814 1 166666s6482 52221 17777 74814l54074-41851m0 0z" fill="#fbbc04"></path><path d="M166667 64444c31296 0 52406 13519 64444 24816l47037-45926C249260 16482 211666 1 166667 1 101481 1 45185 37408 17777 91852l53889 41853c13520-40185 50927-69260 95001-69260m0 0z" fill="#ea4335"></path></svg>
+                                  <svg
+                                    width="20px"
+                                    height="20px"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 326667 333333"
+                                    shapeRendering="geometricPrecision"
+                                    textRendering="geometricPrecision"
+                                    imageRendering="optimizeQuality"
+                                    fillRule="evenodd"
+                                    clipRule="evenodd"
+                                  >
+                                    <path
+                                      d="M326667 170370c0-13704-1112-23704-3518-34074H166667v61851h91851c-1851 15371-11851 38519-34074 54074l-311 2071 49476 38329 3428 342c31481-29074 49630-71852 49630-122593m0 0z"
+                                      fill="#4285f4"
+                                    ></path>
+                                    <path
+                                      d="M166667 333333c44999 0 82776-14815 110370-40370l-52593-40742c-14074 9815-32963 16667-57777 16667-44074 0-81481-29073-94816-69258l-1954 166-51447 39815-673 1870c27407 54444 83704 91852 148890 91852z"
+                                      fill="#34a853"
+                                    ></path>
+                                    <path
+                                      d="M71851 199630c-3518-10370-5555-21482-5555-32963 0-11482 2036-22593 5370-32963l-93-2209-52091-40455-1704 811C6482 114444 1 139814 1 166666s6482 52221 17777 74814l54074-41851m0 0z"
+                                      fill="#fbbc04"
+                                    ></path>
+                                    <path
+                                      d="M166667 64444c31296 0 52406 13519 64444 24816l47037-45926C249260 16482 211666 1 166667 1 101481 1 45185 37408 17777 91852l53889 41853c13520-40185 50927-69260 95001-69260m0 0z"
+                                      fill="#ea4335"
+                                    ></path>
+                                  </svg>
                                 </div>
                                 <div className="user">
                                   <p>Flyboyshevy87</p>
@@ -291,25 +373,13 @@ const Footer = () => {
                         >
                           <ul className="uk-slideshow-items">
                             <li>
-                              <img
-                                src="https://getuikit.com/docs/images/photo.jpg"
-                                alt=""
-                                uk-cover
-                              />
+                              <h2>hello</h2>
                             </li>
                             <li>
-                              <img
-                                src="https://getuikit.com/docs/images/dark.jpg"
-                                alt=""
-                                uk-cover
-                              />
+                              <h2>hello</h2>
                             </li>
                             <li>
-                              <img
-                                src="https://getuikit.com/docs/images/light.jpg"
-                                alt=""
-                                uk-cover
-                              />
+                              <h2>hello</h2>
                             </li>
                           </ul>
 
@@ -339,25 +409,45 @@ const Footer = () => {
         <div className="footer-middle-wrapper">
           <div className="footer-middle-area">
             <div className="footer-middle-image">
-              <img src="assets/images/footer-img-01.webp" alt="footer middle" />
+              <img
+                loading="lazy"
+                src="assets/images/footer-img-01.webp"
+                alt="footer middle"
+              />
             </div>
             <div className="footer-middle-image">
-              <img src="assets/images/footer-img-02.webp" alt="footer middle" />
+              <img
+                loading="lazy"
+                src="assets/images/footer-img-02.webp"
+                alt="footer middle"
+              />
             </div>
             <div className="footer-middle-image">
-              <img src="assets/images/footer-img-03.webp" alt="footer middle" />
+              <img
+                loading="lazy"
+                src="assets/images/footer-img-03.webp"
+                alt="footer middle"
+              />
             </div>
             <div className="footer-middle-image">
-              <img src="assets/images/footer-img-04.webp" alt="footer middle" />
+              <img
+                loading="lazy"
+                src="assets/images/footer-img-04.webp"
+                alt="footer middle"
+              />
             </div>
             <div className="footer-middle-image">
-              <img src="assets/images/footer-img-05.webp" alt="footer middle" />
+              <img
+                loading="lazy"
+                src="assets/images/footer-img-05.webp"
+                alt="footer middle"
+              />
             </div>
           </div>
         </div>
       </div>
       <footer className="header-footer-group footer-bottom">
-        <a className="toTop" href="#site-content">
+        <a aria-label="scroll to top" className="toTop" href="#site-content">
           <i className="fa-solid fa-arrow-up"></i>
         </a>
         <div className="section-inner">
