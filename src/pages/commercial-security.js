@@ -4,7 +4,7 @@ const CommercialSecurity = () => {
       <div className="csca">
         <div className="image">
           <img src="assets/images/commercial-security-hero.webp" alt="" />
-          <div class="overlay"></div>
+          <div className="overlay"></div>
         </div>
         <div className="csca-content">
           <div className="csca-content-area">
