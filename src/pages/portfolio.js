@@ -84,7 +84,7 @@ const Portfolio = () => {
             </div>
 
             <div
-              className="portfolio-content-grid "
+              className="portfolio-content-grid"
               data-uk-lightbox="animation: slide"
             >
               <div className="portfolio-content-grid-item">
