@@ -25,7 +25,7 @@ const IndoorLiving = () => {
           >
             {/* <div className="overlay" /> */}
             <div
-              class="uk-position-cover"
+              className="uk-position-cover"
               style={{ backgroundColor: "rgba(252, 251, 251, 0.23)" }}
             ></div>
 

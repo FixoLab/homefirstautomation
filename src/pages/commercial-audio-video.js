@@ -17,7 +17,7 @@ const CommercialAudioVideo = () => {
             type="video/mp4"
           />
         </video>
-        <div class="uk-position-cover" style={{backgroundColor: "rgba(0, 0, 0, 0)"}}></div>
+        <div className="uk-position-cover" style={{backgroundColor: "rgba(0, 0, 0, 0)"}}></div>
         <div className="csca-content">
           <div className="csca-content-area">
             <div className="csca-icon">
