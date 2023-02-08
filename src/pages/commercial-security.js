@@ -1,7 +1,71 @@
 const CommercialSecurity = () => {
   return (
     <div id="site-content">
-      <div className="csca">
+      <div
+        id="page#1"
+        className="uk-section-default uk-position-relative commercial-security"
+      >
+        <div
+          uk-img=""
+          className="commercial-security-wrapper uk-background-norepeat uk-background-cover uk-background-center-right uk-section uk-padding-remove-top uk-padding-remove-bottom uk-flex uk-flex-bottom"
+          uk-parallax="bgy: -20,120; easing: 1"
+          uk-height-viewport="offset-top: true; offset-bottom: ! +;"
+          style={{
+            backgroundImage: "url(assets/images/commercial-security-hero.webp)",
+          }}
+        >
+          <div
+            className="uk-position-cover"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.1)" }}
+          ></div>
+
+          <div className="uk-width-1-1 commercial-security-content">
+            <div className="uk-position-relative uk-panel">
+              <div
+                className="tm-grid-expand uk-child-width-1-1 uk-margin-remove-vertical uk-grid uk-grid-stack"
+                uk-grid=""
+              >
+                <div
+                  className="uk-grid-item-match uk-width-1-1@m uk-first-column commercial-security-content-main"
+                  id="page#0"
+                >
+                  <div className="uk-tile uk-tile-xsmall commercial-security-area">
+                    <div className="commercial-security-icon">
+                      <div className="solutions-svg">
+                        <svg
+                          uk-scrollspy="cls:uk-animation-stroke"
+                          id="commercial_automation"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlnsXlink="http://www.w3.org/1999/xlink"
+                          viewBox="10 0 79 79"
+                          className="uk-scrollspy-inview"
+                        >
+                          <path
+                            className="outline"
+                            d="M24.9,67.7h-4.7V56.2h4.7V67.7z M38.2,56.7l-3.1,3.9H24.9v4.7h12.4l5-6.2L38.2,56.7z M68.9,49.3l-3.7,2.4
+                            L61.6,58c0.4,0.1,0.8,0.1,1.2,0.1c3.6,0,6.5-2.9,6.5-6.5C69.3,50.8,69.1,50,68.9,49.3z M73.4,46.3l-35-20.2l-4.3,7.4l23.6,13.9
+                            l7.4,4.4l3.7-2.4L73.4,46.3z M57.8,47.4L34.1,33.4l-5.2,9l31.2,18l1.4-2.4l3.6-6.3L57.8,47.4z M45,60.6l3.9-6.7l-9.7-5.6L35.4,55
+                            L45,60.6z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <h1 className="uk-margin-remove-top uk-text-center">
+                      Commercial Security
+                    </h1>
+                    <h6 className="uk-margin-remove-top uk-width-2xlarge uk-margin-auto uk-text-center">
+                      Take command of your business security from anywhere with
+                      remote management and monitoring features that keep you in
+                      the know 24/7.
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className="csca">
         <div className="image">
           <img src="assets/images/commercial-security-hero.webp" alt="" />
           <div className="overlay"></div>
@@ -33,7 +97,7 @@ const CommercialSecurity = () => {
             </h6>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="csca-nav">
         <div className="control4-nav">
           <div className="control4-nav-area">
