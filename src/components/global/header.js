@@ -74,18 +74,19 @@ const Header = () => {
           <div className="header-inner section-inner">
             <div className="header-titles-wrapper">
               <button
+                aria-label="mini button"
                 className={`toggle nav-toggle mobile-nav-toggle ${
                   menuActive ? "active" : ""
                 }`}
                 onClick={toggleDrawer}
               >
-                  <i className="fa-solid fa-bars"></i>
+                <i className="fa-solid fa-bars"></i>
               </button>
               <div className="nav-location">
-                <Link to="/contact-us">
+                <Link aria-label="contact" to="/contact-us">
                   <i className="fas fa-solid fa-location-dot" />
                 </Link>
-                <a href="tel:4072283000">
+                <a aria-label="Phone Icon" href="tel:4072283000">
                   <i className="fas fa-phone" />
                 </a>
               </div>
@@ -340,7 +341,7 @@ const Header = () => {
                     id="menu-item-3288"
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3288"
                   >
-                    <a href="tel:4072283000">
+                    <a aria-label="Phone Icon" href="tel:4072283000">
                       <i className="fas fa-solid fa-phone-flip"></i>407.228.3000
                     </a>
                   </li>
@@ -368,7 +369,7 @@ const Header = () => {
                   className="toggle close-nav-toggle close-drawer"
                   onClick={toggleDrawer}
                 >
-                <i className="fa-solid fa-xmark"></i>
+                  <i className="fa-solid fa-xmark"></i>
                 </button>
 
                 <nav
