@@ -106,7 +106,7 @@ samp {
   color: #007ca1;
 }
 
-.nav-drawer{
+.nav-drawer {
   width: 448px !important;
 }
 
@@ -115,13 +115,13 @@ samp {
   color: #000000;
 }
 
-.menu-modal .close-drawer{
- background-color: #444;
+.menu-modal .close-drawer {
+  background-color: #444;
 }
-.menu-modal .close-drawer i{
- color: #fff;
- font-size: 26px;
- padding-right: 25px;
+.menu-modal .close-drawer i {
+  color: #fff;
+  font-size: 26px;
+  padding-right: 25px;
 }
 
 .widget .post-date,
@@ -353,35 +353,7 @@ li.menu-item-3288 .fas {
   transform: translate(-50%, -50%);
   object-fit: cover;
 }
-@media only screen and (min-width: 1200px) {
-  #video-background.high4kres {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    min-width: auto;
-    z-index: -100;
-    max-width: none;
-    height: auto !important;
-    transform: translate(-50%, -50%);
-    width: 100vw !important;
-  }
-  #video-background.fulltextvid {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    min-width: auto;
-    min-height: auto;
-    width: 101% !important;
-    z-index: -100;
-    max-width: none;
-    height: auto !important;
-    transform: none;
-  }
-  #video-background.customsized {
-    width: 100% !important;
-    min-width: 100%;
-  }
-}
+
 .homeintrotop {
   position: absolute;
   left: 0px;
@@ -1881,32 +1853,36 @@ a#bbblink {
   color: #58c7f1 !important;
 }
 
-.header-footer-group{
+.header-footer-group {
   background: #fff;
 }
 
 /* josh ai page  */
-.josh-ai-page .josh-ai-hero-content{
+.josh-ai-page .josh-ai-hero-content {
   padding-top: 300px;
   width: 400px !important;
-    margin-left: 60% !important;
-    position: absolute;
+  margin-left: 60% !important;
+  position: absolute;
 }
 
-.josh-ai-page .overlay2{
+.josh-ai-page .overlay2 {
   background-color: rgba(8, 8, 8, 0);
-    background-image: linear-gradient(264deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-    background-clip: padding-box;
+  background-image: linear-gradient(
+    264deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background-clip: padding-box;
 }
 
-.josh-ai-hero-content h2{
+.josh-ai-hero-content h2 {
   color: #fff;
   font-weight: 400;
   margin-top: 0px;
   position: relative;
   padding-top: 15px;
 }
-.josh-ai-hero-content h2::before{
+.josh-ai-hero-content h2::before {
   content: "";
   width: 70px;
   height: 3px;
@@ -1915,7 +1891,7 @@ a#bbblink {
   top: 0;
   left: 0;
 }
-.josh-ai-hero-content p{
+.josh-ai-hero-content p {
   color: #ffffffb3;
   font-size: 20px;
   font-weight: 300;
@@ -1944,7 +1920,6 @@ a#bbblink {
   top: 0;
   left: 0;
 }
-
 
 /* .commercial-automantion */
 .csca {
@@ -2053,9 +2028,11 @@ a#bbblink {
   font-size: 16px;
   font-weight: 300;
 }
-.commercial-technology-hero .indoor-content h1, h2, p{
-  color: #302b28 !important;
-  font-weight: 100 !important;
+.commercial-technology-hero .indoor-content h1.uk-h6,
+.commercial-technology-hero .indoor-content h2,
+.commercial-technology-hero .indoor-content p {
+  color: #302b28;
+  font-weight: 100;
 }
 .golf-simulators-hero {
   margin-top: 135px;
@@ -2077,7 +2054,8 @@ a#bbblink {
 .golf-simulators-hero .button__primary:hover {
   background-color: #58c7f1;
 }
-.contro4_hero h3, .contro4_hero .uk-margin-small  {
+.contro4_hero h3,
+.contro4_hero .uk-margin-small {
   font-weight: 300;
 }
 .contro4_hero .button__primary {
@@ -2086,7 +2064,6 @@ a#bbblink {
 .contro4_hero h3 {
   text-transform: uppercase;
 }
-
 
 .preloader {
   display: flex;
@@ -2156,7 +2133,6 @@ a#scroll-to-top {
   outline: 0;
   opacity: 0;
 }
-
 
 .overlay {
   position: absolute;
@@ -2368,16 +2344,6 @@ a#scroll-to-top {
 .a-day-life-grid > .a-day-life-grid-margin {
   margin-top: 30px;
 }
-@media (min-width: 1200px) {
-  .a-day-life-grid {
-    margin-left: -40px;
-  }
-  * + .a-day-life-grid-margin,
-  .a-day-life-grid + .a-day-life-grid,
-  .a-day-life-grid > .a-day-life-grid-margin {
-    margin-top: 40px;
-  }
-}
 
 .a-day-life-container-large {
   max-width: 1360px;
@@ -2454,36 +2420,6 @@ a#scroll-to-top {
   background-position-x: 50%;
   background-repeat: repeat-y;
 }
-@media (min-width: 640px) {
-  .tm-grid-expand > .a-day-life-width-expand\@s {
-    flex-grow: 999;
-  }
-}
-@media (min-width: 960px) {
-  .tm-grid-expand > .a-day-life-width-expand\@m {
-    flex-grow: 999;
-  }
-  @media (min-width: 960px) {
-    .uk-h1,
-    h1 {
-      font-size: 44px;
-    }
-    .uk-h2,
-    h2 {
-      font-size: 38px;
-    }
-  }
-}
-@media (min-width: 1200px) {
-  .tm-grid-expand > .a-day-life-width-expand\@l {
-    flex-grow: 999;
-  }
-}
-@media (min-width: 1600px) {
-  .tm-grid-expand > .a-day-life-width-expand\@xl {
-    flex-grow: 999;
-  }
-}
 
 .container > :last-child,
 .a-day-life-container > :last-child {
@@ -2539,51 +2475,6 @@ a#scroll-to-top {
   margin: 0;
 }
 
-@media only screen and (min-width: 640px) {
-  .a-day-life-container {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-}
-@media only screen and (min-width: 900px) {
-  .a-day-life-section {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .a-day-life-container {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  .uk-section-xlarge {
-    padding-top: 210px;
-    padding-bottom: 210px;
-  }
-}
-@media only screen and (max-width: 1200px) {
-  .a-day-life-video-section video {
-    height: 600px;
-  }
-  .a-day-life-video-section .video-content {
-    position: inherit;
-    width: auto;
-    transform: inherit;
-    left: 0;
-  }
-  .a-day-life-video-section .video-content.right-text {
-    right: 0;
-    left: 0;
-    position: inherit;
-  }
-  .a-day-life-nav .nav-item {
-    width: 33.33%;
-    margin-top: 20px;
-  }
-}
-@media only screen and (max-width: 640px) {
-  .a-day-life-video-section video {
-    height: 400px;
-  }
-}
 .csh-wrapper {
   position: relative;
 }
@@ -3839,208 +3730,6 @@ a#scroll-to-top {
   font-weight: 300;
 }
 
-@media screen and (max-width: 1400px) {
-  .golf-simulators ul li a {
-    padding: 5px;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .control4-empty {
-    padding: 40px;
-  }
-  .serviceswhitebackground p {
-    padding: 0 20px 20px !important;
-  }
-  .control4 .control4-hero {
-    height: 75vh;
-  }
-  .control4-nav .control4-nav-area {
-    flex-direction: column;
-  }
-  .golf-simulators-video {
-    padding: 50px 0;
-  }
-  .control4 .control4-hero video {
-    height: 75vh;
-  }
-  .control4 .control4-hero .control4-content {
-    width: 100%;
-    padding: 0 30px;
-  }
-  .control4-featureV2 .control4-featureV2-top {
-    flex-direction: column;
-  }
-  .control4-featureV2 .control4-featureV2-top .item {
-    width: 100%;
-  }
-  .our-process-desc {
-    flex-wrap: wrap;
-  }
-  .our-process-desc .our-process-desc-left {
-    width: 100%;
-  }
-  .our-process-desc .our-process-desc-right {
-    width: 100%;
-  }
-  .our-process-desc .our-process-desc-left .card {
-    padding: 20px;
-  }
-  .our-process-desc .our-process-desc-right .card-item {
-    padding: 30px;
-  }
-  .blog-wrapper {
-    flex-wrap: wrap;
-  }
-  .blog-wrapper .blog-content {
-    width: 100%;
-  }
-  .blog-wrapper .blog-sidebar {
-    width: 100%;
-  }
-  .blog-details .blog-wrapper {
-    flex-wrap: wrap;
-  }
-  .blog-details .blog-wrapper .area {
-    width: 100%;
-  }
-  .blog-details .blog-wrapper .related-post {
-    width: 100%;
-  }
-  .commercial-technology .title-inner .section-grid .grid-item-1 {
-    width: 100%;
-  }
-  .commercial-technology .title-inner .section-grid .grid-item-2 {
-    width: 100%;
-  }
-  .footer-middle .footer-middle-area {
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-  }
-  .footer-middle {
-    margin-top: 40px;
-  }
-  .footer-bottom {
-    margin-top: 30px;
-  }
-  .footer-bottom .section-inner {
-    flex-wrap: wrap;
-  }
-  .footer-bottom .section-inner .right-footer {
-    margin: 0 auto;
-  }
-  .footer-bottom .section-inner .middle-footer {
-    text-align: center;
-  }
-  .footer-bottom .section-inner .left-footer {
-    margin: 0 auto;
-  }
-  .home-standard .home-standard-area .content {
-    width: 100%;
-  }
-  .home-standard .home-standard-area .content .bottom {
-    margin-top: 30px;
-  }
-  .golf-simulators-video {
-    padding: 50px 0;
-  }
-  .golf-simulators-video .video-content {
-    width: 100%;
-    padding: 30px;
-  }
-  .request-quote img {
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer-bottom {
-    margin-top: 0px;
-  }
-  .footerlinks {
-    padding-bottom: 0;
-  }
-  .footer-middle {
-    display: none;
-  }
-  .footer-bottom .section-inner {
-    flex-direction: column;
-  }
-  .footer-bottom .section-inner .left-footer .license-number {
-    text-align: center;
-  }
-}
-@media screen and (max-width: 600px) {
-  .control4 .control4-hero {
-    height: 450px;
-  }
-  .control4 .control4-hero video {
-    height: 450px;
-  }
-  .blog-content-bottom {
-    grid-template-columns: 1fr;
-  }
-  .home-standard {
-    background-image: none !important;
-  }
-  .home-standard .home-standard-area {
-    padding: 0;
-  }
-  .home-standard .home-standard-area .content .image {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  .home-standard::before {
-    position: inherit;
-  }
-  .home-standard .home-standard-area .content .top {
-    padding: 30px;
-  }
-  .home-standard .home-standard-area .content .bottom {
-    padding: 0 30px;
-  }
-  .home-standard .home-standard-area .content .bottom h4 {
-    color: #000;
-  }
-  .home-standard .home-standard-area .content .bottom h6 {
-    color: #000;
-  }
-  .home-standard .home-standard-area .content .bottom a,
-  .home-standard .home-standard-area .content .bottom a:hover {
-    background-color: #000;
-  }
-}
-
-@media (min-width: 600px) {
-  .our-process video {
-    height: 550px;
-  }
-  .our-process
-    .our-process-hero
-    .our-process-hero-content
-    .content-wrapper
-    .content-title {
-    margin-bottom: 35px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .csh-card .csh-card-content {
-    padding: 40px 40px;
-  }
-  .our-process
-    .our-process-hero
-    .our-process-hero-content
-    .content-wrapper
-    .content-title {
-    margin-bottom: 45px;
-  }
-  .our-process video {
-    height: 700px;
-  }
-}
-
 /* commercial automation  */
 .commercial-page .commercial-automantion-video {
   height: 85vh;
@@ -4102,20 +3791,9 @@ a#scroll-to-top {
   width: 33.33%;
 }
 
-@media screen and (max-width: 960px) {
-  .commercial-technology .title-inner .section-grid .grid-item-1 {
-    width: 100%;
-  }
-  .commercial-technology .title-inner .section-grid .grid-item-2 {
-    width: 100%;
-  }
-}
-
 .wp-block-group.homevideo.servicespages.commercial-automantion-video {
   height: 85vh;
 }
-
-
 
 /* portfolio page  */
 
@@ -4175,50 +3853,7 @@ a#scroll-to-top {
   align-items: center;
   grid-gap: 15px;
 }
-@media only screen and (max-width: 1200px) {
-  .control4-nav.indoor-living-mobile-nav {
-    display: block;
-    text-align: center;
-  }
-  .portfolio-page .portfolio-content .portfolio-content-grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  .commercial-technology .wp-block-group.homevideo.servicespages {
-    height: 70vh !important;
-  }
 
-  .wp-block-group.homevideo.servicespages.commercial-automantion-video {
-    height: 70vh;
-  }
-
-}
-@media only screen and (max-width: 1000px) {
-  .portfolio-page .portfolio-content .portfolio-content-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-@media only screen and (max-width: 728px) {
-
-  .wp-block-group.homevideo.servicespages.commercial-automantion-video {
-    height: 40vh !important;
-  }
- 
-  .commercial-technology .wp-block-group.homevideo.servicespages {
-    height: 40vh !important;
-  }
-
-  .portfolio-page .portfolio-content .portfolio-content-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .portfolio-page .portfolio-content .portfolio-content-grid {
-    grid-template-columns: 1fr;
-  }
-  .footerlinks3 .review .mySwiper {
-    width: 100%;
-  }
-}
 .portfolio-content a {
   color: #58c7f1;
 }
@@ -4300,16 +3935,7 @@ a#scroll-to-top {
   max-width: 1400px;
   padding: 0 20px;
 }
-@media screen and (max-width: 1200px) {
-  .josh-ai-page .josh-ai-navigation .josh-ai-navigation-grid {
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-  }
-  .portfolio-page .portfolio-wrapper .career-background {
-    padding: 20px 20px !important;
-  }
-}
+
 .josh-ai-page .josh-ai-navigation .josh-ai-navigation-container {
   display: flex;
   align-items: center;
@@ -4368,11 +3994,6 @@ a#scroll-to-top {
   letter-spacing: 1px;
   color: #007ca1;
 }
-@media screen and (min-width: 700px) {
-  .josh-ai-page .josh-ai-bottom h5 {
-    margin: 0;
-  }
-}
 .max-width-hero {
   max-width: 1200px !important;
 }
@@ -4402,13 +4023,94 @@ h6 {
   background-color: #007ca1;
 }
 
-
 /* Media Querry  */
+
+@media only screen and (min-width: 1600px) {
+  .tm-grid-expand > .a-day-life-width-expand\@xl {
+    flex-grow: 999;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .golf-simulators ul li a {
+    padding: 5px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #video-background.high4kres {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    min-width: auto;
+    z-index: -100;
+    max-width: none;
+    height: auto !important;
+    transform: translate(-50%, -50%);
+    width: 100vw !important;
+  }
+  #video-background.fulltextvid {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    min-width: auto;
+    min-height: auto;
+    width: 101% !important;
+    z-index: -100;
+    max-width: none;
+    height: auto !important;
+    transform: none;
+  }
+  #video-background.customsized {
+    width: 100% !important;
+    min-width: 100%;
+  }
+  .tm-grid-expand > .a-day-life-width-expand\@l {
+    flex-grow: 999;
+  }
+  .a-day-life-grid {
+    margin-left: -40px;
+  }
+  * + .a-day-life-grid-margin,
+  .a-day-life-grid + .a-day-life-grid,
+  .a-day-life-grid > .a-day-life-grid-margin {
+    margin-top: 40px;
+  }
+  .csh-card .csh-card-content {
+    padding: 40px 40px;
+  }
+  .our-process
+    .our-process-hero
+    .our-process-hero-content
+    .content-wrapper
+    .content-title {
+    margin-bottom: 45px;
+  }
+  .our-process video {
+    height: 700px;
+  }
+}
 @media only screen and (max-width: 1200px) {
-  .josh-ai-page .josh-ai-hero-content{
+  .a-day-life-video-section video {
+    height: 600px;
+  }
+  .a-day-life-video-section .video-content {
+    position: inherit;
+    width: auto;
+    transform: inherit;
+    left: 0;
+  }
+  .a-day-life-video-section .video-content.right-text {
+    right: 0;
+    left: 0;
+    position: inherit;
+  }
+  .a-day-life-nav .nav-item {
+    width: 33.33%;
+    margin-top: 20px;
+  }
+  .josh-ai-page .josh-ai-hero-content {
     display: none;
   }
-  .josh-new-content{
+  .josh-new-content {
     display: block;
   }
   .wp-block-group.homevideo.servicespages {
@@ -4439,7 +4141,6 @@ h6 {
   .nav-toggle .toggle-inner {
     margin-top: -30px;
   }
-  
   .nav-toggle .toggle-text {
     color: #fff !important;
     font-weight: 300;
@@ -4573,8 +4274,24 @@ h6 {
   .duallefttext .iconsbox .wp-block-column {
     margin: 0px 0px 30px 0px !important;
   }
+  .portfolio-page .portfolio-content .portfolio-content-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .commercial-technology .wp-block-group.homevideo.servicespages {
+    height: 70vh !important;
+  }
+  .wp-block-group.homevideo.servicespages.commercial-automantion-video {
+    height: 70vh;
+  }
+  .josh-ai-page .josh-ai-navigation .josh-ai-navigation-grid {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .portfolio-page .portfolio-wrapper .career-background {
+    padding: 20px 20px !important;
+  }
 }
-
 @media only screen and (max-width: 1080px) {
   .homephone {
     display: none !important;
@@ -4631,9 +4348,13 @@ h6 {
     height: 120px;
     transform: translate(-50%, -50%);
   }
+  .commercial-technology .title-inner .section-grid .grid-item-1 {
+    width: 100%;
+  }
+  .commercial-technology .title-inner .section-grid .grid-item-2 {
+    width: 100%;
+  }
 }
-
-
 @media only screen and (max-width: 1000px) {
   .commercial-page .wp-block-group__inner-container h1 {
     display: none;
@@ -4644,6 +4365,115 @@ h6 {
   }
   .wp-block-group.homevideo {
     margin-top: 100px !important;
+  }
+  .control4-empty {
+    padding: 40px;
+  }
+  .serviceswhitebackground p {
+    padding: 0 20px 20px !important;
+  }
+  .control4 .control4-hero {
+    height: 75vh;
+  }
+  .control4-nav .control4-nav-area {
+    flex-direction: column;
+  }
+  .golf-simulators-video {
+    padding: 50px 0;
+  }
+  .control4 .control4-hero video {
+    height: 75vh;
+  }
+  .control4 .control4-hero .control4-content {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .control4-featureV2 .control4-featureV2-top {
+    flex-direction: column;
+  }
+  .control4-featureV2 .control4-featureV2-top .item {
+    width: 100%;
+  }
+  .our-process-desc {
+    flex-wrap: wrap;
+  }
+  .our-process-desc .our-process-desc-left {
+    width: 100%;
+  }
+  .our-process-desc .our-process-desc-right {
+    width: 100%;
+  }
+  .our-process-desc .our-process-desc-left .card {
+    padding: 20px;
+  }
+  .our-process-desc .our-process-desc-right .card-item {
+    padding: 30px;
+  }
+  .blog-wrapper {
+    flex-wrap: wrap;
+  }
+  .blog-wrapper .blog-content {
+    width: 100%;
+  }
+  .blog-wrapper .blog-sidebar {
+    width: 100%;
+  }
+  .blog-details .blog-wrapper {
+    flex-wrap: wrap;
+  }
+  .blog-details .blog-wrapper .area {
+    width: 100%;
+  }
+  .blog-details .blog-wrapper .related-post {
+    width: 100%;
+  }
+  .commercial-technology .title-inner .section-grid .grid-item-1 {
+    width: 100%;
+  }
+  .commercial-technology .title-inner .section-grid .grid-item-2 {
+    width: 100%;
+  }
+  .footer-middle .footer-middle-area {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+  .footer-middle {
+    margin-top: 40px;
+  }
+  .footer-bottom {
+    margin-top: 30px;
+  }
+  .footer-bottom .section-inner {
+    flex-wrap: wrap;
+  }
+  .footer-bottom .section-inner .right-footer {
+    margin: 0 auto;
+  }
+  .footer-bottom .section-inner .middle-footer {
+    text-align: center;
+  }
+  .footer-bottom .section-inner .left-footer {
+    margin: 0 auto;
+  }
+  .home-standard .home-standard-area .content {
+    width: 100%;
+  }
+  .home-standard .home-standard-area .content .bottom {
+    margin-top: 30px;
+  }
+  .golf-simulators-video {
+    padding: 50px 0;
+  }
+  .golf-simulators-video .video-content {
+    width: 100%;
+    padding: 30px;
+  }
+  .request-quote img {
+    margin: 0 auto;
+  }
+
+  .portfolio-page .portfolio-content .portfolio-content-grid {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media only screen and (max-width: 960px) {
@@ -4675,7 +4505,50 @@ h6 {
     padding: 35px 0;
   }
 }
-
+@media only screen and (min-width: 960px) {
+  .tm-grid-expand > .a-day-life-width-expand\@m {
+    flex-grow: 999;
+  }
+  .uk-h1,
+  h1 {
+    font-size: 44px;
+  }
+  .uk-h2,
+  h2 {
+    font-size: 38px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .a-day-life-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .a-day-life-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .uk-section-xlarge {
+    padding-top: 210px;
+    padding-bottom: 210px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer-bottom {
+    margin-top: 0px;
+  }
+  .footerlinks {
+    padding-bottom: 0;
+  }
+  .footer-middle {
+    display: none;
+  }
+  .footer-bottom .section-inner {
+    flex-direction: column;
+  }
+  .footer-bottom .section-inner .left-footer .license-number {
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 728px) {
   .homedual2.homelighting,
   .homedual2.homeshow2,
@@ -4775,8 +4648,36 @@ h6 {
   .brandscolumn {
     display: block;
   }
+  .wp-block-group.homevideo.servicespages.commercial-automantion-video {
+    height: 40vh !important;
+  }
+
+  .commercial-technology .wp-block-group.homevideo.servicespages {
+    height: 40vh !important;
+  }
+
+  .portfolio-page .portfolio-content .portfolio-content-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .josh-ai-page .josh-ai-bottom h5 {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .a-day-life-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .tm-grid-expand > .a-day-life-width-expand\@s {
+    flex-grow: 999;
+  }
 }
 @media only screen and (max-width: 640px) {
+  .a-day-life-video-section video {
+    height: 400px;
+  }
   .title-inner .section-grid .grid-item-1,
   .title-inner .section-grid .grid-item-2 {
     width: 100%;
@@ -4811,16 +4712,66 @@ h6 {
     color: #333;
   }
 }
-
+@media only screen and (min-width: 600px) {
+  .our-process video {
+    height: 550px;
+  }
+  .our-process
+    .our-process-hero
+    .our-process-hero-content
+    .content-wrapper
+    .content-title {
+    margin-bottom: 35px;
+  }
+}
 @media only screen and (max-width: 600px) {
   .control4small.homecedialogo a {
     display: none;
   }
-  .nav-drawer{
+  .nav-drawer {
     width: 80% !important;
   }
+  .control4 .control4-hero {
+    height: 450px;
+  }
+  .control4 .control4-hero video {
+    height: 450px;
+  }
+  .blog-content-bottom {
+    grid-template-columns: 1fr;
+  }
+  .home-standard {
+    background-image: none !important;
+  }
+  .home-standard .home-standard-area {
+    padding: 0;
+  }
+  .home-standard .home-standard-area .content .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .home-standard::before {
+    position: inherit;
+  }
+  .home-standard .home-standard-area .content .top {
+    padding: 30px;
+  }
+  .home-standard .home-standard-area .content .bottom {
+    padding: 0 30px;
+  }
+  .home-standard .home-standard-area .content .bottom h4 {
+    color: #000;
+  }
+  .home-standard .home-standard-area .content .bottom h6 {
+    color: #000;
+  }
+  .home-standard .home-standard-area .content .bottom a,
+  .home-standard .home-standard-area .content .bottom a:hover {
+    background-color: #000;
+  }
 }
-
 @media only screen and (max-width: 550px) {
   #video-background.fulltextvid {
     height: auto !important;
@@ -4836,4 +4787,11 @@ h6 {
     width: 100px;
   }
 }
-
+@media only screen and (max-width: 500px) {
+  .portfolio-page .portfolio-content .portfolio-content-grid {
+    grid-template-columns: 1fr;
+  }
+  .footerlinks3 .review .mySwiper {
+    width: 100%;
+  }
+}

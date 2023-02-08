@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -40,7 +40,7 @@ const IndoorLiving = () => {
                       <h1 className="uk-h6 uk-heading-bullet uk-text-left@m uk-text-center uk-scrollspy-inview ">
                         INDOOR LIVING
                       </h1>
-                      <h2 className="uk-h1 uk-width-xlarge uk-margin-auto uk-text-left@m uk-text-center uk-scrollspy-inview ">
+                      <h2 className="uk-width-xlarge uk-margin-auto uk-text-left@m uk-text-center uk-scrollspy-inview ">
                         CAPTURE THE FEELING OF SMARTER LIVING
                       </h2>
                       <div className="uk-panel uk-margin uk-text-left@m uk-text-center uk-scrollspy-inview ">
@@ -75,19 +75,6 @@ const IndoorLiving = () => {
             </div>
           </div>
         </div>
-        {/* <div className="control4-nav indoor-living-mobile-nav">
-            <div className="control4-nav-area">
-              <div className="nav-area">
-                <a href="#1">Media Room</a>
-                <a href="#2">Home Theater </a>
-                <a href="#3">Family Room</a>
-                <a href="#4">Bedroom</a>
-                <a href="#5"> Bar/Game Room</a>
-                <a href="#6"> Whole Room</a>
-              </div>
-            </div>
-          </div> */}
-
         <div className="is-layout-flex wp-container-13 wp-block-columns alignfull homedualcontainer">
           <div className="indoor-living-about">
             <div className="is-layout-flow wp-block-column indoor-living-about-box">
@@ -211,13 +198,13 @@ const IndoorLiving = () => {
               src="assets/images/indoor-2.webp"
               alt=""
             />
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "65%", left: "18%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -238,13 +225,13 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "44%", left: "39%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -267,13 +254,13 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "60%", left: "63%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -339,13 +326,13 @@ const IndoorLiving = () => {
               src="assets/images/indoor-3.webp"
               alt=""
             />
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "55%", left: "53%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -368,13 +355,13 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "27%", left: "66%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -395,13 +382,13 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "23%", left: "18%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -468,13 +455,13 @@ const IndoorLiving = () => {
               src="assets/images/indoor-4.webp"
               alt=""
             />
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "62%", left: "45%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -495,13 +482,13 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "15%", left: "45%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -522,13 +509,13 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "27%", left: "88%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -596,13 +583,13 @@ const IndoorLiving = () => {
               src="assets/images/indoor-5.webp"
               alt=""
             />
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "55%", left: "35%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -623,13 +610,13 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "35%", left: "11%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -652,13 +639,13 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "5%", left: "75%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -723,13 +710,13 @@ const IndoorLiving = () => {
               src="assets/images/indoor-6.webp"
               alt=""
             />
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "35%", left: "14%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -750,13 +737,13 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "27%", left: "66%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -777,13 +764,13 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "42%", left: "40%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -851,13 +838,13 @@ const IndoorLiving = () => {
               src="assets/images/indoor-7.webp"
               alt=""
             />
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "62%", left: "35%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -877,13 +864,13 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "8%", left: "56%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
@@ -905,13 +892,13 @@ const IndoorLiving = () => {
                 </div>
               </div>
             </div>
-            <a
+            <Link
               href="#"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "70%", left: "50%" }}
             >
               <i className="fa-solid fa-plus"></i>
-            </a>
+            </Link>
             <div
               style={{
                 width: "300px",
