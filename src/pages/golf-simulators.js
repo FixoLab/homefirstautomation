@@ -23,7 +23,7 @@ const GolfSimulators = () => {
                   <h1> Golf Simulators </h1>
                   <div className="uk-panel uk-margin">
                     <p>
-                      Play like the masters in the comfort of your Charlotte, NC
+                      Play like the masters in the comfort of your Orlando, FL
                       home with a{" "}
                       <a href="/index.php/brands/partners">
                         GOLFZON golf simulator
@@ -199,7 +199,7 @@ const GolfSimulators = () => {
                   professional and my project was completed on time. I will
                   certainly recommend to my friends."
                 </p>
-                <p className="minigray">Jess Day, Charlotte, NC</p>
+                <p className="minigray">Matt Barnes, Orlando, FL</p>
               </div>
             </div>
           </div>
