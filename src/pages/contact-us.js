@@ -41,7 +41,6 @@ const ContactUs = () => {
               <div className="wp-block-group__inner-container">
                 <div className="is-layout-flex wp-container-7 wp-block-columns pagecolumns">
                   <div className="is-layout-flow wp-block-column contactcolumn1">
-                    {" "}
                     <i className="fas fa-phone"></i>
                     <p>
                       <strong>Phone:</strong> 407.228.3000
@@ -162,7 +161,6 @@ const ContactUs = () => {
             </div>
             <div className="is-layout-flex wp-container-10 wp-block-columns alignfull servicesdualcontainer mapscontain">
               <div className="is-layout-flow wp-block-column servicesimages bigoldmap">
-                {" "}
                 <iframe
                   style={{
                     border: "0px",
