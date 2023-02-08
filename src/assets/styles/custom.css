@@ -1970,7 +1970,7 @@ a#bbblink {
   font-weight: 400;
   color: #fff;
   margin: 0;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .csca .csca-content h6 {
   color: #fff;
@@ -3243,19 +3243,19 @@ a#scroll-to-top {
 }
 .control4-nav .control4-nav-area .nav-area a {
   display: inline-block;
-  border: 1px solid #aaa;
+  border: 1px solid #007ca1 !important;
+  color: #007ca1 !important;
   padding: 8px 20px;
   border-radius: 30px;
   font-weight: 300;
-  color: rgb(255, 255, 255) !important;
   font-size: 14px;
   text-transform: uppercase;
-  background: rgba(0, 0, 0, 0.35);
+  background: transparent;
   display: flex;
   align-items: center;
 }
 .control4-nav .control4-nav-area .nav-area a:hover {
-  background: rgba(0, 0, 0, 0.61) !important;
+  background: #007ca1 !important;
   color: #fff !important;
 }
 
@@ -3814,18 +3814,18 @@ a#scroll-to-top {
 }
 .portfolio-page .Portfolio-navigation .Portfolio-navigation-container a {
   display: inline-block;
-  border: 1px solid #aaa;
+  border: 1px solid #007ca1 !important;
   padding: 8px 20px;
   border-radius: 30px;
   font-weight: 300;
-  color: rgb(255, 255, 255) !important;
+  color: #007ca1 !important;
   font-size: 14px;
   margin: 0px 15px;
   text-transform: uppercase;
-  background: rgba(0, 0, 0, 0.35);
+  background: transparent;
 }
 .portfolio-page .Portfolio-navigation .Portfolio-navigation-container a:hover {
-  background: rgba(0, 0, 0, 0.61) !important;
+  background: #007ca1 !important;
   color: #fff !important;
 }
 
@@ -3945,18 +3945,18 @@ a#scroll-to-top {
 }
 .josh-ai-page .josh-ai-navigation .josh-ai-navigation-container a {
   display: inline-block;
-  border: 1px solid #aaa;
+  border: 1px solid #007ca1;
   padding: 8px 20px;
   border-radius: 30px;
   font-weight: 300;
-  color: rgb(255, 255, 255) !important;
+  color: #007ca1 !important;
   font-size: 14px;
   margin: 0px 15px;
   text-transform: uppercase;
-  background: rgba(0, 0, 0, 0.35);
+  background: transparent;
 }
 .josh-ai-page .josh-ai-navigation .josh-ai-navigation-container a:hover {
-  background: rgba(0, 0, 0, 0.61) !important;
+  background: #007ca1 !important;
   color: #fff !important;
 }
 
@@ -4022,8 +4022,33 @@ h6 {
 .hero video {
   background-color: #007ca1;
 }
+.commercial-security .commercial-security-icon {
+  width: 120px;
+}
+.commercial-security .commercial-security-content-main {
+  background-color: rgba(31, 31, 31, 0.6);
+  justify-content: center;
+}
+.commercial-security .commercial-security-area {
+  max-width: 750px;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.commercial-security .commercial-security-area h1 {
+  margin-bottom: 10px;
+}
+.commercial-security .commercial-security-area h1,
+.commercial-security .commercial-security-area h6 {
+  color: #fff;
+}
+.commercial-security .commercial-security-icon .outline {
+  fill: #00000000;
+  stroke: #fff;
+}
 
-/* Media Querry  */
+/*** Media Querry  ***/
 
 @media only screen and (min-width: 1600px) {
   .tm-grid-expand > .a-day-life-width-expand\@xl {
@@ -4504,6 +4529,11 @@ h6 {
   .extra-padding {
     padding: 35px 0;
   }
+  .commercial-security-wrapper {
+    height: 100vh;
+    background-position: right;
+    background-size: cover;
+  }
 }
 @media only screen and (min-width: 960px) {
   .tm-grid-expand > .a-day-life-width-expand\@m {
@@ -4773,6 +4803,9 @@ h6 {
   }
 }
 @media only screen and (max-width: 550px) {
+  .site-logo img {
+    width: 140px;
+  }
   #video-background.fulltextvid {
     height: auto !important;
     width: 100% !important;
