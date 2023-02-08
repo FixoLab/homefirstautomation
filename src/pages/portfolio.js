@@ -89,6 +89,7 @@ const Portfolio = () => {
             >
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-1.webp"
                 >
@@ -102,6 +103,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-2.webp"
                 >
@@ -115,6 +117,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-3.webp"
                 >
@@ -128,6 +131,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-4.webp"
                 >
@@ -141,6 +145,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-5.webp"
                 >
@@ -154,6 +159,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-6.webp"
                 >
@@ -167,6 +173,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-7.webp"
                 >
@@ -180,6 +187,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-8.webp"
                 >
@@ -193,6 +201,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-9.webp"
                 >
@@ -206,6 +215,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-10.webp"
                 >
@@ -219,6 +229,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-11.webp"
                 >
@@ -232,6 +243,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-12.webp"
                 >
@@ -245,6 +257,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-13.webp"
                 >
@@ -258,6 +271,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-14.webp"
                 >
@@ -271,6 +285,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-15.webp"
                 >
@@ -284,6 +299,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-16.webp"
                 >
@@ -297,6 +313,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-17.webp"
                 >
@@ -310,6 +327,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-18.webp"
                 >
@@ -323,6 +341,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-19.webp"
                 >
@@ -336,6 +355,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-20.webp"
                 >
@@ -349,6 +369,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-21.webp"
                 >
@@ -362,6 +383,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-22.webp"
                 >
@@ -375,6 +397,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-23.webp"
                 >
@@ -388,6 +411,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-24.webp"
                 >
@@ -401,6 +425,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-25.webp"
                 >
@@ -414,6 +439,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-26.webp"
                 >
@@ -427,6 +453,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-27.webp"
                 >
@@ -440,6 +467,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-28.webp"
                 >
@@ -453,6 +481,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-29.webp"
                 >
@@ -466,6 +495,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-30.webp"
                 >
@@ -479,6 +509,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-31.webp"
                 >
@@ -492,6 +523,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-32.webp"
                 >
@@ -505,6 +537,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-33.webp"
                 >
@@ -518,6 +551,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-34.webp"
                 >
@@ -531,6 +565,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-35.webp"
                 >
@@ -544,6 +579,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-36.webp"
                 >
@@ -557,6 +593,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-37.webp"
                 >
@@ -570,6 +607,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-38.webp"
                 >
@@ -583,6 +621,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-39.webp"
                 >
@@ -596,6 +635,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-40.webp"
                 >
@@ -609,6 +649,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-41.webp"
                 >
@@ -622,6 +663,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-42.webp"
                 >
@@ -635,6 +677,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-43.webp"
                 >
@@ -648,6 +691,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-44.webp"
                 >
@@ -661,6 +705,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-45.webp"
                 >
@@ -674,6 +719,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-46.webp"
                 >
@@ -687,6 +733,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-47.webp"
                 >
@@ -721,6 +768,7 @@ const Portfolio = () => {
             >
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-8.webp"
                 >
@@ -734,6 +782,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-37.webp"
                 >
@@ -747,6 +796,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-10.webp"
                 >
@@ -760,6 +810,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-24.webp"
                 >
@@ -773,6 +824,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-35.webp"
                 >
@@ -786,6 +838,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-41.webp"
                 >
@@ -799,6 +852,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-42.webp"
                 >
@@ -812,6 +866,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-7.webp"
                 >
@@ -825,6 +880,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-47.webp"
                 >
@@ -838,6 +894,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-32.webp"
                 >
@@ -868,6 +925,7 @@ const Portfolio = () => {
             >
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-1.webp"
                 >
@@ -881,6 +939,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-30.webp"
                 >
@@ -894,6 +953,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-23.webp"
                 >
@@ -907,6 +967,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-47.webp"
                 >
@@ -920,6 +981,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-35.webp"
                 >
@@ -950,6 +1012,7 @@ const Portfolio = () => {
             >
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-45.webp"
                 >
@@ -963,6 +1026,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-4.webp"
                 >
@@ -976,6 +1040,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-13.webp"
                 >
@@ -989,6 +1054,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-20.webp"
                 >
@@ -1002,6 +1068,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-40.webp"
                 >
@@ -1015,6 +1082,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-21.webp"
                 >
@@ -1028,6 +1096,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-34.webp"
                 >
@@ -1041,6 +1110,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-43.webp"
                 >
@@ -1054,6 +1124,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-44.webp"
                 >
@@ -1067,6 +1138,7 @@ const Portfolio = () => {
               </div>
               <div className="portfolio-content-grid-item">
                 <a
+                  aria-label="lightbox-link"
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-36.webp"
                 >
@@ -1081,14 +1153,18 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="commercial-automation-bottom">
-            <a href="#site-content">
+            <a aria-label="lightbox-link" href="#site-content">
               <i className="fa-solid fa-arrow-up"></i>
             </a>
             <h2>EMBRACE A BEAUTIFULLY FUNCTIONAL SPACE</h2>
             <p className="minigray">
               Get More out of Your Technology Without Sacrificing Style
             </p>
-            <a className="button__primary" href="/contact-us">
+            <a
+              aria-label="lightbox-link"
+              className="button__primary"
+              href="/contact-us"
+            >
               Transform your space
             </a>
           </div>
