@@ -10,7 +10,7 @@ const Feature = ({ leftPosition }) => {
         <h2>Smart System Technology</h2>
 
         <p className="minigray">
-          Homefirst is a trusted home automation company in Orlando, Florida
+          Homefirst is a trusted <Link to="/about-us">home automation company</Link> in Orlando, Florida
           that provides cutting-edge smart home and security solutions. What’s
           more? We provide everything in between with exclusive offerings of
           services from high-end sophisticated home environments that demand

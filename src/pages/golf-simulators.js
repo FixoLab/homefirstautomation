@@ -4,26 +4,41 @@ import React from "react";
 const GolfSimulators = () => {
   return (
     <>
-      <div className="control4">
-        <div className="control4-hero">
-          <img src="assets/images/golf-simulators-01.webp" alt="" />
-          <div className="control4-content">
-            <h1>Golf Simulators</h1>
-            <div>
-              <p className="minigray">
-                Play like the masters in the comfort of your Charlotte, NC home
-                with a GOLFZON golf simulator that transports you to a stunning,
-                expansive golf course using advanced virtual renderings. Receive
-                instant feedback on your technique and the ball’s flight path on
-                every swing and play all year long when you bring the world of
-                golf to your home.
-              </p>
+      <div className="uk-section-default golf-simulators-hero">
+        <div
+          style={{
+            backgroundSize: "cover",
+            backgroundImage:
+              "url(https://theintegratedhome.net/templates/yootheme/cache/df/golfzon-golf-simulator-vision-highlights-premium-luxury-livingroom-kv-dfe30806.webp)",
+          }}
+          uk-img=""
+          className="uk-background-norepeat uk-background-center-center uk-section"
+        >
+          <div className="uk-container uk-container-large">
+            <div className="tm-grid-expand uk-grid-margin uk-grid" uk-grid="">
+              <div className="uk-width-2-3@m uk-first-column"></div>
+
+              <div className="uk-grid-item-match uk-width-1-3@m">
+                <div className="uk-tile-secondary uk-tile">
+                  <h1> Golf Simulators </h1>
+                  <div className="uk-panel uk-margin">
+                    <p>
+                      Play like the masters in the comfort of your Charlotte, NC
+                      home with a{" "}
+                      <a href="/index.php/brands/partners">
+                        GOLFZON golf simulator
+                      </a>{" "}
+                      that transports you to a stunning, expansive golf course
+                      using advanced virtual renderings. Receive instant
+                      feedback on your technique and the ball’s flight path on
+                      every swing and play all year long when you bring the
+                      world of golf to your home.
+                    </p>
+                  </div>
+                  <a className="button__primary">Learn More</a>
+                </div>
+              </div>
             </div>
-            <p>
-              <a aria-label="Scroll down01" href="#start">
-                Learn More
-              </a>
-            </p>
           </div>
         </div>
       </div>

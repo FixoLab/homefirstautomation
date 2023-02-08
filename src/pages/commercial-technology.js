@@ -1,107 +1,76 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useEffect, useState } from "react";
 
 const CommercialTechnology = () => {
-  const [windowTop, setWindowTop] = useState(0);
-  useEffect(() => {
-    function handleScroll() {
-      setWindowTop(window.pageYOffset);
-    }
-    window.addEventListener("load", handleScroll);
-    window.addEventListener("resize", handleScroll);
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("load", handleScroll);
-      window.removeEventListener("resize", handleScroll);
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const rightPosition = 100 - windowTop * 0.025 + "%";
   return (
     <div id="site-content">
-      <div className="post-inner thin ">
-        <div className="entry-content commercial-technology">
+      <div
+        className="uk-section-secondary uk-position-relative commercial-technology-hero"
+        uk-scrollspy="target: [uk-scrollspy-class]; cls: uk-animation-slide-left-medium; delay: 200;"
+      >
+        <div
+          style={{
+            minHeight: "calc((100vh - 177px) - 178.75px)",
+            backgroundImage:
+              "url(assets/images/commercial-technology-hero.webp)",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "2173px 829px",
+            backgroundPositionX: "calc(max(100%, 0px) + -370px + 24.2566px)",
+          }}
+          uk-img=""
+          className="uk-background-norepeat uk-background-cover uk-background-center-right uk-section uk-section-xlarge uk-flex uk-flex-middle"
+          uk-parallax="bgx: 0,370; easing: 1"
+          uk-height-viewport="offset-top: true; offset-bottom: ! +;"
+        >
           <div
-            className="is-layout-flow wp-block-group homevideo servicespages"
-            style={{ height: "90vh" }}
-          >
-            <div
-              className="wp-block-group__inner-container indoor-living-background"
-              style={{
-                backgroundImage:
-                  "url(assets/images/commercial-technology-hero.webp)",
-                height: "90vh",
-                backgroundPositionX: rightPosition,
-              }}
-            >
-              <div className="overlay" />
-              <div className="is-layout-flow wp-block-group homeintrotop centerintro">
-                <div className="wp-block-group__inner-container">
-                  <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible">
-                    <div className="wp-block-group__inner-container max-width-hero">
-                      <h6>COMMERCIAL TECHNOLOGY</h6>
-                      <h1>
-                        Scalable Technology Solutions for a Smarter Workplace
-                      </h1>
+            className="uk-position-cover"
+            style={{ backgroundColor: "rgba(37, 36, 36, 0.62)" }}
+          ></div>
+
+          <div className="uk-width-1-1">
+            <div className="uk-container uk-container-small uk-position-relative">
+              <div
+                className="tm-grid-expand uk-grid-margin-large uk-grid"
+                uk-grid=""
+              >
+                <div className="uk-grid-item-match uk-flex-middle uk-width-1-2@m uk-first-column">
+                  <div className="uk-panel uk-width-1-1">
+                    <h1 className="uk-h6 uk-heading-bullet uk-text-left@m uk-text-center uk-scrollspy-inview ">
+                      Commercial Technology
+                    </h1>
+                    <h2 className="uk-h1 uk-width-xlarge uk-margin-auto uk-text-left@m uk-text-center uk-scrollspy-inview ">
+                      Scalable Technology Solutions for a Smarter Workplace
+                    </h2>
+                    <div className="uk-panel uk-margin uk-text-left@m uk-text-center uk-scrollspy-inview ">
                       <p>
                         Set your organization apart with intuitive audio and
-                        video technologies that aid growth.
+                        video technologies that aid growth. &nbsp;
                       </p>
-
-                      <div>
-                        <p>
-                          <a aria-label="Scroll down01" href="#1">
-                            Executive Conference Room
-                          </a>
-                        </p>
-                        <p>
-                          <a aria-label="Scroll down02" href="#2">
-                            Restaurant / Bar
-                          </a>
-                        </p>
-                        <p>
-                          <a aria-label="Scroll down03" href="#3">
-                            Professional Office
-                          </a>
-                        </p>
-                        <p>
-                          <a aria-label="Scroll down04" href="#4">
-                            Training Spaces
-                          </a>
-                        </p>
-
-                        <p>
-                          <a aria-label="Scroll down05" href="#5">
-                            Hotel / Hospitality
-                          </a>
-                        </p>
-
-                        <p>
-                          <a aria-label="Scroll down06" href="#6">
-                            Retail
-                          </a>
-                        </p>
-                      </div>
                     </div>
                   </div>
+                </div>
+
+                <div className="uk-grid-item-match uk-flex-middle uk-width-1-2@m">
+                  <div className="uk-panel uk-width-1-1"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="control4-nav indoor-living-mobile-nav">
-            <div className="control4-nav-area">
-              <div className="nav-area">
-                <a href="#1">Executive Conference Room</a>
-                <a href="#2">Restaurant / Bar</a>
-                <a href="#3">Professional Office</a>
-                <a href="#4">Training Spaces</a>
-                <a href="#5">Hotel / Hospitality</a>
-                <a href="#6">Retail</a>
-              </div>
-            </div>
+        </div>
+      </div>
+      <div className="control4-nav">
+        <div className="control4-nav-area" style={{ justifyContent: "center" }}>
+          <div className="nav-area">
+            <a href="#1">Executive Conference Room</a>
+            <a href="#2">Restaurant / Bar</a>
+            <a href="#3">Professional Office</a>
+            <a href="#4">Training Spaces</a>
+            <a href="#5">Hotel / Hospitality</a>
+            <a href="#6">Retail</a>
           </div>
-
+        </div>
+      </div>
+      <div className="post-inner thin ">
+        <div className="entry-content commercial-technology">
           <div className="is-layout-flex wp-container-13 wp-block-columns alignfull homedualcontainer">
             <div className="indoor-living-about">
               <div className="is-layout-flow wp-block-column indoor-living-about-box">
@@ -130,7 +99,7 @@ const CommercialTechnology = () => {
               <div className="is-layout-flow wp-block-column homedual2 indoor-living-feature">
                 <div className="is-layout-flex wp-container-7 wp-block-columns iconsbox">
                   <div className="is-layout-flow wp-block-column">
-                  <i class="fas fa-house-signal"></i>
+                    <i className="fas fa-house-signal"></i>
                     <h3>INTEGRATED BUILDING CONTROL</h3>
                     <p className="minigray">
                       Streamline operations with remotely located equipment
@@ -138,7 +107,7 @@ const CommercialTechnology = () => {
                     </p>
                   </div>
                   <div className="is-layout-flow wp-block-column">
-                  <i class="fas fa-network-wired"></i>
+                    <i className="fas fa-network-wired"></i>
                     <h3>CENTRALIZED DISTRIBUTION</h3>
                     <p className="minigray">
                       Streamline operations with remotely located equipment
@@ -147,7 +116,7 @@ const CommercialTechnology = () => {
                   </div>
 
                   <div className="is-layout-flow wp-block-column">
-                  <i class="fas fa-city"></i>
+                    <i className="fas fa-city"></i>
                     <h3>MOTORIZED WINDOW TREATMENTS</h3>
                     <p className="minigray">
                       Optimize natural light while managing any resulting heat
@@ -175,7 +144,7 @@ const CommercialTechnology = () => {
                   </div>
 
                   <div className="is-layout-flow wp-block-column">
-                    <i class="fas fa-lightbulb"></i>
+                    <i className="fas fa-lightbulb"></i>
                     <h3>LIGHTING </h3>
                     <p className="minigray">
                       Improve employee morale and reduce costs with intuitive

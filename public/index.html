@@ -9,17 +9,28 @@
     <meta http-equiv="Cache-Control" content="max-age=200" >
     <link rel="preload" as="image" href="%PUBLIC_URL%/logo192.png" >
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" >
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css">
+    <link
+      rel="preload"
+      as="style"
+      onload="this.rel = 'stylesheet'"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css"
+    >
+    <link
+      rel="preload"
+      as="style"
+      onload="this.rel = 'stylesheet'"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    >
     <title>Home first automation</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script
-      src="https://kit.fontawesome.com/be87188dd9.js"
-      crossorigin="anonymous"
+      rel="preload"
+      src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"
+      async
       defer
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js" defer></script>
   </body>
 </html>

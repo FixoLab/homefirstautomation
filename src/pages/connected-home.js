@@ -1,5 +1,6 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ConnectedHome = () => {
   return (
@@ -24,13 +25,13 @@ const ConnectedHome = () => {
           src="assets/images/connected-home.webp"
           alt=""
         />
-        <a
+        <Link
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "64%", left: "81%" }}
         >
           <i className="fa-solid fa-plus"></i>
-        </a>
+        </Link>
         <div
           style={{
             width: "300px",
@@ -59,13 +60,13 @@ const ConnectedHome = () => {
             </div>
           </div>
         </div>
-        <a
+        <Link
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "46%", left: "42%" }}
         >
           <i className="fa-solid fa-plus"></i>
-        </a>
+        </Link>
         <div
           style={{
             width: "300px",
@@ -94,13 +95,13 @@ const ConnectedHome = () => {
             </div>
           </div>
         </div>
-        <a
+        <Link
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "45%", left: "75%" }}
         >
           <i className="fa-solid fa-plus"></i>
-        </a>
+        </Link>
         <div
           style={{
             width: "300px",
@@ -129,13 +130,13 @@ const ConnectedHome = () => {
             </div>
           </div>
         </div>
-        <a
+        <Link
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "75%", left: "11%" }}
         >
           <i className="fa-solid fa-plus"></i>
-        </a>
+        </Link>
         <div
           style={{
             width: "300px",
@@ -167,13 +168,13 @@ const ConnectedHome = () => {
             </div>
           </div>
         </div>
-        <a
+        <Link
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "83%", left: "23%" }}
         >
           <i className="fa-solid fa-plus"></i>
-        </a>
+        </Link>
         <div
           style={{
             width: "300px",
@@ -201,13 +202,13 @@ const ConnectedHome = () => {
             </div>
           </div>
         </div>
-        <a
+        <Link
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "85%", left: "37%" }}
         >
           <i className="fa-solid fa-plus"></i>
-        </a>
+        </Link>
         <div
           style={{
             width: "300px",
@@ -236,13 +237,13 @@ const ConnectedHome = () => {
             </div>
           </div>
         </div>
-        <a
+        <Link
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "63%", left: "52%" }}
         >
           <i className="fa-solid fa-plus"></i>
-        </a>
+        </Link>
         <div
           style={{
             width: "300px",
@@ -273,13 +274,13 @@ const ConnectedHome = () => {
             </div>
           </div>
         </div>
-        <a
+        <Link
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "85%", left: "56%" }}
         >
           <i className="fa-solid fa-plus"></i>
-        </a>
+        </Link>
         <div
           style={{
             width: "300px",
@@ -308,13 +309,13 @@ const ConnectedHome = () => {
             </div>
           </div>
         </div>
-        <a
+        <Link
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "63%", left: "40%" }}
         >
           <i className="fa-solid fa-plus"></i>
-        </a>
+        </Link>
         <div
           style={{
             width: "300px",
@@ -343,13 +344,13 @@ const ConnectedHome = () => {
             </div>
           </div>
         </div>
-        <a
+        <Link
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "43%", left: "83%" }}
         >
           <i className="fa-solid fa-plus"></i>
-        </a>
+        </Link>
         <div
           style={{
             width: "300px",
@@ -378,13 +379,13 @@ const ConnectedHome = () => {
             </div>
           </div>
         </div>
-        <a
+        <Link
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "65%", left: "20%" }}
         >
           <i className="fa-solid fa-plus"></i>
-        </a>
+        </Link>
         <div
           style={{
             width: "300px",

@@ -304,7 +304,7 @@ const About = () => {
 
             <h2 className="pickareaheading">Whats your Interest</h2>
 
-            <div className="is-layout-flex wp-container-28 wp-block-columns pickanarea">
+            <div className="is-layout-flex wp-container-28 interest wp-block-columns pickanarea">
               <div className="is-layout-flow wp-block-column">
                 <div className="is-layout-flex wp-container-20 wp-block-columns">
                   <div

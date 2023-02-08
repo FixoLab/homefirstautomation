@@ -5,32 +5,35 @@ const contactFrom = process.env.REACT_APP_CONTACTFROM;
 const Careers = () => {
   return (
     <>
-      <div id="site-content">
-        <div className="is-layout-flow wp-block-group homevideo servicespages commercial-automantion-video">
+      <div className="uk-section-secondary uk-position-relative carears-hero">
+        <div
+          style={{
+            backgroundImage: "url(assets/images/careers-hero.webp)",
+          }}
+          uk-img=""
+          className="uk-background-norepeat uk-background-center-center uk-section uk-section-xlarge"
+          uk-parallax="bgx: -120,100; bgy: 0,0; easing: 1"
+        >
           <div
-            className="wp-block-group__inner-container indoor-living-background career-background"
-            style={{
-              backgroundImage: "url(assets/images/careers-hero.webp)",
-            }}
-          >
-            <div className="overlay2" />
-            <div className="uk-container uk-container-large uk-position-relative">
-              <div className="tm-grid-expand uk-grid-margin uk-grid" uk-grid="">
-                <div className="uk-width-2-3@m"></div>
+            className="uk-position-cover"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.58)" }}
+          ></div>
+          <div className="uk-container uk-container-large uk-position-relative">
+            <div className="tm-grid-expand uk-grid-margin uk-grid" uk-grid="">
+              <div className="uk-width-2-3@m"></div>
 
-                <div className="uk-grid-item-match uk-flex-middle uk-width-1-3@m uk-flex-first@m uk-first-column">
-                  <div className="uk-panel uk-width-1-1">
-                    <h1>
-                      Careers
-                    </h1>
-                    <div >
-                      <p className="minigray">
-                        Are you passionate about technology? In our thriving
-                        smart home business, we believe taking great care of our
-                        clients is the most important way to set our company
-                        apart.
-                      </p>
-                    </div>
+              <div className="uk-grid-item-match uk-flex-middle uk-width-1-3@m uk-flex-first@m uk-first-column">
+                <div className="uk-panel uk-width-1-1">
+                  <div className="uk-divider-small uk-text-left"></div>
+                  <h2 className="uk-h1 uk-margin-remove-top uk-width-xlarge uk-text-left">
+                    Careers
+                  </h2>
+                  <div className="uk-panel uk-text-lead uk-margin uk-width-xlarge uk-text-left">
+                    <p>
+                      Are you passionate about technology? In our thriving smart
+                      home business, we believe taking great care of our clients
+                      is the most important way to set our company apart.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -38,6 +41,7 @@ const Careers = () => {
           </div>
         </div>
       </div>
+
       <div className="uk-section-default uk-section careers-team">
         <div className="uk-container uk-container-large">
           <div className="tm-grid-expand uk-grid-margin uk-grid" uk-grid="">
