@@ -29,7 +29,7 @@ const CommercialTechnology = () => {
           <div className="uk-width-1-1">
             <div className="uk-container uk-container-small uk-position-relative">
               <div
-                className="tm-grid-expand uk-grid-large uk-grid-margin-large uk-grid"
+                className="tm-grid-expand uk-grid-margin-large uk-grid"
                 uk-grid=""
               >
                 <div className="uk-grid-item-match uk-flex-middle uk-width-1-2@m uk-first-column">

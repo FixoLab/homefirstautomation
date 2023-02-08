@@ -84,7 +84,7 @@ const Portfolio = () => {
             </div>
 
             <div
-              className="portfolio-content-grid "
+              className="portfolio-content-grid"
               data-uk-lightbox="animation: slide"
             >
               <div className="portfolio-content-grid-item">
@@ -103,10 +103,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-2.jpeg"
+                  href="assets/images/portfolio-lighting-2.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-2.jpeg"
+                    src="assets/images/portfolio-lighting-2.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -116,10 +116,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-3.jpeg"
+                  href="assets/images/portfolio-lighting-3.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-3.jpeg"
+                    src="assets/images/portfolio-lighting-3.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -129,10 +129,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-4.jpeg"
+                  href="assets/images/portfolio-lighting-4.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-4.jpeg"
+                    src="assets/images/portfolio-lighting-4.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -142,10 +142,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-5.jpeg"
+                  href="assets/images/portfolio-lighting-5.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-5.jpeg"
+                    src="assets/images/portfolio-lighting-5.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -155,10 +155,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-6.jpeg"
+                  href="assets/images/portfolio-lighting-6.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-6.jpeg"
+                    src="assets/images/portfolio-lighting-6.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -168,10 +168,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-7.jpeg"
+                  href="assets/images/portfolio-lighting-7.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-7.jpeg"
+                    src="assets/images/portfolio-lighting-7.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -181,10 +181,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-8.jpeg"
+                  href="assets/images/portfolio-lighting-8.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-8.jpeg"
+                    src="assets/images/portfolio-lighting-8.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -194,10 +194,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-9.jpeg"
+                  href="assets/images/portfolio-lighting-9.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-9.jpeg"
+                    src="assets/images/portfolio-lighting-9.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -207,10 +207,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-10.jpeg"
+                  href="assets/images/portfolio-lighting-10.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-10.jpeg"
+                    src="assets/images/portfolio-lighting-10.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -220,10 +220,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-11.jpeg"
+                  href="assets/images/portfolio-lighting-11.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-11.jpeg"
+                    src="assets/images/portfolio-lighting-11.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -233,10 +233,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-12.jpeg"
+                  href="assets/images/portfolio-lighting-12.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-12.jpeg"
+                    src="assets/images/portfolio-lighting-12.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -246,10 +246,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-13.jpeg"
+                  href="assets/images/portfolio-lighting-13.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-13.jpeg"
+                    src="assets/images/portfolio-lighting-13.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -259,10 +259,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-14.jpeg"
+                  href="assets/images/portfolio-lighting-14.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-14.jpeg"
+                    src="assets/images/portfolio-lighting-14.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -272,10 +272,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-15.jpeg"
+                  href="assets/images/portfolio-lighting-15.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-15.jpeg"
+                    src="assets/images/portfolio-lighting-15.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -285,10 +285,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-16.jpeg"
+                  href="assets/images/portfolio-lighting-16.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-16.jpeg"
+                    src="assets/images/portfolio-lighting-16.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -298,10 +298,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-17.jpeg"
+                  href="assets/images/portfolio-lighting-17.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-17.jpeg"
+                    src="assets/images/portfolio-lighting-17.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -311,10 +311,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-18.jpeg"
+                  href="assets/images/portfolio-lighting-18.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-18.jpeg"
+                    src="assets/images/portfolio-lighting-18.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -337,10 +337,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-20.jpeg"
+                  href="assets/images/portfolio-lighting-20.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-20.jpeg"
+                    src="assets/images/portfolio-lighting-20.webp"
                     width="1800"
                     height="1200"
                     alt=""
@@ -350,10 +350,10 @@ const Portfolio = () => {
               <div className="portfolio-content-grid-item">
                 <a
                   className="uk-inline"
-                  href="assets/images/portfolio-lighting-21.jpeg"
+                  href="assets/images/portfolio-lighting-21.webp"
                 >
                   <img
-                    src="assets/images/portfolio-lighting-21.jpeg"
+                    src="assets/images/portfolio-lighting-21.webp"
                     width="1800"
                     height="1200"
                     alt=""

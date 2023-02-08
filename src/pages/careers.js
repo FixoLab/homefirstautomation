@@ -70,9 +70,9 @@ const Careers = () => {
                 </li>
               </ul>
               <div className="uk-margin">
-                <Link className="button__primary" to="/contact-us" uk-scroll="">
+                <a className="button__primary" href="#jobs" uk-scroll="">
                   Apply Now
-                </Link>
+                </a>
               </div>
             </div>
 
