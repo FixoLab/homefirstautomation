@@ -3855,10 +3855,10 @@ a#scroll-to-top {
 }
 
 .portfolio-content a {
-  color: #58c7f1;
+  color: #007ca1;
 }
 .portfolio-content a:hover {
-  color: #007ca1 !important;
+  color: #289abd !important;
 }
 .portfolio-page
   .portfolio-content
