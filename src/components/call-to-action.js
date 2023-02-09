@@ -14,7 +14,7 @@ const CallToAction = () => {
           <img
             width="2000"
             height="1273"
-            src="assets/images/project1-a.jpg"
+            src="assets/images/project1-a.webp"
             alt=""
             className="wp-image-877"
           />

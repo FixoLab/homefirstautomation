@@ -105,7 +105,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/home-show2-1.jpg"
+                  src="assets/images/home-show2-1.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -122,7 +122,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/smart10.jpg"
+                  src="assets/images/smart10.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -177,7 +177,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/smart2.jpg"
+                  src="assets/images/smart2.webp"
                   alt=""
                   className="wp-image-1544"
                 />
@@ -199,7 +199,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/smart7.jpg"
+                  src="assets/images/smart7.webp"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -278,7 +278,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/home-shades.jpg"
+                  src="assets/images/home-shades.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -353,7 +353,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/smart-4.jpg"
+                  src="assets/images/smart-4.webp"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -370,7 +370,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/home-audio-1.jpg"
+                  src="assets/images/home-audio-1.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -392,7 +392,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="2396"
                   height="1600"
-                  src="assets/images/home-audio1.jpg"
+                  src="assets/images/home-audio1.webp"
                   alt=""
                   className="wp-image-848"
                 />
@@ -473,7 +473,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="1024"
                   height="752"
-                  src="assets/images/smart61.jpg"
+                  src="assets/images/smart61.webp"
                   alt=""
                   className="wp-image-1711"
                 />
@@ -553,7 +553,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/home-security1.jpg"
+                  src="assets/images/home-security1.webp"
                   alt=""
                   className="wp-image-845"
                 />
@@ -634,7 +634,7 @@ const SmartHomeAutomation = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/smart12a.jpg"
+                  src="assets/images/smart12a.webp"
                   alt=""
                   className="wp-image-2491"
                 />
