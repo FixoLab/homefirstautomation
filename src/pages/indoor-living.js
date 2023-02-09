@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -200,6 +199,7 @@ const IndoorLiving = () => {
             />
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "65%", left: "18%" }}
             >
@@ -227,6 +227,7 @@ const IndoorLiving = () => {
             </div>
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "44%", left: "39%" }}
             >
@@ -256,6 +257,7 @@ const IndoorLiving = () => {
             </div>
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "60%", left: "63%" }}
             >
@@ -328,6 +330,7 @@ const IndoorLiving = () => {
             />
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "55%", left: "53%" }}
             >
@@ -357,6 +360,7 @@ const IndoorLiving = () => {
             </div>
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "27%", left: "66%" }}
             >
@@ -384,6 +388,7 @@ const IndoorLiving = () => {
             </div>
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "23%", left: "18%" }}
             >
@@ -457,6 +462,7 @@ const IndoorLiving = () => {
             />
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "62%", left: "45%" }}
             >
@@ -484,6 +490,7 @@ const IndoorLiving = () => {
             </div>
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "15%", left: "45%" }}
             >
@@ -511,6 +518,7 @@ const IndoorLiving = () => {
             </div>
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "27%", left: "88%" }}
             >
@@ -585,6 +593,7 @@ const IndoorLiving = () => {
             />
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "55%", left: "35%" }}
             >
@@ -612,6 +621,7 @@ const IndoorLiving = () => {
             </div>
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "35%", left: "11%" }}
             >
@@ -641,6 +651,7 @@ const IndoorLiving = () => {
             </div>
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "5%", left: "75%" }}
             >
@@ -712,6 +723,7 @@ const IndoorLiving = () => {
             />
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "35%", left: "14%" }}
             >
@@ -739,6 +751,7 @@ const IndoorLiving = () => {
             </div>
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "27%", left: "66%" }}
             >
@@ -766,6 +779,7 @@ const IndoorLiving = () => {
             </div>
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "42%", left: "40%" }}
             >
@@ -840,6 +854,7 @@ const IndoorLiving = () => {
             />
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "62%", left: "35%" }}
             >
@@ -866,6 +881,7 @@ const IndoorLiving = () => {
             </div>
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "8%", left: "56%" }}
             >
@@ -894,6 +910,7 @@ const IndoorLiving = () => {
             </div>
             <Link
               href="#"
+              aria-label="icon"
               className="csh-plus-icon csh-marker uk-marker"
               style={{ top: "70%", left: "50%" }}
             >
