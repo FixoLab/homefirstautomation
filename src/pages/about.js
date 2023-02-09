@@ -88,7 +88,7 @@ const About = () => {
                       width="335"
                       height="61"
                       className="wp-image-695"
-                      src="assets/images/signature.png"
+                      src="assets/images/signature.webp"
                       alt=""
                     />
                   </div>
@@ -106,7 +106,7 @@ const About = () => {
                     >
                       <img
                         style={{ display: "block" }}
-                        src="assets/images/boha-2019-solid-border.png"
+                        src="assets/images/boha-2019-solid-border.webp"
                         alt="HomeFirst - Best of HomeAdvisor"
                       />
                     </Link>
@@ -121,7 +121,7 @@ const About = () => {
                           <td>
                             <Link to="#">
                               <img
-                                src="assets/images/badge125.png"
+                                src="assets/images/badge125.webp"
                                 alt="Joshua Trevithick in Orlando, Florida, CA on Houzz"
                                 width="125"
                                 height="125"
@@ -142,7 +142,7 @@ const About = () => {
                           <td>
                             <Link to="#">
                               <img
-                                src="assets/images/badge54.png"
+                                src="assets/images/badge54.webp"
                                 alt="Joshua Trevithick in Orlando, Florida, CA on Houzz"
                                 width="80"
                                 height="80"
@@ -158,7 +158,7 @@ const About = () => {
                         width="376"
                         height="365"
                         className="wp-image-566"
-                        src="assets/images/cedia2-logo.png"
+                        src="assets/images/cedia2-logo.webp"
                         alt=""
                       />
                     </figure>
@@ -172,7 +172,7 @@ const About = () => {
                       <img
                         id="bbblinkimg"
                         style={{ padding: "0px", border: "none" }}
-                        src="assets/images/project1.png"
+                        src="assets/images/project1.webp"
                         alt="HomeFirst, Audio Visual Equipment, Orlando, Florida, CA"
                         width="400"
                         height="90"
@@ -183,7 +183,7 @@ const About = () => {
                         width="675"
                         height="690"
                         className="wp-image-536"
-                        src="assets/images/control4gold-logo.png"
+                        src="assets/images/control4gold-logo.webp"
                         alt=""
                       />
                     </figure>
@@ -192,7 +192,7 @@ const About = () => {
                         <Link to="#">
                           <img
                             className="wp-image-3276"
-                            src="assets/images/cediacit.png"
+                            src="assets/images/cediacit.webp"
                             alt=""
                             width="159"
                             height="159"
@@ -212,7 +212,7 @@ const About = () => {
                         width="600"
                         height="600"
                         className="wp-image-545"
-                        src="assets/images/coming-soon.jpg"
+                        src="assets/images/coming-soon.webp"
                         alt=""
                       />
                       <figcaption>
@@ -227,7 +227,7 @@ const About = () => {
                         width="600"
                         height="600"
                         className="wp-image-555"
-                        src="assets/images/coming-soon.jpg"
+                        src="assets/images/coming-soon.webp"
                         alt=""
                       />
                       <figcaption>
@@ -243,7 +243,7 @@ const About = () => {
                         width="600"
                         height="600"
                         className="wp-image-552"
-                        src="assets/images/coming-soon.jpg"
+                        src="assets/images/coming-soon.webp"
                         alt=""
                       />
                       <figcaption>
@@ -258,7 +258,7 @@ const About = () => {
                         width="600"
                         height="600"
                         className="wp-image-548"
-                        src="assets/images/coming-soon.jpg"
+                        src="assets/images/coming-soon.webp"
                         alt=""
                       />
                       <figcaption>
@@ -274,7 +274,7 @@ const About = () => {
                         width="600"
                         height="600"
                         className="wp-image-556"
-                        src="assets/images/coming-soon.jpg"
+                        src="assets/images/coming-soon.webp"
                         alt=""
                       />
                       <figcaption>
@@ -289,7 +289,7 @@ const About = () => {
                         width="600"
                         height="600"
                         className="wp-image-550"
-                        src="assets/images/coming-soon.jpg"
+                        src="assets/images/coming-soon.webp"
                         alt=""
                       />
                       <figcaption>

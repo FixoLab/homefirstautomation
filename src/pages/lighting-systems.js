@@ -92,7 +92,7 @@ const LightingSystems = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/audio9.jpg"
+                  src="assets/images/audio9.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -109,7 +109,7 @@ const LightingSystems = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/lighting-7.jpg"
+                  src="assets/images/lighting-7.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -131,7 +131,7 @@ const LightingSystems = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/audio8.jpg"
+                  src="assets/images/audio8.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -159,7 +159,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/lutron-services.png"
+                        src="assets/images/lutron-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -171,7 +171,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/coastalsource-services.png"
+                        src="assets/images/coastalsource-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -183,7 +183,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/crestron-services.png"
+                        src="assets/images/crestron-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -208,7 +208,7 @@ const LightingSystems = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/lighting1.jpg"
+                  src="assets/images/lighting1.webp"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -238,7 +238,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/lutron-services.png"
+                        src="assets/images/lutron-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -250,7 +250,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/coastalsource-services.png"
+                        src="assets/images/coastalsource-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -262,7 +262,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/crestron-services.png"
+                        src="assets/images/crestron-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -287,7 +287,7 @@ const LightingSystems = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/lighting9.jpg"
+                  src="assets/images/lighting9.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -316,7 +316,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/coastalsource-services.png"
+                        src="assets/images/coastalsource-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -328,7 +328,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -349,7 +349,7 @@ const LightingSystems = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/lighting6.jpg"
+                  src="assets/images/lighting6.webp"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -366,7 +366,7 @@ const LightingSystems = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/audio10.jpg"
+                  src="assets/images/audio10.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -387,7 +387,7 @@ const LightingSystems = () => {
                 <img
                   width="2396"
                   height="1600"
-                  src="assets/images/lighting5.jpg"
+                  src="assets/images/lighting5.webp"
                   alt=""
                   className="wp-image-848"
                 />
@@ -416,7 +416,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/coastalsource-services.png"
+                        src="assets/images/coastalsource-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -428,7 +428,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/alarmdotcom-services.png"
+                        src="assets/images/alarmdotcom-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -440,7 +440,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -464,7 +464,7 @@ const LightingSystems = () => {
                 <img
                   width="1024"
                   height="752"
-                  src="assets/images/audio3.jpg"
+                  src="assets/images/audio3.webp"
                   alt=""
                   className="wp-image-1711"
                 />
@@ -494,7 +494,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/coastalsource-services.png"
+                        src="assets/images/coastalsource-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -506,7 +506,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -518,7 +518,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/crestron-services.png"
+                        src="assets/images/crestron-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -542,7 +542,7 @@ const LightingSystems = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/audio2.jpg"
+                  src="assets/images/audio2.webp"
                   alt=""
                   className="wp-image-845"
                 />
@@ -569,7 +569,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/lutron-services.png"
+                        src="assets/images/lutron-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -581,7 +581,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/crestron-services.png"
+                        src="assets/images/crestron-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -593,7 +593,7 @@ const LightingSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/josh-ai-services.png"
+                        src="assets/images/josh-ai-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />

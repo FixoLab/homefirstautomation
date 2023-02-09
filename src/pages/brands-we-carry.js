@@ -12,7 +12,7 @@ const BrandsWeCarry = () => {
               <div
                 className="fullimagetop"
                 style={{
-                  backgroundImage: "url(/assets/images/brandheader.jpg)",
+                  backgroundImage: "url(/assets/images/brandheader.webp)",
                 }}
               >
                 &nbsp;
@@ -60,7 +60,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="300"
-                          src="assets/images/control4.jpg"
+                          src="assets/images/control4.webp"
                           alt=""
                           className="wp-image-1457"
                         />
@@ -76,7 +76,7 @@ const BrandsWeCarry = () => {
                       <figure className="wp-block-image size-large is-resized brandlogo">
                         <Link to="/control-4">
                           <img
-                            src="assets/images/control4a.jpg"
+                            src="assets/images/control4a.webp"
                             alt=""
                             className="wp-image-1466"
                             width="150"
@@ -95,7 +95,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="300"
-                          src="assets/images/crestrona.jpg"
+                          src="assets/images/crestrona.webp"
                           alt=""
                           className="wp-image-1666"
                         />
@@ -118,7 +118,7 @@ const BrandsWeCarry = () => {
                           <img
                             width="150"
                             height="26"
-                            src="assets/images/crestron.jpg"
+                            src="assets/images/crestron.webp"
                             alt=""
                             className="wp-image-1668"
                           />
@@ -135,7 +135,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="313"
-                          src="assets/images/savant.jpg"
+                          src="assets/images/savant.webp"
                           alt=""
                           className="wp-image-1479"
                         />
@@ -157,7 +157,7 @@ const BrandsWeCarry = () => {
                           <img
                             width="150"
                             height="23"
-                            src="assets/images/savanta.jpg"
+                            src="assets/images/savanta.webp"
                             alt=""
                             className="wp-image-1478"
                           />
@@ -187,7 +187,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="313"
-                          src="assets/images/lutron.jpg"
+                          src="assets/images/lutron.webp"
                           alt=""
                           className="wp-image-1481"
                         />
@@ -208,7 +208,7 @@ const BrandsWeCarry = () => {
                           <img
                             width="150"
                             height="26"
-                            src="assets/images/lutrona.jpg"
+                            src="assets/images/lutrona.webp"
                             alt=""
                             className="wp-image-1482"
                           />
@@ -225,7 +225,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="300"
-                          src="assets/images/hunter.jpg"
+                          src="assets/images/hunter.webp"
                           alt=""
                           className="wp-image-1486"
                         />
@@ -248,7 +248,7 @@ const BrandsWeCarry = () => {
                           <img
                             width="150"
                             height="29"
-                            src="assets/images/huntera.jpg"
+                            src="assets/images/huntera.webp"
                             alt=""
                             className="wp-image-1487"
                           />
@@ -265,7 +265,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="300"
-                          src="assets/images/coastal.jpg"
+                          src="assets/images/coastal.webp"
                           alt=""
                           className="wp-image-1489"
                         />
@@ -286,7 +286,7 @@ const BrandsWeCarry = () => {
                           <img
                             width="150"
                             height="22"
-                            src="assets/images/coastala.jpg"
+                            src="assets/images/coastala.webp"
                             alt=""
                             className="wp-image-1490"
                           />
@@ -305,7 +305,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="300"
-                          src="assets/images/joshai-brand.jpg"
+                          src="assets/images/joshai-brand.webp"
                           alt=""
                           className="wp-image-2191"
                         />
@@ -325,7 +325,7 @@ const BrandsWeCarry = () => {
                           <img
                             width="150"
                             height="51"
-                            src="assets/images/joshai-blacklogo.jpg"
+                            src="assets/images/joshai-blacklogo.webp"
                             alt=""
                             className="wp-image-2193"
                           />
@@ -342,7 +342,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="300"
-                          src="assets/images/ruckus.jpg"
+                          src="assets/images/ruckus.webp"
                           alt=""
                           className="wp-image-1500"
                         />
@@ -365,7 +365,7 @@ const BrandsWeCarry = () => {
                           <img
                             width="150"
                             height="44"
-                            src="assets/images/ruckusa.jpg"
+                            src="assets/images/ruckusa.webp"
                             alt=""
                             className="wp-image-1499"
                           />
@@ -382,7 +382,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="300"
-                          src="assets/images/knx-mini.jpg"
+                          src="assets/images/knx-mini.webp"
                           alt=""
                           className="wp-image-2286"
                         />
@@ -400,7 +400,7 @@ const BrandsWeCarry = () => {
                           <img
                             width="133"
                             height="59"
-                            src="assets/images/knx-logo1.png"
+                            src="assets/images/knx-logo1.webp"
                             alt=""
                             className="wp-image-2283"
                           />
@@ -419,7 +419,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="300"
-                          src="assets/images/alarmcom.jpg"
+                          src="assets/images/alarmcom.webp"
                           alt=""
                           className="wp-image-1475"
                         />
@@ -440,7 +440,7 @@ const BrandsWeCarry = () => {
                           <img
                             width="150"
                             height="28"
-                            src="assets/images/alarmcoma.jpg"
+                            src="assets/images/alarmcoma.webp"
                             alt=""
                             className="wp-image-1476"
                           />

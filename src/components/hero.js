@@ -54,7 +54,7 @@ const Hero = () => {
                     <figure className="alignleft size-large is-resized">
                       <Link aria-label="hero image" to="#">
                         <img
-                          src="assets/images/cediacit.png"
+                          src="assets/images/cediacit.webp"
                           alt="hero"
                           className="wp-image-3276"
                           width="159"

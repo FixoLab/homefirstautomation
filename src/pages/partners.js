@@ -11,7 +11,7 @@ const Partners = () => {
               <div
                 className="fullimagetop"
                 style={{
-                  backgroundImage: "url(/assets/images/partners4a.jpg)",
+                  backgroundImage: "url(/assets/images/partners4a.webp)",
                 }}
               ></div>
 
@@ -38,7 +38,7 @@ const Partners = () => {
                     <img
                       width="900"
                       height="450"
-                      src="assets/images/main-interior-1.jpg"
+                      src="assets/images/main-interior-1.webp"
                       alt=""
                       className="wp-image-2761"
                     />
@@ -53,7 +53,7 @@ const Partners = () => {
                     <img
                       width="900"
                       height="450"
-                      src="assets/images/main-builder-1.jpg"
+                      src="assets/images/main-builder-1.webp"
                       alt=""
                       className="wp-image-2762"
                     />
@@ -69,7 +69,7 @@ const Partners = () => {
                     <img
                       width="900"
                       height="450"
-                      src="assets/images/main-architect-1.jpg"
+                      src="assets/images/main-architect-1.webp"
                       alt=""
                       className="wp-image-2763"
                     />
@@ -86,7 +86,7 @@ const Partners = () => {
                     <img
                       width="900"
                       height="450"
-                      src="assets/images/main-realtor-1.jpg"
+                      src="assets/images/main-realtor-1.webp"
                       alt=""
                       className="wp-image-2764"
                     />
@@ -106,7 +106,7 @@ const Partners = () => {
                 className="fullimagetop"
                 style={{
                   backgroundAttachment: "fixed",
-                  backgroundImage: "url(/assets/images/partners5a.jpg)",
+                  backgroundImage: "url(/assets/images/partners5a.webp)",
                 }}
               ></div>
               <div className="is-layout-flow wp-block-group homeintrotop centerintro partnercenter">
@@ -173,7 +173,7 @@ const Partners = () => {
                 className="fullimagetop"
                 style={{
                   backgroundAttachment: "fixed",
-                  backgroundImage: "url(/assets/images/partners6.jpg)",
+                  backgroundImage: "url(/assets/images/partners6.webp)",
                 }}
               ></div>
 
