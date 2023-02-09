@@ -7,7 +7,7 @@ const ConnectedHome = () => {
     <div id="site-content">
       <div className="connected-living-title-section">
         <div className="title-inner">
-          <h4>MODERN LUXURY</h4>
+          <h2>MODERN LUXURY</h2>
           <p className="minigray">
             What better way to see the possibilities of automation than with an
             interactive dollhouse? Peruse each room to learn how smart devices
@@ -34,6 +34,7 @@ const ConnectedHome = () => {
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "64%", left: "81%" }}
+          aria-label="plus Icon"
         >
           <i className="fa-solid fa-plus"></i>
         </Link>
@@ -69,6 +70,7 @@ const ConnectedHome = () => {
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "46%", left: "42%" }}
+          aria-label="plus Icon"
         >
           <i className="fa-solid fa-plus"></i>
         </Link>
@@ -104,6 +106,7 @@ const ConnectedHome = () => {
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "45%", left: "75%" }}
+          aria-label="plus Icon"
         >
           <i className="fa-solid fa-plus"></i>
         </Link>
@@ -139,6 +142,7 @@ const ConnectedHome = () => {
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "75%", left: "11%" }}
+          aria-label="plus Icon"
         >
           <i className="fa-solid fa-plus"></i>
         </Link>
@@ -177,6 +181,7 @@ const ConnectedHome = () => {
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "83%", left: "23%" }}
+          aria-label="plus Icon"
         >
           <i className="fa-solid fa-plus"></i>
         </Link>
@@ -211,6 +216,7 @@ const ConnectedHome = () => {
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "85%", left: "37%" }}
+          aria-label="plus Icon"
         >
           <i className="fa-solid fa-plus"></i>
         </Link>
@@ -246,6 +252,7 @@ const ConnectedHome = () => {
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "63%", left: "52%" }}
+          aria-label="plus Icon"
         >
           <i className="fa-solid fa-plus"></i>
         </Link>
@@ -283,6 +290,7 @@ const ConnectedHome = () => {
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "85%", left: "56%" }}
+          aria-label="plus Icon"
         >
           <i className="fa-solid fa-plus"></i>
         </Link>
@@ -318,6 +326,7 @@ const ConnectedHome = () => {
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "63%", left: "40%" }}
+          aria-label="plus Icon"
         >
           <i className="fa-solid fa-plus"></i>
         </Link>
@@ -353,6 +362,7 @@ const ConnectedHome = () => {
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "43%", left: "83%" }}
+          aria-label="plus Icon"
         >
           <i className="fa-solid fa-plus"></i>
         </Link>
@@ -388,6 +398,7 @@ const ConnectedHome = () => {
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "65%", left: "20%" }}
+          aria-label="plus Icon"
         >
           <i className="fa-solid fa-plus"></i>
         </Link>
