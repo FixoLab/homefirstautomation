@@ -103,7 +103,7 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcset="assets/images/home-show2-1-mini.webp"
+                  srcSet="assets/images/home-show2-1-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img alt="Full logo" src="assets/images/home-show2-1.webp" />
@@ -118,7 +118,7 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="250"
               >
                 <source
-                  srcset="assets/images/smart10-mini.webp"
+                  srcSet="assets/images/smart10-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img alt="Full logo" src="assets/images/smart10.webp" />
@@ -171,7 +171,7 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcset="assets/images/smart2-mini.webp"
+                  srcSet="assets/images/smart2-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img alt="Full logo" src="assets/images/smart2.webp" />
@@ -191,7 +191,7 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="250"
               >
                 <source
-                  srcset="assets/images/smart7-mini.webp"
+                  srcSet="assets/images/smart7-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img alt="Full logo" src="assets/images/smart7.webp" />
@@ -268,7 +268,7 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcset="assets/images/home-shades-mini.webp"
+                  srcSet="assets/images/home-shades-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img alt="Full logo" src="assets/images/home-shades.webp" />
@@ -342,7 +342,7 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcset="assets/images/smart-4-mini.webp"
+                  srcSet="assets/images/smart-4-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img alt="Full logo" src="assets/images/smart-4.webp" />
@@ -357,7 +357,7 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="250"
               >
                 <source
-                  srcset="assets/images/home-audio-1-mini.webp"
+                  srcSet="assets/images/home-audio-1-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img alt="Full logo" src="assets/images/home-audio-1.webp" />
@@ -377,7 +377,7 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcset="assets/images/home-audio1-mini.webp"
+                  srcSet="assets/images/home-audio1-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img alt="Full logo" src="assets/images/home-audio1.webp" />
@@ -456,7 +456,7 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcset="assets/images/smart61-mini.webp"
+                  srcSet="assets/images/smart61-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img alt="Full logo" src="assets/images/smart61.webp" />
@@ -534,7 +534,7 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcset="assets/images/home-security1-mini.webp"
+                  srcSet="assets/images/home-security1-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img alt="Full logo" src="assets/images/home-security1.webp" />
@@ -613,7 +613,7 @@ const SmartHomeAutomation = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcset="assets/images/smart12a-mini.webp"
+                  srcSet="assets/images/smart12a-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img alt="Full logo" src="assets/images/smart12a.webp" />

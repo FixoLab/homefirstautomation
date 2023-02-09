@@ -23,6 +23,18 @@ const ConnectedStudioHome = () => {
           src="assets/images/connected-studio-home.webp"
           alt=""
         />
+         <picture className="el-image">
+          <source
+            srcSet="assets/images/connected-studio-home-mini.webp"
+            media="(max-width: 600px)"
+          />
+          <img
+            width="auto"
+            height="auto"
+            alt="about"
+            src="assets/images/connected-studio-home.webp"
+          />
+        </picture>
         <a
           aria-label="icon"
           href="#"

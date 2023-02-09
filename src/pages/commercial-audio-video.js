@@ -70,20 +70,23 @@ const CommercialAudioVideo = () => {
             id="1"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="770"
-                  src="assets/images/commercial-audio-video-1.webp"
-                  alt=""
-                  className="wp-image-1715"
-                />
-              </figure>
+            <picture
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                  className="wp-block-image"
+                >
+                  <source
+                    srcSet="assets/images/commercial-audio-video-1-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                   width="1197"
+                   height="900"
+                   src="assets/images/commercial-audio-video-1.webp"
+                    alt="automationImage"
+                  />
+                </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -124,20 +127,23 @@ const CommercialAudioVideo = () => {
             id="2"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/commercial-audio-video-2.webp"
-                  alt=""
-                  className="wp-image-846"
-                />
-              </figure>
+              <picture
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                  className="wp-block-image"
+                >
+                  <source
+                    srcSet="assets/images/commercial-audio-video-2-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                   width="1197"
+                   height="900"
+                   src="assets/images/commercial-audio-video-2.webp"
+                    alt="automationImage"
+                  />
+                </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -179,20 +185,23 @@ const CommercialAudioVideo = () => {
             id="3"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2396"
-                  height="1600"
-                  src="assets/images/commercial-audio-video-3.webp"
-                  alt=""
-                  className="wp-image-848"
-                />
-              </figure>
+            <picture
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                  className="wp-block-image"
+                >
+                  <source
+                    srcSet="assets/images/commercial-audio-video-3-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                   width="1197"
+                   height="900"
+                   src="assets/images/commercial-audio-video-3.webp"
+                    alt="automationImage"
+                  />
+                </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -233,20 +242,23 @@ const CommercialAudioVideo = () => {
             id="4"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/commercial-audio-video-4.webp"
-                  alt=""
-                  className="wp-image-846"
-                />
-              </figure>
+            <picture
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                  className="wp-block-image"
+                >
+                  <source
+                    srcSet="assets/images/commercial-audio-video-4-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                   width="1197"
+                   height="900"
+                   src="assets/images/commercial-audio-video-4.webp"
+                    alt="automationImage"
+                  />
+                </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -288,20 +300,23 @@ const CommercialAudioVideo = () => {
             id="5"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2396"
-                  height="1600"
-                  src="assets/images/commercial-audio-video-5.webp"
-                  alt=""
-                  className="wp-image-848"
-                />
-              </figure>
+            <picture
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                  className="wp-block-image"
+                >
+                  <source
+                    srcSet="assets/images/commercial-audio-video-5-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                   width="1197"
+                   height="900"
+                   src="assets/images/commercial-audio-video-5.webp"
+                    alt="automationImage"
+                  />
+                </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -341,20 +356,23 @@ const CommercialAudioVideo = () => {
             id="6"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/commercial-audio-video-6.webp"
-                  alt=""
-                  className="wp-image-846"
-                />
-              </figure>
+            <picture
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                  className="wp-block-image"
+                >
+                  <source
+                    srcSet="assets/images/commercial-audio-video-6-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                   width="1197"
+                   height="900"
+                   src="assets/images/commercial-audio-video-6.webp"
+                    alt="automationImage"
+                  />
+                </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
