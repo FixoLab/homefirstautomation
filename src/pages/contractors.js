@@ -12,7 +12,7 @@ const Contractors = () => {
                 <div
                   className="fullimagetop"
                   style={{
-                    backgroundImage: "url(/assets/images/builder18.jpg)",
+                    backgroundImage: "url(/assets/images/builder18.webp)",
                     backgroundPosition: "center",
                     height: "65vh",
                   }}
@@ -58,7 +58,7 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder1.jpg"
+                    src="assets/images/builder1.webp"
                     alt=""
                     className="wp-image-2755"
                   />
@@ -75,7 +75,7 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder2.jpg"
+                    src="assets/images/builder2.webp"
                     alt=""
                     className="wp-image-2756"
                   />
@@ -121,7 +121,7 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder3.jpg"
+                    src="assets/images/builder3.webp"
                     alt=""
                     className="wp-image-2757"
                   />
@@ -143,7 +143,7 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder4.jpg"
+                    src="assets/images/builder4.webp"
                     alt=""
                     className="wp-image-2758"
                   />
@@ -213,7 +213,7 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder5.jpg"
+                    src="assets/images/builder5.webp"
                     alt=""
                     className="wp-image-2759"
                   />
@@ -230,7 +230,7 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/haslam-17.jpg"
+                    src="assets/images/haslam-17.webp"
                     alt=""
                     className="wp-image-1032"
                   />

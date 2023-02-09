@@ -81,7 +81,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/wifi12.jpg"
+                  src="assets/images/wifi12.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -98,7 +98,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/wifi14.jpg"
+                  src="assets/images/wifi14.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -120,7 +120,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/wifi-8.jpg"
+                  src="assets/images/wifi-8.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -162,7 +162,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/wifi6.jpg"
+                  src="assets/images/wifi6.webp"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -207,7 +207,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/wifi5.jpg"
+                  src="assets/images/wifi5.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -249,7 +249,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/wifi7.jpg"
+                  src="assets/images/wifi7.webp"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -288,7 +288,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/wifi3.jpg"
+                  src="assets/images/wifi3.webp"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -305,7 +305,7 @@ const WifiNetworkingServices = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/wifi4.jpg"
+                  src="assets/images/wifi4.webp"
                   alt=""
                   className="wp-image-847"
                 />

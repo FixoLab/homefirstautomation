@@ -51,7 +51,7 @@ const Knx = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/knx-10.jpg"
+                  src="assets/images/knx-10.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -67,7 +67,7 @@ const Knx = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/knx7.jpg"
+                  src="assets/images/knx7.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -89,7 +89,7 @@ const Knx = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.jpg"
+                  src="assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -142,7 +142,7 @@ const Knx = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/knx-12.jpg"
+                  src="assets/images/knx-12.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -158,7 +158,7 @@ const Knx = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/knx4.jpg"
+                  src="assets/images/knx4.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -180,7 +180,7 @@ const Knx = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.jpg"
+                  src="assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -231,7 +231,7 @@ const Knx = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/knx5.jpg"
+                  src="assets/images/knx5.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -247,7 +247,7 @@ const Knx = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/knx9.jpg"
+                  src="assets/images/knx9.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -268,7 +268,7 @@ const Knx = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.jpg"
+                  src="assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -318,7 +318,7 @@ const Knx = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/knx6.jpg"
+                  src="assets/images/knx6.webp"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -335,7 +335,7 @@ const Knx = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/knx-2.jpg"
+                  src="assets/images/knx-2.webp"
                   alt=""
                   className="wp-image-847"
                 />

@@ -12,7 +12,7 @@ const InteriorDesigners = () => {
                 <div
                   className="fullimagetop"
                   style={{
-                    backgroundImage: "url(/assets/images/interior-9a.jpg)",
+                    backgroundImage: "url(/assets/images/interior-9a.webp)",
                     backgroundPosition: "center",
                     height: "65vh",
                   }}
@@ -56,7 +56,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer1.jpg"
+                    src="assets/images/designer1.webp"
                     alt=""
                     className="wp-image-2755"
                   />
@@ -73,7 +73,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer2.jpg"
+                    src="assets/images/designer2.webp"
                     alt=""
                     className="wp-image-2756"
                   />
@@ -119,7 +119,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer3.jpg"
+                    src="assets/images/designer3.webp"
                     alt=""
                     className="wp-image-2757"
                   />
@@ -141,7 +141,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer4.jpg"
+                    src="assets/images/designer4.webp"
                     alt=""
                     className="wp-image-2758"
                   />
@@ -215,7 +215,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer5.jpg"
+                    src="assets/images/designer5.webp"
                     alt=""
                     className="wp-image-2759"
                   />
@@ -232,7 +232,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/haslam-17.jpg"
+                    src="assets/images/haslam-17.webp"
                     alt=""
                     className="wp-image-1032"
                   />

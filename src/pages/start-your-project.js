@@ -18,7 +18,7 @@ const StartYourProject = () => {
                   <div
                     className="halfimagetop"
                     style={{
-                      backgroundImage: "url(/assets/images/start-1.jpg)",
+                      backgroundImage: "url(/assets/images/start-1.webp)",
                     }}
                   ></div>
 

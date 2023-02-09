@@ -106,7 +106,7 @@ const AudioSystems = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/audio14.jpg"
+                  src="assets/images/audio14.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -123,7 +123,7 @@ const AudioSystems = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/media6.jpg"
+                  src="assets/images/media6.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -145,7 +145,7 @@ const AudioSystems = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/media7.jpg"
+                  src="assets/images/media7.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -175,7 +175,7 @@ const AudioSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -187,7 +187,7 @@ const AudioSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/control4-services.png"
+                        src="assets/images/control4-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -199,7 +199,7 @@ const AudioSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -224,7 +224,7 @@ const AudioSystems = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/audio-13.jpg"
+                  src="assets/images/audio-13.webp"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -254,7 +254,7 @@ const AudioSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/coastalsource-services.png"
+                        src="assets/images/coastalsource-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -279,7 +279,7 @@ const AudioSystems = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/audio15.jpg"
+                  src="assets/images/audio15.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -305,7 +305,7 @@ const AudioSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/control4-services.png"
+                        src="assets/images/control4-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -316,7 +316,7 @@ const AudioSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/coastalsource-services.png"
+                        src="assets/images/coastalsource-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -337,7 +337,7 @@ const AudioSystems = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/media3.jpg"
+                  src="assets/images/media3.webp"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -354,7 +354,7 @@ const AudioSystems = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/audio-16.jpg"
+                  src="assets/images/audio-16.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -375,7 +375,7 @@ const AudioSystems = () => {
                 <img
                   width="2396"
                   height="1600"
-                  src="assets/images/media8.jpg"
+                  src="assets/images/media8.webp"
                   alt=""
                   className="wp-image-848"
                 />
@@ -406,7 +406,7 @@ const AudioSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -418,7 +418,7 @@ const AudioSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/control4-services.png"
+                        src="assets/images/control4-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -430,7 +430,7 @@ const AudioSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -454,7 +454,7 @@ const AudioSystems = () => {
                 <img
                   width="1024"
                   height="752"
-                  src="assets/images/media4.jpg"
+                  src="assets/images/media4.webp"
                   alt=""
                   className="wp-image-1711"
                 />
@@ -485,7 +485,7 @@ const AudioSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -497,7 +497,7 @@ const AudioSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/control4-services.png"
+                        src="assets/images/control4-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -521,7 +521,7 @@ const AudioSystems = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/media-10.jpg"
+                  src="assets/images/media-10.webp"
                   alt=""
                   className="wp-image-845"
                 />
@@ -553,7 +553,7 @@ const AudioSystems = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />

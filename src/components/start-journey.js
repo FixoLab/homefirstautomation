@@ -17,7 +17,7 @@ const StartJourney = () => {
           <img
             width="2396"
             height="1600"
-            src="assets/images/haslam17.jpg"
+            src="assets/images/haslam17.webp"
             alt=""
             className="wp-image-848"
           />

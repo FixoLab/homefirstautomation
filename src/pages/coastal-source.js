@@ -30,7 +30,7 @@ const CoastalSource = () => {
                       <div className="wp-block-image">
                         <figure className="aligncenter size-full is-resized">
                           <img
-                            src="assets/images/mainlogo.png"
+                            src="assets/images/mainlogo.webp"
                             alt=""
                             className="wp-image-2096"
                             width="170"
@@ -76,7 +76,7 @@ const CoastalSource = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/coastalsource3.jpg"
+                  src="assets/images/coastalsource3.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -92,7 +92,7 @@ const CoastalSource = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/coastalsource2.jpg"
+                  src="assets/images/coastalsource2.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -114,7 +114,7 @@ const CoastalSource = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.jpg"
+                  src="assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -161,7 +161,7 @@ const CoastalSource = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/coastalsource4.jpg"
+                  src="assets/images/coastalsource4.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -177,7 +177,7 @@ const CoastalSource = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/coastalsource5.jpg"
+                  src="assets/images/coastalsource5.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -199,7 +199,7 @@ const CoastalSource = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.jpg"
+                  src="assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -246,7 +246,7 @@ const CoastalSource = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/coastalsource6.jpg"
+                  src="assets/images/coastalsource6.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -262,7 +262,7 @@ const CoastalSource = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/coastalsource7.jpg"
+                  src="assets/images/coastalsource7.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -283,7 +283,7 @@ const CoastalSource = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.jpg"
+                  src="assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -330,7 +330,7 @@ const CoastalSource = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/coastalsource1b.jpg"
+                  src="assets/images/coastalsource1b.webp"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -347,7 +347,7 @@ const CoastalSource = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/coastalsource8.jpg"
+                  src="assets/images/coastalsource8.webp"
                   alt=""
                   className="wp-image-847"
                 />
