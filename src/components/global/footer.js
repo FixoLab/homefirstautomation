@@ -213,7 +213,7 @@ const Footer = () => {
                                   <svg
                                     width="20px"
                                     height="20px"
-                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns="https://www.w3.org/2000/svg"
                                     viewBox="0 0 326667 333333"
                                     shapeRendering="geometricPrecision"
                                     textRendering="geometricPrecision"
@@ -274,7 +274,7 @@ const Footer = () => {
                                   <svg
                                     width="20px"
                                     height="20px"
-                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns="https://www.w3.org/2000/svg"
                                     viewBox="0 0 326667 333333"
                                     shapeRendering="geometricPrecision"
                                     textRendering="geometricPrecision"
@@ -333,7 +333,7 @@ const Footer = () => {
                                   <svg
                                     width="20px"
                                     height="20px"
-                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns="https://www.w3.org/2000/svg"
                                     viewBox="0 0 326667 333333"
                                     shapeRendering="geometricPrecision"
                                     textRendering="geometricPrecision"
@@ -366,36 +366,6 @@ const Footer = () => {
                             </Swiper>
                           </div>
                         </div>
-                        {/* <div
-                          className="uk-position-relative uk-visible-toggle uk-light"
-                          tabIndex="-1"
-                          uk-slideshow="true"
-                        >
-                          <ul className="uk-slideshow-items">
-                            <li>
-                              <h2>hello</h2>
-                            </li>
-                            <li>
-                              <h2>hello</h2>
-                            </li>
-                            <li>
-                              <h2>hello</h2>
-                            </li>
-                          </ul>
-
-                          <a
-                            className="uk-position-center-left uk-position-small uk-hidden-hover"
-                            href="#"
-                            uk-slidenav-previous="true"
-                            uk-slideshow-item="previous"
-                          ></a>
-                          <a
-                            className="uk-position-center-right uk-position-small uk-hidden-hover"
-                            href="#"
-                            uk-slidenav-next="true"
-                            uk-slideshow-item="next"
-                          ></a>
-                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -456,7 +426,7 @@ const Footer = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.instagram.com/"
+                href="https://instagram.com/"
                 aria-label="instagram"
               >
                 <i className="fa-brands fa-instagram"></i>
