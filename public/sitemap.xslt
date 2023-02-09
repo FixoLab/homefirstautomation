@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Edited by XMLSpy� -->
-<html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-	xmlns="http://www.w3.org/1999/xhtml">
+<html xsl:version="1.0" xmlns:xsl="https://www.w3.org/1999/XSL/Transform"
+	xmlns="https://www.w3.org/1999/xhtml">
 	<style>
 		body {
 		font-size: 0.875em;
