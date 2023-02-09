@@ -65,39 +65,6 @@ const CommercialSecurity = () => {
           </div>
         </div>
       </div>
-      {/* <div className="csca">
-        <div className="image">
-          <img src="assets/images/commercial-security-hero.webp" alt="" />
-          <div className="overlay"></div>
-        </div>
-        <div className="csca-content">
-          <div className="csca-content-area">
-            <div className="csca-icon">
-              <svg
-                uk-scrollspy="cls:uk-animation-stroke"
-                id="commercial_automation"
-                xmlns="https://www.w3.org/2000/svg"
-                xmlnsXlink="https://www.w3.org/1999/xlink"
-                viewBox="10 0 79 79"
-                className="uk-scrollspy-inview"
-              >
-                <path
-                  className="outline"
-                  d="M24.9,67.7h-4.7V56.2h4.7V67.7z M38.2,56.7l-3.1,3.9H24.9v4.7h12.4l5-6.2L38.2,56.7z M68.9,49.3l-3.7,2.4
-                            L61.6,58c0.4,0.1,0.8,0.1,1.2,0.1c3.6,0,6.5-2.9,6.5-6.5C69.3,50.8,69.1,50,68.9,49.3z M73.4,46.3l-35-20.2l-4.3,7.4l23.6,13.9
-                            l7.4,4.4l3.7-2.4L73.4,46.3z M57.8,47.4L34.1,33.4l-5.2,9l31.2,18l1.4-2.4l3.6-6.3L57.8,47.4z M45,60.6l3.9-6.7l-9.7-5.6L35.4,55
-                            L45,60.6z"
-                ></path>
-              </svg>
-            </div>
-            <h1>Commercial Security</h1>
-            <h6>
-              TAKE COMMAND OF YOUR BUSINESS SECURITY FROM ANYWHERE WITH REMOTE
-              MANAGEMENT AND MONITORING FEATURES THAT KEEP YOU IN THE KNOW 24/7.
-            </h6>
-          </div>
-        </div>
-      </div> */}
       <div className="csca-nav">
         <div className="control4-nav">
           <div className="control4-nav-area">
@@ -120,20 +87,24 @@ const CommercialSecurity = () => {
             id="1"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="770"
-                  src="assets/images/commercial-security-1.webp"
-                  alt=""
-                  className="wp-image-1715"
-                />
-              </figure>
+            
+              <picture
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                  className="wp-block-image"
+                >
+                  <source
+                    srcSet="assets/images/commercial-security-1-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                   width="1197"
+                   height="900"
+                   src="assets/images/commercial-security-1.webp"
+                    alt="automationImage"
+                  />
+                </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -174,20 +145,23 @@ const CommercialSecurity = () => {
             id="2"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/commercial-security-2.webp"
-                  alt=""
-                  className="wp-image-846"
-                />
-              </figure>
+            <picture
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                  className="wp-block-image"
+                >
+                  <source
+                    srcSet="assets/images/commercial-security-2-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                   width="1197"
+                   height="900"
+                   src="assets/images/commercial-security-2.webp"
+                    alt="automationImage"
+                  />
+                </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -229,20 +203,23 @@ const CommercialSecurity = () => {
             id="3"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2396"
-                  height="1600"
-                  src="assets/images/commercial-security-3.webp"
-                  alt=""
-                  className="wp-image-848"
-                />
-              </figure>
+            <picture
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                  className="wp-block-image"
+                >
+                  <source
+                    srcSet="assets/images/commercial-security-3-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                   width="1197"
+                   height="900"
+                   src="assets/images/commercial-security-3.webp"
+                    alt="automationImage"
+                  />
+                </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -285,20 +262,23 @@ const CommercialSecurity = () => {
             id="4"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/commercial-security-4.webp"
-                  alt=""
-                  className="wp-image-846"
-                />
-              </figure>
+            <picture
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                  className="wp-block-image"
+                >
+                  <source
+                    srcSet="assets/images/commercial-security-4-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                   width="1197"
+                   height="900"
+                   src="assets/images/commercial-security-4.webp"
+                    alt="automationImage"
+                  />
+                </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -340,20 +320,23 @@ const CommercialSecurity = () => {
             id="5"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2396"
-                  height="1600"
-                  src="assets/images/commercial-security-5.webp"
-                  alt=""
-                  className="wp-image-848"
-                />
-              </figure>
+            <picture
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                  className="wp-block-image"
+                >
+                  <source
+                    srcSet="assets/images/commercial-security-5-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                   width="1197"
+                   height="900"
+                   src="assets/images/commercial-security-5.webp"
+                    alt="automationImage"
+                  />
+                </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -393,20 +376,23 @@ const CommercialSecurity = () => {
             id="6"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/commercial-security-6.webp"
-                  alt=""
-                  className="wp-image-846"
-                />
-              </figure>
+             <picture
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-delay="200"
+                  className="wp-block-image"
+                >
+                  <source
+                    srcSet="assets/images/commercial-security-6-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                   width="1197"
+                   height="900"
+                   src="assets/images/commercial-security-6.webp"
+                    alt="automationImage"
+                  />
+                </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">

@@ -12,7 +12,7 @@ const CallToAction = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcset="assets/images/project1-a-mini.webp"
+                  srcSet="assets/images/project1-a-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img alt="Full logo" src="assets/images/project1-a.webp" />

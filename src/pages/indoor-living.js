@@ -22,7 +22,6 @@ const IndoorLiving = () => {
             uk-parallax="bgx: 0,370; easing: 1"
             uk-height-viewport="offset-top: true; offset-bottom: ! +;"
           >
-            {/* <div className="overlay" /> */}
             <div
               className="uk-position-cover"
               style={{ backgroundColor: "rgba(252, 251, 251, 0.23)" }}
@@ -192,11 +191,13 @@ const IndoorLiving = () => {
             </div>
           </div>
           <div className="csh-wrapper">
-            <img
-              style={{ width: "100%" }}
-              src="assets/images/indoor-2.webp"
-              alt=""
-            />
+            <picture style={{ width: "100%" }}>
+              <source
+                srcSet="assets/images/indoor-2-mini.webp"
+                media="(max-width: 600px)"
+              />
+              <img alt="indoor living" src="assets/images/indoor-2.webp" />
+            </picture>
             <Link
               href="#"
               aria-label="icon"
@@ -323,11 +324,13 @@ const IndoorLiving = () => {
             </div>
           </div>
           <div className="csh-wrapper">
-            <img
-              style={{ width: "100%" }}
-              src="assets/images/indoor-3.webp"
-              alt=""
-            />
+          <picture style={{ width: "100%" }}>
+              <source
+                srcSet="assets/images/indoor-3-mini.webp"
+                media="(max-width: 600px)"
+              />
+              <img alt="indoor living" src="assets/images/indoor-3.webp" />
+            </picture>
             <Link
               href="#"
               aria-label="icon"
@@ -455,11 +458,13 @@ const IndoorLiving = () => {
             </div>
           </div>
           <div className="csh-wrapper">
-            <img
-              style={{ width: "100%" }}
-              src="assets/images/indoor-4.webp"
-              alt=""
-            />
+          <picture style={{ width: "100%" }}>
+              <source
+                srcSet="assets/images/indoor-4-mini.webp"
+                media="(max-width: 600px)"
+              />
+              <img alt="indoor living" src="assets/images/indoor-4.webp" />
+            </picture>
             <Link
               href="#"
               aria-label="icon"
@@ -586,11 +591,13 @@ const IndoorLiving = () => {
             </div>
           </div>
           <div className="csh-wrapper">
-            <img
-              style={{ width: "100%" }}
-              src="assets/images/indoor-5.webp"
-              alt=""
-            />
+          <picture style={{ width: "100%" }}>
+              <source
+                srcSet="assets/images/indoor-5-mini.webp"
+                media="(max-width: 600px)"
+              />
+              <img alt="indoor living" src="assets/images/indoor-5.webp" />
+            </picture>
             <Link
               href="#"
               aria-label="icon"
@@ -716,11 +723,13 @@ const IndoorLiving = () => {
             </div>
           </div>
           <div className="csh-wrapper">
-            <img
-              style={{ width: "100%" }}
-              src="assets/images/indoor-6.webp"
-              alt=""
-            />
+          <picture style={{ width: "100%" }}>
+              <source
+                srcSet="assets/images/indoor-6-mini.webp"
+                media="(max-width: 600px)"
+              />
+              <img alt="indoor living" src="assets/images/indoor-6.webp" />
+            </picture>
             <Link
               href="#"
               aria-label="icon"
@@ -847,11 +856,13 @@ const IndoorLiving = () => {
             </div>
           </div>
           <div className="csh-wrapper">
-            <img
-              style={{ width: "100%" }}
-              src="assets/images/indoor-7.webp"
-              alt=""
-            />
+          <picture style={{ width: "100%" }}>
+              <source
+                srcSet="assets/images/indoor-7-mini.webp"
+                media="(max-width: 600px)"
+              />
+              <img alt="indoor living" src="assets/images/indoor-7.webp" />
+            </picture>
             <Link
               href="#"
               aria-label="icon"

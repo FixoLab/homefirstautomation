@@ -93,12 +93,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-1.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-1.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                  <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-1-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-1.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -107,12 +113,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-2.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-2.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                  <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-2-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-2.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -121,12 +133,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-3.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-3.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                         <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-3-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-3.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -135,12 +153,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-4.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-4.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                         <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-4-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-4.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -149,12 +173,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-5.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-5.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-5-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-5.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -163,12 +193,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-6.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-6.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                         <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-6-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-6.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -177,12 +213,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-7.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-7.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-7-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-7.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -191,320 +233,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-8.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-8.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-9.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-9.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-10.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-10.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-11.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-11.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-12.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-12.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-13.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-13.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-14.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-14.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-15.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-15.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-16.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-16.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-17.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-17.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-18.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-18.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-19.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-19.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-20.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-20.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-21.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-21.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-22.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-22.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-23.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-23.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-24.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-24.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-25.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-25.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-26.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-26.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-27.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-27.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-28.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-28.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-29.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-29.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div className="portfolio-content-grid-item">
-                <a
-                  aria-label="lightbox-link"
-                  className="uk-inline"
-                  href="assets/images/portfolio-lighting-30.webp"
-                >
-                  <img
-                    src="assets/images/portfolio-lighting-30.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                        <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-8-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-8.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -513,12 +253,458 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-31.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-31.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-31-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-31.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-10.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-10-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-10.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-11.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-11-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-11.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-12.webp"
+                >
+                         <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-12-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-12.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-13.webp"
+                >
+                         <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-13-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-13.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-14.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-14-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-14.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-15.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-15-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-15.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-16.webp"
+                >
+                         <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-16-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-16.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-17.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-17-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-17.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-18.webp"
+                >
+                           <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-18-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-18.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-19.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-19-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-19.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-20.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-20-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-20.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-21.webp"
+                >
+                           <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-21-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-21.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-22.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-22-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-22.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-23.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-23-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-23.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-24.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-24-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-24.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-25.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-25-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-25.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-26.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-26-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-26.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-27.webp"
+                >
+                       <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-27-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-27.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-28.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-28-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-28.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-29.webp"
+                >
+                         <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-29-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-29.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-30.webp"
+                >
+                          <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-30-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-30.webp"
+                    />
+                  </picture>
+                </a>
+              </div>
+              <div className="portfolio-content-grid-item">
+                <a
+                  aria-label="lightbox-link"
+                  className="uk-inline"
+                  href="assets/images/portfolio-lighting-31.webp"
+                >
+                       <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-31-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-31.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -527,12 +713,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-32.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-32.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                       <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-32-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-32.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -541,12 +733,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-33.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-33.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                      <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-33-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-33.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -555,12 +753,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-34.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-34.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                      <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-34-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-34.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -569,12 +773,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-35.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-35.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                       <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-35-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-35.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -583,12 +793,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-36.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-36.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-36-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-36.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -597,12 +813,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-37.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-37.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-37-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-37.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -611,12 +833,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-38.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-38.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-38-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-38.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -625,12 +853,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-39.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-39.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-39-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-39.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -639,12 +873,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-40.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-40.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                      <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-40-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-40.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -653,12 +893,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-41.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-41.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                    <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-41-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-41.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -667,12 +913,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-42.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-42.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                    <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-42-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-42.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -681,12 +933,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-43.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-43.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                    <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-43-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-43.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -695,12 +953,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-44.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-44.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-44-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-44.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -709,12 +973,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-45.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-45.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-45-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-45.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -723,12 +993,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-46.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-46.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-46-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-46.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -737,12 +1013,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-47.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-47.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                      <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-47-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-47.webp"
+                    />
+                  </picture>
                 </a>
               </div>
             </div>
@@ -772,12 +1054,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-8.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-8.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                      <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-8-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-8.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -786,12 +1074,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-37.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-37.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-37-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-37.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -800,12 +1094,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-10.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-10.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                    <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-10-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-10.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -814,12 +1114,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-24.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-24.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-24-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-24.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -828,12 +1134,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-35.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-35.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-35-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-35.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -842,12 +1154,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-41.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-41.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-41-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-41.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -856,12 +1174,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-42.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-42.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                      <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-42-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-42.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -870,12 +1194,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-7.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-7.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-7-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-7.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -884,12 +1214,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-47.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-47.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-47-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-47.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -898,12 +1234,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-32.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-32.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                      <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-32-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-32.webp"
+                    />
+                  </picture>
                 </a>
               </div>
             </div>
@@ -929,12 +1271,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-1.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-1.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-1-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-1.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -943,12 +1291,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-30.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-30.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-30-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-30.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -957,12 +1311,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-23.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-23.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-23-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-23.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -971,12 +1331,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-47.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-47.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                    <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-47-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-47.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -985,12 +1351,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-35.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-35.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-35-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-35.webp"
+                    />
+                  </picture>
                 </a>
               </div>
             </div>
@@ -1016,12 +1388,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-45.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-45.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-45-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-45.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -1030,12 +1408,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-4.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-4.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-4-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-4.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -1044,12 +1428,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-13.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-13.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-13-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-13.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -1058,12 +1448,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-20.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-20.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                      <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-20-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-20.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -1072,12 +1468,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-40.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-40.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                    <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-40-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-40.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -1086,12 +1488,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-21.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-21.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-21-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-21.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -1100,12 +1508,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-34.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-34.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                    <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-34-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-34.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -1114,12 +1528,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-43.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-43.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                     <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-43-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-43.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -1128,12 +1548,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-44.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-44.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                    <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-44-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-44.webp"
+                    />
+                  </picture>
                 </a>
               </div>
               <div className="portfolio-content-grid-item">
@@ -1142,12 +1568,18 @@ const Portfolio = () => {
                   className="uk-inline"
                   href="assets/images/portfolio-lighting-36.webp"
                 >
-                  <img
-                    src="assets/images/portfolio-lighting-36.webp"
-                    width="1800"
-                    height="1200"
-                    alt=""
-                  />
+                       <picture>
+                    <source
+                      srcSet="assets/images/portfolio-lighting-36-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1800"
+                      height="1200"
+                      alt=""
+                      src="assets/images/portfolio-lighting-36.webp"
+                    />
+                  </picture>
                 </a>
               </div>
             </div>

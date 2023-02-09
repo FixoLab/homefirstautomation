@@ -1,5 +1,4 @@
 import React from "react";
-import { LazyImage } from "react-lazy-media";
 import { Link } from "react-router-dom";
 
 const ConnectedHome = () => {
@@ -20,16 +19,18 @@ const ConnectedHome = () => {
         </div>
       </div>
       <div className="csh-wrapper">
-        <LazyImage
-          style={{ width: "100%" }}
-          src={"assets/images/connected-home.webp"}
-          alt=""
-        />
-        {/* <img
-          style={{ width: "100%" }}
-          src="assets/images/connected-home.webp"
-          alt=""
-        /> */}
+        <picture className="el-image">
+          <source
+            srcSet="assets/images/connected-home-mini.webp"
+            media="(max-width: 600px)"
+          />
+          <img
+            width="auto"
+            height="auto"
+            alt="about"
+            src="assets/images/connected-home.webp"
+          />
+        </picture>
         <Link
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
@@ -435,7 +436,7 @@ const ConnectedHome = () => {
       </div>
       <div className="connected-living-title-section bottom-title-section">
         <div className="title-inner">
-          <h4>HOME AUTOMATION</h4>
+          <h2>HOME AUTOMATION</h2>
           <p className="minigray">
             The ultimate upgrade for luxury homes, smart automation allows you
             to transform every space at the push of a button or single voice
