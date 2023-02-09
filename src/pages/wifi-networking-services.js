@@ -72,37 +72,37 @@ const WifiNetworkingServices = () => {
 
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2000"
-                  height="1503"
-                  src="assets/images/wifi12.webp"
-                  alt=""
-                  className="wp-image-853"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/wifi12-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/wifi12.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/wifi14.webp"
-                  alt=""
-                  className="wp-image-1863"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/wifi14-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/wifi14.webp"
+                />
+              </picture>
             </div>
           </div>
 
@@ -111,20 +111,20 @@ const WifiNetworkingServices = () => {
             id="1"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/wifi-8.webp"
-                  alt=""
-                  className="wp-image-846"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/wifi-8-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/wifi-8.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -153,20 +153,20 @@ const WifiNetworkingServices = () => {
             id="2"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="770"
-                  src="assets/images/wifi6.webp"
-                  alt=""
-                  className="wp-image-1715"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/wifi6-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/wifi6.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -198,20 +198,20 @@ const WifiNetworkingServices = () => {
             id="3"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/wifi5.webp"
-                  alt=""
-                  className="wp-image-846"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/wifi5-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/wifi5.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -240,20 +240,20 @@ const WifiNetworkingServices = () => {
             id="4"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="770"
-                  src="assets/images/wifi7.webp"
-                  alt=""
-                  className="wp-image-1715"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/wifi7-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/wifi7.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -279,37 +279,37 @@ const WifiNetworkingServices = () => {
           </div>
           <div className="is-layout-flex wp-container-23 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="931"
-                  height="700"
-                  src="assets/images/wifi3.webp"
-                  alt=""
-                  className="wp-image-1547"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/wifi3-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/wifi3.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1915"
-                  height="1440"
-                  src="assets/images/wifi4.webp"
-                  alt=""
-                  className="wp-image-847"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/wifi4-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/wifi4.webp"
+                />
+              </picture>
             </div>
           </div>
           <CallToAction />

@@ -180,11 +180,18 @@ const CommercialTechnology = () => {
               </div>
             </div>
             <div className="csh-wrapper">
-              <img
-                style={{ width: "100%" }}
-                src="assets/images/commercial-technology-1.webp"
-                alt=""
-              />
+              <picture style={{ width: "100%" }}>
+                <source
+                  srcSet="assets/images/commercial-technology-1-mini.webp"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  width="auto"
+                  height="auto"
+                  alt="about"
+                  src="assets/images/commercial-technology-1.webp"
+                />
+              </picture>
               <a
                 href="#"
                 aria-label="icon"
@@ -300,11 +307,18 @@ const CommercialTechnology = () => {
               </div>
             </div>
             <div className="csh-wrapper">
-              <img
-                style={{ width: "100%" }}
-                src="assets/images/commercial-technology-2.webp"
-                alt=""
-              />
+          <picture style={{ width: "100%" }}>
+                <source
+                  srcSet="assets/images/commercial-technology-2-mini.webp"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  width="auto"
+                  height="auto"
+                  alt="about"
+                  src="assets/images/commercial-technology-2.webp"
+                />
+              </picture>
               <a
                 href="#"
                 aria-label="icon"
@@ -420,11 +434,18 @@ const CommercialTechnology = () => {
               </div>
             </div>
             <div className="csh-wrapper">
-              <img
-                style={{ width: "100%" }}
-                src="assets/images/commercial-technology-hero.webp"
-                alt=""
-              />
+            <picture style={{ width: "100%" }}>
+                <source
+                  srcSet="assets/images/commercial-technology-hero-mini.webp"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  width="auto"
+                  height="auto"
+                  alt="about"
+                  src="assets/images/commercial-technology-hero.webp"
+                />
+              </picture>
               <a
                 href="#"
                 aria-label="icon"
@@ -537,11 +558,18 @@ const CommercialTechnology = () => {
               </div>
             </div>
             <div className="csh-wrapper">
-              <img
-                style={{ width: "100%" }}
-                src="assets/images/commercial-technology-3.webp"
-                alt=""
-              />
+            <picture style={{ width: "100%" }}>
+                <source
+                  srcSet="assets/images/commercial-technology-3-mini.webp"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  width="auto"
+                  height="auto"
+                  alt="about"
+                  src="assets/images/commercial-technology-3.webp"
+                />
+              </picture>
               <a
                 href="#"
                 aria-label="icon"
@@ -660,11 +688,18 @@ const CommercialTechnology = () => {
               </div>
             </div>
             <div className="csh-wrapper">
-              <img
-                style={{ width: "100%" }}
-                src="assets/images/commercial-technology-4.webp"
-                alt=""
-              />
+            <picture style={{ width: "100%" }}>
+                <source
+                  srcSet="assets/images/commercial-technology-4-mini.webp"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  width="auto"
+                  height="auto"
+                  alt="about"
+                  src="assets/images/commercial-technology-4.webp"
+                />
+              </picture>
               <a
                 href="#"
                 aria-label="icon"
@@ -781,11 +816,18 @@ const CommercialTechnology = () => {
               </div>
             </div>
             <div className="csh-wrapper">
-              <img
-                style={{ width: "100%" }}
-                src="assets/images/commercial-technology-5.webp"
-                alt=""
-              />
+            <picture style={{ width: "100%" }}>
+                <source
+                  srcSet="assets/images/commercial-technology-5-mini.webp"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  width="auto"
+                  height="auto"
+                  alt="about"
+                  src="assets/images/commercial-technology-5.webp"
+                />
+              </picture>
               <a
                 href="#"
                 aria-label="icon"
