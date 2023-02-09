@@ -6,7 +6,7 @@ const ConnectedStudioHome = () => {
     <div id="site-content">
       <div className="connected-living-title-section">
         <div className="title-inner">
-          <h4>STUDIO HOME</h4>
+          <h2>STUDIO HOME</h2>
           <p className="minigray">
             Explore how a smart home streamlines and simplifies all the
             technology in your house, offering the ultimate lifestyle of comfort
@@ -24,6 +24,7 @@ const ConnectedStudioHome = () => {
           alt=""
         />
         <a
+          aria-label="icon"
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "55%", left: "35%" }}
@@ -59,6 +60,7 @@ const ConnectedStudioHome = () => {
           </div>
         </div>
         <a
+          aria-label="icon"
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "36%", left: "57%" }}
@@ -94,6 +96,7 @@ const ConnectedStudioHome = () => {
           </div>
         </div>
         <a
+          aria-label="icon"
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "24%", left: "38%" }}
@@ -131,6 +134,7 @@ const ConnectedStudioHome = () => {
           </div>
         </div>
         <a
+          aria-label="icon"
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "30%", left: "35%" }}
@@ -166,6 +170,7 @@ const ConnectedStudioHome = () => {
           </div>
         </div>
         <a
+          aria-label="icon"
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "40%", left: "35%" }}
@@ -204,6 +209,7 @@ const ConnectedStudioHome = () => {
           </div>
         </div>
         <a
+          aria-label="icon"
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "75%", left: "35%" }}
@@ -239,6 +245,7 @@ const ConnectedStudioHome = () => {
           </div>
         </div>
         <a
+          aria-label="icon"
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "57%", left: "27%" }}
@@ -275,6 +282,7 @@ const ConnectedStudioHome = () => {
           </div>
         </div>
         <a
+          aria-label="icon"
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "26%", left: "22%" }}
@@ -311,6 +319,7 @@ const ConnectedStudioHome = () => {
           </div>
         </div>
         <a
+          aria-label="icon"
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "45%", left: "75%" }}
@@ -346,6 +355,7 @@ const ConnectedStudioHome = () => {
           </div>
         </div>
         <a
+          aria-label="icon"
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "43%", left: "83%" }}
@@ -381,6 +391,7 @@ const ConnectedStudioHome = () => {
           </div>
         </div>
         <a
+          aria-label="icon"
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
           style={{ top: "40%", left: "65%" }}
@@ -418,7 +429,7 @@ const ConnectedStudioHome = () => {
       </div>
       <div className="connected-living-title-section bottom-title-section">
         <div className="title-inner">
-          <h4>SMART HOME AUTOMATION</h4>
+          <h2>SMART HOME AUTOMATION</h2>
           <p className="minigray">
             Smart home automation eliminates the need to walk from room to room
             to adjust shades, lights, temperature, and audio/video components.

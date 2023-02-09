@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { LazyIframe, LazyVideo } from "react-lazy-media";
 
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
@@ -11,20 +12,26 @@ const ContactUs = () => {
           <div>
             <div className="is-layout-flow wp-block-group homevideo servicespages">
               <div className="wp-block-group__inner-container">
-                <video
+                <LazyVideo
                   id="video-background"
-                  className="high4kres"
-                  autoPlay
-                  loop="loop"
-                  muted
-                  width="300"
-                  height="150"
+                  classes={["high4kres"]}
+                  autoplay={true}
+                  loop={true}
+                  muted={true}
+                  width={300}
+                  height={150}
+                  controls={false}
+                  preload={true}
+                  src="assets/video/contact-final-video.mp4"
+                />
+                {/* <video
+                  
                 >
                   <source
                     src="assets/video/contact-final-video.mp4"
                     type="video/mp4"
                   />
-                </video>
+                </video> */}
                 <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                   <div className="wp-block-group__inner-container">
                     <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
@@ -41,7 +48,6 @@ const ContactUs = () => {
               <div className="wp-block-group__inner-container">
                 <div className="is-layout-flex wp-container-7 wp-block-columns pagecolumns">
                   <div className="is-layout-flow wp-block-column contactcolumn1">
-                    {" "}
                     <i className="fas fa-phone"></i>
                     <p>
                       <strong>Phone:</strong> 407.228.3000
@@ -61,16 +67,13 @@ const ContactUs = () => {
                   <div className="is-layout-flow wp-block-column">
                     <p>
                       With over 100 years of combined experience our smart home
-                      and{" "}
-                      <Link to="/home-theater">
-                        AV company
-                      </Link>{" "}
-                      can help you with all your smart home automation,
-                      entertainment, or security needs in the Orlando, Florida
-                      area. Use the form below to touch base with one of our
-                      specialists and we will contact you back as soon as
-                      possible. Want a more personalized conversation? Stop on
-                      by our store front or give us a call.
+                      and <Link to="/home-theater">AV company</Link> can help
+                      you with all your smart home automation, entertainment, or
+                      security needs in the Orlando, Florida area. Use the form
+                      below to touch base with one of our specialists and we
+                      will contact you back as soon as possible. Want a more
+                      personalized conversation? Stop on by our store front or
+                      give us a call.
                     </p>
                     <div
                       className="wp-block-spacer"
@@ -162,8 +165,13 @@ const ContactUs = () => {
             </div>
             <div className="is-layout-flex wp-container-10 wp-block-columns alignfull servicesdualcontainer mapscontain">
               <div className="is-layout-flow wp-block-column servicesimages bigoldmap">
-                {" "}
-                <iframe
+                <LazyIframe
+                  type="iframe"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.504532399776!2d-81.47616788457283!3d28.494464397066498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77ff626830657%3A0x655de93f0d245402!2sHomeFirst%20Security%20and%20Automation!5e0!3m2!1sen!2sbd!4v1674917196012!5m2!1sen!2sbd"
+                >
+                  <p>Loading...</p>
+                </LazyIframe>
+                {/* <iframe
                   style={{
                     border: "0px",
                     width: "1712px",
@@ -176,7 +184,7 @@ const ContactUs = () => {
                   allowFullScreen="allowFullScreen"
                   aria-hidden="false"
                   title="map"
-                ></iframe>
+                ></iframe> */}
               </div>
             </div>
           </div>

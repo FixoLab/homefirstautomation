@@ -73,7 +73,7 @@ const Portfolio = () => {
           <div className="portfolio-content alignfull" id="1">
             <div className="connected-living-title-section ">
               <div className="title-inner">
-                <h4>LIGHTING AND SHADING</h4>
+                <h2>LIGHTING AND SHADING</h2>
                 <p className="minigray">
                   A well-lit space is a beautiful space. Easily control natural
                   and artificial lighting with a{" "}
@@ -750,7 +750,7 @@ const Portfolio = () => {
           <div className="portfolio-content alignfull" id="2">
             <div className="connected-living-title-section ">
               <div className="title-inner">
-                <h4>AUDIO / VIDEO</h4>
+                <h2>AUDIO / VIDEO</h2>
                 <p className="minigray">
                   Optimize your entertainment with a{" "}
                   <Link to="/commercial-solutions-commercial-audio-video">
@@ -911,7 +911,7 @@ const Portfolio = () => {
           <div className="portfolio-content alignfull" id="3">
             <div className="connected-living-title-section ">
               <div className="title-inner">
-                <h4>HOME THEATER</h4>
+                <h2>HOME THEATER</h2>
                 <p className="minigray">
                   Naturally tailored environments for an exhilarating viewing
                   experience that exceeds that of a traditional theater.
@@ -998,7 +998,7 @@ const Portfolio = () => {
           <div className="portfolio-content alignfull" id="4">
             <div className="connected-living-title-section ">
               <div className="title-inner">
-                <h4>EXTERIOR</h4>
+                <h2>EXTERIOR</h2>
                 <p className="minigray">
                   Naturally tailored environments for an exhilarating viewing
                   experience that exceeds that of a traditional theater.

@@ -1,5 +1,5 @@
-
 import React from "react";
+import { LazyImage } from "react-lazy-media";
 import { Link } from "react-router-dom";
 
 const ConnectedHome = () => {
@@ -20,11 +20,16 @@ const ConnectedHome = () => {
         </div>
       </div>
       <div className="csh-wrapper">
-        <img
+        <LazyImage
+          style={{ width: "100%" }}
+          src={"assets/images/connected-home.webp"}
+          alt=""
+        />
+        {/* <img
           style={{ width: "100%" }}
           src="assets/images/connected-home.webp"
           alt=""
-        />
+        /> */}
         <Link
           href="#"
           className="csh-plus-icon csh-marker uk-marker"
