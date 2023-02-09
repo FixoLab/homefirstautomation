@@ -85,37 +85,37 @@ const SmartSecurity = () => {
 
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2000"
-                  height="1503"
-                  src="assets/images/security1.webp"
-                  alt=""
-                  className="wp-image-853"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/security1-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/security1.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/security-10.webp"
-                  alt=""
-                  className="wp-image-1863"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/security-10-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/security-10.webp"
+                />
+              </picture>
             </div>
           </div>
 
@@ -124,20 +124,20 @@ const SmartSecurity = () => {
             id="1"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/smart2.webp"
-                  alt=""
-                  className="wp-image-846"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/smart2-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/smart2.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -169,20 +169,20 @@ const SmartSecurity = () => {
             id="2"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="770"
-                  src="assets/images/security12.webp"
-                  alt=""
-                  className="wp-image-1715"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/security12-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/security12.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -213,20 +213,20 @@ const SmartSecurity = () => {
             id="3"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/security8.webp"
-                  alt=""
-                  className="wp-image-846"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/security8-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/security8.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -252,37 +252,37 @@ const SmartSecurity = () => {
           </div>
           <div className="is-layout-flex wp-container-23 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="931"
-                  height="700"
-                  src="assets/images/security14.webp"
-                  alt=""
-                  className="wp-image-1547"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/security14-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/security14.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1915"
-                  height="1440"
-                  src="assets/images/security-18.webp"
-                  alt=""
-                  className="wp-image-847"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/security-18-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/security-18.webp"
+                />
+              </picture>
             </div>
           </div>
           <div
@@ -290,20 +290,20 @@ const SmartSecurity = () => {
             id="4"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2396"
-                  height="1600"
-                  src="assets/images/security-13.webp"
-                  alt=""
-                  className="wp-image-848"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/security-13-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/security-13.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -334,20 +334,20 @@ const SmartSecurity = () => {
             id="5"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="752"
-                  src="assets/images/security-17.webp"
-                  alt=""
-                  className="wp-image-1711"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/security-17-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/security-17.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -376,20 +376,20 @@ const SmartSecurity = () => {
             id="6"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1915"
-                  height="1440"
-                  src="assets/images/security16.webp"
-                  alt=""
-                  className="wp-image-845"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/security16-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/security16.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">

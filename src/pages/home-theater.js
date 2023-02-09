@@ -93,37 +93,37 @@ const HomeTheater = () => {
 
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+              <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2000"
-                  height="1503"
-                  src="assets/images/theater18.webp"
-                  alt=""
-                  className="wp-image-853"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/theater18-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                    width="1197"
+                    height="900"
+                  alt=""
+                  src="assets/images/theater18.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/theater19.webp"
-                  alt=""
-                  className="wp-image-1863"
+                data-aos-delay="250">
+                <source
+                  srcSet="assets/images/theater19-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/theater19.webp"
+                />
+              </picture>
             </div>
           </div>
 
@@ -132,20 +132,20 @@ const HomeTheater = () => {
             id="1"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+              <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/theater10.webp"
-                  alt=""
-                  className="wp-image-846"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/theater10-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/theater10.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -212,20 +212,20 @@ const HomeTheater = () => {
             id="2"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="770"
-                  src="assets/images/theater5.webp"
-                  alt=""
-                  className="wp-image-1715"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/theater5-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/theater5.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -290,20 +290,20 @@ const HomeTheater = () => {
             id="3"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/theater10.webp"
-                  alt=""
-                  className="wp-image-846"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/theater10-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/theater10.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -363,37 +363,37 @@ const HomeTheater = () => {
           </div>
           <div className="is-layout-flex wp-container-23 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="931"
-                  height="700"
-                  src="assets/images/theater14.webp"
-                  alt=""
-                  className="wp-image-1547"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/theater14-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/theater14.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1915"
-                  height="1440"
-                  src="assets/images/theater6.webp"
-                  alt=""
-                  className="wp-image-847"
+                data-aos-delay="250">
+                <source
+                  srcSet="assets/images/theater6-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/theater6.webp"
+                />
+              </picture>
             </div>
           </div>
           <div
@@ -401,20 +401,20 @@ const HomeTheater = () => {
             id="4"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2396"
-                  height="1600"
-                  src="assets/images/theater2.webp"
-                  alt=""
-                  className="wp-image-848"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/theater2-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/theater2.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -478,20 +478,20 @@ const HomeTheater = () => {
             id="5"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="752"
-                  src="assets/images/theater16.webp"
-                  alt=""
-                  className="wp-image-1711"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/theater16-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/theater16.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -556,20 +556,20 @@ const HomeTheater = () => {
             id="6"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image" data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1915"
-                  height="1440"
-                  src="assets/images/theater3.webp"
-                  alt=""
-                  className="wp-image-845"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/theater3-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/theater3.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
