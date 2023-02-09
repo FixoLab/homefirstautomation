@@ -18,7 +18,10 @@ const CommercialAutomation = () => {
               type="video/mp4"
             />
           </video>
-          <div className="uk-position-cover" style={{backgroundColor: "rgba(0, 0, 0, 0)"}}></div>
+          <div
+            className="uk-position-cover"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
+          ></div>
           <div className="csca-content">
             <div className="csca-content-area">
               <div className="csca-icon">
@@ -71,20 +74,23 @@ const CommercialAutomation = () => {
               id="1"
             >
               <div className="is-layout-flow wp-block-column servicesimages">
-                <figure
-                  className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+                <picture
                   data-aos="fade-up"
                   data-aos-duration="800"
                   data-aos-delay="200"
+                  className="wp-block-image"
                 >
+                  <source
+                    srcSet="assets/images/commercial-automation-1-mini.webp"
+                    media="(max-width: 600px)"
+                  />
                   <img
                     width="1024"
                     height="770"
                     src="assets/images/commercial-automation-1.webp"
-                    alt=""
-                    className="wp-image-1715"
+                    alt="automationImage"
                   />
-                </figure>
+                </picture>
               </div>
 
               <div className="is-layout-flow wp-block-column servicesimages">
@@ -125,20 +131,23 @@ const CommercialAutomation = () => {
               id="2"
             >
               <div className="is-layout-flow wp-block-column servicesimages">
-                <figure
-                  className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                <picture
                   data-aos="fade-up"
                   data-aos-duration="800"
                   data-aos-delay="200"
+                  className="wp-block-image"
                 >
+                  <source
+                    srcSet="assets/images/commercial-automation-2-mini.webp"
+                    media="(max-width: 600px)"
+                  />
                   <img
                     width="1197"
                     height="900"
                     src="assets/images/commercial-automation-2.webp"
-                    alt=""
-                    className="wp-image-846"
+                    alt="automationImage"
                   />
-                </figure>
+                </picture>
               </div>
 
               <div className="is-layout-flow wp-block-column servicesimages">
@@ -176,20 +185,24 @@ const CommercialAutomation = () => {
               id="3"
             >
               <div className="is-layout-flow wp-block-column servicesimages">
-                <figure
-                  className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+              <picture
                   data-aos="fade-up"
                   data-aos-duration="800"
                   data-aos-delay="200"
+                  className="wp-block-image"
                 >
+                  <source
+                    srcSet="assets/images/commercial-automation-3-mini.webp"
+                    media="(max-width: 600px)"
+                  />
                   <img
                     width="2396"
                     height="1600"
                     src="assets/images/commercial-automation-3.webp"
-                    alt=""
-                    className="wp-image-848"
+                    alt="automationImage"
                   />
-                </figure>
+                </picture>
+              
               </div>
 
               <div className="is-layout-flow wp-block-column servicesimages">
@@ -228,20 +241,24 @@ const CommercialAutomation = () => {
               id="4"
             >
               <div className="is-layout-flow wp-block-column servicesimages">
-                <figure
-                  className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+           
+                <picture
                   data-aos="fade-up"
                   data-aos-duration="800"
                   data-aos-delay="200"
+                  className="wp-block-image"
                 >
+                  <source
+                    srcSet="assets/images/commercial-automation-4-mini.webp"
+                    media="(max-width: 600px)"
+                  />
                   <img
                     width="1197"
                     height="900"
                     src="assets/images/commercial-automation-4.webp"
-                    alt=""
-                    className="wp-image-846"
+                    alt="automationImage"
                   />
-                </figure>
+                </picture>
               </div>
 
               <div className="is-layout-flow wp-block-column servicesimages">
@@ -283,20 +300,24 @@ const CommercialAutomation = () => {
               id="5"
             >
               <div className="is-layout-flow wp-block-column servicesimages">
-                <figure
-                  className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                <picture
                   data-aos="fade-up"
                   data-aos-duration="800"
                   data-aos-delay="200"
+                  className="wp-block-image"
                 >
+                  <source
+                    srcSet="assets/images/commercial-automation-5-mini.webp"
+                    media="(max-width: 600px)"
+                  />
                   <img
                     width="2396"
                     height="1600"
                     src="assets/images/commercial-automation-5.webp"
-                    alt=""
-                    className="wp-image-848"
+                    alt="automationImage"
                   />
-                </figure>
+                </picture>
+                
               </div>
 
               <div className="is-layout-flow wp-block-column servicesimages">
@@ -336,20 +357,24 @@ const CommercialAutomation = () => {
               id="6"
             >
               <div className="is-layout-flow wp-block-column servicesimages">
-                <figure
-                  className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+                
+                <picture
                   data-aos="fade-up"
                   data-aos-duration="800"
                   data-aos-delay="200"
+                  className="wp-block-image"
                 >
-                  <img
-                    width="1197"
-                    height="900"
-                    src="assets/images/commercial-automation-6.webp"
-                    alt=""
-                    className="wp-image-846"
+                  <source
+                    srcSet="assets/images/commercial-automation-6-mini.webp"
+                    media="(max-width: 600px)"
                   />
-                </figure>
+                  <img
+                   width="1197"
+                   height="900"
+                   src="assets/images/commercial-automation-6.webp"
+                    alt="automationImage" 
+                  />
+                </picture>
               </div>
 
               <div className="is-layout-flow wp-block-column servicesimages">
