@@ -101,7 +101,7 @@ const Header = () => {
                     <img
                       width="200"
                       height="40"
-                      src="/assets/images/Homefirst_Auto.png"
+                      src="/assets/images/homefirst-automation-logo.png"
                       className="custom-logo"
                       alt="Homefirst"
                     />
