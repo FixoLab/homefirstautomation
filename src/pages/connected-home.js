@@ -435,9 +435,9 @@ const ConnectedHome = () => {
       </div>
       <div className="connected-living-title-section bottom-title-section">
         <div className="title-inner">
-          <h4>HOME AUTOMATION</h4>
+          <h2>HOME AUTOMATION</h2>
           <p className="minigray">
-            The ultimate upgrade for luxury homes, smart automation allows you
+            The ultimate upgrade for luxury homes, smart automation allows you 
             to transform every space at the push of a button or single voice
             command. Effortlessly enhance interior design, increase security,
             and promote the perfect atmosphere throughout your property.
