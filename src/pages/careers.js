@@ -85,117 +85,162 @@ const Careers = () => {
                   <div className="uk-first-column">
                     <div className="uk-light">
                       <div className="el-item uk-inline-clip">
-                        <img
-                          src="assets/images/careers-team-01.webp"
-                          width="1000"
-                          height="1393"
-                          alt="Careers Team"
-                          className="el-image uk-transition-opaque"
-                        />
+                        <picture className="el-image uk-transition-opaque">
+                          <source
+                            srcSet="assets/images/careers-team-01-mini.webp"
+                            media="(max-width: 600px)"
+                          />
+                          <img
+                            width="1000"
+                            height="1393"
+                            alt="Careers Team"
+                            src="assets/images/careers-team-01.webp"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
                   <div>
                     <div className="uk-light">
                       <div className="el-item uk-inline-clip">
-                        <img
-                          src="assets/images/careers-team-02.webp"
-                          width="1000"
-                          height="667"
-                          alt="Careers Team"
-                          className="el-image uk-transition-opaque"
-                        />
+                        <picture className="el-image uk-transition-opaque">
+                          <source
+                            srcSet="assets/images/careers-team-02-mini.webp"
+                            media="(max-width: 600px)"
+                          />
+                          <img
+                            width="1000"
+                            height="667"
+                            alt="Careers Team"
+                            src="assets/images/careers-team-02.webp"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
                   <div>
                     <div className="uk-light">
                       <div className="el-item uk-inline-clip">
-                        <img
-                          src="assets/images/careers-team-03.webp"
-                          width="1000"
-                          height="667"
-                          alt="Careers Team"
-                          className="el-image uk-transition-opaque"
-                        />
+                        <picture className="el-image uk-transition-opaque">
+                          <source
+                            srcSet="assets/images/careers-team-03-mini.webp"
+                            media="(max-width: 600px)"
+                          />
+                          <img
+                            width="1000"
+                            height="667"
+                            alt="Careers Team"
+                            src="assets/images/careers-team-03.webp"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
                   <div className="uk-grid-margin uk-first-column">
                     <div className="uk-light">
                       <div className="el-item uk-inline-clip">
-                        <img
-                          src="assets/images/careers-team-04.webp"
-                          width="1000"
-                          height="606"
-                          alt="Careers Team"
-                          className="el-image uk-transition-opaque"
-                        />
+                        <picture className="el-image uk-transition-opaque">
+                          <source
+                            srcSet="assets/images/careers-team-04-mini.webp"
+                            media="(max-width: 600px)"
+                          />
+                          <img
+                            width="1000"
+                            height="606"
+                            alt="Careers Team"
+                            src="assets/images/careers-team-04.webp"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
                   <div className="uk-grid-margin">
                     <div className="uk-light">
                       <div className="el-item uk-inline-clip">
-                        <img
-                          src="assets/images/careers-team-05.webp"
-                          width="1000"
-                          height="1333"
-                          alt="Careers Team"
-                          className="el-image uk-transition-opaque"
-                        />
+                        <picture className="el-image uk-transition-opaque">
+                          <source
+                            srcSet="assets/images/careers-team-05-mini.webp"
+                            media="(max-width: 600px)"
+                          />
+                          <img
+                            width="1000"
+                            height="1333"
+                            alt="Careers Team"
+                            src="assets/images/careers-team-05.webp"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
                   <div className="uk-grid-margin">
                     <div className="uk-light">
                       <div className="el-item uk-inline-clip">
-                        <img
-                          src="assets/images/careers-team-06.webp"
-                          width="1000"
-                          height="667"
-                          alt="Careers Team"
-                          className="el-image uk-transition-opaque"
-                        />
+                        <picture className="el-image uk-transition-opaque">
+                          <source
+                            srcSet="assets/images/careers-team-06-mini.webp"
+                            media="(max-width: 600px)"
+                          />
+                          <img
+                            width="1000"
+                            height="667"
+                            alt="Careers Team"
+                            src="assets/images/careers-team-06.webp"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
                   <div className="uk-grid-margin uk-first-column">
                     <div className="uk-light">
                       <div className="el-item uk-inline-clip">
-                        <img
-                          src="assets/images/careers-team-07.webp"
-                          width="1000"
-                          height="667"
-                          alt="Careers Team"
-                          className="el-image uk-transition-opaque"
-                        />
+                        <picture className="el-image uk-transition-opaque">
+                          <source
+                            srcSet="assets/images/careers-team-07-mini.webp"
+                            media="(max-width: 600px)"
+                          />
+                          <img
+                            width="1000"
+                            height="667"
+                            alt="Careers Team"
+                            src="assets/images/careers-team-07.webp"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
                   <div className="uk-grid-margin">
                     <div className="uk-light">
                       <div className="el-item uk-inline-clip">
-                        <img
-                          src="assets/images/careers-team-08.webp"
-                          width="1000"
-                          height="667"
-                          alt="Careers Team"
-                          className="el-image uk-transition-opaque"
-                        />
+                        <picture className="el-image uk-transition-opaque">
+                          <source
+                            srcSet="assets/images/careers-team-08-mini.webp"
+                            media="(max-width: 600px)"
+                          />
+                          <img
+                            width="1000"
+                            height="667"
+                            alt="Careers Team"
+                            src="assets/images/careers-team-08.webp"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
                   <div className="uk-grid-margin">
                     <div className="uk-light">
                       <div className="el-item uk-inline-clip">
-                        <img
-                          src="assets/images/careers-team-09.webp"
-                          width="1000"
-                          height="668"
-                          alt="Careers Team"
-                          className="el-image uk-transition-opaque"
-                        />
+                        <picture className="el-image uk-transition-opaque">
+                          <source
+                            srcSet="assets/images/careers-team-09-mini.webp"
+                            media="(max-width: 600px)"
+                          />
+                          <img
+                            width="1000"
+                            height="667"
+                            alt="Careers Team"
+                            src="assets/images/careers-team-09.webp"
+                          />
+                        </picture>
                       </div>
                     </div>
                   </div>
@@ -260,13 +305,18 @@ const Careers = () => {
           <div className="tm-grid-expand uk-grid-margin uk-grid" uk-grid="">
             <div className="uk-width-1-2@m uk-first-column">
               <div className="uk-margin">
-                <img
-                  src="assets/images/about-01.webp"
-                  width="1600"
-                  height="1065"
-                  className="el-image"
-                  alt="Careers Team"
-                />
+                <picture className="el-image">
+                  <source
+                    srcSet="assets/images/about-01-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                    width="1600"
+                    height="1065"
+                    alt="about"
+                    src="assets/images/about-01.webp"
+                  />
+                </picture>
               </div>
             </div>
 

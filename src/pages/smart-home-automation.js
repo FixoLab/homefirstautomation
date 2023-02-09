@@ -96,37 +96,33 @@ const SmartHomeAutomation = () => {
 
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="2000"
-                  height="1503"
-                  src="assets/images/home-show2-1.webp"
-                  alt=""
-                  className="wp-image-853"
+                <source
+                  srcSet="assets/images/home-show2-1-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img alt="Full logo" src="assets/images/home-show2-1.webp" />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
+                data-aos-delay="250"
               >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/smart10.webp"
-                  alt=""
-                  className="wp-image-1863"
+                <source
+                  srcSet="assets/images/smart10-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img alt="Full logo" src="assets/images/smart10.webp" />
+              </picture>
             </div>
           </div>
 
@@ -168,20 +164,18 @@ const SmartHomeAutomation = () => {
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="1024"
-                  height="770"
-                  src="assets/images/smart2.webp"
-                  alt=""
-                  className="wp-image-1544"
+                <source
+                  srcSet="assets/images/smart2-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img alt="Full logo" src="assets/images/smart2.webp" />
+              </picture>
             </div>
           </div>
 
@@ -190,20 +184,18 @@ const SmartHomeAutomation = () => {
             id="2"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
+                data-aos-delay="250"
               >
-                <img
-                  width="1024"
-                  height="770"
-                  src="assets/images/smart7.webp"
-                  alt=""
-                  className="wp-image-1715"
+                <source
+                  srcSet="assets/images/smart7-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img alt="Full logo" src="assets/images/smart7.webp" />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -269,20 +261,18 @@ const SmartHomeAutomation = () => {
             id="3"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/home-shades.webp"
-                  alt=""
-                  className="wp-image-846"
+                <source
+                  srcSet="assets/images/home-shades-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img alt="Full logo" src="assets/images/home-shades.webp" />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -296,7 +286,8 @@ const SmartHomeAutomation = () => {
                   <h2>Smart Shading</h2>
 
                   <p className="pointsmade homeauto">
-                    We use only the top of the line shading systems for Orlando, Florida homes. Control your custom roller shades and
+                    We use only the top of the line shading systems for Orlando,
+                    Florida homes. Control your custom roller shades and
                     motorized blinds with ease with a set timer, voice
                     controlled, or with our top of the line smart technology
                     systems on your phone, tablet, or computer.
@@ -344,37 +335,33 @@ const SmartHomeAutomation = () => {
 
           <div className="is-layout-flex wp-container-23 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="931"
-                  height="700"
-                  src="assets/images/smart-4.webp"
-                  alt=""
-                  className="wp-image-1547"
+                <source
+                  srcSet="assets/images/smart-4-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img alt="Full logo" src="assets/images/smart-4.webp" />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
+                data-aos-delay="250"
               >
-                <img
-                  width="1915"
-                  height="1440"
-                  src="assets/images/home-audio-1.webp"
-                  alt=""
-                  className="wp-image-847"
+                <source
+                  srcSet="assets/images/home-audio-1-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img alt="Full logo" src="assets/images/home-audio-1.webp" />
+              </picture>
             </div>
           </div>
 
@@ -383,20 +370,18 @@ const SmartHomeAutomation = () => {
             id="4"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="2396"
-                  height="1600"
-                  src="assets/images/home-audio1.webp"
-                  alt=""
-                  className="wp-image-848"
+                <source
+                  srcSet="assets/images/home-audio1-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img alt="Full logo" src="assets/images/home-audio1.webp" />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -464,20 +449,18 @@ const SmartHomeAutomation = () => {
             id="5"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="1024"
-                  height="752"
-                  src="assets/images/smart61.webp"
-                  alt=""
-                  className="wp-image-1711"
+                <source
+                  srcSet="assets/images/smart61-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img alt="Full logo" src="assets/images/smart61.webp" />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -544,20 +527,18 @@ const SmartHomeAutomation = () => {
             id="6"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="1915"
-                  height="1440"
-                  src="assets/images/home-security1.webp"
-                  alt=""
-                  className="wp-image-845"
+                <source
+                  srcSet="assets/images/home-security1-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img alt="Full logo" src="assets/images/home-security1.webp" />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -625,20 +606,18 @@ const SmartHomeAutomation = () => {
             id="5"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/smart12a.webp"
-                  alt=""
-                  className="wp-image-2491"
+                <source
+                  srcSet="assets/images/smart12a-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img alt="Full logo" src="assets/images/smart12a.webp" />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -653,10 +632,10 @@ const SmartHomeAutomation = () => {
 
                   <p className="pointsmade homeauto">
                     Talk with friends, family, coworkers, and more with a smart
-                    home conferencing system. Homefirst can analyze
-                    your current setup, install a top of the line model, and
-                    give you a quick run down of all your new features. Video
-                    conferencing has never been easier.{" "}
+                    home conferencing system. Homefirst can analyze your current
+                    setup, install a top of the line model, and give you a quick
+                    run down of all your new features. Video conferencing has
+                    never been easier.{" "}
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
