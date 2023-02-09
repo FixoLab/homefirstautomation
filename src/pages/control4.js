@@ -123,13 +123,14 @@ const Control4 = () => {
                     {" "}
                     Effortless Control of What Matters Most{" "}
                   </h3>
-                  <div className="uk-panel uk-margin-small" style={{marginBottom: "20px"}}>
+                  <div
+                    className="uk-panel uk-margin-small"
+                    style={{ marginBottom: "20px" }}
+                  >
                     Add comfort and security to your luxury Orange County
                     property with Control4's innovative{" "}
-                    <a href="/smart-home-automation">
-                      smart home solutions
-                    </a>
-                    . Revamp your lifestyle with cutting-edge products and
+                    <a href="/smart-home-automation">smart home solutions</a>.
+                    Revamp your lifestyle with cutting-edge products and
                     features that allow seamless control of your technology to
                     create the perfect environment for your family.
                   </div>
@@ -524,16 +525,22 @@ const Control4 = () => {
                       uk-tab="connect: #js-e6ab; itemNav: #js-e6b8; animation: uk-animation-slide-left-small; media: @m  ;"
                     >
                       <li className="">
-                        <a href="#">Alerts and Notifications</a>
+                        <a href="#" aria-label="icon">
+                          Alerts and Notifications
+                        </a>
                       </li>
                       <li className="">
-                        <a href="#">Intercom Everywhere</a>
+                        <a href="#" aria-label="icon">
+                          Intercom Everywhere
+                        </a>
                       </li>
                       <li className="">
-                        <a href="#">Locks and Cameras</a>
+                        <a href="#" aria-label="icon">
+                          Locks and Cameras
+                        </a>
                       </li>
                       <li className="uk-active">
-                        <a href="#" aria-expanded="true">
+                        <a href="#" aria-label="icon" aria-expanded="true">
                           Mockupancy
                         </a>
                       </li>
@@ -946,6 +953,7 @@ const Control4 = () => {
                     className="uk-position-absolute icon"
                     style={{ top: "62%", left: "74%" }}
                     href="#"
+                    aria-label="icon"
                   >
                     <i className="fa-solid fa-plus"></i>
                   </a>
@@ -974,6 +982,7 @@ const Control4 = () => {
                     className="uk-position-absolute icon"
                     style={{ top: "12%", left: "24%" }}
                     href="#"
+                    aria-label="icon"
                   >
                     <i className="fa-solid fa-plus"></i>
                   </a>
@@ -1003,6 +1012,7 @@ const Control4 = () => {
                     className="uk-position-absolute icon"
                     style={{ top: "5%", left: "52%" }}
                     href="#"
+                    aria-label="icon"
                   >
                     <i className="fa-solid fa-plus"></i>
                   </a>
@@ -1032,6 +1042,7 @@ const Control4 = () => {
                     className="uk-position-absolute icon"
                     style={{ top: "25%", left: "54%" }}
                     href="#"
+                    aria-label="icon"
                   >
                     <i className="fa-solid fa-plus"></i>
                   </a>
@@ -1061,6 +1072,7 @@ const Control4 = () => {
                     className="uk-position-absolute icon"
                     style={{ top: "54%", left: "51%" }}
                     href="#"
+                    aria-label="icon"
                   >
                     <i className="fa-solid fa-plus"></i>
                   </a>
@@ -1090,6 +1102,7 @@ const Control4 = () => {
                     className="uk-position-absolute icon"
                     style={{ top: "38%", left: "69%" }}
                     href="#"
+                    aria-label="icon"
                   >
                     <i className="fa-solid fa-plus"></i>
                   </a>

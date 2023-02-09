@@ -187,6 +187,7 @@ const CommercialTechnology = () => {
               />
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "16%", left: "43%" }}
               >
@@ -215,6 +216,7 @@ const CommercialTechnology = () => {
               </div>
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "44%", left: "39%" }}
               >
@@ -244,6 +246,7 @@ const CommercialTechnology = () => {
               </div>
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "62%", left: "11%" }}
               >
@@ -304,6 +307,7 @@ const CommercialTechnology = () => {
               />
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "55%", left: "53%" }}
               >
@@ -333,6 +337,7 @@ const CommercialTechnology = () => {
               </div>
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "20%", left: "66%" }}
               >
@@ -361,6 +366,7 @@ const CommercialTechnology = () => {
               </div>
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "30%", left: "13%" }}
               >
@@ -421,6 +427,7 @@ const CommercialTechnology = () => {
               />
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "40%", left: "8%" }}
               >
@@ -448,6 +455,7 @@ const CommercialTechnology = () => {
               </div>
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "35%", left: "60%" }}
               >
@@ -475,6 +483,7 @@ const CommercialTechnology = () => {
               </div>
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "27%", left: "88%" }}
               >
@@ -535,6 +544,7 @@ const CommercialTechnology = () => {
               />
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "40%", left: "45%" }}
               >
@@ -565,6 +575,7 @@ const CommercialTechnology = () => {
               </div>
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "35%", left: "11%" }}
               >
@@ -594,6 +605,7 @@ const CommercialTechnology = () => {
               </div>
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "29%", left: "65%" }}
               >
@@ -655,6 +667,7 @@ const CommercialTechnology = () => {
               />
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "35%", left: "14%" }}
               >
@@ -683,6 +696,7 @@ const CommercialTechnology = () => {
               </div>
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "27%", left: "66%" }}
               >
@@ -713,6 +727,7 @@ const CommercialTechnology = () => {
               </div>
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "60%", left: "50%" }}
               >
@@ -773,6 +788,7 @@ const CommercialTechnology = () => {
               />
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "20%", left: "8%" }}
               >
@@ -803,6 +819,7 @@ const CommercialTechnology = () => {
               </div>
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "30%", left: "50%" }}
               >
@@ -831,6 +848,7 @@ const CommercialTechnology = () => {
               </div>
               <a
                 href="#"
+                aria-label="icon"
                 className="csh-plus-icon csh-marker uk-marker"
                 style={{ top: "37%", left: "78%" }}
               >
