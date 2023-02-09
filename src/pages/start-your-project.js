@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyIframe } from "react-lazy-media";
 import { Link } from "react-router-dom";
 
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
@@ -406,20 +407,7 @@ const StartYourProject = () => {
 
               <div className="is-layout-flex wp-container-10 wp-block-columns alignfull servicesdualcontainer mapscontain">
                 <div className="is-layout-flow wp-block-column servicesimages bigoldmap">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.504532399776!2d-81.47616788457283!3d28.494464397066498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77ff626830657%3A0x655de93f0d245402!2sHomeFirst%20Security%20and%20Automation!5e0!3m2!1sen!2sbd!4v1674917196012!5m2!1sen!2sbd"
-                    style={{
-                      border: "0px",
-                      width: "1902px",
-                      height: "1426.5px",
-                    }}
-                    allowFullScreen=""
-                    aria-hidden="false"
-                    tabIndex="0"
-                    width="600"
-                    height="450"
-                    title="map"
-                  ></iframe>
+                  <LazyIframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.504532399776!2d-81.47616788457283!3d28.494464397066498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77ff626830657%3A0x655de93f0d245402!2sHomeFirst%20Security%20and%20Automation!5e0!3m2!1sen!2sbd!4v1674917196012!5m2!1sen!2sbd" />
                 </div>
               </div>
             </div>
