@@ -12,7 +12,7 @@ const DesignBuildPartners = () => {
                 <div
                   className="fullimagetop"
                   style={{
-                    backgroundImage: "url(assets/images/design-build-partners.jpg)",
+                    backgroundImage: "url(assets/images/design-build-partners.webp)",
                     backgroundPosition: "center",
                     height: "65vh",
                   }}
@@ -58,7 +58,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design1.jpg"
+                    src="assets/images/design1.webp"
                     alt=""
                     className="wp-image-2755"
                   />
@@ -75,7 +75,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design2.jpg"
+                    src="assets/images/design2.webp"
                     alt=""
                     className="wp-image-2756"
                   />
@@ -121,7 +121,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design3.jpg"
+                    src="assets/images/design3.webp"
                     alt=""
                     className="wp-image-2757"
                   />
@@ -143,7 +143,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design4.jpg"
+                    src="assets/images/design4.webp"
                     alt=""
                     className="wp-image-2758"
                   />
@@ -214,7 +214,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design5.jpg"
+                    src="assets/images/design5.webp"
                     alt=""
                     className="wp-image-2759"
                   />
@@ -231,7 +231,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/haslam-17.jpg"
+                    src="assets/images/haslam-17.webp"
                     alt=""
                     className="wp-image-1032"
                   />

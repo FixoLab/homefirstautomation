@@ -710,7 +710,7 @@ li.menu-item-3288 .fas {
   background-size: inherit;
 }
 .homedual2.homeshow2 {
-  background-image: url("../../../public/assets/images/home-show4.jpg");
+  background-image: url("../../../public/assets/images/home-show4.webp");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   display: flow-root;
@@ -1811,17 +1811,6 @@ a#bbblink {
   margin-top: 10px;
   font-weight: 600;
 }
-.icon-link-google {
-  display: inline-block !important;
-  width: 24px !important;
-  height: 24px !important;
-  line-height: 24px !important;
-  vertical-align: text-top !important;
-  background-image: url(https://static.reviewmgr.com/sprites/icons24x24.png?v=1629922137) !important;
-  background-repeat: no-repeat !important;
-  overflow: hidden !important;
-  background-position: 0px -624px !important;
-}
 .footermenu a {
   display: block;
   text-transform: uppercase;
@@ -2120,7 +2109,7 @@ a#bbblink {
 }
 
 a#scroll-to-top {
-  background: url(../../../public/assets/images/arrow.png) no-repeat center
+  background: url(../../../public/assets/images/arrow.webp) no-repeat center
     center;
   width: 35px;
   height: 35px;

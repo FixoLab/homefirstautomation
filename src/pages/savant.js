@@ -26,7 +26,7 @@ const Savant = () => {
                   <div className="wp-block-image">
                     <figure className="aligncenter size-large is-resized">
                       <img
-                        src="assets/images/savant.png"
+                        src="assets/images/savant.webp"
                         alt=""
                         className="wp-image-2104"
                         width="192"
@@ -76,7 +76,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/savant1.jpg"
+                  src="assets/images/savant1.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -93,7 +93,7 @@ const Savant = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/savant2.jpg"
+                  src="assets/images/savant2.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -114,7 +114,7 @@ const Savant = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.jpg"
+                  src="assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -166,7 +166,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/savant3.jpg"
+                  src="assets/images/savant3.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -182,7 +182,7 @@ const Savant = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/savant4.jpg"
+                  src="assets/images/savant4.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -204,7 +204,7 @@ const Savant = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.jpg"
+                  src="assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -256,7 +256,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/savant5.jpg"
+                  src="assets/images/savant5.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -272,7 +272,7 @@ const Savant = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/savant6.jpg"
+                  src="assets/images/savant6.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -293,7 +293,7 @@ const Savant = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.jpg"
+                  src="assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -348,7 +348,7 @@ const Savant = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/savant7.jpg"
+                  src="assets/images/savant7.webp"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -365,7 +365,7 @@ const Savant = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/savant8.jpg"
+                  src="assets/images/savant8.webp"
                   alt=""
                   className="wp-image-847"
                 />

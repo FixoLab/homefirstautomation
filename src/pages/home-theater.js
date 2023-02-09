@@ -102,7 +102,7 @@ const HomeTheater = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/theater18.jpg"
+                  src="assets/images/theater18.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -119,7 +119,7 @@ const HomeTheater = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/theater19.jpg"
+                  src="assets/images/theater19.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -141,7 +141,7 @@ const HomeTheater = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/theater10.jpg"
+                  src="assets/images/theater10.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -172,7 +172,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/control4-services.png"
+                        src="assets/images/control4-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -184,7 +184,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -196,7 +196,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/crestron-services.png"
+                        src="assets/images/crestron-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -221,7 +221,7 @@ const HomeTheater = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/theater5.jpg"
+                  src="assets/images/theater5.webp"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -250,7 +250,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/control4-services.png"
+                        src="assets/images/control4-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -262,7 +262,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -274,7 +274,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/crestron-services.png"
+                        src="assets/images/crestron-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -299,7 +299,7 @@ const HomeTheater = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/theater10.jpg"
+                  src="assets/images/theater10.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -327,7 +327,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/lutron-services-1.png"
+                        src="assets/images/lutron-services-1.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -339,7 +339,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/hunter-douglas-services.png"
+                        src="assets/images/hunter-douglas-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -351,7 +351,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -372,7 +372,7 @@ const HomeTheater = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/theater14.jpg"
+                  src="assets/images/theater14.webp"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -389,7 +389,7 @@ const HomeTheater = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/theater6.jpg"
+                  src="assets/images/theater6.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -410,7 +410,7 @@ const HomeTheater = () => {
                 <img
                   width="2396"
                   height="1600"
-                  src="assets/images/theater2.jpg"
+                  src="assets/images/theater2.webp"
                   alt=""
                   className="wp-image-848"
                 />
@@ -439,7 +439,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/control4-services.png"
+                        src="assets/images/control4-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -451,7 +451,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -463,7 +463,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/crestron-services.png"
+                        src="assets/images/crestron-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -487,7 +487,7 @@ const HomeTheater = () => {
                 <img
                   width="1024"
                   height="752"
-                  src="assets/images/theater16.jpg"
+                  src="assets/images/theater16.webp"
                   alt=""
                   className="wp-image-1711"
                 />
@@ -517,7 +517,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/control4-services.png"
+                        src="assets/images/control4-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -529,7 +529,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -541,7 +541,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/crestron-services.png"
+                        src="assets/images/crestron-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />
@@ -565,7 +565,7 @@ const HomeTheater = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/theater3.jpg"
+                  src="assets/images/theater3.webp"
                   alt=""
                   className="wp-image-845"
                 />
@@ -594,7 +594,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/control4-services.png"
+                        src="assets/images/control4-services.webp"
                         alt=""
                         className="wp-image-2424"
                       />
@@ -606,7 +606,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/savant-services.png"
+                        src="assets/images/savant-services.webp"
                         alt=""
                         className="wp-image-2425"
                       />
@@ -618,7 +618,7 @@ const HomeTheater = () => {
                       <img
                         width="180"
                         height="180"
-                        src="assets/images/crestron-services.png"
+                        src="assets/images/crestron-services.webp"
                         alt=""
                         className="wp-image-2426"
                       />

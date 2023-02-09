@@ -54,7 +54,7 @@ const HunterDouglas = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/hunterdouglas7.jpg"
+                  src="assets/images/hunterdouglas7.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -70,7 +70,7 @@ const HunterDouglas = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/hunterdouglas8.jpg"
+                  src="assets/images/hunterdouglas8.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -92,7 +92,7 @@ const HunterDouglas = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.jpg"
+                  src="assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -148,7 +148,7 @@ const HunterDouglas = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/hunterdouglas1.jpg"
+                  src="assets/images/hunterdouglas1.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -164,7 +164,7 @@ const HunterDouglas = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/hunterdouglas2.jpg"
+                  src="assets/images/hunterdouglas2.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -186,7 +186,7 @@ const HunterDouglas = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.jpg"
+                  src="assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -241,7 +241,7 @@ const HunterDouglas = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/hunterdouglas3.jpg"
+                  src="assets/images/hunterdouglas3.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -257,7 +257,7 @@ const HunterDouglas = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/hunterdouglas4.jpg"
+                  src="assets/images/hunterdouglas4.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -278,7 +278,7 @@ const HunterDouglas = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.jpg"
+                  src="assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -333,7 +333,7 @@ const HunterDouglas = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/hunterdouglas5.jpg"
+                  src="assets/images/hunterdouglas5.webp"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -350,7 +350,7 @@ const HunterDouglas = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/hunterdouglas6.jpg"
+                  src="assets/images/hunterdouglas6.webp"
                   alt=""
                   className="wp-image-847"
                 />

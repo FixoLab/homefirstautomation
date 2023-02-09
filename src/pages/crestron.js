@@ -31,7 +31,7 @@ const Crestron = () => {
                       <div className="wp-block-image">
                         <figure className="aligncenter size-large is-resized">
                           <img
-                            src="assets/images/crestron-2-logo.png"
+                            src="assets/images/crestron-2-logo.webp"
                             alt=""
                             className="wp-image-2116"
                             width="192"
@@ -71,7 +71,7 @@ const Crestron = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/crestron-main12.jpg"
+                  src="assets/images/crestron-main12.webp"
                   alt=""
                   className="wp-image-2332"
                 />
@@ -83,7 +83,7 @@ const Crestron = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/crestron-main13.jpg"
+                  src="assets/images/crestron-main13.webp"
                   alt=""
                   className="wp-image-2333"
                 />
@@ -116,7 +116,7 @@ const Crestron = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/home-shades.jpg"
+                  src="assets/images/home-shades.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -141,7 +141,7 @@ const Crestron = () => {
                 <img
                   width="1025"
                   height="770"
-                  src="assets/images/crestron-main9.jpg"
+                  src="assets/images/crestron-main9.webp"
                   alt=""
                   className="wp-image-1962"
                 />
@@ -153,7 +153,7 @@ const Crestron = () => {
                 <img
                   width="1025"
                   height="770"
-                  src="assets/images/crestron-main8.jpg"
+                  src="assets/images/crestron-main8.webp"
                   alt=""
                   className="wp-image-1960"
                 />
@@ -206,7 +206,7 @@ const Crestron = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/crestron-main7.jpg"
+                  src="assets/images/crestron-main7.webp"
                   alt=""
                   className="wp-image-1956"
                 />
@@ -218,7 +218,7 @@ const Crestron = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/crestron-main6.jpg"
+                  src="assets/images/crestron-main6.webp"
                   alt=""
                   className="wp-image-1954"
                 />
@@ -250,7 +250,7 @@ const Crestron = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images//haslam-6.jpg"
+                  src="assets/images//haslam-6.webp"
                   alt=""
                   className="wp-image-984"
                 />
@@ -275,7 +275,7 @@ const Crestron = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/crestron-main3.jpg"
+                  src="assets/images/crestron-main3.webp"
                   alt=""
                   className="wp-image-1947"
                 />
@@ -287,7 +287,7 @@ const Crestron = () => {
                 <img
                   width="1025"
                   height="770"
-                  src="assets/images/crestron-main5.jpg"
+                  src="assets/images/crestron-main5.webp"
                   alt=""
                   className="wp-image-1949"
                 />

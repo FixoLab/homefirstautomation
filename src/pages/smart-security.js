@@ -94,7 +94,7 @@ const SmartSecurity = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/security1.jpg"
+                  src="assets/images/security1.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -111,7 +111,7 @@ const SmartSecurity = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/security-10.jpg"
+                  src="assets/images/security-10.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -133,7 +133,7 @@ const SmartSecurity = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/smart2.jpg"
+                  src="assets/images/smart2.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -178,7 +178,7 @@ const SmartSecurity = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/security12.jpg"
+                  src="assets/images/security12.webp"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -222,7 +222,7 @@ const SmartSecurity = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/security8.jpg"
+                  src="assets/images/security8.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -261,7 +261,7 @@ const SmartSecurity = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/security14.jpg"
+                  src="assets/images/security14.webp"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -278,7 +278,7 @@ const SmartSecurity = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/security-18.jpg"
+                  src="assets/images/security-18.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -299,7 +299,7 @@ const SmartSecurity = () => {
                 <img
                   width="2396"
                   height="1600"
-                  src="assets/images/security-13.jpg"
+                  src="assets/images/security-13.webp"
                   alt=""
                   className="wp-image-848"
                 />
@@ -343,7 +343,7 @@ const SmartSecurity = () => {
                 <img
                   width="1024"
                   height="752"
-                  src="assets/images/security-17.jpg"
+                  src="assets/images/security-17.webp"
                   alt=""
                   className="wp-image-1711"
                 />
@@ -385,7 +385,7 @@ const SmartSecurity = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/security16.jpg"
+                  src="assets/images/security16.webp"
                   alt=""
                   className="wp-image-845"
                 />

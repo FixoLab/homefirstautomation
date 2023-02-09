@@ -12,7 +12,7 @@ const Realtors = () => {
                 <div
                   className="fullimagetop"
                   style={{
-                    backgroundImage: "url(/assets/images/seller6.jpg)",
+                    backgroundImage: "url(/assets/images/seller6.webp)",
                     backgroundPosition: "center",
                     height: "65vh",
                   }}
@@ -57,7 +57,7 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller1.jpg"
+                    src="assets/images/seller1.webp"
                     alt=""
                     className="wp-image-2755"
                   />
@@ -74,7 +74,7 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller2.jpg"
+                    src="assets/images/seller2.webp"
                     alt=""
                     className="wp-image-2756"
                   />
@@ -119,7 +119,7 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller3.jpg"
+                    src="assets/images/seller3.webp"
                     alt=""
                     className="wp-image-2757"
                   />
@@ -141,7 +141,7 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller4.jpg"
+                    src="assets/images/seller4.webp"
                     alt=""
                     className="wp-image-2758"
                   />
@@ -213,7 +213,7 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller5.jpg"
+                    src="assets/images/seller5.webp"
                     alt=""
                     className="wp-image-2759"
                   />
@@ -230,7 +230,7 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/haslam-17.jpg"
+                    src="assets/images/haslam-17.webp"
                     alt=""
                     className="wp-image-1032"
                   />

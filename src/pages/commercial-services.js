@@ -88,7 +88,7 @@ const CommercialServices = () => {
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/commercial23.jpg"
+                  src="assets/images/commercial23.webp"
                   alt=""
                   className="wp-image-853"
                 />
@@ -105,7 +105,7 @@ const CommercialServices = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/commercial22.jpg"
+                  src="assets/images/commercial22.webp"
                   alt=""
                   className="wp-image-1863"
                 />
@@ -127,7 +127,7 @@ const CommercialServices = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/commercial15.jpg"
+                  src="assets/images/commercial15.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -170,7 +170,7 @@ const CommercialServices = () => {
                 <img
                   width="1024"
                   height="770"
-                  src="assets/images/commercial3.jpg"
+                  src="assets/images/commercial3.webp"
                   alt=""
                   className="wp-image-1715"
                 />
@@ -213,7 +213,7 @@ const CommercialServices = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/commercial1.jpg"
+                  src="assets/images/commercial1.webp"
                   alt=""
                   className="wp-image-846"
                 />
@@ -251,7 +251,7 @@ const CommercialServices = () => {
                 <img
                   width="931"
                   height="700"
-                  src="assets/images/commercial9.jpg"
+                  src="assets/images/commercial9.webp"
                   alt=""
                   className="wp-image-1547"
                 />
@@ -268,7 +268,7 @@ const CommercialServices = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/commercial10.jpg"
+                  src="assets/images/commercial10.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -289,7 +289,7 @@ const CommercialServices = () => {
                 <img
                   width="2396"
                   height="1600"
-                  src="assets/images/commercial21.jpg"
+                  src="assets/images/commercial21.webp"
                   alt=""
                   className="wp-image-848"
                 />
@@ -330,7 +330,7 @@ const CommercialServices = () => {
                 <img
                   width="1024"
                   height="752"
-                  src="assets/images/commercial13.jpg"
+                  src="assets/images/commercial13.webp"
                   alt=""
                   className="wp-image-1711"
                 />
@@ -373,7 +373,7 @@ const CommercialServices = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/commercial20.jpg"
+                  src="assets/images/commercial20.webp"
                   alt=""
                   className="wp-image-845"
                 />
