@@ -135,7 +135,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="313"
-                          src="assets/images/savant.webp"
+                          src="assets/images/savant-title-img.webp"
                           alt=""
                           className="wp-image-1479"
                         />
@@ -342,7 +342,7 @@ const BrandsWeCarry = () => {
                         <img
                           width="600"
                           height="300"
-                          src="assets/images/ruckus.webp"
+                          src="assets/images/ruckus-brand.webp"
                           alt=""
                           className="wp-image-1500"
                         />

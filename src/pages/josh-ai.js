@@ -653,20 +653,23 @@ const JoshAi = () => {
             id="1"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="1024"
-                  height="770"
-                  src="assets/images/josh-ai-8.webp"
-                  alt=""
-                  className="wp-image-1715"
+                <source
+                  srcSet="assets/images/josh-ai-8-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                  width="1000"
+                  height="900"
+                  alt=""
+                  src="assets/images/josh-ai-8.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -696,20 +699,23 @@ const JoshAi = () => {
             id="2"
           >
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="1197"
-                  height="900"
-                  src="assets/images/josh-ai-9.webp"
-                  alt=""
-                  className="wp-image-846"
+                <source
+                  srcSet="assets/images/josh-ai-9-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                  width="1000"
+                  height="900"
+                  alt=""
+                  src="assets/images/josh-ai-9.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
@@ -749,14 +755,18 @@ const JoshAi = () => {
                     >
                       <div className="uk-first-column">
                         <div className="el-item uk-panel uk-margin-remove-first-child">
-                          <img
-                            src="assets/images/josh-ai-10.webp"
-                            width="1200"
-                            height="857"
-                            className="el-image"
-                            alt="Brain icon"
-                            loading="lazy"
-                          />
+                          <picture className="el-image">
+                            <source
+                              srcSet="assets/images/josh-ai-10-mini.webp"
+                              media="(max-width: 600px)"
+                            />
+                            <img
+                              width="1200"
+                              height="857"
+                              alt=""
+                              src="assets/images/josh-ai-10.webp"
+                            />
+                          </picture>
 
                           <h4 className="el-title uk-margin-top uk-margin-remove-bottom">
                             Switches
@@ -771,14 +781,18 @@ const JoshAi = () => {
                       </div>
                       <div className="">
                         <div className="el-item uk-panel uk-margin-remove-first-child">
-                          <img
-                            src="assets/images/josh-ai-11.webp"
-                            width="1200"
-                            height="858"
-                            className="el-image"
-                            alt="safe icon"
-                            loading="lazy"
-                          />
+                          <picture className="el-image">
+                            <source
+                              srcSet="assets/images/josh-ai-11-mini.webp"
+                              media="(max-width: 600px)"
+                            />
+                            <img
+                              width="1200"
+                              height="857"
+                              alt=""
+                              src="assets/images/josh-ai-11.webp"
+                            />
+                          </picture>
 
                           <h4 className="el-title uk-margin-top uk-margin-remove-bottom">
                             Sleep &amp; Wake Mode
@@ -794,14 +808,18 @@ const JoshAi = () => {
                       </div>
                       <div className="">
                         <div className="el-item uk-panel uk-margin-remove-first-child">
-                          <img
-                            src="assets/images/josh-ai-12.webp"
-                            width="1200"
-                            height="857"
-                            className="el-image"
-                            alt="sun icon"
-                            loading="lazy"
-                          />
+                          <picture className="el-image">
+                            <source
+                              srcSet="assets/images/josh-ai-12-mini.webp"
+                              media="(max-width: 600px)"
+                            />
+                            <img
+                              width="1200"
+                              height="857"
+                              alt=""
+                              src="assets/images/josh-ai-12.webp"
+                            />
+                          </picture>
 
                           <h4 className="el-title uk-margin-top uk-margin-remove-bottom">
                             Mute Function
@@ -887,13 +905,18 @@ const JoshAi = () => {
                       uk-height-match="row: false"
                     >
                       <li className="el-item uk-margin-remove-first-child uk-active">
-                        <img
-                          src="assets/images/josh-ai-14.webp"
-                          width="1200"
-                          height="800"
-                          className="el-image"
-                          alt=""
-                        />
+                        <picture className="el-image">
+                          <source
+                            srcSet="assets/images/josh-ai-14-mini.webp"
+                            media="(max-width: 600px)"
+                          />
+                          <img
+                            width="1200"
+                            height="857"
+                            alt=""
+                            src="assets/images/josh-ai-14.webp"
+                          />
+                        </picture>
 
                         <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                           Natural Language
@@ -912,13 +935,18 @@ const JoshAi = () => {
                         </div>
                       </li>
                       <li className="el-item uk-margin-remove-first-child">
-                        <img
-                          src="assets/images/josh-ai-15.webp"
-                          width="1200"
-                          height="800"
-                          className="el-image"
-                          alt=""
-                        />
+                        <picture className="el-image">
+                          <source
+                            srcSet="assets/images/josh-ai-15-mini.webp"
+                            media="(max-width: 600px)"
+                          />
+                          <img
+                            width="1200"
+                            height="857"
+                            alt=""
+                            src="assets/images/josh-ai-15.webp"
+                          />
+                        </picture>
 
                         <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                           Accessibility
@@ -934,13 +962,18 @@ const JoshAi = () => {
                         </div>
                       </li>
                       <li className="el-item uk-margin-remove-first-child">
-                        <img
-                          src="assets/images/josh-ai-16.webp"
-                          width="1200"
-                          height="800"
-                          className="el-image"
-                          alt=""
-                        />
+                        <picture className="el-image">
+                          <source
+                            srcSet="assets/images/josh-ai-16-mini.webp"
+                            media="(max-width: 600px)"
+                          />
+                          <img
+                            width="1200"
+                            height="857"
+                            alt=""
+                            src="assets/images/josh-ai-16.webp"
+                          />
+                        </picture>
 
                         <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                           Hands-Free Control

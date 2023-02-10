@@ -67,37 +67,43 @@ const Savant = () => {
 
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
+                <source
+                  srcSet="assets/images/savant1-mini.webp"
+                  media="(max-width: 600px)"
+                />
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/savant1.webp"
                   alt=""
-                  className="wp-image-853"
+                  src="assets/images/savant1.webp"
                 />
-              </figure>
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/savant2.webp"
-                  alt=""
-                  className="wp-image-1863"
+                <source
+                  srcSet="assets/images/savant2-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                  width="2000"
+                  height="1503"
+                  alt=""
+                  src="assets/images/savant2.webp"
+                />
+              </picture>
             </div>
           </div>
           <div
@@ -157,36 +163,42 @@ const Savant = () => {
           </div>
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
+                <source
+                  srcSet="assets/images/savant3-mini.webp"
+                  media="(max-width: 600px)"
+                />
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/savant3.webp"
                   alt=""
-                  className="wp-image-853"
+                  src="assets/images/savant3.webp"
                 />
-              </figure>
+              </picture>
             </div>
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/savant4.webp"
-                  alt=""
-                  className="wp-image-1863"
+                <source
+                  srcSet="assets/images/savant4-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                  width="2000"
+                  height="1503"
+                  alt=""
+                  src="assets/images/savant4.webp"
+                />
+              </picture>
             </div>
           </div>
 
@@ -247,36 +259,42 @@ const Savant = () => {
           </div>
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
+                <source
+                  srcSet="assets/images/savant5-mini.webp"
+                  media="(max-width: 600px)"
+                />
                 <img
                   width="2000"
                   height="1503"
-                  src="assets/images/savant5.webp"
                   alt=""
-                  className="wp-image-853"
+                  src="assets/images/savant5.webp"
                 />
-              </figure>
+              </picture>
             </div>
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/savant6.webp"
-                  alt=""
-                  className="wp-image-1863"
+                <source
+                  srcSet="assets/images/savant6-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                  width="2000"
+                  height="1503"
+                  alt=""
+                  src="assets/images/savant6.webp"
+                />
+              </picture>
             </div>
           </div>
           <div
@@ -339,37 +357,43 @@ const Savant = () => {
           </div>
           <div className="is-layout-flex wp-container-23 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="931"
-                  height="700"
-                  src="assets/images/savant7.webp"
-                  alt=""
-                  className="wp-image-1547"
+                <source
+                  srcSet="assets/images/savant7-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                  width="2000"
+                  height="1503"
+                  alt=""
+                  src="assets/images/savant7.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+              <picture
+                className="wp-block-image"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="200"
               >
-                <img
-                  width="1915"
-                  height="1440"
-                  src="assets/images/savant8.webp"
-                  alt=""
-                  className="wp-image-847"
+                <source
+                  srcSet="assets/images/savant8-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                  width="2000"
+                  height="1503"
+                  alt=""
+                  src="assets/images/savant8.webp"
+                />
+              </picture>
             </div>
           </div>
           <StartJourney />
