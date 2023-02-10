@@ -16,7 +16,7 @@ const Control4 = () => {
         uk-height-viewport="offset-top: true; offset-bottom: 20;"
       >
         <video
-          src="assets/video/contol-4.mp4" 
+          src="assets/video/contol-4.mp4"
           type="video/mp4"
           loop
           autoPlay
@@ -175,7 +175,18 @@ const Control4 = () => {
               </p>
             </div>
             <div className="image">
-              <img src="assets/images/header-brands-control4.webp" alt="" />
+              <picture>
+                <source
+                  srcSet="assets/images/header-brands-control4-mini.webp"
+                  media="(max-width: 600px)"
+                />
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/header-brands-control4.webp"
+                />
+              </picture>
             </div>
             <div className="bottom">
               <h4> Have An Existing System? </h4>
@@ -205,7 +216,18 @@ const Control4 = () => {
           <SwiperSlide>
             <div className="feature-item">
               <div className="image">
-                <img src="assets/images/control4-feature-01.webp" alt="" />
+                <picture>
+                  <source
+                    srcSet="assets/images/control4-feature-01-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                    width="1200"
+                    height="1000"
+                    alt=""
+                    src="assets/images/control4-feature-01.webp"
+                  />
+                </picture>
               </div>
               <div className="content">
                 <h5> At-a-Glance Views of Your Most Vital Devices </h5>
@@ -220,7 +242,18 @@ const Control4 = () => {
           <SwiperSlide>
             <div className="feature-item">
               <div className="image">
-                <img src="assets/images/control4-feature-02.webp" alt="" />
+                <picture>
+                  <source
+                    srcSet="assets/images/control4-feature-02-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                    width="1200"
+                    height="1000"
+                    alt=""
+                    src="assets/images/control4-feature-02.webp"
+                  />
+                </picture>
               </div>
               <div className="content">
                 <h5>YOUR FAVORITE CONTROLS ON ONE DASHBOARD</h5>
@@ -235,7 +268,18 @@ const Control4 = () => {
           <SwiperSlide>
             <div className="feature-item">
               <div className="image">
-                <img src="assets/images/control4-feature-03.webp" alt="" />
+                <picture>
+                  <source
+                    srcSet="assets/images/control4-feature-03-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                    width="1200"
+                    height="1000"
+                    alt=""
+                    src="assets/images/control4-feature-03.webp"
+                  />
+                </picture>
               </div>
               <div className="content">
                 <h5>ONE-STOP ACCESS TO YOUR ENTERTAINMENT</h5>
@@ -301,7 +345,18 @@ const Control4 = () => {
           <SwiperSlide>
             <div className="feature-item">
               <div className="image">
-                <img src="assets/images/control4-feature-04.webp" alt="" />
+                <picture>
+                  <source
+                    srcSet="assets/images/control4-feature-04-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                    width="1200"
+                    height="1000"
+                    alt=""
+                    src="assets/images/control4-feature-04.webp"
+                  />
+                </picture>
               </div>
               <div className="content">
                 <h5>CONTROL WHERE YOU NEED IT</h5>
@@ -317,7 +372,18 @@ const Control4 = () => {
           <SwiperSlide>
             <div className="feature-item">
               <div className="image">
-                <img src="assets/images/control4-feature-05.webp" alt="" />
+                <picture>
+                  <source
+                    srcSet="assets/images/control4-feature-05-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                    width="1200"
+                    height="1000"
+                    alt=""
+                    src="assets/images/control4-feature-05.webp"
+                  />
+                </picture>
               </div>
               <div className="content">
                 <h5>ONE APP FOR EVERYTHING</h5>
@@ -333,7 +399,18 @@ const Control4 = () => {
           <SwiperSlide>
             <div className="feature-item">
               <div className="image">
-                <img src="assets/images/control4-feature-06.webp" alt="" />
+                <picture>
+                  <source
+                    srcSet="assets/images/control4-feature-06-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                    width="1200"
+                    height="1000"
+                    alt=""
+                    src="assets/images/control4-feature-06.webp"
+                  />
+                </picture>
               </div>
               <div className="content">
                 <h5>NEVER LIFT A FINGER</h5>
@@ -368,7 +445,18 @@ const Control4 = () => {
               </p>
             </div>
             <div className="image">
-              <img src="assets/images/header-brands-control4-02.webp" alt="" />
+              <picture>
+                <source
+                  srcSet="assets/images/header-brands-control4-02-mini.webp"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  width="1200"
+                  height="1000"
+                  alt=""
+                  src="assets/images/header-brands-control4-02.webp"
+                />
+              </picture>
             </div>
             <div className="bottom">
               <h6>
@@ -388,7 +476,18 @@ const Control4 = () => {
             </h4>
             <div className="item-content">
               <div className="item-image">
-                <img src="assets/images/control4-feature-07.webp" alt="" />
+                <picture>
+                  <source
+                    srcSet="assets/images/control4-feature-07-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                    width="1200"
+                    height="1000"
+                    alt=""
+                    src="assets/images/control4-feature-07.webp"
+                  />
+                </picture>
               </div>
               <p>
                 Fully integrate your HVAC, thermal systems and even your
@@ -405,7 +504,18 @@ const Control4 = () => {
             </h4>
             <div className="item-content">
               <div className="item-image">
-                <img src="assets/images/control4-feature-08.webp" alt="" />
+                <picture>
+                  <source
+                    srcSet="assets/images/control4-feature-08-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                    width="1200"
+                    height="1000"
+                    alt=""
+                    src="assets/images/control4-feature-08.webp"
+                  />
+                </picture>
               </div>
               <p>
                 Raise or lower your shades and blinds without ever having to
@@ -479,7 +589,18 @@ const Control4 = () => {
               </p>
             </div>
             <div className="image">
-              <img src="assets/images/header-brands-control4-02.webp" alt="" />
+              <picture>
+                <source
+                  srcSet="assets/images/header-brands-control4-02-mini.webp"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  width="1200"
+                  height="1000"
+                  alt=""
+                  src="assets/images/header-brands-control4-02.webp"
+                />
+              </picture>
             </div>
             <div className="bottom">
               <h6>ALWAYS PUT YOUR SAFETY FIRST</h6>
@@ -503,13 +624,18 @@ const Control4 = () => {
                 is unlocked to address security risks immediately.
               </p>
               <div className="uk-margin">
-                <img
-                  src="assets/images/control4-104.webp"
-                  width="1500"
-                  height="1200"
-                  className="el-image"
-                  alt=""
-                />
+                <picture className="el-image">
+                  <source
+                    srcSet="assets/images/control4-104-mini.webp"
+                    media="(max-width: 600px)"
+                  />
+                  <img
+                    width="1200"
+                    height="1000"
+                    alt=""
+                    src="assets/images/control4-104.webp"
+                  />
+                </picture>
               </div>
             </div>
           </div>
@@ -552,13 +678,18 @@ const Control4 = () => {
                     uk-height-match="row: false"
                   >
                     <li className="el-item uk-margin-remove-first-child">
-                      <img
-                        src="assets/images/control4-100.webp"
-                        width="1000"
-                        height="800"
-                        className="el-image uk-border-rounded"
-                        alt=""
-                      />
+                      <picture className="el-image uk-border-rounded">
+                        <source
+                          srcSet="assets/images/control4-100-mini.webp"
+                          media="(max-width: 600px)"
+                        />
+                        <img
+                          width="1000"
+                          height="800"
+                          alt=""
+                          src="assets/images/control4-100.webp"
+                        />
+                      </picture>
                       <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                         Alerts and Notifications
                       </h3>
@@ -571,13 +702,18 @@ const Control4 = () => {
                       </div>
                     </li>
                     <li className="el-item uk-margin-remove-first-child">
-                      <img
-                        src="assets/images/control4-101.webp"
-                        width="1000"
-                        height="800"
-                        className="el-image uk-border-rounded"
-                        alt=""
-                      />
+                      <picture className="el-image uk-border-rounded">
+                        <source
+                          srcSet="assets/images/control4-101-mini.webp"
+                          media="(max-width: 600px)"
+                        />
+                        <img
+                          width="1000"
+                          height="800"
+                          alt=""
+                          src="assets/images/control4-101.webp"
+                        />
+                      </picture>
                       <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                         Intercom Everywhere
                       </h3>
@@ -590,13 +726,18 @@ const Control4 = () => {
                       </div>
                     </li>
                     <li className="el-item uk-margin-remove-first-child">
-                      <img
-                        src="assets/images/control4-102.webp"
-                        width="1000"
-                        height="800"
-                        className="el-image uk-border-rounded"
-                        alt=""
-                      />
+                      <picture className="el-image uk-border-rounded">
+                        <source
+                          srcSet="assets/images/control4-102-mini.webp"
+                          media="(max-width: 600px)"
+                        />
+                        <img
+                          width="1000"
+                          height="800"
+                          alt=""
+                          src="assets/images/control4-102.webp"
+                        />
+                      </picture>
                       <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                         Locks and Cameras
                       </h3>
@@ -609,13 +750,18 @@ const Control4 = () => {
                       </div>
                     </li>
                     <li className="el-item uk-margin-remove-first-child uk-active">
-                      <img
-                        src="assets/images/control4-103.webp"
-                        width="1500"
-                        height="1200"
-                        className="el-image uk-border-rounded"
-                        alt=""
-                      />
+                      <picture className="el-image uk-border-rounded">
+                        <source
+                          srcSet="assets/images/control4-103-mini.webp"
+                          media="(max-width: 600px)"
+                        />
+                        <img
+                          width="1000"
+                          height="800"
+                          alt=""
+                          src="assets/images/control4-103.webp"
+                        />
+                      </picture>
                       <h3 className="el-title uk-margin-top uk-margin-remove-bottom">
                         Mockupancy
                       </h3>
@@ -694,7 +840,18 @@ const Control4 = () => {
               </p>
             </div>
             <div className="image">
-              <img src="assets/images/header-brands-control4-05.webp" alt="" />
+              <picture>
+                <source
+                  srcSet="assets/images/header-brands-control4-05-mini.webp"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  width="1200"
+                  height="1000"
+                  alt=""
+                  src="assets/images/header-brands-control4-05.webp"
+                />
+              </picture>
             </div>
             <div className="bottom">
               <h4>ELEVATE THE WAY YOU INTERACT</h4>
@@ -723,13 +880,18 @@ const Control4 = () => {
                 <ul className="uk-slider-items uk-grid uk-grid-medium">
                   <li className="el-item uk-width-1-1 uk-width-3-5@m uk-light">
                     <div className="uk-cover-container">
-                      <img
-                        src="assets/images/control4-feature-09.webp"
-                        width="2000"
-                        height="1125"
-                        alt="coastal source speaker in rain"
-                        className="el-image uk-transition-opaque"
-                      />
+                      <picture className="el-image uk-transition-opaque">
+                        <source
+                          srcSet="assets/images/control4-feature-09-mini.webp"
+                          media="(max-width: 600px)"
+                        />
+                        <img
+                          width="1200"
+                          height="1000"
+                          alt=""
+                          src="assets/images/control4-feature-09.webp"
+                        />
+                      </picture>
 
                       <div className="uk-overlay-default uk-position-cover"></div>
                       <div className="uk-position-bottom-left uk-overlay uk-width-2xlarge uk-margin-remove-first-child">
@@ -747,13 +909,18 @@ const Control4 = () => {
                   </li>
                   <li className="el-item uk-width-1-1 uk-width-3-5@m uk-active uk-light">
                     <div className="uk-cover-container">
-                      <img
-                        src="assets/images/control4-feature-10.webp"
-                        width="2000"
-                        height="1125"
-                        alt="coastal source speaker in pothos plant"
-                        className="el-image uk-transition-opaque"
-                      />
+                      <picture className="el-image uk-transition-opaque">
+                        <source
+                          srcSet="assets/images/control4-feature-10-mini.webp"
+                          media="(max-width: 600px)"
+                        />
+                        <img
+                          width="1200"
+                          height="1000"
+                          alt=""
+                          src="assets/images/control4-feature-10.webp"
+                        />
+                      </picture>
 
                       <div className="uk-overlay-default uk-position-cover"></div>
                       <div className="uk-position-bottom-left uk-overlay uk-width-2xlarge uk-margin-remove-first-child">
@@ -771,13 +938,18 @@ const Control4 = () => {
                   </li>
                   <li className="el-item uk-width-1-1 uk-width-3-5@m uk-light">
                     <div className="uk-cover-container">
-                      <img
-                        src="assets/images/control4-feature-11.webp"
-                        width="2000"
-                        height="1125"
-                        alt=""
-                        className="el-image uk-transition-opaque"
-                      />
+                      <picture className="el-image uk-transition-opaque">
+                        <source
+                          srcSet="assets/images/control4-feature-11-mini.webp"
+                          media="(max-width: 600px)"
+                        />
+                        <img
+                          width="1200"
+                          height="1000"
+                          alt=""
+                          src="assets/images/control4-feature-11.webp"
+                        />
+                      </picture>
 
                       <div className="uk-overlay-default uk-position-cover"></div>
                       <div className="uk-position-bottom-left uk-overlay uk-width-2xlarge uk-margin-remove-first-child">
@@ -852,6 +1024,18 @@ const Control4 = () => {
             </div>
             <div className="image">
               <img src="assets/images/header-brands-control4-06.webp" alt="" />
+              <picture>
+                <source
+                  srcSet="assets/images/header-brands-control4-06-mini.webp"
+                  media="(max-width: 600px)"
+                />
+                <img
+                  width="1200"
+                  height="1000"
+                  alt=""
+                  src="assets/images/header-brands-control4-06.webp"
+                />
+              </picture>
             </div>
             <div className="bottom">
               <h4>HANDHELD CONTROL, REVOLUTIONIZED</h4>
@@ -875,13 +1059,18 @@ const Control4 = () => {
               >
                 <div className="uk-first-column">
                   <div className="el-item uk-panel uk-margin-remove-first-child">
-                    <img
-                      src="assets/images/header-brands-control4-07.webp"
-                      width="1500"
-                      height="1200"
-                      className="el-image"
-                      alt=""
-                    />
+                    <picture>
+                      <source
+                        srcSet="assets/images/header-brands-control4-07-mini.webp"
+                        media="(max-width: 600px)"
+                      />
+                      <img
+                        width="1200"
+                        height="1000"
+                        alt=""
+                        src="assets/images/header-brands-control4-07.webp"
+                      />
+                    </picture>
 
                     <h3
                       className="el-title uk-margin-top uk-margin-remove-bottom"
@@ -899,13 +1088,18 @@ const Control4 = () => {
                 </div>
                 <div>
                   <div className="el-item uk-panel uk-margin-remove-first-child">
-                    <img
-                      src="assets/images/header-brands-control4-08.webp"
-                      width="1500"
-                      height="1200"
-                      className="el-image"
-                      alt=""
-                    />
+                    <picture>
+                      <source
+                        srcSet="assets/images/header-brands-control4-08-mini.webp"
+                        media="(max-width: 600px)"
+                      />
+                      <img
+                        width="1200"
+                        height="1000"
+                        alt=""
+                        src="assets/images/header-brands-control4-08.webp"
+                      />
+                    </picture>
 
                     <h3
                       className="el-title uk-margin-top uk-margin-remove-bottom"
@@ -942,13 +1136,18 @@ const Control4 = () => {
                   a Control4 smart home can transform your day-to-day lifestyle.
                 </div>
                 <div className="uk-inline">
-                  <img
-                    src="assets/images/header-brands-control4-09.webp"
-                    width="3000"
-                    height="1688"
-                    alt=""
-                  />
-
+                  <picture>
+                    <source
+                      srcSet="assets/images/header-brands-control4-09-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                      width="1200"
+                      height="1000"
+                      alt=""
+                      src="assets/images/header-brands-control4-09.webp"
+                    />
+                  </picture>
                   <a
                     className="uk-position-absolute icon"
                     style={{ top: "62%", left: "74%" }}
