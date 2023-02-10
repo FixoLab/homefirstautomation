@@ -16,7 +16,7 @@ const Control4 = () => {
         uk-height-viewport="offset-top: true; offset-bottom: 20;"
       >
         <video
-          src="assets/video/contol-4.mp4"
+          src="assets/video/contol-4.mp4" 
           type="video/mp4"
           loop
           autoPlay
