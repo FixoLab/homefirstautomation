@@ -8,20 +8,23 @@ const StartJourney = () => {
       id="4"
     >
       <div className="is-layout-flow wp-block-column servicesimages">
-        <figure
-          className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
+        <picture
+          className="wp-block-image"
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="200"
         >
-          <img
-            width="2396"
-            height="1600"
-            src="assets/images/haslam17.webp"
-            alt=""
-            className="wp-image-848"
+          <source
+            srcSet="assets/images/haslam17-mini.webp"
+            media="(max-width: 600px)"
           />
-        </figure>
+          <img
+            width="2000"
+            height="1503"
+            alt=""
+            src="assets/images/haslam17.webp"
+          />
+        </picture>
       </div>
 
       <div className="is-layout-flow wp-block-column servicesimages">
@@ -29,7 +32,7 @@ const StartJourney = () => {
           className="is-layout-flow wp-block-group servicestextcontainer eds-on-scroll eds-scroll-visible"
           data-aos="fade-up"
           data-aos-duration="800"
-          data-aos-delay="300"
+          data-aos-delay="250"
         >
           <div className="wp-block-group__inner-container">
             <h2>LETS START YOUR JOURNEY</h2>
