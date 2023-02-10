@@ -1,7 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { Autoplay, Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/autoplay";
+import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 const Control4 = () => {
   return (
     <>
