@@ -4,7 +4,7 @@ import { Autoplay, Pagination } from "swiper";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/swiper.min.ss";
+import "swiper/swiper";
 
 const Control4 = () => {
   return (
