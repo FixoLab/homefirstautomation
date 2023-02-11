@@ -67,27 +67,37 @@ const Crestron = () => {
 
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/crestron-main12.webp"
-                  alt=""
-                  className="wp-image-2332"
+              <picture className="wp-block-image" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/crestron-main12-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/crestron-main12.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/crestron-main13.webp"
-                  alt=""
-                  className="wp-image-2333"
+              <picture className="wp-block-image" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/crestron-main13-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/crestron-main13.webp"
+                />
+              </picture>
             </div>
           </div>
 
@@ -137,27 +147,37 @@ const Crestron = () => {
 
           <div className="is-layout-flex wp-container-15 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-                <img
-                  width="1025"
-                  height="770"
-                  src="assets/images/crestron-main9.webp"
-                  alt=""
-                  className="wp-image-1962"
+            <picture className="wp-block-image" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/crestron-main9-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/crestron-main9.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-                <img
-                  width="1025"
-                  height="770"
-                  src="assets/images/crestron-main8.webp"
-                  alt=""
-                  className="wp-image-1960"
+            <picture className="wp-block-image" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/crestron-main8-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/crestron-main8.webp"
+                />
+              </picture>
             </div>
           </div>
 
@@ -202,27 +222,37 @@ const Crestron = () => {
 
           <div className="is-layout-flex wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/crestron-main7.webp"
-                  alt=""
-                  className="wp-image-1956"
+            <picture className="wp-block-image" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/crestron-main7-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/crestron-main7.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/crestron-main6.webp"
-                  alt=""
-                  className="wp-image-1954"
+            <picture className="wp-block-image" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/crestron-main6-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/crestron-main6.webp"
+                />
+              </picture>
             </div>
           </div>
 
@@ -250,7 +280,7 @@ const Crestron = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images//haslam-6.webp"
+                  src="assets/images/haslam-6.webp"
                   alt=""
                   className="wp-image-984"
                 />
@@ -271,27 +301,37 @@ const Crestron = () => {
 
           <div className="is-layout-flex wp-container-29 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/crestron-main3.webp"
-                  alt=""
-                  className="wp-image-1947"
+            <picture className="wp-block-image" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/crestron-main3-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/crestron-main3.webp"
+                />
+              </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure className="wp-block-image size-large eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
-                <img
-                  width="1025"
-                  height="770"
-                  src="assets/images/crestron-main5.webp"
-                  alt=""
-                  className="wp-image-1949"
+            <picture className="wp-block-image" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200">
+                <source
+                  srcSet="assets/images/crestron-main5-mini.webp"
+                  media="(max-width: 600px)"
                 />
-              </figure>
+                <img
+                   width="1197"
+                   height="900"
+                  alt=""
+                  src="assets/images/crestron-main5.webp"
+                />
+              </picture>
             </div>
           </div>
 

@@ -67,36 +67,36 @@ const CoastalSource = () => {
 
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image"   data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2000"
-                  height="1503"
-                  src="assets/images/coastalsource3.webp"
-                  alt=""
-                  className="wp-image-853"
-                />
-              </figure>
+                data-aos-delay="200">
+                    <source
+                      srcSet="assets/images/coastalsource3-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                       width="2000"
+                       height="1503"
+                      alt=""
+                      src="assets/images/coastalsource3.webp"
+                    />
+                  </picture>
             </div>
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image"   data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/coastalsource2.webp"
-                  alt=""
-                  className="wp-image-1863"
-                />
-              </figure>
+                data-aos-delay="200">
+                    <source
+                      srcSet="assets/images/coastalsource2-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                       width="2000"
+                       height="1503"
+                      alt=""
+                      src="assets/images/coastalsource2.webp"
+                    />
+                  </picture>
             </div>
           </div>
 
@@ -152,36 +152,36 @@ const CoastalSource = () => {
           </div>
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image"   data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2000"
-                  height="1503"
-                  src="assets/images/coastalsource4.webp"
-                  alt=""
-                  className="wp-image-853"
-                />
-              </figure>
+                data-aos-delay="200">
+                    <source
+                      srcSet="assets/images/coastalsource4-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                       width="2000"
+                       height="1503"
+                      alt=""
+                      src="assets/images/coastalsource4.webp"
+                    />
+                  </picture>
             </div>
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image"   data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/coastalsource5.webp"
-                  alt=""
-                  className="wp-image-1863"
-                />
-              </figure>
+                data-aos-delay="200">
+                    <source
+                      srcSet="assets/images/coastalsource5-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                       width="2000"
+                       height="1503"
+                      alt=""
+                      src="assets/images/coastalsource5.webp"
+                    />
+                  </picture>
             </div>
           </div>
 
@@ -237,36 +237,36 @@ const CoastalSource = () => {
           </div>
           <div className="is-layout-flex wp-container-8 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image"   data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="2000"
-                  height="1503"
-                  src="assets/images/coastalsource6.webp"
-                  alt=""
-                  className="wp-image-853"
-                />
-              </figure>
+                data-aos-delay="200">
+                    <source
+                      srcSet="assets/images/coastalsource6-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                       width="2000"
+                       height="1503"
+                      alt=""
+                      src="assets/images/coastalsource6.webp"
+                    />
+                  </picture>
             </div>
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image"   data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1024"
-                  height="769"
-                  src="assets/images/coastalsource7.webp"
-                  alt=""
-                  className="wp-image-1863"
-                />
-              </figure>
+                data-aos-delay="200">
+                    <source
+                      srcSet="assets/images/coastalsource7-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                       width="2000"
+                       height="1503"
+                      alt=""
+                      src="assets/images/coastalsource7.webp"
+                    />
+                  </picture>
             </div>
           </div>
           <div
@@ -321,37 +321,37 @@ const CoastalSource = () => {
           </div>
           <div className="is-layout-flex wp-container-23 wp-block-columns alignfull servicesdualcontainer">
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-large eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image"   data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="931"
-                  height="700"
-                  src="assets/images/coastalsource1b.webp"
-                  alt=""
-                  className="wp-image-1547"
-                />
-              </figure>
+                data-aos-delay="200">
+                    <source
+                      srcSet="assets/images/coastalsource1b-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                       width="2000"
+                       height="1503"
+                      alt=""
+                      src="assets/images/coastalsource1b.webp"
+                    />
+                  </picture>
             </div>
 
             <div className="is-layout-flow wp-block-column servicesimages">
-              <figure
-                className="wp-block-image size-full eds-on-scroll eds-scroll-visible"
-                data-aos="fade-up"
+            <picture className="wp-block-image"   data-aos="fade-up"
                 data-aos-duration="800"
-                data-aos-delay="200"
-              >
-                <img
-                  width="1915"
-                  height="1440"
-                  src="assets/images/coastalsource8.webp"
-                  alt=""
-                  className="wp-image-847"
-                />
-              </figure>
+                data-aos-delay="200">
+                    <source
+                      srcSet="assets/images/coastalsource8-mini.webp"
+                      media="(max-width: 600px)"
+                    />
+                    <img
+                       width="2000"
+                       height="1503"
+                      alt=""
+                      src="assets/images/coastalsource8.webp"
+                    />
+                  </picture>
             </div>
           </div>
           <StartJourney />
