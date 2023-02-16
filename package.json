@@ -20,7 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "postbuild": "gzip build/assets/images/** && gzip build/assets/video/**",
+    "build": "react-scripts postbuild build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

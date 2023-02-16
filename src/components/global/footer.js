@@ -43,9 +43,9 @@ const Footer = () => {
                       <div className="footerlinks">
                         <div className="footerlinks1">
                           <img
-                            src="/assets/images/Homefirst_Auto.webp"
+                            src="/assets/images/homefirst-automation-logo.webp"
                             alt="HomeFirst logo"
-                            width="200"
+                            width="300"
                             height="80"
                             loading="lazy"
                           />
