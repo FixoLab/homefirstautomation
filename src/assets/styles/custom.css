@@ -1758,7 +1758,7 @@ a#bbblink {
   color: #666;
 }
 .footerlinks1 img {
-  max-width: 230px;
+  max-width: 100%;
   margin-bottom: 5px;
 }
 .footerlinks1 p {
