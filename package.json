@@ -9,7 +9,6 @@
     "aos": "^2.3.4",
     "axios": "^1.2.3",
     "react": "^18.2.0",
-    "react-compress": "^3.6.4",
     "react-dom": "^18.2.0",
     "react-lazy-media": "^0.3.1",
     "react-loading-skeleton": "^3.1.0",
@@ -21,7 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && react-compress && postbuild",
+    "postbuild": "gzip build/static/js/*.js && gzip build/static/css/*.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,8 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "compression-webpack-plugin": "^10.0.0"
   }
 }
