@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import Skeleton from "react-loading-skeleton";
 const BlogItem = React.lazy(() => import("../components/blog-item"));
 const BlogSidebar = React.lazy(() => import("../components/blog-sidebar"));
@@ -27,6 +28,17 @@ const Blog = () => {
   };
 
   return (
+    <HelmetProvider>
+        <Helmet>
+        <meta
+          name="description"
+          content="Get the latest information on home automation solutions and the latest blogs in Orlando, FL. Find the best products and services to automate your home."
+        />
+        <title>
+        Home Automation Solutions and Latest Blogs in Orlando, FL
+        </title>
+      </Helmet>
+    
     <div id="site-content" className="blog">
       {data.length === 0 ? (
         <div className="single-blog-spinner">
@@ -60,6 +72,7 @@ const Blog = () => {
         </div>
       )}
     </div>
+    </HelmetProvider>
   );
 };
 

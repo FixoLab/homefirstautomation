@@ -1,8 +1,18 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const CommercialAutomation = () => {
   return (
-    <>
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Upgrade office operations and increase employee collaboration with integrated and automated control of media, lighting, shades, and security. Contact us today."
+        />
+        <title>
+        Commercial Automation Solutions For Your Florida Business
+        </title>
+      </Helmet>
       <div id="site-content">
         <div className="csca">
           <video
@@ -14,7 +24,7 @@ const CommercialAutomation = () => {
             height="150"
           >
             <source
-              src="assets/video/commurcial-automation-hero.mp4"
+              src="/assets/video/commurcial-automation-hero.mp4"
               type="video/mp4"
             />
           </video>
@@ -81,14 +91,14 @@ const CommercialAutomation = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-automation-1-mini.webp"
+                    srcSet="/assets/images/commercial-automation-1-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                     width="1024"
                     height="770"
-                    src="assets/images/commercial-automation-1.webp"
-                    alt="automationImage"
+                    src="/assets/images/commercial-automation-1.webp"
+                    alt="commercial automation system"
                   />
                 </picture>
               </div>
@@ -138,14 +148,15 @@ const CommercialAutomation = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-automation-2-mini.webp"
+                    srcSet="/assets/images/commercial-automation-2-mini.webp"
                     media="(max-width: 600px)"
+                    alt="Commercial Lighting Automation"
                   />
                   <img
                     width="1197"
                     height="900"
-                    src="assets/images/commercial-automation-2.webp"
-                    alt="automationImage"
+                    src="/assets/images/commercial-automation-2.webp"
+                    alt="Commercial Lighting Automation"
                   />
                 </picture>
               </div>
@@ -192,14 +203,14 @@ const CommercialAutomation = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-automation-3-mini.webp"
+                    srcSet="/assets/images/commercial-automation-3-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                     width="2396"
                     height="1600"
-                    src="assets/images/commercial-automation-3.webp"
-                    alt="automationImage"
+                    src="/assets/images/commercial-automation-3.webp"
+                    alt="window treaments"
                   />
                 </picture>
               
@@ -249,14 +260,14 @@ const CommercialAutomation = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-automation-4-mini.webp"
+                    srcSet="/assets/images/commercial-automation-4-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                     width="1197"
                     height="900"
-                    src="assets/images/commercial-automation-4.webp"
-                    alt="automationImage"
+                    src="/assets/images/commercial-automation-4.webp"
+                    alt="media control"
                   />
                 </picture>
               </div>
@@ -307,14 +318,14 @@ const CommercialAutomation = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-automation-5-mini.webp"
+                    srcSet="/assets/images/commercial-automation-5-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                     width="2396"
                     height="1600"
-                    src="assets/images/commercial-automation-5.webp"
-                    alt="automationImage"
+                    src="/assets/images/commercial-automation-5.webp"
+                    alt="commercial networking"
                   />
                 </picture>
                 
@@ -365,14 +376,14 @@ const CommercialAutomation = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-automation-6-mini.webp"
+                    srcSet="/assets/images/commercial-automation-6-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-automation-6.webp"
-                    alt="automationImage" 
+                   src="/assets/images/commercial-automation-6.webp"
+                    alt="communication tools" 
                   />
                 </picture>
               </div>
@@ -429,7 +440,7 @@ const CommercialAutomation = () => {
           </div>
         </div>
       </div>
-    </>
+    </HelmetProvider>
   );
 };
 

@@ -1,9 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import CallToAction from "../components/call-to-action";
 
 const BrandsWeCarry = () => {
   return (
+    <HelmetProvider>
+     <Helmet>
+        <meta
+          name="description"
+          content="Get the latest and greatest in smart home technology for your Orlando, FL project with HomeFirst. Our support team is here to help you get the specific brand you are after."
+        />
+        <title>
+        Smart Home Technology Brands in Orlando, FL | HomeFirst
+        </title>
+      </Helmet>
     <div id="site-content" className="brands">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -61,7 +72,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/control4.webp"
-                          alt=""
+                          alt="Control4 system"
                           className="wp-image-1457"
                         />
                       </figure>
@@ -74,10 +85,10 @@ const BrandsWeCarry = () => {
                         Started,
                       </p>
                       <figure className="wp-block-image size-large is-resized brandlogo">
-                        <Link to="/control-4">
+                        <Link to="/brands/control-4">
                           <img
                             src="assets/images/control4a.webp"
-                            alt=""
+                            alt="Control4 company services"
                             className="wp-image-1466"
                             width="150"
                             height="39"
@@ -86,7 +97,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/control-4">Learn More</Link>
+                        <Link to="/brands/control-4">Learn More</Link>
                       </p>
                     </div>
 
@@ -96,7 +107,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/crestrona.webp"
-                          alt=""
+                          alt="Crestron Electronics"
                           className="wp-image-1666"
                         />
                       </figure>
@@ -107,26 +118,26 @@ const BrandsWeCarry = () => {
                         automation solutions that transform the way people live
                         their lives, making their day-to-day tasks easier and
                         improving efficiency and productivity.{" "}
-                        <Link to="/crestron">Crestron systems</Link> are at the
+                        <Link to="/brands/crestron">Crestron systems</Link> are at the
                         forefront of cutting-edge technology, constantly
                         offering faster, better solutions that address the needs
                         of customers the world over.
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/crestron">
+                        <Link to="/brands/crestron">
                           <img
                             width="150"
                             height="26"
                             src="assets/images/crestron.webp"
-                            alt=""
+                            alt="Crestron company services"
                             className="wp-image-1668"
                           />
                         </Link>
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/crestron">Learn More</Link>
+                        <Link to="/brands/crestron">Learn More</Link>
                       </p>
                     </div>
 
@@ -136,7 +147,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="313"
                           src="assets/images/savant-title-img.webp"
-                          alt=""
+                          alt="Savant home automation technology"
                           className="wp-image-1479"
                         />
                       </figure>
@@ -153,19 +164,19 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/savant">
+                        <Link to="/brands/savant">
                           <img
                             width="150"
                             height="23"
                             src="assets/images/savanta.webp"
-                            alt=""
+                            alt="Savant company services"
                             className="wp-image-1478"
                           />
                         </Link>
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/savant">Learn More</Link>
+                        <Link to="/brands/savant">Learn More</Link>
                       </p>
                     </div>
                   </div>
@@ -188,7 +199,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="313"
                           src="assets/images/lutron.webp"
-                          alt=""
+                          alt="Lutron technology company"
                           className="wp-image-1481"
                         />
                       </figure>
@@ -204,19 +215,19 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/lutron">
+                        <Link to="/brands/lutron">
                           <img
                             width="150"
                             height="26"
                             src="assets/images/lutrona.webp"
-                            alt=""
+                            alt="Lutron company services"
                             className="wp-image-1482"
                           />
                         </Link>
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/lutron">Learn More</Link>
+                        <Link to="/brands/lutron">Learn More</Link>
                       </p>
                     </div>
 
@@ -226,7 +237,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/hunter.webp"
-                          alt=""
+                          alt="Hunter Douglas window coveringd"
                           className="wp-image-1486"
                         />
                       </figure>
@@ -244,19 +255,19 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/hunter-douglas">
+                        <Link to="/brands/hunter-douglas">
                           <img
                             width="150"
                             height="29"
                             src="assets/images/huntera.webp"
-                            alt=""
+                            alt="Hunter Douglas manufacturer"
                             className="wp-image-1487"
                           />
                         </Link>
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/hunter-douglas">Learn More</Link>
+                        <Link to="/brands/hunter-douglas">Learn More</Link>
                       </p>
                     </div>
 
@@ -266,7 +277,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/coastal.webp"
-                          alt=""
+                          alt="Coastal Source landscape lighting"
                           className="wp-image-1489"
                         />
                       </figure>
@@ -282,19 +293,19 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/coastal-source">
+                        <Link to="/brands/coastal-source">
                           <img
                             width="150"
                             height="22"
                             src="assets/images/coastala.webp"
-                            alt=""
+                            alt="Coastal Source company services"
                             className="wp-image-1490"
                           />
                         </Link>
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/coastal-source">Learn More</Link>
+                        <Link to="/brands/coastal-source">Learn More</Link>
                       </p>
                     </div>
                   </div>
@@ -306,7 +317,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/joshai-brand.webp"
-                          alt=""
+                          alt="josh control frameworks"
                           className="wp-image-2191"
                         />
                       </figure>
@@ -321,19 +332,19 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/josh-ai">
+                        <Link to="/brands/josh-ai">
                           <img
                             width="150"
                             height="51"
                             src="assets/images/joshai-blacklogo.webp"
-                            alt=""
+                            alt="josh company services"
                             className="wp-image-2193"
                           />
                         </Link>
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/josh-ai">Learn More</Link>
+                        <Link to="/brands/josh-ai">Learn More</Link>
                       </p>
                     </div>
 
@@ -343,7 +354,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/ruckus-brand.webp"
-                          alt=""
+                          alt="ruckus control frameworks "
                           className="wp-image-1500"
                         />
                       </figure>
@@ -361,19 +372,19 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/ruckus">
+                        <Link to="/brands/ruckus">
                           <img
                             width="150"
                             height="44"
                             src="assets/images/ruckusa.webp"
-                            alt=""
+                            alt="ruckus company services"
                             className="wp-image-1499"
                           />
                         </Link>
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/ruckus">Learn More</Link>
+                        <Link to="/brands/ruckus">Learn More</Link>
                       </p>
                     </div>
 
@@ -383,7 +394,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/knx-mini.webp"
-                          alt=""
+                          alt="knx automation "
                           className="wp-image-2286"
                         />
                       </figure>
@@ -396,19 +407,19 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/knx">
+                        <Link to="/brands/knx">
                           <img
                             width="133"
                             height="59"
                             src="assets/images/knx-logo1.webp"
-                            alt=""
+                            alt="knx company services"
                             className="wp-image-2283"
                           />
                         </Link>
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/knx">Learn More</Link>
+                        <Link to="/brands/knx">Learn More</Link>
                       </p>
                     </div>
                   </div>
@@ -420,7 +431,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/alarmcom.webp"
-                          alt=""
+                          alt="Alarm.com services"
                           className="wp-image-1475"
                         />
                       </figure>
@@ -436,19 +447,19 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/alarm-com">
+                        <Link to="/brands/alrarm-com">
                           <img
                             width="150"
                             height="28"
                             src="assets/images/alarmcoma.webp"
-                            alt=""
+                            alt="Alarm.com company"
                             className="wp-image-1476"
                           />
                         </Link>
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/alarm-com">Learn More</Link>
+                        <Link to="/brands/alrarm-com">Learn More</Link>
                       </p>
                     </div>
 
@@ -472,6 +483,7 @@ const BrandsWeCarry = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

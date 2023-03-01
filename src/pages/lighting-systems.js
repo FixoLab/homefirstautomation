@@ -1,9 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const LightingSystems = () => {
   return (
+    <HelmetProvider>
+     <Helmet>
+        <meta
+          name="description"
+          content="Transform your Orlando, Florida home into the ultimate visual experience with custom light control systems. Experience the quality of custom lighting today."
+        />
+        <title>
+        Custom Light Control Systems for Your Home in Orlando, FL
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -93,7 +104,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart lighting control systems"
                   src="assets/images/audio9.webp"
                 />
               </picture>
@@ -110,7 +121,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart home lighting systems"
                   src="assets/images/lighting-7.webp"
                 />
               </picture>
@@ -132,7 +143,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="timed lightning"
                   src="assets/images/audio8.webp"
                 />
               </picture>
@@ -155,7 +166,7 @@ const LightingSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/lutron">
+                    <Link to="/brands/lutron">
                       <img
                         width="180"
                         height="180"
@@ -167,7 +178,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/coastal-source">
+                    <Link to="/brands/coastal-source">
                       <img
                         width="180"
                         height="180"
@@ -179,7 +190,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -209,7 +220,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="media lightning"
                   src="assets/images/lighting1.webp"
                 />
               </picture>
@@ -234,7 +245,7 @@ const LightingSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/lutron">
+                    <Link to="/brands/lutron">
                       <img
                         width="180"
                         height="180"
@@ -246,7 +257,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/coastal-source">
+                    <Link to="/brands/coastal-source">
                       <img
                         width="180"
                         height="180"
@@ -258,7 +269,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -288,7 +299,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="landscape lightning"
                   src="assets/images/lighting9.webp"
                 />
               </picture>
@@ -312,7 +323,7 @@ const LightingSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/coastal-source">
+                    <Link to="/brands/coastal-source">
                       <img
                         width="180"
                         height="180"
@@ -350,7 +361,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="home lighting automation"
                   src="assets/images/lighting6.webp"
                 />
               </picture>
@@ -367,7 +378,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="best lighting automation"
                   src="assets/images/audio10.webp"
                 />
               </picture>
@@ -388,7 +399,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="security lightning"
                   src="assets/images/lighting5.webp"
                 />
               </picture>
@@ -436,7 +447,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -465,7 +476,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="mood lightning"
                   src="assets/images/audio3.webp"
                 />
               </picture>
@@ -502,7 +513,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -514,7 +525,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -543,7 +554,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart lightning conrol"
                   src="assets/images/audio2.webp"
                 />
               </picture>
@@ -565,7 +576,7 @@ const LightingSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/lutron">
+                    <Link to="/brands/lutron">
                       <img
                         width="180"
                         height="180"
@@ -577,7 +588,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -589,7 +600,7 @@ const LightingSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/josh-ai">
+                    <Link to="/brands/josh-ai">
                       <img
                         width="180"
                         height="180"
@@ -607,6 +618,7 @@ const LightingSystems = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

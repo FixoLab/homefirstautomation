@@ -1,7 +1,18 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const CommercialAudioVideo = () => {
   return (
+    <HelmetProvider>
+       <Helmet>
+        <meta
+          name="description"
+          content="Get the best automated commercial audio and video solutions tailored to your needs. We offer a comprehensive range of services to meet all your business requirements."
+        />
+        <title>
+        Commercial Audio Video & Automation Solutions | Homefirst
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="csca">
         <video
@@ -13,7 +24,7 @@ const CommercialAudioVideo = () => {
           height="150"
         >
           <source
-            src="assets/video/commercial-audio-video-hero.mp4"
+            src="/assets/video/commercial-audio-video-hero.mp4"
             type="video/mp4"
           />
         </video>
@@ -77,14 +88,14 @@ const CommercialAudioVideo = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-audio-video-1-mini.webp"
+                    srcSet="/assets/images/commercial-audio-video-1-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-audio-video-1.webp"
-                    alt="automationImage"
+                   src="/assets/images/commercial-audio-video-1.webp"
+                    alt="Distributed Commercial Audio Systems"
                   />
                 </picture>
             </div>
@@ -134,14 +145,14 @@ const CommercialAudioVideo = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-audio-video-2-mini.webp"
+                    srcSet="/assets/images/commercial-audio-video-2-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-audio-video-2.webp"
-                    alt="automationImage"
+                   src="/assets/images/commercial-audio-video-2.webp"
+                    alt="Commercial Video Installation "
                   />
                 </picture>
             </div>
@@ -192,14 +203,14 @@ const CommercialAudioVideo = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-audio-video-3-mini.webp"
+                    srcSet="/assets/images/commercial-audio-video-3-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-audio-video-3.webp"
-                    alt="automationImage"
+                   src="/assets/images/commercial-audio-video-3.webp"
+                    alt="Video Conferencing"
                   />
                 </picture>
             </div>
@@ -249,14 +260,14 @@ const CommercialAudioVideo = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-audio-video-4-mini.webp"
+                    srcSet="/assets/images/commercial-audio-video-4-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-audio-video-4.webp"
-                    alt="automationImage"
+                   src="/assets/images/commercial-audio-video-4.webp"
+                    alt="Intercom system"
                   />
                 </picture>
             </div>
@@ -307,14 +318,14 @@ const CommercialAudioVideo = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-audio-video-5-mini.webp"
+                    srcSet="/assets/images/commercial-audio-video-5-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-audio-video-5.webp"
-                    alt="automationImage"
+                   src="/assets/images/commercial-audio-video-5.webp"
+                    alt="video wall"
                   />
                 </picture>
             </div>
@@ -363,14 +374,14 @@ const CommercialAudioVideo = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-audio-video-6-mini.webp"
+                    srcSet="/assets/images/commercial-audio-video-6-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-audio-video-6.webp"
-                    alt="automationImage"
+                   src="/assets/images/commercial-audio-video-6.webp"
+                    alt="commercial audio video installation company"
                   />
                 </picture>
             </div>
@@ -424,6 +435,7 @@ const CommercialAudioVideo = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

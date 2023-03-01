@@ -1,9 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const SmartHomeAutomation = () => {
   return (
+    <HelmetProvider>
+        <Helmet>
+        <meta
+          name="description"
+          content="HomeFirst is the industry leader for clients that want the latest in technology and design for their home, business, or advertising display. Get top-notch services from the experts today!"
+        />
+        <title>
+        HomeFirst - Industry Leaders in Smart Home Automation and Design
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -106,7 +117,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/home-show2-1-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/home-show2-1.webp" />
+                <img alt="smart home solutions" src="assets/images/home-show2-1.webp" />
               </picture>
             </div>
 
@@ -121,7 +132,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/smart10-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/smart10.webp" />
+                <img alt="orlando smart home" src="assets/images/smart10.webp" />
               </picture>
             </div>
           </div>
@@ -149,10 +160,10 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large is-resized servicebrands">
-                    <Link to="/ruckus">
+                    <Link to="/brands/ruckus">
                       <img
                         src="assets/images/ruckus.webp"
-                        alt=""
+                        alt="rucku smart home automation"
                         className="wp-image-2402"
                         width="150"
                         height="150"
@@ -174,7 +185,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/smart2-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/smart2.webp" />
+                <img alt="wifi networking" src="assets/images/smart2.webp" />
               </picture>
             </div>
           </div>
@@ -194,7 +205,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/smart7-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/smart7.webp" />
+                <img alt="smart lightning" src="assets/images/smart7.webp" />
               </picture>
             </div>
 
@@ -217,36 +228,36 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/lutron">
+                    <Link to="/brands/lutron">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/lutron-services.webp"
-                        alt=""
+                        alt="lutron automation services"
                         className="wp-image-2420"
                       />
                     </Link>
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/coastal-source">
+                    <Link to="/brands/coastal-source">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.webp"
-                        alt=""
+                        alt="coastalsource automation system"
                         className="wp-image-2428"
                       />
                     </Link>
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/knx">
+                    <Link to="/brands/knx">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/knx-company-services.webp"
-                        alt=""
+                        alt="knx company services"
                         className="wp-image-2433"
                       />
                     </Link>
@@ -271,7 +282,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/home-shades-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/home-shades.webp" />
+                <img alt="smart shading" src="assets/images/home-shades.webp" />
               </picture>
             </div>
 
@@ -294,36 +305,36 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/lutron">
+                    <Link to="/brands/lutron">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/lutron-services-1.webp"
-                        alt=""
+                        alt="lutron automation services"
                         className="wp-image-2424"
                       />
                     </Link>
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/hunter-douglas">
+                    <Link to="/brands/hunter-douglas">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/hunter-douglas-services.webp"
-                        alt=""
+                        alt="hunter douglas services"
                         className="wp-image-2425"
                       />
                     </Link>
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/savant-services.webp"
-                        alt=""
+                        alt="savant services"
                         className="wp-image-2426"
                       />
                     </Link>
@@ -345,7 +356,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/smart-4-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/smart-4.webp" />
+                <img alt="house automation systems" src="assets/images/smart-4.webp" />
               </picture>
             </div>
 
@@ -360,7 +371,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/home-audio-1-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/home-audio-1.webp" />
+                <img alt="home audio" src="assets/images/home-audio-1.webp" />
               </picture>
             </div>
           </div>
@@ -380,7 +391,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/home-audio1-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/home-audio1.webp" />
+                <img alt="smart home audio system" src="assets/images/home-audio1.webp" />
               </picture>
             </div>
 
@@ -399,42 +410,42 @@ const SmartHomeAutomation = () => {
                     listen to your favorite musical pieces inside the house, or
                     even outside by the pool relaxing or entertaining guests in
                     sunny Orlando, Florida. With a Crestron Home or{" "}
-                    <Link to="/control-4">Control4 installation</Link>, you can
+                    <Link to="/brands/control-4">Control4 installation</Link>, you can
                     fully control song selection, audio levels, and pretty much
                     every audio style you can imagine.
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/control4-services.webp"
-                        alt=""
+                        alt="control4 services"
                         className="wp-image-2435"
                       />
                     </Link>
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.webp"
-                        alt=""
+                        alt="crestron services"
                         className="wp-image-2429"
                       />
                     </Link>
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/coastal-source">
+                    <Link to="/brands/coastal-source">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.webp"
-                        alt=""
+                        alt="coastalsource service"
                         className="wp-image-2428"
                       />
                     </Link>
@@ -459,7 +470,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/smart61-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/smart61.webp" />
+                <img alt="smart home theater" src="assets/images/smart61.webp" />
               </picture>
             </div>
 
@@ -483,36 +494,36 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/control4-services.webp"
-                        alt=""
+                        alt="control4 services"
                         className="wp-image-2435"
                       />
                     </Link>
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.webp"
-                        alt=""
+                        alt="crestron services"
                         className="wp-image-2429"
                       />
                     </Link>
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/savant-services.webp"
-                        alt=""
+                        alt="savant services"
                         className="wp-image-2426"
                       />
                     </Link>
@@ -537,7 +548,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/home-security1-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/home-security1.webp" />
+                <img alt="home security" src="assets/images/home-security1.webp" />
               </picture>
             </div>
 
@@ -562,36 +573,36 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/alarm-com">
+                    <Link to="/brands/alrarm-com">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/alarmdotcom-services.webp"
-                        alt=""
+                        alt="alarm.com services"
                         className="wp-image-2438"
                       />
                     </Link>
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/josh-ai">
+                    <Link to="/brands/josh-ai">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/josh-ai-services.webp"
-                        alt=""
+                        alt="josh ai services"
                         className="wp-image-2437"
                       />
                     </Link>
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/knx">
+                    <Link to="/brands/knx">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/knx-company-services.webp"
-                        alt=""
+                        alt="knx company services"
                         className="wp-image-2433"
                       />
                     </Link>
@@ -616,7 +627,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/smart12a-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/smart12a.webp" />
+                <img alt="smart video conferencing" src="assets/images/smart12a.webp" />
               </picture>
             </div>
 
@@ -639,36 +650,36 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/josh-ai">
+                    <Link to="/brands/josh-ai">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/josh-ai-services.webp"
-                        alt=""
+                        alt="josh ai services"
                         className="wp-image-2437"
                       />
                     </Link>
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/knx">
+                    <Link to="/brands/knx">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/knx-company-services.webp"
-                        alt=""
+                        alt="knx company services"
                         className="wp-image-2433"
                       />
                     </Link>
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.webp"
-                        alt=""
+                        alt="crestron services"
                         className="wp-image-2429"
                       />
                     </Link>
@@ -681,6 +692,7 @@ const SmartHomeAutomation = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

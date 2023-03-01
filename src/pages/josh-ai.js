@@ -18,7 +18,7 @@ const JoshAi = () => {
                 width="300"
                 height="150"
               >
-                <source src="assets/video/josh-ai-hero.mp4" type="video/mp4" />
+                <source src="/assets/video/josh-ai-hero.mp4" type="video/mp4" />
               </video>
               <div className="overlay2" />
               <div className="josh-ai-hero-content">
@@ -63,7 +63,7 @@ const JoshAi = () => {
             <div className="josh-ai-navigation-grid">
               <div>
                 <img
-                  src="assets/images/josh-ai-logo.webp"
+                  src="/assets/images/josh-ai-logo.webp"
                   alt=""
                   className="wp-image-2104"
                   width="192"
@@ -98,7 +98,7 @@ const JoshAi = () => {
                   </p>
                 </div>
                 <div className="image">
-                  <img src="assets/images/josh-ai-speaker.webp" alt="" />
+                  <img src="/assets/images/josh-ai-speaker.webp" alt="" />
                 </div>
                 <div className="bottom">
                   <h4>Live Smarter with Josh.ai</h4>
@@ -140,7 +140,7 @@ const JoshAi = () => {
                           }}
                         >
                           <img
-                            src="assets/images/josh-ai-1.webp"
+                            src="/assets/images/josh-ai-1.webp"
                             width="1500"
                             height="1500"
                             className="el-image"
@@ -160,7 +160,7 @@ const JoshAi = () => {
                           }}
                         >
                           <img
-                            src="assets/images/josh-ai-1.webp"
+                            src="/assets/images/josh-ai-1.webp"
                             width="1500"
                             height="1500"
                             className="el-image"
@@ -174,7 +174,7 @@ const JoshAi = () => {
                           style={{ left: "-50px", top: "-100px" }}
                         >
                           <img
-                            src="assets/images/josh-ai-2.webp"
+                            src="/assets/images/josh-ai-2.webp"
                             width="1500"
                             height="1500"
                             className="el-image"
@@ -185,7 +185,7 @@ const JoshAi = () => {
 
                         <div className="uk-hidden uk-position-absolute uk-width-1-1">
                           <img
-                            src="assets/images/josh-ai-2.webp"
+                            src="/assets/images/josh-ai-2.webp"
                             width="1200"
                             height="1200"
                             className="el-image"
@@ -207,7 +207,7 @@ const JoshAi = () => {
                           <div className="uk-first-column">
                             <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                               <img
-                                src="assets/images/josh-ai-3.webp"
+                                src="/assets/images/josh-ai-3.webp"
                                 width="150"
                                 height="150"
                                 className="el-image josh-ai-feature-img"
@@ -234,7 +234,7 @@ const JoshAi = () => {
                           <div>
                             <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                               <img
-                                src="assets/images/josh-ai-4.webp"
+                                src="/assets/images/josh-ai-4.webp"
                                 width="150"
                                 height="150"
                                 className="el-image josh-ai-feature-img"
@@ -262,7 +262,7 @@ const JoshAi = () => {
                           <div>
                             <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                               <img
-                                src="assets/images/josh-ai-5.webp"
+                                src="/assets/images/josh-ai-5.webp"
                                 width="150"
                                 height="150"
                                 className="el-image josh-ai-feature-img"
@@ -304,7 +304,7 @@ const JoshAi = () => {
                         <div>
                           <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                             <img
-                              src="assets/images/josh-ai-3.webp"
+                              src="/assets/images/josh-ai-3.webp"
                               width="150"
                               height="150"
                               className="el-image josh-ai-feature-img"
@@ -331,7 +331,7 @@ const JoshAi = () => {
                         <div>
                           <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                             <img
-                              src="assets/images/josh-ai-4.webp"
+                              src="/assets/images/josh-ai-4.webp"
                               width="150"
                               height="150"
                               className="el-image josh-ai-feature-img"
@@ -359,7 +359,7 @@ const JoshAi = () => {
                         <div>
                           <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                             <img
-                              src="assets/images/josh-ai-5.webp"
+                              src="/assets/images/josh-ai-5.webp"
                               width="150"
                               height="150"
                               className="el-image josh-ai-feature-img"
@@ -410,7 +410,7 @@ const JoshAi = () => {
                         }}
                       >
                         <img
-                          src="assets/images/josh-ai-1.webp"
+                          src="/assets/images/josh-ai-1.webp"
                           width="1500"
                           height="1500"
                           className="el-image"
@@ -429,7 +429,7 @@ const JoshAi = () => {
                         }}
                       >
                         <img
-                          src="assets/images/josh-ai-2.webp"
+                          src="/assets/images/josh-ai-2.webp"
                           width="1500"
                           height="1500"
                           className="el-image"
@@ -451,7 +451,7 @@ const JoshAi = () => {
                         }}
                       >
                         <img
-                          src="assets/images/josh-ai-1.webp"
+                          src="/assets/images/josh-ai-1.webp"
                           width="1500"
                           height="1500"
                           className="el-image"
@@ -470,7 +470,7 @@ const JoshAi = () => {
                         }}
                       >
                         <img
-                          src="assets/images/josh-ai-2.webp"
+                          src="/assets/images/josh-ai-2.webp"
                           width="1500"
                           height="1500"
                           className="el-image"
@@ -512,7 +512,7 @@ const JoshAi = () => {
                         <div className="uk-first-column">
                           <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                             <img
-                              src="assets/images/josh-ai-3.webp"
+                              src="/assets/images/josh-ai-3.webp"
                               width="150"
                               height="150"
                               className="el-image josh-ai-feature-img"
@@ -539,7 +539,7 @@ const JoshAi = () => {
                         <div className="uk-grid-margin uk-first-column">
                           <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                             <img
-                              src="assets/images/josh-ai-4.webp"
+                              src="/assets/images/josh-ai-4.webp"
                               width="150"
                               height="150"
                               className="el-image josh-ai-feature-img"
@@ -567,7 +567,7 @@ const JoshAi = () => {
                         <div className="uk-grid-margin uk-first-column">
                           <div className="el-item uk-panel uk-margin-remove-first-child josh-ai-feature-item">
                             <img
-                              src="assets/images/josh-ai-5.webp"
+                              src="/assets/images/josh-ai-5.webp"
                               width="150"
                               height="150"
                               className="el-image josh-ai-feature-img"
@@ -635,7 +635,7 @@ const JoshAi = () => {
                   </p>
                 </div>
                 <div className="image">
-                  <img src="assets/images/josh-ai-6.webp" alt="" />
+                  <img src="/assets/images/josh-ai-6.webp" alt="" />
                 </div>
                 <div className="bottom">
                   <h4>A Smart Home Built On Privacy</h4>
@@ -660,14 +660,14 @@ const JoshAi = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcSet="assets/images/josh-ai-8-mini.webp"
+                  srcSet="/assets/images/josh-ai-8-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="1000"
                   height="900"
                   alt=""
-                  src="assets/images/josh-ai-8.webp"
+                  src="/assets/images/josh-ai-8.webp"
                 />
               </picture>
             </div>
@@ -706,14 +706,14 @@ const JoshAi = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcSet="assets/images/josh-ai-9-mini.webp"
+                  srcSet="/assets/images/josh-ai-9-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="1000"
                   height="900"
                   alt=""
-                  src="assets/images/josh-ai-9.webp"
+                  src="/assets/images/josh-ai-9.webp"
                 />
               </picture>
             </div>
@@ -757,14 +757,14 @@ const JoshAi = () => {
                         <div className="el-item uk-panel uk-margin-remove-first-child">
                           <picture className="el-image">
                             <source
-                              srcSet="assets/images/josh-ai-10-mini.webp"
+                              srcSet="/assets/images/josh-ai-10-mini.webp"
                               media="(max-width: 600px)"
                             />
                             <img
                               width="1200"
                               height="857"
                               alt=""
-                              src="assets/images/josh-ai-10.webp"
+                              src="/assets/images/josh-ai-10.webp"
                             />
                           </picture>
 
@@ -783,14 +783,14 @@ const JoshAi = () => {
                         <div className="el-item uk-panel uk-margin-remove-first-child">
                           <picture className="el-image">
                             <source
-                              srcSet="assets/images/josh-ai-11-mini.webp"
+                              srcSet="/assets/images/josh-ai-11-mini.webp"
                               media="(max-width: 600px)"
                             />
                             <img
                               width="1200"
                               height="857"
                               alt=""
-                              src="assets/images/josh-ai-11.webp"
+                              src="/assets/images/josh-ai-11.webp"
                             />
                           </picture>
 
@@ -810,14 +810,14 @@ const JoshAi = () => {
                         <div className="el-item uk-panel uk-margin-remove-first-child">
                           <picture className="el-image">
                             <source
-                              srcSet="assets/images/josh-ai-12-mini.webp"
+                              srcSet="/assets/images/josh-ai-12-mini.webp"
                               media="(max-width: 600px)"
                             />
                             <img
                               width="1200"
                               height="857"
                               alt=""
-                              src="assets/images/josh-ai-12.webp"
+                              src="/assets/images/josh-ai-12.webp"
                             />
                           </picture>
 
@@ -858,7 +858,7 @@ const JoshAi = () => {
                   </p>
                 </div>
                 <div className="image">
-                  <img src="assets/images/josh-ai-speaker.webp" alt="" />
+                  <img src="/assets/images/josh-ai-speaker.webp" alt="" />
                 </div>
                 <div className="bottom">
                   <h4>Say What’s on Your Mind</h4>
@@ -907,14 +907,14 @@ const JoshAi = () => {
                       <li className="el-item uk-margin-remove-first-child uk-active">
                         <picture className="el-image">
                           <source
-                            srcSet="assets/images/josh-ai-14-mini.webp"
+                            srcSet="/assets/images/josh-ai-14-mini.webp"
                             media="(max-width: 600px)"
                           />
                           <img
                             width="1200"
                             height="857"
                             alt=""
-                            src="assets/images/josh-ai-14.webp"
+                            src="/assets/images/josh-ai-14.webp"
                           />
                         </picture>
 
@@ -937,14 +937,14 @@ const JoshAi = () => {
                       <li className="el-item uk-margin-remove-first-child">
                         <picture className="el-image">
                           <source
-                            srcSet="assets/images/josh-ai-15-mini.webp"
+                            srcSet="/assets/images/josh-ai-15-mini.webp"
                             media="(max-width: 600px)"
                           />
                           <img
                             width="1200"
                             height="857"
                             alt=""
-                            src="assets/images/josh-ai-15.webp"
+                            src="/assets/images/josh-ai-15.webp"
                           />
                         </picture>
 
@@ -964,14 +964,14 @@ const JoshAi = () => {
                       <li className="el-item uk-margin-remove-first-child">
                         <picture className="el-image">
                           <source
-                            srcSet="assets/images/josh-ai-16-mini.webp"
+                            srcSet="/assets/images/josh-ai-16-mini.webp"
                             media="(max-width: 600px)"
                           />
                           <img
                             width="1200"
                             height="857"
                             alt=""
-                            src="assets/images/josh-ai-16.webp"
+                            src="/assets/images/josh-ai-16.webp"
                           />
                         </picture>
 
@@ -1013,7 +1013,7 @@ const JoshAi = () => {
                     uk-parallax="scale: 1.5,2; easing: 1;"
                   >
                     <img
-                      src="assets/images/josh-ai-17.webp"
+                      src="/assets/images/josh-ai-17.webp"
                       width="600"
                       height="414"
                       className="el-image"
@@ -1081,7 +1081,7 @@ const JoshAi = () => {
                         >
                           <div className="uk-width-1-2@m uk-first-column">
                             <img
-                              src="assets/images/josh-ai-14.webp"
+                              src="/assets/images/josh-ai-14.webp"
                               width="1200"
                               height="800"
                               className="el-image"
@@ -1113,7 +1113,7 @@ const JoshAi = () => {
                         >
                           <div className="uk-width-1-2@m">
                             <img
-                              src="assets/images/josh-ai-15.webp"
+                              src="/assets/images/josh-ai-15.webp"
                               width="1200"
                               height="800"
                               className="el-image"
@@ -1145,7 +1145,7 @@ const JoshAi = () => {
                         >
                           <div className="uk-width-1-2@m">
                             <img
-                              src="assets/images/josh-ai-16.webp"
+                              src="/assets/images/josh-ai-16.webp"
                               width="1200"
                               height="800"
                               className="el-image"
@@ -1201,7 +1201,7 @@ const JoshAi = () => {
                     uk-parallax="scale: 1.5,2; easing: 1;"
                   >
                     <img
-                      src="assets/images/josh-ai-17.webp"
+                      src="/assets/images/josh-ai-17.webp"
                       width="600"
                       height="414"
                       className="el-image"
@@ -1255,7 +1255,7 @@ const JoshAi = () => {
                 <div className="uk-tile-default uk-tile uk-tile-large">
                   <div className="uk-hidden@m uk-margin uk-margin-remove-bottom uk-text-left">
                     <img
-                      src="assets/images/josh-ai-18.webp"
+                      src="/assets/images/josh-ai-18.webp"
                       width="800"
                       height="552"
                       className="el-image"
@@ -1266,7 +1266,7 @@ const JoshAi = () => {
 
                   <div className="uk-visible@m uk-position-relative uk-margin uk-text-left">
                     <img
-                      src="assets/images/josh-ai-18.webp"
+                      src="/assets/images/josh-ai-18.webp"
                       width="800"
                       height="552"
                       className="el-image"
@@ -1289,7 +1289,7 @@ const JoshAi = () => {
                       uk-parallax="scale: 0.7,0.8; easing: 1;"
                     >
                       <img
-                        src="assets/images/josh-ai-19.webp"
+                        src="/assets/images/josh-ai-19.webp"
                         width="1500"
                         height="1035"
                         className="el-image"
@@ -1303,7 +1303,7 @@ const JoshAi = () => {
                       uk-parallax="scale: 0.7,0.8; easing: 1;"
                     >
                       <img
-                        src="assets/images/josh-ai-19.webp"
+                        src="/assets/images/josh-ai-19.webp"
                         width="1500"
                         height="1035"
                         className="el-image"

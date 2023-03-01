@@ -44,7 +44,7 @@ const Footer = () => {
                         <div className="footerlinks1">
                           <img
                             src="/assets/images/homefirst-automation-logo.webp"
-                            alt="HomeFirst logo"
+                            alt="home automation Logo"
                             width="300"
                             height="80"
                             loading="lazy"
@@ -80,14 +80,14 @@ const Footer = () => {
                                 <Link to="/careers">Careers</Link>
                                 <Link to="/our-process">Our process</Link>
                                 <Link to="/partners">Partners</Link>
-                                <Link to="/interior-designers">
+                                <Link to="/partners/interior-designers">
                                   Interior Designers
                                 </Link>
-                                <Link to="/contractors">Contractors</Link>
-                                <Link to="/design-build-partners">
+                                <Link to="/partners/contractors">Contractors</Link>
+                                <Link to="/partners/design-build-partners">
                                   Design Build Partners
                                 </Link>
-                                <Link to="/realtors">Realtors</Link>
+                                <Link to="/partners/realtors">Realtors</Link>
                               </div>
                             </div>
                             <div
@@ -115,16 +115,16 @@ const Footer = () => {
                                 <Link to="/connected-studio-living">
                                   Connected Studio Living
                                 </Link>
-                                <Link to="/commercial-solutions-commercial-automation">
+                                <Link to="/commercial/automation-system">
                                   Commercial Solutions: Commercial Automation
                                 </Link>
-                                <Link to="/commercial-solutions-commercial-audio-video">
+                                <Link to="/commercial/audio-visual-system">
                                   Commercial Solutions: Commercial Audio / Video
                                 </Link>
-                                <Link to="/commercial-solutions-commercial-security">
+                                <Link to="/commercial/security-system">
                                   Commercial Solutions: Security
                                 </Link>
-                                <Link to="/commercial-solutions-commercial-technology">
+                                <Link to="/commercial/technology">
                                   Commercial Technology
                                 </Link>
                               </div>
@@ -149,7 +149,7 @@ const Footer = () => {
                                 <Link to="/smart-home-automation">
                                   Smart Home Automation
                                 </Link>
-                                <Link to="/home-theater">Home Theater</Link>
+                                <Link to="/home-theatre">Home Theater</Link>
                                 <Link to="/lighting-systems">
                                   Lighting Control
                                 </Link>
@@ -166,13 +166,13 @@ const Footer = () => {
                                 <Link to="/audio-systems">
                                   High Performance Audio
                                 </Link>
-                                <Link to="/commercial-services">
+                                <Link to="/commercial">
                                   Commercial Integration
                                 </Link>
                               </div>
                             </div>
                             <Link to="/portfolio">Portfolio</Link>
-                            <Link to="/brands-we-carry">Brands</Link>
+                            <Link to="/brands">Brands</Link>
                             <Link to="/contact-us">Contact</Link>
                             <Link to="/blog">Blog</Link>
                           </div>
@@ -382,35 +382,35 @@ const Footer = () => {
               <img
                 loading="lazy"
                 src="assets/images/footer-img-01.webp"
-                alt="footer middle"
+                alt="automaton brands"
               />
             </div>
             <div className="footer-middle-image">
               <img
                 loading="lazy"
                 src="assets/images/footer-img-02.webp"
-                alt="footer middle"
+                alt="savant dealers Orlando"
               />
             </div>
             <div className="footer-middle-image">
               <img
                 loading="lazy"
                 src="assets/images/footer-img-03.webp"
-                alt="footer middle"
+                alt="home automaton dealers"
               />
             </div>
             <div className="footer-middle-image">
               <img
                 loading="lazy"
                 src="assets/images/footer-img-04.webp"
-                alt="footer middle"
+                alt="home automaton dealers orlando"
               />
             </div>
             <div className="footer-middle-image">
               <img
                 loading="lazy"
                 src="assets/images/footer-img-05.webp"
-                alt="footer middle"
+                alt="lutron dealers orlando"
               />
             </div>
           </div>

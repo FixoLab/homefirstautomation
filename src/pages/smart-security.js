@@ -76,7 +76,7 @@ const SmartSecurity = () => {
               >
                 21st century criminals need 21st century security. There is
                 nothing more important than you and your loved ones. Our{" "}
-                <Link to="/alarm-com">smart home security systems</Link> and devices will
+                <Link to="/brands/alrarm-com">smart home security systems</Link> and devices will
                 give you piece of mind during the day, night, and away from your
                 Orlando, Florida home.
               </p>
@@ -95,7 +95,7 @@ const SmartSecurity = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="home security system orlando"
                   src="assets/images/security1.webp"
                 />
               </picture>
@@ -112,7 +112,7 @@ const SmartSecurity = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart security system"
                   src="assets/images/security-10.webp"
                 />
               </picture>
@@ -134,7 +134,7 @@ const SmartSecurity = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="alarm system"
                   src="assets/images/smart2.webp"
                 />
               </picture>
@@ -179,7 +179,7 @@ const SmartSecurity = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart entery system"
                   src="assets/images/security12.webp"
                 />
               </picture>
@@ -223,7 +223,7 @@ const SmartSecurity = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="security landscaping lightning"
                   src="assets/images/security8.webp"
                 />
               </picture>
@@ -262,7 +262,7 @@ const SmartSecurity = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="lightning system"
                   src="assets/images/security14.webp"
                 />
               </picture>
@@ -279,7 +279,7 @@ const SmartSecurity = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart home control"
                   src="assets/images/security-18.webp"
                 />
               </picture>
@@ -300,7 +300,7 @@ const SmartSecurity = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="outdoor security cameras"
                   src="assets/images/security-13.webp"
                 />
               </picture>
@@ -344,7 +344,7 @@ const SmartSecurity = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart lock system"
                   src="assets/images/security-17.webp"
                 />
               </picture>
@@ -386,7 +386,7 @@ const SmartSecurity = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Orlando Electric Shading"
                   src="assets/images/security16.webp"
                 />
               </picture>

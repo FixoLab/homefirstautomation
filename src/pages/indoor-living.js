@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const IndoorLiving = () => {
   return (
+    <HelmetProvider>
+       <Helmet>
+        <meta
+          name="description"
+          content="Explore the possibilities of indoor living and elevate your home with our home automation solutions. Get top-notch services from the experts today!"
+        />
+        <title>
+        Home Automation Solutions to Transform Your Indoor Living
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div
@@ -196,7 +207,7 @@ const IndoorLiving = () => {
                 srcSet="assets/images/indoor-2-mini.webp"
                 media="(max-width: 600px)"
               />
-              <img alt="indoor living" src="assets/images/indoor-2.webp" />
+              <img alt="home theater systems" src="assets/images/indoor-2.webp" />
             </picture>
             <Link
               href="#"
@@ -329,7 +340,7 @@ const IndoorLiving = () => {
                 srcSet="assets/images/indoor-3-mini.webp"
                 media="(max-width: 600px)"
               />
-              <img alt="indoor living" src="assets/images/indoor-3.webp" />
+              <img alt="home theater design" src="assets/images/indoor-3.webp" />
             </picture>
             <Link
               href="#"
@@ -463,7 +474,7 @@ const IndoorLiving = () => {
                 srcSet="assets/images/indoor-4-mini.webp"
                 media="(max-width: 600px)"
               />
-              <img alt="indoor living" src="assets/images/indoor-4.webp" />
+              <img alt="smart home design" src="assets/images/indoor-4.webp" />
             </picture>
             <Link
               href="#"
@@ -596,7 +607,7 @@ const IndoorLiving = () => {
                 srcSet="assets/images/indoor-5-mini.webp"
                 media="(max-width: 600px)"
               />
-              <img alt="indoor living" src="assets/images/indoor-5.webp" />
+              <img alt="smart home design services" src="assets/images/indoor-5.webp" />
             </picture>
             <Link
               href="#"
@@ -728,7 +739,7 @@ const IndoorLiving = () => {
                 srcSet="assets/images/indoor-6-mini.webp"
                 media="(max-width: 600px)"
               />
-              <img alt="indoor living" src="assets/images/indoor-6.webp" />
+              <img alt="smart living" src="assets/images/indoor-6.webp" />
             </picture>
             <Link
               href="#"
@@ -861,7 +872,7 @@ const IndoorLiving = () => {
                 srcSet="assets/images/indoor-7-mini.webp"
                 media="(max-width: 600px)"
               />
-              <img alt="indoor living" src="assets/images/indoor-7.webp" />
+              <img alt="smart living home automation" src="assets/images/indoor-7.webp" />
             </picture>
             <Link
               href="#"
@@ -953,6 +964,7 @@ const IndoorLiving = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

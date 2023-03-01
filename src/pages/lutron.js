@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const StartJourney = React.lazy(() => import("../components/start-journey"));
 
 const Ruckus = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Control the atmosphere of your home or office with the best in lighting and electric shade solutions from Lutron. Enjoy decades of experience from one of the leading technology companies."
+        />
+        <title>
+        Smart Lighting and Electric Shade Solutions from Lutron
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -18,7 +29,7 @@ const Ruckus = () => {
                 width="300"
                 height="150"
               >
-                <source src="assets/video/lutronintro.mp4" type="video/mp4" />
+                <source src="/assets/video/lutronintro.mp4" type="video/mp4" />
               </video>
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
@@ -27,8 +38,8 @@ const Ruckus = () => {
                       <div className="wp-block-image">
                         <figure className="aligncenter size-full is-resized">
                           <img
-                            src="assets/images/img_logo_lutron1.gif"
-                            alt=""
+                            src="/assets/images/img_logo_lutron1.gif"
+                            alt="lutron logo"
                             className="wp-image-2096"
                             width="170"
                             height="25"
@@ -64,14 +75,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/lutron2-mini.webp"
+                      srcSet="/assets/images/lutron2-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/lutron2.webp"
+                      alt="Lutron Smart Home Automation Florida"
+                      src="/assets/images/lutron2.webp"
                     />
                   </picture>
             </div>
@@ -80,14 +91,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/lutron1-mini.webp"
+                      srcSet="/assets/images/lutron1-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/lutron1.webp"
+                      alt="Lutron smart devices"
+                      src="/assets/images/lutron1.webp"
                     />
                   </picture>
             </div>
@@ -107,7 +118,7 @@ const Ruckus = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -122,7 +133,7 @@ const Ruckus = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source src="assets/video/lutronshades1.mp4" type="video/mp4" />
+                <source src="/assets/video/lutronshades1.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -151,14 +162,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/lutron3-mini.webp"
+                      srcSet="/assets/images/lutron3-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/lutron3.webp"
+                      alt="Lutron Lighting Control Installer"
+                      src="/assets/images/lutron3.webp"
                     />
                   </picture>
             </div>
@@ -167,14 +178,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/lutron4-mini.webp"
+                      srcSet="/assets/images/lutron4-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/lutron4.webp"
+                      alt="lutron dimmer"
+                      src="/assets/images/lutron4.webp"
                     />
                   </picture>
             </div>
@@ -194,7 +205,7 @@ const Ruckus = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -209,7 +220,7 @@ const Ruckus = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source src="assets/video/lutrondimmer1.mp4" type="video/mp4" />
+                <source src="/assets/video/lutrondimmer1.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -239,14 +250,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/lutron6-mini.webp"
+                      srcSet="/assets/images/lutron6-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/lutron6.webp"
+                      alt="lutron smart system"
+                      src="/assets/images/lutron6.webp"
                     />
                   </picture>
             </div>
@@ -255,14 +266,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/lutron5-mini.webp"
+                      srcSet="/assets/images/lutron5-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/lutron5.webp"
+                      alt="lutron smart control devices"
+                      src="/assets/images/lutron5.webp"
                     />
                   </picture>
             </div>
@@ -281,7 +292,7 @@ const Ruckus = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -296,7 +307,7 @@ const Ruckus = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source src="assets/video/lutronos1.mp4" type="video/mp4" />
+                <source src="/assets/video/lutronos1.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -326,14 +337,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/lutron7-mini.webp"
+                      srcSet="/assets/images/lutron7-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/lutron7.webp"
+                      alt="lutron certified installer"
+                      src="/assets/images/lutron7.webp"
                     />
                   </picture>
             </div>
@@ -343,14 +354,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/lutron9-mini.webp"
+                      srcSet="/assets/images/lutron9-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/lutron9.webp"
+                      alt="lutron lightning services"
+                      src="/assets/images/lutron9.webp"
                     />
                   </picture>
             </div>
@@ -359,6 +370,7 @@ const Ruckus = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

@@ -103,7 +103,7 @@ const Header = () => {
                       height="40"
                       src="/assets/images/homefirst-automation-logo.webp"
                       className="custom-logo"
-                      alt="Homefirst"
+                      alt="home automation Logo"
                     />
                   </Link>
                   <span className="screen-reader-text">Homefirst</span>
@@ -159,19 +159,19 @@ const Header = () => {
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
-                        <Link to="/interior-designers">Interior Designers</Link>
+                        <Link to="/partners/interior-designers">Interior Designers</Link>
                       </li>
                       <li
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
-                        <Link to="/contractors">Contractors</Link>
+                        <Link to="/partners/contractors">Contractors</Link>
                       </li>
                       <li
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
-                        <Link to="/design-build-partners">
+                        <Link to="/partners/design-build-partners">
                           Design Build Partners
                         </Link>
                       </li>
@@ -179,7 +179,7 @@ const Header = () => {
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
-                        <Link to="/realtors">Realtors</Link>
+                        <Link to="/partners/realtors">Realtors</Link>
                       </li>
                     </ul>
                   </li>
@@ -220,7 +220,7 @@ const Header = () => {
                         id="menu-item-970"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
                       >
-                        <Link to="/commercial-solutions-commercial-automation">
+                        <Link to="/commercial/automation-system">
                           Commercial Solutions: Automation
                         </Link>
                       </li>
@@ -228,7 +228,7 @@ const Header = () => {
                         id="menu-item-970"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
                       >
-                        <Link to="/commercial-solutions-commercial-audio-video">
+                        <Link to="/commercial/audio-visual-system">
                           Commercial Solutions: Audio / Video
                         </Link>
                       </li>
@@ -236,7 +236,7 @@ const Header = () => {
                         id="menu-item-970"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
                       >
-                        <Link to="/commercial-solutions-commercial-security">
+                        <Link to="/commercial/security-system">
                           Commercial Solutions: Security
                         </Link>
                       </li>
@@ -244,7 +244,7 @@ const Header = () => {
                         id="menu-item-970"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"
                       >
-                        <Link to="/commercial-solutions-commercial-technology">
+                        <Link to="/commercial/technology">
                           Commercial Solutions: Technology
                         </Link>
                       </li>
@@ -269,7 +269,7 @@ const Header = () => {
                         id="menu-item-924"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-924"
                       >
-                        <Link to="/home-theater">Home Theater</Link>
+                        <Link to="/home-theatre">Home Theater</Link>
                       </li>
                       <li
                         id="menu-item-955"
@@ -307,7 +307,7 @@ const Header = () => {
                         id="menu-item-1602"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"
                       >
-                        <Link to="/commercial-services">
+                        <Link to="/commercial">
                           Commercial Integration
                         </Link>
                       </li>
@@ -323,7 +323,7 @@ const Header = () => {
                     id="menu-item-1539"
                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1539"
                   >
-                    <Link to="brands-we-carry">Brands</Link>
+                    <Link to="/brands">Brands</Link>
                   </li>
                   <li
                     id="menu-item-1188"
@@ -443,26 +443,26 @@ const Header = () => {
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                           <div className="ancestor-wrapper">
-                            <Link to="/interior-designers">
+                            <Link to="/partners/interior-designers">
                               Interior Designers
                             </Link>
                           </div>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                           <div className="ancestor-wrapper">
-                            <Link to="/contractors">Contractors</Link>
+                            <Link to="/partners/contractors">Contractors</Link>
                           </div>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                           <div className="ancestor-wrapper">
-                            <Link to="/design-build-partners">
+                            <Link to="/partners/design-build-partners">
                               Design Build Partners
                             </Link>
                           </div>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                           <div className="ancestor-wrapper">
-                            <Link to="/realtors">Realtors</Link>
+                            <Link to="/partners/realtors">Realtors</Link>
                           </div>
                         </li>
                       </ul>
@@ -528,28 +528,28 @@ const Header = () => {
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
                           <div className="ancestor-wrapper">
-                            <Link to="/commercial-solutions-commercial-automation">
+                            <Link to="/commercial/automation-system">
                               Commercial Solutions: Automation
                             </Link>
                           </div>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
                           <div className="ancestor-wrapper">
-                            <Link to="/commercial-solutions-commercial-audio-video">
+                            <Link to="/commercial/audio-visual-system">
                               Commercial Solutions: Audio / Video
                             </Link>
                           </div>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
                           <div className="ancestor-wrapper">
-                            <Link to="/commercial-solutions-commercial-security">
+                            <Link to="/commercial/security-system">
                               Commercial Solutions: Security
                             </Link>
                           </div>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-970">
                           <div className="ancestor-wrapper">
-                            <Link to="/commercial-solutions-commercial-technology">
+                            <Link to="/commercial/technology">
                               Commercial Solutions: Technology
                             </Link>
                           </div>
@@ -600,7 +600,7 @@ const Header = () => {
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-924">
                           <div className="ancestor-wrapper">
-                            <Link to="/home-theater">Home Theater</Link>
+                            <Link to="/home-theatre">Home Theater</Link>
                           </div>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-955">
@@ -632,7 +632,7 @@ const Header = () => {
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602">
                           <div className="ancestor-wrapper">
-                            <Link to="/commercial-services">
+                            <Link to="/commercial">
                               Commercial Integration
                             </Link>
                           </div>
@@ -653,7 +653,7 @@ const Header = () => {
                       className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1539"
                     >
                       <div className="ancestor-wrapper">
-                        <Link to="brands-we-carry">Brands</Link>
+                        <Link to="/brands">Brands</Link>
                       </div>
                     </li>
                     <li

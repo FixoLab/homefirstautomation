@@ -1,5 +1,17 @@
+import { Helmet, HelmetProvider } from "react-helmet-async";
+
 const CommercialSecurity = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Keep your commercial building secure and efficient with our advanced security automation solutions. We offer a range of customizable solutions to meet your business's specific needs."
+        />
+        <title>
+        Security Automation Solutions for Commercial Buildings | Homefirst
+        </title>
+      </Helmet>
     <div id="site-content">
       <div
         id="page#1"
@@ -11,7 +23,7 @@ const CommercialSecurity = () => {
           uk-parallax="bgy: -20,120; easing: 1"
           uk-height-viewport="offset-top: true; offset-bottom: ! +;"
           style={{
-            backgroundImage: "url(assets/images/commercial-security-hero.webp)",
+            backgroundImage: "url(/assets/images/commercial-security-hero.webp)",
           }}
         >
           <div
@@ -95,14 +107,14 @@ const CommercialSecurity = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-security-1-mini.webp"
+                    srcSet="/assets/images/commercial-security-1-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-security-1.webp"
-                    alt="automationImage"
+                   src="/assets/images/commercial-security-1.webp"
+                    alt="commercial security systems "
                   />
                 </picture>
             </div>
@@ -152,14 +164,14 @@ const CommercialSecurity = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-security-2-mini.webp"
+                    srcSet="/assets/images/commercial-security-2-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-security-2.webp"
-                    alt="automationImage"
+                   src="/assets/images/commercial-security-2.webp"
+                    alt="Surveillance"
                   />
                 </picture>
             </div>
@@ -210,14 +222,14 @@ const CommercialSecurity = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-security-3-mini.webp"
+                    srcSet="/assets/images/commercial-security-3-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-security-3.webp"
-                    alt="automationImage"
+                   src="/assets/images/commercial-security-3.webp"
+                    alt="commercial door entry systems"
                   />
                 </picture>
             </div>
@@ -269,14 +281,14 @@ const CommercialSecurity = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-security-4-mini.webp"
+                    srcSet="/assets/images/commercial-security-4-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-security-4.webp"
-                    alt="automationImage"
+                   src="/assets/images/commercial-security-4.webp"
+                    alt="Remote access & monitoring"
                   />
                 </picture>
             </div>
@@ -327,14 +339,14 @@ const CommercialSecurity = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-security-5-mini.webp"
+                    srcSet="/assets/images/commercial-security-5-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-security-5.webp"
-                    alt="automationImage"
+                   src="/assets/images/commercial-security-5.webp"
+                    alt="outdoor perimeter protection"
                   />
                 </picture>
             </div>
@@ -383,14 +395,14 @@ const CommercialSecurity = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-security-6-mini.webp"
+                    srcSet="/assets/images/commercial-security-6-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-security-6.webp"
-                    alt="automationImage"
+                   src="/assets/images/commercial-security-6.webp"
+                    alt="motion detection"
                   />
                 </picture>
             </div>
@@ -448,6 +460,7 @@ const CommercialSecurity = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const Realtors = () => {
   return (
+    <HelmetProvider>
+     <Helmet>
+        <meta
+          name="description"
+          content="We here at HomeFirst have client’s asking us for recommendations on Realtors. You can join our list of recommended realtors by simply joining our partner program"
+        />
+        <title>
+        Join HomeFirst's Partner Program for Recommended Realtors
+        </title>
+      </Helmet>
     <div className="design-build-partners">
       <div id="site-content">
         <div className="post-inner thin ">
@@ -57,8 +68,8 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller1.webp"
-                    alt=""
+                    src="/assets/images/seller1.webp"
+                    alt="recommended realtors Orlando"
                     className="wp-image-2755"
                   />
                 </figure>
@@ -74,8 +85,8 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller2.webp"
-                    alt=""
+                    src="/assets/images/seller2.webp"
+                    alt="Real estate business in Florida"
                     className="wp-image-2756"
                   />
                 </figure>
@@ -119,8 +130,8 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller3.webp"
-                    alt=""
+                    src="/assets/images/seller3.webp"
+                    alt="smart home and business technology"
                     className="wp-image-2757"
                   />
                 </figure>
@@ -141,8 +152,8 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller4.webp"
-                    alt=""
+                    src="/assets/images/seller4.webp"
+                    alt="smart home business solution"
                     className="wp-image-2758"
                   />
                 </figure>
@@ -213,8 +224,8 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller5.webp"
-                    alt=""
+                    src="/assets/images/seller5.webp"
+                    alt="smart home technology classes"
                     className="wp-image-2759"
                   />
                 </figure>
@@ -230,7 +241,7 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/haslam-17.webp"
+                    src="/assets/images/haslam-17.webp"
                     alt=""
                     className="wp-image-1032"
                   />
@@ -260,6 +271,7 @@ const Realtors = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

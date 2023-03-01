@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const InteriorDesigners = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Connect with hundreds of clients who are looking for a professional designer’s touch at HomeFirst. Discover new opportunities and be part of the growing team of design professionals to help bring success to our clients."
+        />
+        <title>
+        Professional Designers Wanted! Connect with Clients at HomeFirst
+        </title>
+      </Helmet>
     <div className="design-build-partners">
       <div id="site-content">
         <div className="post-inner thin ">
@@ -56,8 +67,8 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer1.webp"
-                    alt=""
+                    src="/assets/images/designer1.webp"
+                    alt="Home automation companies Florida"
                     className="wp-image-2755"
                   />
                 </figure>
@@ -73,8 +84,8 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer2.webp"
-                    alt=""
+                    src="/assets/images/designer2.webp"
+                    alt="Interior design business orlando"
                     className="wp-image-2756"
                   />
                 </figure>
@@ -119,8 +130,8 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer3.webp"
-                    alt=""
+                    src="/assets/images/designer3.webp"
+                    alt="Interior Designing business"
                     className="wp-image-2757"
                   />
                 </figure>
@@ -141,8 +152,8 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer4.webp"
-                    alt=""
+                    src="/assets/images/designer4.webp"
+                    alt="home automaion design services"
                     className="wp-image-2758"
                   />
                 </figure>
@@ -215,8 +226,8 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer5.webp"
-                    alt=""
+                    src="/assets/images/designer5.webp"
+                    alt="Ineterior design services ornaldo"
                     className="wp-image-2759"
                   />
                 </figure>
@@ -232,7 +243,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/haslam-17.webp"
+                    src="/assets/images/haslam-17.webp"
                     alt=""
                     className="wp-image-1032"
                   />
@@ -262,6 +273,8 @@ const InteriorDesigners = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
+    
   );
 };
 

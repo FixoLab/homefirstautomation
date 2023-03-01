@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const Contractors = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Get the best products and services for your home or business with Partnered businesses. Our experienced professionals are dedicated to helping you get the most out of your investments. Get in touch now to find out more."
+        />
+        <title>
+        Improve Your Home or Business with Partnered Businesses
+        </title>
+      </Helmet>
     <div className="design-build-partners">
       <div id="site-content">
         <div className="post-inner thin ">
@@ -58,8 +69,8 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder1.webp"
-                    alt=""
+                    src="/assets/images/builder1.webp"
+                    alt="Home automation companies Orlando"
                     className="wp-image-2755"
                   />
                 </figure>
@@ -75,8 +86,8 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder2.webp"
-                    alt=""
+                    src="/assets/images/builder2.webp"
+                    alt="Contractors opportunities in Florida"
                     className="wp-image-2756"
                   />
                 </figure>
@@ -121,8 +132,8 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder3.webp"
-                    alt=""
+                    src="/assets/images/builder3.webp"
+                    alt="recommended contractors in Orlando"
                     className="wp-image-2757"
                   />
                 </figure>
@@ -143,8 +154,8 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder4.webp"
-                    alt=""
+                    src="/assets/images/builder4.webp"
+                    alt="homefirst smart technology"
                     className="wp-image-2758"
                   />
                 </figure>
@@ -213,8 +224,8 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder5.webp"
-                    alt=""
+                    src="/assets/images/builder5.webp"
+                    alt="smart home business solution"
                     className="wp-image-2759"
                   />
                 </figure>
@@ -230,7 +241,7 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/haslam-17.webp"
+                    src="/assets/images/haslam-17.webp"
                     alt=""
                     className="wp-image-1032"
                   />
@@ -260,6 +271,7 @@ const Contractors = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

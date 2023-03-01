@@ -34,7 +34,7 @@ const Feature3 = ({ leftPosition }) => {
             </Link>
           </div>
           <div className="is-layout-flow wp-block-column">
-            <Link to="/commercial-services">
+            <Link to="/commercial">
               <i className="far fa-building"></i>
               <p>Commercial Integration</p>
             </Link>

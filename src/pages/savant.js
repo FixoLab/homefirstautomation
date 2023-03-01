@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const StartJourney = React.lazy(() => import("../components/start-journey"));
 
 const Savant = () => {
   return (
+    <HelmetProvider>
+     <Helmet>
+        <meta
+          name="description"
+          content="Control your entertainment systems, monitor your wine cellar, or use voice commands to control your home's security - all from one easy to use system. Get Savant today."
+        />
+        <title>
+        Control and Monitor Your Smart Home with Savant's Easy System
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -18,7 +29,7 @@ const Savant = () => {
                 width="300"
                 height="150"
               >
-                <source src="assets/video/Mainvideo-1.mp4" type="video/mp4" />
+                <source src="/assets/video/Mainvideo-1.mp4" type="video/mp4" />
               </video>
 
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
@@ -26,8 +37,8 @@ const Savant = () => {
                   <div className="wp-block-image">
                     <figure className="aligncenter size-large is-resized">
                       <img
-                        src="assets/images/savant.webp"
-                        alt=""
+                        src="/assets/images/savant.webp"
+                        alt="savant logo"
                         className="wp-image-2104"
                         width="192"
                         height="37"
@@ -74,14 +85,14 @@ const Savant = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcSet="assets/images/savant1-mini.webp"
+                  srcSet="/assets/images/savant1-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
-                  src="assets/images/savant1.webp"
+                  alt="Savant Smart Home Automation"
+                  src="/assets/images/savant1.webp"
                 />
               </picture>
             </div>
@@ -94,14 +105,14 @@ const Savant = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcSet="assets/images/savant2-mini.webp"
+                  srcSet="/assets/images/savant2-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
-                  src="assets/images/savant2.webp"
+                  alt="Smart Home Automation Integrators"
+                  src="/assets/images/savant2.webp"
                 />
               </picture>
             </div>
@@ -120,8 +131,8 @@ const Savant = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
-                  alt=""
+                  src="/assets/images/haslam-15.webp"
+                  alt="savant home lightning"
                   className="wp-image-847"
                 />
               </figure>
@@ -136,7 +147,7 @@ const Savant = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source
-                  src="assets/video/savant-shades2.mp4"
+                  src="/assets/video/savant-shades2.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -170,14 +181,14 @@ const Savant = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcSet="assets/images/savant3-mini.webp"
+                  srcSet="/assets/images/savant3-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
-                  src="assets/images/savant3.webp"
+                  alt="savant home automation"
+                  src="/assets/images/savant3.webp"
                 />
               </picture>
             </div>
@@ -189,14 +200,14 @@ const Savant = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcSet="assets/images/savant4-mini.webp"
+                  srcSet="/assets/images/savant4-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
-                  src="assets/images/savant4.webp"
+                  alt="smart home control"
+                  src="/assets/images/savant4.webp"
                 />
               </picture>
             </div>
@@ -216,8 +227,8 @@ const Savant = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
-                  alt=""
+                  src="/assets/images/haslam-15.webp"
+                  alt="savant home lightning"
                   className="wp-image-847"
                 />
               </figure>
@@ -231,7 +242,7 @@ const Savant = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source src="assets/video/savant-light.mp4" type="video/mp4" />
+                <source src="/assets/video/savant-light.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -266,14 +277,14 @@ const Savant = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcSet="assets/images/savant5-mini.webp"
+                  srcSet="/assets/images/savant5-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
-                  src="assets/images/savant5.webp"
+                  alt="local smart home automation solution"
+                  src="/assets/images/savant5.webp"
                 />
               </picture>
             </div>
@@ -285,14 +296,14 @@ const Savant = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcSet="assets/images/savant6-mini.webp"
+                  srcSet="/assets/images/savant6-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
-                  src="assets/images/savant6.webp"
+                  alt="savant living room automation"
+                  src="/assets/images/savant6.webp"
                 />
               </picture>
             </div>
@@ -311,8 +322,8 @@ const Savant = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
-                  alt=""
+                  src="/assets/images/haslam-15.webp"
+                  alt="Savant home automation design"
                   className="wp-image-847"
                 />
               </figure>
@@ -327,7 +338,7 @@ const Savant = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source
-                  src="assets/video/savant-remote2.mp4"
+                  src="/assets/video/savant-remote2.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -364,14 +375,14 @@ const Savant = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcSet="assets/images/savant7-mini.webp"
+                  srcSet="/assets/images/savant7-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
-                  src="assets/images/savant7.webp"
+                  alt="savant dealers"
+                  src="/assets/images/savant7.webp"
                 />
               </picture>
             </div>
@@ -384,14 +395,14 @@ const Savant = () => {
                 data-aos-delay="200"
               >
                 <source
-                  srcSet="assets/images/savant8-mini.webp"
+                  srcSet="/assets/images/savant8-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
-                  src="assets/images/savant8.webp"
+                  alt="savant smart devices"
+                  src="/assets/images/savant8.webp"
                 />
               </picture>
             </div>
@@ -400,6 +411,7 @@ const Savant = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

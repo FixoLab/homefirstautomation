@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const StartJourney = React.lazy(() => import("../components/start-journey"));
 
 const HunterDouglas = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Create the perfect mood for your home, business, or event with Hunter Douglas. Enjoy the privacy, energy-efficiency, and safety of Hunter Douglas. Contact us today."
+        />
+        <title>
+        Experience Privacy, Efficiency, and Safety with Hunter Douglas
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -19,7 +30,7 @@ const HunterDouglas = () => {
                 height="150"
               >
                 <source
-                  src="assets/video/hunterdouglas-intro.mp4"
+                  src="/assets/video/hunterdouglas-intro.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -49,14 +60,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas7-mini.webp"
+                      srcSet="/assets/images/hunterdouglas7-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/hunterdouglas7.webp"
+                      alt="Hunter Douglas dealers   "
+                      src="/assets/images/hunterdouglas7.webp"
                     />
                   </picture>
             </div>
@@ -65,14 +76,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas8-mini.webp"
+                      srcSet="/assets/images/hunterdouglas8-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/hunterdouglas8.webp"
+                      alt="Hunter Douglas Window Treatment"
+                      src="/assets/images/hunterdouglas8.webp"
                     />
                   </picture>
             </div>
@@ -92,7 +103,7 @@ const HunterDouglas = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -108,7 +119,7 @@ const HunterDouglas = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source
-                  src="assets/video/hunterdouglas-homeshades.mp4"
+                  src="/assets/video/hunterdouglas-homeshades.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -143,14 +154,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas1-mini.webp"
+                      srcSet="/assets/images/hunterdouglas1-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/hunterdouglas1.webp"
+                      alt="Hunter Douglas shading"
+                      src="/assets/images/hunterdouglas1.webp"
                     />
                   </picture>
             </div>
@@ -159,14 +170,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas2-mini.webp"
+                      srcSet="/assets/images/hunterdouglas2-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/hunterdouglas2.webp"
+                      alt="Residential shading"
+                      src="/assets/images/hunterdouglas2.webp"
                     />
                   </picture>
             </div>
@@ -186,8 +197,8 @@ const HunterDouglas = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
-                  alt=""
+                  src="/assets/images/haslam-15.webp"
+                  alt="Hunter Douglas shading system"
                   className="wp-image-847"
                 />
               </figure>
@@ -202,7 +213,7 @@ const HunterDouglas = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source
-                  src="assets/video/hunterdouglas-shadingsystem.mp4"
+                  src="/assets/video/hunterdouglas-shadingsystem.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -236,14 +247,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas3-mini.webp"
+                      srcSet="/assets/images/hunterdouglas3-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/hunterdouglas3.webp"
+                      alt="Hunter Douglas shading system"
+                      src="/assets/images/hunterdouglas3.webp"
                     />
                   </picture>
             </div>
@@ -252,14 +263,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas4-mini.webp"
+                      srcSet="/assets/images/hunterdouglas4-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/hunterdouglas4.webp"
+                      alt="window treatment services"
+                      src="/assets/images/hunterdouglas4.webp"
                     />
                   </picture>
             </div>
@@ -278,7 +289,7 @@ const HunterDouglas = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -294,7 +305,7 @@ const HunterDouglas = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source
-                  src="assets/video/hunterdouglas-officeshading.mp4"
+                  src="/assets/video/hunterdouglas-officeshading.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -328,14 +339,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas5-mini.webp"
+                      srcSet="/assets/images/hunterdouglas5-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/hunterdouglas5.webp"
+                      alt="Hunter Douglas commercial shading"
+                      src="/assets/images/hunterdouglas5.webp"
                     />
                   </picture>
             </div>
@@ -345,14 +356,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas6-mini.webp"
+                      srcSet="/assets/images/hunterdouglas6-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/hunterdouglas6.webp"
+                      alt="best commercial shading services"
+                      src="/assets/images/hunterdouglas6.webp"
                     />
                   </picture>
             </div>
@@ -361,6 +372,7 @@ const HunterDouglas = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 
