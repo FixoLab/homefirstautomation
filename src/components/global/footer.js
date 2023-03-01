@@ -80,14 +80,14 @@ const Footer = () => {
                                 <Link to="/careers">Careers</Link>
                                 <Link to="/our-process">Our process</Link>
                                 <Link to="/partners">Partners</Link>
-                                <Link to="/interior-designers">
+                                <Link to="/partners/interior-designers">
                                   Interior Designers
                                 </Link>
-                                <Link to="/contractors">Contractors</Link>
-                                <Link to="/design-build-partners">
+                                <Link to="/partners/contractors">Contractors</Link>
+                                <Link to="/partners/design-build-partners">
                                   Design Build Partners
                                 </Link>
-                                <Link to="/realtors">Realtors</Link>
+                                <Link to="/partners/realtors">Realtors</Link>
                               </div>
                             </div>
                             <div

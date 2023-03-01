@@ -159,19 +159,19 @@ const Header = () => {
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
-                        <Link to="/interior-designers">Interior Designers</Link>
+                        <Link to="/partners/interior-designers">Interior Designers</Link>
                       </li>
                       <li
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
-                        <Link to="/contractors">Contractors</Link>
+                        <Link to="/partners/contractors">Contractors</Link>
                       </li>
                       <li
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
-                        <Link to="/design-build-partners">
+                        <Link to="/partners/design-build-partners">
                           Design Build Partners
                         </Link>
                       </li>
@@ -179,7 +179,7 @@ const Header = () => {
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
-                        <Link to="/realtors">Realtors</Link>
+                        <Link to="/partners/realtors">Realtors</Link>
                       </li>
                     </ul>
                   </li>
@@ -443,26 +443,26 @@ const Header = () => {
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                           <div className="ancestor-wrapper">
-                            <Link to="/interior-designers">
+                            <Link to="/partners/interior-designers">
                               Interior Designers
                             </Link>
                           </div>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                           <div className="ancestor-wrapper">
-                            <Link to="/contractors">Contractors</Link>
+                            <Link to="/partners/contractors">Contractors</Link>
                           </div>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                           <div className="ancestor-wrapper">
-                            <Link to="/design-build-partners">
+                            <Link to="/partners/design-build-partners">
                               Design Build Partners
                             </Link>
                           </div>
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                           <div className="ancestor-wrapper">
-                            <Link to="/realtors">Realtors</Link>
+                            <Link to="/partners/realtors">Realtors</Link>
                           </div>
                         </li>
                       </ul>

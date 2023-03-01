@@ -107,14 +107,14 @@ const BrandsWeCarry = () => {
                         automation solutions that transform the way people live
                         their lives, making their day-to-day tasks easier and
                         improving efficiency and productivity.{" "}
-                        <Link to="/crestron">Crestron systems</Link> are at the
+                        <Link to="/brands/crestron">Crestron systems</Link> are at the
                         forefront of cutting-edge technology, constantly
                         offering faster, better solutions that address the needs
                         of customers the world over.
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/crestron">
+                        <Link to="/brands/crestron">
                           <img
                             width="150"
                             height="26"
@@ -126,7 +126,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/crestron">Learn More</Link>
+                        <Link to="/brands/crestron">Learn More</Link>
                       </p>
                     </div>
 
@@ -153,7 +153,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/savant">
+                        <Link to="/brands/savant">
                           <img
                             width="150"
                             height="23"
@@ -165,7 +165,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/savant">Learn More</Link>
+                        <Link to="/brands/savant">Learn More</Link>
                       </p>
                     </div>
                   </div>
@@ -204,7 +204,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/lutron">
+                        <Link to="/brands/lutron">
                           <img
                             width="150"
                             height="26"
@@ -216,7 +216,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/lutron">Learn More</Link>
+                        <Link to="/brands/lutron">Learn More</Link>
                       </p>
                     </div>
 
@@ -244,7 +244,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/hunter-douglas">
+                        <Link to="/brands/hunter-douglas">
                           <img
                             width="150"
                             height="29"
@@ -256,7 +256,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/hunter-douglas">Learn More</Link>
+                        <Link to="/brands/hunter-douglas">Learn More</Link>
                       </p>
                     </div>
 
@@ -282,7 +282,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/coastal-source">
+                        <Link to="/brands/coastal-source">
                           <img
                             width="150"
                             height="22"
@@ -294,7 +294,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/coastal-source">Learn More</Link>
+                        <Link to="/brands/coastal-source">Learn More</Link>
                       </p>
                     </div>
                   </div>
@@ -321,7 +321,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/josh-ai">
+                        <Link to="/brands/josh-ai">
                           <img
                             width="150"
                             height="51"
@@ -333,7 +333,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/josh-ai">Learn More</Link>
+                        <Link to="/brands/josh-ai">Learn More</Link>
                       </p>
                     </div>
 
@@ -361,7 +361,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/ruckus">
+                        <Link to="/brands/ruckus">
                           <img
                             width="150"
                             height="44"
@@ -373,7 +373,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/ruckus">Learn More</Link>
+                        <Link to="/brands/ruckus">Learn More</Link>
                       </p>
                     </div>
 
@@ -396,7 +396,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/knx">
+                        <Link to="/brands/knx">
                           <img
                             width="133"
                             height="59"
@@ -408,7 +408,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/knx">Learn More</Link>
+                        <Link to="/brands/knx">Learn More</Link>
                       </p>
                     </div>
                   </div>
@@ -436,7 +436,7 @@ const BrandsWeCarry = () => {
                       </p>
 
                       <figure className="wp-block-image size-large brandlogo">
-                        <Link to="/alarm-com">
+                        <Link to="/brands/alrarm-com">
                           <img
                             width="150"
                             height="28"
@@ -448,7 +448,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/alarm-com">Learn More</Link>
+                        <Link to="/brands/alrarm-com">Learn More</Link>
                       </p>
                     </div>
 

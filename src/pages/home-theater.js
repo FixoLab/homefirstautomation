@@ -180,7 +180,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -192,7 +192,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -258,7 +258,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -270,7 +270,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -323,7 +323,7 @@ const HomeTheater = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/lutron">
+                    <Link to="/brands/lutron">
                       <img
                         width="180"
                         height="180"
@@ -347,7 +347,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -447,7 +447,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -459,7 +459,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -525,7 +525,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -537,7 +537,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -602,7 +602,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -614,7 +614,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"

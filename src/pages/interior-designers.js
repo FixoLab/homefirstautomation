@@ -56,7 +56,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer1.webp"
+                    src="/assets/images/designer1.webp"
                     alt="Home automation companies Florida"
                     className="wp-image-2755"
                   />
@@ -73,7 +73,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer2.webp"
+                    src="/assets/images/designer2.webp"
                     alt="Interior design business orlando"
                     className="wp-image-2756"
                   />
@@ -119,7 +119,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer3.webp"
+                    src="/assets/images/designer3.webp"
                     alt="Interior Designing business"
                     className="wp-image-2757"
                   />
@@ -141,7 +141,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer4.webp"
+                    src="/assets/images/designer4.webp"
                     alt="home automaion design services"
                     className="wp-image-2758"
                   />
@@ -215,7 +215,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/designer5.webp"
+                    src="/assets/images/designer5.webp"
                     alt="Ineterior design services ornaldo"
                     className="wp-image-2759"
                   />
@@ -232,7 +232,7 @@ const InteriorDesigners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/haslam-17.webp"
+                    src="/assets/images/haslam-17.webp"
                     alt=""
                     className="wp-image-1032"
                   />

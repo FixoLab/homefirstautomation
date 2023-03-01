@@ -58,7 +58,7 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder1.webp"
+                    src="/assets/images/builder1.webp"
                     alt="Home automation companies Orlando"
                     className="wp-image-2755"
                   />
@@ -75,7 +75,7 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder2.webp"
+                    src="/assets/images/builder2.webp"
                     alt="Contractors opportunities in Florida"
                     className="wp-image-2756"
                   />
@@ -121,7 +121,7 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder3.webp"
+                    src="/assets/images/builder3.webp"
                     alt="recommended contractors in Orlando"
                     className="wp-image-2757"
                   />
@@ -143,7 +143,7 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder4.webp"
+                    src="/assets/images/builder4.webp"
                     alt="homefirst smart technology"
                     className="wp-image-2758"
                   />
@@ -213,7 +213,7 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/builder5.webp"
+                    src="/assets/images/builder5.webp"
                     alt="smart home business solution"
                     className="wp-image-2759"
                   />
@@ -230,7 +230,7 @@ const Contractors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/haslam-17.webp"
+                    src="/assets/images/haslam-17.webp"
                     alt=""
                     className="wp-image-1032"
                   />

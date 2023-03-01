@@ -18,7 +18,7 @@ const Ruckus = () => {
                 width="300"
                 height="150"
               >
-                <source src="assets/video/ruckus-intro.mp4" type="video/mp4" />
+                <source src="/assets/video/ruckus-intro.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
@@ -46,14 +46,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/ruckus1-mini.webp"
+                      srcSet="/assets/images/ruckus1-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="ruckus networking"
-                      src="assets/images/ruckus1.webp"
+                      src="/assets/images/ruckus1.webp"
                     />
                   </picture>
             </div>
@@ -62,14 +62,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/ruckus5-mini.webp"
+                      srcSet="/assets/images/ruckus5-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="ruckus medical services"
-                      src="assets/images/ruckus5.webp"
+                      src="/assets/images/ruckus5.webp"
                     />
                   </picture>
             </div>
@@ -89,7 +89,7 @@ const Ruckus = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -104,7 +104,7 @@ const Ruckus = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source src="assets/video/ruckus-home.mp4" type="video/mp4" />
+                <source src="/assets/video/ruckus-home.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -136,14 +136,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/ruckus7-mini.webp"
+                      srcSet="/assets/images/ruckus7-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="ruckus home solution"
-                      src="assets/images/ruckus7.webp"
+                      src="/assets/images/ruckus7.webp"
                     />
                   </picture>
             </div>
@@ -152,14 +152,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/ruckus6-mini.webp"
+                      srcSet="/assets/images/ruckus6-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="ruckus smart devices"
-                      src="assets/images/ruckus6.webp"
+                      src="/assets/images/ruckus6.webp"
                     />
                   </picture>
             </div>
@@ -179,7 +179,7 @@ const Ruckus = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -195,7 +195,7 @@ const Ruckus = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source
-                  src="assets/video/ruckus-business1.mp4"
+                  src="/assets/video/ruckus-business1.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -227,14 +227,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/ruckus9-mini.webp"
+                      srcSet="/assets/images/ruckus9-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="ruckus business solution"
-                      src="assets/images/ruckus9.webp"
+                      src="/assets/images/ruckus9.webp"
                     />
                   </picture>
             </div>
@@ -243,14 +243,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/ruckus8-mini.webp"
+                      srcSet="/assets/images/ruckus8-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="ruckus networking devices"
-                      src="assets/images/ruckus8.webp"
+                      src="/assets/images/ruckus8.webp"
                     />
                   </picture>
             </div>
@@ -269,7 +269,7 @@ const Ruckus = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -285,7 +285,7 @@ const Ruckus = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source
-                  src="assets/video/ruckus-software.mp4"
+                  src="/assets/video/ruckus-software.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -319,14 +319,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/ruckus10-mini.webp"
+                      srcSet="/assets/images/ruckus10-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="ruckus software"
-                      src="assets/images/ruckus10.webp"
+                      src="/assets/images/ruckus10.webp"
                     />
                   </picture>
             </div>
@@ -336,14 +336,14 @@ const Ruckus = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/ruckus11-mini.webp"
+                      srcSet="/assets/images/ruckus11-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="RUCKUS Networking software"
-                      src="assets/images/ruckus11.webp"
+                      src="/assets/images/ruckus11.webp"
                     />
                   </picture>
             </div>

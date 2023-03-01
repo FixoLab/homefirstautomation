@@ -58,7 +58,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design1.webp"
+                    src="/assets/images/design1.webp"
                     alt="Architects opportunities Florida"
                     className="wp-image-2755"
                   />
@@ -75,7 +75,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design2.webp"
+                    src="/assets/images/design2.webp"
                     alt="Architect business collaboration"
                     className="wp-image-2756"
                   />
@@ -121,7 +121,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design3.webp"
+                    src="/assets/images/design3.webp"
                     alt="homefirst architect program"
                     className="wp-image-2757"
                   />
@@ -143,7 +143,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design4.webp"
+                    src="/assets/images/design4.webp"
                     alt="Architect’s Partner"
                     className="wp-image-2758"
                   />
@@ -214,7 +214,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/design5.webp"
+                    src="/assets/images/design5.webp"
                     alt="homefirst technologies"
                     className="wp-image-2759"
                   />
@@ -231,7 +231,7 @@ const DesignBuildPartners = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/haslam-17.webp"
+                    src="/assets/images/haslam-17.webp"
                     alt=""
                     className="wp-image-1032"
                   />

@@ -149,7 +149,7 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large is-resized servicebrands">
-                    <Link to="/ruckus">
+                    <Link to="/brands/ruckus">
                       <img
                         src="assets/images/ruckus.webp"
                         alt="rucku smart home automation"
@@ -217,7 +217,7 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/lutron">
+                    <Link to="/brands/lutron">
                       <img
                         width="180"
                         height="180"
@@ -229,7 +229,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/coastal-source">
+                    <Link to="/brands/coastal-source">
                       <img
                         width="180"
                         height="180"
@@ -241,7 +241,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/knx">
+                    <Link to="/brands/knx">
                       <img
                         width="180"
                         height="180"
@@ -294,7 +294,7 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/lutron">
+                    <Link to="/brands/lutron">
                       <img
                         width="180"
                         height="180"
@@ -306,7 +306,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/hunter-douglas">
+                    <Link to="/brands/hunter-douglas">
                       <img
                         width="180"
                         height="180"
@@ -318,7 +318,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -417,7 +417,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -429,7 +429,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/coastal-source">
+                    <Link to="/brands/coastal-source">
                       <img
                         width="180"
                         height="180"
@@ -495,7 +495,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -507,7 +507,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -562,7 +562,7 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/alarm-com">
+                    <Link to="/brands/alrarm-com">
                       <img
                         width="180"
                         height="180"
@@ -574,7 +574,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/josh-ai">
+                    <Link to="/brands/josh-ai">
                       <img
                         width="180"
                         height="180"
@@ -586,7 +586,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/knx">
+                    <Link to="/brands/knx">
                       <img
                         width="180"
                         height="180"
@@ -639,7 +639,7 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/josh-ai">
+                    <Link to="/brands/josh-ai">
                       <img
                         width="180"
                         height="180"
@@ -651,7 +651,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/knx">
+                    <Link to="/brands/knx">
                       <img
                         width="180"
                         height="180"
@@ -663,7 +663,7 @@ const SmartHomeAutomation = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"

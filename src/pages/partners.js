@@ -45,7 +45,7 @@ const Partners = () => {
                   </figure>
                   <p className="partnername">Interior Designers</p>
                   <p className="learnmorebutton">
-                    <Link to="/interior-designers">Learn More</Link>
+                    <Link to="/partners/interior-designers">Learn More</Link>
                   </p>
                 </div>
                 <div className="is-layout-flow wp-block-column">
@@ -60,7 +60,7 @@ const Partners = () => {
                   </figure>
                   <p className="partnername">Contractors</p>
                   <p className="learnmorebutton">
-                    <Link to="/contractors">Learn More</Link>
+                    <Link to="/partners/contractors">Learn More</Link>
                   </p>
                 </div>
 
@@ -77,7 +77,7 @@ const Partners = () => {
 
                   <p className="partnername">Design Build Partners</p>
                   <p className="learnmorebutton">
-                    <Link to="/design-build-partners">Learn More</Link>
+                    <Link to="/partners/design-build-partners">Learn More</Link>
                   </p>
                 </div>
 
@@ -93,7 +93,7 @@ const Partners = () => {
                   </figure>
                   <p className="partnername">Real Estate Brokers</p>
                   <p className="learnmorebutton">
-                    <Link to="/realtors">Learn More</Link>
+                    <Link to="/partners/realtors">Learn More</Link>
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ const Partners = () => {
                 We at Homefirst work with hundreds of suppliers,
                 clients, and businesses throughout Orlando, Florida. Joining our
                 Partner Program gives you access to one of the nation’s leading
-                certified <Link to="/savant">Savant dealers</Link> and smart
+                certified <Link to="/brands/savant">Savant dealers</Link> and smart
                 home installers.{" "}
               </p>
               <div className="is-layout-flex wp-container-17 wp-block-columns partners3column">

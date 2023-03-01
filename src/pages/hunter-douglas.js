@@ -19,7 +19,7 @@ const HunterDouglas = () => {
                 height="150"
               >
                 <source
-                  src="assets/video/hunterdouglas-intro.mp4"
+                  src="/assets/video/hunterdouglas-intro.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -49,14 +49,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas7-mini.webp"
+                      srcSet="/assets/images/hunterdouglas7-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
                       alt="Hunter Douglas dealers   "
-                      src="assets/images/hunterdouglas7.webp"
+                      src="/assets/images/hunterdouglas7.webp"
                     />
                   </picture>
             </div>
@@ -65,14 +65,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas8-mini.webp"
+                      srcSet="/assets/images/hunterdouglas8-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
                       alt="Hunter Douglas Window Treatment"
-                      src="assets/images/hunterdouglas8.webp"
+                      src="/assets/images/hunterdouglas8.webp"
                     />
                   </picture>
             </div>
@@ -92,7 +92,7 @@ const HunterDouglas = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -108,7 +108,7 @@ const HunterDouglas = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source
-                  src="assets/video/hunterdouglas-homeshades.mp4"
+                  src="/assets/video/hunterdouglas-homeshades.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -143,14 +143,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas1-mini.webp"
+                      srcSet="/assets/images/hunterdouglas1-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
                       alt="Hunter Douglas shading"
-                      src="assets/images/hunterdouglas1.webp"
+                      src="/assets/images/hunterdouglas1.webp"
                     />
                   </picture>
             </div>
@@ -159,14 +159,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas2-mini.webp"
+                      srcSet="/assets/images/hunterdouglas2-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
                       alt="Residential shading"
-                      src="assets/images/hunterdouglas2.webp"
+                      src="/assets/images/hunterdouglas2.webp"
                     />
                   </picture>
             </div>
@@ -186,7 +186,7 @@ const HunterDouglas = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt="Hunter Douglas shading system"
                   className="wp-image-847"
                 />
@@ -202,7 +202,7 @@ const HunterDouglas = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source
-                  src="assets/video/hunterdouglas-shadingsystem.mp4"
+                  src="/assets/video/hunterdouglas-shadingsystem.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -236,14 +236,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas3-mini.webp"
+                      srcSet="/assets/images/hunterdouglas3-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
                       alt="Hunter Douglas shading system"
-                      src="assets/images/hunterdouglas3.webp"
+                      src="/assets/images/hunterdouglas3.webp"
                     />
                   </picture>
             </div>
@@ -252,14 +252,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas4-mini.webp"
+                      srcSet="/assets/images/hunterdouglas4-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
                       alt="window treatment services"
-                      src="assets/images/hunterdouglas4.webp"
+                      src="/assets/images/hunterdouglas4.webp"
                     />
                   </picture>
             </div>
@@ -278,7 +278,7 @@ const HunterDouglas = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -294,7 +294,7 @@ const HunterDouglas = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source
-                  src="assets/video/hunterdouglas-officeshading.mp4"
+                  src="/assets/video/hunterdouglas-officeshading.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -328,14 +328,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas5-mini.webp"
+                      srcSet="/assets/images/hunterdouglas5-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
                       alt="Hunter Douglas commercial shading"
-                      src="assets/images/hunterdouglas5.webp"
+                      src="/assets/images/hunterdouglas5.webp"
                     />
                   </picture>
             </div>
@@ -345,14 +345,14 @@ const HunterDouglas = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/hunterdouglas6-mini.webp"
+                      srcSet="/assets/images/hunterdouglas6-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
                       alt="best commercial shading services"
-                      src="assets/images/hunterdouglas6.webp"
+                      src="/assets/images/hunterdouglas6.webp"
                     />
                   </picture>
             </div>

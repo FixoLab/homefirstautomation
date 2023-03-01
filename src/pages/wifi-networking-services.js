@@ -64,7 +64,7 @@ const WifiNetworkingServices = () => {
               >
                 The first step in having a ground-breaking smart home is having
                 the foundation for your smart home created. Homefirst
-                has all the <Link to="/ruckus">networking solutions</Link> you need to
+                has all the <Link to="/brands/ruckus">networking solutions</Link> you need to
                 bring your Orlando, Florida home up to date.
               </p>
             </div>

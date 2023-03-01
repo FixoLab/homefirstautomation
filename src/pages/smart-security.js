@@ -76,7 +76,7 @@ const SmartSecurity = () => {
               >
                 21st century criminals need 21st century security. There is
                 nothing more important than you and your loved ones. Our{" "}
-                <Link to="/alarm-com">smart home security systems</Link> and devices will
+                <Link to="/brands/alrarm-com">smart home security systems</Link> and devices will
                 give you piece of mind during the day, night, and away from your
                 Orlando, Florida home.
               </p>

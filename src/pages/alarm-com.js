@@ -19,7 +19,7 @@ const AlarmCom = () => {
                 height="150"
               >
                 <source
-                  src="assets/video/alarmdotcom-about3.mp4"
+                  src="/assets/video/alarmdotcom-about3.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -47,14 +47,14 @@ const AlarmCom = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/alarmdotcom3-mini.webp"
+                      srcSet="/assets/images/alarmdotcom3-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="alarm.com app & Devices"
-                      src="assets/images/alarmdotcom3.webp"
+                      src="/assets/images/alarmdotcom3.webp"
                     />
                   </picture>
             </div>
@@ -63,14 +63,14 @@ const AlarmCom = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/alarmdotcom2-mini.webp"
+                      srcSet="/assets/images/alarmdotcom2-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="commercial alarms systems orlando"
-                      src="assets/images/alarmdotcom2.webp"
+                      src="/assets/images/alarmdotcom2.webp"
                     />
                   </picture>
             </div>
@@ -90,7 +90,7 @@ const AlarmCom = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -106,7 +106,7 @@ const AlarmCom = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source
-                  src="assets/video/alarmdotcom-home1.mp4"
+                  src="/assets/video/alarmdotcom-home1.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -140,14 +140,14 @@ const AlarmCom = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/alarmdotcom5-mini.webp"
+                      srcSet="/assets/images/alarmdotcom5-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="best wireless home security systems"
-                      src="assets/images/alarmdotcom5.webp"
+                      src="/assets/images/alarmdotcom5.webp"
                     />
                   </picture>
             </div>
@@ -156,14 +156,14 @@ const AlarmCom = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/alarmdotcom6-mini.webp"
+                      srcSet="/assets/images/alarmdotcom6-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="home automation alarm system"
-                      src="assets/images/alarmdotcom6.webp"
+                      src="/assets/images/alarmdotcom6.webp"
                     />
                   </picture>
             </div>
@@ -183,7 +183,7 @@ const AlarmCom = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -199,7 +199,7 @@ const AlarmCom = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source
-                  src="assets/video/alarmdotcom-business.mp4"
+                  src="/assets/video/alarmdotcom-business.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -232,14 +232,14 @@ const AlarmCom = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/alarmdotcom4-mini.webp"
+                      srcSet="/assets/images/alarmdotcom4-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="alarm.com for business"
-                      src="assets/images/alarmdotcom4.webp"
+                      src="/assets/images/alarmdotcom4.webp"
                     />
                   </picture>
             </div>
@@ -248,14 +248,14 @@ const AlarmCom = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/alarmdotcom1-mini.webp"
+                      srcSet="/assets/images/alarmdotcom1-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="system monitoring"
-                      src="assets/images/alarmdotcom1.webp"
+                      src="/assets/images/alarmdotcom1.webp"
                     />
                   </picture>
             </div>
@@ -274,7 +274,7 @@ const AlarmCom = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -290,7 +290,7 @@ const AlarmCom = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source
-                  src="assets/video/alarmdotcom-custom.mp4"
+                  src="/assets/video/alarmdotcom-custom.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -323,14 +323,14 @@ const AlarmCom = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/alarmdotcom7-mini.webp"
+                      srcSet="/assets/images/alarmdotcom7-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="alarm.com business devices"
-                      src="assets/images/alarmdotcom7.webp"
+                      src="/assets/images/alarmdotcom7.webp"
                     />
                   </picture>
             </div>
@@ -340,14 +340,14 @@ const AlarmCom = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/alarmdotcom8-mini.webp"
+                      srcSet="/assets/images/alarmdotcom8-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="alarm.com cuxtom security"
-                      src="assets/images/alarmdotcom8.webp"
+                      src="/assets/images/alarmdotcom8.webp"
                     />
                   </picture>
             </div>

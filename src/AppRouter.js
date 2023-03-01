@@ -110,17 +110,17 @@ const AppRouter = () => {
           <Route path="/blog/:slug" element={<BlogDetails />} />
           <Route path="/start-your-project" element={<StartYourProject />} />
 
-          <Route path="/interior-designers" element={<InteriorDesigners />} />
-          <Route path="/savant" element={<Savant />} />
+          <Route path="/partners/interior-designers" element={<InteriorDesigners />} />
+          <Route path="/brands/savant" element={<Savant />} />
           <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/ruckus" element={<Ruckus />} />
-          <Route path="/lutron" element={<Lutron />} />
-          <Route path="/crestron" element={<Crestron />} />
-          <Route path="/coastal-source" element={<CoastalSource />} />
-          <Route path="/knx" element={<Knx />} />
-          <Route path="/hunter-douglas" element={<HunterDouglas />} />
-          <Route path="/alarm-com" element={<AlarmCom />} />
-          <Route path="/josh-ai" element={<JoshAi />} />
+          <Route path="/brands/ruckus" element={<Ruckus />} />
+          <Route path="/brands/lutron" element={<Lutron />} />
+          <Route path="/brands/crestron" element={<Crestron />} />
+          <Route path="/brands/coastal-source" element={<CoastalSource />} />
+          <Route path="/brands/knx" element={<Knx />} />
+          <Route path="/brands/hunter-douglas" element={<HunterDouglas />} />
+          <Route path="/brands/alrarm-com" element={<AlarmCom />} />
+          <Route path="/brands/josh-ai" element={<JoshAi />} />
           <Route path="/indoor-living" element={<IndoorLiving />} />
           <Route path="/connected-home" element={<ConnectedHome />} />
           <Route path="/a-day-in-the-life" element={<ADayInTheLife />} />
@@ -129,7 +129,7 @@ const AppRouter = () => {
             element={<ConnectedStudioHome />}
           />
           <Route
-            path="/design-build-partners"
+            path="/partners/design-build-partners"
             element={<DesignBuildPartners />}
           />
           <Route
@@ -148,8 +148,8 @@ const AppRouter = () => {
             path="/commercial/technology"
             element={<CommercialTechnology />}
           />
-          <Route path="/realtors" element={<Realtors />} />
-          <Route path="/contractors" element={<Contractors />} />
+          <Route path="/partners/realtors" element={<Realtors />} />
+          <Route path="/partners/contractors" element={<Contractors />} />
           <Route path="/our-process" element={<OurProcess />} />
           <Route path="/category/:id" element={<Category />} />
           <Route path="/years/:published_on" element={<Years />} />

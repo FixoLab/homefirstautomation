@@ -57,7 +57,7 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller1.webp"
+                    src="/assets/images/seller1.webp"
                     alt="recommended realtors Orlando"
                     className="wp-image-2755"
                   />
@@ -74,7 +74,7 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller2.webp"
+                    src="/assets/images/seller2.webp"
                     alt="Real estate business in Florida"
                     className="wp-image-2756"
                   />
@@ -119,7 +119,7 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller3.webp"
+                    src="/assets/images/seller3.webp"
                     alt="smart home and business technology"
                     className="wp-image-2757"
                   />
@@ -141,7 +141,7 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller4.webp"
+                    src="/assets/images/seller4.webp"
                     alt="smart home business solution"
                     className="wp-image-2758"
                   />
@@ -213,7 +213,7 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/seller5.webp"
+                    src="/assets/images/seller5.webp"
                     alt="smart home technology classes"
                     className="wp-image-2759"
                   />
@@ -230,7 +230,7 @@ const Realtors = () => {
                   <img
                     width="1024"
                     height="769"
-                    src="assets/images/haslam-17.webp"
+                    src="/assets/images/haslam-17.webp"
                     alt=""
                     className="wp-image-1032"
                   />

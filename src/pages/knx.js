@@ -18,7 +18,7 @@ const Knx = () => {
                 width="300"
                 height="150"
               >
-                <source src="assets/video/knx-about.mp4" type="video/mp4" />
+                <source src="/assets/video/knx-about.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
@@ -46,14 +46,14 @@ const Knx = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/knx-10-mini.webp"
+                      srcSet="/assets/images/knx-10-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="knx visualisation software"
-                      src="assets/images/knx-10.webp"
+                      src="/assets/images/knx-10.webp"
                     />
                   </picture>
             </div>
@@ -62,14 +62,14 @@ const Knx = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/knx7-mini.webp"
+                      srcSet="/assets/images/knx7-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="knx smart home"
-                      src="assets/images/knx7.webp"
+                      src="/assets/images/knx7.webp"
                     />
                   </picture>
             </div>
@@ -89,7 +89,7 @@ const Knx = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -104,7 +104,7 @@ const Knx = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source src="assets/video/knx-home.mp4" type="video/mp4" />
+                <source src="/assets/video/knx-home.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -137,14 +137,14 @@ const Knx = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/knx-12-mini.webp"
+                      srcSet="/assets/images/knx-12-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="knx for home"
-                      src="assets/images/knx-12.webp"
+                      src="/assets/images/knx-12.webp"
                     />
                   </picture>
             </div>
@@ -153,14 +153,14 @@ const Knx = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/knx4-mini.webp"
+                      srcSet="/assets/images/knx4-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="knx home conrol"
-                      src="assets/images/knx4.webp"
+                      src="/assets/images/knx4.webp"
                     />
                   </picture>
             </div>
@@ -180,7 +180,7 @@ const Knx = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -195,7 +195,7 @@ const Knx = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source src="assets/video/knx-business.mp4" type="video/mp4" />
+                <source src="/assets/video/knx-business.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -226,14 +226,14 @@ const Knx = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/knx5-mini.webp"
+                      srcSet="/assets/images/knx5-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="knx for business"
-                      src="assets/images/knx5.webp"
+                      src="/assets/images/knx5.webp"
                     />
                   </picture>
             </div>
@@ -242,14 +242,14 @@ const Knx = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/knx9-mini.webp"
+                      srcSet="/assets/images/knx9-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="knx lighting control"
-                      src="assets/images/knx9.webp"
+                      src="/assets/images/knx9.webp"
                     />
                   </picture>
             </div>
@@ -268,7 +268,7 @@ const Knx = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt="knx custom solution"
                   className="wp-image-847"
                 />
@@ -283,7 +283,7 @@ const Knx = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source src="assets/video/knx-custom.mp4" type="video/mp4" />
+                <source src="/assets/video/knx-custom.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -313,14 +313,14 @@ const Knx = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/knx6-mini.webp"
+                      srcSet="/assets/images/knx6-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="knx custom solution"
-                      src="assets/images/knx6.webp"
+                      src="/assets/images/knx6.webp"
                     />
                   </picture>
             </div>
@@ -330,14 +330,14 @@ const Knx = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/knx-2-mini.webp"
+                      srcSet="/assets/images/knx-2-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="1500"
                        height="1000"
                       alt="knx smart device system"
-                      src="assets/images/knx-2.webp"
+                      src="/assets/images/knx-2.webp"
                     />
                   </picture>
             </div>
