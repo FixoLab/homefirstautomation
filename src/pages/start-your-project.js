@@ -1,20 +1,23 @@
 import React from "react";
 import { LazyIframe } from "react-lazy-media";
 import { Link } from "react-router-dom";
-import { Helmet, HelmetProvider } from 'react-helmet-async';
-
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const StartYourProject = () => {
   return (
     <HelmetProvider>
-     <Helmet>
-        
-        <meta name="description" content="Kickstart your home automation or commercial technology project in Orlando, Florida. Upload images, tell us your time frame, and which services you need to get started with our team." />
-        <title>Start Your Orlando Home Automation or Commercial Technology Project</title>
+      <Helmet>
+        <meta
+          name="description"
+          content="Kickstart your home automation or commercial technology project in Orlando, Florida. Upload images, tell us your time frame, and which services you need to get started with our team."
+        />
+        <title>
+          Start Your Orlando Home Automation or Commercial Technology Project
+        </title>
       </Helmet>
-      
+
       <main id="site-content" className="start-your-project" role="main">
         <article
           className="post-1884 page type-page status-publish hentry odd"

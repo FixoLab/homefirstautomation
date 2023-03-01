@@ -1,9 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import CallToAction from "../components/call-to-action";
 
 const BrandsWeCarry = () => {
   return (
+    <HelmetProvider>
+     <Helmet>
+        <meta
+          name="description"
+          content="Get the latest and greatest in smart home technology for your Orlando, FL project with HomeFirst. Our support team is here to help you get the specific brand you are after."
+        />
+        <title>
+        Smart Home Technology Brands in Orlando, FL | HomeFirst
+        </title>
+      </Helmet>
     <div id="site-content" className="brands">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -472,6 +483,7 @@ const BrandsWeCarry = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

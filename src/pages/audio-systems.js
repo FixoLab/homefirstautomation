@@ -1,9 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const AudioSystems = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Create the perfect listening experience for your Orlando, FL property with a custom multi-room music system, 2-channel audio, or a cinema surround sound system. Let our expert audio engineers design and install a tailor-made audio system for you."
+        />
+        <title>
+        Enjoy Music Your Way with a Custom Music System in Orlando, FL
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -567,6 +578,7 @@ const AudioSystems = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

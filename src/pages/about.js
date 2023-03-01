@@ -1,8 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const About = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Get the best technological upgrades for your home or business with Homefirst ! We provide security systems, smart home systems, theater systems, and commercial automation systems."
+        />
+        <title>
+        Smart Home Automation Experts Serving Orlando, FL | Homefirst
+        </title>
+      </Helmet>
+   
     <div id="site-content" className="about">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -377,6 +389,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

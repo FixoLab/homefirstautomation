@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const DesignBuildPartners = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Join the HomeFirst partner program to gain access to hundreds of clients that are always looking for recommendations for Architects. Unlock a whole new world of possibilities and find new clients with the help of HomeFirst."
+        />
+        <title>
+        Join the HomeFirst Partner Program and Find New Clients
+        </title>
+      </Helmet>
     <div className="design-build-partners">
       <div id="site-content">
         <div className="post-inner thin ">
@@ -261,6 +272,7 @@ const DesignBuildPartners = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

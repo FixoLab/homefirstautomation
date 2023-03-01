@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -8,7 +9,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const Control4 = () => {
   return (
-    <>
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Make your Orange County property a true oasis with Control4's innovative Smart Home Solutions. Enhance your lifestyle with cutting-edge products and features."
+        />
+        <title>
+        Enjoy Luxury Living in Orange County with Control4's Smart Home Solutions
+        </title>
+      </Helmet>
       <div
         id="control"
         className="uk-visible@m uk-section-secondary uk-cover-container uk-section uk-flex uk-flex-middle contro4_hero"
@@ -1332,7 +1342,7 @@ const Control4 = () => {
           </div>
         </div>
       </div>
-    </>
+    </HelmetProvider>
   );
 };
 

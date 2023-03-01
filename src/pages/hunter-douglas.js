@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const StartJourney = React.lazy(() => import("../components/start-journey"));
 
 const HunterDouglas = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Create the perfect mood for your home, business, or event with Hunter Douglas. Enjoy the privacy, energy-efficiency, and safety of Hunter Douglas. Contact us today."
+        />
+        <title>
+        Experience Privacy, Efficiency, and Safety with Hunter Douglas
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -361,6 +372,7 @@ const HunterDouglas = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

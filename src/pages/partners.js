@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const Partners = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Homefirst Partner Program in Orlando, FL gives you access to one of the nation's leading certified Savant dealers and smart home installers. Join now and take advantage of all the benefits we have to offer."
+        />
+        <title>
+        Join the Homefirst Partner Program in Orlando, Florida
+        </title>
+      </Helmet>
     <div id="site-content" className="partners">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -243,6 +254,7 @@ const Partners = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

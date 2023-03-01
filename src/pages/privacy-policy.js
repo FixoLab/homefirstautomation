@@ -1,7 +1,18 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const PrivacyPolicy = () => {
   return (
+    <HelmetProvider>
+     <Helmet>
+        <meta
+          name="description"
+          content="At Homefirst, we respect and protect your privacy. We collect your personal information during your visit to our site, and we will never sell your data to anyone."
+        />
+        <title>
+        Privacy Policy | Homefirst
+        </title>
+      </Helmet>
     <div className="privacy-policy">
       <h3 className="">Privacy Policy</h3>
       <p className="minigray">Last Updated: February 20, 2020</p>
@@ -317,6 +328,7 @@ const PrivacyPolicy = () => {
         <a href="/contact-us">contact us</a>.
       </p>
     </div>
+    </HelmetProvider>
   );
 };
 

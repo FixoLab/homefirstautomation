@@ -1,8 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const StartJourney = React.lazy(() => import("../components/start-journey"));
 
 const Knx = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="With KNX, you can easily integrate your lighting, security, HVAC, and more into one easy to configure network. Don't miss out on the revolutionary KNX control system today!"
+        />
+        <title>
+        Control All Your Systems Easily with KNX in Orlando FL
+        </title>
+      </Helmet>
+    
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -346,6 +358,7 @@ const Knx = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

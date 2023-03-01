@@ -1,9 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const GolfSimulators = () => {
   return (
-    <>
+    <HelmetProvider>
+     <Helmet>
+        <meta
+          name="description"
+          content="Play golf like the pros in your own home with a GOLFZON golf simulator. Enjoy stunning visuals of expansive golf courses and the ability to play all year long in the comfort of your Orlando, FL home."
+        />
+        <title>
+        Play Golf Like the Masters with a GOLFZON Simulator in Orlando, FL
+        </title>
+      </Helmet>
       <div className="uk-section-default golf-simulators-hero">
         <div
           style={{
@@ -301,7 +311,7 @@ const GolfSimulators = () => {
           </div>
         </div>
       </div>
-    </>
+    </HelmetProvider>
   );
 };
 

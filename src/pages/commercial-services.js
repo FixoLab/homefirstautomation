@@ -1,9 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const CommercialServices = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Homefirst offers assistance to help expand your current business in Orlando, Florida, setup a new point of sale location, create a top of the line commercial room design, and more."
+        />
+        <title>
+        Expand Your Business in Orlando, Florida with Homefirst
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -405,6 +416,7 @@ const CommercialServices = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

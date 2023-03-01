@@ -1,11 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { LazyIframe, LazyVideo } from "react-lazy-media";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const ContactUs = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Get smart home automation, entertainment, or security solutions from our experts in Orlando, Florida with over 100 years of combined experience. Contact us today."
+        />
+        <title>
+        Smart Home Automation & Security Solutions in Orlando, FL
+        </title>
+      </Helmet>
+   
     <div id="site-content" className="contact-us-page">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -177,6 +189,7 @@ const ContactUs = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

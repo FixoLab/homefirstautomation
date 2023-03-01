@@ -1,8 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const Crestron = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Experience the power of automation in the convenience of your home with Crestron. Discover how easy it is to create a smart home with Crestron. Contact us today to get started."
+        />
+        <title>
+        Crestron - Smart Homes Smart Offices Automation System
+        </title>
+      </Helmet>
+    
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -339,6 +351,7 @@ const Crestron = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

@@ -1,8 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const ConnectedStudioHome = () => {
   return (
+    <HelmetProvider>
+       <Helmet>
+        <meta
+          name="description"
+          content="Put an end to walking from room to room to adjust shades, lights, temperature and audio/video components. Get started on your custom smart home automation system today"
+        />
+        <title>
+        Create Your Custom Smart Home Automation System | Homefirst
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="connected-living-title-section">
         <div className="title-inner">
@@ -456,6 +467,7 @@ const ConnectedStudioHome = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

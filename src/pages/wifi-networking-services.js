@@ -1,9 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const WifiNetworkingServices = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Get lightning-fast Internet speeds and instant device access with a professional home networking installation in Orlando, FL. Contact us today for a reliable and fast home networking setup."
+        />
+        <title>
+        Enjoy Music Your Way with a Custom Music System in Orlando, FL
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -316,6 +327,7 @@ const WifiNetworkingServices = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

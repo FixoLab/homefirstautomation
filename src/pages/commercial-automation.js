@@ -1,8 +1,18 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const CommercialAutomation = () => {
   return (
-    <>
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Upgrade office operations and increase employee collaboration with integrated and automated control of media, lighting, shades, and security. Contact us today."
+        />
+        <title>
+        Commercial Automation Solutions For Your Florida Business
+        </title>
+      </Helmet>
       <div id="site-content">
         <div className="csca">
           <video
@@ -430,7 +440,7 @@ const CommercialAutomation = () => {
           </div>
         </div>
       </div>
-    </>
+    </HelmetProvider>
   );
 };
 

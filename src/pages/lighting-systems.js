@@ -1,9 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const LightingSystems = () => {
   return (
+    <HelmetProvider>
+     <Helmet>
+        <meta
+          name="description"
+          content="Transform your Orlando, Florida home into the ultimate visual experience with custom light control systems. Experience the quality of custom lighting today."
+        />
+        <title>
+        Custom Light Control Systems for Your Home in Orlando, FL
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -607,6 +618,7 @@ const LightingSystems = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

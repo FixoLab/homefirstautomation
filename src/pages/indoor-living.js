@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const IndoorLiving = () => {
   return (
+    <HelmetProvider>
+       <Helmet>
+        <meta
+          name="description"
+          content="Explore the possibilities of indoor living and elevate your home with our home automation solutions. Get top-notch services from the experts today!"
+        />
+        <title>
+        Home Automation Solutions to Transform Your Indoor Living
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div
@@ -953,6 +964,7 @@ const IndoorLiving = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

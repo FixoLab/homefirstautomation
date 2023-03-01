@@ -1,9 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const HomeTheater = () => {
   return (
+    <HelmetProvider>
+     <Helmet>
+        <meta
+          name="description"
+          content="Looking for a top tier home theater system in Orlando, Florida? Let our expert team of home theater installers make your dreams a reality. Contact us today."
+        />
+        <title>
+        Home Theatre Installation in Orlando, Florida | Homefirst
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -632,6 +643,7 @@ const HomeTheater = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

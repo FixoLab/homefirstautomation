@@ -1,7 +1,18 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const CommercialAudioVideo = () => {
   return (
+    <HelmetProvider>
+       <Helmet>
+        <meta
+          name="description"
+          content="Get the best automated commercial audio and video solutions tailored to your needs. We offer a comprehensive range of services to meet all your business requirements."
+        />
+        <title>
+        Commercial Audio Video & Automation Solutions | Homefirst
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="csca">
         <video
@@ -424,6 +435,7 @@ const CommercialAudioVideo = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

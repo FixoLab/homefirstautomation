@@ -1,5 +1,17 @@
+import { Helmet, HelmetProvider } from "react-helmet-async";
+
 const CommercialSecurity = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Keep your commercial building secure and efficient with our advanced security automation solutions. We offer a range of customizable solutions to meet your business's specific needs."
+        />
+        <title>
+        Security Automation Solutions for Commercial Buildings | Homefirst
+        </title>
+      </Helmet>
     <div id="site-content">
       <div
         id="page#1"
@@ -448,6 +460,7 @@ const CommercialSecurity = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

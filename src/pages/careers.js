@@ -1,10 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const Careers = () => {
   return (
-    <>
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="We're looking for creative people to join our team and help shape the future of technology. If you're passionate about making a difference, Join HomeFirst and make a difference! "
+        />
+        <title>
+        Join an Innovative Team at HomeFirst | Shape Technology and Create Change
+        </title>
+      </Helmet>
       <div className="uk-section-secondary uk-position-relative carears-hero">
         <div
           style={{
@@ -339,7 +349,7 @@ const Careers = () => {
           </div>
         </div>
       </div>
-    </>
+    </HelmetProvider>
   );
 };
 

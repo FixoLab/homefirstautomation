@@ -1,7 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
+import { Helmet, HelmetProvider } from "react-helmet-async";
+
 const CommercialTechnology = () => {
   return (
+    <HelmetProvider>
+     <Helmet>
+        <meta
+          name="description"
+          content="Embrace modern technology for your business or institution and experience a higher level of efficiency. We offer the latest tech solutions to take your organization to the next level."
+        />
+        <title>
+        Elevate Your Business with Leading-Edge Technology | Homefirst
+        </title>
+      </Helmet>
     <div id="site-content">
       <div
         className="uk-section-secondary uk-position-relative commercial-technology-hero"
@@ -921,6 +933,7 @@ const CommercialTechnology = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

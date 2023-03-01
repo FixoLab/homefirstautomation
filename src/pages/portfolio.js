@@ -1,8 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Create a beautiful and comfortable home atmosphere with a state-of-the-art smart home lighting system. Get top-notch services from the experts today!"
+        />
+        <title>
+        Enhance Your Home Lighting System with Smart Home Lighting
+        </title>
+      </Helmet>
+    
     <div id="site-content">
       <div
         className="uk-section-secondary uk-position-relative"
@@ -1603,6 +1615,7 @@ const Portfolio = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

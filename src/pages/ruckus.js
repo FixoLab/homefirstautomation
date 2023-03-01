@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const StartJourney = React.lazy(() => import("../components/start-journey"));
 
 const Ruckus = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Discover unbeatable networking solutions for your home and business with RUCKUS. Take advantage of RUCKUS and enjoy the best in user experience, scalability, and performance."
+        />
+        <title>
+        Unbeatable Networking Solutions with RUCKUS in Orlando FL
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -352,6 +363,7 @@ const Ruckus = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

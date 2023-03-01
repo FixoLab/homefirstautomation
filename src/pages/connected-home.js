@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const ConnectedHome = () => {
   return (
+    <HelmetProvider>
+        <Helmet>
+        <meta
+          name="description"
+          content="Discover how easy it is to integrate media control, security, and other technologies into your property with the help of professional system integrators in Orlando, FL."
+        />
+        <title>
+        Smart Home Automation | Professional Home System Integrators | Orlando, FL
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="connected-living-title-section">
         <div className="title-inner">
@@ -453,6 +464,7 @@ const ConnectedHome = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 
