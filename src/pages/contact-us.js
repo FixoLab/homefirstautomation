@@ -67,7 +67,7 @@ const ContactUs = () => {
                   <div className="is-layout-flow wp-block-column">
                     <p>
                       With over 100 years of combined experience our smart home
-                      and <Link to="/home-theater">AV company</Link> can help
+                      and <Link to="/home-theatre">AV company</Link> can help
                       you with all your smart home automation, entertainment, or
                       security needs in the Orlando, Florida area. Use the form
                       below to touch base with one of our specialists and we

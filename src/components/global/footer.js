@@ -115,16 +115,16 @@ const Footer = () => {
                                 <Link to="/connected-studio-living">
                                   Connected Studio Living
                                 </Link>
-                                <Link to="/commercial-solutions-commercial-automation">
+                                <Link to="/commercial/automation-system">
                                   Commercial Solutions: Commercial Automation
                                 </Link>
-                                <Link to="/commercial-solutions-commercial-audio-video">
+                                <Link to="/commercial/audio-visual-system">
                                   Commercial Solutions: Commercial Audio / Video
                                 </Link>
-                                <Link to="/commercial-solutions-commercial-security">
+                                <Link to="/commercial/security-system">
                                   Commercial Solutions: Security
                                 </Link>
-                                <Link to="/commercial-solutions-commercial-technology">
+                                <Link to="/commercial/technology">
                                   Commercial Technology
                                 </Link>
                               </div>
@@ -149,7 +149,7 @@ const Footer = () => {
                                 <Link to="/smart-home-automation">
                                   Smart Home Automation
                                 </Link>
-                                <Link to="/home-theater">Home Theater</Link>
+                                <Link to="/home-theatre">Home Theater</Link>
                                 <Link to="/lighting-systems">
                                   Lighting Control
                                 </Link>
@@ -166,13 +166,13 @@ const Footer = () => {
                                 <Link to="/audio-systems">
                                   High Performance Audio
                                 </Link>
-                                <Link to="/commercial-services">
+                                <Link to="/commercial">
                                   Commercial Integration
                                 </Link>
                               </div>
                             </div>
                             <Link to="/portfolio">Portfolio</Link>
-                            <Link to="/brands-we-carry">Brands</Link>
+                            <Link to="/brands">Brands</Link>
                             <Link to="/contact-us">Contact</Link>
                             <Link to="/blog">Blog</Link>
                           </div>

@@ -74,7 +74,7 @@ const BrandsWeCarry = () => {
                         Started,
                       </p>
                       <figure className="wp-block-image size-large is-resized brandlogo">
-                        <Link to="/control-4">
+                        <Link to="/brands/control-4">
                           <img
                             src="assets/images/control4a.webp"
                             alt="Control4 company services"
@@ -86,7 +86,7 @@ const BrandsWeCarry = () => {
                       </figure>
 
                       <p className="learnmorebutton">
-                        <Link to="/control-4">Learn More</Link>
+                        <Link to="/brands/control-4">Learn More</Link>
                       </p>
                     </div>
 

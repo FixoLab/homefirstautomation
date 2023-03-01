@@ -13,7 +13,7 @@ const CommercialAudioVideo = () => {
           height="150"
         >
           <source
-            src="assets/video/commercial-audio-video-hero.mp4"
+            src="/assets/video/commercial-audio-video-hero.mp4"
             type="video/mp4"
           />
         </video>
@@ -77,13 +77,13 @@ const CommercialAudioVideo = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-audio-video-1-mini.webp"
+                    srcSet="/assets/images/commercial-audio-video-1-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-audio-video-1.webp"
+                   src="/assets/images/commercial-audio-video-1.webp"
                     alt="Distributed Commercial Audio Systems"
                   />
                 </picture>
@@ -134,13 +134,13 @@ const CommercialAudioVideo = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-audio-video-2-mini.webp"
+                    srcSet="/assets/images/commercial-audio-video-2-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-audio-video-2.webp"
+                   src="/assets/images/commercial-audio-video-2.webp"
                     alt="Commercial Video Installation "
                   />
                 </picture>
@@ -192,13 +192,13 @@ const CommercialAudioVideo = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-audio-video-3-mini.webp"
+                    srcSet="/assets/images/commercial-audio-video-3-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-audio-video-3.webp"
+                   src="/assets/images/commercial-audio-video-3.webp"
                     alt="Video Conferencing"
                   />
                 </picture>
@@ -249,13 +249,13 @@ const CommercialAudioVideo = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-audio-video-4-mini.webp"
+                    srcSet="/assets/images/commercial-audio-video-4-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-audio-video-4.webp"
+                   src="/assets/images/commercial-audio-video-4.webp"
                     alt="Intercom system"
                   />
                 </picture>
@@ -307,13 +307,13 @@ const CommercialAudioVideo = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-audio-video-5-mini.webp"
+                    srcSet="/assets/images/commercial-audio-video-5-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-audio-video-5.webp"
+                   src="/assets/images/commercial-audio-video-5.webp"
                     alt="video wall"
                   />
                 </picture>
@@ -363,13 +363,13 @@ const CommercialAudioVideo = () => {
                   className="wp-block-image"
                 >
                   <source
-                    srcSet="assets/images/commercial-audio-video-6-mini.webp"
+                    srcSet="/assets/images/commercial-audio-video-6-mini.webp"
                     media="(max-width: 600px)"
                   />
                   <img
                    width="1197"
                    height="900"
-                   src="assets/images/commercial-audio-video-6.webp"
+                   src="/assets/images/commercial-audio-video-6.webp"
                     alt="commercial audio video installation company"
                   />
                 </picture>

@@ -183,7 +183,7 @@ const AudioSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -301,7 +301,7 @@ const AudioSystems = () => {
                     you can create the best sound quality available.
                   </p>
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -414,7 +414,7 @@ const AudioSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -493,7 +493,7 @@ const AudioSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"

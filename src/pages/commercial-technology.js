@@ -11,7 +11,7 @@ const CommercialTechnology = () => {
           style={{
             minHeight: "calc((100vh - 177px) - 178.75px)",
             backgroundImage:
-              "url(assets/images/commercial-technology-hero.webp)",
+              "url(/assets/images/commercial-technology-hero.webp)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "2173px 829px",
             backgroundPositionX: "calc(max(100%, 0px) + -370px + 24.2566px)",
@@ -182,14 +182,14 @@ const CommercialTechnology = () => {
             <div className="csh-wrapper">
               <picture style={{ width: "100%" }}>
                 <source
-                  srcSet="assets/images/commercial-technology-1-mini.webp"
+                  srcSet="/assets/images/commercial-technology-1-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="auto"
                   height="auto"
                   alt="commercial technology"
-                  src="assets/images/commercial-technology-1.webp"
+                  src="/assets/images/commercial-technology-1.webp"
                 />
               </picture>
               <a
@@ -309,14 +309,14 @@ const CommercialTechnology = () => {
             <div className="csh-wrapper">
           <picture style={{ width: "100%" }}>
                 <source
-                  srcSet="assets/images/commercial-technology-2-mini.webp"
+                  srcSet="/assets/images/commercial-technology-2-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="auto"
                   height="auto"
                   alt="Building automation solutions"
-                  src="assets/images/commercial-technology-2.webp"
+                  src="/assets/images/commercial-technology-2.webp"
                 />
               </picture>
               <a
@@ -436,14 +436,14 @@ const CommercialTechnology = () => {
             <div className="csh-wrapper">
             <picture style={{ width: "100%" }}>
                 <source
-                  srcSet="assets/images/commercial-technology-hero-mini.webp"
+                  srcSet="/assets/images/commercial-technology-hero-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="auto"
                   height="auto"
                   alt="professional office automation"
-                  src="assets/images/commercial-technology-hero.webp"
+                  src="/assets/images/commercial-technology-hero.webp"
                 />
               </picture>
               <a
@@ -560,14 +560,14 @@ const CommercialTechnology = () => {
             <div className="csh-wrapper">
             <picture style={{ width: "100%" }}>
                 <source
-                  srcSet="assets/images/commercial-technology-3-mini.webp"
+                  srcSet="/assets/images/commercial-technology-3-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="auto"
                   height="auto"
                   alt="training spaces"
-                  src="assets/images/commercial-technology-3.webp"
+                  src="/assets/images/commercial-technology-3.webp"
                 />
               </picture>
               <a
@@ -690,14 +690,14 @@ const CommercialTechnology = () => {
             <div className="csh-wrapper">
             <picture style={{ width: "100%" }}>
                 <source
-                  srcSet="assets/images/commercial-technology-4-mini.webp"
+                  srcSet="/assets/images/commercial-technology-4-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="auto"
                   height="auto"
                   alt="Smart Building Technology"
-                  src="assets/images/commercial-technology-4.webp"
+                  src="/assets/images/commercial-technology-4.webp"
                 />
               </picture>
               <a
@@ -818,14 +818,14 @@ const CommercialTechnology = () => {
             <div className="csh-wrapper">
             <picture style={{ width: "100%" }}>
                 <source
-                  srcSet="assets/images/commercial-technology-5-mini.webp"
+                  srcSet="/assets/images/commercial-technology-5-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                   width="auto"
                   height="auto"
                   alt="Retail security system"
-                  src="assets/images/commercial-technology-5.webp"
+                  src="/assets/images/commercial-technology-5.webp"
                 />
               </picture>
               <a

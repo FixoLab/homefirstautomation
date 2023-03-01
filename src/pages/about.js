@@ -320,7 +320,7 @@ const About = () => {
 
                   <div className="is-layout-flow wp-block-column">
                     <p>
-                      <Link to="/home-theater">Home Theater</Link>
+                      <Link to="/home-theatre">Home Theater</Link>
                     </p>
                   </div>
 
@@ -365,7 +365,7 @@ const About = () => {
 
                   <div className="is-layout-flow wp-block-column">
                     <p>
-                      <Link to="/commercial-services">
+                      <Link to="/commercial">
                         Commercial Integration
                       </Link>
                     </p>

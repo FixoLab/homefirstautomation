@@ -399,13 +399,13 @@ const SmartHomeAutomation = () => {
                     listen to your favorite musical pieces inside the house, or
                     even outside by the pool relaxing or entertaining guests in
                     sunny Orlando, Florida. With a Crestron Home or{" "}
-                    <Link to="/control-4">Control4 installation</Link>, you can
+                    <Link to="/brands/control-4">Control4 installation</Link>, you can
                     fully control song selection, audio levels, and pretty much
                     every audio style you can imagine.
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -483,7 +483,7 @@ const SmartHomeAutomation = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"

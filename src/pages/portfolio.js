@@ -1035,7 +1035,7 @@ const Portfolio = () => {
                 <h2>AUDIO / VIDEO</h2>
                 <p className="minigray">
                   Optimize your entertainment with a{" "}
-                  <Link to="/commercial-solutions-commercial-audio-video">
+                  <Link to="/commercial/audio-visual-system">
                     multi room audio system
                   </Link>{" "}
                   , high-resolution video and gear that blends seamlessly with

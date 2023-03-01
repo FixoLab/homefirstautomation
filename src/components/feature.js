@@ -26,7 +26,7 @@ const Feature = ({ leftPosition }) => {
           </div>
 
           <div className="is-layout-flow wp-block-column">
-            <Link to="/home-theater">
+            <Link to="/home-theatre">
               <i className="fas fa-video"></i>
               <p> Home Theater</p>
             </Link>

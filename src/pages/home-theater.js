@@ -168,7 +168,7 @@ const HomeTheater = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -246,7 +246,7 @@ const HomeTheater = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -435,7 +435,7 @@ const HomeTheater = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -513,7 +513,7 @@ const HomeTheater = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -590,7 +590,7 @@ const HomeTheater = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
