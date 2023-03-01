@@ -103,7 +103,7 @@ const Header = () => {
                       height="40"
                       src="/assets/images/homefirst-automation-logo.webp"
                       className="custom-logo"
-                      alt="Homefirst"
+                      alt="home automation Logo"
                     />
                   </Link>
                   <span className="screen-reader-text">Homefirst</span>
