@@ -89,7 +89,7 @@ const About = () => {
                       height="61"
                       className="wp-image-695"
                       src="assets/images/signature.webp"
-                      alt=""
+                      alt="smart home consultants"
                     />
                   </div>
 
@@ -107,7 +107,7 @@ const About = () => {
                       <img
                         style={{ display: "block" }}
                         src="assets/images/boha-2019-solid-border.webp"
-                        alt="HomeFirst - Best of HomeAdvisor"
+                        alt="smarthome services"
                       />
                     </Link>
                     <table
@@ -122,7 +122,7 @@ const About = () => {
                             <Link to="#">
                               <img
                                 src="assets/images/badge125.webp"
-                                alt="Joshua Trevithick in Orlando, Florida, CA on Houzz"
+                                alt="houzz smart services"
                                 width="125"
                                 height="125"
                                 border="0"
@@ -143,7 +143,7 @@ const About = () => {
                             <Link to="#">
                               <img
                                 src="assets/images/badge54.webp"
-                                alt="Joshua Trevithick in Orlando, Florida, CA on Houzz"
+                                alt="best houzz services"
                                 width="80"
                                 height="80"
                                 border="0"
@@ -159,7 +159,7 @@ const About = () => {
                         height="365"
                         className="wp-image-566"
                         src="assets/images/cedia2-logo.webp"
-                        alt=""
+                        alt="cedia logo"
                       />
                     </figure>
                     <Link
@@ -173,7 +173,7 @@ const About = () => {
                         id="bbblinkimg"
                         style={{ padding: "0px", border: "none" }}
                         src="assets/images/project1.webp"
-                        alt="HomeFirst, Audio Visual Equipment, Orlando, Florida, CA"
+                        alt="BBB accredited business"
                         width="400"
                         height="90"
                       />
@@ -184,7 +184,7 @@ const About = () => {
                         height="690"
                         className="wp-image-536"
                         src="assets/images/control4gold-logo.webp"
-                        alt=""
+                        alt="control4gold-logo"
                       />
                     </figure>
                     <div className="wp-block-image control4small">
@@ -193,7 +193,7 @@ const About = () => {
                           <img
                             className="wp-image-3276"
                             src="assets/images/cediacit.webp"
-                            alt=""
+                            alt="cedia technicians"
                             width="159"
                             height="159"
                           />

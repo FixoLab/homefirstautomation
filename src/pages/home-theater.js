@@ -103,7 +103,7 @@ const HomeTheater = () => {
                 <img
                     width="1197"
                     height="900"
-                  alt=""
+                  alt="home theater installation orlando"
                   src="assets/images/theater18.webp"
                 />
               </picture>
@@ -120,7 +120,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Outdoor Smart Theater Systems"
                   src="assets/images/theater19.webp"
                 />
               </picture>
@@ -142,7 +142,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart kitchen"
                   src="assets/images/theater10.webp"
                 />
               </picture>
@@ -222,7 +222,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart bedroom"
                   src="assets/images/theater5.webp"
                 />
               </picture>
@@ -300,7 +300,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart kitchen"
                   src="assets/images/theater10.webp"
                 />
               </picture>
@@ -373,7 +373,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="home theater control systems"
                   src="assets/images/theater14.webp"
                 />
               </picture>
@@ -390,7 +390,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Room Control system"
                   src="assets/images/theater6.webp"
                 />
               </picture>
@@ -411,7 +411,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Outdoor Smart Theater "
                   src="assets/images/theater2.webp"
                 />
               </picture>
@@ -488,7 +488,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="theatre room"
                   src="assets/images/theater16.webp"
                 />
               </picture>
@@ -566,7 +566,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="outdoor theater"
                   src="assets/images/theater3.webp"
                 />
               </picture>

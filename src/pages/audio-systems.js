@@ -107,7 +107,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="custom automated music system Florida"
                   src="assets/images/audio14.webp"
                 />
               </picture>
@@ -124,7 +124,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="multi-room wireless speaker system"
                   src="assets/images/media6.webp"
                 />
               </picture>
@@ -146,7 +146,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="multi room music"
                   src="assets/images/media7.webp"
                 />
               </picture>
@@ -225,7 +225,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="oudoor speakers"
                   src="assets/images/audio-13.webp"
                 />
               </picture>
@@ -280,7 +280,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="home automation Florida"
                   src="assets/images/audio15.webp"
                 />
               </picture>
@@ -338,7 +338,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="media control system"
                   src="assets/images/media3.webp"
                 />
               </picture>
@@ -355,7 +355,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="outdoor speaker system"
                   src="assets/images/audio-16.webp"
                 />
               </picture>
@@ -376,7 +376,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="peripheral devices"
                   src="assets/images/media8.webp"
                 />
               </picture>
@@ -455,7 +455,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="effortless control system"
                   src="assets/images/media4.webp"
                 />
               </picture>
@@ -522,7 +522,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial system"
                   src="assets/images/media-10.webp"
                 />
               </picture>

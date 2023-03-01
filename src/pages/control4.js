@@ -144,7 +144,7 @@ const Control4 = () => {
       <div className="control4-nav">
         <div className="control4-nav-area">
           <div className="image">
-            <img src="assets/images/logo-brands-control4.webp" alt="" />
+            <img src="assets/images/logo-brands-control4.webp" alt="control4 logo" />
           </div>
           <div className="nav-area">
             <a href="#1">CONTROL4 OS3</a>
@@ -183,7 +183,7 @@ const Control4 = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="control4 home automation system"
                   src="assets/images/header-brands-control4.webp"
                 />
               </picture>
@@ -224,7 +224,7 @@ const Control4 = () => {
                   <img
                     width="1200"
                     height="1000"
-                    alt=""
+                    alt="smart living"
                     src="assets/images/control4-feature-01.webp"
                   />
                 </picture>
@@ -250,7 +250,7 @@ const Control4 = () => {
                   <img
                     width="1200"
                     height="1000"
-                    alt=""
+                    alt="smart home control devices"
                     src="assets/images/control4-feature-02.webp"
                   />
                 </picture>
@@ -276,7 +276,7 @@ const Control4 = () => {
                   <img
                     width="1200"
                     height="1000"
-                    alt=""
+                    alt="control4 dealers"
                     src="assets/images/control4-feature-03.webp"
                   />
                 </picture>
@@ -314,7 +314,7 @@ const Control4 = () => {
               </p>
             </div>
             <div className="image">
-              <img src="assets/images/header-brands-control4-02.webp" alt="" />
+              <img src="assets/images/header-brands-control4-02.webp" alt="home control devices" />
             </div>
             <div className="bottom">
               <h4>WANT TO HAVE A SMART HOME?</h4>
@@ -353,7 +353,7 @@ const Control4 = () => {
                   <img
                     width="1200"
                     height="1000"
-                    alt=""
+                    alt="control4 handheld devices"
                     src="assets/images/control4-feature-04.webp"
                   />
                 </picture>
@@ -380,7 +380,7 @@ const Control4 = () => {
                   <img
                     width="1200"
                     height="1000"
-                    alt=""
+                    alt="control4 apps"
                     src="assets/images/control4-feature-05.webp"
                   />
                 </picture>
@@ -407,7 +407,7 @@ const Control4 = () => {
                   <img
                     width="1200"
                     height="1000"
-                    alt=""
+                    alt="control4 security"
                     src="assets/images/control4-feature-06.webp"
                   />
                 </picture>
@@ -453,7 +453,7 @@ const Control4 = () => {
                 <img
                   width="1200"
                   height="1000"
-                  alt=""
+                  alt="HVAC control4"
                   src="assets/images/header-brands-control4-02.webp"
                 />
               </picture>
@@ -484,7 +484,7 @@ const Control4 = () => {
                   <img
                     width="1200"
                     height="1000"
-                    alt=""
+                    alt="window treatment"
                     src="assets/images/control4-feature-07.webp"
                   />
                 </picture>
@@ -512,7 +512,7 @@ const Control4 = () => {
                   <img
                     width="1200"
                     height="1000"
-                    alt=""
+                    alt="leutron brand logo"
                     src="assets/images/control4-feature-08.webp"
                   />
                 </picture>
@@ -538,31 +538,31 @@ const Control4 = () => {
             <div className="nav-area">
               <img
                 src="assets/images/control4-brands-01.webp"
-                alt="control4 brand"
+                alt="leutron brand logo"
               />
               <img
                 src="assets/images/control4-brands-02.webp"
-                alt="control4 brand"
+                alt="Hayward brand logo"
               />
               <img
                 src="assets/images/control4-brands-03.webp"
-                alt="control4 brand"
+                alt="carrier brand logo"
               />
               <img
                 src="assets/images/control4-brands-04.webp"
-                alt="control4 brand"
+                alt="aprilaire brand logo"
               />
               <img
                 src="assets/images/control4-brands-05.webp"
-                alt="control4 brand"
+                alt="nest brand logo"
               />
               <img
                 src="assets/images/control4-brands-06.webp"
-                alt="control4 brand"
+                alt="Qmotion brand logo"
               />
               <img
                 src="assets/images/control4-brands-07.webp"
-                alt="control4 brand"
+                alt="somfy brand logo"
               />
             </div>
           </div>
@@ -597,7 +597,7 @@ const Control4 = () => {
                 <img
                   width="1200"
                   height="1000"
-                  alt=""
+                  alt="Hayward brand logo"
                   src="assets/images/header-brands-control4-02.webp"
                 />
               </picture>
@@ -632,7 +632,7 @@ const Control4 = () => {
                   <img
                     width="1200"
                     height="1000"
-                    alt=""
+                    alt="home Control4 system"
                     src="assets/images/control4-104.webp"
                   />
                 </picture>
@@ -686,7 +686,7 @@ const Control4 = () => {
                         <img
                           width="1000"
                           height="800"
-                          alt=""
+                          alt="home security system"
                           src="assets/images/control4-100.webp"
                         />
                       </picture>
@@ -710,7 +710,7 @@ const Control4 = () => {
                         <img
                           width="1000"
                           height="800"
-                          alt=""
+                          alt="smart home automation solutions"
                           src="assets/images/control4-101.webp"
                         />
                       </picture>
@@ -734,7 +734,7 @@ const Control4 = () => {
                         <img
                           width="1000"
                           height="800"
-                          alt=""
+                          alt="outdoor security system"
                           src="assets/images/control4-102.webp"
                         />
                       </picture>
@@ -758,7 +758,7 @@ const Control4 = () => {
                         <img
                           width="1000"
                           height="800"
-                          alt=""
+                          alt="control4 lightning"
                           src="assets/images/control4-103.webp"
                         />
                       </picture>
@@ -790,31 +790,31 @@ const Control4 = () => {
             <div className="nav-area">
               <img
                 src="assets/images/control4-brands-08.webp"
-                alt="control4 brand"
+                alt="kwikset brand logo"
               />
               <img
                 src="assets/images/control4-brands-09.webp"
-                alt="control4 brand"
+                alt="baldwin brand logo"
               />
               <img
                 src="assets/images/control4-brands-10.webp"
-                alt="control4 brand"
+                alt="honeywell brand logo"
               />
               <img
                 src="assets/images/control4-brands-11.webp"
-                alt="control4 brand"
+                alt="olilin brand logo"
               />
               <img
                 src="assets/images/control4-brands-12.webp"
-                alt="control4 brand"
+                alt="2N Brand logo"
               />
               <img
                 src="assets/images/control4-brands-13.webp"
-                alt="control4 brand"
+                alt="yale brand logo"
               />
               <img
                 src="assets/images/control4-brands-14.webp"
-                alt="control4 brand"
+                alt="Doorbird brand logo"
               />
             </div>
           </div>
@@ -848,7 +848,7 @@ const Control4 = () => {
                 <img
                   width="1200"
                   height="1000"
-                  alt=""
+                  alt="smart home dealers"
                   src="assets/images/header-brands-control4-05.webp"
                 />
               </picture>
@@ -888,7 +888,7 @@ const Control4 = () => {
                         <img
                           width="1200"
                           height="1000"
-                          alt=""
+                          alt="smart connection"
                           src="assets/images/control4-feature-09.webp"
                         />
                       </picture>
@@ -917,7 +917,7 @@ const Control4 = () => {
                         <img
                           width="1200"
                           height="1000"
-                          alt=""
+                          alt="smart door bell"
                           src="assets/images/control4-feature-10.webp"
                         />
                       </picture>
@@ -946,7 +946,7 @@ const Control4 = () => {
                         <img
                           width="1200"
                           height="1000"
-                          alt=""
+                          alt="outdoor smart camera"
                           src="assets/images/control4-feature-11.webp"
                         />
                       </picture>
@@ -1032,7 +1032,7 @@ const Control4 = () => {
                 <img
                   width="1200"
                   height="1000"
-                  alt=""
+                  alt="universal remote"
                   src="assets/images/header-brands-control4-06.webp"
                 />
               </picture>
@@ -1067,7 +1067,7 @@ const Control4 = () => {
                       <img
                         width="1200"
                         height="1000"
-                        alt=""
+                        alt="control4 universal remote"
                         src="assets/images/header-brands-control4-07.webp"
                       />
                     </picture>
@@ -1096,7 +1096,7 @@ const Control4 = () => {
                       <img
                         width="1200"
                         height="1000"
-                        alt=""
+                        alt="locaion alerts remote control"
                         src="assets/images/header-brands-control4-08.webp"
                       />
                     </picture>
@@ -1144,7 +1144,7 @@ const Control4 = () => {
                     <img
                       width="1200"
                       height="1000"
-                      alt=""
+                      alt="control4 smart home"
                       src="assets/images/header-brands-control4-09.webp"
                     />
                   </picture>

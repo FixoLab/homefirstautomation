@@ -188,7 +188,7 @@ const CommercialTechnology = () => {
                 <img
                   width="auto"
                   height="auto"
-                  alt="about"
+                  alt="commercial technology"
                   src="assets/images/commercial-technology-1.webp"
                 />
               </picture>
@@ -315,7 +315,7 @@ const CommercialTechnology = () => {
                 <img
                   width="auto"
                   height="auto"
-                  alt="about"
+                  alt="Building automation solutions"
                   src="assets/images/commercial-technology-2.webp"
                 />
               </picture>
@@ -442,7 +442,7 @@ const CommercialTechnology = () => {
                 <img
                   width="auto"
                   height="auto"
-                  alt="about"
+                  alt="professional office automation"
                   src="assets/images/commercial-technology-hero.webp"
                 />
               </picture>
@@ -566,7 +566,7 @@ const CommercialTechnology = () => {
                 <img
                   width="auto"
                   height="auto"
-                  alt="about"
+                  alt="training spaces"
                   src="assets/images/commercial-technology-3.webp"
                 />
               </picture>
@@ -696,7 +696,7 @@ const CommercialTechnology = () => {
                 <img
                   width="auto"
                   height="auto"
-                  alt="about"
+                  alt="Smart Building Technology"
                   src="assets/images/commercial-technology-4.webp"
                 />
               </picture>
@@ -824,7 +824,7 @@ const CommercialTechnology = () => {
                 <img
                   width="auto"
                   height="auto"
-                  alt="about"
+                  alt="Retail security system"
                   src="assets/images/commercial-technology-5.webp"
                 />
               </picture>

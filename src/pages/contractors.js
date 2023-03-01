@@ -59,7 +59,7 @@ const Contractors = () => {
                     width="1024"
                     height="769"
                     src="assets/images/builder1.webp"
-                    alt=""
+                    alt="Home automation companies Orlando"
                     className="wp-image-2755"
                   />
                 </figure>
@@ -76,7 +76,7 @@ const Contractors = () => {
                     width="1024"
                     height="769"
                     src="assets/images/builder2.webp"
-                    alt=""
+                    alt="Contractors opportunities in Florida"
                     className="wp-image-2756"
                   />
                 </figure>
@@ -122,7 +122,7 @@ const Contractors = () => {
                     width="1024"
                     height="769"
                     src="assets/images/builder3.webp"
-                    alt=""
+                    alt="recommended contractors in Orlando"
                     className="wp-image-2757"
                   />
                 </figure>
@@ -144,7 +144,7 @@ const Contractors = () => {
                     width="1024"
                     height="769"
                     src="assets/images/builder4.webp"
-                    alt=""
+                    alt="homefirst smart technology"
                     className="wp-image-2758"
                   />
                 </figure>
@@ -214,7 +214,7 @@ const Contractors = () => {
                     width="1024"
                     height="769"
                     src="assets/images/builder5.webp"
-                    alt=""
+                    alt="smart home business solution"
                     className="wp-image-2759"
                   />
                 </figure>

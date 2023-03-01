@@ -53,7 +53,7 @@ const AlarmCom = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="alarm.com app & Devices"
                       src="assets/images/alarmdotcom3.webp"
                     />
                   </picture>
@@ -69,7 +69,7 @@ const AlarmCom = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="commercial alarms systems orlando"
                       src="assets/images/alarmdotcom2.webp"
                     />
                   </picture>
@@ -146,7 +146,7 @@ const AlarmCom = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="best wireless home security systems"
                       src="assets/images/alarmdotcom5.webp"
                     />
                   </picture>
@@ -162,7 +162,7 @@ const AlarmCom = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="home automation alarm system"
                       src="assets/images/alarmdotcom6.webp"
                     />
                   </picture>
@@ -238,7 +238,7 @@ const AlarmCom = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="alarm.com for business"
                       src="assets/images/alarmdotcom4.webp"
                     />
                   </picture>
@@ -254,7 +254,7 @@ const AlarmCom = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="system monitoring"
                       src="assets/images/alarmdotcom1.webp"
                     />
                   </picture>
@@ -329,7 +329,7 @@ const AlarmCom = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="alarm.com business devices"
                       src="assets/images/alarmdotcom7.webp"
                     />
                   </picture>
@@ -346,7 +346,7 @@ const AlarmCom = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="alarm.com cuxtom security"
                       src="assets/images/alarmdotcom8.webp"
                     />
                   </picture>

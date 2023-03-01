@@ -106,7 +106,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/home-show2-1-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/home-show2-1.webp" />
+                <img alt="smart home solutions" src="assets/images/home-show2-1.webp" />
               </picture>
             </div>
 
@@ -121,7 +121,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/smart10-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/smart10.webp" />
+                <img alt="orlando smart home" src="assets/images/smart10.webp" />
               </picture>
             </div>
           </div>
@@ -152,7 +152,7 @@ const SmartHomeAutomation = () => {
                     <Link to="/ruckus">
                       <img
                         src="assets/images/ruckus.webp"
-                        alt=""
+                        alt="rucku smart home automation"
                         className="wp-image-2402"
                         width="150"
                         height="150"
@@ -174,7 +174,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/smart2-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/smart2.webp" />
+                <img alt="wifi networking" src="assets/images/smart2.webp" />
               </picture>
             </div>
           </div>
@@ -194,7 +194,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/smart7-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/smart7.webp" />
+                <img alt="smart lightning" src="assets/images/smart7.webp" />
               </picture>
             </div>
 
@@ -222,7 +222,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/lutron-services.webp"
-                        alt=""
+                        alt="lutron automation services"
                         className="wp-image-2420"
                       />
                     </Link>
@@ -234,7 +234,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.webp"
-                        alt=""
+                        alt="coastalsource automation system"
                         className="wp-image-2428"
                       />
                     </Link>
@@ -246,7 +246,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/knx-company-services.webp"
-                        alt=""
+                        alt="knx company services"
                         className="wp-image-2433"
                       />
                     </Link>
@@ -271,7 +271,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/home-shades-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/home-shades.webp" />
+                <img alt="smart shading" src="assets/images/home-shades.webp" />
               </picture>
             </div>
 
@@ -299,7 +299,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/lutron-services-1.webp"
-                        alt=""
+                        alt="lutron automation services"
                         className="wp-image-2424"
                       />
                     </Link>
@@ -311,7 +311,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/hunter-douglas-services.webp"
-                        alt=""
+                        alt="hunter douglas services"
                         className="wp-image-2425"
                       />
                     </Link>
@@ -323,7 +323,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/savant-services.webp"
-                        alt=""
+                        alt="savant services"
                         className="wp-image-2426"
                       />
                     </Link>
@@ -345,7 +345,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/smart-4-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/smart-4.webp" />
+                <img alt="house automation systems" src="assets/images/smart-4.webp" />
               </picture>
             </div>
 
@@ -360,7 +360,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/home-audio-1-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/home-audio-1.webp" />
+                <img alt="home audio" src="assets/images/home-audio-1.webp" />
               </picture>
             </div>
           </div>
@@ -380,7 +380,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/home-audio1-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/home-audio1.webp" />
+                <img alt="smart home audio system" src="assets/images/home-audio1.webp" />
               </picture>
             </div>
 
@@ -410,7 +410,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/control4-services.webp"
-                        alt=""
+                        alt="control4 services"
                         className="wp-image-2435"
                       />
                     </Link>
@@ -422,7 +422,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.webp"
-                        alt=""
+                        alt="crestron services"
                         className="wp-image-2429"
                       />
                     </Link>
@@ -434,7 +434,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/coastalsource-services.webp"
-                        alt=""
+                        alt="coastalsource service"
                         className="wp-image-2428"
                       />
                     </Link>
@@ -459,7 +459,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/smart61-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/smart61.webp" />
+                <img alt="smart home theater" src="assets/images/smart61.webp" />
               </picture>
             </div>
 
@@ -488,7 +488,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/control4-services.webp"
-                        alt=""
+                        alt="control4 services"
                         className="wp-image-2435"
                       />
                     </Link>
@@ -500,7 +500,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.webp"
-                        alt=""
+                        alt="crestron services"
                         className="wp-image-2429"
                       />
                     </Link>
@@ -512,7 +512,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/savant-services.webp"
-                        alt=""
+                        alt="savant services"
                         className="wp-image-2426"
                       />
                     </Link>
@@ -537,7 +537,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/home-security1-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/home-security1.webp" />
+                <img alt="home security" src="assets/images/home-security1.webp" />
               </picture>
             </div>
 
@@ -567,7 +567,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/alarmdotcom-services.webp"
-                        alt=""
+                        alt="alarm.com services"
                         className="wp-image-2438"
                       />
                     </Link>
@@ -579,7 +579,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/josh-ai-services.webp"
-                        alt=""
+                        alt="josh ai services"
                         className="wp-image-2437"
                       />
                     </Link>
@@ -591,7 +591,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/knx-company-services.webp"
-                        alt=""
+                        alt="knx company services"
                         className="wp-image-2433"
                       />
                     </Link>
@@ -616,7 +616,7 @@ const SmartHomeAutomation = () => {
                   srcSet="assets/images/smart12a-mini.webp"
                   media="(max-width: 600px)"
                 />
-                <img alt="Full logo" src="assets/images/smart12a.webp" />
+                <img alt="smart video conferencing" src="assets/images/smart12a.webp" />
               </picture>
             </div>
 
@@ -644,7 +644,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/josh-ai-services.webp"
-                        alt=""
+                        alt="josh ai services"
                         className="wp-image-2437"
                       />
                     </Link>
@@ -656,7 +656,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/knx-company-services.webp"
-                        alt=""
+                        alt="knx company services"
                         className="wp-image-2433"
                       />
                     </Link>
@@ -668,7 +668,7 @@ const SmartHomeAutomation = () => {
                         width="180"
                         height="180"
                         src="assets/images/crestron-services.webp"
-                        alt=""
+                        alt="crestron services"
                         className="wp-image-2429"
                       />
                     </Link>

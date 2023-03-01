@@ -28,7 +28,7 @@ const Ruckus = () => {
                         <figure className="aligncenter size-full is-resized">
                           <img
                             src="assets/images/img_logo_lutron1.gif"
-                            alt=""
+                            alt="lutron logo"
                             className="wp-image-2096"
                             width="170"
                             height="25"
@@ -70,7 +70,7 @@ const Ruckus = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="Lutron Smart Home Automation Florida"
                       src="assets/images/lutron2.webp"
                     />
                   </picture>
@@ -86,7 +86,7 @@ const Ruckus = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="Lutron smart devices"
                       src="assets/images/lutron1.webp"
                     />
                   </picture>
@@ -157,7 +157,7 @@ const Ruckus = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="Lutron Lighting Control Installer"
                       src="assets/images/lutron3.webp"
                     />
                   </picture>
@@ -173,7 +173,7 @@ const Ruckus = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="lutron dimmer"
                       src="assets/images/lutron4.webp"
                     />
                   </picture>
@@ -245,7 +245,7 @@ const Ruckus = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="lutron smart system"
                       src="assets/images/lutron6.webp"
                     />
                   </picture>
@@ -261,7 +261,7 @@ const Ruckus = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="lutron smart control devices"
                       src="assets/images/lutron5.webp"
                     />
                   </picture>
@@ -332,7 +332,7 @@ const Ruckus = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="lutron certified installer"
                       src="assets/images/lutron7.webp"
                     />
                   </picture>
@@ -349,7 +349,7 @@ const Ruckus = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="lutron lightning services"
                       src="assets/images/lutron9.webp"
                     />
                   </picture>

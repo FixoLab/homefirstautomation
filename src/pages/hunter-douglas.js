@@ -55,7 +55,7 @@ const HunterDouglas = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="Hunter Douglas dealers   "
                       src="assets/images/hunterdouglas7.webp"
                     />
                   </picture>
@@ -71,7 +71,7 @@ const HunterDouglas = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="Hunter Douglas Window Treatment"
                       src="assets/images/hunterdouglas8.webp"
                     />
                   </picture>
@@ -149,7 +149,7 @@ const HunterDouglas = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="Hunter Douglas shading"
                       src="assets/images/hunterdouglas1.webp"
                     />
                   </picture>
@@ -165,7 +165,7 @@ const HunterDouglas = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="Residential shading"
                       src="assets/images/hunterdouglas2.webp"
                     />
                   </picture>
@@ -187,7 +187,7 @@ const HunterDouglas = () => {
                   width="1915"
                   height="1440"
                   src="assets/images/haslam-15.webp"
-                  alt=""
+                  alt="Hunter Douglas shading system"
                   className="wp-image-847"
                 />
               </figure>
@@ -242,7 +242,7 @@ const HunterDouglas = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="Hunter Douglas shading system"
                       src="assets/images/hunterdouglas3.webp"
                     />
                   </picture>
@@ -258,7 +258,7 @@ const HunterDouglas = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="window treatment services"
                       src="assets/images/hunterdouglas4.webp"
                     />
                   </picture>
@@ -334,7 +334,7 @@ const HunterDouglas = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="Hunter Douglas commercial shading"
                       src="assets/images/hunterdouglas5.webp"
                     />
                   </picture>
@@ -351,7 +351,7 @@ const HunterDouglas = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="best commercial shading services"
                       src="assets/images/hunterdouglas6.webp"
                     />
                   </picture>

@@ -196,7 +196,7 @@ const IndoorLiving = () => {
                 srcSet="assets/images/indoor-2-mini.webp"
                 media="(max-width: 600px)"
               />
-              <img alt="indoor living" src="assets/images/indoor-2.webp" />
+              <img alt="home theater systems" src="assets/images/indoor-2.webp" />
             </picture>
             <Link
               href="#"
@@ -329,7 +329,7 @@ const IndoorLiving = () => {
                 srcSet="assets/images/indoor-3-mini.webp"
                 media="(max-width: 600px)"
               />
-              <img alt="indoor living" src="assets/images/indoor-3.webp" />
+              <img alt="home theater design" src="assets/images/indoor-3.webp" />
             </picture>
             <Link
               href="#"
@@ -463,7 +463,7 @@ const IndoorLiving = () => {
                 srcSet="assets/images/indoor-4-mini.webp"
                 media="(max-width: 600px)"
               />
-              <img alt="indoor living" src="assets/images/indoor-4.webp" />
+              <img alt="smart home design" src="assets/images/indoor-4.webp" />
             </picture>
             <Link
               href="#"
@@ -596,7 +596,7 @@ const IndoorLiving = () => {
                 srcSet="assets/images/indoor-5-mini.webp"
                 media="(max-width: 600px)"
               />
-              <img alt="indoor living" src="assets/images/indoor-5.webp" />
+              <img alt="smart home design services" src="assets/images/indoor-5.webp" />
             </picture>
             <Link
               href="#"
@@ -728,7 +728,7 @@ const IndoorLiving = () => {
                 srcSet="assets/images/indoor-6-mini.webp"
                 media="(max-width: 600px)"
               />
-              <img alt="indoor living" src="assets/images/indoor-6.webp" />
+              <img alt="smart living" src="assets/images/indoor-6.webp" />
             </picture>
             <Link
               href="#"
@@ -861,7 +861,7 @@ const IndoorLiving = () => {
                 srcSet="assets/images/indoor-7-mini.webp"
                 media="(max-width: 600px)"
               />
-              <img alt="indoor living" src="assets/images/indoor-7.webp" />
+              <img alt="smart living home automation" src="assets/images/indoor-7.webp" />
             </picture>
             <Link
               href="#"

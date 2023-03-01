@@ -57,7 +57,7 @@ const InteriorDesigners = () => {
                     width="1024"
                     height="769"
                     src="assets/images/designer1.webp"
-                    alt=""
+                    alt="Home automation companies Florida"
                     className="wp-image-2755"
                   />
                 </figure>
@@ -74,7 +74,7 @@ const InteriorDesigners = () => {
                     width="1024"
                     height="769"
                     src="assets/images/designer2.webp"
-                    alt=""
+                    alt="Interior design business orlando"
                     className="wp-image-2756"
                   />
                 </figure>
@@ -120,7 +120,7 @@ const InteriorDesigners = () => {
                     width="1024"
                     height="769"
                     src="assets/images/designer3.webp"
-                    alt=""
+                    alt="Interior Designing business"
                     className="wp-image-2757"
                   />
                 </figure>
@@ -142,7 +142,7 @@ const InteriorDesigners = () => {
                     width="1024"
                     height="769"
                     src="assets/images/designer4.webp"
-                    alt=""
+                    alt="home automaion design services"
                     className="wp-image-2758"
                   />
                 </figure>
@@ -216,7 +216,7 @@ const InteriorDesigners = () => {
                     width="1024"
                     height="769"
                     src="assets/images/designer5.webp"
-                    alt=""
+                    alt="Ineterior design services ornaldo"
                     className="wp-image-2759"
                   />
                 </figure>

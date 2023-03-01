@@ -52,7 +52,7 @@ const Ruckus = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="ruckus networking"
                       src="assets/images/ruckus1.webp"
                     />
                   </picture>
@@ -68,7 +68,7 @@ const Ruckus = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="ruckus medical services"
                       src="assets/images/ruckus5.webp"
                     />
                   </picture>
@@ -142,7 +142,7 @@ const Ruckus = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="ruckus home solution"
                       src="assets/images/ruckus7.webp"
                     />
                   </picture>
@@ -158,7 +158,7 @@ const Ruckus = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="ruckus smart devices"
                       src="assets/images/ruckus6.webp"
                     />
                   </picture>
@@ -233,7 +233,7 @@ const Ruckus = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="ruckus business solution"
                       src="assets/images/ruckus9.webp"
                     />
                   </picture>
@@ -249,7 +249,7 @@ const Ruckus = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="ruckus networking devices"
                       src="assets/images/ruckus8.webp"
                     />
                   </picture>
@@ -325,7 +325,7 @@ const Ruckus = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="ruckus software"
                       src="assets/images/ruckus10.webp"
                     />
                   </picture>
@@ -342,7 +342,7 @@ const Ruckus = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="RUCKUS Networking software"
                       src="assets/images/ruckus11.webp"
                     />
                   </picture>

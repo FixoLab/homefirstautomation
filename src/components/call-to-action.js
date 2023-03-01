@@ -15,7 +15,7 @@ const CallToAction = () => {
             srcSet="assets/images/project1-a-mini.webp"
             media="(max-width: 600px)"
           />
-          <img alt="Full logo" src="assets/images/project1-a.webp" />
+          <img alt="smart house automation systems" src="assets/images/project1-a.webp" />
         </picture>
         <div
           className="is-layout-flow wp-block-group serviceswhitebackground eds-on-scroll eds-scroll-visible"

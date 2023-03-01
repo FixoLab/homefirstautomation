@@ -382,35 +382,35 @@ const Footer = () => {
               <img
                 loading="lazy"
                 src="assets/images/footer-img-01.webp"
-                alt="footer middle"
+                alt="automaton brands"
               />
             </div>
             <div className="footer-middle-image">
               <img
                 loading="lazy"
                 src="assets/images/footer-img-02.webp"
-                alt="footer middle"
+                alt="savant dealers Orlando"
               />
             </div>
             <div className="footer-middle-image">
               <img
                 loading="lazy"
                 src="assets/images/footer-img-03.webp"
-                alt="footer middle"
+                alt="home automaton dealers"
               />
             </div>
             <div className="footer-middle-image">
               <img
                 loading="lazy"
                 src="assets/images/footer-img-04.webp"
-                alt="footer middle"
+                alt="home automaton dealers orlando"
               />
             </div>
             <div className="footer-middle-image">
               <img
                 loading="lazy"
                 src="assets/images/footer-img-05.webp"
-                alt="footer middle"
+                alt="lutron dealers orlando"
               />
             </div>
           </div>

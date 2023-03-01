@@ -59,7 +59,7 @@ const DesignBuildPartners = () => {
                     width="1024"
                     height="769"
                     src="assets/images/design1.webp"
-                    alt=""
+                    alt="Architects opportunities Florida"
                     className="wp-image-2755"
                   />
                 </figure>
@@ -76,7 +76,7 @@ const DesignBuildPartners = () => {
                     width="1024"
                     height="769"
                     src="assets/images/design2.webp"
-                    alt=""
+                    alt="Architect business collaboration"
                     className="wp-image-2756"
                   />
                 </figure>
@@ -122,7 +122,7 @@ const DesignBuildPartners = () => {
                     width="1024"
                     height="769"
                     src="assets/images/design3.webp"
-                    alt=""
+                    alt="homefirst architect program"
                     className="wp-image-2757"
                   />
                 </figure>
@@ -144,7 +144,7 @@ const DesignBuildPartners = () => {
                     width="1024"
                     height="769"
                     src="assets/images/design4.webp"
-                    alt=""
+                    alt="Architect’s Partner"
                     className="wp-image-2758"
                   />
                 </figure>
@@ -215,7 +215,7 @@ const DesignBuildPartners = () => {
                     width="1024"
                     height="769"
                     src="assets/images/design5.webp"
-                    alt=""
+                    alt="homefirst technologies"
                     className="wp-image-2759"
                   />
                 </figure>

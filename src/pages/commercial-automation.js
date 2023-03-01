@@ -88,7 +88,7 @@ const CommercialAutomation = () => {
                     width="1024"
                     height="770"
                     src="assets/images/commercial-automation-1.webp"
-                    alt="automationImage"
+                    alt="commercial automation system"
                   />
                 </picture>
               </div>
@@ -145,7 +145,7 @@ const CommercialAutomation = () => {
                     width="1197"
                     height="900"
                     src="assets/images/commercial-automation-2.webp"
-                    alt="automationImage"
+                    alt="Commercial Lighting Automation"
                   />
                 </picture>
               </div>
@@ -199,7 +199,7 @@ const CommercialAutomation = () => {
                     width="2396"
                     height="1600"
                     src="assets/images/commercial-automation-3.webp"
-                    alt="automationImage"
+                    alt="window treaments"
                   />
                 </picture>
               
@@ -256,7 +256,7 @@ const CommercialAutomation = () => {
                     width="1197"
                     height="900"
                     src="assets/images/commercial-automation-4.webp"
-                    alt="automationImage"
+                    alt="media control"
                   />
                 </picture>
               </div>
@@ -314,7 +314,7 @@ const CommercialAutomation = () => {
                     width="2396"
                     height="1600"
                     src="assets/images/commercial-automation-5.webp"
-                    alt="automationImage"
+                    alt="commercial networking"
                   />
                 </picture>
                 
@@ -372,7 +372,7 @@ const CommercialAutomation = () => {
                    width="1197"
                    height="900"
                    src="assets/images/commercial-automation-6.webp"
-                    alt="automationImage" 
+                    alt="communication tools" 
                   />
                 </picture>
               </div>

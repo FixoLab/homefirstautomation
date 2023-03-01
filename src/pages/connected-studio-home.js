@@ -21,7 +21,7 @@ const ConnectedStudioHome = () => {
         <img
           style={{ width: "100%" }}
           src="assets/images/connected-studio-home.webp"
-          alt=""
+          alt="orlando home network installation"
         />
          <picture className="el-image">
           <source
@@ -31,7 +31,7 @@ const ConnectedStudioHome = () => {
           <img
             width="auto"
             height="auto"
-            alt="about"
+            alt="orlando home network installation"
             src="assets/images/connected-studio-home.webp"
           />
         </picture>
@@ -57,7 +57,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart living and home automation"
               />
             </div>
             <div className="csh-card-content">
@@ -93,7 +93,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart dining"
               />
             </div>
             <div className="csh-card-content">
@@ -129,7 +129,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart home system"
               />
             </div>
             <div className="csh-card-content">
@@ -167,7 +167,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="monirorized window treatment"
               />
             </div>
             <div className="csh-card-content">
@@ -203,7 +203,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="monirorized window treatment"
               />
             </div>
             <div className="csh-card-content">
@@ -242,7 +242,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart home streamlines"
               />
             </div>
             <div className="csh-card-content">
@@ -278,7 +278,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="media room"
               />
             </div>
             <div className="csh-card-content">
@@ -315,7 +315,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="media room"
               />
             </div>
             <div className="csh-card-content">
@@ -352,7 +352,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="lightning control"
               />
             </div>
             <div className="csh-card-content">
@@ -388,7 +388,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="Networking"
               />
             </div>
             <div className="csh-card-content">
@@ -424,7 +424,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="Networking"
               />
             </div>
             <div className="csh-card-content">

@@ -89,7 +89,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Smart lighting for business"
                   src="assets/images/commercial23.webp"
                 />
               </picture>
@@ -106,7 +106,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial room design"
                   src="assets/images/commercial22.webp"
                 />
               </picture>
@@ -128,7 +128,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial wifi"
                   src="assets/images/commercial15.webp"
                 />
               </picture>
@@ -171,7 +171,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial lightning"
                   src="assets/images/commercial3.webp"
                 />
               </picture>
@@ -214,7 +214,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial shading"
                   src="assets/images/commercial1.webp"
                 />
               </picture>
@@ -252,7 +252,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="building control systems"
                   src="assets/images/commercial9.webp"
                 />
               </picture>
@@ -269,7 +269,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="communicaton services"
                   src="assets/images/commercial10.webp"
                 />
               </picture>
@@ -290,7 +290,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial video & audio system"
                   src="assets/images/commercial21.webp"
                 />
               </picture>
@@ -331,7 +331,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial video conferencing"
                   src="assets/images/commercial13.webp"
                 />
               </picture>
@@ -374,7 +374,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial smart system"
                   src="assets/images/commercial20.webp"
                 />
               </picture>

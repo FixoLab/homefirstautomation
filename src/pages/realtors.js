@@ -58,7 +58,7 @@ const Realtors = () => {
                     width="1024"
                     height="769"
                     src="assets/images/seller1.webp"
-                    alt=""
+                    alt="recommended realtors Orlando"
                     className="wp-image-2755"
                   />
                 </figure>
@@ -75,7 +75,7 @@ const Realtors = () => {
                     width="1024"
                     height="769"
                     src="assets/images/seller2.webp"
-                    alt=""
+                    alt="Real estate business in Florida"
                     className="wp-image-2756"
                   />
                 </figure>
@@ -120,7 +120,7 @@ const Realtors = () => {
                     width="1024"
                     height="769"
                     src="assets/images/seller3.webp"
-                    alt=""
+                    alt="smart home and business technology"
                     className="wp-image-2757"
                   />
                 </figure>
@@ -142,7 +142,7 @@ const Realtors = () => {
                     width="1024"
                     height="769"
                     src="assets/images/seller4.webp"
-                    alt=""
+                    alt="smart home business solution"
                     className="wp-image-2758"
                   />
                 </figure>
@@ -214,7 +214,7 @@ const Realtors = () => {
                     width="1024"
                     height="769"
                     src="assets/images/seller5.webp"
-                    alt=""
+                    alt="smart home technology classes"
                     className="wp-image-2759"
                   />
                 </figure>

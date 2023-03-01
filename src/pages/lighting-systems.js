@@ -93,7 +93,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart lighting control systems"
                   src="assets/images/audio9.webp"
                 />
               </picture>
@@ -110,7 +110,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart home lighting systems"
                   src="assets/images/lighting-7.webp"
                 />
               </picture>
@@ -132,7 +132,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="timed lightning"
                   src="assets/images/audio8.webp"
                 />
               </picture>
@@ -209,7 +209,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="media lightning"
                   src="assets/images/lighting1.webp"
                 />
               </picture>
@@ -288,7 +288,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="landscape lightning"
                   src="assets/images/lighting9.webp"
                 />
               </picture>
@@ -350,7 +350,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="home lighting automation"
                   src="assets/images/lighting6.webp"
                 />
               </picture>
@@ -367,7 +367,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="best lighting automation"
                   src="assets/images/audio10.webp"
                 />
               </picture>
@@ -388,7 +388,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="security lightning"
                   src="assets/images/lighting5.webp"
                 />
               </picture>
@@ -465,7 +465,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="mood lightning"
                   src="assets/images/audio3.webp"
                 />
               </picture>
@@ -543,7 +543,7 @@ const LightingSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart lightning conrol"
                   src="assets/images/audio2.webp"
                 />
               </picture>

@@ -39,7 +39,7 @@ const Partners = () => {
                       width="900"
                       height="450"
                       src="assets/images/main-interior-1.webp"
-                      alt=""
+                      alt="smart home control interior"
                       className="wp-image-2761"
                     />
                   </figure>
@@ -54,7 +54,7 @@ const Partners = () => {
                       width="900"
                       height="450"
                       src="assets/images/main-builder-1.webp"
-                      alt=""
+                      alt="smart home builders"
                       className="wp-image-2762"
                     />
                   </figure>
@@ -70,7 +70,7 @@ const Partners = () => {
                       width="900"
                       height="450"
                       src="assets/images/main-architect-1.webp"
-                      alt=""
+                      alt="home architect"
                       className="wp-image-2763"
                     />
                   </figure>
@@ -87,7 +87,7 @@ const Partners = () => {
                       width="900"
                       height="450"
                       src="assets/images/main-realtor-1.webp"
-                      alt=""
+                      alt="smart home realtors"
                       className="wp-image-2764"
                     />
                   </figure>

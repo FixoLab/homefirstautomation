@@ -102,7 +102,7 @@ const CommercialSecurity = () => {
                    width="1197"
                    height="900"
                    src="assets/images/commercial-security-1.webp"
-                    alt="automationImage"
+                    alt="commercial security systems "
                   />
                 </picture>
             </div>
@@ -159,7 +159,7 @@ const CommercialSecurity = () => {
                    width="1197"
                    height="900"
                    src="assets/images/commercial-security-2.webp"
-                    alt="automationImage"
+                    alt="Surveillance"
                   />
                 </picture>
             </div>
@@ -217,7 +217,7 @@ const CommercialSecurity = () => {
                    width="1197"
                    height="900"
                    src="assets/images/commercial-security-3.webp"
-                    alt="automationImage"
+                    alt="commercial door entry systems"
                   />
                 </picture>
             </div>
@@ -276,7 +276,7 @@ const CommercialSecurity = () => {
                    width="1197"
                    height="900"
                    src="assets/images/commercial-security-4.webp"
-                    alt="automationImage"
+                    alt="Remote access & monitoring"
                   />
                 </picture>
             </div>
@@ -334,7 +334,7 @@ const CommercialSecurity = () => {
                    width="1197"
                    height="900"
                    src="assets/images/commercial-security-5.webp"
-                    alt="automationImage"
+                    alt="outdoor perimeter protection"
                   />
                 </picture>
             </div>
@@ -390,7 +390,7 @@ const CommercialSecurity = () => {
                    width="1197"
                    height="900"
                    src="assets/images/commercial-security-6.webp"
-                    alt="automationImage"
+                    alt="motion detection"
                   />
                 </picture>
             </div>

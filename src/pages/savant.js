@@ -27,7 +27,7 @@ const Savant = () => {
                     <figure className="aligncenter size-large is-resized">
                       <img
                         src="assets/images/savant.webp"
-                        alt=""
+                        alt="savant logo"
                         className="wp-image-2104"
                         width="192"
                         height="37"
@@ -80,7 +80,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
+                  alt="Savant Smart Home Automation"
                   src="assets/images/savant1.webp"
                 />
               </picture>
@@ -100,7 +100,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
+                  alt="Smart Home Automation Integrators"
                   src="assets/images/savant2.webp"
                 />
               </picture>
@@ -121,7 +121,7 @@ const Savant = () => {
                   width="1915"
                   height="1440"
                   src="assets/images/haslam-15.webp"
-                  alt=""
+                  alt="savant home lightning"
                   className="wp-image-847"
                 />
               </figure>
@@ -176,7 +176,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
+                  alt="savant home automation"
                   src="assets/images/savant3.webp"
                 />
               </picture>
@@ -195,7 +195,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
+                  alt="smart home control"
                   src="assets/images/savant4.webp"
                 />
               </picture>
@@ -217,7 +217,7 @@ const Savant = () => {
                   width="1915"
                   height="1440"
                   src="assets/images/haslam-15.webp"
-                  alt=""
+                  alt="savant home lightning"
                   className="wp-image-847"
                 />
               </figure>
@@ -272,7 +272,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
+                  alt="local smart home automation solution"
                   src="assets/images/savant5.webp"
                 />
               </picture>
@@ -291,7 +291,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
+                  alt="savant living room automation"
                   src="assets/images/savant6.webp"
                 />
               </picture>
@@ -312,7 +312,7 @@ const Savant = () => {
                   width="1915"
                   height="1440"
                   src="assets/images/haslam-15.webp"
-                  alt=""
+                  alt="Savant home automation design"
                   className="wp-image-847"
                 />
               </figure>
@@ -370,7 +370,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
+                  alt="savant dealers"
                   src="assets/images/savant7.webp"
                 />
               </picture>
@@ -390,7 +390,7 @@ const Savant = () => {
                 <img
                   width="2000"
                   height="1503"
-                  alt=""
+                  alt="savant smart devices"
                   src="assets/images/savant8.webp"
                 />
               </picture>

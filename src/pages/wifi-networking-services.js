@@ -82,7 +82,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Wi-Fi Networking Solutions"
                   src="assets/images/wifi12.webp"
                 />
               </picture>
@@ -99,7 +99,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Wireless Network Support Orlando"
                   src="assets/images/wifi14.webp"
                 />
               </picture>
@@ -121,7 +121,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Full System smart home"
                   src="assets/images/wifi-8.webp"
                 />
               </picture>
@@ -163,7 +163,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="networking services"
                   src="assets/images/wifi6.webp"
                 />
               </picture>
@@ -208,7 +208,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Home Wi-Fi Setup"
                   src="assets/images/wifi5.webp"
                 />
               </picture>
@@ -250,7 +250,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="wireless security"
                   src="assets/images/wifi7.webp"
                 />
               </picture>
@@ -289,7 +289,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="ornaldo networking services"
                   src="assets/images/wifi3.webp"
                 />
               </picture>
@@ -306,7 +306,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart home networking"
                   src="assets/images/wifi4.webp"
                 />
               </picture>

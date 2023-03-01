@@ -84,7 +84,7 @@ const CommercialAudioVideo = () => {
                    width="1197"
                    height="900"
                    src="assets/images/commercial-audio-video-1.webp"
-                    alt="automationImage"
+                    alt="Distributed Commercial Audio Systems"
                   />
                 </picture>
             </div>
@@ -141,7 +141,7 @@ const CommercialAudioVideo = () => {
                    width="1197"
                    height="900"
                    src="assets/images/commercial-audio-video-2.webp"
-                    alt="automationImage"
+                    alt="Commercial Video Installation "
                   />
                 </picture>
             </div>
@@ -199,7 +199,7 @@ const CommercialAudioVideo = () => {
                    width="1197"
                    height="900"
                    src="assets/images/commercial-audio-video-3.webp"
-                    alt="automationImage"
+                    alt="Video Conferencing"
                   />
                 </picture>
             </div>
@@ -256,7 +256,7 @@ const CommercialAudioVideo = () => {
                    width="1197"
                    height="900"
                    src="assets/images/commercial-audio-video-4.webp"
-                    alt="automationImage"
+                    alt="Intercom system"
                   />
                 </picture>
             </div>
@@ -314,7 +314,7 @@ const CommercialAudioVideo = () => {
                    width="1197"
                    height="900"
                    src="assets/images/commercial-audio-video-5.webp"
-                    alt="automationImage"
+                    alt="video wall"
                   />
                 </picture>
             </div>
@@ -370,7 +370,7 @@ const CommercialAudioVideo = () => {
                    width="1197"
                    height="900"
                    src="assets/images/commercial-audio-video-6.webp"
-                    alt="automationImage"
+                    alt="commercial audio video installation company"
                   />
                 </picture>
             </div>

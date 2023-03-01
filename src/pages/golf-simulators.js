@@ -261,7 +261,7 @@ const GolfSimulators = () => {
                   width="703"
                   height="450"
                   className="el-image"
-                  alt="GOLFZON golf simulator"
+                  alt="virtual golf simulator orlando"
                   loading="lazy"
                 />
               </div>
@@ -274,7 +274,7 @@ const GolfSimulators = () => {
                   width="703"
                   height="450"
                   className="el-image"
-                  alt="GOLFZON golf simulator"
+                  alt="home golf simulator set up"
                 />
               </div>
             </div>

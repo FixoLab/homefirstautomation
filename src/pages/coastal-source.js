@@ -31,7 +31,7 @@ const CoastalSource = () => {
                         <figure className="aligncenter size-full is-resized">
                           <img
                             src="assets/images/mainlogo.webp"
-                            alt=""
+                            alt="coastal source logo"
                             className="wp-image-2096"
                             width="170"
                             height="25"
@@ -77,7 +77,7 @@ const CoastalSource = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="coastal source landscape lightning"
                       src="assets/images/coastalsource3.webp"
                     />
                   </picture>
@@ -93,7 +93,7 @@ const CoastalSource = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="lighning services"
                       src="assets/images/coastalsource2.webp"
                     />
                   </picture>
@@ -162,7 +162,7 @@ const CoastalSource = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="coastal source outdoor lightning"
                       src="assets/images/coastalsource4.webp"
                     />
                   </picture>
@@ -178,7 +178,7 @@ const CoastalSource = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="lightning control system"
                       src="assets/images/coastalsource5.webp"
                     />
                   </picture>
@@ -247,7 +247,7 @@ const CoastalSource = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="coastal source outdoor audio"
                       src="assets/images/coastalsource6.webp"
                     />
                   </picture>
@@ -263,7 +263,7 @@ const CoastalSource = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="outdoor audio solutions"
                       src="assets/images/coastalsource7.webp"
                     />
                   </picture>
@@ -331,7 +331,7 @@ const CoastalSource = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="coastal source system"
                       src="assets/images/coastalsource1b.webp"
                     />
                   </picture>
@@ -348,7 +348,7 @@ const CoastalSource = () => {
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
+                      alt="coastal source dealer"
                       src="assets/images/coastalsource8.webp"
                     />
                   </picture>

@@ -32,7 +32,7 @@ const Crestron = () => {
                         <figure className="aligncenter size-large is-resized">
                           <img
                             src="assets/images/crestron-2-logo.webp"
-                            alt=""
+                            alt="crestron logo"
                             className="wp-image-2116"
                             width="192"
                             height="144"
@@ -77,7 +77,7 @@ const Crestron = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Crestron Smart Home Automation Florida"
                   src="assets/images/crestron-main12.webp"
                 />
               </picture>
@@ -94,7 +94,7 @@ const Crestron = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Crestron Home Automation System"
                   src="assets/images/crestron-main13.webp"
                 />
               </picture>
@@ -127,7 +127,7 @@ const Crestron = () => {
                   width="1197"
                   height="900"
                   src="assets/images/home-shades.webp"
-                  alt=""
+                  alt="Home shades"
                   className="wp-image-846"
                 />
               </figure>
@@ -157,7 +157,7 @@ const Crestron = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="home automation setup"
                   src="assets/images/crestron-main9.webp"
                 />
               </picture>
@@ -174,7 +174,7 @@ const Crestron = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="living room automation"
                   src="assets/images/crestron-main8.webp"
                 />
               </picture>
@@ -232,7 +232,7 @@ const Crestron = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="crestron remotes"
                   src="assets/images/crestron-main7.webp"
                 />
               </picture>
@@ -249,7 +249,7 @@ const Crestron = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="crestron devices"
                   src="assets/images/crestron-main6.webp"
                 />
               </picture>
@@ -281,7 +281,7 @@ const Crestron = () => {
                   width="1024"
                   height="769"
                   src="assets/images/haslam-6.webp"
-                  alt=""
+                  alt="Crestron Home Automation System Cost"
                   className="wp-image-984"
                 />
               </figure>
@@ -311,7 +311,7 @@ const Crestron = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="creston office setup"
                   src="assets/images/crestron-main3.webp"
                 />
               </picture>
@@ -328,7 +328,7 @@ const Crestron = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart video conferencing"
                   src="assets/images/crestron-main5.webp"
                 />
               </picture>

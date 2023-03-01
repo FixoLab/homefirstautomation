@@ -61,7 +61,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/control4.webp"
-                          alt=""
+                          alt="Control4 system"
                           className="wp-image-1457"
                         />
                       </figure>
@@ -77,7 +77,7 @@ const BrandsWeCarry = () => {
                         <Link to="/control-4">
                           <img
                             src="assets/images/control4a.webp"
-                            alt=""
+                            alt="Control4 company services"
                             className="wp-image-1466"
                             width="150"
                             height="39"
@@ -96,7 +96,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/crestrona.webp"
-                          alt=""
+                          alt="Crestron Electronics"
                           className="wp-image-1666"
                         />
                       </figure>
@@ -119,7 +119,7 @@ const BrandsWeCarry = () => {
                             width="150"
                             height="26"
                             src="assets/images/crestron.webp"
-                            alt=""
+                            alt="Crestron company services"
                             className="wp-image-1668"
                           />
                         </Link>
@@ -136,7 +136,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="313"
                           src="assets/images/savant-title-img.webp"
-                          alt=""
+                          alt="Savant home automation technology"
                           className="wp-image-1479"
                         />
                       </figure>
@@ -158,7 +158,7 @@ const BrandsWeCarry = () => {
                             width="150"
                             height="23"
                             src="assets/images/savanta.webp"
-                            alt=""
+                            alt="Savant company services"
                             className="wp-image-1478"
                           />
                         </Link>
@@ -188,7 +188,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="313"
                           src="assets/images/lutron.webp"
-                          alt=""
+                          alt="Lutron technology company"
                           className="wp-image-1481"
                         />
                       </figure>
@@ -209,7 +209,7 @@ const BrandsWeCarry = () => {
                             width="150"
                             height="26"
                             src="assets/images/lutrona.webp"
-                            alt=""
+                            alt="Lutron company services"
                             className="wp-image-1482"
                           />
                         </Link>
@@ -226,7 +226,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/hunter.webp"
-                          alt=""
+                          alt="Hunter Douglas window coveringd"
                           className="wp-image-1486"
                         />
                       </figure>
@@ -249,7 +249,7 @@ const BrandsWeCarry = () => {
                             width="150"
                             height="29"
                             src="assets/images/huntera.webp"
-                            alt=""
+                            alt="Hunter Douglas manufacturer"
                             className="wp-image-1487"
                           />
                         </Link>
@@ -266,7 +266,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/coastal.webp"
-                          alt=""
+                          alt="Coastal Source landscape lighting"
                           className="wp-image-1489"
                         />
                       </figure>
@@ -287,7 +287,7 @@ const BrandsWeCarry = () => {
                             width="150"
                             height="22"
                             src="assets/images/coastala.webp"
-                            alt=""
+                            alt="Coastal Source company services"
                             className="wp-image-1490"
                           />
                         </Link>
@@ -306,7 +306,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/joshai-brand.webp"
-                          alt=""
+                          alt="josh control frameworks"
                           className="wp-image-2191"
                         />
                       </figure>
@@ -326,7 +326,7 @@ const BrandsWeCarry = () => {
                             width="150"
                             height="51"
                             src="assets/images/joshai-blacklogo.webp"
-                            alt=""
+                            alt="josh company services"
                             className="wp-image-2193"
                           />
                         </Link>
@@ -343,7 +343,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/ruckus-brand.webp"
-                          alt=""
+                          alt="ruckus control frameworks "
                           className="wp-image-1500"
                         />
                       </figure>
@@ -366,7 +366,7 @@ const BrandsWeCarry = () => {
                             width="150"
                             height="44"
                             src="assets/images/ruckusa.webp"
-                            alt=""
+                            alt="ruckus company services"
                             className="wp-image-1499"
                           />
                         </Link>
@@ -383,7 +383,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/knx-mini.webp"
-                          alt=""
+                          alt="knx automation "
                           className="wp-image-2286"
                         />
                       </figure>
@@ -401,7 +401,7 @@ const BrandsWeCarry = () => {
                             width="133"
                             height="59"
                             src="assets/images/knx-logo1.webp"
-                            alt=""
+                            alt="knx company services"
                             className="wp-image-2283"
                           />
                         </Link>
@@ -420,7 +420,7 @@ const BrandsWeCarry = () => {
                           width="600"
                           height="300"
                           src="assets/images/alarmcom.webp"
-                          alt=""
+                          alt="Alarm.com services"
                           className="wp-image-1475"
                         />
                       </figure>
@@ -441,7 +441,7 @@ const BrandsWeCarry = () => {
                             width="150"
                             height="28"
                             src="assets/images/alarmcoma.webp"
-                            alt=""
+                            alt="Alarm.com company"
                             className="wp-image-1476"
                           />
                         </Link>

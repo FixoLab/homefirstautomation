@@ -52,7 +52,7 @@ const Knx = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="knx visualisation software"
                       src="assets/images/knx-10.webp"
                     />
                   </picture>
@@ -68,7 +68,7 @@ const Knx = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="knx smart home"
                       src="assets/images/knx7.webp"
                     />
                   </picture>
@@ -143,7 +143,7 @@ const Knx = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="knx for home"
                       src="assets/images/knx-12.webp"
                     />
                   </picture>
@@ -159,7 +159,7 @@ const Knx = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="knx home conrol"
                       src="assets/images/knx4.webp"
                     />
                   </picture>
@@ -232,7 +232,7 @@ const Knx = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="knx for business"
                       src="assets/images/knx5.webp"
                     />
                   </picture>
@@ -248,7 +248,7 @@ const Knx = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="knx lighting control"
                       src="assets/images/knx9.webp"
                     />
                   </picture>
@@ -269,7 +269,7 @@ const Knx = () => {
                   width="1915"
                   height="1440"
                   src="assets/images/haslam-15.webp"
-                  alt=""
+                  alt="knx custom solution"
                   className="wp-image-847"
                 />
               </figure>
@@ -319,7 +319,7 @@ const Knx = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="knx custom solution"
                       src="assets/images/knx6.webp"
                     />
                   </picture>
@@ -336,7 +336,7 @@ const Knx = () => {
                     <img
                        width="1500"
                        height="1000"
-                      alt=""
+                      alt="knx smart device system"
                       src="assets/images/knx-2.webp"
                     />
                   </picture>

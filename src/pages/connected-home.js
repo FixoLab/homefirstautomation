@@ -27,7 +27,7 @@ const ConnectedHome = () => {
           <img
             width="auto"
             height="auto"
-            alt="about"
+            alt="smart home automation"
             src="assets/images/connected-home.webp"
           />
         </picture>
@@ -53,7 +53,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart home living"
               />
             </div>
             <div className="csh-card-content">
@@ -89,7 +89,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart home living"
               />
             </div>
             <div className="csh-card-content">
@@ -125,7 +125,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="home automation system"
               />
             </div>
             <div className="csh-card-content">
@@ -161,7 +161,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart living orlando"
               />
             </div>
             <div className="csh-card-content">
@@ -200,7 +200,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart home installation"
               />
             </div>
             <div className="csh-card-content">
@@ -235,7 +235,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="home theatre design"
               />
             </div>
             <div className="csh-card-content">
@@ -271,7 +271,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="professional smart home "
               />
             </div>
             <div className="csh-card-content">
@@ -309,7 +309,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart living"
               />
             </div>
             <div className="csh-card-content">
@@ -345,7 +345,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart home services orlando"
               />
             </div>
             <div className="csh-card-content">
@@ -381,7 +381,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="home installation Orlando"
               />
             </div>
             <div className="csh-card-content">
@@ -417,7 +417,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="home automation system integrators"
               />
             </div>
             <div className="csh-card-content">
