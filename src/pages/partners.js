@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const Partners = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Homefirst Partner Program in Orlando, FL gives you access to one of the nation's leading certified Savant dealers and smart home installers. Join now and take advantage of all the benefits we have to offer."
+        />
+        <title>
+        Join the Homefirst Partner Program in Orlando, Florida
+        </title>
+      </Helmet>
     <div id="site-content" className="partners">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -39,13 +50,13 @@ const Partners = () => {
                       width="900"
                       height="450"
                       src="assets/images/main-interior-1.webp"
-                      alt=""
+                      alt="smart home control interior"
                       className="wp-image-2761"
                     />
                   </figure>
                   <p className="partnername">Interior Designers</p>
                   <p className="learnmorebutton">
-                    <Link to="/interior-designers">Learn More</Link>
+                    <Link to="/partners/interior-designers">Learn More</Link>
                   </p>
                 </div>
                 <div className="is-layout-flow wp-block-column">
@@ -54,13 +65,13 @@ const Partners = () => {
                       width="900"
                       height="450"
                       src="assets/images/main-builder-1.webp"
-                      alt=""
+                      alt="smart home builders"
                       className="wp-image-2762"
                     />
                   </figure>
                   <p className="partnername">Contractors</p>
                   <p className="learnmorebutton">
-                    <Link to="/contractors">Learn More</Link>
+                    <Link to="/partners/contractors">Learn More</Link>
                   </p>
                 </div>
 
@@ -70,14 +81,14 @@ const Partners = () => {
                       width="900"
                       height="450"
                       src="assets/images/main-architect-1.webp"
-                      alt=""
+                      alt="home architect"
                       className="wp-image-2763"
                     />
                   </figure>
 
                   <p className="partnername">Design Build Partners</p>
                   <p className="learnmorebutton">
-                    <Link to="/design-build-partners">Learn More</Link>
+                    <Link to="/partners/design-build-partners">Learn More</Link>
                   </p>
                 </div>
 
@@ -87,13 +98,13 @@ const Partners = () => {
                       width="900"
                       height="450"
                       src="assets/images/main-realtor-1.webp"
-                      alt=""
+                      alt="smart home realtors"
                       className="wp-image-2764"
                     />
                   </figure>
                   <p className="partnername">Real Estate Brokers</p>
                   <p className="learnmorebutton">
-                    <Link to="/realtors">Learn More</Link>
+                    <Link to="/partners/realtors">Learn More</Link>
                   </p>
                 </div>
               </div>
@@ -130,7 +141,7 @@ const Partners = () => {
                 We at Homefirst work with hundreds of suppliers,
                 clients, and businesses throughout Orlando, Florida. Joining our
                 Partner Program gives you access to one of the nation’s leading
-                certified <Link to="/savant">Savant dealers</Link> and smart
+                certified <Link to="/brands/savant">Savant dealers</Link> and smart
                 home installers.{" "}
               </p>
               <div className="is-layout-flex wp-container-17 wp-block-columns partners3column">
@@ -243,6 +254,7 @@ const Partners = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

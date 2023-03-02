@@ -1,8 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const Crestron = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Experience the power of automation in the convenience of your home with Crestron. Discover how easy it is to create a smart home with Crestron. Contact us today to get started."
+        />
+        <title>
+        Crestron - Smart Homes Smart Offices Automation System
+        </title>
+      </Helmet>
+    
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -19,7 +31,7 @@ const Crestron = () => {
                 height="150"
               >
                 <source
-                  src="assets/video/creston-about-video.mp4"
+                  src="/assets/video/creston-about-video.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -31,8 +43,8 @@ const Crestron = () => {
                       <div className="wp-block-image">
                         <figure className="aligncenter size-large is-resized">
                           <img
-                            src="assets/images/crestron-2-logo.webp"
-                            alt=""
+                            src="/assets/images/crestron-2-logo.webp"
+                            alt="crestron logo"
                             className="wp-image-2116"
                             width="192"
                             height="144"
@@ -71,14 +83,14 @@ const Crestron = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                 <source
-                  srcSet="assets/images/crestron-main12-mini.webp"
+                  srcSet="/assets/images/crestron-main12-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                    width="1197"
                    height="900"
-                  alt=""
-                  src="assets/images/crestron-main12.webp"
+                  alt="Crestron Smart Home Automation Florida"
+                  src="/assets/images/crestron-main12.webp"
                 />
               </picture>
             </div>
@@ -88,14 +100,14 @@ const Crestron = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                 <source
-                  srcSet="assets/images/crestron-main13-mini.webp"
+                  srcSet="/assets/images/crestron-main13-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                    width="1197"
                    height="900"
-                  alt=""
-                  src="assets/images/crestron-main13.webp"
+                  alt="Crestron Home Automation System"
+                  src="/assets/images/crestron-main13.webp"
                 />
               </picture>
             </div>
@@ -126,8 +138,8 @@ const Crestron = () => {
                 <img
                   width="1197"
                   height="900"
-                  src="assets/images/home-shades.webp"
-                  alt=""
+                  src="/assets/images/home-shades.webp"
+                  alt="Home shades"
                   className="wp-image-846"
                 />
               </figure>
@@ -140,7 +152,7 @@ const Crestron = () => {
                 width="300"
                 height="150"
               >
-                <source src="assets/video/crestron-os.mp4" type="video/mp4" />
+                <source src="/assets/video/crestron-os.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
@@ -151,14 +163,14 @@ const Crestron = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                 <source
-                  srcSet="assets/images/crestron-main9-mini.webp"
+                  srcSet="/assets/images/crestron-main9-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                    width="1197"
                    height="900"
-                  alt=""
-                  src="assets/images/crestron-main9.webp"
+                  alt="home automation setup"
+                  src="/assets/images/crestron-main9.webp"
                 />
               </picture>
             </div>
@@ -168,14 +180,14 @@ const Crestron = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                 <source
-                  srcSet="assets/images/crestron-main8-mini.webp"
+                  srcSet="/assets/images/crestron-main8-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                    width="1197"
                    height="900"
-                  alt=""
-                  src="assets/images/crestron-main8.webp"
+                  alt="living room automation"
+                  src="/assets/images/crestron-main8.webp"
                 />
               </picture>
             </div>
@@ -196,7 +208,7 @@ const Crestron = () => {
                 height="150"
               >
                 <source
-                  src="assets/video/crestron-remote2.mp4"
+                  src="/assets/video/crestron-remote2.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -226,14 +238,14 @@ const Crestron = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                 <source
-                  srcSet="assets/images/crestron-main7-mini.webp"
+                  srcSet="/assets/images/crestron-main7-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                    width="1197"
                    height="900"
-                  alt=""
-                  src="assets/images/crestron-main7.webp"
+                  alt="crestron remotes"
+                  src="/assets/images/crestron-main7.webp"
                 />
               </picture>
             </div>
@@ -243,14 +255,14 @@ const Crestron = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                 <source
-                  srcSet="assets/images/crestron-main6-mini.webp"
+                  srcSet="/assets/images/crestron-main6-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                    width="1197"
                    height="900"
-                  alt=""
-                  src="assets/images/crestron-main6.webp"
+                  alt="crestron devices"
+                  src="/assets/images/crestron-main6.webp"
                 />
               </picture>
             </div>
@@ -280,8 +292,8 @@ const Crestron = () => {
                 <img
                   width="1024"
                   height="769"
-                  src="assets/images/haslam-6.webp"
-                  alt=""
+                  src="/assets/images/haslam-6.webp"
+                  alt="Crestron Home Automation System Cost"
                   className="wp-image-984"
                 />
               </figure>
@@ -294,7 +306,7 @@ const Crestron = () => {
                 width="300"
                 height="150"
               >
-                <source src="assets/video/flex7.mp4" type="video/mp4" />
+                <source src="/assets/video/flex7.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
@@ -305,14 +317,14 @@ const Crestron = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                 <source
-                  srcSet="assets/images/crestron-main3-mini.webp"
+                  srcSet="/assets/images/crestron-main3-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                    width="1197"
                    height="900"
-                  alt=""
-                  src="assets/images/crestron-main3.webp"
+                  alt="creston office setup"
+                  src="/assets/images/crestron-main3.webp"
                 />
               </picture>
             </div>
@@ -322,14 +334,14 @@ const Crestron = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                 <source
-                  srcSet="assets/images/crestron-main5-mini.webp"
+                  srcSet="/assets/images/crestron-main5-mini.webp"
                   media="(max-width: 600px)"
                 />
                 <img
                    width="1197"
                    height="900"
-                  alt=""
-                  src="assets/images/crestron-main5.webp"
+                  alt="smart video conferencing"
+                  src="/assets/images/crestron-main5.webp"
                 />
               </picture>
             </div>
@@ -339,6 +351,7 @@ const Crestron = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

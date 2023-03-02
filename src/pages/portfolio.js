@@ -1,8 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Create a beautiful and comfortable home atmosphere with a state-of-the-art smart home lighting system. Get top-notch services from the experts today!"
+        />
+        <title>
+        Enhance Your Home Lighting System with Smart Home Lighting
+        </title>
+      </Helmet>
+    
     <div id="site-content">
       <div
         className="uk-section-secondary uk-position-relative"
@@ -1035,7 +1047,7 @@ const Portfolio = () => {
                 <h2>AUDIO / VIDEO</h2>
                 <p className="minigray">
                   Optimize your entertainment with a{" "}
-                  <Link to="/commercial-solutions-commercial-audio-video">
+                  <Link to="/commercial/audio-visual-system">
                     multi room audio system
                   </Link>{" "}
                   , high-resolution video and gear that blends seamlessly with
@@ -1603,6 +1615,7 @@ const Portfolio = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const ConnectedHome = () => {
   return (
+    <HelmetProvider>
+        <Helmet>
+        <meta
+          name="description"
+          content="Discover how easy it is to integrate media control, security, and other technologies into your property with the help of professional system integrators in Orlando, FL."
+        />
+        <title>
+        Smart Home Automation | Professional Home System Integrators | Orlando, FL
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="connected-living-title-section">
         <div className="title-inner">
@@ -27,7 +38,7 @@ const ConnectedHome = () => {
           <img
             width="auto"
             height="auto"
-            alt="about"
+            alt="smart home automation"
             src="assets/images/connected-home.webp"
           />
         </picture>
@@ -53,7 +64,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart home living"
               />
             </div>
             <div className="csh-card-content">
@@ -89,7 +100,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart home living"
               />
             </div>
             <div className="csh-card-content">
@@ -125,7 +136,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="home automation system"
               />
             </div>
             <div className="csh-card-content">
@@ -161,7 +172,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart living orlando"
               />
             </div>
             <div className="csh-card-content">
@@ -200,7 +211,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart home installation"
               />
             </div>
             <div className="csh-card-content">
@@ -235,7 +246,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="home theatre design"
               />
             </div>
             <div className="csh-card-content">
@@ -271,7 +282,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="professional smart home "
               />
             </div>
             <div className="csh-card-content">
@@ -309,7 +320,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart living"
               />
             </div>
             <div className="csh-card-content">
@@ -345,7 +356,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart home services orlando"
               />
             </div>
             <div className="csh-card-content">
@@ -381,7 +392,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="home installation Orlando"
               />
             </div>
             <div className="csh-card-content">
@@ -417,7 +428,7 @@ const ConnectedHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="home automation system integrators"
               />
             </div>
             <div className="csh-card-content">
@@ -453,6 +464,7 @@ const ConnectedHome = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

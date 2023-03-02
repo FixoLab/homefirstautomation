@@ -15,14 +15,14 @@ const StartJourney = () => {
           data-aos-delay="200"
         >
           <source
-            srcSet="assets/images/haslam17-mini.webp"
+            srcSet="/assets/images/haslam17-mini.webp"
             media="(max-width: 600px)"
           />
           <img
             width="2000"
             height="1503"
             alt=""
-            src="assets/images/haslam17.webp"
+            src="/assets/images/haslam17.webp"
           />
         </picture>
       </div>

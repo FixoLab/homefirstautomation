@@ -1,9 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const AudioSystems = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Create the perfect listening experience for your Orlando, FL property with a custom multi-room music system, 2-channel audio, or a cinema surround sound system. Let our expert audio engineers design and install a tailor-made audio system for you."
+        />
+        <title>
+        Enjoy Music Your Way with a Custom Music System in Orlando, FL
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -107,7 +118,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="custom automated music system Florida"
                   src="assets/images/audio14.webp"
                 />
               </picture>
@@ -124,7 +135,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="multi-room wireless speaker system"
                   src="assets/images/media6.webp"
                 />
               </picture>
@@ -146,7 +157,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="multi room music"
                   src="assets/images/media7.webp"
                 />
               </picture>
@@ -171,7 +182,7 @@ const AudioSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -183,7 +194,7 @@ const AudioSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -195,7 +206,7 @@ const AudioSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -225,7 +236,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="oudoor speakers"
                   src="assets/images/audio-13.webp"
                 />
               </picture>
@@ -250,7 +261,7 @@ const AudioSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/coastal-source">
+                    <Link to="/brands/coastal-source">
                       <img
                         width="180"
                         height="180"
@@ -280,7 +291,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="home automation Florida"
                   src="assets/images/audio15.webp"
                 />
               </picture>
@@ -301,7 +312,7 @@ const AudioSystems = () => {
                     you can create the best sound quality available.
                   </p>
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -312,7 +323,7 @@ const AudioSystems = () => {
                     </Link>
                   </figure>
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/coastal-source">
+                    <Link to="/brands/coastal-source">
                       <img
                         width="180"
                         height="180"
@@ -338,7 +349,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="media control system"
                   src="assets/images/media3.webp"
                 />
               </picture>
@@ -355,7 +366,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="outdoor speaker system"
                   src="assets/images/audio-16.webp"
                 />
               </picture>
@@ -376,7 +387,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="peripheral devices"
                   src="assets/images/media8.webp"
                 />
               </picture>
@@ -402,7 +413,7 @@ const AudioSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -414,7 +425,7 @@ const AudioSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -426,7 +437,7 @@ const AudioSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -455,7 +466,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="effortless control system"
                   src="assets/images/media4.webp"
                 />
               </picture>
@@ -481,7 +492,7 @@ const AudioSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -493,7 +504,7 @@ const AudioSystems = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -522,7 +533,7 @@ const AudioSystems = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial system"
                   src="assets/images/media-10.webp"
                 />
               </picture>
@@ -549,7 +560,7 @@ const AudioSystems = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -567,6 +578,7 @@ const AudioSystems = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

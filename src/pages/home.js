@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 
 const Hero = React.lazy(() => import("../components/hero"));
 const Feature = React.lazy(() => import("../components/feature"));
@@ -26,6 +28,11 @@ const Home = () => {
   const rightPosition = 100 - windowTop * 0.025 + "%";
 
   return (
+    <HelmetProvider>
+     <Helmet>
+        <meta name="description" content="Homefirst is your trusted home automation provider in Orlando, offering cutting-edge smart home, security, and home theater solutions for all levels of project complexity. Get top-notch services from the experts today!" />
+        <title>Professional Home Automation Services in Orlando | Homefirst</title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -36,6 +43,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

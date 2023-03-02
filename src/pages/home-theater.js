@@ -1,9 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const HomeTheater = () => {
   return (
+    <HelmetProvider>
+     <Helmet>
+        <meta
+          name="description"
+          content="Looking for a top tier home theater system in Orlando, Florida? Let our expert team of home theater installers make your dreams a reality. Contact us today."
+        />
+        <title>
+        Home Theatre Installation in Orlando, Florida | Homefirst
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -103,7 +114,7 @@ const HomeTheater = () => {
                 <img
                     width="1197"
                     height="900"
-                  alt=""
+                  alt="home theater installation orlando"
                   src="assets/images/theater18.webp"
                 />
               </picture>
@@ -120,7 +131,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Outdoor Smart Theater Systems"
                   src="assets/images/theater19.webp"
                 />
               </picture>
@@ -142,7 +153,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart kitchen"
                   src="assets/images/theater10.webp"
                 />
               </picture>
@@ -168,7 +179,7 @@ const HomeTheater = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -180,7 +191,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -192,7 +203,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -222,7 +233,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart bedroom"
                   src="assets/images/theater5.webp"
                 />
               </picture>
@@ -246,7 +257,7 @@ const HomeTheater = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -258,7 +269,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -270,7 +281,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -300,7 +311,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart kitchen"
                   src="assets/images/theater10.webp"
                 />
               </picture>
@@ -323,7 +334,7 @@ const HomeTheater = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/lutron">
+                    <Link to="/brands/lutron">
                       <img
                         width="180"
                         height="180"
@@ -347,7 +358,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -373,7 +384,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="home theater control systems"
                   src="assets/images/theater14.webp"
                 />
               </picture>
@@ -390,7 +401,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Room Control system"
                   src="assets/images/theater6.webp"
                 />
               </picture>
@@ -411,7 +422,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Outdoor Smart Theater "
                   src="assets/images/theater2.webp"
                 />
               </picture>
@@ -435,7 +446,7 @@ const HomeTheater = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -447,7 +458,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -459,7 +470,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -488,7 +499,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="theatre room"
                   src="assets/images/theater16.webp"
                 />
               </picture>
@@ -513,7 +524,7 @@ const HomeTheater = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -525,7 +536,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -537,7 +548,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -566,7 +577,7 @@ const HomeTheater = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="outdoor theater"
                   src="assets/images/theater3.webp"
                 />
               </picture>
@@ -590,7 +601,7 @@ const HomeTheater = () => {
                   </p>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/control-4">
+                    <Link to="/brands/control-4">
                       <img
                         width="180"
                         height="180"
@@ -602,7 +613,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/savant">
+                    <Link to="/brands/savant">
                       <img
                         width="180"
                         height="180"
@@ -614,7 +625,7 @@ const HomeTheater = () => {
                   </figure>
 
                   <figure className="wp-block-image size-large servicebrands">
-                    <Link to="/crestron">
+                    <Link to="/brands/crestron">
                       <img
                         width="180"
                         height="180"
@@ -632,6 +643,7 @@ const HomeTheater = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

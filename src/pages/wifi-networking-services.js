@@ -1,9 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const WifiNetworkingServices = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Get lightning-fast Internet speeds and instant device access with a professional home networking installation in Orlando, FL. Contact us today for a reliable and fast home networking setup."
+        />
+        <title>
+        Enjoy Music Your Way with a Custom Music System in Orlando, FL
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -64,7 +75,7 @@ const WifiNetworkingServices = () => {
               >
                 The first step in having a ground-breaking smart home is having
                 the foundation for your smart home created. Homefirst
-                has all the <Link to="/ruckus">networking solutions</Link> you need to
+                has all the <Link to="/brands/ruckus">networking solutions</Link> you need to
                 bring your Orlando, Florida home up to date.
               </p>
             </div>
@@ -82,7 +93,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Wi-Fi Networking Solutions"
                   src="assets/images/wifi12.webp"
                 />
               </picture>
@@ -99,7 +110,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Wireless Network Support Orlando"
                   src="assets/images/wifi14.webp"
                 />
               </picture>
@@ -121,7 +132,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Full System smart home"
                   src="assets/images/wifi-8.webp"
                 />
               </picture>
@@ -163,7 +174,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="networking services"
                   src="assets/images/wifi6.webp"
                 />
               </picture>
@@ -208,7 +219,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Home Wi-Fi Setup"
                   src="assets/images/wifi5.webp"
                 />
               </picture>
@@ -250,7 +261,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="wireless security"
                   src="assets/images/wifi7.webp"
                 />
               </picture>
@@ -289,7 +300,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="ornaldo networking services"
                   src="assets/images/wifi3.webp"
                 />
               </picture>
@@ -306,7 +317,7 @@ const WifiNetworkingServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="smart home networking"
                   src="assets/images/wifi4.webp"
                 />
               </picture>
@@ -316,6 +327,7 @@ const WifiNetworkingServices = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

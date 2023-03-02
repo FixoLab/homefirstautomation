@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 const StartJourney = React.lazy(() => import("../components/start-journey"));
 
 const CoastalSource = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Get top-of-the-line landscape lighting and audio solutions from Coastal Source, with over 50 years of expertise in the field. Get top-notch services from the experts today!"
+        />
+        <title>
+        Landscape Lighting and Audio Solutions from Coastal Source
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -19,7 +30,7 @@ const CoastalSource = () => {
                 height="150"
               >
                 <source
-                  src="assets/video/coastalsource-main1.mp4"
+                  src="/assets/video/coastalsource-main1.mp4"
                   type="video/mp4"
                 />
               </video>
@@ -30,8 +41,8 @@ const CoastalSource = () => {
                       <div className="wp-block-image">
                         <figure className="aligncenter size-full is-resized">
                           <img
-                            src="assets/images/mainlogo.webp"
-                            alt=""
+                            src="/assets/images/mainlogo.webp"
+                            alt="coastal source logo"
                             className="wp-image-2096"
                             width="170"
                             height="25"
@@ -71,14 +82,14 @@ const CoastalSource = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/coastalsource3-mini.webp"
+                      srcSet="/assets/images/coastalsource3-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/coastalsource3.webp"
+                      alt="coastal source landscape lightning"
+                      src="/assets/images/coastalsource3.webp"
                     />
                   </picture>
             </div>
@@ -87,14 +98,14 @@ const CoastalSource = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/coastalsource2-mini.webp"
+                      srcSet="/assets/images/coastalsource2-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/coastalsource2.webp"
+                      alt="lighning services"
+                      src="/assets/images/coastalsource2.webp"
                     />
                   </picture>
             </div>
@@ -114,7 +125,7 @@ const CoastalSource = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -129,7 +140,7 @@ const CoastalSource = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source src="assets/video/coastalsource-lighting.mp4" type="video/mp4" />
+                <source src="/assets/video/coastalsource-lighting.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -156,14 +167,14 @@ const CoastalSource = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/coastalsource4-mini.webp"
+                      srcSet="/assets/images/coastalsource4-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/coastalsource4.webp"
+                      alt="coastal source outdoor lightning"
+                      src="/assets/images/coastalsource4.webp"
                     />
                   </picture>
             </div>
@@ -172,14 +183,14 @@ const CoastalSource = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/coastalsource5-mini.webp"
+                      srcSet="/assets/images/coastalsource5-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/coastalsource5.webp"
+                      alt="lightning control system"
+                      src="/assets/images/coastalsource5.webp"
                     />
                   </picture>
             </div>
@@ -199,7 +210,7 @@ const CoastalSource = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -214,7 +225,7 @@ const CoastalSource = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source src="assets/video/coastalsource-audio.mp4" type="video/mp4" />
+                <source src="/assets/video/coastalsource-audio.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -241,14 +252,14 @@ const CoastalSource = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/coastalsource6-mini.webp"
+                      srcSet="/assets/images/coastalsource6-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/coastalsource6.webp"
+                      alt="coastal source outdoor audio"
+                      src="/assets/images/coastalsource6.webp"
                     />
                   </picture>
             </div>
@@ -257,14 +268,14 @@ const CoastalSource = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/coastalsource7-mini.webp"
+                      srcSet="/assets/images/coastalsource7-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/coastalsource7.webp"
+                      alt="outdoor audio solutions"
+                      src="/assets/images/coastalsource7.webp"
                     />
                   </picture>
             </div>
@@ -283,7 +294,7 @@ const CoastalSource = () => {
                 <img
                   width="1915"
                   height="1440"
-                  src="assets/images/haslam-15.webp"
+                  src="/assets/images/haslam-15.webp"
                   alt=""
                   className="wp-image-847"
                 />
@@ -298,7 +309,7 @@ const CoastalSource = () => {
                 playsInline=""
                 style={{ width: "951px", height: "475.5px" }}
               >
-                <source src="assets/video/coastalsource-system2.mp4" type="video/mp4" />
+                <source src="/assets/video/coastalsource-system2.mp4" type="video/mp4" />
               </video>
             </div>
 
@@ -325,14 +336,14 @@ const CoastalSource = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/coastalsource1b-mini.webp"
+                      srcSet="/assets/images/coastalsource1b-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/coastalsource1b.webp"
+                      alt="coastal source system"
+                      src="/assets/images/coastalsource1b.webp"
                     />
                   </picture>
             </div>
@@ -342,14 +353,14 @@ const CoastalSource = () => {
                 data-aos-duration="800"
                 data-aos-delay="200">
                     <source
-                      srcSet="assets/images/coastalsource8-mini.webp"
+                      srcSet="/assets/images/coastalsource8-mini.webp"
                       media="(max-width: 600px)"
                     />
                     <img
                        width="2000"
                        height="1503"
-                      alt=""
-                      src="assets/images/coastalsource8.webp"
+                      alt="coastal source dealer"
+                      src="/assets/images/coastalsource8.webp"
                     />
                   </picture>
             </div>
@@ -358,6 +369,7 @@ const CoastalSource = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 
