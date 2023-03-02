@@ -19,7 +19,7 @@ const GolfSimulators = () => {
           style={{
             backgroundSize: "cover",
             backgroundImage:
-              "url(https://theintegratedhome.net/templates/yootheme/cache/df/golfzon-golf-simulator-vision-highlights-premium-luxury-livingroom-kv-dfe30806.webp)",
+              "url(assets/images/gulf-semulator-hero.webp)",
           }}
           uk-img=""
           className="uk-background-norepeat uk-background-center-center uk-section"
