@@ -26,7 +26,7 @@ const BlogItem = ({ blog }) => {
       <div
         className="image"
         style={{
-          backgroundImage: `url(${blog?.better_featured_image.source_url})`,
+          backgroundImage: `url(${blog?.better_featured_image?.source_url})`,
         }}
       ></div>
       <div style={{ padding: "15px", flexGrow: "1" }}>

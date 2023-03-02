@@ -36,8 +36,8 @@ const RelatedPost = ({ singleId, blogDetails }) => {
                 <div className="content">
                   <div className="image">
                     <img
-                      src={data?.better_featured_image.source_url}
-                      alt={data?.title.rendered}
+                      src={data?.better_featured_image?.source_url}
+                      alt={data?.better_featured_image?.alt_text}
                     />
                   </div>
                   <div className="details">
