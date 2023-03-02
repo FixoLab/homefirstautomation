@@ -790,6 +790,7 @@ li.menu-item-3288 .fas {
   transition: 0.5s;
   font-size: 14px !important;
   color: #888 !important;
+  width: 100%;
 }
 .iconsbox .wp-block-column:hover .hideonshow {
   opacity: 1;

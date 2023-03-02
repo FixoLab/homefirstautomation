@@ -104,7 +104,7 @@ const BlogDetails = () => {
               <div className="area-image">
                 <img
                   src={blogDetails[0]?.better_featured_image?.source_url}
-                  alt={blogDetails[0]?.better_featured_image?.alt_text}
+                  alt={blogDetails[0]?.better_featured_image?.alt_text ? blogDetails[0]?.better_featured_image?.alt_text : blogDetails[0]?.title.rendered}
                 />
               </div>
               <div
