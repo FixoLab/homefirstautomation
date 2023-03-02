@@ -1,8 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const About = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Get the best technological upgrades for your home or business with Homefirst ! We provide security systems, smart home systems, theater systems, and commercial automation systems."
+        />
+        <title>
+        Smart Home Automation Experts Serving Orlando, FL | Homefirst
+        </title>
+      </Helmet>
+   
     <div id="site-content" className="about">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -89,7 +101,7 @@ const About = () => {
                       height="61"
                       className="wp-image-695"
                       src="assets/images/signature.webp"
-                      alt=""
+                      alt="smart home consultants"
                     />
                   </div>
 
@@ -107,7 +119,7 @@ const About = () => {
                       <img
                         style={{ display: "block" }}
                         src="assets/images/boha-2019-solid-border.webp"
-                        alt="HomeFirst - Best of HomeAdvisor"
+                        alt="smarthome services"
                       />
                     </Link>
                     <table
@@ -122,7 +134,7 @@ const About = () => {
                             <Link to="#">
                               <img
                                 src="assets/images/badge125.webp"
-                                alt="Joshua Trevithick in Orlando, Florida, CA on Houzz"
+                                alt="houzz smart services"
                                 width="125"
                                 height="125"
                                 border="0"
@@ -143,7 +155,7 @@ const About = () => {
                             <Link to="#">
                               <img
                                 src="assets/images/badge54.webp"
-                                alt="Joshua Trevithick in Orlando, Florida, CA on Houzz"
+                                alt="best houzz services"
                                 width="80"
                                 height="80"
                                 border="0"
@@ -159,7 +171,7 @@ const About = () => {
                         height="365"
                         className="wp-image-566"
                         src="assets/images/cedia2-logo.webp"
-                        alt=""
+                        alt="cedia logo"
                       />
                     </figure>
                     <Link
@@ -173,7 +185,7 @@ const About = () => {
                         id="bbblinkimg"
                         style={{ padding: "0px", border: "none" }}
                         src="assets/images/project1.webp"
-                        alt="HomeFirst, Audio Visual Equipment, Orlando, Florida, CA"
+                        alt="BBB accredited business"
                         width="400"
                         height="90"
                       />
@@ -184,7 +196,7 @@ const About = () => {
                         height="690"
                         className="wp-image-536"
                         src="assets/images/control4gold-logo.webp"
-                        alt=""
+                        alt="control4gold-logo"
                       />
                     </figure>
                     <div className="wp-block-image control4small">
@@ -193,7 +205,7 @@ const About = () => {
                           <img
                             className="wp-image-3276"
                             src="assets/images/cediacit.webp"
-                            alt=""
+                            alt="cedia technicians"
                             width="159"
                             height="159"
                           />
@@ -320,7 +332,7 @@ const About = () => {
 
                   <div className="is-layout-flow wp-block-column">
                     <p>
-                      <Link to="/home-theater">Home Theater</Link>
+                      <Link to="/home-theatre">Home Theater</Link>
                     </p>
                   </div>
 
@@ -365,7 +377,7 @@ const About = () => {
 
                   <div className="is-layout-flow wp-block-column">
                     <p>
-                      <Link to="/commercial-services">
+                      <Link to="/commercial">
                         Commercial Integration
                       </Link>
                     </p>
@@ -377,6 +389,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

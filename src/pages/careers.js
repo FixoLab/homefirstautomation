@@ -1,10 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const Careers = () => {
   return (
-    <>
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="We're looking for creative people to join our team and help shape the future of technology. If you're passionate about making a difference, Join HomeFirst and make a difference! "
+        />
+        <title>
+        Join an Innovative Team at HomeFirst | Shape Technology and Create Change
+        </title>
+      </Helmet>
       <div className="uk-section-secondary uk-position-relative carears-hero">
         <div
           style={{
@@ -93,7 +103,7 @@ const Careers = () => {
                           <img
                             width="1000"
                             height="1393"
-                            alt="Careers Team"
+                            alt="home automation careers"
                             src="assets/images/careers-team-01.webp"
                           />
                         </picture>
@@ -111,7 +121,7 @@ const Careers = () => {
                           <img
                             width="1000"
                             height="667"
-                            alt="Careers Team"
+                            alt="home automation careers team 1"
                             src="assets/images/careers-team-02.webp"
                           />
                         </picture>
@@ -129,7 +139,7 @@ const Careers = () => {
                           <img
                             width="1000"
                             height="667"
-                            alt="Careers Team"
+                            alt="home automation careers team 2"
                             src="assets/images/careers-team-03.webp"
                           />
                         </picture>
@@ -147,7 +157,7 @@ const Careers = () => {
                           <img
                             width="1000"
                             height="606"
-                            alt="Careers Team"
+                            alt="home automation careers team 3"
                             src="assets/images/careers-team-04.webp"
                           />
                         </picture>
@@ -165,7 +175,7 @@ const Careers = () => {
                           <img
                             width="1000"
                             height="1333"
-                            alt="Careers Team"
+                            alt="home automation careers team 4"
                             src="assets/images/careers-team-05.webp"
                           />
                         </picture>
@@ -183,7 +193,7 @@ const Careers = () => {
                           <img
                             width="1000"
                             height="667"
-                            alt="Careers Team"
+                            alt="home automation careers team 5"
                             src="assets/images/careers-team-06.webp"
                           />
                         </picture>
@@ -201,7 +211,7 @@ const Careers = () => {
                           <img
                             width="1000"
                             height="667"
-                            alt="Careers Team"
+                            alt="home automation careers team 6"
                             src="assets/images/careers-team-07.webp"
                           />
                         </picture>
@@ -219,7 +229,7 @@ const Careers = () => {
                           <img
                             width="1000"
                             height="667"
-                            alt="Careers Team"
+                            alt="home automation careers team 7"
                             src="assets/images/careers-team-08.webp"
                           />
                         </picture>
@@ -237,7 +247,7 @@ const Careers = () => {
                           <img
                             width="1000"
                             height="667"
-                            alt="Careers Team"
+                            alt="home automation careers team 8"
                             src="assets/images/careers-team-09.webp"
                           />
                         </picture>
@@ -313,7 +323,7 @@ const Careers = () => {
                   <img
                     width="1600"
                     height="1065"
-                    alt="about"
+                    alt="smart home technology careers"
                     src="assets/images/about-01.webp"
                   />
                 </picture>
@@ -339,7 +349,7 @@ const Careers = () => {
           </div>
         </div>
       </div>
-    </>
+    </HelmetProvider>
   );
 };
 

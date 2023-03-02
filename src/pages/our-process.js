@@ -1,8 +1,19 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const OurProcess = () => {
   return (
+   <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Smart home installers in Orlando, Florida and its surrounding areas offering reliable design-build solutions that meet customers’ performance expectations.Contact us today to get started."
+        />
+        <title>
+        Smart Home Installation in Orlando, Florida | Homefirst
+        </title>
+      </Helmet>
     <div id="site-content" className="our-process">
       <div className="our-process-hero">
         <video src="assets/video/our-process.mp4" loop autoPlay muted></video>
@@ -120,6 +131,7 @@ const OurProcess = () => {
         </div>
       </div>
     </div>
+   </HelmetProvider>
   );
 };
 

@@ -1,8 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 const ConnectedStudioHome = () => {
   return (
+    <HelmetProvider>
+       <Helmet>
+        <meta
+          name="description"
+          content="Put an end to walking from room to room to adjust shades, lights, temperature and audio/video components. Get started on your custom smart home automation system today"
+        />
+        <title>
+        Create Your Custom Smart Home Automation System | Homefirst
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="connected-living-title-section">
         <div className="title-inner">
@@ -21,7 +32,7 @@ const ConnectedStudioHome = () => {
         <img
           style={{ width: "100%" }}
           src="assets/images/connected-studio-home.webp"
-          alt=""
+          alt="orlando home network installation"
         />
          <picture className="el-image">
           <source
@@ -31,7 +42,7 @@ const ConnectedStudioHome = () => {
           <img
             width="auto"
             height="auto"
-            alt="about"
+            alt="orlando home network installation"
             src="assets/images/connected-studio-home.webp"
           />
         </picture>
@@ -57,7 +68,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart living and home automation"
               />
             </div>
             <div className="csh-card-content">
@@ -93,7 +104,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart dining"
               />
             </div>
             <div className="csh-card-content">
@@ -129,7 +140,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart home system"
               />
             </div>
             <div className="csh-card-content">
@@ -167,7 +178,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="monirorized window treatment"
               />
             </div>
             <div className="csh-card-content">
@@ -203,7 +214,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="monirorized window treatment"
               />
             </div>
             <div className="csh-card-content">
@@ -242,7 +253,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="smart home streamlines"
               />
             </div>
             <div className="csh-card-content">
@@ -278,7 +289,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="media room"
               />
             </div>
             <div className="csh-card-content">
@@ -315,7 +326,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="media room"
               />
             </div>
             <div className="csh-card-content">
@@ -352,7 +363,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="lightning control"
               />
             </div>
             <div className="csh-card-content">
@@ -388,7 +399,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="Networking"
               />
             </div>
             <div className="csh-card-content">
@@ -424,7 +435,7 @@ const ConnectedStudioHome = () => {
                 width="800"
                 height="400"
                 className="el-image uk-margin-auto uk-display-block"
-                alt=""
+                alt="Networking"
               />
             </div>
             <div className="csh-card-content">
@@ -456,6 +467,7 @@ const ConnectedStudioHome = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

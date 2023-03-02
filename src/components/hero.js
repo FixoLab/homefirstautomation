@@ -24,7 +24,7 @@ const Hero = () => {
               width="470"
               height="938"
               src="assets/images/phoneoverlay4.webp"
-              alt="hero"
+              alt="Orlando home automation"
               className="wp-image-1922"
               loading="lazy"
             />
@@ -55,7 +55,7 @@ const Hero = () => {
                       <Link aria-label="hero image" to="#">
                         <img
                           src="assets/images/cediacit.webp"
-                          alt="hero"
+                          alt="home automation installation"
                           className="wp-image-3276"
                           width="159"
                           height="159"

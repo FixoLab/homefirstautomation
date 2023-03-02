@@ -94,7 +94,7 @@ const AppRouter = () => {
             path="/smart-home-automation"
             element={<SmartHomeAutomation />}
           />
-          <Route path="/home-theater" element={<HomeTheater />} />
+          <Route path="/home-theatre" element={<HomeTheater />} />
           <Route path="/lighting-systems" element={<LightingSystems />} />
           <Route path="/audio-systems" element={<AudioSystems />} />
           <Route path="/smart-security" element={<SmartSecurity />} />
@@ -102,25 +102,25 @@ const AppRouter = () => {
             path="/wifi-networking-services"
             element={<WifiNetworkingServices />}
           />
-          <Route path="/commercial-services" element={<CommercialServices />} />
+          <Route path="/commercial" element={<CommercialServices />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/brands-we-carry" element={<BrandsWeCarry />} />
+          <Route path="/brands" element={<BrandsWeCarry />} />
           <Route path="/partners" element={<Partners />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogDetails />} />
           <Route path="/start-your-project" element={<StartYourProject />} />
 
-          <Route path="/interior-designers" element={<InteriorDesigners />} />
-          <Route path="/savant" element={<Savant />} />
+          <Route path="/partners/interior-designers" element={<InteriorDesigners />} />
+          <Route path="/brands/savant" element={<Savant />} />
           <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/ruckus" element={<Ruckus />} />
-          <Route path="/lutron" element={<Lutron />} />
-          <Route path="/crestron" element={<Crestron />} />
-          <Route path="/coastal-source" element={<CoastalSource />} />
-          <Route path="/knx" element={<Knx />} />
-          <Route path="/hunter-douglas" element={<HunterDouglas />} />
-          <Route path="/alarm-com" element={<AlarmCom />} />
-          <Route path="/josh-ai" element={<JoshAi />} />
+          <Route path="/brands/ruckus" element={<Ruckus />} />
+          <Route path="/brands/lutron" element={<Lutron />} />
+          <Route path="/brands/crestron" element={<Crestron />} />
+          <Route path="/brands/coastal-source" element={<CoastalSource />} />
+          <Route path="/brands/knx" element={<Knx />} />
+          <Route path="/brands/hunter-douglas" element={<HunterDouglas />} />
+          <Route path="/brands/alrarm-com" element={<AlarmCom />} />
+          <Route path="/brands/josh-ai" element={<JoshAi />} />
           <Route path="/indoor-living" element={<IndoorLiving />} />
           <Route path="/connected-home" element={<ConnectedHome />} />
           <Route path="/a-day-in-the-life" element={<ADayInTheLife />} />
@@ -129,32 +129,32 @@ const AppRouter = () => {
             element={<ConnectedStudioHome />}
           />
           <Route
-            path="/design-build-partners"
+            path="/partners/design-build-partners"
             element={<DesignBuildPartners />}
           />
           <Route
-            path="/commercial-solutions-commercial-automation"
+            path="/commercial/automation-system"
             element={<CommercialAutomation />}
           />
           <Route
-            path="/commercial-solutions-commercial-audio-video"
+            path="/commercial/audio-visual-system"
             element={<CommercialAudioVideo />}
           />
           <Route
-            path="/commercial-solutions-commercial-security"
+            path="/commercial/security-system"
             element={<CommercialSecurity />}
           />
           <Route
-            path="/commercial-solutions-commercial-technology"
+            path="/commercial/technology"
             element={<CommercialTechnology />}
           />
-          <Route path="/realtors" element={<Realtors />} />
-          <Route path="/contractors" element={<Contractors />} />
+          <Route path="/partners/realtors" element={<Realtors />} />
+          <Route path="/partners/contractors" element={<Contractors />} />
           <Route path="/our-process" element={<OurProcess />} />
           <Route path="/category/:id" element={<Category />} />
           <Route path="/years/:published_on" element={<Years />} />
           <Route path="/tags/:id" element={<Tags />} />
-          <Route path="/control-4" element={<Control4 />} />
+          <Route path="/brands/control-4" element={<Control4 />} />
           <Route path="/golf-simulators" element={<GolfSimulators />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />

@@ -1,9 +1,20 @@
 import React from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const CallToAction = React.lazy(() => import("../components/call-to-action"));
 
 const CommercialServices = () => {
   return (
+    <HelmetProvider>
+    <Helmet>
+        <meta
+          name="description"
+          content="Homefirst offers assistance to help expand your current business in Orlando, Florida, setup a new point of sale location, create a top of the line commercial room design, and more."
+        />
+        <title>
+        Expand Your Business in Orlando, Florida with Homefirst
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="post-inner thin ">
         <div className="entry-content">
@@ -71,7 +82,7 @@ const CommercialServices = () => {
                 Let Homefirst help to expand your current Orlando, Florida
                 business, setup a brand new point of sale location, or create a
                 top of the line{" "}
-                <Link to="/crestron">commercial room design.</Link> Whatever
+                <Link to="/brands/crestron">commercial room design.</Link> Whatever
                 your commercial application is we can help.
               </p>
             </div>
@@ -89,7 +100,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="Smart lighting for business"
                   src="assets/images/commercial23.webp"
                 />
               </picture>
@@ -106,7 +117,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial room design"
                   src="assets/images/commercial22.webp"
                 />
               </picture>
@@ -128,7 +139,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial wifi"
                   src="assets/images/commercial15.webp"
                 />
               </picture>
@@ -171,7 +182,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial lightning"
                   src="assets/images/commercial3.webp"
                 />
               </picture>
@@ -214,7 +225,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial shading"
                   src="assets/images/commercial1.webp"
                 />
               </picture>
@@ -252,7 +263,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="building control systems"
                   src="assets/images/commercial9.webp"
                 />
               </picture>
@@ -269,7 +280,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="communicaton services"
                   src="assets/images/commercial10.webp"
                 />
               </picture>
@@ -290,7 +301,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial video & audio system"
                   src="assets/images/commercial21.webp"
                 />
               </picture>
@@ -331,7 +342,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial video conferencing"
                   src="assets/images/commercial13.webp"
                 />
               </picture>
@@ -374,7 +385,7 @@ const CommercialServices = () => {
                 <img
                    width="1197"
                    height="900"
-                  alt=""
+                  alt="commercial smart system"
                   src="assets/images/commercial20.webp"
                 />
               </picture>
@@ -405,6 +416,7 @@ const CommercialServices = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 

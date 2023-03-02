@@ -1,7 +1,18 @@
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const ADayInTheLife = () => {
   return (
+    <HelmetProvider>
+     <Helmet>
+        <meta
+          name="description"
+          content="Upgrade your home and make life easier with a customized system designed to fit your routine and whimsy. Contact us today to get started!"
+        />
+        <title>
+        Smart Living – Design Your Customized Home System Today
+        </title>
+      </Helmet>
     <div id="site-content">
       <div className="brands a-day-life">
         <div className="post-inner thin ">
@@ -404,6 +415,7 @@ const ADayInTheLife = () => {
         </div>
       </div>
     </div>
+    </HelmetProvider>
   );
 };
 
