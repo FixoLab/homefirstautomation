@@ -14,15 +14,13 @@ const GolfSimulators = () => {
         Play Golf Like the Masters with a GOLFZON Simulator in Orlando, FL
         </title>
       </Helmet>
-      <div className="uk-section-default golf-simulators-hero">
-        <div
-          style={{
+      <div className="uk-section-default golf-simulators-hero uk-background-norepeat uk-background-center-center uk-section"  style={{
             backgroundSize: "cover",
             backgroundImage:
-              "url(https://theintegratedhome.net/templates/yootheme/cache/df/golfzon-golf-simulator-vision-highlights-premium-luxury-livingroom-kv-dfe30806.webp)",
-          }}
-          uk-img=""
-          className="uk-background-norepeat uk-background-center-center uk-section"
+              "url(assets/images/gulf-semulator-hero.webp)",
+          }}>
+        <div
+         
         >
           <div className="uk-container uk-container-large">
             <div className="tm-grid-expand uk-grid-margin uk-grid" uk-grid="">
