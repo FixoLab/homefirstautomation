@@ -35,6 +35,7 @@ const CallToAction = () => {
               home. Because we value our client’s privacy above all else, this
               project was only shared after being granted permission to do so.
             </p>
+
             <p className="has-text-align-center pointsmade homeauto">
               <a href="#">View Project Overview</a>
             </p>

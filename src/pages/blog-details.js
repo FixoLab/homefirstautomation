@@ -73,7 +73,7 @@ const BlogDetails = () => {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href={`https://pinterest.com/pin/create/button/?url=https://homefirstautomation.vercel.app/blog/${blogDetails[0]?.slug}&media=${blogDetails[0]?.better_featured_image.source_url}&description=<YOUR DESCRIPTION HERE>`}
+                    href={`https://pinterest.com/pin/create/button/?url=https://homefirstautomation.vercel.app/blog/${blogDetails[0]?.slug}&media=${blogDetails[0]?.better_featured_image?.source_url}&description=<YOUR DESCRIPTION HERE>`}
                   >
                     <i className="fa-brands fa-pinterest"></i>
                   </a>
@@ -103,8 +103,8 @@ const BlogDetails = () => {
               </h1>
               <div className="area-image">
                 <img
-                  src={blogDetails[0]?.better_featured_image.source_url}
-                  alt=""
+                  src={blogDetails[0]?.better_featured_image?.source_url}
+                  alt={blogDetails[0]?.better_featured_image?.alt_text ? blogDetails[0]?.better_featured_image?.alt_text : blogDetails[0]?.title.rendered}
                 />
               </div>
               <div
