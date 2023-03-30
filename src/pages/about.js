@@ -179,7 +179,7 @@ const About = () => {
                       className="ruhzbul"
                       style={{ padding: "0px", margin: "0px" }}
                       title="HomeFirst, Audio Visual Equipment, Orlando, Florida, CA"
-                      to="#"
+                      to="https://www.bbb.org/us/fl/orlando/profile/home-automation/homefirst-security-and-automation-0733-235957755"
                     >
                       <img
                         id="bbblinkimg"

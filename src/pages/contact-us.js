@@ -6,6 +6,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const ContactUs = () => {
+  
   return (
     <HelmetProvider>
     <Helmet>
@@ -36,14 +37,6 @@ const ContactUs = () => {
                   preload={true}
                   src="assets/video/contact-final-video.mp4"
                 />
-                {/* <video
-                  
-                >
-                  <source
-                    src="assets/video/contact-final-video.mp4"
-                    type="video/mp4"
-                  />
-                </video> */}
                 <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                   <div className="wp-block-group__inner-container">
                     <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible animated fadeInUp duration3">

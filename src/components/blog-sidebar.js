@@ -43,6 +43,8 @@ const BlogSidebar = ({ blogData }) => {
   let monthlyData = newData.filter((item, index, self) => {
     return self.indexOf(item) === index;
   });
+  console.log("monthlyData", monthlyData);
+  console.log("newData", newData);
 
   return (
     <>
