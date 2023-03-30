@@ -19,6 +19,7 @@ const JoshAi = () => {
                 height="150"
               >
                 <source src="/assets/video/josh-ai-hero.mp4" type="video/mp4" />
+                <source src="/assets/video/josh-ai-hero.oggtheora.ogv" type="video/ogg" />
               </video>
               <div className="overlay2" />
               <div className="josh-ai-hero-content">

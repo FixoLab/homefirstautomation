@@ -20,7 +20,11 @@ const SmartSecurity = () => {
                 height="150"
               >
                 <source
-                  src="assets/video/smart-security-final-smaller.mov"
+                  src="assets/video/smart-security-final-smaller.mp4"
+                  type="video/mp4"
+                />
+                <source
+                  src="assets/video/smart-security-final-smaller.oggtheora.ogv"
                   type="video/mp4"
                 />
               </video>

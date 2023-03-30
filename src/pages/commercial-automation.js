@@ -27,6 +27,10 @@ const CommercialAutomation = () => {
               src="/assets/video/commurcial-automation-hero.mp4"
               type="video/mp4"
             />
+            <source
+              src="/assets/video/commurcial-automation-hero.oggtheora.ogv"
+              type="video/ogg"
+            />
           </video>
           <div
             className="uk-position-cover"

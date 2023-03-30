@@ -31,8 +31,12 @@ const WifiNetworkingServices = () => {
                 height="150"
               >
                 <source
-                  src="assets/video/wifi-services-final.mov"
+                  src="assets/video/wifi-services-final.mp4"
                   type="video/mp4"
+                />
+                <source
+                  src="assets/video/wifi-services-final.oggtheora.ogv"
+                  type="video/ogg"
                 />
               </video>
 
