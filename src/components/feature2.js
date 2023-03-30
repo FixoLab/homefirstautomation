@@ -69,6 +69,7 @@ const Feature2 = ({ title }) => {
           loading="lazy"
         >
           <source src="assets/video/middlearea4.mp4" type="video/mp4" />
+          <source src="assets/video/middlearea4.oggtheora.ogv" type="video/ogg" />
         </video>
       </div>
     </div>

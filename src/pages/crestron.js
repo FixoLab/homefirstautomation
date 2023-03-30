@@ -34,6 +34,10 @@ const Crestron = () => {
                   src="/assets/video/creston-about-video.mp4"
                   type="video/mp4"
                 />
+                <source
+                  src="/assets/video/creston-about-video.oggtheora.ogv"
+                  type="video/ogg"
+                />
               </video>
 
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
@@ -153,6 +157,7 @@ const Crestron = () => {
                 height="150"
               >
                 <source src="/assets/video/crestron-os.mp4" type="video/mp4" />
+                <source src="/assets/video/crestron-os.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
           </div>
@@ -210,6 +215,10 @@ const Crestron = () => {
                 <source
                   src="/assets/video/crestron-remote2.mp4"
                   type="video/mp4"
+                />
+                <source
+                  src="/assets/video/crestron-remote2.oggtheora.ogv"
+                  type="video/ogg"
                 />
               </video>
             </div>
@@ -307,6 +316,7 @@ const Crestron = () => {
                 height="150"
               >
                 <source src="/assets/video/flex7.mp4" type="video/mp4" />
+                <source src="/assets/video/flex7.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
           </div>

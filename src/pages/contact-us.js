@@ -24,26 +24,25 @@ const ContactUs = () => {
           <div>
             <div className="is-layout-flow wp-block-group homevideo servicespages">
               <div className="wp-block-group__inner-container">
-                <LazyVideo
-                  id="video-background"
-                  classes={["high4kres"]}
-                  autoplay={true}
-                  loop={true}
-                  muted={true}
-                  width={300}
-                  height={150}
-                  controls={false}
-                  preload={true}
-                  src="assets/video/contact-final-video.mp4"
-                />
-                {/* <video
-                  
+                <video
+                   id="video-background"
+                   classes="high4kres"
+                   autoPlay
+                loop="loop"
+                muted
+                playsInline=""
+                width="300"
+                height="150"
                 >
                   <source
                     src="assets/video/contact-final-video.mp4"
                     type="video/mp4"
                   />
-                </video> */}
+                  <source
+                    src="assets/video/contact-final-video.oggtheora.ogv"
+                    type="video/ogg"
+                  />
+                </video>
                 <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                   <div className="wp-block-group__inner-container">
                     <div className="is-layout-flow wp-block-group servicessubs eds-on-scroll eds-scroll-visible animated fadeInUp duration3">
