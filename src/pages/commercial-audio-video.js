@@ -27,6 +27,10 @@ const CommercialAudioVideo = () => {
             src="/assets/video/commercial-audio-video-hero.mp4"
             type="video/mp4"
           />
+          <source
+            src="/assets/video/commercial-audio-video-hero.oggtheora.ogv"
+            type="video/ogg"
+          />
         </video>
         <div className="uk-position-cover" style={{backgroundColor: "rgba(0, 0, 0, 0)"}}></div>
         <div className="csca-content">

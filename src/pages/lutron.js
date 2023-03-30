@@ -30,6 +30,7 @@ const Ruckus = () => {
                 height="150"
               >
                 <source src="/assets/video/lutronintro.mp4" type="video/mp4" />
+                <source src="/assets/video/lutronintro.oggtheora.ogv" type="video/ogg" />
               </video>
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
@@ -134,6 +135,7 @@ const Ruckus = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source src="/assets/video/lutronshades1.mp4" type="video/mp4" />
+                <source src="/assets/video/lutronshades1.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
 
@@ -221,6 +223,7 @@ const Ruckus = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source src="/assets/video/lutrondimmer1.mp4" type="video/mp4" />
+                <source src="/assets/video/lutrondimmer1.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
 
@@ -308,6 +311,7 @@ const Ruckus = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source src="/assets/video/lutronos1.mp4" type="video/mp4" />
+                <source src="/assets/video/lutronos1.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
 

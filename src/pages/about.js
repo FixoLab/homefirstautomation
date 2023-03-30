@@ -33,6 +33,10 @@ const About = () => {
                     src="assets/video/aboutus-final.mp4"
                     type="video/mp4"
                   />
+                  <source
+                    src="assets/video/aboutus-final.oggtheora.ogv"
+                    type="video/ogg"
+                  />
                 </video>
                 <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                   <div className="wp-block-group__inner-container">

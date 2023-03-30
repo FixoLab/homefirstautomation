@@ -30,6 +30,7 @@ const Savant = () => {
                 height="150"
               >
                 <source src="/assets/video/Mainvideo-1.mp4" type="video/mp4" />
+                <source src="/assets/video/Mainvideo-1.oggtheora.ogv" type="video/ogg" />
               </video>
 
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
@@ -150,6 +151,10 @@ const Savant = () => {
                   src="/assets/video/savant-shades2.mp4"
                   type="video/mp4"
                 />
+                <source
+                  src="/assets/video/savant-shades2.oggtheora.ogv"
+                  type="video/ogg"
+                />
               </video>
             </div>
 
@@ -243,6 +248,7 @@ const Savant = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source src="/assets/video/savant-light.mp4" type="video/mp4" />
+                <source src="/assets/video/savant-light.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
 
@@ -340,6 +346,10 @@ const Savant = () => {
                 <source
                   src="/assets/video/savant-remote2.mp4"
                   type="video/mp4"
+                />
+                <source
+                  src="/assets/video/savant-remote2.oggtheora.ogv"
+                  type="video/ogg"
                 />
               </video>
             </div>

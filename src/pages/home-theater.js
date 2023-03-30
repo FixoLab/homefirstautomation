@@ -34,6 +34,10 @@ const HomeTheater = () => {
                   src="assets/video/theater-services-final.mp4"
                   type="video/mp4"
                 />
+                <source
+                  src="assets/video/theater-services-final.oggtheora.ogv"
+                  type="video/ogg"
+                />
               </video>
 
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
