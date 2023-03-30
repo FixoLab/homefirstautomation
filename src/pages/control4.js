@@ -10,13 +10,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Control4 = () => {
   return (
     <HelmetProvider>
-    <Helmet>
+      <Helmet>
         <meta
           name="description"
           content="Make your Orange County property a true oasis with Control4's innovative Smart Home Solutions. Enhance your lifestyle with cutting-edge products and features."
         />
         <title>
-        Enjoy Luxury Living in Orange County with Control4's Smart Home Solutions
+          Enjoy Luxury Living in Orange County with Control4's Smart Home
+          Solutions
         </title>
       </Helmet>
       <div
@@ -25,15 +26,10 @@ const Control4 = () => {
         tm-header-transparent="light"
         uk-height-viewport="offset-top: true; offset-bottom: 20;"
       >
-        <video
-          src="/assets/video/contol-4.mp4"
-          type="video/mp4"
-          loop
-          autoPlay
-          muted
-          playsInline=""
-          uk-cover=""
-        ></video>
+        <video loop autoPlay muted playsInline="" uk-cover="">
+          <source src="/assets/video/contol-4.mp4" type="video/mp4" />
+          <source src="/assets/video/contol-4.oggtheora.ogv" type="video/ogg" />
+        </video>
         <div
           className="uk-position-cover"
           style={{ backgroundColor: "rgba(8, 8, 8, 0.2)" }}
@@ -82,14 +78,10 @@ const Control4 = () => {
         className="uk-hidden@m uk-section-secondary uk-cover-container uk-section uk-padding-remove-vertical uk-flex uk-flex-middle contro4_hero"
         uk-height-viewport="offset-top: true; offset-bottom: true;"
       >
-        <video
-          src="/assets/video/contol-4.mp4"
-          loop
-          autoPlay
-          muted
-          playsInline=""
-          uk-cover=""
-        ></video>
+        <video loop autoPlay muted playsInline="" uk-cover="">
+          <source src="/assets/video/contol-4.mp4" type="video/mp4" />
+          <source src="/assets/video/contol-4.oggtheora.ogv" type="video/ogg" />
+        </video>
         <div
           className="uk-position-cover"
           style={{
@@ -154,7 +146,10 @@ const Control4 = () => {
       <div className="control4-nav">
         <div className="control4-nav-area">
           <div className="image">
-            <img src="/assets/images/logo-brands-control4.webp" alt="control4 logo" />
+            <img
+              src="/assets/images/logo-brands-control4.webp"
+              alt="control4 logo"
+            />
           </div>
           <div className="nav-area">
             <a href="#1">CONTROL4 OS3</a>
@@ -191,8 +186,8 @@ const Control4 = () => {
                   media="(max-width: 600px)"
                 />
                 <img
-                   width="1197"
-                   height="900"
+                  width="1197"
+                  height="900"
                   alt="control4 home automation system"
                   src="/assets/images/header-brands-control4.webp"
                 />
@@ -324,7 +319,10 @@ const Control4 = () => {
               </p>
             </div>
             <div className="image">
-              <img src="/assets/images/header-brands-control4-02.webp" alt="home control devices" />
+              <img
+                src="/assets/images/header-brands-control4-02.webp"
+                alt="home control devices"
+              />
             </div>
             <div className="bottom">
               <h4>WANT TO HAVE A SMART HOME?</h4>

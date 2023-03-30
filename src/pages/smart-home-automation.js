@@ -34,6 +34,10 @@ const SmartHomeAutomation = () => {
                   src="assets/video/smart-services-new-final.mp4"
                   type="video/mp4"
                 />
+                <source
+                  src="assets/video/smart-services-new-final.oggtheora.ogv"
+                  type="video/ogg"
+                />
               </video>
 
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">

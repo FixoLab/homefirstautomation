@@ -33,6 +33,10 @@ const About = () => {
                     src="assets/video/aboutus-final.mp4"
                     type="video/mp4"
                   />
+                  <source
+                    src="assets/video/aboutus-final.oggtheora.ogv"
+                    type="video/ogg"
+                  />
                 </video>
                 <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                   <div className="wp-block-group__inner-container">
@@ -179,7 +183,7 @@ const About = () => {
                       className="ruhzbul"
                       style={{ padding: "0px", margin: "0px" }}
                       title="HomeFirst, Audio Visual Equipment, Orlando, Florida, CA"
-                      to="#"
+                      to="https://www.bbb.org/us/fl/orlando/profile/home-automation/homefirst-security-and-automation-0733-235957755"
                     >
                       <img
                         id="bbblinkimg"

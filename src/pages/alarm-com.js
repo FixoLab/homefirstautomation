@@ -33,6 +33,10 @@ const AlarmCom = () => {
                   src="/assets/video/alarmdotcom-about3.mp4"
                   type="video/mp4"
                 />
+                <source
+                  src="/assets/video/alarmdotcom-about3.oggtheora.ogv"
+                  type="video/ogg"
+                />
               </video>
             </div>
           </div>
@@ -119,6 +123,10 @@ const AlarmCom = () => {
                 <source
                   src="/assets/video/alarmdotcom-home1.mp4"
                   type="video/mp4"
+                />
+                <source
+                  src="/assets/video/alarmdotcom-home1.oggtheora.ogv"
+                  type="video/ogg"
                 />
               </video>
             </div>
@@ -213,6 +221,10 @@ const AlarmCom = () => {
                   src="/assets/video/alarmdotcom-business.mp4"
                   type="video/mp4"
                 />
+                <source
+                  src="/assets/video/alarmdotcom-business.oggtheora.ogv"
+                  type="video/ogg"
+                />
               </video>
             </div>
 
@@ -303,6 +315,10 @@ const AlarmCom = () => {
                 <source
                   src="/assets/video/alarmdotcom-custom.mp4"
                   type="video/mp4"
+                />
+                <source
+                  src="/assets/video/alarmdotcom-custom.oggtheora.ogv"
+                  type="video/ogg"
                 />
               </video>
             </div>

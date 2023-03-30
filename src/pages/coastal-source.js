@@ -33,6 +33,10 @@ const CoastalSource = () => {
                   src="/assets/video/coastalsource-main1.mp4"
                   type="video/mp4"
                 />
+                <source
+                  src="/assets/video/coastalsource-main1.oggtheora.ogv"
+                  type="video/ogg"
+                />
               </video>
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">
                 <div className="wp-block-group__inner-container">
@@ -141,6 +145,7 @@ const CoastalSource = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source src="/assets/video/coastalsource-lighting.mp4" type="video/mp4" />
+                <source src="/assets/video/coastalsource-lighting.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
 
@@ -226,6 +231,7 @@ const CoastalSource = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source src="/assets/video/coastalsource-audio.mp4" type="video/mp4" />
+                <source src="/assets/video/coastalsource-audio.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
 
@@ -310,6 +316,7 @@ const CoastalSource = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source src="/assets/video/coastalsource-system2.mp4" type="video/mp4" />
+                <source src="/assets/video/coastalsource-system2.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
 

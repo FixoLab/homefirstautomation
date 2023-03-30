@@ -30,6 +30,7 @@ const Ruckus = () => {
                 height="150"
               >
                 <source src="/assets/video/ruckus-intro.mp4" type="video/mp4" />
+                <source src="/assets/video/ruckus-intro.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
           </div>
@@ -116,6 +117,7 @@ const Ruckus = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source src="/assets/video/ruckus-home.mp4" type="video/mp4" />
+                <source src="/assets/video/ruckus-home.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
 
@@ -209,6 +211,10 @@ const Ruckus = () => {
                   src="/assets/video/ruckus-business1.mp4"
                   type="video/mp4"
                 />
+                <source
+                  src="/assets/video/ruckus-business1.oggtheora.ogv"
+                  type="video/ogg"
+                />
               </video>
             </div>
 
@@ -298,6 +304,10 @@ const Ruckus = () => {
                 <source
                   src="/assets/video/ruckus-software.mp4"
                   type="video/mp4"
+                />
+                <source
+                  src="/assets/video/ruckus-software.oggtheora.ogv"
+                  type="video/ogg"
                 />
               </video>
             </div>
