@@ -5,23 +5,23 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 const GolfSimulators = () => {
   return (
     <HelmetProvider>
-     <Helmet>
+      <Helmet>
         <meta
           name="description"
           content="Play golf like the pros in your own home with a GOLFZON golf simulator. Enjoy stunning visuals of expansive golf courses and the ability to play all year long in the comfort of your Orlando, FL home."
         />
         <title>
-        Play Golf Like the Masters with a GOLFZON Simulator in Orlando, FL
+          Play Golf Like the Masters with a GOLFZON Simulator in Orlando, FL
         </title>
       </Helmet>
-      <div className="uk-section-default golf-simulators-hero uk-background-norepeat uk-background-center-center uk-section"  style={{
-            backgroundSize: "cover",
-            backgroundImage:
-              "url(assets/images/gulf-semulator-hero.webp)",
-          }}>
-        <div
-         
-        >
+      <div
+        className="uk-section-default golf-simulators-hero uk-background-norepeat uk-background-center-center uk-section"
+        style={{
+          backgroundSize: "cover",
+          backgroundImage: "url(assets/images/gulf-semulator-hero.webp)",
+        }}
+      >
+        <div>
           <div className="uk-container uk-container-large">
             <div className="tm-grid-expand uk-grid-margin uk-grid" uk-grid="">
               <div className="uk-width-2-3@m uk-first-column"></div>
@@ -214,7 +214,10 @@ const GolfSimulators = () => {
         </div>
       </div>
       <div className="golf-simulators-video">
-        <video src="assets/video/auto-tee-up.mp4" loop autoPlay muted></video>
+        <video loop autoPlay muted>
+          <source src="/assets/video/auto-tee-up.mp4" type="video/mp4" />
+          <source src="/assets/video/auto-tee-up.oggtheora.ogv" type="video/ogg" />
+        </video>
         <div className="video-container">
           <div className="video-content">
             <h1>Auto Tee-up</h1>
@@ -227,7 +230,10 @@ const GolfSimulators = () => {
         </div>
       </div>
       <div className="golf-simulators-video">
-        <video src="assets/video/auto-tee-up2.mp4" loop autoPlay muted></video>
+        <video loop autoPlay muted>
+          <source src="/assets/video/auto-tee-up2.mp4" type="video/mp4" />
+          <source src="/assets/video/auto-tee-up2.oggtheora.ogv" type="video/ogg" />
+        </video>
         <div className="video-container">
           <div className="video-content left">
             <h1>Moving Swing Plate</h1>
@@ -243,11 +249,13 @@ const GolfSimulators = () => {
       </div>
       <div className="golf-simulators-video">
         <video
-          src="assets/video/audio-services3.mp4"
           loop
           autoPlay
           muted
-        ></video>
+        >
+           <source src="/assets/video/audio-services3.mp4.mp4" type="video/mp4" />
+          <source src="/assets/video/audio-services3.mp4.oggtheora.ogv" type="video/ogg" />
+        </video>
         <div className="video-container">
           <div className="video-content">
             <h1>No Delay</h1>

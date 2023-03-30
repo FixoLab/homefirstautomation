@@ -33,6 +33,10 @@ const HunterDouglas = () => {
                   src="/assets/video/hunterdouglas-intro.mp4"
                   type="video/mp4"
                 />
+                <source
+                  src="/assets/video/hunterdouglas-intro.oggtheora.ogv"
+                  type="video/ogg"
+                />
               </video>
             </div>
           </div>
@@ -121,6 +125,10 @@ const HunterDouglas = () => {
                 <source
                   src="/assets/video/hunterdouglas-homeshades.mp4"
                   type="video/mp4"
+                />
+                <source
+                  src="/assets/video/hunterdouglas-homeshades.oggtheora.ogv"
+                  type="video/ogg"
                 />
               </video>
             </div>
@@ -216,6 +224,10 @@ const HunterDouglas = () => {
                   src="/assets/video/hunterdouglas-shadingsystem.mp4"
                   type="video/mp4"
                 />
+                <source
+                  src="/assets/video/hunterdouglas-shadingsystem.oggtheora.ogv"
+                  type="video/ogg"
+                />
               </video>
             </div>
 
@@ -307,6 +319,10 @@ const HunterDouglas = () => {
                 <source
                   src="/assets/video/hunterdouglas-officeshading.mp4"
                   type="video/mp4"
+                />
+                <source
+                  src="/assets/video/hunterdouglas-officeshading.oggtheora.ogv"
+                  type="video/ogg"
                 />
               </video>
             </div>

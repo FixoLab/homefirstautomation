@@ -34,6 +34,10 @@ const CommercialServices = () => {
                   src="assets/video/commercial-services-2.mp4"
                   type="video/mp4"
                 />
+                <source
+                  src="assets/video/commercial-services-2.oggtheora.ogv"
+                  type="video/ogg"
+                />
               </video>
               <div className="uk-position-cover" style={{backgroundColor: "rgba(0, 0, 0, 0)"}}></div>
               <div className="is-layout-flow wp-block-group homeintrotop centerintro">

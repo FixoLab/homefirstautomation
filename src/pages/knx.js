@@ -31,6 +31,7 @@ const Knx = () => {
                 height="150"
               >
                 <source src="/assets/video/knx-about.mp4" type="video/mp4" />
+                <source src="/assets/video/knx-about.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
           </div>
@@ -117,6 +118,7 @@ const Knx = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source src="/assets/video/knx-home.mp4" type="video/mp4" />
+                <source src="/assets/video/knx-home.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
 
@@ -208,6 +210,7 @@ const Knx = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source src="/assets/video/knx-business.mp4" type="video/mp4" />
+                <source src="/assets/video/knx-business.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
 
@@ -296,6 +299,7 @@ const Knx = () => {
                 style={{ width: "951px", height: "475.5px" }}
               >
                 <source src="/assets/video/knx-custom.mp4" type="video/mp4" />
+                <source src="/assets/video/knx-custom.oggtheora.ogv" type="video/ogg" />
               </video>
             </div>
 
