@@ -1,7 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const FooterContact = () => {
+  const [answer, setAnswer] = useState("");
+  const [submitDisabled, setSubmitDisabled] = useState(true);
+
+  // Handle changes to the math question input
+  function handleAnswerChange(event) {
+    const value = event.target.value;
+    setAnswer(value);
+    setSubmitDisabled(value !== "30"); // Check if the answer is correct
+  }
   return (
     <div className="footer-widgets column-one grid-item">
       <div className="contactarea">
@@ -62,15 +71,28 @@ const FooterContact = () => {
                   <span>
                     <textarea
                       name="message"
-                      cols="40"
+                      cols="30"
                       rows="10"
                       placeholder="How can we help you"
                     ></textarea>
                   </span>{" "}
                 </label>
               </p>
+              <div className="math-question">
+                         <label htmlFor="math-question">
+                         What is 10 + 20 ?
+                          </label>
+                          <input
+                            type="number"
+                            id="math-question"
+                            name="math-question"
+                            value={answer}
+                            onChange={handleAnswerChange}
+                            placeholder="Write Answer"
+                          ></input>
+                         </div>
               <p>
-                <input type="submit" className="wpcf7-submit" />
+                <input type="submit"  disabled={submitDisabled} className="wpcf7-submit" />
               </p>
             </form>
           </div>
