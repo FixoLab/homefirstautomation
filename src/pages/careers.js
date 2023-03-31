@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const Careers = () => {
+  const [answer, setAnswer] = useState("");
+  const [submitDisabled, setSubmitDisabled] = useState(true);
+
+  // Handle changes to the math question input
+  function handleAnswerChange(event) {
+    const value = event.target.value;
+    setAnswer(value);
+    setSubmitDisabled(value !== "30"); // Check if the answer is correct
+  }
   return (
     <HelmetProvider>
     <Helmet>
@@ -299,7 +308,21 @@ const Careers = () => {
                         Upload Resume Link
                         <input type="text" id="resume" name="resume" />
                       </label>
-                      <button type="submit" className="button__primary">
+                      <div className="math-question">
+                         <label htmlFor="math-question">
+                         What is 10 + 20 ?
+                          </label>
+                          <input
+                            type="number"
+                            id="math-question"
+                            name="math-question"
+                            value={answer}
+                            onChange={handleAnswerChange}
+                            placeholder="Write Answer"
+                          ></input>
+                         </div>
+                      <button  type="submit"
+                              disabled={submitDisabled} className="button__primary display-block">
                         Submit
                       </button>
                     </form>

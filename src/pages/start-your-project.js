@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { LazyIframe } from "react-lazy-media";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -6,6 +6,16 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const StartYourProject = () => {
+  const [answer, setAnswer] = useState("");
+  const [submitDisabled, setSubmitDisabled] = useState(true);
+
+  // Handle changes to the math question input
+  function handleAnswerChange(event) {
+    const value = event.target.value;
+    setAnswer(value);
+    setSubmitDisabled(value !== "30"); // Check if the answer is correct
+  }
+  
   return (
     <HelmetProvider>
       <Helmet>
@@ -402,10 +412,24 @@ const StartYourProject = () => {
                               </span>{" "}
                             </label>
                           </p>
+                          <div className="math-question">
+                         <label htmlFor="math-question">
+                         What is 10 + 20 ?
+                          </label>
+                          <input
+                            type="number"
+                            id="math-question"
+                            name="math-question"
+                            value={answer}
+                            onChange={handleAnswerChange}
+                            placeholder="Write Answer"
+                          ></input>
+                         </div>
                           <p>
                             <input
                               type="submit"
                               defaultValue="Send"
+                              disabled={submitDisabled}
                               className="wpcf7-form-control has-spinner wpcf7-submit"
                             />
                           </p>
