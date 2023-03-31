@@ -1350,6 +1350,7 @@ li.menu-item-3288 .fas {
   font-family: roboto;
   font-weight: 500;
 }
+
 .pagewhitebackground a {
   color: #007ca1 !important;
   text-decoration: underline;
@@ -1671,7 +1672,7 @@ a#bbblink {
   line-height: 0px;
 }
 .contactarea .wpcf7-form {
-  margin-top: 45px;
+  margin-top: 35px;
 }
 .contactarea .wpcf7-submit {
   background: #007ca1;
@@ -4036,6 +4037,70 @@ h6 {
 .commercial-security .commercial-security-icon .outline {
   fill: #00000000;
   stroke: #fff;
+}
+
+.math-question{
+  display: inline-flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #e4e4e4;
+    padding: 15px;
+}
+.math-question>label{
+  width: 140px;
+  margin: 0;
+  font-weight: 700;
+}
+.math-question>input{
+  width: 150px;
+  border-radius: 10px;
+  border: 1px solid #e4e4e4;
+  margin: 0 !important;
+}
+
+.contactarea .wpcf7-form .math-question{
+ padding-bottom: 12px;
+ padding-top: 12px;
+ border-radius: 30px;
+ margin-bottom: 10px;
+}
+.contactarea .wpcf7-form .math-question>label{
+ color: #fff;
+}
+.contactarea .wpcf7-form .math-question>input{
+  background: rgba(23, 25, 26, 0.85);
+  border-radius: 30px;
+  color: #fff
+}
+
+input[type="submit"]:disabled {
+  background-color: #b4b4b4;
+  cursor: not-allowed;
+  color: white;
+}
+input[type="submit"]:disabled:hover {
+  background-color: #b4b4b4;
+  cursor: not-allowed;
+  color: white;
+}
+button[type="submit"]:disabled {
+  background-color: #b4b4b4;
+  cursor: not-allowed;
+  color: white
+}
+button[type="submit"]:disabled:hover {
+  background-color: #b4b4b4;
+  cursor: not-allowed;
+  color: white;
+}
+
+.contactarea .wpcf7-submit:disabled:hover{
+  border: none;
+  color: #fff !important;
+}
+
+.button__primary.display-block {
+  display: block;
 }
 
 /*** Media Querry  ***/
