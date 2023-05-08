@@ -268,11 +268,11 @@ a:visited {
   z-index: 1 !important;
   position: absolute !important;
 }
-.is-sticky .goingup#site-header {
+/* .is-sticky #site-header {
   margin-top: -201px !important;
   background: rgba(23, 25, 26, 0.65) !important;
-}
-.is-sticky .goingup#site-header.topscroll {
+} */
+.is-sticky #site-header.topscroll {
   margin-top: 0px !important;
   position: fixed !important;
 }

@@ -1,15 +1,26 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const FooterContact = () => {
   const [answer, setAnswer] = useState("");
   const [submitDisabled, setSubmitDisabled] = useState(true);
+  const [firstNumber, setFirstNumber] = useState(0);
+  const [secondNumber, setSecondNumber] = useState(0);
+
+  useEffect(() => {
+    const randomFirstNumber = Math.floor(Math.random() * 101);
+    setFirstNumber(randomFirstNumber);
+    const randomSecondNumber = Math.floor(Math.random() * 101);
+    setSecondNumber(randomSecondNumber);
+  }, []);
+
+  const captureAnswer = firstNumber + secondNumber
 
   // Handle changes to the math question input
   function handleAnswerChange(event) {
     const value = event.target.value;
     setAnswer(value);
-    setSubmitDisabled(value !== "30"); // Check if the answer is correct
+    setSubmitDisabled(value !== captureAnswer.toString()); // Check if the answer is correct
   }
   return (
     <div className="footer-widgets column-one grid-item">
@@ -80,7 +91,7 @@ const FooterContact = () => {
               </p>
               <div className="math-question">
                          <label htmlFor="math-question">
-                         What is 10 + 20 ?
+                         What is {firstNumber} + {secondNumber} ?
                           </label>
                           <input
                             type="number"

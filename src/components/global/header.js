@@ -32,11 +32,11 @@ const Header = () => {
 
       // topScroll Class
       const st = window.pageYOffset || document.documentElement.scrollTop;
-      if (st > lastScrollTop) {
-        document.getElementById("site-header").classList.remove("topscroll");
-      } else {
-        document.getElementById("site-header").classList.add("topscroll");
-      }
+      // if (0 > 1) {
+      //   document.getElementById("site-header").classList.remove("topscroll");
+      // } else {
+      //   document.getElementById("site-header").classList.add("topscroll");
+      // }
       setLastScrollTop(st <= 0 ? 0 : st);
 
       // is-sticky class
@@ -44,18 +44,21 @@ const Header = () => {
         "site-header-sticky-wrapper"
       );
       const scroll = window.scrollY;
+
       if (scroll > 1) {
         stickyWrapper.classList.add("is-sticky");
+        // document.getElementById("site-header").classList.add("topscroll");
       } else {
         stickyWrapper.classList.remove("is-sticky");
+        // document.getElementById("site-header").classList.remove("topscroll");
       }
 
       // going-up class
       const header = document.getElementById("site-header");
-      if (scrollPosition >= 500) {
-        header.classList.add("goingup");
+      if (scrollPosition >= 135) {
+        header.classList.add("topscroll");
       } else {
-        header.classList.remove("goingup");
+        header.classList.remove("topscroll");
       }
     }
 

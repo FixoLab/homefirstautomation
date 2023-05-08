@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { LazyIframe } from "react-lazy-media";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -8,12 +8,23 @@ const contactFrom = process.env.REACT_APP_CONTACTFROM;
 const ContactUs = () => {
   const [answer, setAnswer] = useState("");
   const [submitDisabled, setSubmitDisabled] = useState(true);
+  const [firstNumber, setFirstNumber] = useState(0);
+  const [secondNumber, setSecondNumber] = useState(0);
+
+  useEffect(() => {
+    const randomFirstNumber = Math.floor(Math.random() * 101);
+    setFirstNumber(randomFirstNumber);
+    const randomSecondNumber = Math.floor(Math.random() * 101);
+    setSecondNumber(randomSecondNumber);
+  }, []);
+
+  const captureAnswer = firstNumber + secondNumber
 
   // Handle changes to the math question input
   function handleAnswerChange(event) {
     const value = event.target.value;
     setAnswer(value);
-    setSubmitDisabled(value !== "30"); // Check if the answer is correct
+    setSubmitDisabled(value !== captureAnswer.toString()); // Check if the answer is correct
   }
   
   return (
@@ -174,7 +185,7 @@ const ContactUs = () => {
                           </p>
                          <div className="math-question">
                          <label htmlFor="math-question">
-                         What is 10 + 20 ?
+                         What is {firstNumber} + {secondNumber} ?
                           </label>
                           <input
                             type="number"
