@@ -7,6 +7,7 @@ const Footer = React.lazy(() => import("./components/global/footer"));
 const Home = React.lazy(() => import("./pages/home"));
 const StartYourProject = React.lazy(() => import("./pages/start-your-project"));
 const About = React.lazy(() => import("./pages/about"));
+const ConciergeCareProgram = React.lazy(() => import("./pages/concierge-care-program"));
 const SmartHomeAutomation = React.lazy(() =>
   import("./pages/smart-home-automation")
 );
@@ -70,6 +71,7 @@ const Category = React.lazy(() => import("./pages/category"));
 const Years = React.lazy(() => import("./pages/years"));
 const Tags = React.lazy(() => import("./pages/tags"));
 const Control4 = React.lazy(() => import("./pages/control4"));
+const TitleInsuranceFaq = React.lazy(() => import("./pages/title-insurance-faq"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -90,6 +92,7 @@ const AppRouter = () => {
           <Route exact path="/" element={<Home />} />
 
           <Route path="/about" element={<About />} />
+          <Route path="/concierge-care-program" element={<ConciergeCareProgram />} />
           <Route
             path="/smart-home-automation"
             element={<SmartHomeAutomation />}
@@ -158,6 +161,7 @@ const AppRouter = () => {
           <Route path="/golf-simulators" element={<GolfSimulators />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/title-insurance-faq" element={<TitleInsuranceFaq />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />

@@ -38,6 +38,30 @@
         <priority>0.5</priority>
     </page>
     <page>
+        <url>https://homefirst.io/partners/interior-designers</url>
+        <date>2023-01-17T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/partners/contractors</url>
+        <date>2023-01-17T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/partners/design-build-partners</url>
+        <date>2023-01-17T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/partners/realtors</url>
+        <date>2023-01-17T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
         <url>https://homefirst.io/indoor-living</url>
         <date>2023-01-17T16:37:05+00:00</date>
         <frequency>weekly</frequency>
@@ -158,19 +182,103 @@
         <priority>0.5</priority>
     </page>
     <page>
+        <url>https://homefirst.io/blog/real-estate-brokers-why-your-properties-need-smart-security</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
         <url>https://homefirst.io/blog/24-7-365-support-coming-soon</url>
         <date>2023-02-01T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>
     </page>
     <page>
-        <url>https://homefirst.io/category/6</url>
+        <url>https://homefirst.io/blog/impress-clients-with-a-stellar-home-theater-installation</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/blog/impress-potential-clients-with-a-smart-home-automation-system</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/blog/smart-home-spotlight-access-networks</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/blog/the-importance-of-landscape-lighting-design-in-your-project</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/blog/why-partner-with-a-savant-smart-home-installer-on-your-projects</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/category/3</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/category/2</url>
         <date>2023-02-01T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>
     </page>
     <page>
         <url>https://homefirst.io/tags/4</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/tags/5</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/years/feb-2023</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/years/jun-2022</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/years/may-2022</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/years/jan-2021</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/years/mar-2021</url>
+        <date>2023-02-01T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
+    <page>
+        <url>https://homefirst.io/years/aug-2021</url>
         <date>2023-02-01T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>
@@ -230,31 +338,7 @@
         <priority>0.5</priority>
     </page>
     <page>
-        <url>https://homefirst.io/brands/alarm-com</url>
-        <date>2023-01-17T16:37:05+00:00</date>
-        <frequency>weekly</frequency>
-        <priority>0.5</priority>
-    </page>
-    <page>
-        <url>https://homefirst.io/partners/contractors</url>
-        <date>2023-01-17T16:37:05+00:00</date>
-        <frequency>weekly</frequency>
-        <priority>0.5</priority>
-    </page>
-    <page>
-        <url>https://homefirst.io/partners/realtors</url>
-        <date>2023-01-17T16:37:05+00:00</date>
-        <frequency>weekly</frequency>
-        <priority>0.5</priority>
-    </page>
-    <page>
-        <url>https://homefirst.io/partners/design-build-partners</url>
-        <date>2023-01-17T16:37:05+00:00</date>
-        <frequency>weekly</frequency>
-        <priority>0.5</priority>
-    </page>
-    <page>
-        <url>https://homefirst.io/partners/interior-designers</url>
+        <url>https://homefirst.io/brands/alrarm-com</url>
         <date>2023-01-17T16:37:05+00:00</date>
         <frequency>weekly</frequency>
         <priority>0.5</priority>

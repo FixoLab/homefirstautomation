@@ -32,11 +32,6 @@ const Header = () => {
 
       // topScroll Class
       const st = window.pageYOffset || document.documentElement.scrollTop;
-      if (st > lastScrollTop) {
-        document.getElementById("site-header").classList.remove("topscroll");
-      } else {
-        document.getElementById("site-header").classList.add("topscroll");
-      }
       setLastScrollTop(st <= 0 ? 0 : st);
 
       // is-sticky class
@@ -44,6 +39,7 @@ const Header = () => {
         "site-header-sticky-wrapper"
       );
       const scroll = window.scrollY;
+
       if (scroll > 1) {
         stickyWrapper.classList.add("is-sticky");
       } else {
@@ -52,10 +48,10 @@ const Header = () => {
 
       // going-up class
       const header = document.getElementById("site-header");
-      if (scrollPosition >= 500) {
-        header.classList.add("goingup");
+      if (scrollPosition >= 135) {
+        header.classList.add("topscroll");
       } else {
-        header.classList.remove("goingup");
+        header.classList.remove("topscroll");
       }
     }
 
@@ -159,7 +155,9 @@ const Header = () => {
                         id="menu-item-896"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
-                        <Link to="/partners/interior-designers">Interior Designers</Link>
+                        <Link to="/partners/interior-designers">
+                          Interior Designers
+                        </Link>
                       </li>
                       <li
                         id="menu-item-896"
@@ -180,6 +178,14 @@ const Header = () => {
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
                       >
                         <Link to="/partners/realtors">Realtors</Link>
+                      </li>
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
+                        <Link to="/concierge-care-program">
+                          Concierge care program
+                        </Link>
                       </li>
                     </ul>
                   </li>
@@ -307,9 +313,7 @@ const Header = () => {
                         id="menu-item-1602"
                         className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"
                       >
-                        <Link to="/commercial">
-                          Commercial Integration
-                        </Link>
+                        <Link to="/commercial">Commercial Integration</Link>
                       </li>
                     </ul>
                   </li>
@@ -463,6 +467,13 @@ const Header = () => {
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
                           <div className="ancestor-wrapper">
                             <Link to="/partners/realtors">Realtors</Link>
+                          </div>
+                        </li>
+                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                          <div className="ancestor-wrapper">
+                            <Link to="/concierge-care-program">
+                              Concierge care program
+                            </Link>
                           </div>
                         </li>
                       </ul>
@@ -632,9 +643,7 @@ const Header = () => {
                         </li>
                         <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602">
                           <div className="ancestor-wrapper">
-                            <Link to="/commercial">
-                              Commercial Integration
-                            </Link>
+                            <Link to="/commercial">Commercial Integration</Link>
                           </div>
                         </li>
                       </ul>

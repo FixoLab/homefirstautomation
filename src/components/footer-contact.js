@@ -1,15 +1,26 @@
-import React, {useState} from "react";
+import React, { useState, useEffect } from "react";
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const FooterContact = () => {
   const [answer, setAnswer] = useState("");
   const [submitDisabled, setSubmitDisabled] = useState(true);
+  const [firstNumber, setFirstNumber] = useState(0);
+  const [secondNumber, setSecondNumber] = useState(0);
+
+  useEffect(() => {
+    const randomFirstNumber = Math.floor(Math.random() * 101);
+    setFirstNumber(randomFirstNumber);
+    const randomSecondNumber = Math.floor(Math.random() * 101);
+    setSecondNumber(randomSecondNumber);
+  }, []);
+
+  const captureAnswer = firstNumber + secondNumber;
 
   // Handle changes to the math question input
   function handleAnswerChange(event) {
     const value = event.target.value;
     setAnswer(value);
-    setSubmitDisabled(value !== "30"); // Check if the answer is correct
+    setSubmitDisabled(value !== captureAnswer.toString()); // Check if the answer is correct
   }
   return (
     <div className="footer-widgets column-one grid-item">
@@ -79,20 +90,22 @@ const FooterContact = () => {
                 </label>
               </p>
               <div className="math-question">
-                         <label htmlFor="math-question">
-                         What is 10 + 20 ?
-                          </label>
-                          <input
-                            type="number"
-                            id="math-question"
-                            name="math-question"
-                            value={answer}
-                            onChange={handleAnswerChange}
-                            placeholder="Write Answer"
-                          ></input>
-                         </div>
+                <label htmlFor="math-question">
+                  What is {firstNumber} + {secondNumber} ?
+                </label>
+                <input
+                  type="number"
+                  value={answer}
+                  onChange={handleAnswerChange}
+                  placeholder="Write Answer"
+                ></input>
+              </div>
               <p>
-                <input type="submit"  disabled={submitDisabled} className="wpcf7-submit" />
+                <input
+                  type="submit"
+                  disabled={submitDisabled}
+                  className="wpcf7-submit"
+                />
               </p>
             </form>
           </div>
@@ -103,17 +116,15 @@ const FooterContact = () => {
             Directly
           </h3>
           <p>
-  
-              <i className="fas fa-solid fa-location-dot"></i>
-
+            <i className="fas fa-solid fa-location-dot"></i>
           </p>
-          
-            <p>
-              <strong>Address</strong> <br />
-              6735 Conroy Windermere Rd, <br />
-              Suite 219, <br />
-              Orlando, Florida 32835
-            </p>
+
+          <p>
+            <strong>Address</strong> <br />
+            6735 Conroy Windermere Rd, <br />
+            Suite 219, <br />
+            Orlando, Florida 32835
+          </p>
           <p>
             <a aria-label="Phone number" href="tel:4072283000">
               <i className="fas fa-phone"></i>

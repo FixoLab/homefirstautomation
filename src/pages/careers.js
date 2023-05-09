@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Link } from "react-router-dom";
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
@@ -6,22 +6,34 @@ const contactFrom = process.env.REACT_APP_CONTACTFROM;
 const Careers = () => {
   const [answer, setAnswer] = useState("");
   const [submitDisabled, setSubmitDisabled] = useState(true);
+  const [firstNumber, setFirstNumber] = useState(0);
+  const [secondNumber, setSecondNumber] = useState(0);
+
+  useEffect(() => {
+    const randomFirstNumber = Math.floor(Math.random() * 101);
+    setFirstNumber(randomFirstNumber);
+    const randomSecondNumber = Math.floor(Math.random() * 101);
+    setSecondNumber(randomSecondNumber);
+  }, []);
+
+  const captureAnswer = firstNumber + secondNumber;
 
   // Handle changes to the math question input
   function handleAnswerChange(event) {
     const value = event.target.value;
     setAnswer(value);
-    setSubmitDisabled(value !== "30"); // Check if the answer is correct
+    setSubmitDisabled(value !== captureAnswer.toString()); // Check if the answer is correct
   }
   return (
     <HelmetProvider>
-    <Helmet>
+      <Helmet>
         <meta
           name="description"
           content="We're looking for creative people to join our team and help shape the future of technology. If you're passionate about making a difference, Join HomeFirst and make a difference! "
         />
         <title>
-        Join an Innovative Team at HomeFirst | Shape Technology and Create Change
+          Join an Innovative Team at HomeFirst | Shape Technology and Create
+          Change
         </title>
       </Helmet>
       <div className="uk-section-secondary uk-position-relative carears-hero">
@@ -309,20 +321,21 @@ const Careers = () => {
                         <input type="text" id="resume" name="resume" />
                       </label>
                       <div className="math-question">
-                         <label htmlFor="math-question">
-                         What is 10 + 20 ?
-                          </label>
-                          <input
-                            type="number"
-                            id="math-question"
-                            name="math-question"
-                            value={answer}
-                            onChange={handleAnswerChange}
-                            placeholder="Write Answer"
-                          ></input>
-                         </div>
-                      <button  type="submit"
-                              disabled={submitDisabled} className="button__primary display-block">
+                        <label htmlFor="math-question">
+                          What is {firstNumber} + {secondNumber} ?
+                        </label>
+                        <input
+                          type="number"
+                          value={answer}
+                          onChange={handleAnswerChange}
+                          placeholder="Write Answer"
+                        ></input>
+                      </div>
+                      <button
+                        type="submit"
+                        disabled={submitDisabled}
+                        className="button__primary display-block"
+                      >
                         Submit
                       </button>
                     </form>
