@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
 
 const FooterContact = () => {
@@ -14,7 +14,7 @@ const FooterContact = () => {
     setSecondNumber(randomSecondNumber);
   }, []);
 
-  const captureAnswer = firstNumber + secondNumber
+  const captureAnswer = firstNumber + secondNumber;
 
   // Handle changes to the math question input
   function handleAnswerChange(event) {
@@ -90,20 +90,22 @@ const FooterContact = () => {
                 </label>
               </p>
               <div className="math-question">
-                         <label htmlFor="math-question">
-                         What is {firstNumber} + {secondNumber} ?
-                          </label>
-                          <input
-                            type="number"
-                            id="math-question"
-                            name="math-question"
-                            value={answer}
-                            onChange={handleAnswerChange}
-                            placeholder="Write Answer"
-                          ></input>
-                         </div>
+                <label htmlFor="math-question">
+                  What is {firstNumber} + {secondNumber} ?
+                </label>
+                <input
+                  type="number"
+                  value={answer}
+                  onChange={handleAnswerChange}
+                  placeholder="Write Answer"
+                ></input>
+              </div>
               <p>
-                <input type="submit"  disabled={submitDisabled} className="wpcf7-submit" />
+                <input
+                  type="submit"
+                  disabled={submitDisabled}
+                  className="wpcf7-submit"
+                />
               </p>
             </form>
           </div>
@@ -114,17 +116,15 @@ const FooterContact = () => {
             Directly
           </h3>
           <p>
-  
-              <i className="fas fa-solid fa-location-dot"></i>
-
+            <i className="fas fa-solid fa-location-dot"></i>
           </p>
-          
-            <p>
-              <strong>Address</strong> <br />
-              6735 Conroy Windermere Rd, <br />
-              Suite 219, <br />
-              Orlando, Florida 32835
-            </p>
+
+          <p>
+            <strong>Address</strong> <br />
+            6735 Conroy Windermere Rd, <br />
+            Suite 219, <br />
+            Orlando, Florida 32835
+          </p>
           <p>
             <a aria-label="Phone number" href="tel:4072283000">
               <i className="fas fa-phone"></i>

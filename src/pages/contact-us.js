@@ -18,7 +18,7 @@ const ContactUs = () => {
     setSecondNumber(randomSecondNumber);
   }, []);
 
-  const captureAnswer = firstNumber + secondNumber
+  const captureAnswer = firstNumber + secondNumber;
 
   // Handle changes to the math question input
   function handleAnswerChange(event) {
@@ -26,7 +26,7 @@ const ContactUs = () => {
     setAnswer(value);
     setSubmitDisabled(value !== captureAnswer.toString()); // Check if the answer is correct
   }
-  
+
   return (
     <HelmetProvider>
       <Helmet>
@@ -183,19 +183,17 @@ const ContactUs = () => {
                               </span>{" "}
                             </label>
                           </p>
-                         <div className="math-question">
-                         <label htmlFor="math-question">
-                         What is {firstNumber} + {secondNumber} ?
-                          </label>
-                          <input
-                            type="number"
-                            id="math-question"
-                            name="math-question"
-                            value={answer}
-                            onChange={handleAnswerChange}
-                            placeholder="Write Answer"
-                          ></input>
-                         </div>
+                          <div className="math-question">
+                            <label htmlFor="math-question">
+                              What is {firstNumber} + {secondNumber} ?
+                            </label>
+                            <input
+                              type="number"
+                              value={answer}
+                              onChange={handleAnswerChange}
+                              placeholder="Write Answer"
+                            ></input>
+                          </div>
                           <p>
                             <input
                               type="submit"

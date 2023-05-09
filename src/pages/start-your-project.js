@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { LazyIframe } from "react-lazy-media";
 import { Link } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -18,7 +18,7 @@ const StartYourProject = () => {
     setSecondNumber(randomSecondNumber);
   }, []);
 
-  const captureAnswer = firstNumber + secondNumber
+  const captureAnswer = firstNumber + secondNumber;
 
   // Handle changes to the math question input
   function handleAnswerChange(event) {
@@ -26,7 +26,7 @@ const StartYourProject = () => {
     setAnswer(value);
     setSubmitDisabled(value !== captureAnswer.toString()); // Check if the answer is correct
   }
-  
+
   return (
     <HelmetProvider>
       <Helmet>
@@ -424,18 +424,16 @@ const StartYourProject = () => {
                             </label>
                           </p>
                           <div className="math-question">
-                         <label htmlFor="math-question">
-                         What is {firstNumber} + {secondNumber} ?
-                          </label>
-                          <input
-                            type="number"
-                            id="math-question"
-                            name="math-question"
-                            value={answer}
-                            onChange={handleAnswerChange}
-                            placeholder="Write Answer"
-                          ></input>
-                         </div>
+                            <label htmlFor="math-question">
+                              What is {firstNumber} + {secondNumber} ?
+                            </label>
+                            <input
+                              type="number"
+                              value={answer}
+                              onChange={handleAnswerChange}
+                              placeholder="Write Answer"
+                            ></input>
+                          </div>
                           <p>
                             <input
                               type="submit"

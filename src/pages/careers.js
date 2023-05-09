@@ -16,7 +16,7 @@ const Careers = () => {
     setSecondNumber(randomSecondNumber);
   }, []);
 
-  const captureAnswer = firstNumber + secondNumber
+  const captureAnswer = firstNumber + secondNumber;
 
   // Handle changes to the math question input
   function handleAnswerChange(event) {
@@ -26,13 +26,14 @@ const Careers = () => {
   }
   return (
     <HelmetProvider>
-    <Helmet>
+      <Helmet>
         <meta
           name="description"
           content="We're looking for creative people to join our team and help shape the future of technology. If you're passionate about making a difference, Join HomeFirst and make a difference! "
         />
         <title>
-        Join an Innovative Team at HomeFirst | Shape Technology and Create Change
+          Join an Innovative Team at HomeFirst | Shape Technology and Create
+          Change
         </title>
       </Helmet>
       <div className="uk-section-secondary uk-position-relative carears-hero">
@@ -320,20 +321,21 @@ const Careers = () => {
                         <input type="text" id="resume" name="resume" />
                       </label>
                       <div className="math-question">
-                         <label htmlFor="math-question">
-                         What is {firstNumber} + {secondNumber} ?
-                          </label>
-                          <input
-                            type="number"
-                            id="math-question"
-                            name="math-question"
-                            value={answer}
-                            onChange={handleAnswerChange}
-                            placeholder="Write Answer"
-                          ></input>
-                         </div>
-                      <button  type="submit"
-                              disabled={submitDisabled} className="button__primary display-block">
+                        <label htmlFor="math-question">
+                          What is {firstNumber} + {secondNumber} ?
+                        </label>
+                        <input
+                          type="number"
+                          value={answer}
+                          onChange={handleAnswerChange}
+                          placeholder="Write Answer"
+                        ></input>
+                      </div>
+                      <button
+                        type="submit"
+                        disabled={submitDisabled}
+                        className="button__primary display-block"
+                      >
                         Submit
                       </button>
                     </form>

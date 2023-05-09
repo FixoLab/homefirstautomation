@@ -2169,7 +2169,7 @@ a.to-the-top > * {
 
 @media (min-width: 1200px) {
   #site-header {
-    z-index: 2;
+    z-index: 500;
   }
   .header-inner {
     align-items: center;
