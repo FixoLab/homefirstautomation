@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/styles/faq.css";
-import { Link } from "react-router-dom";
 import Faq from "../components/faq";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -42,7 +41,7 @@ const faqs = [
     question:
       "What different parts comprise these whole home automation systems from one app?",
     answer:
-      "<p>So these systems all have the same formula:</p><ul><li>a.  A centrlized controller that acts as the hub for all devices that run through it</li><li>b.  A centralized video controller where all the video in the home comes through this one device. </li><li>c.  A centralized audio controller where all the audio in the home comes through this one device </li><li>d.  If you want to control every light you will have light switches for the system you are using</li><li>e.  If you want to control the shades you will have a controller for the shades and shades that work with the automation system you are using</li><li>f. Internet router and firewall </li><li>g.  Cable boxes </li></ul><p>All of this will be housed in a centralized rack in the home </p>",
+      "<p>So these systems all have the same formula:</p><ol><li>A centrlized controller that acts as the hub for all devices that run through it</li><li>A centralized video controller where all the video in the home comes through this one device. </li><li>A centralized audio controller where all the audio in the home comes through this one device </li><li>If you want to control every light you will have light switches for the system you are using</li><li>If you want to control the shades you will have a controller for the shades and shades that work with the automation system you are using</li><li>Internet router and firewall </li><li>Cable boxes </li></ol><p>All of this will be housed in a centralized rack in the home </p>",
   },
   {
     id: 7,
@@ -146,6 +145,75 @@ const faqs = [
     answer:
       "<p>For example, tell Josh to “dim the lights, <a href='https://wipliance.com/blog/category/motorized-window-treatments'>close the shades</a>, and play Tom Petty in the dining room.” Then turn up the volume by saying, “turn it up.” Josh will understand.</p><p>Every Josh Micro speaker and Nano microphone is room-aware, which makes commanding your smart home much simpler and intuitive. Rather than remembering the name of the room you’re in, just tell Josh to “<a href='https://wipliance.com/blog/item/guide-which-lutron-lighting-solution-is-best-for-your-home'>turn up the lights</a>” and watch as the lights illuminate in only the room you’re in.</p><p>You can also create scenes with the same name but for different rooms, and Josh will know the difference. Your “Good Morning” scene in the kitchen will trigger different devices than the “Good Morning” scene in the bedroom, but Josh will know where you are and which one to activate.</p><p>Josh.ai uses machine learning to take note of your habits and help make your life easier. It can turn lights off and set the alarm before bed and <a href='https://wipliance.com/blog/category/whole-home-audio-systems'>start a playlist</a> when you get home from work. Use the Josh app on your smartphone or tablet to view proactive recommendations for you based on the time of day or the state of your home. The more you interact with Josh, the smarter your home becomes.</p>",
   },
+  {
+    id: 23,
+    question: "How Josh Ai and Chat GPT are working together:",
+    answer:
+      "<p>At <a href='http://www.josh.ai/'>Josh.ai</a>, the mission has been to provide conversational and contextual AI throughout our living spaces. To date, <a href='http://www.josh.ai/'>Josh.ai</a> has established itself as a foremost voice assistant in the smart home industry thanks to best-in-class device integrations while offering some personal assistant functionality like weather conditions, stock prices, math calculations, and more helpful information. While <a href='http://www.josh.ai/'>Josh.ai</a> offers many features, the possibilities become even more limitless when exploring the potential of leveraging <a href='https://edition.cnn.com/2023/01/26/tech/chatgpt-passes-exams/index.html'>ChatGPT’s</a> generative AI.</p><p>We are thrilled to be working on bringing the best of <a href='http://www.josh.ai/'>Josh.ai</a> and <a href='https://edition.cnn.com/2023/01/26/tech/chatgpt-passes-exams/index.html'>ChatGPT’s</a> together to create something truly remarkable — a solution where one plus one equals three. By combining our strengths, we envision delivering an AI experience that is beyond what any smart home is capable of. Potential use cases include:</p><ul><li>“Ok Josh, tell me a bedtime story” where Josh.ai + ChatGPT provides stories based on the location of the home and other factors unique to the family.</li><li>“Hey Josh, what are some interesting nearby attractions?” which can be easily modified to focus on shopping, outdoor activities, the arts, or other parameters of interest to the user.</li><li>“Ok Josh, can you help me understand [topic] at a 3rd grade level” in order to help learn and understand new topics.</li><li>“Hey Josh, what are some public golf courses to try around Malibu?” where any activity in any location can customize a list, even adding variables such as “that are handicap accessible” or “that cost less than $25 per person.”</li><li>“Ok Josh, the kids are coming in and it’s getting dark can you make sure the kitchen is ready for them?” where <a href='http://www.josh.ai/'>Josh.ai</a> + ChatGPT can properly prepare the space.</li></ul><p>The possibilities are endless, and there has never been a more significant moment in the evolution of smart homes and AI. Stay tuned and keep an eye on Josh.ai to witness this exciting opportunity unfold.</p>",
+  },
+  {
+    id: 24,
+    question:
+      "For Shades, what brand works with these home automation companies?",
+    answer:
+      "<p>So there are several brands that work with Control4 and some of the other home automation systems. Qmotion and Lutron come in at the high end of the price point, followed by Somfy, Rollease and Serena shades.  Some of these products require you to buy a bridge, like a controller, that works with your automation system.  The type of material usually factors into the cost as well.  Keep in mind these are all custom ordered shades and can take upto 8 weeks to get in. </p>",
+  },
+  {
+    id: 25,
+    question: "WHAT CAN I AUTOMATE IN A SMART HOME?",
+    answer:
+      "<p>Today the popularity of smart homes is rising quickly. There are numerous advantages of using smart home automation systems. Homeowners are installing them to burglar-proof their places down to the every day mundane tasks.</p><p>You can use lots of different items and devices in an integrated home. Including things like thermostats, lighting, and cameras. Which is connected to a programmable network. Making the system appealing.</p><p>Home automation systems additionally make your house safer and smarter. Security devices, gates, windows, smoke detectors, surveillance cameras, locks and more can be controlled and managed by installing smart home automation.</p>",
+  },
+  {
+    id: 26,
+    question: "What is Lutron?",
+    answer:
+      "<p>Lutron is the undisputed industry leader of lighting control systems and motorized shading solutions for homes and businesses. From single-room to whole-home lighting control that you can manage from a mobile app or elegant keypad to whisper-quiet motorized shades that raise and lower on a schedule, </p>",
+  },
+  {
+    id: 27,
+    question: "What is creation?",
+    answer:
+      "<p>Although it is a major player in the home automation/smart home space, Crestron is not a widely known brand compared to Amazon’s Alexa or Google Home.</p><p>That's because Crestron is not active in the mainstream market, and instead services the high-end, luxury home sector.</p><p>Founded in 1971 and based in New Jersey, USA, Crestron Electronics first made its name in the corporate tech sector. It has annual revenues of over $2 billion, and it is estimated that over 90 per cent of Fortune 500 companies use Crestron technology.</p><p>Unlike most other home automation and smart home companies, Crestron manufactures all of its own products, giving it unparalleled cross-system integration and unmatched fail-safe capabilities.</p><p>Their entire range is designed to fit together seamlessly, and to also work with other manufacturer’s products. Crestron integrates seamlessly with Apple’s Siri, HomeKit and Apple TV, as well as Amazon Alexa and Google Home. Last year they were awarded Microsoft’s Partner of the Year for IoT technology.</p><p>With Crestron, you can use a smartphone, tablet, touch screen, or handheld remotes to control functions including:</p><ul><li>Lighting</li><li>Locks and security</li><li>Audio and media</li><li>Satellite and cable feeds</li><li>Home network</li><li>Telephone</li><li>Shading</li><li>HVAC (heating, ventilation and air conditioning)</li></ul><p>These can all be operated from within the home. The Crestron phone app allows you to adjust your home's systems from anywhere, and can alert you to potential issues with live notifications.</p>",
+  },
+];
+const control4Faqs = [
+  {
+    id: 1,
+    question: "What is Control4?",
+    answer:
+      "<p>Control4 is a home control system that brings together all of your smart home devices into one easy-to-use control panel.</p><p>Working with lighting, music, heating, home cinema, security systems and almost everything in-between, the Control4 OS can automate your home to meet the specific lifestyle needs of your family. The system creates shortcuts to control your home with a single button press, or scheduled events without even needing to lift a finger.</p><p>You've probably seen a Control4 system somewhere. Maybe on a documentary that showed off the inside of a footballer/rapper/NBA star's house. Maybe in a swanky hotel you stayed in. </p><p> You probably didn't realise it was Control4 because it's not a brand you'll see advertised in the mainstream media. And you certainly won't find any Control4 kit on the shelves at Best Buy, or listed on Amazon.</p><p>Control4 has been in the home automation since the early 2000s, way before the current smart home boom took hold, and when the only echo at Amazon was the one you'd hear if you shouted something in one of its big warehouses.</p><p>However, while Control4 is able to control lighting, multi-room audio, HVAC systems, security platforms, smart locks and more – working via the likes of <a href='https://www.the-ambient.com/guides/zigbee-devices-complete-guide-277'>Zigbee</a>, <a href='https://www.the-ambient.com/guides/zwave-z-wave-smart-home-guide-281'>Z-Wave</a>, Wi-Fi and Bluetooth – and is compatible with over 35,000 devices, it's an exclusive club reserved for people with the cash to go through an authorised Control4 dealer.</p>",
+  },
+  {
+    id: 2,
+    question: "What are the latest Control 4 Controllers?",
+    answer:
+      "<p>The “Core” controllers are control4’s latest set of controllers.  Core 1, Core 3 and Core 5 allow you to control both audio and video from this centralized control.</p>",
+  },
+  {
+    id: 3,
+    question: "how Does Control4 Work?",
+    answer:
+      "<p>Control4 gives you the tools to control your entire smart home from a range of control devices. These include wall-mounted touchscreens, keypads, tabletop tablets, voice control, and the MyHome mobile phone app on any smartphone. This means you can control your home whether inside or on-the-go. Using a Wi-Fi connection, Control4’s Scheduler Agent can also automate events based on a specific trigger. These include time of day, lighting levels, temperature, or a range of other specific factors. From blinds rising at the same time as your alarm to driveways lights switching on as you pass entrance gates, Control4 lets you design a home that’s uniquely yours.</p>",
+  },
+  {
+    id: 4,
+    question: "What specifically can control4 control?",
+    answer:
+      "<ul><li>Window Shades—Try controlling your power window shades with an ordinary smart home system. It's possible if they're <a href='https://www.makeuseof.com/best-smart-blinds/'>specifically designed as smart blinds</a>. But if not, Control4 can handle them. Like with other devices integrated into Cotnrol4, opening or closing them can easily be done with a voice command, through your smartphone app, or with a Control4 interface.</li><li>Climate Control—Control4 can turn your ordinary thermostat into a smart thermostat. You can tell Control4 to adjust your HVAC system to heat or cool your home. The Control4 remote access capability might be especially handy in this case, for example, if you are out of town, and you realize you forgot to turn off the air conditioner.</li><li>Lighting—Any light in your house with a wall switch can integrate with a Control4 system. No longer would you need to invest in dozens or more smart bulbs to provide smart access throughout your home. And no longer will you need to worry about the management headaches that might come with setting up and controlling that many light bulbs individually or even as part of a smart home scene.</li><li>Audio and Video—Control4 can integrate seamlessly into your home entertainment center, helping you stream high-quality audio and video in various rooms.</li><li>Security Systems—Depending on the type of security system you own, Control4 can help you manage it. This could include arming and disarming it, checking its status remotely, and more. With Control4, you may be able to integrate more security systems that might be compatible with standard, less expensive smart home systems such as those provided by Google, Amazon, or Apple.</li><li>Ceiling Fans—As previously mentioned, Control4 can integrate many hard-wired devices into your smart home system, such as the standard ceiling fan you already have installed.</li><li>Door Locks—Control4 can lock and unlock your doors at the press of an app button or through a voice command. You can also integrate your door locks into routines. For example, you could ensure that all your exterior doors automatically lock at a certain time each night, in case you forget to lock them yourself.</li></ul>",
+  },
+  {
+    id: 5,
+    question: "Is Control4 Compatible with Lutron?",
+    answer:
+      "<p>The great thing about Control4 is that it’s compatible with thousands of third-party products making it easy to sync all of the technology in your home without hassle. This means that a qualified Control4 programmer can integrate your system with many lighting products and software solutions, including those from Lutron. So whether you already have a Lutron lighting system and are looking to install Control4 automation, you don’t have to worry. Similarly, if you’re hoping for Control4 Lutron integration, this isn’t an issue.</p>",
+  },
+  {
+    id: 6,
+    question: "Which is Better, Lutron or Control4?",
+    answer:
+      "<p>Comparing Control4 with Lutron is a good way to help you determine which system is right for your home. Both Lutron and Control4 offer flexibility and convenience, with Lutron being the world leader in lighting control systems for more than 60 years. Control4 is a newer company, but with impressive automation options across multiple rooms, it’s a popular option for homeowners looking to create a luxurious and tailored atmosphere. So with all this in mind, let’s take a look at the benefits of both:</p>",
+  },
 ];
 
 const contactFrom = process.env.REACT_APP_CONTACTFROM;
@@ -157,9 +225,9 @@ const TitleInsuranceFaq = () => {
   const [secondNumber, setSecondNumber] = useState(0);
 
   useEffect(() => {
-    const randomFirstNumber = Math.floor(Math.random() * 101);
+    const randomFirstNumber = Math.floor(Math.random() * 20);
     setFirstNumber(randomFirstNumber);
-    const randomSecondNumber = Math.floor(Math.random() * 101);
+    const randomSecondNumber = Math.floor(Math.random() * 20);
     setSecondNumber(randomSecondNumber);
   }, []);
 
@@ -173,133 +241,174 @@ const TitleInsuranceFaq = () => {
   }
   return (
     <div className="faq-page">
-      <div className="faq-page-container">
-        <div className="faq-page-content">
-          <div className="faq-page-nav">
-            <Link to="/">Home </Link> <span> » Title Insurance FAQ</span>
-          </div>
-          <div className="faq-page-title">
-            <h1>Questions? We’ve got answers!</h1>
-            <h4>
-              There can be a lot of questions that come up when buying a home.
-              We took a crack at answering a few of the most common ones for
-              you:
-            </h4>
-          </div>
-          <div className="faq-page-faq-title">
-            <h3>Buyer and Seller Basics </h3>
-            <Faq faqs={faqs} />
-          </div>
-        </div>
-        <div className="faq-page-contact">
-          <h2>Request a closing cost quote today.</h2>
-          <p>
-            See if you qualify for <span>the REAL REBATE®</span>
-          </p>
-          <div
-            role="form"
-            className="wpcf7"
-            id="wpcf7-f1145-p1042-o1"
-            lang="en-US"
-            dir="ltr"
-          >
-            <form
-              action={contactFrom}
-              method="post"
-              className="wpcf7-form init"
-            >
-              <input
-                type="text"
-                placeholder="First Name*"
-                name="first-name"
-                defaultValue=""
-                size="40"
-                className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-              />
-              <input
-                type="text"
-                name="last-name"
-                defaultValue=""
-                size="40"
-                className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                placeholder="Last Name"
-              />
-              <input
-                type="email"
-                name="email"
-                defaultValue=""
-                size="40"
-                className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                placeholder="Email*"
-              />
-              <select
-                name="select1"
-                className="wpcf7-form-control wpcf7-select"
-                aria-invalid="false"
-              >
-                <option value="type of transaction">Type of transaction</option>
-                <option value="buy">Buy</option>
-                <option value="sell">Sell</option>
-                <option value="refinancing">Refinancing</option>
-              </select>
-              <select
-                name="select2"
-                className="wpcf7-form-control wpcf7-select"
-                aria-invalid="false"
-              >
-                <option value="whats your role?">Whats your role?</option>
-                <option value="homeowner">Homeowner</option>
-                <option value="lender">Lender</option>
-              </select>
-              <input
-                type="text"
-                name="property-city"
-                defaultValue=""
-                size="40"
-                className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                placeholder="Property City or County"
-              />
-              <input
-                type="text"
-                name="phone"
-                defaultValue=""
-                size="40"
-                className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                placeholder="Phone"
-              />
-              <input
-                type="text"
-                name="loan-amount"
-                defaultValue=""
-                size="40"
-                className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                placeholder="Loan Amount (if applicable)"
-              />
-              <div className="math-question">
-                <label htmlFor="math-question">
-                  What is {firstNumber} + {secondNumber} ?
-                </label>
-                <input
-                  type="number"
-                  value={answer}
-                  onChange={handleAnswerChange}
-                  placeholder="Write Answer"
-                ></input>
+      <div className="faq-wrapper">
+        <div className="faq-page-container">
+          <div className="faq-page-content-wrapper">
+            <div className="faq-page-content">
+              <div className="faq-page-title">
+                <h1>Questions? We’ve got answers!</h1>
+                <h4>
+                  There can be a lot of questions that come up when buying a
+                  home. We took a crack at answering a few of the most common
+                  ones for you:
+                </h4>
               </div>
+              <div className="faq-page-faq-title">
+                <h3>Buyer and Seller Basics </h3>
+                <Faq faqs={faqs} />
+              </div>
+              <div className="faq-page-faq-title">
+                <h3>Control4 FAQ's</h3>
+                <Faq faqs={control4Faqs} />
+              </div>
+            </div>
+            <div className="faq-page-sidebar">
+              <div className="faq-page-contact">
+                <h2>Request a closing cost quote today.</h2>
+                <p>
+                  See if you qualify for <span>the REAL REBATE®</span>
+                </p>
+                <div
+                  role="form"
+                  className="wpcf7"
+                  id="wpcf7-f1145-p1042-o1"
+                  lang="en-US"
+                  dir="ltr"
+                >
+                  <form
+                    action={contactFrom}
+                    method="post"
+                    className="wpcf7-form init"
+                  >
+                    <input
+                      type="text"
+                      placeholder="First Name*"
+                      name="first-name"
+                      defaultValue=""
+                      size="40"
+                      className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                    />
+                    <input
+                      type="text"
+                      name="last-name"
+                      defaultValue=""
+                      size="40"
+                      className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                      placeholder="Last Name"
+                    />
+                    <input
+                      type="email"
+                      name="email"
+                      defaultValue=""
+                      size="40"
+                      className="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                      placeholder="Email*"
+                    />
+                    <select
+                      name="select1"
+                      className="wpcf7-form-control wpcf7-select"
+                      aria-invalid="false"
+                    >
+                      <option value="type of transaction">
+                        Type of transaction
+                      </option>
+                      <option value="buy">Buy</option>
+                      <option value="sell">Sell</option>
+                      <option value="refinancing">Refinancing</option>
+                    </select>
+                    <select
+                      name="select2"
+                      className="wpcf7-form-control wpcf7-select"
+                      aria-invalid="false"
+                    >
+                      <option value="whats your role?">Whats your role?</option>
+                      <option value="homeowner">Homeowner</option>
+                      <option value="lender">Lender</option>
+                    </select>
+                    <input
+                      type="text"
+                      name="property-city"
+                      defaultValue=""
+                      size="40"
+                      className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                      placeholder="Property City or County"
+                    />
+                    <input
+                      type="text"
+                      name="phone"
+                      defaultValue=""
+                      size="40"
+                      className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                      placeholder="Phone"
+                    />
+                    <input
+                      type="text"
+                      name="loan-amount"
+                      defaultValue=""
+                      size="40"
+                      className="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                      placeholder="Loan Amount (if applicable)"
+                    />
+                    <div className="math-question">
+                      <label htmlFor="math-question">
+                        What is <br /> {firstNumber} + {secondNumber} ?
+                      </label>
+                      <input
+                        type="number"
+                        value={answer}
+                        onChange={handleAnswerChange}
+                        placeholder="Write Answer"
+                      />
+                    </div>
 
-              <button
-                type="submit"
-                defaultValue="Send"
-                className="wpcf7-spinner"
-                disabled={submitDisabled}
-              >
-                Get Your Quote
-              </button>
-            </form>
+                    <button
+                      type="submit"
+                      defaultValue="Send"
+                      className="wpcf7-spinner"
+                      disabled={submitDisabled}
+                    >
+                      Get Your Quote
+                    </button>
+                  </form>
+                </div>
+                <p className="tags">* Required info</p>
+              </div>
+            </div>
           </div>
-          <p className="tags">* Required info</p>
         </div>
       </div>
+
+      {/* <div className="trusted">
+        <div className="faq-page-container">
+          <div className="trusted-title">
+            <h2>Trusted. Experienced. Reliable.</h2>
+            <p>
+              We’ve helped over 30,000 Families <b>Buy and Sell Homes</b>,
+              alongside our trusted partners.
+            </p>
+          </div>
+          <div className="trusted-company">
+            <div className="trusted-company-image">
+              <img src="assets/images/kw.png" alt="" />
+            </div>
+            <div className="trusted-company-image">
+              <img src="assets/images/coldwellbanker.png" alt="" />
+            </div>
+            <div className="trusted-company-image">
+              <img src="assets/images/sothebys.png" alt="" />
+            </div>
+            <div className="trusted-company-image">
+              <img src="assets/images/remax.png" alt="" />
+            </div>
+            <div className="trusted-company-image">
+              <img src="assets/images/century21.png" alt="" />
+            </div>
+            <div className="trusted-company-image">
+              <img src="assets/images/douglaselliman.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div> */}
     </div>
   );
 };

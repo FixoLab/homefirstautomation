@@ -12,9 +12,9 @@ const StartYourProject = () => {
   const [secondNumber, setSecondNumber] = useState(0);
 
   useEffect(() => {
-    const randomFirstNumber = Math.floor(Math.random() * 101);
+    const randomFirstNumber = Math.floor(Math.random() * 20);
     setFirstNumber(randomFirstNumber);
-    const randomSecondNumber = Math.floor(Math.random() * 101);
+    const randomSecondNumber = Math.floor(Math.random() * 20);
     setSecondNumber(randomSecondNumber);
   }, []);
 
