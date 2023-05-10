@@ -72,6 +72,7 @@ const Years = React.lazy(() => import("./pages/years"));
 const Tags = React.lazy(() => import("./pages/tags"));
 const Control4 = React.lazy(() => import("./pages/control4"));
 const TitleInsuranceFaq = React.lazy(() => import("./pages/title-insurance-faq"));
+const BudgetCalculator = React.lazy(() => import("./pages/budget-calculator"));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -162,6 +163,7 @@ const AppRouter = () => {
           <Route path="/careers" element={<Careers />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/title-insurance-faq" element={<TitleInsuranceFaq />} />
+          <Route path="/budget-calculator" element={<BudgetCalculator />} />
           <Route path="*" element={<Notfound />} />
         </Routes>
         <Footer />
