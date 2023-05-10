@@ -19,7 +19,6 @@
   margin-right: 5.5%;
   float: left;
   position: relative;
-  z-index: 2;
 }
 .faq-page .faq-page-sidebar {
   width: 100%;
@@ -33,7 +32,6 @@
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
   float: left;
   position: relative;
-  z-index: 2;
   text-align: center;
 }
 

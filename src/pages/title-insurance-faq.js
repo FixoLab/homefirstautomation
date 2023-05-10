@@ -254,7 +254,7 @@ const TitleInsuranceFaq = () => {
                 </h4>
               </div>
               <div className="faq-page-faq-title">
-                <h3>Buyer and Seller Basics </h3>
+                <h3>Buyer and Seller Basics</h3>
                 <Faq faqs={faqs} />
               </div>
               <div className="faq-page-faq-title">
