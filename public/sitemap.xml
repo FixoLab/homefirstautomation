@@ -349,4 +349,10 @@
         <frequency>weekly</frequency>
         <priority>0.5</priority>
     </page>
+    <page>
+        <url>https://homefirst.io/title-insurance-faq</url>
+        <date>2023-01-17T16:37:05+00:00</date>
+        <frequency>weekly</frequency>
+        <priority>0.5</priority>
+    </page>
 </pages>

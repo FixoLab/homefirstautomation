@@ -187,6 +187,20 @@ const Header = () => {
                           Concierge care program
                         </Link>
                       </li>
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
+                        <Link to="/title-insurance-faq">
+                          Title insurance faq
+                        </Link>
+                      </li>
+                      <li
+                        id="menu-item-896"
+                        className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896"
+                      >
+                        <Link to="/budget-calculator">Budget calculator</Link>
+                      </li>
                     </ul>
                   </li>
                   <li
@@ -473,6 +487,20 @@ const Header = () => {
                           <div className="ancestor-wrapper">
                             <Link to="/concierge-care-program">
                               Concierge care program
+                            </Link>
+                          </div>
+                        </li>
+                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                          <div className="ancestor-wrapper">
+                            <Link to="/title-insurance-faq">
+                              Title insurance faq
+                            </Link>
+                          </div>
+                        </li>
+                        <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-896">
+                          <div className="ancestor-wrapper">
+                            <Link to="/budget-calculator">
+                              Budget calculator
                             </Link>
                           </div>
                         </li>
