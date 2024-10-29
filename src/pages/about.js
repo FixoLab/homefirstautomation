@@ -221,7 +221,7 @@ const About = () => {
 
                 <h2>An Ever Growing Family of Professionals</h2>
 
-                <div className="is-layout-flex wp-container-14 wp-block-columns picturetime">
+                <div className="is-layout-flex wp-container-14 wp-block-columns picturetime" style="gap:15px">
                   <div className="is-layout-flow wp-block-column">
                     <figure className="wp-block-image size-large">
                       <img
