@@ -100,13 +100,13 @@ const About = () => {
                     <div style={{ height: "30px" }}>&nbsp;</div>
                     <div style={{ height: "30px" }}>&nbsp;</div>
                     <p>&nbsp;</p>
-                    <img
+                    {/* <img
                       width="335"
                       height="61"
                       className="wp-image-695"
                       src="assets/images/signature.webp"
                       alt="smart home consultants"
-                    />
+                    /> */}
                   </div>
 
                   <div
@@ -247,7 +247,7 @@ const About = () => {
                         alt=""
                       />
                       <figcaption>
-                        <strong>John Madrick</strong>
+                        <strong>Sean Jenkinson</strong>
                         Installation Manager
                       </figcaption>
                     </figure>
@@ -278,7 +278,7 @@ const About = () => {
                         alt=""
                       />
                       <figcaption>
-                        <strong>John Madrick</strong>
+                        <strong>Sean Jenkinson</strong>
                         Installation Manager
                       </figcaption>
                     </figure>
@@ -309,7 +309,7 @@ const About = () => {
                         alt=""
                       />
                       <figcaption>
-                        <strong>John Madrick</strong>
+                        <strong>Sean Jenkinson</strong>
                         Installation Manager
                       </figcaption>
                     </figure>
