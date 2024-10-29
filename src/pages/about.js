@@ -232,7 +232,7 @@ const About = () => {
                         alt=""
                       />
                       <figcaption>
-                        <strong>Semir Nayar</strong> Ceo/Founder
+                        <strong>Sean Jenkinson</strong> Ceo/Founder
                       </figcaption>
                     </figure>
                   </div>
@@ -247,69 +247,7 @@ const About = () => {
                         alt=""
                       />
                       <figcaption>
-                        <strong>Sean Jenkinson</strong>
-                        Installation Manager
-                      </figcaption>
-                    </figure>
-                  </div>
-
-                  <div className="is-layout-flow wp-block-column">
-                    <figure className="wp-block-image size-large">
-                      <img
-                        width="600"
-                        height="600"
-                        className="wp-image-552"
-                        src="assets/images/coming-soon.webp"
-                        alt=""
-                      />
-                      <figcaption>
-                        <strong>Semir Nayar</strong> Ceo/Founder
-                      </figcaption>
-                    </figure>
-                  </div>
-
-                  <div className="is-layout-flow wp-block-column">
-                    <figure className="wp-block-image size-large">
-                      <img
-                        width="600"
-                        height="600"
-                        className="wp-image-548"
-                        src="assets/images/coming-soon.webp"
-                        alt=""
-                      />
-                      <figcaption>
-                        <strong>Sean Jenkinson</strong>
-                        Installation Manager
-                      </figcaption>
-                    </figure>
-                  </div>
-
-                  <div className="is-layout-flow wp-block-column">
-                    <figure className="wp-block-image size-large">
-                      <img
-                        width="600"
-                        height="600"
-                        className="wp-image-556"
-                        src="assets/images/coming-soon.webp"
-                        alt=""
-                      />
-                      <figcaption>
-                        <strong>Semir Nayar</strong> Ceo/Founder
-                      </figcaption>
-                    </figure>
-                  </div>
-
-                  <div className="is-layout-flow wp-block-column">
-                    <figure className="wp-block-image size-large">
-                      <img
-                        width="600"
-                        height="600"
-                        className="wp-image-550"
-                        src="assets/images/coming-soon.webp"
-                        alt=""
-                      />
-                      <figcaption>
-                        <strong>Sean Jenkinson</strong>
+                        <strong>John Madrick</strong>
                         Installation Manager
                       </figcaption>
                     </figure>
